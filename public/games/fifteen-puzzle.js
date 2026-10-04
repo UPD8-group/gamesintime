@@ -12,6 +12,7 @@
       var size = api.store.get('size', 4);
       var best = api.store.get('best', {});
       var tiles = [], moves = 0, seconds = 0, ticking = null, started = false, solved = false, impossible = false, buttons = [];
+      var shown = ''; /* the last status line we set, so we do not repeat ourselves to screen readers */
 
       root.appendChild(h('style', null,
         '.game-fifteen-puzzle .board { display: grid; gap: 6px; width: min(92vw, 420px); padding: 8px; background: var(--brand); border-radius: 12px; }' +
@@ -19,7 +20,8 @@
         '.game-fifteen-puzzle .tile.can:hover { background: var(--surface-2); }' +
         '.game-fifteen-puzzle .tile.gap { background: transparent; box-shadow: none; cursor: default; }' +
         '.game-fifteen-puzzle .tile.wrong { color: var(--red); }' +
-        '.game-fifteen-puzzle .board.solved .tile { background: var(--brass-bright); color: #1b2a2a; box-shadow: none; }' +
+        /* When solved the tiles turn brass, but the empty space stays empty so the gap is still a gap. */
+        '.game-fifteen-puzzle .board.solved .tile:not(.gap) { background: var(--brass-bright); color: #1b2a2a; box-shadow: none; }' +
         '.game-fifteen-puzzle .why { margin-top: .75rem; }' +
         '.game-fifteen-puzzle .why summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }'));
 
@@ -27,14 +29,17 @@
         h('select', { onchange: function (e) { size = Number(e.target.value); api.store.set('size', size); newGame(); } },
           h('option', { value: '3', selected: size === 3 }, 'Eight puzzle, 3 by 3'),
           h('option', { value: '4', selected: size === 4 }, 'Fifteen puzzle, 4 by 4')));
-      var newBtn = h('button', { class: 'btn btn-primary', type: 'button', onclick: newGame }, 'Shuffle');
+      /* The New game button shuffles the tiles. The hidden words tell screen readers that too. */
+      var newBtn = h('button', { class: 'btn btn-primary', type: 'button', onclick: newGame }, 'New game', h('span', { class: 'visually-hidden' }, ' (shuffle the tiles)'));
       var impossibleBtn = h('button', { class: 'btn', type: 'button', onclick: setImpossible }, 'Try the impossible 14-15 puzzle');
       root.appendChild(h('div', { class: 'game-toolbar' }, newBtn, sizeField, impossibleBtn));
 
       var movesEl = h('span', null), timeEl = h('span', null), bestEl = h('span', null);
-      root.appendChild(h('div', { class: 'scoreboard', 'aria-label': 'Progress' }, movesEl, timeEl, bestEl));
+      root.appendChild(h('div', { class: 'scoreboard', role: 'group', 'aria-label': 'Progress' }, movesEl, timeEl, bestEl));
 
-      var board = h('div', { class: 'board', role: 'grid', 'aria-label': 'Sliding puzzle' });
+      /* The board is a plain group of buttons. Each button says what it is in its own aria-label, so we do not
+         need the grid role (which would also promise screen readers that arrow keys move between cells). */
+      var board = h('div', { class: 'board', role: 'group', 'aria-label': 'Sliding puzzle' });
       board.addEventListener('keydown', function (ev) {
         /* Arrow keys slide the tile on that side of the gap into the gap, so ArrowLeft moves a tile leftwards. */
         var g = tiles.indexOf(0), r = Math.floor(g / size), c = g % size, from = -1;
@@ -44,7 +49,6 @@
         else if (ev.key === 'ArrowDown' && r > 0) from = g - size;
         else return;
         ev.preventDefault(); slide(from);
-        if (buttons[from]) buttons[from].focus();
       });
       root.appendChild(board);
       var note = h('p', { class: 'game-note' }, 'Tap a tile in the same row or column as the gap to slide it. Arrow keys work too.');
@@ -53,9 +57,18 @@
         h('summary', null, 'Why can nobody solve the 14-15 puzzle?'),
         h('div', { class: 'prose' },
           h('p', null, 'Every slide swaps the gap with one tile. Count how many pairs of tiles are out of order, and which row the gap is in. Each slide changes that combination in a fixed way, so some arrangements can never turn into the finished picture, no matter how many moves you make.'),
-          h('p', null, 'Swapping just 14 and 15 is one of those. In the 1890s a famous puzzle maker offered a thousand dollars to anyone who could solve it. Nobody collected, because it is impossible. Half of all possible arrangements are like that, which is why this game shuffles by sliding tiles rather than scattering them at random.')));
+          h('p', null, 'Swapping just 14 and 15 is one of those. Years after the craze, the American puzzle maker Sam Loyd claimed he had offered a thousand dollars to anyone who could solve it. Historians doubt the prize was ever really offered, but the maths is certain: the puzzle is impossible, so nobody could have won. Half of all possible arrangements are like that, which is why this game shuffles by sliding tiles rather than scattering them at random.')));
       root.appendChild(why);
 
+      /* Sets the status line, but only when the words change, so screen readers do not hear the same thing twice. */
+      function say(text) {
+        if (text !== shown) { shown = text; api.status(text); }
+      }
+      /* The normal status for this board: the goal, or the warning in impossible mode. */
+      function goalStatus() {
+        return impossible ? '14 and 15 are swapped. Try to fix it. (Spoiler: nobody can.)'
+          : 'Slide the tiles into order, 1 to ' + (size * size - 1) + '.';
+      }
       function isSolved() {
         for (var i = 0; i < tiles.length - 1; i++) if (tiles[i] !== i + 1) return false;
         return tiles[tiles.length - 1] === 0;
@@ -67,6 +80,9 @@
       /* Slides every tile between the clicked tile and the gap, one step towards the gap. */
       function slide(i, silent) {
         if (solved || i < 0 || i >= tiles.length || !canSlide(i)) return false;
+        /* Remember which numbered tile has keyboard focus, so focus can follow it to its new square. */
+        var focusedAt = buttons.indexOf(document.activeElement);
+        var focusedTile = focusedAt >= 0 ? tiles[focusedAt] : 0;
         var g = tiles.indexOf(0);
         var step = Math.floor(i / size) === Math.floor(g / size) ? (i > g ? 1 : -1) : (i > g ? size : -size);
         while (g !== i) { tiles[g] = tiles[g + step]; g += step; }
@@ -74,14 +90,27 @@
         if (!silent) {
           moves++;
           if (!started) { started = true; startClock(); }
-          if (isSolved()) finish();
+          if (isSolved()) finish(); else say(goalStatus());
           render();
+          keepFocus(focusedTile);
         }
         return true;
       }
+      /* After a slide the tile that had focus has moved, and the square it left is now the disabled gap.
+         Put focus back on that tile. When the puzzle is finished every tile is disabled, so go to New game. */
+      function keepFocus(tileNumber) {
+        if (!tileNumber) return;
+        if (solved) { newBtn.focus(); return; }
+        var b = buttons[tiles.indexOf(tileNumber)];
+        if (b) b.focus();
+      }
       function startClock() {
         stopClock();
-        ticking = setInterval(function () { seconds++; renderScore(); }, 1000);
+        ticking = setInterval(function () {
+          /* If the page has moved on and our board is no longer in the document, stop ticking and tidy up. */
+          if (!root.isConnected) { stopClock(); return; }
+          seconds++; renderScore();
+        }, 1000);
       }
       function stopClock() { if (ticking) { clearInterval(ticking); ticking = null; } }
       function finish() {
@@ -89,7 +118,7 @@
         var key = String(size);
         var record = best[key];
         if (!record || moves < record.moves) { best[key] = { moves: moves, seconds: seconds }; api.store.set('best', best); }
-        api.status('Solved in ' + moves + ' moves and ' + clock(seconds) + '!' + (!record || moves < record.moves ? ' A new best.' : ''));
+        say('Solved in ' + moves + ' moves and ' + clock(seconds) + '!' + (!record || moves < record.moves ? ' A new best.' : ''));
       }
       function clock(s) { var m = Math.floor(s / 60); return m + ':' + (s % 60 < 10 ? '0' : '') + (s % 60); }
       function renderScore() {
@@ -104,8 +133,8 @@
         if (buttons.length !== tiles.length) {
           buttons = []; board.replaceChildren();
           tiles.forEach(function (_, i) {
-            var b = h('button', { class: 'tile', type: 'button', role: 'gridcell', onclick: function () {
-              if (!slide(i) && !solved) api.status('That tile cannot move. Pick one in the same row or column as the gap.');
+            var b = h('button', { class: 'tile', type: 'button', onclick: function () {
+              if (!slide(i) && !solved) say('That tile cannot move. Pick one in the same row or column as the gap.');
             } });
             buttons.push(b); board.appendChild(b);
           });
@@ -134,15 +163,16 @@
           var pick = options[Math.floor(api.random() * options.length)];
           last = tiles.indexOf(0); slide(pick, true); n--;
         }
-        if (isSolved()) newGame(); else { render(); api.status('Slide the tiles into order, 1 to ' + (size * size - 1) + '.'); }
+        if (isSolved()) newGame(); else { render(); say(goalStatus()); }
       }
       function setImpossible() {
         reset();
-        size = 4; sizeField.querySelector('select').value = '4';
+        /* The 14-15 puzzle is always 4 by 4, so remember that size the same way the Size menu does. */
+        size = 4; api.store.set('size', 4); sizeField.querySelector('select').value = '4';
         tiles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 14, 0];
         impossible = true; why.hidden = false;
         render();
-        api.status('14 and 15 are swapped. Try to fix it. (Spoiler: nobody can.)');
+        say(goalStatus());
       }
 
       newGame();

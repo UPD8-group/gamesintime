@@ -73,7 +73,7 @@
       }
       var clueList = h('ol', { class: 'clues', 'aria-label': 'Clues' });
       data.clues.forEach(function (cl, i) {
-        var b = h('button', { type: 'button', onclick: function () { setActive(i); focusFirstEmpty(i); } }, h('span', { class: 'num' }, cl.label), cl.clue);
+        var b = h('button', { type: 'button', onclick: function () { setActive(i); focusFirstEmpty(i); } }, h('span', { class: 'num' }, cl.label + ' '), cl.clue);
         clueButtons.push(b);
         clueList.appendChild(h('li', null, b));
       });
