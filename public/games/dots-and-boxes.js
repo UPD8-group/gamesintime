@@ -292,8 +292,9 @@
         '.game-dots-and-boxes .line-h.is-drawn::before { left: calc(var(--unit) * -.5); right: calc(var(--unit) * -.5); }' +
         '.game-dots-and-boxes .line-v.is-drawn::before { top: calc(var(--unit) * -.5); bottom: calc(var(--unit) * -.5); }' +
         '.game-dots-and-boxes .line.is-last::before { box-shadow: 0 0 0 3px var(--brass-bright); }' +
-        /* boxes */
-        '.game-dots-and-boxes .box { display: flex; align-items: center; justify-content: center; margin: 3px; border-radius: 6px; font-family: var(--font-display); font-size: calc(var(--unit) * .5); line-height: 1; }' +
+        /* boxes: the box cell is one track wide, so a claimed box grows (negative margins) to fill the whole square
+           between its four dots; it is painted beneath the lines and dots because they are positioned with a z-index */
+        '.game-dots-and-boxes .box { display: flex; align-items: center; justify-content: center; margin: calc(var(--unit) * -.5 + 4px); border-radius: 6px; font-family: var(--font-display); font-size: calc(var(--unit) * .8); line-height: 1; }' +
         '.game-dots-and-boxes .box.is-p1 { background: var(--brand); color: var(--on-brand); }' +
         '.game-dots-and-boxes .box.is-p2 { background: var(--red); color: var(--surface); }' +
         '.game-dots-and-boxes .box.is-new { animation: game-dots-and-boxes-pop .3s ease-out; }' +
@@ -455,8 +456,8 @@
         }
       }
       function renderScore() {
-        name1.textContent = nameOf(1) + ' ';
-        name2.textContent = nameOf(2) + ' ';
+        name1.textContent = nameOf(1) + ': ';
+        name2.textContent = nameOf(2) + ': ';
         score1.textContent = String(state.score[1]);
         score2.textContent = String(state.score[2]);
         scoreP1.classList.toggle('is-active', !over && current === 1);
