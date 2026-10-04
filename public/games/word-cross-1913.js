@@ -23,10 +23,9 @@
       data.clues.forEach(function (c) { if (c.prefilled) c.cells.forEach(function (rc, i) { prefilled[rc[0] + ',' + rc[1]] = c.answer[i]; }); });
 
       root.appendChild(h('style', null,
-        '.game-word-cross-1913 .layout { display: grid; grid-template-columns: minmax(0, auto) minmax(14rem, 1fr); gap: 1.25rem; align-items: start; }' +
-        '@media (max-width: 760px) { .game-word-cross-1913 .layout { grid-template-columns: 1fr; } }' +
+        '.game-word-cross-1913 .layout { display: grid; grid-template-columns: 1fr; gap: 1.25rem; align-items: start; }' +
         '.game-word-cross-1913 .grid-wrap { overflow-x: auto; max-width: 100%; padding-bottom: 4px; }' +
-        '.game-word-cross-1913 .grid { --cell: min(44px, calc((100vw - 64px) / ' + cols + ')); display: grid; grid-template-columns: repeat(' + cols + ', var(--cell)); grid-auto-rows: var(--cell); gap: 2px; margin-inline: auto; width: max-content; }' +
+        '.game-word-cross-1913 .grid { --gap: 2px; --cell: 44px; display: grid; grid-template-columns: repeat(' + cols + ', var(--cell)); grid-auto-rows: var(--cell); gap: var(--gap); margin-inline: auto; width: max-content; }' +
         '.game-word-cross-1913 .blank { }' +
         '.game-word-cross-1913 .cell { position: relative; }' +
         '.game-word-cross-1913 .cell input { width: var(--cell); height: var(--cell); padding: 0; text-align: center; text-transform: uppercase; font-family: var(--font-display); font-size: calc(var(--cell) * .5); border: 2px solid var(--ink); background: var(--surface); color: var(--ink); border-radius: 3px; caret-color: transparent; }' +
@@ -52,7 +51,7 @@
       var revealAllBtn = h('button', { class: 'btn btn-ghost', type: 'button', onclick: revealAll }, 'Reveal all');
       var clearBtn = h('button', { class: 'btn btn-ghost', type: 'button', onclick: clearAll }, 'Clear');
       root.appendChild(h('div', { class: 'game-toolbar' }, checkBtn, revealBtn, revealAllBtn, clearBtn));
-      root.appendChild(h('p', { class: 'masthead' }, (data.title || 'Word-Cross') + ' · ' + (data.publication || 'New York World') + ', ' + (data.date || '21 December 1913')));
+      root.appendChild(h('p', { class: 'masthead' }, 'Word-Cross · New York World, 21 December 1913'));
 
       var grid = h('div', { class: 'grid', role: 'group', 'aria-label': 'Crossword grid' });
       for (var r = 0; r < rows; r++) for (var c = 0; c < cols; c++) {
@@ -75,9 +74,21 @@
       data.clues.forEach(function (cl, i) {
         var b = h('button', { type: 'button', onclick: function () { setActive(i); focusFirstEmpty(i); } }, h('span', { class: 'num' }, cl.label + ' '), cl.clue);
         clueButtons.push(b);
-        clueList.appendChild(h('li', null, b));
+        /* The pre-printed FUN has no real clue, so it stays out of the printed list. */
+        if (!cl.prefilled) clueList.appendChild(h('li', null, b));
       });
-      root.appendChild(h('div', { class: 'layout' }, h('div', { class: 'grid-wrap' }, grid), h('div', null, h('h3', { style: { marginBottom: '.4rem' } }, 'Clues'), clueList)));
+      var wrap = h('div', { class: 'grid-wrap' }, grid);
+      root.appendChild(h('div', { class: 'layout' }, wrap, h('div', null, h('h3', { style: { marginBottom: '.4rem' } }, 'Clues'), clueList)));
+      /* Size the cells to the space available: up to 44 px, never below 18 px, so the diamond fits a phone. */
+      function fit() {
+        var w = wrap.clientWidth || 300;
+        var cell = Math.max(18, Math.min(44, Math.floor((w - (cols - 1) * 2) / cols)));
+        grid.style.setProperty('--cell', cell + 'px');
+      }
+      var observer = null;
+      if (window.ResizeObserver) { observer = new ResizeObserver(fit); observer.observe(wrap); }
+      else window.addEventListener('resize', fit);
+      fit();
       root.appendChild(h('p', { class: 'game-note' }, 'Each clue gives two labels: the word runs from the first cell to the second. Type a letter and the cursor moves along the word. Arrow keys move around the grid.'));
 
       function cluesThrough(r, c) {
@@ -156,10 +167,14 @@
         return { full: full, right: right };
       }
       function progress() {
-        var done = 0;
-        data.clues.forEach(function (cl, i) { var s = wordState(i); clueButtons[i].classList.toggle('done', s.right); if (s.right) done++; });
-        if (done === data.clues.length) api.status('You solved the first crossword ever printed. ' + done + ' of ' + done + ' words.');
-        else api.status(done + ' of ' + data.clues.length + ' words correct.');
+        var done = 0, total = 0;
+        data.clues.forEach(function (cl, i) {
+          if (cl.prefilled) return;
+          total++;
+          var s = wordState(i); clueButtons[i].classList.toggle('done', s.right); if (s.right) done++;
+        });
+        if (done === total) api.status('You solved the first crossword ever printed. ' + done + ' of ' + total + ' words.');
+        else api.status(done + ' of ' + total + ' words correct.');
       }
       function clearMarks() {
         if (!checked) return;
@@ -198,7 +213,7 @@
 
       setActive(data.clues.findIndex(function (c) { return !c.prefilled; }));
       progress();
-      return { destroy: function () {} };
+      return { destroy: function () { if (observer) observer.disconnect(); else window.removeEventListener('resize', fit); } };
     }
   });
 })();
