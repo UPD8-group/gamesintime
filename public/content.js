@@ -1899,7 +1899,7 @@ window.GIT_CONTENT = {
       "year": 1901,
       "yearLabel": "solved 1901; played long before",
       "origin": "Named and solved by Charles L. Bouton, Harvard University, USA; possibly from the Chinese game jian-shizi",
-      "blurb": "Take matches from piles and try not to be stuck with the last one, in a game a Harvard professor cracked with pure maths in 1901.",
+      "blurb": "Take matches from rows and grab the last one to win, in a game a Harvard professor cracked with pure maths in 1901.",
       "story": [
         "Nim is a game of piles. Players take turns removing matches, stones or coins from one pile, and the last pile decides the winner. Games like this are old. Nim closely resembles the Chinese game jian-shizi, or picking stones, and similar games are said to have been played in Europe from the early 1500s, though nobody knows exactly where it began.",
         "In 1901 Charles L. Bouton, a mathematician at Harvard University, published a paper in the Annals of Mathematics called Nim, a Game with a Complete Mathematical Theory. He wrote that forms of the game were already played at American colleges and fairs, sometimes under the name Fan-Tan, and he proposed the name Nim instead. He showed that by writing the pile sizes in binary you can work out a winning move from any position. His paper gave Nim a complete winning strategy, something very few games have.",
