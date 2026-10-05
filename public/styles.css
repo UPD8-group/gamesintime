@@ -154,13 +154,21 @@ button { cursor: pointer; }
 .era-pills a:hover { color: var(--ink); background: rgba(253, 243, 225, .08); }
 .era-pills a[aria-current="page"] { background: var(--gold); color: var(--on-era); }
 .header-actions { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
-.era-pills + .header-actions { margin-left: 0; }
+@media (min-width: 1181px) { .era-pills + .header-actions { margin-left: 0; } }
 .circle-btn { width: 46px; height: 46px; border-radius: 50%; border: 1.5px solid rgba(253, 243, 225, .55); background: rgba(20, 15, 11, .35); color: var(--ink); display: inline-grid; place-items: center; padding: 0; backdrop-filter: blur(6px); }
 .circle-btn:hover { border-color: var(--gold); color: var(--gold); }
 .circle-btn svg { width: 22px; height: 22px; }
 .circle-btn[aria-pressed="false"] .wave { opacity: 0; }
-@media (max-width: 980px) { .era-pills { display: none; } }
+@media (max-width: 1180px) { .era-pills { display: none; } }
 .surprise-icon { display: none; }
+/* For Teachers sits in the header beside Surprise me; on phones it lives at the top of the menu instead */
+.teachers-pill { min-height: 46px; padding: .5rem 1.1rem; white-space: nowrap; backdrop-filter: blur(6px); }
+.teachers-pill[aria-current="page"] { border-color: var(--gold); color: var(--gold); }
+@media (min-width: 1181px) and (max-width: 1240px), (min-width: 561px) and (max-width: 700px) {
+  .surprise-pill { display: none !important; }
+  .surprise-icon { display: inline-grid; }
+}
+@media (max-width: 620px) { .teachers-pill { display: none !important; } }
 @media (max-width: 560px) {
   .site-header { gap: .5rem; }
   .brand { font-size: 1.05rem; gap: .4rem; }
@@ -186,6 +194,17 @@ button { cursor: pointer; }
 .menu-hall .txt { padding: .8rem 1rem 1rem; display: grid; gap: .15rem; }
 .menu-hall strong { font-size: 1.15rem; }
 .menu-links { display: flex; flex-wrap: wrap; gap: .6rem; list-style: none; margin: 0; padding: 0; }
+/* For Teachers in the menu: every part of the teaching material, one card each */
+.menu-teach-wrap { display: grid; gap: .8rem; }
+.menu-teach-title { margin: 0; font-family: var(--font-head); font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2rem); line-height: 1.1; }
+.menu-teach-title a { color: var(--gold); text-decoration: none; }
+.menu-teach-title a:hover, .menu-teach-title a:focus-visible { text-decoration: underline; }
+.menu-teach { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr)); gap: .8rem; list-style: none; margin: 0; padding: 0; }
+.menu-teach li + li { margin-top: 0; }
+.menu-teach a { display: grid; gap: .2rem; height: 100%; padding: .9rem 1rem; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); color: var(--ink); text-decoration: none; }
+.menu-teach a:hover, .menu-teach a:focus-visible { border-color: var(--era, var(--gold)); color: var(--ink); }
+.menu-teach strong { font-size: 1.05rem; }
+.menu-teach .muted { font-size: .92rem; }
 .menu-close { position: fixed; top: calc(.7rem + env(safe-area-inset-top, 0px)); right: var(--gutter); z-index: 160; }
 
 /* ---------- pills ---------- */
@@ -455,3 +474,6 @@ th { background: var(--surface-2); }
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
   .gcard:hover { transform: none; }
 }
+
+/* For Teachers: the row of parts under the page heading */
+.teach-nav { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.4rem; }

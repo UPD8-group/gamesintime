@@ -91,6 +91,23 @@ await check('skip link', '#/about', 1280, async (page, problems) => {
   if (await notFound(page)) problems.push('the skip link opened "not found"');
   if (!(await page.evaluate(() => document.activeElement && document.activeElement.id === 'main'))) problems.push('the skip link did not move focus to the main content');
 });
+await check('for teachers parts', '#/teachers/curriculum', 1280, async (page, problems) => {
+  await page.waitForTimeout(300);
+  if (!(await page.title()).startsWith('Curriculum links')) problems.push('#/teachers/curriculum has the wrong title: ' + await page.title());
+  if (!(await inView(page, 'curriculum'))) problems.push('#/teachers/curriculum did not open at the curriculum links');
+  if (await page.locator('.site-header .teachers-pill[aria-current="page"]').count() !== 1) problems.push('the header does not show that For Teachers is open');
+});
+await check('teaching lives under For Teachers', '#/game/noughts-and-crosses', 1280, async (page, problems) => {
+  const labels = await page.$$eval('.info .label', l => l.map(x => x.textContent));
+  if (labels.some(t => /for teachers/i.test(t))) problems.push('a game page still has a For Teachers card');
+});
+for (const route of ['#/', '#/about', '#/teachers']) {
+  await check('no GitHub links ' + route, route, 1280, async (page, problems) => {
+    const n = await page.$$eval('a[href*="github.com"]', a => a.length);
+    if (n) problems.push(n + ' link(s) to GitHub on ' + route);
+    if (/github/i.test(await page.evaluate(() => document.body.innerText))) problems.push('the page mentions GitHub');
+  });
+}
 await browser.close();
 server.close();
 if (failures.length) { console.error(`\n${failures.length} page(s) failed`); process.exit(1); }

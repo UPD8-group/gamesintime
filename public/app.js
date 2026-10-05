@@ -165,7 +165,6 @@
   function game(id) { return games().filter(function (g) { return g.id === id; })[0]; }
   function gamesIn(eraId) { return games().filter(function (g) { return g.era === eraId; }); }
   function kidsPanel(eraId) { return (C().kids || []).filter(function (k) { return k.era === eraId; })[0]; }
-  function lessonFor(gameId) { return ((C().curriculum || {}).lessons || []).filter(function (l) { return l.gameId === gameId; })[0]; }
   function image(id) { var m = C().images || {}; var im = m[id]; return im && im.hero ? im : null; }
   function neighbour(g, step) { var list = games(); for (var i = 0; i < list.length; i++) if (list[i].id === g.id) return list[(i + step + list.length) % list.length]; return null; }
   var FRAME_FOR_TYPE = { board: 'table', cards: 'baize', words: 'paper', puzzle: 'paper', action: 'stage', luck: 'table', chance: 'table' };
@@ -180,10 +179,19 @@
 
   /* In-page jump links (href="#games", "#hall-games", "#main") scroll to that part of the page. Page routes always
      start with "#/", so a hash without the slash is never a page. */
-  function jumpTo(id) {
+  /* The page scrolls smoothly for in-page links (scroll-behavior: smooth on html). A new page, or a link to part of one,
+     should land at once instead, so switch the smoothness off just for that one scroll. */
+  function scrollInstantly(fn) {
+    var root = document.documentElement, before = root.style.scrollBehavior;
+    root.style.scrollBehavior = 'auto';
+    fn();
+    root.style.scrollBehavior = before;
+  }
+  function jumpTo(id, instant) {
     var el = document.getElementById(id);
     if (!el) return false;
-    el.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
+    if (instant) scrollInstantly(function () { el.scrollIntoView({ block: 'start' }); });
+    else el.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
     if (!el.hasAttribute('tabindex') && !/^(A|BUTTON|INPUT|SELECT|TEXTAREA)$/.test(el.tagName)) el.setAttribute('tabindex', '-1');
     el.focus({ preventScroll: true });
     return true;
@@ -214,7 +222,7 @@
       case 'game': view = pageGame(r.id); break;
       case 'all': view = pageAll(); break;
       case 'real-life': view = pageEra('schoolyard'); break;
-      case 'teachers': view = pageTeachers(); break;
+      case 'teachers': view = pageTeachers(r.id); break;
       case 'about': view = pageAbout(); break;
       case 'print': view = pagePrint(r.id); break;
       default: view = pageNotFound();
@@ -228,17 +236,20 @@
     setTitle(view.title);
     markCurrent(r, view.eraId);
     if (view.mount) view.mount();
-    window.scrollTo({ top: 0, behavior: 'auto' });
+    scrollInstantly(function () { window.scrollTo(0, 0); });
     if (!firstRender) {
       var heading = main.querySelector('h1');
       if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     }
     firstRender = false;
-    if (jump) jumpTo(jump);
+    if (jump) jumpTo(jump, true);
+    else if (view.jump) jumpTo(view.jump, true);
     onScroll();
   }
 
   function markCurrent(r, eraId) {
+    var tp = document.querySelector('.teachers-pill');
+    if (tp) { if (r.name === 'teachers') tp.setAttribute('aria-current', 'page'); else tp.removeAttribute('aria-current'); }
     Array.prototype.forEach.call(document.querySelectorAll('.era-pills a[data-era]'), function (a) {
       if (a.getAttribute('data-era') === eraId) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
     });
@@ -337,12 +348,9 @@
           })))),
       h('section', { class: 'section', 'aria-labelledby': 'why-title' },
         h('div', { class: 'info', style: { padding: 0 } },
-          h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Kids your age'), h('h2', { id: 'why-title' }, 'What did kids play before screens?'),
+          h('div', { class: 'icard icard--wide' }, h('p', { class: 'label' }, 'Kids your age'), h('h2', { id: 'why-title' }, 'What did kids play before screens?'),
             h('p', null, 'Every hall has a story about being twelve in that decade: school, work, pocket money and where kids played. Then you play the same games they did.'),
-            h('p', null, h('a', { class: 'pill pill--ghost', href: href(['era', '1880s']) }, 'Visit the 1880s →'))),
-          h('div', { class: 'icard' }, h('p', { class: 'label' }, 'For teachers'), h('h2', null, 'Free for every classroom.'),
-            h('p', null, 'No accounts, no ads, no tracking. Every game has its sources, a lesson idea, and a full-screen mode for the projector.'),
-            h('p', null, h('a', { class: 'pill pill--ghost', href: href(['teachers']) }, 'Teacher notes →'))))));
+            h('p', null, h('a', { class: 'pill pill--ghost', href: href(['era', '1880s']) }, 'Visit the 1880s →'))))));
     return { el: el, title: '' };
   }
 
@@ -453,7 +461,6 @@
       def ? frame : h('div', { class: 'frame frame--' + frameName }, h('div', { class: 'frame-inner' }, h('p', { class: 'notice' }, 'This game is loading. If it does not appear, reload the page.'))),
       h('div', { class: 'play-tools no-print' }, classroomBtn, nextG ? h('a', { class: 'pill pill--gold', href: href(['game', nextG.id]) }, 'Next game: ' + nextG.title + ' ', h('span', { class: 'arrow', 'aria-hidden': 'true' }, '→')) : null));
 
-    var lesson = lessonFor(g.id);
     var kp = e && e.kids && e.kids.length ? kidsPanel(e.kids[e.kids.length > 1 && g.year >= 1910 ? 1 : 0]) : null;
     var info = h('section', { class: 'info', 'aria-label': 'About ' + g.title },
       g.howToPlay && g.howToPlay.length ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'How to play'), h('h2', null, 'The rules'), h('ol', { class: 'steps' }, g.howToPlay.map(function (s) { return h('li', null, h('span', null, s)); })), g.controls ? h('p', { class: 'muted' }, h('strong', null, 'Controls: '), g.controls) : null) : null,
@@ -464,7 +471,6 @@
       g.didYouKnow && g.didYouKnow.length ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Did you know?'), h('ul', { class: 'facts' }, g.didYouKnow.map(function (s) { return h('li', null, s); }))) : null,
       kp ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Kids your age'), h('h2', null, kp.title), h('p', null, kp.paragraphs && kp.paragraphs[0]), h('p', null, h('a', { href: href(['era', g.era]) + '' }, 'Read more about being a kid back then →'))) : null,
       g.computer ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'How the computer plays'), h('p', null, g.computer)) : null,
-      lesson ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'For teachers · ' + lesson.yearLevels), h('h2', null, lesson.title), h('p', null, lesson.idea), lesson.computerAngle ? h('p', { class: 'muted' }, lesson.computerAngle) : null) : null,
       h('div', { class: 'icard icard--wide' }, h('p', { class: 'label' }, 'Sources'), h('p', { class: 'muted' }, 'Everything above was checked against these. Where historians disagree, we say so.'), sourcesList(g.sources),
         g.uncertainties && g.uncertainties.length ? h('details', { class: 'more' }, h('summary', null, 'What we are not sure about'), h('ul', { class: 'sources' }, g.uncertainties.map(function (u) { return h('li', null, u); }))) : null,
         image(g.id) && image(g.id).credit ? h('p', { class: 'muted', style: { fontSize: '.85rem' } }, 'Picture: ' + (image(g.id).caption ? image(g.id).caption + '. ' : '') + image(g.id).credit + (image(g.id).license ? ' (' + image(g.id).license + ')' : '') + '.') : null));
@@ -494,48 +500,65 @@
     };
   }
 
-  function pageTeachers() {
+  /* For Teachers: every piece of teaching material lives here, in parts with their own addresses (#/teachers/lessons). */
+  var TEACHER_PARTS = [
+    { id: 'start', title: 'Start here', blurb: 'How Games in Time works in a classroom.' },
+    { id: 'lessons', title: 'Lesson ideas', blurb: 'Twenty-minute lessons built on the games.' },
+    { id: 'curriculum', title: 'Curriculum links', blurb: 'Where the games fit the Australian Curriculum.' },
+    { id: 'tips', title: 'Classroom tips', blurb: 'What works with a whole class.' },
+    { id: 'printables', title: 'Printables', blurb: 'Grids and boards to print and play on paper.' }
+  ];
+  function pageTeachers(part) {
     var cur = C().curriculum || {};
+    var known = TEACHER_PARTS.some(function (p) { return p.id === part; });
+    var active = known ? part : 'start';
+    var partNav = h('nav', { class: 'teach-nav', 'aria-label': 'For Teachers' }, TEACHER_PARTS.map(function (p) {
+      return h('a', { class: 'pill ' + (p.id === active ? 'pill--gold' : 'pill--ghost'), href: href(p.id === 'start' ? ['teachers'] : ['teachers', p.id]), 'aria-current': p.id === active ? 'page' : null }, p.title);
+    }));
+    function head(id, label, title, extra) {
+      return h('div', { class: 'section-head' }, h('p', { class: 'label' }, label), h('h2', { id: id + '-title' }, title), extra || null);
+    }
     var el = h('div', null,
-      h('header', { class: 'page-head' }, h('p', { class: 'label' }, 'Games in Time in the classroom'), h('h1', null, 'For teachers.', h('span', { class: 'gold', style: { display: 'block' } }, 'Play first, then ask why.')),
-        h('p', { class: 'lede' }, 'Every game comes with a checked history, primary sources and a lesson idea. Nothing to sign up for, nothing to install.')),
-      h('section', { class: 'info', 'aria-label': 'What you need to know' },
+      h('header', { class: 'page-head' }, h('p', { class: 'label' }, 'Games in Time in the classroom'), h('h1', null, 'For Teachers.', h('span', { class: 'gold', style: { display: 'block' } }, 'Play first, then ask why.')),
+        h('p', { class: 'lede' }, 'Every game comes with a checked history and its sources. Here you will find lesson ideas, curriculum links, classroom tips and printables. Nothing to sign up for, nothing to install.'),
+        partNav),
+      h('section', { class: 'info', id: 'start', 'aria-label': 'Start here' },
         [['No accounts, no ads, no tracking.', 'The site does not collect names, emails or any personal information. Ticket stamps stay in each browser.'],
          ['Works on any device.', 'iPads, Chromebooks, laptops and interactive whiteboards. Pairs on one device work well for the two-player games.'],
-         ['Works offline.', 'Download the site from GitHub, open index.html from a USB stick or a shared drive, and it runs without internet.'],
+         ['Nothing to install.', 'Everything runs in the web browser, so there are no apps to approve, update or log in to.'],
          ['Classroom mode.', 'Every game has a button that fills the screen for projecting. Sound can be switched off at the top of every page.'],
          ['Sources on every page.', 'Each game lists the sources we used, and says what we are not sure about. Use it as a source-analysis task.'],
          ['Real pictures.', 'The pictures are historical photographs, paintings and prints, credited on each page.']].map(function (x) {
           return h('div', { class: 'icard icard--third' }, h('h3', null, x[0]), h('p', { class: 'muted' }, x[1]));
         })),
-      cur.lessons && cur.lessons.length ? h('section', { class: 'section', 'aria-labelledby': 'lessons-title' },
-        h('div', { class: 'section-head' }, h('p', { class: 'label' }, 'Twenty minutes each'), h('h2', { id: 'lessons-title' }, 'Lesson ideas')),
+      cur.lessons && cur.lessons.length ? h('section', { class: 'section', id: 'lessons', 'aria-labelledby': 'lessons-title' },
+        head('lessons', 'Twenty minutes each', 'Lesson ideas'),
         h('div', { class: 'lesson-grid' }, cur.lessons.map(function (l) {
           var g = game(l.gameId);
           return h('div', { class: 'lesson' }, h('p', { class: 'label' }, (g ? g.title + ' · ' : '') + l.yearLevels), h('h3', null, l.title), h('p', null, l.idea), l.computerAngle ? h('p', { class: 'computer' }, l.computerAngle) : null,
             h('p', null, g ? h('a', { href: href(['game', g.id]) }, 'Open ' + g.title) : null, l.curriculumUrl ? [' · ', h('a', { href: l.curriculumUrl, rel: 'noopener', target: '_blank' }, 'Curriculum')] : null));
         }))) : null,
-      cur.links && cur.links.length ? h('section', { class: 'section', 'aria-labelledby': 'curr-title' },
-        h('div', { class: 'section-head' }, h('p', { class: 'label' }, 'Where it fits'), h('h2', { id: 'curr-title' }, 'Curriculum links'), h('p', null, 'Codes are shown only where we could verify them on the curriculum site.')),
+      cur.links && cur.links.length ? h('section', { class: 'section', id: 'curriculum', 'aria-labelledby': 'curriculum-title' },
+        head('curriculum', 'Where it fits', 'Curriculum links', h('p', null, 'Codes are shown only where we could verify them on the curriculum site.')),
         h('div', { class: 'table-wrap' }, h('table', null,
           h('thead', null, h('tr', null, h('th', null, 'Curriculum'), h('th', null, 'Year'), h('th', null, 'Area'), h('th', null, 'Content'), h('th', null, 'Why it fits'))),
           h('tbody', null, cur.links.map(function (l) {
             return h('tr', null, h('td', null, l.jurisdiction), h('td', null, l.yearLevel), h('td', null, l.learningArea),
               h('td', null, l.code ? h('strong', null, l.code + ' ') : null, h('a', { href: l.url, rel: 'noopener', target: '_blank' }, l.description)), h('td', null, l.relevance));
           }))))) : null,
-      cur.tips && cur.tips.length ? h('section', { class: 'section', 'aria-labelledby': 'tips-title' },
-        h('div', { class: 'section-head' }, h('p', { class: 'label' }, 'From the classroom'), h('h2', { id: 'tips-title' }, 'Tips')), h('ul', { class: 'facts' }, cur.tips.map(function (t) { return h('li', null, t); }))) : null,
-      h('section', { class: 'section', 'aria-labelledby': 'print-title' },
-        h('div', { class: 'section-head' }, h('p', { class: 'label' }, 'Pencil and paper'), h('h2', { id: 'print-title' }, 'Printables')),
+      cur.tips && cur.tips.length ? h('section', { class: 'section', id: 'tips', 'aria-labelledby': 'tips-title' },
+        head('tips', 'From the classroom', 'Classroom tips'), h('ul', { class: 'facts' }, cur.tips.map(function (t) { return h('li', null, t); }))) : null,
+      h('section', { class: 'section', id: 'printables', 'aria-labelledby': 'printables-title' },
+        head('printables', 'Pencil and paper', 'Printables'),
         h('div', { class: 'pill-row' },
           h('a', { class: 'pill pill--ghost', href: href(['print', 'dots']) }, 'Dots and Boxes grids'),
           h('a', { class: 'pill pill--ghost', href: href(['print', 'noughts']) }, 'Noughts and Crosses sheet'),
           h('a', { class: 'pill pill--ghost', href: href(['print', 'hundred']) }, 'Hundred-square board'))));
-    return { el: el, title: 'For teachers' };
+    var title = active === 'start' ? 'For Teachers' : TEACHER_PARTS.filter(function (p) { return p.id === active; })[0].title + ' · For Teachers';
+    return { el: el, title: title, jump: active === 'start' ? null : active };
   }
 
   function pageAbout() {
-    var site = C().site;
     var el = h('div', null,
       h('header', { class: 'page-head' }, h('p', { class: 'label' }, 'The project'), h('h1', null, 'About Games in Time.', h('span', { class: 'gold', style: { display: 'block' } }, 'An idea from a thirteen-year-old.'))),
       h('section', { class: 'info' },
@@ -547,7 +570,7 @@
           h('li', null, 'Every date and story is checked against sources we actually read, and the sources are listed on the page.'),
           h('li', null, 'When historians disagree, we say so. What we cannot confirm goes under "What we are not sure about".'),
           h('li', null, 'We use the names people used at the time, and avoid trademarked names that belong to companies today.'))),
-        h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Free, for everyone'), h('p', null, 'No accounts, no ads, no tracking. The whole site is plain HTML, CSS and JavaScript, and you can download it and run it offline. The code is open: ', h('a', { href: site.repo, rel: 'noopener', target: '_blank' }, 'see it on GitHub'), '.'),
+        h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Free, for everyone'), h('p', null, 'No accounts, no ads, no tracking. Everything runs in your web browser, so there is nothing to install and nothing to sign up for.'),
           h('p', null, 'The halls run from the 1800s to the neon arcades of the 1980s, each one dressed in the colours of its own time.'))));
     return { el: el, title: 'About' };
   }
@@ -560,7 +583,7 @@
     else return pageNotFound();
     var el = h('div', null,
       h('header', { class: 'page-head no-print' }, h('p', { class: 'label' }, 'Printable'), h('h1', null, title),
-        h('div', { class: 'pill-row' }, h('a', { class: 'pill pill--ghost', href: href(['teachers']) }, '← For teachers'), h('button', { class: 'pill pill--gold', type: 'button', onclick: function () { window.print(); } }, 'Print this page'))),
+        h('div', { class: 'pill-row' }, h('a', { class: 'pill pill--ghost', href: href(['teachers', 'printables']) }, '← For Teachers'), h('button', { class: 'pill pill--gold', type: 'button', onclick: function () { window.print(); } }, 'Print this page'))),
       h('section', { class: 'section' }, h('div', { class: 'print-page' }, body)));
     return { el: el, title: title };
   }
@@ -598,6 +621,7 @@
         h('span', null, 'Games in Time')),
       pills,
       h('div', { class: 'header-actions' },
+        h('a', { class: 'pill pill--ghost teachers-pill', href: href(['teachers']) }, 'For Teachers'),
         h('button', { class: 'pill pill--light surprise-pill', type: 'button', style: { minHeight: '46px', padding: '.5rem 1.1rem' }, onclick: surprise }, 'Surprise me'),
         h('button', { class: 'circle-btn surprise-icon', type: 'button', 'aria-label': 'Surprise me: open a random game', title: 'Surprise me', onclick: surprise },
           svg('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3.5"/><circle cx="9" cy="9" r="1.3" fill="currentColor"/><circle cx="15" cy="15" r="1.3" fill="currentColor"/><circle cx="15" cy="9" r="1.3" fill="currentColor"/><circle cx="9" cy="15" r="1.3" fill="currentColor"/></svg>')),
@@ -611,8 +635,13 @@
       })),
       h('ul', { class: 'menu-links' },
         h('li', null, h('a', { class: 'pill pill--gold', href: href(['all']) }, 'All games')),
-        h('li', null, h('button', { class: 'pill pill--light', type: 'button', onclick: function () { closeMenu(); surprise(); } }, 'Surprise me')),
-        h('li', null, h('a', { class: 'pill pill--ghost', href: href(['teachers']) }, 'For teachers')),
+        h('li', null, h('button', { class: 'pill pill--light', type: 'button', onclick: function () { closeMenu(); surprise(); } }, 'Surprise me'))),
+      h('section', { class: 'menu-teach-wrap', 'aria-labelledby': 'menu-teach-title' },
+        h('h2', { class: 'menu-teach-title', id: 'menu-teach-title' }, h('a', { href: href(['teachers']) }, 'For Teachers')),
+        h('ul', { class: 'menu-teach' }, TEACHER_PARTS.map(function (p) {
+          return h('li', null, h('a', { href: href(p.id === 'start' ? ['teachers'] : ['teachers', p.id]) }, h('strong', null, p.title), h('span', { class: 'muted' }, p.blurb)));
+        }))),
+      h('ul', { class: 'menu-links' },
         h('li', null, h('a', { class: 'pill pill--ghost', href: href(['about']) }, 'About')))));
     menuEl.addEventListener('click', function (ev) { if (ev.target.closest('a')) closeMenu(); });
     document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && !menuEl.hidden) { closeMenu(); menuBtn.focus(); } });
