@@ -509,12 +509,13 @@ window.GIT_CONTENT = {
         "When American folklorist Dorothy Howard toured Australia in the mid-1950s, marbles was one of the games she wrote about. By the time researchers visited 19 Australian primary schools between 2007 and 2011, marbles was no longer widely played, and in some schools only started again when teachers introduced it."
       ],
       "howToPlay": [
-        "Draw a ring on the ground, about a metre across. Each player puts the same number of small marbles inside it.",
-        "Everyone bowls a marble towards the ring from a line a few steps away. The player whose marble lands closest shoots first.",
-        "Kneel at the edge of the ring with your knuckle on the ground and flick your big taw marble at the marbles inside.",
-        "Every marble you knock out of the ring is yours, and you keep shooting until you miss.",
-        "If your taw stops inside the ring, you are \"fat\": put back any marbles you won this turn and the next player shoots.",
-        "In the 1800s the game was often played for \"keepsies\", where winners kept the marbles they knocked out. For a school game, give everyone their marbles back at the end."
+        "First, lag: drag back from your taw and let go to roll it up towards the chalk line near the top of the ring. Whoever stops closer to the line shoots first.",
+        "Thirteen marbles sit in a cross in the middle of the ring. On your shot your taw sits on the edge of the ring. Tap outside the ring to move it anywhere round the edge.",
+        "Drag back from your taw to aim and set the power, and let go to shoot. In the playground you would kneel, knuckle down on the edge and flick it with your thumb.",
+        "Every marble you knock right over the chalk line is yours, and you shoot again.",
+        "Knock nothing out and it is the computer's shot.",
+        "If your taw stops inside the ring you are \"fat\": every marble you won this turn rolls back into the ring, and the computer shoots. Hit hard enough that your taw rolls right out.",
+        "Win more than half of the marbles, 7 of the 13, to win the ring."
       ],
       "didYouKnow": [
         "Nuremberg's town council is said to have limited marble games to a meadow outside the town walls in 1503.",
@@ -522,7 +523,7 @@ window.GIT_CONTENT = {
         "Cambridge University is said to have passed a rule, some time before 1816, forbidding its Masters of Arts from rolling hoops or playing marbles.",
         "In Sussex the marbles season traditionally ran from Ash Wednesday to midday on Good Friday; playing after that was thought unlucky."
       ],
-      "computer": "",
+      "computer": "The computer looks at each marble and works out where its taw must touch it to send it out of the ring, the same trick billiards players use. It walks round the edge to find a spot with a clear path, then plays its best ideas in its head, using the same rolling and clicking as the real game, and picks a shot that knocks marbles out without leaving its own taw in the ring. It knows its hand wobbles, so it prefers shots that still work if it is a little off. Its hand wobbles a lot on Easy and much less on Hard: about 4 in 10 of its shots knock a marble out on Easy, 6 in 10 on Medium and 3 in 4 on Hard.",
       "sources": [
         {
           "title": "Wikipedia: Marble (toy)",
@@ -582,7 +583,9 @@ window.GIT_CONTENT = {
       "players": [
         "vs computer"
       ],
-      "type": "action"
+      "type": "action",
+      "controls": "Drag back from your taw and let go to shoot. The further you pull, the harder the flick. Tap outside the ring to move your taw round the edge. Keyboard: Left and Right arrows aim, Up and Down move round the ring, hold Space to build power and let go to shoot.",
+      "adaptation": "Rules follow Ring Taw as Alice Gomme described it in 1898 (The Traditional Games of England, Scotland and Ireland, vol. 2, entry Ring-taw) and as the game's rules on this site give them: a ring drawn on the ground with marbles inside it, a lag to decide who shoots first (the closer marble to the line shoots first), shooting from the edge of the ring, carrying on shooting as long as you knock marbles out, and the \"fat\" rule, where a taw that stops inside the ring puts back every marble won that turn and the other player shoots. Adapted for a screen: the 13 marbles stand in a cross, as in later ring games, instead of equal shares put in by each player, so a game is won by the first to reach 7 (more than half) rather than by emptying the ring; both lag shots roll from the bottom of the ring towards a chalk line across the top, instead of bowling from a line a few steps away; a marble counts as out only when the whole of it is past the chalk line; your taw is put on the edge of the ring for every shot, and you may move it anywhere round the edge; the taw is treated as a heavier \"alley\", so it rolls on after a hit the way a good taw does; the marbles are drawn larger than life so they can be seen on a phone or a projector. Marbles knocked out are kept only for the length of the game, which is how the site suggests playing at school rather than for \"keepsies\". The physics: marbles skid when struck, then grip and roll, lose a little speed as they roll, and bounce off each other elastically; the clicks are pitched and as loud as the knock."
     },
     {
       "id": "skipping",
@@ -900,12 +903,13 @@ window.GIT_CONTENT = {
         "Conkers has had plenty of trouble. A 2000 survey by Keele University found many British schools banning it, worried about injuries or lawsuits, and in 2004 some schools banned it over nut allergies, even though health advisers said conkers were not a known danger. In 2024 the championship winner was accused of using a steel conker, and was cleared."
       ],
       "howToPlay": [
-        "Find a hard, round horse chestnut. Ask an adult to drill or skewer a hole through it, then thread a string or shoelace through and tie a big knot underneath.",
-        "Each player wraps the string around a hand and lets the conker hang about 20 centimetres below the knuckles.",
-        "Decide who strikes first (toss a coin or shout the rhyme). The other player holds their conker still at arm's length. Stand well apart and keep your free hand and face clear of the swing.",
-        "The striker swings their conker down hard to hit the hanging one. If they miss, they may try again; many rules give three strikes, then players swap.",
-        "Keep taking turns until one conker breaks off its string. The winner's conker becomes a one-er. Beat another and it is a two-er.",
-        "Baking, soaking in vinegar or painting with varnish to harden a conker is usually counted as cheating."
+        "Choose your conker. Fresh hits hard but is soft. Seasoned (kept for a year) is tough but light. Baked is very hard but brittle, and its wins do not count, because baking a conker was usually called cheating.",
+        "Shout the rhyme first to strike first: wait for the Shout! signal, then tap or press Space. Go too soon and the computer strikes first.",
+        "On your strike a little conker swings across the meter. Tap, click or press Space when it is in the gold. The very middle of the gold is a perfect strike.",
+        "Each player has three strikes, then you swap. A hit cracks the other conker, and a hard knock can crack yours a little too.",
+        "When you miss, the strings may tangle. Call Strings! first when the signal shows and you win an extra strike.",
+        "When a conker smashes, the other one wins. A winning conker becomes a oner, then a twoer, and it takes the beaten conker's score as well.",
+        "Your conker, its score and its cracks are kept for next time, until it breaks."
       ],
       "didYouKnow": [
         "Before horse chestnuts, children in the 1780s played the game with snail shells, and later with hazelnuts.",
@@ -913,7 +917,7 @@ window.GIT_CONTENT = {
         "In 2024 the championship winner was accused of using a steel conker; he was cleared.",
         "Horse chestnut trees come from the Balkans and were only planted in Britain from the early 1600s."
       ],
-      "computer": "",
+      "computer": "The computer swings on the same meter as you. It tries to let go in the middle of the gold, but its timing wobbles: a lot on Easy, a little on Hard. In a race to shout or to call Strings!, it answers after a short reaction time, slow on Easy and quick on Hard. Its conker may be a new one or a past winner, and on harder levels it is more often seasoned.",
       "sources": [
         {
           "title": "Wikipedia: Conkers",
@@ -961,7 +965,9 @@ window.GIT_CONTENT = {
       "players": [
         "vs computer"
       ],
-      "type": "action"
+      "type": "action",
+      "controls": "One button does everything: tap or click the picture or the big button below it, or press Space or Enter. Use it to shout, to strike and to call Strings!",
+      "adaptation": "Rules: players take turns to strike the other's hanging conker with their own, and play goes on until one conker breaks off its string. Each player has three strikes before swapping, as many playground rules and the World Conker Championships give, and as the rules on this page say. The first-strike rhyme, \"Obbly, obbly onkers, my first conquers\", is one of those Alice Gomme printed in 1894. Calling \"Strings!\" when the strings tangle wins an extra strike, a traditional playground rule given in the Wikipedia article on conkers listed in the sources: here the striker who calls first gets one more swing that does not count against their three, and a receiver who calls first takes one strike straight away. Scoring follows the tradition that a winning conker becomes a oner, then a twoer, and also takes the beaten conker's score, so a new conker that beats a twoer becomes a threer. Hardening a conker by baking it, soaking it in vinegar or varnishing it was usually counted as cheating, so a baked conker's wins do not add to its score; how fresh, seasoned and baked conkers behave is playground lore, not measurement. Adapted for a screen: a timing meter stands in for swinging your arm; the receiver always holds their conker still; a striker's conker can be cracked by the knock of its own hit; the \"stamps\" rule for a dropped conker is left out; and the extra strike from Strings! cannot itself lead to another tangle, so the game always moves on."
     },
     {
       "id": "happy-families",
@@ -1410,11 +1416,13 @@ window.GIT_CONTENT = {
         "It began as an adult craze, played for laughs in Victorian drawing rooms, and only later became thought of as a children's game. Jaques sets were advertised in a New Zealand newspaper by July 1893, so they had reached this side of the world. In 1955 Cambridge University students turned it into a serious sport, and in 1958 Prince Philip sent the Goons to play for him."
       ],
       "howToPlay": [
-        "Put a cup in the middle of a felt mat or tablecloth. Each player takes a set of small coloured counters (winks) and one larger counter (the squidger).",
-        "Press the edge of the squidger down across the edge of a wink so the wink flips into the air.",
-        "Try to land your winks in the cup. If you pot one, take another shot.",
-        "You may land a wink on top of an opponent's wink to 'squop' it; a covered wink cannot be played until it is freed.",
-        "The first player to pot all their winks wins, or count potted winks when time runs out."
+        "Each player has four winks of one colour, starting at their end of the felt mat, with the cup in the middle. Yours are red.",
+        "To squidge a wink, drag back from it and let go. The squidger presses down on the far edge of the wink and it hops the other way. The further you pull, the further it flies.",
+        "Land a wink in the cup to pot it, and you shoot again. Clip the rim and it may rattle in, or bounce out. Too low, and it hits the side of the cup.",
+        "Land on top of another wink to squop it. A squopped wink has a dashed ring round it and cannot be played until the wink on top moves off.",
+        "A wink that flies off the mat goes back on at the edge.",
+        "Against the computer you take turns, one wink each turn. The first to pot all four winks wins.",
+        "Solo: pot all four in as few shots as you can. Your best is remembered."
       ],
       "didYouKnow": [
         "Fincher's 1889 trademark spelled it Tiddledy-Winks; the shorter Tiddlywinks came later.",
@@ -1422,7 +1430,7 @@ window.GIT_CONTENT = {
         "Early squidgers were made of bone or vegetable ivory rather than plastic.",
         "In 1957 The Spectator asked 'Does Prince Philip cheat at tiddlywinks?', so Cambridge students challenged him to a match."
       ],
-      "computer": "",
+      "computer": "For each of its winks that is free to play, the computer imagines 24 squidges at the middle of the cup, each with the same wobble its hand really has, and counts how many would go in. Then it plays the wink with the best chance. On Hard, if no pot looks likely, it may squop your wink that is nearest the cup instead. If one of its winks is pressed right against the cup, where it cannot hop in, it hops it back to a better spot first. On Easy about 1 shot in 4 from the starting row goes in, on Medium about 2 in 5, and on Hard about 2 in 3.",
       "sources": [
         {
           "title": "Origins and Early History of Tiddlywinks, tiddlywinks.org",
@@ -1465,7 +1473,9 @@ window.GIT_CONTENT = {
         "solo",
         "vs computer"
       ],
-      "type": "action"
+      "type": "action",
+      "controls": "Drag back from one of your winks and let go. Keyboard: Tab to a wink, Left and Right arrows aim (Up and Down make small changes), hold Space to build power and let go to squidge.",
+      "adaptation": "Follows the game Joseph Assheton Fincher patented in 1888 and sold as Tiddledy-Winks from 1889: small counters (winks) are made to jump by pressing their edge with a larger counter (the squidger), and the aim is to land them in a cup on a felt mat or tablecloth. Potting a wink earns another shot, as the rules on this page say. Squopping follows the earliest printed rules of 1890, which already said a wink covered by another could not be played; back then landing on a rival on purpose was thought bad form, but it is allowed here (as in the later game) because it makes the game more interesting, and it is explained on the screen. Adapted for a screen: one player against the computer, or alone, with four winks of a colour; a wink that leaves the mat is put back at the edge, as later rules do; a landing wink either makes a clean squop or slides off to rest beside the other wink, and never knocks other winks about; the cup is drawn with a little height so that a low wink can hit its side and a wink can clip the rim. The mat carries the 1889 trademark spelling, Tiddledy-Winks, as an 1880s set would."
     },
     {
       "id": "dots-and-boxes",
