@@ -1,0 +1,14 @@
+{
+  "howToPlay": [
+    "Choose Classic or Arcade, then press Start.",
+    "Fruit is thrown up from the bottom of the screen. Swipe through it with a finger, or hold the mouse button and drag, to slice it in two.",
+    "Slice three or more fruit in one swipe for a combo and bonus points.",
+    "Never slice the grumpy cloud. It rumbles and ends the round.",
+    "Classic: if three fruit fall without being sliced, the round is over. Arcade: slice as much as you can in 60 seconds.",
+    "Using a keyboard? Turn on Letter keys, or just start typing. Every fruit wears a letter: press it to slice that fruit. Leave the cloud's letter alone!"
+  ],
+  "controls": "Touch: swipe across the fruit. Mouse: hold the left button and drag. Keyboard: press the letter shown on a fruit (turn on Letter keys, or just start typing). P or Escape pauses.",
+  "computer": "Your swipe is a line made of lots of short pieces: every time your finger moves, the computer joins the last point to the new one. For each fruit it finds the spot on that short piece that is closest to the middle of the fruit. If that spot is closer than the fruit's radius, the line went through the fruit, so it is sliced, and the two halves fly apart at the angle of your swipe. The computer throws the fruit with real physics too. To make a fruit rise to a height h against gravity g, it throws it upwards at a speed of the square root of 2 times g times h, then picks a sideways speed so the fruit reaches its highest point inside the screen. Fruit comes in waves. For each wave the computer picks how many fruit, a pattern (all at once, one after another, or from both sides) and sometimes a cloud. As your score grows (or the Arcade clock runs down) the waves get bigger and quicker and bring more clouds.",
+  "players": ["solo"],
+  "notes": "The 2010 game was made for touchscreen phones and used bombs as the thing to avoid. Ours uses a grumpy cloud instead, and the cloud ends the round in both modes. The fruit are our own drawings in a flat 2010s style. Mouse dragging works as well as touch, and Letter keys lets keyboard players slice by typing, with the fruit flying a little slower so there is time to read the letters."
+}

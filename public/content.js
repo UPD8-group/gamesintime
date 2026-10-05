@@ -4053,6 +4053,275 @@ window.GIT_CONTENT = {
       "origin": "Mechanics of Minecraft by Markus Persson and Mojang, Stockholm, Sweden",
       "tagline": "Dig, build and explore.",
       "blurb": "Dig up blocks, craft new ones and build anything you like in a world seen from the side, like Minecraft and Terraria, the block-building games of 2011."
+    },
+    {
+      "story": [
+        "One-button cave games began on small screens. In 1995 SFCave, by Sunflat Games, asked players to steer a ribbon through a narrowing cave: touch to rise, let go to fall. It later appeared on Palm handheld computers and phones.",
+        "Around 2000 the British writer David McCandless ran seethru.co.uk, a real website made to go with Attachments, a BBC TV drama about young people working at an internet company in London. The site was full of quizzes and silly games. McCandless and a programmer friend built the Helicopter Game in Flash in a matter of days: hold the mouse button and the helicopter climbs, let go and it sinks, and you fly as far as you can without touching the cave.",
+        "Copies spread from one game website to another, often without the maker's name, and many people remember playing it in school computer classes. 'It was very gradual,' McCandless said. 'I never expected it to be a big craze.' He never earned money from it. Years later, critics said the 2013 phone hit Flappy Bird borrowed the same one-button idea.",
+        "Flash games could not last forever: Adobe stopped supporting Flash Player on 31 December 2020. In 2017 an Australian, Ben Latimore, started Flashpoint to save them, and it now holds more than 200,000 web games and animations. Cave Copter plays like the Helicopter Game: one button, an endless cave and your distance as the score. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Pick Easy, Normal or Hard, then press Play.",
+        "Click and hold (or touch and hold, or hold Space) to make your sky-pod's rotor lift it up. Let go and it sinks.",
+        "Fly through the cave without bumping the roof, the floor or the shiny pink blocks.",
+        "Quick taps keep you level. Holding too long sends you shooting up into the roof.",
+        "The cave slowly gets faster and narrower. Your distance in metres is your score.",
+        "Beat your best and a green BEST flag marks that spot in the cave next time."
+      ],
+      "didYouKnow": [
+        "McCandless says that in 2008 someone copied his game for Apple's new App Store, where it was the seventh biggest selling app for about three months.",
+        "When Flappy Bird was a hit in 2014, McCandless joked that he was 'mostly annoyed my high score is only two'.",
+        "Seethru was a made-up company in a TV show, but its website was real and changed as the series went on.",
+        "From 12 January 2021 Adobe blocked Flash content from running in Flash Player at all."
+      ],
+      "sources": [
+        {
+          "title": "The Man Behind 'Helicopter Game,' the Original 'Flappy Bird', Karissa Bell, Mashable, 9 February 2014",
+          "url": "https://mashable.com/2014/02/08/flappy-bird-helicopter-game/",
+          "note": "McCandless created Helicopter Game in 2000 for seethru.co.uk, a tie-in to the BBC drama Attachments; he and a programmer friend built the Flash game in a matter of days; 'It was very gradual. I never expected it to be a big craze'; a 2008 App Store copy was the seventh biggest selling iOS app for about three months; he never earned from it; 'mostly annoyed my high score is only two'."
+        },
+        {
+          "title": "The Shrouded Origins of 'The Helicopter Game', merritt k, Other Strangeness, 2022",
+          "url": "https://www.otherstrangeness.com/2022/09/29/the-shrouded-origins-of-the-helicopter-game/",
+          "note": "A staple of the author's high school computer class; Addicting Games lists SeeThru.co.uk and 2004, the Web Gaming Wiki says 2002; Flash games often spread without their makers' names."
+        },
+        {
+          "title": "Helicopter Game, Flash Museum",
+          "url": "https://flashmuseum.org/helicopter-game/",
+          "note": "Lists developer SeeThru.co.uk, release date 13 November 2004, left mouse button for power."
+        },
+        {
+          "title": "Attachments (TV series), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Attachments_(TV_series)",
+          "note": "BBC Two comedy-drama, 2000 to 2002, about young professionals in London at an internet startup called seethru; the fictional company ran a real website at seethru.co.uk, updated as the show progressed."
+        },
+        {
+          "title": "David McCandless, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/David_McCandless",
+          "note": "British data journalist, writer and information designer, born 1971; began his career writing about video games."
+        },
+        {
+          "title": "SFCave, Internet Archive (from MobyGames)",
+          "url": "https://archive.org/details/win3_SFCave",
+          "note": "Sunflat Games, 1995, Windows 3.x; also for Palm OS, iPhone, Android and others; one-button ribbon through a cave."
+        },
+        {
+          "title": "Flappy Bird, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flappy_Bird",
+          "note": "A Canada.com editor charged that its main mechanic was taken from Helicopter Game."
+        },
+        {
+          "title": "Adobe Flash Player End of Life, Adobe",
+          "url": "https://www.adobe.com/products/flashplayer/end-of-life.html",
+          "note": "Adobe stopped supporting Flash Player after 31 December 2020 and blocked Flash content from 12 January 2021."
+        },
+        {
+          "title": "Flashpoint Archive, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flashpoint_Archive",
+          "note": "Started by Australian Ben 'BlueMaxima' Latimore in late 2017; over 200,000 applications from over 120 browser plugins, mostly Adobe Flash."
+        },
+        {
+          "title": "Flash Back: preserving a gaming legacy, Film Stories",
+          "url": "https://filmstories.co.uk/features/flash-back-preserving-a-gaming-legacy/",
+          "note": "Describes BlueMaxima, real name Ben Latimore, as an Australian gamer and content creator who set up Flashpoint."
+        }
+      ],
+      "uncertainties": [
+        "The planning notes credit 'Dave McClure, 2004', but the sources opened point to David McCandless, who told Mashable he made it with a programmer friend. A web comment names the Flash programmer as Leandro Barreto, but this could not be confirmed.",
+        "The year is unclear. Mashable says 2000 (an earlier copy of the same article said 1999); the Web Gaming Wiki says 2002; Addicting Games and Flash Museum say 2004, which may be when it was added to those sites.",
+        "SFCave is listed as a 1995 Windows game by Sunflat Games; some websites date its popular Palm version to 1998.",
+        "How many schools had the game is not recorded; the story relies on people's memories of school computer classes."
+      ],
+      "playable": true,
+      "id": "cave-copter",
+      "title": "Cave Copter",
+      "era": "2000s",
+      "year": 2000,
+      "yearLabel": "About 2000 (game sites list 2002 or 2004)",
+      "stamp": "2000",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Mouse: hold the button to rise, let go to fall. Touch: hold a finger anywhere on the cave. Keyboard: hold Space, the Up arrow or W. P pauses.",
+      "computer": "The computer builds the cave while you fly, one thin column at a time. It keeps an invisible middle line that drifts up and down: every so often it picks a new height for the middle of the cave and glides towards it, but never more steeply than your sky-pod can climb, so there is always a way through. The gap between the roof and the floor starts wide and shrinks as you go, and a small random wobble makes the rock look rough. Every few hundred units it hangs a block in the gap, always leaving at least one side wide enough to fly past. Only the part of the cave you can see is kept in memory: when a column scrolls off the left, its memory is reused for a new column on the right. Your sky-pod follows simple physics. Holding pushes it up, letting go lets gravity pull it down, and its speed builds up gradually, which is why short taps work better than long holds.",
+      "adaptation": "The original web game, made by David McCandless around 2000, flew a helicopter through a green cave with one mouse button. Ours keeps the one-button rise and fall and the score by distance, but flies a round sky-pod of our own design through a glassy blue cave, with three levels, a best-distance flag, a pause button, and Space and touch controls as well as the mouse.",
+      "origin": "Mechanics of the Helicopter Game by David McCandless for the website seethru.co.uk, United Kingdom",
+      "tagline": "Hold to rise, release to fall.",
+      "blurb": "Hold one button to climb and let go to sink as your little craft flies through an endless cave, like the Flash web game Helicopter that spread through school computer rooms in the 2000s."
+    },
+    {
+      "story": [
+        "Fruit Ninja was made in Brisbane. Shainiel Deo started Halfbrick Studios there in 2001, and for years the studio made games for other companies, including Game Boy Advance versions of the Australian game hero Ty the Tasmanian Tiger. Then in 2009 the global financial crisis hit. The studio's work for overseas companies dried up, and designer Luke Muscat later remembered that 'something like 70 per cent' of game jobs in Australia vanished. The team thought they had about a year to make a hit of their own.",
+        "Every second Friday the staff pitched game ideas to each other. Muscat, then 25, was stuck for an idea until he remembered late-night TV ads for knives that could cut through anything. 'They throw a pineapple in the air and cut it mid-air,' he said, and he realised it could work as a game. Some workmates thought it seemed too simple, 'like a kid's toy'. While most of the studio was busy on another job, Muscat and fellow designer Joe Gatling built it, and it was finished in six weeks.",
+        "Fruit Ninja came out for the iPhone and iPod touch on 20 April 2010, for 99 US cents. Muscat remembers it made about $100 on its first day. Then Apple featured it on the App Store and downloads took off. In 2011 a version for the Xbox 360's Kinect camera let players slice with their whole arms, and by 2015 the game had been downloaded a billion times. While game studios around Australia were shrinking, Halfbrick grew and hired. In 2012 Fruit Ninja was one of the games in ACMI's Game Masters exhibition in Melbourne.",
+        "Fruit Slice plays like Fruit Ninja, the 2010 touchscreen game from Halfbrick Studios in Brisbane. Instead of bombs, a grumpy cloud ends your round. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose Classic or Arcade, then press Start.",
+        "Fruit is thrown up from the bottom of the screen. Swipe through it with a finger, or hold the mouse button and drag, to slice it in two.",
+        "Slice three or more fruit in one swipe for a combo and bonus points.",
+        "Never slice the grumpy cloud. It rumbles and ends the round.",
+        "Classic: if three fruit fall without being sliced, the round is over. Arcade: slice as much as you can in 60 seconds.",
+        "Using a keyboard? Turn on Letter keys, or just start typing. Every fruit wears a letter: press it to slice that fruit. Leave the cloud's letter alone!"
+      ],
+      "didYouKnow": [
+        "At 'Halfbrick Fridays' everyone at the studio, even people from accounting, could pitch game ideas. Fruit Ninja came out of one of them.",
+        "Halfbrick filmed its low-budget launch ad for Fruit Ninja in a park beside the Brisbane River.",
+        "Luke Muscat first saw a stranger playing Fruit Ninja in a pub. He recognised its start-up sound, which he had heard 'like, 10,000 times' while making it.",
+        "In December 2025 Halfbrick released Bluey's Quest for the Gold Pen, the first Bluey video game made by an Australian studio. Bluey is made in Brisbane too."
+      ],
+      "sources": [
+        {
+          "title": "Fruit Ninja creator Luke Muscat says the game was inspired by late night TV and a business on the brink, ABC News, 29 May 2023",
+          "url": "https://www.abc.net.au/news/2023-05-29/qld-fruit-ninja-iphone-game-created-in-brisbane-luke-muscat/102393110",
+          "note": "2009 global financial crisis; Muscat a 25-year-old designer at Halfbrick in Brisbane's inner north; about a year to turn things around; pitches every second Friday; knife ads where 'they throw a pineapple in the air and cut it mid-air'; 'It seemed too simple ... like a kid's toy'; built with Joe Gatling; finished in six weeks; released April 2010 with a budget ad filmed in a park on the Brisbane River; 'the first day it made like $100'; 1 billion downloads by 2015; 'In 2009 something like 70 per cent of game jobs vanished in Australia'; Halfbrick created jobs; first saw it played in a pub."
+        },
+        {
+          "title": "The Fruit Ninja: Shainiel Deo, MIT Technology Review, 18 November 2011",
+          "url": "https://www.technologyreview.com/2011/11/18/189655/the-fruit-ninja-shainiel-deo/",
+          "note": "'Deo founded Halfbrick in 2001 in Brisbane, Australia'; early games for children based on licensed TV and film characters; Fruit Ninja a '99-cent game released in April 2010'; 'They wouldn't want to hand the phones back.'"
+        },
+        {
+          "title": "How Halfbrick Studios Develops Games Like Fruit Ninja, Age Of Zombies And Jetpack Joyride, Frederic Lardinois, TechCrunch, 3 March 2013",
+          "url": "https://techcrunch.com/2013/03/03/how-halfbrick-studios-develops-games-like-fruit-ninja-age-of-zombies-and-jetpack-joyride/",
+          "note": "Fruit Ninja came out of 'Halfbrick Fridays', where the whole company, including accounting and quality assurance, brainstorms in groups; Brisbane-based; about 70 staff; games written in C++."
+        },
+        {
+          "title": "Fruit Ninja, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fruit_Ninja",
+          "note": "Released 20 April 2010 for iPod Touch and iPhone; designer Luke Muscat; Fruit Ninja Kinect for Xbox 360 on 10 August 2011; arcade versions Fruit Ninja FX and FX 2 (November 2012); 1 billion downloads in 2015."
+        },
+        {
+          "title": "Halfbrick Studios, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halfbrick_Studios",
+          "note": "Founded 2001 in Toowong, Brisbane; CEO Shainiel Deo; list of games includes Ty the Tasmanian Tiger 2: Bush Rescue (2004) and Ty the Tasmanian Tiger 3 (2005) for Game Boy Advance."
+        },
+        {
+          "title": "ACMI Game Masters Exhibition, Non-Fiction Gaming, 15 August 2012",
+          "url": "https://www.nonfictiongaming.com/2012/08/15/acmi-game-masters/",
+          "note": "Visitor report: the indie room at ACMI included 'Halfbrick (Fruit Ninja, Raskulls), Marcus Persson \"Notch\" (Minecraft), Firemint ... (Flight Control)'; exhibition launched 28 June 2012."
+        },
+        {
+          "title": "Game Masters (exhibition), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Game_Masters_(exhibition)",
+          "note": "Curated by ACMI, Melbourne, 28 June to 28 October 2012; Indie section lists Halfbrick (Fruit Ninja, Jetpack Joyride)."
+        },
+        {
+          "title": "Halfbrick Studios CEO Shainiel Deo on creating the first Bluey video game made in Brisbane, ABC News, 9 December 2025",
+          "url": "https://www.abc.net.au/news/2025-12-09/bluey-video-game-halfbrick-studios-brisbane/106113906",
+          "note": "Bluey's Quest for the Gold Pen is the first Bluey game made by an Australian studio; iOS release 11 December 2025; 'Fruit Ninja was phenomenal, a billion people played it.'"
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia gives the release date as 20 April 2010; the ABC and MIT Technology Review say only April 2010.",
+        "The 70 per cent job-loss figure is Luke Muscat's memory in a 2023 ABC interview, not an official statistic.",
+        "The $100 first-day figure is Muscat's recollection ('like $100 or something') and may be in US or Australian dollars.",
+        "The ABC (2023) says the game was finished in six weeks; TechCrunch (2013) says it 'only took a few months to make'.",
+        "Halfbrick's work on the Game Boy Advance Ty games comes only from Wikipedia's list of Halfbrick games.",
+        "Fruit Ninja's presence at Game Masters in Melbourne in 2012 rests on a visitor's report and Wikipedia; ACMI's own pages were not opened."
+      ],
+      "playable": true,
+      "id": "fruit-slice",
+      "title": "Fruit Slice",
+      "era": "2010s",
+      "year": 2010,
+      "yearLabel": "2010",
+      "stamp": "2010",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Touch: swipe across the fruit. Mouse: hold the left button and drag. Keyboard: press the letter shown on a fruit (turn on Letter keys, or just start typing). P or Escape pauses.",
+      "computer": "Your swipe is a line made of lots of short pieces: every time your finger moves, the computer joins the last point to the new one. For each fruit it finds the spot on that short piece that is closest to the middle of the fruit. If that spot is closer than the fruit's radius, the line went through the fruit, so it is sliced, and the two halves fly apart at the angle of your swipe. The computer throws the fruit with real physics too. To make a fruit rise to a height h against gravity g, it throws it upwards at a speed of the square root of 2 times g times h, then picks a sideways speed so the fruit reaches its highest point inside the screen. Fruit comes in waves. For each wave the computer picks how many fruit, a pattern (all at once, one after another, or from both sides) and sometimes a cloud. As your score grows (or the Arcade clock runs down) the waves get bigger and quicker and bring more clouds.",
+      "adaptation": "The 2010 game was made for touchscreen phones and used bombs as the thing to avoid. Ours uses a grumpy cloud instead, and the cloud ends the round in both modes. The fruit are our own drawings in a flat 2010s style. Mouse dragging works as well as touch, and Letter keys lets keyboard players slice by typing, with the fruit flying a little slower so there is time to read the letters.",
+      "origin": "Mechanics of Fruit Ninja by Halfbrick Studios, Brisbane, Australia",
+      "tagline": "Swipe fast, slice the fruit.",
+      "blurb": "Swipe across the screen to slice fruit tossed into the air, chain combos and dodge the grumpy cloud, like Fruit Ninja, the 2010 touchscreen game made in Brisbane."
+    },
+    {
+      "story": [
+        "In January 2021 a simple web game swept China. Its name, Hechengdaxigua, means 'combine a big watermelon'. Players dropped fruit into a box, and two matching fruits that touched merged into a bigger one, all the way up to a watermelon. It ran inside the messaging app WeChat, and more than 40 million people played it in its first week. Its code was shared online, so people made their own versions with kittens, pop stars and even university badges.",
+        "In April 2021 the Japanese company Aladdin X put its own version, Suika Game, onto its popIn Aladdin ceiling projectors. Suika means watermelon in Japanese. Owners liked it, so in December 2021 Aladdin X released it for the Nintendo Switch in Japan for 240 yen. For almost two years it sold quietly.",
+        "Then in September 2023 Japanese streamers, including VTubers who appear online as cartoon characters, started playing it live, and millions watched. Aladdin X said daily downloads jumped to more than 50,000 times what they had been. On 20 October 2023 it was released in the Americas, and the game was the most downloaded on Japan's Nintendo eShop in both 2023 and 2024. By October 2024 it had been downloaded 11 million times.",
+        "Melon Drop plays like Suika Game, the 2021 watermelon game from Aladdin X in Japan, which grew out of a Chinese web game. Like Doubles in the hall next door, it is all about merging two of a kind, and the fruit are our own drawings. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Press Start. A fruit hangs from the dropper above the glass jar.",
+        "Move the dropper with the mouse, your finger or the arrow keys, then drop the fruit.",
+        "When two of the same fruit touch, they squash together into the next fruit up and you score points.",
+        "The fruit grow from cherry to strawberry, plum, mandarin, apple, lemon, peach, pineapple, rockmelon and honeydew melon, all the way to watermelon. Two watermelons together make a melon party!",
+        "Watch the Next circle to plan ahead. Keep big fruit near big fruit and small fruit near small fruit.",
+        "If fruit stays above the dashed line for a few seconds, the jar is full and the game is over."
+      ],
+      "didYouKnow": [
+        "Suika Game has 11 fruits, from a cherry to a watermelon, but you can only ever drop the five smallest. Every bigger fruit has to be made by merging.",
+        "When two watermelons touch, they both vanish, which clears lots of room.",
+        "In China the craze gave people a new greeting: 'How many watermelons did you combine today?'",
+        "One reviewer described Suika Game as '2048 with physics'."
+      ],
+      "sources": [
+        {
+          "title": "Millions of Chinese netizens grow addicted to producing virtual watermelons in new viral mobile game that attracted 40 million users in a week, Global Times, 1 February 2021",
+          "url": "https://www.globaltimes.cn/page/202102/1214625.shtml",
+          "note": "Hechengdaxigua (lit: combine watermelon), played on WeChat; more than 40 million players within one week; first launched on 22 January; new greeting 'How many watermelons did you combine today?'"
+        },
+        {
+          "title": "Nearly 80 Million People are Playing a Mobile Game About Watermelons Right Now, RADII, February 2021",
+          "url": "https://radii.co/article/synthetic-watermelon",
+          "note": "Synthetic Watermelon on WeChat, 'like a mix of 2048 and Tetris'; almost 80 million players after 10 days according to its website; code available on GitHub; spin-offs with celebrities, kittens, university logos and Ultraman."
+        },
+        {
+          "title": "Nintendo Switch exclusive Suika Game is so addictive its previous daily sales have multiplied by fifty thousand, AUTOMATON WEST, 5 October 2023",
+          "url": "https://automaton-media.com/en/news/20231005-22096/",
+          "note": "Released December 2021 by popIn; first a built-in app for the popIn Aladdin projector; 240 yen; boom on Twitch from 15 September 2023; Aladdin X told Nippon TV daily downloads rose more than 50,000 times; compared with Threes!."
+        },
+        {
+          "title": "The Nintendo Switch dark horse Suika Game finally gets US release, AUTOMATON WEST, 23 October 2023",
+          "url": "https://automaton-media.com/en/news/20231023-22458/",
+          "note": "Released on 20 October 2023 in the US and the North, Central and South American regions; fruit order from cherry to watermelon; 1 million downloads by 5 October; popular with Japanese influencers and streamers from about September."
+        },
+        {
+          "title": "The Viral Nintendo Switch Hit 'Suika Game' Is Now Officially Available on the App Store in Japan, TouchArcade, 1 January 2024",
+          "url": "https://toucharcade.com/2024/01/01/suika-game-mobile-download-official-app-store-japan-release-date-aladdin-x-android/",
+          "note": "Popular thanks to VTubers such as Korone; over 5 million downloads; most downloaded game on the Japanese eShop for 2023."
+        },
+        {
+          "title": "Critics week: the unexpected genius of Suika Game, Nicole Carpenter, Mobilegamer.biz",
+          "url": "https://mobilegamer.biz/critics-week-nicole-carpenter-on-the-unexpected-genius-of-suika-game/",
+          "note": "Aladdin X was spun out of the Japanese projector company popIn; launched in 2021 for a projector, inspired by a Chinese browser game; 'Nothing larger than an orange can be placed outright.'"
+        },
+        {
+          "title": "Suika Game, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Suika_Game",
+          "note": "popIn Aladdin release April 2021, Switch in Japan 9 December 2021, worldwide 20 October 2023; 11 fruits from cherry to watermelon, only the five smallest can be dropped; two watermelons vanish; concept from the Chinese game Merge Big Watermelon (January 2021); VTubers; most downloaded eShop game in Japan in 2023 and 2024; 11 million downloads by October 2024; Nintendo Life called it '2048 with physics'."
+        }
+      ],
+      "uncertainties": [
+        "Player numbers for the Chinese game differ: more than 40 million in a week (Global Times) and almost 80 million after 10 days (RADII, quoting the game's website).",
+        "Wikipedia names the Chinese game's maker as the company Meadow Science; this was not checked in another source.",
+        "The 11 million download figure (October 2024) comes from Wikipedia only.",
+        "Automaton reported the October 2023 release for the Americas; Wikipedia calls it a worldwide release. The story says the Americas.",
+        "The city where Aladdin X is based was not confirmed, so the origin says only Japan."
+      ],
+      "playable": true,
+      "id": "melon-drop",
+      "title": "Melon Drop",
+      "era": "2020s",
+      "year": 2021,
+      "yearLabel": "2021",
+      "stamp": "2021",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ],
+      "controls": "Mouse: move to aim, click to drop. Touch: touch the jar, slide to aim and let go to drop, or use the arrow and Drop buttons below. Keyboard: Left and Right arrows (or A and D) to aim, Space or the Down arrow to drop. P pauses.",
+      "computer": "Every fruit is a circle, and the computer moves time forward 60 times a second in 8 tiny steps. In each tiny step it pulls every fruit down a little (gravity), then checks every pair of fruit. Two circles overlap when the distance between their centres is less than their two radii added together. When they do, the computer pushes them apart along the line between their centres. A big fruit counts as heavier, so it moves less than a small one. It also rubs away a little of their sideways sliding, which is friction. Any fruit poking through the glass is put straight back inside, and because the steps are so tiny, nothing can ever move far enough in one step to jump through a wall or another fruit. When every fruit has been still for a little over half a second, the computer lets the whole jar rest, so the pile sits perfectly calm until the next fruit lands. If two touching fruit are the same, the computer swaps them for the next fruit up, halfway between them, and it grows to full size in a blink so it nudges its neighbours instead of blasting them away. The points follow the triangle numbers 1, 3, 6, 10, 15 and so on: each new fruit is worth one more than the jump before.",
+      "adaptation": "The 2021 game from Japan drops fruit into a box and merges matching pairs. Ours keeps that mechanic with eleven fruit of our own (with friendly faces and an Australian rockmelon), a glass jar, a fruit ladder that shows how far you have grown, and a dashed line that warns you before the jar overflows. The dropper only ever holds one of the five smallest fruit, so the big ones have to be grown. The circle physics is written from scratch for this site.",
+      "origin": "Mechanics of Suika Game by Aladdin X, Japan",
+      "tagline": "Drop, bump, merge, grow.",
+      "blurb": "Drop fruit into a jar so that matching fruit bump together and merge into bigger fruit, like Suika Game, the 2021 watermelon puzzle from Japan."
     }
   ],
   "kids": [
@@ -5740,11 +6009,27 @@ window.GIT_CONTENT = {
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
       },
       {
+        "gameId": "cave-copter",
+        "title": "Gravity in a loop",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Cave Copter and notice how the craft speeds up as it falls and slows as it climbs. On grid paper, students start a dot at height 10 with speed 0. Each step they add the 'gravity' of -1 to the speed (or +2 while 'holding'), then add the speed to the height, and plot the new height. They act out 12 steps with a partner calling 'hold' or 'let go'. The plotted line curves just like the flight. Finish with the Then panel on the Helicopter Game and Flash.",
+        "computerAngle": "A game loop runs about 60 times a second. Each time, the program updates the craft's vertical speed (add gravity, or add lift while the button is held), then adds the speed to the position, then checks for a collision with the cave. This is called a simulation: small steps repeated quickly look like smooth movement. The cave itself can be made by a random walk: each new slice of roof moves up or down a little from the last one, kept inside limits so there is always a gap to fly through.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
         "gameId": "doubles",
         "title": "Doubling all the way to 2048",
         "yearLevels": "Years 5 to 8",
         "idea": "Play Doubles on the small 3 by 3 board, then switch on teaching mode so each tile also shows a power of two. Students record the tiles they make as 2, 2 squared, 2 cubed and so on, and notice that joining two equal tiles adds one to the power. In pairs, they predict how many 2 tiles it takes to build one 2048 tile (1,024 of them) and check the biggest tile a 4 by 4 board could ever hold (2 to the 17th, 131,072). Finish with the Then panel: Gabriele Cirulli built 2048 in one weekend in 2014.",
         "computerAngle": "The board is stored as a 4 by 4 grid of numbers, with 0 for an empty square. To slide one row to the left, the program first squeezes out the zeros, then walks along the row: if two neighbouring tiles are equal it replaces them with one tile of double the value and skips ahead, so a tile can merge only once per move. Then it fills the end of the row with zeros again. Sliding right, up or down uses the same steps on a reversed row or on a column. After any move that changed the board, the program picks a random empty square and puts a 2 there nine times out of ten and a 4 one time in ten. The game is over when there are no empty squares and no equal neighbours. This is an algorithm with a loop (walk along the row) and a decision (are these two tiles equal?).",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "fruit-slice",
+        "title": "Did my swipe hit the fruit?",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Fruit Slice with a finger or a mouse. Then, on grid paper, draw a piece of fruit as a circle and a swipe as a straight line between two dots. Students measure the shortest distance from the circle's centre to the line and decide: hit or miss? Next they draw a fast swipe (dots far apart) and a slow one (dots close together) and discuss why a very fast swipe could jump right over a small fruit if the game only checked the dots. Finish with the Then panel: Luke Muscat and Joe Gatling built Fruit Ninja in six weeks in Brisbane.",
+        "computerAngle": "A touchscreen does not report a smooth line. Many times a second it reports where your finger is, so a swipe is really a list of points. The game joins each new point to the one before it to make a short straight segment, then checks every fruit against that segment: if the shortest distance from the fruit's centre to the segment is less than the fruit's radius, the fruit is sliced. Checking the whole segment, not just the points, is what stops fast swipes from missing. The fruit fly in curves because, every frame, the program adds each fruit's speed to its position and takes a little away from its upward speed, which is how gravity is simulated. A combo is simply a count of how many fruit one swipe has hit.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
       },
       {
@@ -5778,6 +6063,14 @@ window.GIT_CONTENT = {
         "idea": "Play the daily Four Groups puzzle together on the board, voting on each group. Then teams write their own puzzle: four categories from a topic the class is studying, four words in each, and at least one red herring, a word that seems to fit two groups. Teams swap puzzles, solve them and colour each group from yellow (easiest) to purple (hardest). Finish with the Then panel: Wyna Liu keeps a notebook of category ideas and takes about two hours to build a board.",
         "computerAngle": "Each puzzle is stored as data: four groups, each with a name, a colour and a set of four words. When you submit four tiles, order does not matter, so the program checks whether your four words are exactly the same set as one of the groups. A game can also count how many of your four words belong to the same group, which is how it could tell you that you are one away. The 16 tiles are shuffled with the Fisher-Yates method: go through the tiles from last to first and swap each one with a randomly chosen tile at or before it, which makes every order equally likely.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "melon-drop",
+        "title": "When do two circles touch?",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Melon Drop for five minutes and watch what happens when two of the same fruit touch. On grid paper, draw pairs of circles, measure the distance between their centres with a ruler and compare it with their two radii added together. Students discover the rule: two circles touch or overlap when the distance between their centres is less than or equal to the sum of their radii. Older students can work out the distance from coordinates using Pythagoras' theorem. Finish with the Then panel: the game began as a Chinese web game in January 2021.",
+        "computerAngle": "Every fruit is a circle with a centre (x, y) and a radius. Many times a second the program moves each fruit a little: it adds gravity to its downward speed, then adds its speed to its position. Then it checks every pair of fruit. It works out the distance between their centres with Pythagoras' theorem (the square root of the across difference squared plus the up-and-down difference squared). If that distance is less than the two radii added together, the fruit overlap, so the program pushes them apart along the line joining their centres. If they are the same kind, it removes both and puts one fruit of the next size halfway between them, and adds points. Repeating the push-apart step a few times each frame lets a big pile settle without jiggling.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
       },
       {
         "gameId": "prowl",
