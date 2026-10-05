@@ -1,0 +1,13 @@
+{
+  "howToPlay": [
+    "The four pink marbles are the pigs. They start outside the three rings.",
+    "Tilt the box so a pig rolls round its track to the gap, then tip it through into the next ring.",
+    "Work each pig inwards until it drops into the pen in the middle.",
+    "Pigs already in the pen can roll back out if you tilt too far, so go gently.",
+    "You win when all four pigs are in the pen at the same time. Narrow gaps is the harder setting."
+  ],
+  "controls": "Arrow keys or W A S D tilt the box (hold Shift for a gentle tilt). With a mouse or finger, press and hold on the box where you want the pigs to roll. On a phone or tablet, press Tilt your device and tip it gently.",
+  "computer": "",
+  "players": ["solo"],
+  "notes": "In the real toy you held the little round box in your hands and tilted it. Here you tilt it with the keys, by pressing on the box, or with the tilt sensor of a phone or tablet. No source we opened says how many marbles came in the box (four is the number usually given), so this version uses four. The gaps move to new places each game. The rolling is a computer simulation: gravity follows the tilt, the marbles slow down as they roll and bounce off the rings and each other. It is not a measurement of Crandall's original."
+}

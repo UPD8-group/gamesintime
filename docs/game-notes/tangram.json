@@ -1,0 +1,13 @@
+{
+  "howToPlay": [
+    "Pick a puzzle from the puzzle book. Each black shape is made from all seven pieces: two large triangles, a medium triangle, two small triangles, a square and a parallelogram.",
+    "Drag the pieces out of the box onto the shape. A piece clicks into place when one of its corners lands on a corner of the shape or of another piece.",
+    "Turn a piece by double-tapping it, or with the turn buttons. Flip turns the parallelogram over.",
+    "Cover the whole shape exactly: every piece used, none overlapping, nothing sticking out.",
+    "Stuck? Hint slides one piece into its place, but it costs a star. Solve a puzzle with no hints for three stars."
+  ],
+  "controls": "Drag pieces with a mouse or finger. Double-tap a piece, or use the ↺ and ↻ buttons, to turn it. Keyboard: Tab picks a piece, arrow keys move it (Shift for bigger steps), R turns it (Shift R the other way), F flips the parallelogram, Enter drops it into place, H gives a hint.",
+  "computer": "",
+  "players": ["solo"],
+  "notes": "The rules are the rules of 1817: use all seven pieces, no overlaps, turn any piece and flip the parallelogram. To make an exact fit possible with a mouse or finger, pieces turn in 45 degree steps and snap to a fine grid and to the corners of the picture. The 18 silhouettes (three letters, a cottage, a candle, a sailing boat, a teapot, a cat, a rabbit, a swan, a runner, a waving man, the square and others) are our own designs in the spirit of the 1817 puzzle books such as The Fashionable Chinese Puzzle, not copies of particular book pages. Each one was built from a known placement of the seven pieces and checked by a small computer program (right shapes, no overlaps, all seven used), so every puzzle can be solved exactly. The game checks your answer by sampling the board: the pieces must cover at least 98 per cent of the shape with no overlap and nothing outside, so a different arrangement that fills the shape also counts. Hints, stars and the timer are additions for the online version. History sources: Wikipedia, Tangram; the Puzzle Museum, 1817 Tangram Puzzle; Yale Center for British Art, The fashionable Chinese puzzle."
+}

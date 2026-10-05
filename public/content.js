@@ -130,11 +130,12 @@ window.GIT_CONTENT = {
         "Through the 1800s cheap wooden versions made it a toy for ordinary children too. The V&A holds an English turned-wood cup and ball from 1880 to 1900, painted with red rings, that belonged to a girl born in 1881. Japan's kendama, with three cups and a spike, may descend from the same French toy, though some say it reached Japan from China; it took its modern shape in 1919 in the city of Kure."
       ],
       "howToPlay": [
-        "Hold the handle upright with the cup facing up and let the ball hang still on its string.",
-        "Bend your knees, then straighten quickly so the ball rises straight up above the cup.",
-        "Watch the ball and move the cup underneath it as it falls. Catch softly by dipping the cup as the ball lands.",
-        "Count your catches in a row. Jane Austen managed more than a hundred.",
-        "Expert level: if your toy has a spike and the ball has a hole, turn the handle over and try to catch the ball on the spike."
+        "Press Start for a 60-second round. The ball hangs on its string below the toy.",
+        "Drag the cup with a finger or the mouse and flick it upwards to toss the ball, just like jerking the handle of a real cup and ball. You can also press Up or Space.",
+        "Move the cup under the falling ball to catch it, then toss again straight from the cup to keep a run going.",
+        "Catches in a row multiply your points, up to five times. A miss ends the run of catches but not the round.",
+        "The expert catch: press Flip or F to turn the toy over, toss the ball straight up and land its hole on the spike for 50 points.",
+        "Unlock all eight tricks, including the Hat-trick, Round the world (swing the ball in a full loop, then catch it) and Jane Austen's point."
       ],
       "didYouKnow": [
         "King Henri III of France was often seen playing cup and ball in public in the 1580s.",
@@ -201,7 +202,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "action"
+      "type": "action",
+      "controls": "Drag the cup and flick it up to toss. Keys: Left and Right move, Up or Space tosses, F or Down flips the toy, P pauses. The Toss and Flip buttons under the board work too.",
+      "adaptation": "The toy is simulated: the string stops the ball going further than its length, and the cup follows your finger on a stiff spring, so a quick flick tosses the ball just as a jerk of the wrist does. The ball's hole points away from the string while it is pulled, so a clean, straight toss is the way to land it on the spike, as on a real bilboquet. The 60-second round, points and combos are added to make it a game; in real life you count catches in a row. Jane Austen was said to manage more than a hundred on the point."
     },
     {
       "id": "hopscotch",
@@ -369,12 +372,12 @@ window.GIT_CONTENT = {
         "In 1864 the computer pioneer Charles Babbage joined the campaign, complaining that iron hoops driven under horses' legs threw riders. He was mocked in the House of Commons for his \"crusade against the popular game of tip-cat and the trundling of hoops\". Rolling a hoop on a footpath had in fact been an offence in London since the Metropolitan Police Act of 1839, and in other English towns from 1847, but the complaints kept coming. Children in England were still bowling wooden hoops in the early 1900s."
       ],
       "howToPlay": [
-        "Find a large hoop (a wooden one is lighter and safer) and a short stick about 30 centimetres long.",
-        "Stand the hoop upright, give it a push to start it rolling, and run alongside it.",
-        "Tap the back of the hoop with your stick to keep it rolling and steer it by tapping it on one side.",
-        "See how far you can go without the hoop falling over, or race a friend over a set distance.",
-        "Try tricks: roll it around a tree, through a gateway, or over a bump without it toppling.",
-        "Play in a park or playground, not on a road or footpath, which is exactly what the Victorians complained about."
+        "Press Start. Your hoop starts rolling down a Victorian street and you run along behind it.",
+        "Tap the street, click or press Space to strike the back of the hoop with your stick, the way children tapped their hoops along.",
+        "Watch the speed gauge and keep the needle in the green. Too slow and the hoop wobbles and falls over. Too fast and it runs away from you and crashes.",
+        "Swipe up, or press Up or W, to jump puddles, dropped parcels, sleeping dogs and cart ruts.",
+        "Your distance is counted in yards. Every 100 yards the street gets faster and busier.",
+        "Try to beat your best distance on Easy, Medium or Hard."
       ],
       "didYouKnow": [
         "An ancient Greek doctor, Antyllus, wrote that rolling a hoop was good medicine for body and mind.",
@@ -420,7 +423,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "action"
+      "type": "action",
+      "controls": "Tap the street, click or press Space to strike. Swipe up, or press Up or W, to jump. The Strike and Jump buttons under the street work too. P pauses.",
+      "adaptation": "A real hoop stays upright because it is moving: slow down and it wobbles and topples, push too hard and it gets away from you. The game keeps that feel with a speed gauge and a steady rhythm of strikes. Real hoop-bowlers steered round puddles and bumps by tapping the side of the hoop; because the street is seen from the side, a jump stands in for that steering. The hoop rolls on the cobbled road rather than the footpath, because rolling a hoop on a London footway was an offence from 1839. Today, bowl a real hoop in a park or playground, never on a road. Distances are in yards, as on a Victorian street."
     },
     {
       "id": "knucklebones",
@@ -2056,11 +2061,12 @@ window.GIT_CONTENT = {
         "Theatres staged a diabolo ballet and songwriters published diabolo tunes, nearly all dated 1907. The craze crossed to Britain, where C. B. Fry had already written about the toy in 1906. It had a dangerous side too. Injuries to players and passers-by were reported, and the Paris police chief Louis Lepine banned the game in the streets of Paris."
       ],
       "howToPlay": [
-        "Lay the diabolo on the ground in front of you with the string under it. Hold one stick in each hand.",
-        "Lift it and roll it along the string, then move your right hand up and down to make it spin. Keep the string a little slack so it spins faster.",
-        "If it tips forward or back, move the leading stick in the direction of the tilt to level it.",
-        "Once it is spinning fast, pull both sticks apart sharply to toss it into the air.",
-        "Catch it on the string by pointing one stick at the falling diabolo and letting it slide down, then keep spinning."
+        "Press Start. The diabolo sits on the string between your two sticks, turning slowly.",
+        "Spin it up by pulling the left stick, then the right, then the left again, in a steady beat. Tap the left and right halves of the picture, or press A and D (or Left and Right).",
+        "Steady, alternating pulls fill the spin meter. Pulling the same side twice, or a jerky beat, makes it tilt. Spin fades, and a slow diabolo wobbles and falls off.",
+        "When the meter is past the line, toss it with Space, Up or a swipe up. More spin sends it higher.",
+        "While it flies, move your sticks under it with the mouse, a finger or the arrow keys, and catch it on the string. Higher tosses and level catches in the middle of the string score more.",
+        "Keep going as long as you can, because a drop ends the run. Unlock tricks such as the Double toss and Catch on the run."
       ],
       "didYouKnow": [
         "The old name was the devil on two sticks. The Oxford Dictionary traces diabolo to the Latin diabolus, meaning devil.",
@@ -2119,7 +2125,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "action"
+      "type": "action",
+      "controls": "Tap the left and right halves of the picture, or press A and D (or Left and Right), to pull. Space, Up or a swipe up tosses. While it flies, move the sticks with the mouse, a finger or the arrow keys. The Left, Toss and Right buttons work too. P pauses.",
+      "adaptation": "On a real diabolo you spin it by lifting one stick sharply and letting the other follow, and you level a tilt by moving one stick forward or back. Here the pulls are split into left and right so you can feel the beat on a keyboard or a touch screen, and tilt comes from uneven or same-side pulls instead. To catch, real players pull the sticks apart so the string is tight, which the game does for you when you toss. Spin, tilt and the toss use simplified physics, and toss heights are shown in feet, as in 1907."
     },
     {
       "id": "jigsaw-puzzle",
