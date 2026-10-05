@@ -299,7 +299,7 @@
     types.forEach(function (tp) { filterBar.appendChild(h('button', { type: 'button', 'data-f': tp[0], 'aria-pressed': 'false', onclick: function () { filterState = tp[0]; store.set('filter', filterState); drawGrid(); } }, tp[1])); });
     drawGrid();
     var el = h('div', null,
-      hero({ imageId: 'home', height: '88vh', phoneHeight: '56vh', badge: all.length + ' games from 1800 to 1919. All free.', title: 'Play the games kids played', gold: 'a hundred years ago.', lede: site.lede,
+      hero({ imageId: 'home', height: '88vh', phoneHeight: '56vh', badge: all.length + ' games from 1800 to 1989. All free.', title: 'Play the games kids played,', gold: 'from candlelight to neon.', lede: site.lede,
         actions: [h('a', { class: 'pill pill--gold', href: '#games' }, '▶ Start playing'), h('button', { class: 'pill pill--light', type: 'button', onclick: surprise }, 'Surprise me ', h('span', { class: 'arrow', 'aria-hidden': 'true' }, '→'))] }),
       h('section', { class: 'section', 'aria-labelledby': 'halls-title' },
         h('div', { class: 'section-head' }, h('p', { class: 'label' }, 'Pick a decade'), h('h2', { id: 'halls-title' }, 'Step through time')),
@@ -521,7 +521,7 @@
       h('section', { class: 'info' },
         h('div', { class: 'icard icard--wide' }, h('div', { class: 'prose stack' },
           h('p', { class: 'pull' }, 'What did kids my age play a hundred years ago, and could we play those games today?'),
-          h('p', null, 'That question, from a thirteen-year-old, is the whole site. Every game here was played by children between 1800 and 1919, and every one of them is playable right here, for free.'),
+          h('p', null, 'That question, from a thirteen-year-old, is the whole site. Every game here was played by children between 1800 and the 1980s, and every one of them is playable right here, for free.'),
           h('p', null, 'Beside each game is its true story: the year, where it came from, who played it, and the sources we used. Every hall also tells you what it was like to be twelve in that decade.'))),
         h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Our rules for the history'), h('ul', { class: 'facts' },
           h('li', null, 'Every date and story is checked against sources we actually read, and the sources are listed on the page.'),
