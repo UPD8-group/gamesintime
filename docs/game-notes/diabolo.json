@@ -1,0 +1,14 @@
+{
+  "howToPlay": [
+    "Press Start. The diabolo sits on the string between your two sticks, turning slowly.",
+    "Spin it up by pulling the left stick, then the right, then the left again, in a steady beat. Tap the left and right halves of the picture, or press A and D (or Left and Right).",
+    "Steady, alternating pulls fill the spin meter. Pulling the same side twice, or a jerky beat, makes it tilt. Spin fades, and a slow diabolo wobbles and falls off.",
+    "When the meter is past the line, toss it with Space, Up or a swipe up. More spin sends it higher.",
+    "While it flies, move your sticks under it with the mouse, a finger or the arrow keys, and catch it on the string. Higher tosses and level catches in the middle of the string score more.",
+    "Keep going as long as you can, because a drop ends the run. Unlock tricks such as the Double toss and Catch on the run."
+  ],
+  "controls": "Tap the left and right halves of the picture, or press A and D (or Left and Right), to pull. Space, Up or a swipe up tosses. While it flies, move the sticks with the mouse, a finger or the arrow keys. The Left, Toss and Right buttons work too. P pauses.",
+  "computer": "",
+  "players": ["solo"],
+  "notes": "On a real diabolo you spin it by lifting one stick sharply and letting the other follow, and you level a tilt by moving one stick forward or back. Here the pulls are split into left and right so you can feel the beat on a keyboard or a touch screen, and tilt comes from uneven or same-side pulls instead. To catch, real players pull the sticks apart so the string is tight, which the game does for you when you toss. Spin, tilt and the toss use simplified physics, and toss heights are shown in feet, as in 1907."
+}
