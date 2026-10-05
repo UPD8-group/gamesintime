@@ -54,6 +54,7 @@
     '.game-trail .machine-controls { display: flex; justify-content: center; gap: 12px; margin-top: 18px; }',
     '.game-trail .scanlines { position: absolute; inset: 0; border-radius: inherit; pointer-events: none; background: repeating-linear-gradient(rgba(0, 0, 0, 0.22) 0px, rgba(0, 0, 0, 0.22) 1px, transparent 1px, transparent 3px); z-index: 6; }',
     '.game-trail .trail-canvas { display: block; width: 100%; height: auto; touch-action: none; }',
+    '/* Block page scrolling over the screen only while a game runs, so a finger can still scroll past an idle machine on a phone. */ .game-trail:not(.is-running) .trail-canvas { touch-action: auto; }',
     '.game-trail .phosphor-cabinet { width: min(420px, 100%); border-radius: 20px; padding: 20px; background: linear-gradient(168deg, #3a423b, #232922 70%); border: 1px solid rgba(255, 255, 255, 0.07); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 26px 60px rgba(0, 0, 0, 0.5); }',
     '.game-trail .phosphor-screen { position: relative; border-radius: 12px; overflow: hidden; box-shadow: inset 0 0 36px rgba(0, 0, 0, 0.7); }',
     '.game-trail .dpad { display: grid; grid-template-columns: repeat(3, 58px); gap: 8px; justify-content: center; margin-top: 18px; }',
@@ -131,6 +132,7 @@
       function setRunning(v) {
         if (v === running) return;
         running = v;
+        root.classList.toggle('is-running', !!v);
         if (v) window.addEventListener('keydown', onKey);
         else window.removeEventListener('keydown', onKey);
       }

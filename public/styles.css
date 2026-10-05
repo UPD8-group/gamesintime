@@ -169,6 +169,11 @@ button { cursor: pointer; }
   .surprise-icon { display: inline-grid; }
   .circle-btn { width: 44px; height: 44px; }
 }
+/* very narrow phones: Surprise me moves into the menu so the menu button always fits */
+@media (max-width: 380px) {
+  .surprise-icon { display: none !important; }
+  .brand { font-size: .98rem; }
+}
 
 /* ---------- menu ---------- */
 .menu { position: fixed; inset: 0; z-index: 150; background: color-mix(in srgb, var(--bg) 97%, black); overflow-y: auto; padding: calc(5.5rem + env(safe-area-inset-top, 0px)) var(--gutter) 3rem; }

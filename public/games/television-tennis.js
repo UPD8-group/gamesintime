@@ -41,6 +41,7 @@
     '.game-television-tennis .tennis-cabinet { max-width: 720px; }',
     '.game-television-tennis .tv-screen { position: relative; border-radius: 18px; background: #080604; overflow: hidden; box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.85), inset 0 0 50px rgba(0, 0, 0, 0.7); }',
     '.game-television-tennis .tennis-canvas { display: block; width: 100%; height: auto; touch-action: none; }',
+    '/* Block page scrolling over the screen only while a game runs, so a finger can still scroll past an idle machine on a phone. */ .game-television-tennis:not(.is-running) .tennis-canvas { touch-action: auto; }',
     '@media (max-width: 720px) { .game-television-tennis .tv-cabinet { padding: 14px; } }'
   ].join('\n');
 
@@ -94,6 +95,7 @@
       }
       function setRunning(v) {
         running = v;
+        root.classList.toggle('is-running', !!v);
         if (running) setText(startBtn, 'Restart');
         else if (startBtn.textContent !== '▶ Start') startBtn.replaceChildren(h('span', { 'aria-hidden': 'true' }, '▶'), ' Start');
         stopBtn.disabled = !running;

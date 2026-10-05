@@ -1,0 +1,13 @@
+{
+  "howToPlay": [
+    "The matches are laid out in rows: 3, 5 and 7 to start with. You can also choose rows of 1, 3, 5 and 7, or random rows.",
+    "On your turn, take as many matches as you like, but all from one row. You must take at least one.",
+    "Tap a match to choose it and every match to its right, then press Take.",
+    "In the normal game, whoever takes the last match wins. Tick Last match loses for the misère game, where whoever takes the last match loses.",
+    "Tick Show the secret to see the binary trick the computer uses, then try it yourself."
+  ],
+  "controls": "Tap or click a match to choose it and the matches to its right; tap it again to clear your choice. Then press Take. Keyboard: Tab to the matches, move with the arrow keys, press Enter or Space to choose, then press Tab once to reach Take and press Enter.",
+  "computer": "On Perfect, the computer writes the number of matches in each row in binary and adds the columns without carrying. That total is called the Nim-sum. If the Nim-sum is not 0 on its turn, it takes matches to make the Nim-sum 0, and from there it can always win. If the Nim-sum is already 0 on its turn, it cannot force a win, so it takes one match from the biggest row and waits for you to slip. In the misère game it plays the same way until only one row has more than one match. Then it changes plan and leaves an odd number of single matches, so you are the one left with the last match. On Easy, it picks a row at random and takes a random number of matches from it. It waits about a third of a second before each move, so you can see what you just did.",
+  "players": ["vs computer", "2 players"],
+  "notes": "The normal game, where taking the last match wins, is the one Charles Bouton solved in 1901. The misère game, where taking the last match loses, is the version played with rows of 1, 3, 5 and 7 in the 1961 film Last Year at Marienbad. Nim was played with matches, stones or coins on a table; online you tap the matches and press Take instead of picking them up. Show the secret is our addition, so players can learn Bouton's binary method while they play."
+}

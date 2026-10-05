@@ -54,6 +54,7 @@
     '.game-starfall .machine-controls { display: flex; justify-content: center; gap: 12px; margin-top: 18px; }',
     '.game-starfall .scanlines { position: absolute; inset: 0; border-radius: inherit; pointer-events: none; background: repeating-linear-gradient(rgba(0, 0, 0, 0.22) 0px, rgba(0, 0, 0, 0.22) 1px, transparent 1px, transparent 3px); z-index: 6; }',
     '.game-starfall .starfall-canvas { display: block; width: 100%; height: auto; touch-action: none; }',
+    '/* Block page scrolling over the screen only while a game runs, so a finger can still scroll past an idle machine on a phone. */ .game-starfall:not(.is-running) .starfall-canvas { touch-action: auto; }',
     '.game-starfall .starfall-cabinet { width: 100%; max-width: 560px; border-radius: 22px; padding: 20px; background: linear-gradient(168deg, #2b3a42, #182227 70%); border: 1px solid rgba(255, 255, 255, 0.07); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 26px 60px rgba(0, 0, 0, 0.5); }',
     '.game-starfall .starfall-screen { position: relative; border-radius: 14px; overflow: hidden; box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.65); }'
   ].join('\n');
@@ -138,6 +139,7 @@
       function setRunning(v) {
         if (v === running) return;
         running = v;
+        root.classList.toggle('is-running', !!v);
         if (v) {
           window.addEventListener('keydown', onKeyDown);
           window.addEventListener('keyup', onKeyUp);

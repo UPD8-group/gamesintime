@@ -46,6 +46,7 @@
     '.game-drifter .neon-cabinet { width: 100%; max-width: 560px; border-radius: 20px; padding: 18px; background: linear-gradient(165deg, #1b1140, #0d0722 76%); border: 1px solid rgba(255, 46, 151, 0.35); box-shadow: 0 0 0 1px rgba(5, 217, 232, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 26px 60px rgba(0, 0, 0, 0.55); }',
     '.game-drifter .neon-screen { position: relative; border-radius: 12px; overflow: hidden; box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.7); }',
     '.game-drifter .neon-canvas { display: block; width: 100%; height: auto; touch-action: none; }',
+    '/* Block page scrolling over the screen only while a game runs, so a finger can still scroll past an idle machine on a phone. */ .game-drifter:not(.is-running) .neon-canvas { touch-action: auto; }',
     '.game-drifter .neon-scan { position: absolute; inset: 0; pointer-events: none; border-radius: inherit; background: repeating-linear-gradient(rgba(0, 0, 0, 0.18) 0px, rgba(0, 0, 0, 0.18) 1px, transparent 1px, transparent 3px); }',
     '.game-drifter .neon-btn { font-family: var(--font-mono); font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #f7f0ff; background: rgba(255, 46, 151, 0.1); border: 1px solid rgba(5, 217, 232, 0.5); border-radius: 10px; min-height: 48px; padding: 10px 6px; touch-action: manipulation; transition: background 0.12s, box-shadow 0.12s; }',
     '.game-drifter .neon-btn:active { background: rgba(5, 217, 232, 0.25); box-shadow: 0 0 14px rgba(5, 217, 232, 0.5); }',
@@ -119,6 +120,7 @@
       function setRunning(v) {
         if (v === running) return;
         running = v;
+        root.classList.toggle('is-running', !!v);
         startBtn.textContent = v ? 'Restart' : '▶ Start';
         stopBtn.disabled = !v;
         if (v) {

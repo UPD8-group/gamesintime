@@ -49,7 +49,8 @@
     '.game-brickfield .scanlines { position: absolute; inset: 0; border-radius: inherit; pointer-events: none; background: repeating-linear-gradient(rgba(0, 0, 0, 0.22) 0px, rgba(0, 0, 0, 0.22) 1px, transparent 1px, transparent 3px); z-index: 6; }',
     '.game-brickfield .bakelite-cabinet { width: 100%; max-width: 560px; border-radius: 22px; padding: 20px; background: linear-gradient(168deg, #2f2216, #1a120a 70%); border: 1px solid rgba(255, 255, 255, 0.06); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 26px 60px rgba(0, 0, 0, 0.5); }',
     '.game-brickfield .bakelite-screen { position: relative; border-radius: 14px; overflow: hidden; box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.65); }',
-    '.game-brickfield .brickfield-canvas { display: block; width: 100%; height: auto; touch-action: none; }'
+    '.game-brickfield .brickfield-canvas { display: block; width: 100%; height: auto; touch-action: none; }',
+    '/* Block page scrolling over the screen only while a game runs, so a finger can still scroll past an idle machine on a phone. */ .game-brickfield:not(.is-running) .brickfield-canvas { touch-action: auto; }'
   ].join('\n');
 
   GamesInTime.register({
@@ -103,6 +104,7 @@
       }
       function setRunning(v) {
         running = v;
+        root.classList.toggle('is-running', !!v);
         if (running) setText(startBtn, 'Restart');
         else if (startBtn.textContent !== '▶ Start') startBtn.replaceChildren(h('span', { 'aria-hidden': 'true' }, '▶'), ' Start');
         stopBtn.disabled = !running;

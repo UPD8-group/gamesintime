@@ -1,0 +1,13 @@
+{
+  "howToPlay": [
+    "Tap or click a tile next to the gap to slide it into the gap.",
+    "Shortcut: tap a tile further along the gap's row or column, and every tile between it and the gap slides one space.",
+    "Put the tiles in order, 1 to 15, reading across each row from the top, with the gap in the bottom right corner.",
+    "Each slide counts as one move, even when it moves several tiles. Try to finish in as few moves as you can. Your best for each size is saved on this device.",
+    "Want a quicker game? Choose the Eight puzzle (3 by 3). Feeling brave? Try the famous impossible 14-15 puzzle."
+  ],
+  "controls": "Tap or click a tile in the gap's row or column. Keyboard: Tab to a tile and press Enter or Space, or press an arrow key to slide the tile beside the gap in that direction (Left slides a tile left into the gap). New game shuffles the tiles.",
+  "computer": "There is no opponent. The computer only shuffles: it starts from the finished puzzle and makes hundreds of random slides (60 for every square on the board), so every puzzle it gives you can be solved. Half of all the ways to arrange the tiles can never be solved, and the 14-15 puzzle, with just 14 and 15 swapped, is one of them.",
+  "players": ["solo"],
+  "notes": "The 1880 puzzle was a small box of fifteen numbered wooden blocks that you pushed around with your fingers. Here you tap the tiles or use the keys. Tapping a tile further along the gap's row or column moves the whole line at once, as you could push several blocks together in the real box, and it counts as one move. In the real box the blocks could be lifted out and put back in any order, which is how impossible positions happened. This version always shuffles by sliding, so it never gives you an impossible puzzle unless you ask for the 14-15 one. The 3 by 3 Eight puzzle is a smaller version for a quicker game."
+}

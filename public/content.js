@@ -1059,7 +1059,7 @@ window.GIT_CONTENT = {
       "title": "Noughts and Crosses",
       "era": "1800s",
       "year": 1858,
-      "yearLabel": "Ancient; name first recorded 1858",
+      "yearLabel": "Name first printed 1858",
       "origin": "Played since ancient times; named in England",
       "blurb": "Three-in-a-row games are said to go back to ancient Egypt and Rome, but the name noughts and crosses was not printed until 1858.",
       "story": [
@@ -4136,7 +4136,7 @@ window.GIT_CONTENT = {
         "title": "Beat the computer at Nim with binary",
         "yearLevels": "Years 7 to 9",
         "idea": "Let pairs play Nim against the computer and lose a few times. Then teach the trick: write each heap size in binary, add the columns without carrying, and move so that every column sums to an even number. Pairs test the rule and should start winning whenever they get a position with an odd column. The Then panel explains that Charles L. Bouton of Harvard named the game and published its complete theory in 1901, that Westinghouse showed a Nim-playing machine, the Nimatron, at the New York World's Fair, and that Ferranti displayed a Nim-playing computer at the Festival of Britain in 1951.",
-        "computerAngle": "The computer wins with the nim-sum, the binary digital sum of the heap sizes with all carries ignored, which is the same as bitwise XOR. If the nim-sum is zero the player to move is losing; otherwise there is always a move that makes it zero. This is a direct, playable reason to represent integers in binary, and a student who has done the XOR by hand can trace the computer's next move exactly.",
+        "computerAngle": "The computer wins with the Nim-sum, the binary digital sum of the heap sizes with all carries ignored, which is the same as bitwise XOR. If the Nim-sum is zero the player to move is losing; otherwise there is always a move that makes it zero. This is a direct, playable reason to represent integers in binary, and a student who has done the XOR by hand can trace the computer's next move exactly.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
       },
       {

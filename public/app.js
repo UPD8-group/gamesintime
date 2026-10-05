@@ -591,6 +591,7 @@
       })),
       h('ul', { class: 'menu-links' },
         h('li', null, h('a', { class: 'pill pill--gold', href: href(['all']) }, 'All games')),
+        h('li', null, h('button', { class: 'pill pill--light', type: 'button', onclick: function () { closeMenu(); surprise(); } }, 'Surprise me')),
         h('li', null, h('a', { class: 'pill pill--ghost', href: href(['teachers']) }, 'For teachers')),
         h('li', null, h('a', { class: 'pill pill--ghost', href: href(['about']) }, 'About')))));
     menuEl.addEventListener('click', function (ev) { if (ev.target.closest('a')) closeMenu(); });
