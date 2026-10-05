@@ -4673,6 +4673,159 @@ window.GIT_CONTENT = {
       "origin": "Mechanics of bowling in Wii Sports by Nintendo, Kyoto, Japan",
       "tagline": "Aim, swing and knock them down.",
       "blurb": "Line up, add some spin and swing to roll the ball down the lane and knock down all ten pins, like bowling in Nintendo's 2006 game Wii Sports."
+    },
+    {
+      "story": [
+        "People built machines to play games long before anyone talked about machine learning. At the New York World's Fair in 1940, the Westinghouse company showed the Nimatron, a machine weighing more than a tonne that played Nim with rows of light bulbs. It won about 90,000 of the 100,000 or so games it played. But it never learned a thing. Its moves were wired into its relays, and its operators learned its few patterns so well that they could beat it whenever they liked. Nimrod, a Nim-playing computer designed by the Australian John Bennett for the Festival of Britain in 1951, also followed fixed rules.",
+        "Arthur Samuel wanted a machine that could get better by itself. He joined IBM in 1949 and wrote a checkers program for the IBM 701, one of the most powerful computers of its time. The program remembered each position it had seen and whether it led to a win or a loss, and it played thousands of games against itself. On 24 February 1956 it was shown on television. In 1959 Samuel described it in a paper called Some Studies in Machine Learning Using the Game of Checkers, and the name machine learning stuck. In 1962 it beat Robert Nealey, a player who called himself a checkers master.",
+        "Chess was the next big test. In May 1997 IBM's Deep Blue beat world champion Garry Kasparov in New York, winning their six-game match 3½ to 2½. Deep Blue did not learn as it played. It checked about 200 million positions a second, using scoring rules tuned by chess experts and programmers. Go, invented in China more than 2,500 years ago, was far harder for computers, because it has more possible positions than there are atoms in the known universe. In March 2016 AlphaGo, made by DeepMind in London, beat Lee Sedol, one of the world's best players, 4 games to 1 in Seoul, South Korea. AlphaGo studied about 30 million moves from human games, then played millions of games against itself. Lee won game 4 with a brilliant move, move 78.",
+        "Today machine learning turns up in many games. In Creatures (1996) players taught little creatures called Norns the names of things, and every Norn had a brain made of a neural network. In 2021 Sony AI's GT Sophy learned to race in Gran Turismo by trial and error, rewarded when it drove well, and outraced some of the world's best Gran Turismo drivers. In 2024 the game company Ubisoft tested characters you can talk to out loud, run by the same kind of AI as a chatbot, with writers creating each character's life story first.",
+        "Robot School is our own game, made for this site. The robot learns right here in your browser, from the examples you give it, and nothing is sent anywhere."
+      ],
+      "howToPlay": [
+        "You are a teacher at a robot school in 2035. Your student is Pip, a brand-new robot with an empty brain. You can give Pip a new name on the start card.",
+        "Pick a lesson. Each lesson is a different way that real machines learn, and each one earns up to three stars.",
+        "Snack Sorter: snacks drop down a chute. Tell Pip whether each one is a fruit or a veg. Every snack becomes a dot on Pip's chart, and Pip's line moves to split them. Then press Let Pip try: Pip sorts 10 new snacks by itself. Teach it the ones it got wrong and test it again. Ten out of ten earns three stars.",
+        "Doodle Detective: pick a star, a heart or an arrow, draw it on the 16 by 16 grid and teach Pip. Teach each sign a few times. Then test Pip: the card tells you what to draw, but Pip cannot see the card. Six right out of six earns three stars.",
+        "Maze Runner: press Train and watch Pip wander until it finds its charger. Over many tries the glow spreads back from the charger and Pip gets faster. Pip stops when it thinks it knows the way: press Show me what you learned. Master all three mazes for three stars. Add puddles, batteries and walls, and change Pip's curiosity, to see what happens.",
+        "Fair Robot: Pip gives out stickers for neat writing, but it is unfair to left-handed writers. Find out why, tick extra example pages for Pip to learn from, and run sticker day again. Make Pip fair with four pages or fewer for three stars.",
+        "At the end of each lesson Pip asks you a question. Answer it to collect that lesson's big idea. Collect all four and Pip graduates. Your progress is saved in this browser only."
+      ],
+      "didYouKnow": [
+        "The Nimatron's operators learned its patterns and could beat it whenever they wanted. The people learned. The machine never did.",
+        "IBM's president Thomas Watson arranged for Samuel's checkers program to be shown to shareholders and predicted IBM's share price would rise 15 points. It did.",
+        "Lee Sedol is the only person to beat AlphaGo in any of its 74 official games.",
+        "UNSW Sydney's robot soccer team, rUNSWift, has been world champion five times: 2000, 2001, 2003, 2014 and 2015. RoboCup's goal is a team of robots that beats the human World Cup champions by 2050."
+      ],
+      "sources": [
+        {
+          "title": "Nimatron, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nimatron",
+          "note": "Conceived by Edward Condon, built by Westinghouse for the 1940 New York World's Fair; over a metric ton; 116 relays; four lines of seven light bulbs; about 100,000 games played and 90,000 won; non-programmable, 'could only play the game in a dozen or so preset patterns'; operators 'could learn the patterns and beat the machine at any time' to show visitors it could be done."
+        },
+        {
+          "title": "Nimrod (computer), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nimrod_(computer)",
+          "note": "Proposed by John Makepeace Bennett, an Australian Cambridge PhD graduate working at Ferranti; shown at the Festival of Britain from 5 May 1951; played Nim with a fixed mathematical strategy; Alan Turing played it."
+        },
+        {
+          "title": "The games that helped AI evolve, IBM History",
+          "url": "https://www.ibm.com/history/early-games",
+          "note": "Samuel joined IBM in 1949; the IBM 701 was 'among the most powerful computers of its time'; Samuel Checkers 'recorded each position it saw and whether that position eventually led to a win or a loss'; 'Samuel called this process machine learning, a term he coined'; 'after it had played thousands of games against itself... defeated self-described checkers master Robert Nealey' in 1962; Deep Blue won a six-game series against Kasparov in 1997; TD-Gammon (1992) played about 300,000 games against itself."
+        },
+        {
+          "title": "Arthur Samuel's Legacy, Chinook project, University of Alberta",
+          "url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
+          "note": "Program 'first publicly demonstrated on television on February 24, 1956'; IBM president Thomas Watson arranged a showing for shareholders and predicted a fifteen-point rise in IBM's stock, 'It did'; Nealey's 'tournament results never justified' the title of master; the win gave 'the false impression that checkers was a solved game'."
+        },
+        {
+          "title": "IBM 701, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IBM_701",
+          "note": "'The IBM 701 has a claim to be the first computer displaying the potential of artificial intelligence in Arthur Samuel's checkers-playing program on February 24, 1956'; nineteen 701 systems were installed."
+        },
+        {
+          "title": "Machine learning, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Machine_learning",
+          "note": "'The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence'; the synonym 'self-teaching computers' was also used."
+        },
+        {
+          "title": "Deep Blue, IBM History",
+          "url": "https://www.ibm.com/history/deep-blue",
+          "note": "Kasparov won the 1996 Philadelphia match 4 to 2; Deep Blue won the May 1997 rematch 3.5 to 2.5, the first computer to defeat a reigning world champion under standard tournament time controls; evaluated 200 million positions per second; built by Feng-hsiung Hsu, Murray Campbell and other IBM scientists; brute force rather than learning."
+        },
+        {
+          "title": "Deep Blue (chess computer), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+          "note": "1997 match in New York, 3 to 11 May; an expert system 'relying upon rules and variables defined and fine-tuned by chess masters and computer scientists'; one rack at the Smithsonian's National Museum of American History, the other at the Computer History Museum; Kasparov's accusations and IBM's reply that the only human intervention was between games."
+        },
+        {
+          "title": "Go (game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Go_(game)",
+          "note": "'The game was invented in China more than 2,500 years ago'; about 2.1 x 10^170 legal positions."
+        },
+        {
+          "title": "AlphaGo, Google DeepMind",
+          "url": "https://deepmind.google/research/breakthroughs/alphago/",
+          "note": "AlphaGo beat Lee Sedol 4 to 1 in March 2016; Go has '10 to the power of 170 possible board configurations. That's more than the number of atoms in the known universe'; policy and value networks; trained on expert games then by playing itself; Move 37 had 'a 1 in 10,000 chance' of being played by a human."
+        },
+        {
+          "title": "AlphaGo versus Lee Sedol, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol",
+          "note": "9 to 15 March 2016 at the Four Seasons Hotel, Seoul; AlphaGo won 4 to 1; Lee's move 78 in game 4 'turned the game around'; trained on about 30 million moves from human games, then tens of millions of self-play games; Lee retired in 2019 calling AI 'an entity that cannot be defeated'."
+        },
+        {
+          "title": "AlphaGo, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AlphaGo",
+          "note": "Beat Fan Hui 5 to 0 in October 2015; Lee Sedol is 'the only human player who beat AlphaGo in all of its 74 official games'; AlphaGo Zero was 'completely self-taught without learning from human games'."
+        },
+        {
+          "title": "Creatures (video game series), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Creatures_(video_game_series)",
+          "note": "First game 1996 by Steve Grand at Millennium Interactive, Cambridge; artificial life with 'neural network brains'; players taught Norns words 'by repeating the name of the object while the creature looks at it'; rewards by tickling."
+        },
+        {
+          "title": "Gran Turismo Sophy project page, Polyphony Digital",
+          "url": "https://www.gran-turismo.com/us/gran-turismo-sophy/project/",
+          "note": "A collaboration of Sony AI, Polyphony Digital and Sony Interactive Entertainment; trained with deep reinforcement learning; Race Together events against top human drivers on 2 July and 21 October 2021."
+        },
+        {
+          "title": "Sony's AI system GT Sophy beats 95% of human competitors at Gran Turismo Sport, TechXplore, February 2022",
+          "url": "https://techxplore.com/news/2022-02-sony-ai-gt-sophy-human.html",
+          "note": "GT Sophy 'was rewarded when it did things well and penalized when it did not'; 'It also learned the rules of etiquette to ensure fair play'."
+        },
+        {
+          "title": "Outracing champion Gran Turismo drivers with deep reinforcement learning, Wurman and others, Nature 602, 2022",
+          "url": "https://www.nature.com/articles/s41586-021-04357-7",
+          "note": "Sony AI's agent, trained with deep reinforcement learning, outraced champion Gran Turismo drivers; featured on the cover of Nature in February 2022. Only the abstract details reported in search results and the project page were checked; the paper itself is behind a login."
+        },
+        {
+          "title": "Ubisoft unveils NEO NPCs, its first prototype for GenAI-powered characters and gameplay, Ubisoft press release, 19 March 2024",
+          "url": "https://staticctf.ubisoft.com/8aefmxkxpxwl/Mw2s4KjssknqHHh1VIf8V/720296810ecc3deae51778a219732c7f/PRESS_RELEASE_GDC_UbisoftUnveilsNEONPC_190324.pdf",
+          "note": "Shown at GDC 2024; players talk to characters by voice; NPCs have memory and can generate quests; built with Inworld AI and Nvidia; 'Every detail, personalities, backstories, agendas, and emotions, needs to be thoroughly crafted' by the team; narrative director Virginie Mosser; described as a prototype."
+        },
+        {
+          "title": "UNSW's robot soccer team finish third at world championship in Sydney, UNSW Newsroom, 2019",
+          "url": "https://www.inside.unsw.edu.au/news-unsw/unsws-robot-soccer-team-finish-third-world-championship-in-sydney",
+          "note": "rUNSWift won the Standard Platform League world title in 2000, 2001, 2003, 2014 and 2015 and came third at RoboCup 2019 in Sydney; RoboCup aims for robots that beat the human World Cup champions by 2050; RoboCup Junior is for school students; robots are autonomous, not remote controlled."
+        },
+        {
+          "title": "RoboCup, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/RoboCup",
+          "note": "Official goal: 'By the middle of the 21st century, a team of fully autonomous humanoid robot soccer players shall win a soccer game, complying with the official rules of FIFA, against the winner of the most recent World Cup'; founded 1996, first competition 1997 in Nagoya; RoboCup 2019 held in Sydney."
+        },
+        {
+          "title": "Chinook (computer program), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinook_(computer_program)",
+          "note": "Jonathan Schaeffer's team at the University of Alberta; on 19 July 2007 Science published their proof that perfect play in checkers leads to a draw."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia says the Nimatron's win count was skewed because its operators sometimes beat it on purpose to show visitors it could be done.",
+        "Sources differ on when Samuel's first checkers program ran: secondary sources say 1952 on the IBM 701, while the IEEE Computer Society's pioneer page suggests 1949 to 1950. The story only says he wrote it after joining IBM in 1949.",
+        "IBM and Wikipedia say Samuel coined the phrase machine learning in 1959; some writers say he popularised it. The idea of machines that learn is older.",
+        "IBM dates the win over Robert Nealey to 1962; the IEEE pioneer page mentions a 1961 game. The University of Alberta's checkers team says Nealey's tournament results never matched the title of master, and that the win wrongly made people think checkers was solved. Checkers was actually solved in 2007: perfect play by both sides ends in a draw.",
+        "Kasparov suggested people had helped Deep Blue during the 1997 games; IBM said the only human changes were made between games.",
+        "GT Sophy's 2021 races against top drivers are taken from Sony's project page and the title of the Nature paper; the results of each separate race were not checked.",
+        "Ubisoft's talking characters were a prototype, not a released game.",
+        "DeepMind was a London company owned by Google in 2016; it is now called Google DeepMind."
+      ],
+      "playable": true,
+      "id": "robot-school",
+      "title": "Robot School",
+      "era": "2030s",
+      "year": 2030,
+      "yearLabel": "2030 and beyond",
+      "stamp": "2030",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click the buttons. Snack Sorter: Fruit and Veg buttons, or the left arrow (or F) for fruit and the right arrow (or V) for veg. Doodle Detective: draw with a finger or the mouse (right-click or the Eraser rubs out); with the keyboard, Tab to the grid, move with the arrow keys, press Space to colour a square, hold Shift with an arrow key to draw a line, and press Enter to teach or to show Pip. Maze Runner: tap a square to use the chosen tool; with the keyboard, Tab to the maze, move with the arrow keys and press Space. Fair Robot: tap pages to tick them.",
+      "computer": "Pip really learns, using machine learning written in plain JavaScript that runs only in your browser. Nothing is sent anywhere and no AI service is used. Each lesson uses a different method. Snack Sorter uses one artificial neuron, the building block of big AI systems. Pip turns each snack into two numbers, how sweet and how juicy, multiplies each by a weight, adds them up and squashes the total into a chance of being a fruit. Where the chance is exactly 50 percent you get the straight line on the chart. Training means checking how wrong each guess was and nudging the weights a tiny bit, hundreds of times, until the line fits your examples (this is called gradient descent). Doodle Detective sees your drawing only as 256 squares, each 1 or 0. Pip crops and stretches each drawing to the same size, smudges it slightly, and averages all your drawings of a sign into a memory picture. To guess, it measures how alike a new drawing is to each memory picture and picks the closest; the bars show how sure it is. Maze Runner uses Q-learning, a kind of reinforcement learning described by Chris Watkins in 1989. Pip keeps a table with a score for every square and every move. After each step it updates one score: the reward it got (plus 10 for the charger, plus 3 for a battery, minus 5 for a puddle) plus most of the best score from the square it landed on. Over many tries the good scores spread back from the charger, which is the glow you see. Curiosity is the chance Pip makes a random move instead of its best one, which is how it finds new ways. Fair Robot uses the same kind of neuron as Snack Sorter, trained on two numbers for each page: slant and wobble. Because every neat page in its first examples leaned right, it learned that leaning right meant neat. Adding neat left-handed examples turns the line so that only wobble matters.",
+      "adaptation": "Robot School is not a copy of an old game: it was designed for this site to show how machines learn, the idea behind the history panel's milestones from Arthur Samuel's 1959 checkers program to the game characters that learn today. Every brain is real and small enough to read. Adaptations for 10 to 14 year olds: the sweet and juicy scores are our own made-up readings, not laboratory measurements, and real sorting machines measure many more things; the first two snacks are chosen so that Pip's first rule is too simple, so the first test always has mistakes to learn from; the drawing brain averages examples into memory pictures (a nearest-average classifier), which is simpler than the neural networks used in real handwriting readers; the maze uses a table rather than a neural network and Pip can sense walls next to it, so it never walks into one; a try ends after 10 steps for every square, when Pip's battery runs out; the writing in Fair Robot is drawn by the computer with a chosen slant and wobble, and the class lists are invented. The real-world example in Fair Robot (Joy Buolamwini's 2018 study of face-reading programs) is described in one sentence and should be checked by the history researchers alongside the panel.",
+      "origin": "Our own game, built on machine learning ideas from Arthur Samuel's checkers program (IBM, USA, 1959) to AlphaGo (DeepMind, London, 2016)",
+      "tagline": "Teach it. Watch it learn.",
+      "blurb": "Teach a friendly robot with your own examples, then watch it learn to sort, recognise and find its way, using real machine learning that runs in your browser."
     }
   ],
   "kids": [
@@ -6462,6 +6615,34 @@ window.GIT_CONTENT = {
         "idea": "Play Melon Drop for five minutes and watch what happens when two of the same fruit touch. On grid paper, draw pairs of circles, measure the distance between their centres with a ruler and compare it with their two radii added together. Students discover the rule: two circles touch or overlap when the distance between their centres is less than or equal to the sum of their radii. Older students can work out the distance from coordinates using Pythagoras' theorem. Finish with the Then panel: the game began as a Chinese web game in January 2021.",
         "computerAngle": "Every fruit is a circle with a centre (x, y) and a radius. Many times a second the program moves each fruit a little: it adds gravity to its downward speed, then adds its speed to its position. Then it checks every pair of fruit. It works out the distance between their centres with Pythagoras' theorem (the square root of the across difference squared plus the up-and-down difference squared). If that distance is less than the two radii added together, the fruit overlap, so the program pushes them apart along the line joining their centres. If they are the same kind, it removes both and puts one fruit of the next size halfway between them, and adds points. Repeating the push-apart step a few times each frame lets a big pile settle without jiggling.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "robot-school",
+        "title": "How a robot learns from examples",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Start unplugged. Draw a big chart on the board with two scales from 1 to 10: how sweet and how crunchy. Students call out foods (apple, carrot, strawberry, celery) and place each one as a dot, coloured fruit or vegetable. Ask a volunteer to draw one straight line that splits fruit from vegetables. Then play Robot School's sorting lesson for ten minutes: label examples, watch the robot's line move, and test it on items it has never seen. Ask: what does the robot really know about a strawberry? (Only the numbers you gave it.) When does it get things wrong, and what fixes it? Finish with the Then panel: in 1959 Arthur Samuel's checkers program learned by remembering which positions led to wins, and AlphaGo studied about 30 million human moves before playing itself.",
+        "computerAngle": "Machine learning means a program gets better at a task from examples or experience, instead of being told every rule. Each example becomes a list of numbers, called features, which places it as a dot on a chart. One simple method, nearest neighbour, gives a new item the same label as the closest example it has already seen. Another, the perceptron, keeps a dividing line and nudges it a little every time it gets an example wrong, until most examples land on the right side. More, and more varied, examples usually move the line to a better place. Testing on items the robot has never seen shows whether it has really learned the pattern or only memorised the examples. The Australian Curriculum asks Years 7 and 8 to design and trace algorithms that can sort and classify.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/curriculum-information/understand-this-curriculum-connection/artificial-intelligence"
+      },
+      {
+        "gameId": "robot-school",
+        "title": "Fair robots need fair examples",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play Robot School's fairness lesson: teach the robot with only one kind of example, watch it make unfair mistakes on the others, then fix it by adding better examples. Next, an unplugged test. Give groups 20 cards describing past winners of a pretend school prize; by accident, every winner on the cards wore a red hat. Ask: if a robot learned only from these cards, what would it look for in next year's winner? Then share a real study. In 2018 Joy Buolamwini and Timnit Gebru tested three face-analysis systems sold by big companies: they were wrong less than 1 per cent of the time for lighter-skinned men, but up to 34.7 per cent of the time for darker-skinned women. Groups finish by writing three rules for checking that an AI is fair, and compare them with the fairness principle in Australia's 2023 framework for generative AI in schools.",
+        "computerAngle": "A model can only learn the patterns that are in its training data. If the data leaves some groups out, or has far more of one group than another, the model can be accurate for some people and often wrong for others while its overall score still looks good. That is called bias. In the 2018 study, one company's test set was more than 77 per cent male and more than 83 per cent white. Ways to reduce bias include collecting balanced examples, testing the model separately for each group, and letting people check and challenge its decisions. The Australian Curriculum asks Years 5 and 6 students to investigate bias and fairness in relation to outcomes and how bias in AI systems might be reduced.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/curriculum-information/understand-this-curriculum-connection/artificial-intelligence",
+        "sources": [
+          {
+            "title": "Study finds gender and skin-type bias in commercial artificial-intelligence systems, MIT News, 11 February 2018",
+            "url": "https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212",
+            "note": "Joy Buolamwini and Timnit Gebru; error rates as low as 0.8% for light-skinned men and 20.8%, 34.5% and 34.7% for darker-skinned women across three systems; one data set used to assess performance was 'more than 77 percent male and more than 83 percent white'."
+          },
+          {
+            "title": "Artificial intelligence (AI), curriculum connection, Australian Curriculum v9, ACARA",
+            "url": "https://www.australiancurriculum.edu.au/curriculum-information/understand-this-curriculum-connection/artificial-intelligence",
+            "note": "'Biases in the data AI systems are trained on can perpetuate discriminatory stereotypes or unfairly represent, omit or negatively portray certain groups'; 'the quality of the training data impacts on the quality, reliability and bias of the output'; Years 5 and 6 'investigate bias and fairness in relation to outcomes'; Years 7 and 8 'design and trace algorithms... including algorithms that can sort and classify'."
+          }
+        ]
       },
       {
         "gameId": "prowl",
