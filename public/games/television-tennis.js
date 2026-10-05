@@ -1,4 +1,4 @@
-/* Television Tennis, ported from the 1973 floor of 1973.ai (src/components/TvTennis.jsx).
+/* Television Tennis, ported from the original 1973 arcade source (UPD8-group/1973, src/components/TvTennis.jsx).
    Rally against the machine on a wood-grain television. Drag anywhere on the screen to move your paddle.
    First to seven. The court, physics, speeds, the machine's play, tones and copy are the arcade's own.
    Contract: docs/ADDING-A-GAME.md */
@@ -84,7 +84,7 @@
       root.appendChild(scoreEl);
       root.appendChild(h('div', { class: 'machine-controls' }, startBtn, stopBtn));
 
-      /* Drawn at the arcade's own fixed 640 by 440 size and scaled to fit by CSS, exactly as on 1973.ai. */
+      /* Drawn at the arcade's own fixed 640 by 440 size and scaled to fit by CSS, exactly as in the original. */
       var ctx = canvas.getContext('2d');
 
       function setText(el, text) {

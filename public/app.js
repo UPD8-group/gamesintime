@@ -180,7 +180,7 @@
 
   var main, current = null, firstRender = true, header, menuEl, menuBtn, soundBtn;
 
-  function setTitle(t) { var n = C().site.name || 'Games in Time'; document.title = t ? t + ' · ' + n : n + ' · Play the games kids played a hundred years ago'; }
+  function setTitle(t) { var n = C().site.name || 'Games in Time'; document.title = t ? t + ' · ' + n : n + ' · Play the games kids played, from candlelight to neon'; }
 
   function render() {
     if (current && current.destroy) { try { current.destroy(); } catch (e) { console.error(e); } }

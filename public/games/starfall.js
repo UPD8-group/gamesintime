@@ -1,4 +1,4 @@
-/* Starfall: the fixed-shooter last stand from the 1973 floor of 1973.ai (src/components/Starfall.jsx), ported as it is.
+/* Starfall: the fixed-shooter last stand from the original 1973 arcade source (UPD8-group/1973, src/components/Starfall.jsx), ported as it is.
    A fleet of 40 twinkling star-glyphs in five rows marches across a 520 by 560 night sky and steps down at each edge.
    One bolt in the air at a time, three lives, bombs from the lowest star in each column, and every cleared wave comes
    back lower and faster. Same speeds, tones, colours and copy as the original; the cabinet is its own frame, so it
@@ -32,7 +32,7 @@
   var HIT_TONES = [523, 466, 415, 370, 330];
   var INTRO = 'one bolt in the air · drag to aim, tap or space to fire';
 
-  /* Every rule the cabinet uses on 1973.ai, copied from its styles.css with each selector prefixed .game-starfall.
+  /* Every rule the cabinet uses in the original arcade, copied from its styles.css with each selector prefixed .game-starfall.
      The source's .btn, .btn-solid and .btn-outline are renamed .m-btn, .m-btn-solid and .m-btn-outline because
      this site has its own .btn. The 1970s hall defines the source's colour and font variables, so they read the same.
      The first four rules are the page context the source's controls inherit (its body, box-sizing, button and

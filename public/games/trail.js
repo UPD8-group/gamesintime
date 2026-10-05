@@ -1,4 +1,4 @@
-/* Trail: the green-phosphor grid snake from the 1973 floor of 1973.ai (src/components/Trail.jsx), ported as it is.
+/* Trail: the green-phosphor grid snake from the original 1973 arcade source (UPD8-group/1973, src/components/Trail.jsx), ported as it is.
    A 17 by 17 grid on a 340 px canvas. The trail steps every 160 ms, 4 ms quicker for each pickup, never faster than
    70 ms. Walls and your own trail are fatal. Same tones, colours, d-pad and copy as the original; the handheld is
    its own frame, so it registers with frame: 'none'. See docs/ADDING-A-GAME.md for the contract this file follows. */
@@ -33,7 +33,7 @@
     D: 'right'
   };
 
-  /* Every rule the handheld uses on 1973.ai, copied from its styles.css with each selector prefixed .game-trail.
+  /* Every rule the handheld uses in the original arcade, copied from its styles.css with each selector prefixed .game-trail.
      The source's .btn, .btn-solid and .btn-outline are renamed .m-btn, .m-btn-solid and .m-btn-outline because
      this site has its own .btn. The 1970s hall defines the source's colour and font variables, so they read the same.
      The first four rules are the page context the source's controls inherit (its body, box-sizing, button and

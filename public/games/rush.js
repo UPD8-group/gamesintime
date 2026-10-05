@@ -1,4 +1,4 @@
-/* Rush: the lane-crossing dash from the 1983 neon floor of 1973.ai.
+/* Rush: the lane-crossing dash from the original 1983 neon arcade (UPD8-group/1973).
    Cross five lanes of traffic and a river of drifting logs to reach the top. Every crossing speeds the floor up.
    Ported from the arcade's Rush.jsx (React) to plain JavaScript. The canvas drawing, lanes, speeds, timings,
    scoring, tones, controls and copy are the arcade's own. The neon cabinet is the frame, so it registers with
@@ -35,7 +35,7 @@
     D: 'right'
   };
 
-  /* The arcade's CSS for this machine, copied from 1973.ai's styles.css and scoped to .game-rush. The 1980s hall
+  /* The arcade's CSS for this machine, copied from the original arcade's styles.css and scoped to .game-rush. The 1980s hall
      supplies the 1983 neon values of --ground, --ink, --ink-dim, --amber, --line, --font-body and --font-mono.
      The arcade's .btn, .btn-solid and .btn-outline are renamed m-btn, m-btn-solid and m-btn-outline because the site
      has its own .btn. */

@@ -1,4 +1,4 @@
-/* Prowl: the maze hunt from the 1983 neon floor of 1973.ai, ported as it is.
+/* Prowl: the maze hunt from the original 1983 neon arcade (UPD8-group/1973), ported as it is.
    Clear a glowing maze of dots while three sentries hunt you. Power dots turn the tables for a while.
    The maze, the sentries' rules, speeds, timings, tones, scoring and drawing are the original's, function for
    function; only React state became plain variables. The neon cabinet is the frame (frame: 'none').
@@ -63,7 +63,7 @@
     return wall;
   }
 
-  /* Every rule the cabinet uses, copied from 1973.ai's styles.css and scoped to this game. The 1980s hall supplies
+  /* Every rule the cabinet uses, copied from the original arcade's styles.css and scoped to this game. The 1980s hall supplies
      the neon values of the shared variables (--amber is hot magenta there, --teal cyan, --olive mint).
      The site has its own .btn, so the arcade's btn, btn-solid and btn-outline are m-btn, m-btn-solid and
      m-btn-outline here. The first line is the arcade's body type, which its buttons inherit. */
@@ -497,7 +497,7 @@
         c.fillText('◆'.repeat(Math.max(0, st.lives)), W - 8, H - 8);
       }
 
-      // first paint: the idle maze, as on 1973.ai before Start is pressed
+      // first paint: the idle maze, as in the original before Start is pressed
       setRunning(false);
       setScore(0);
       drawFrame(freshGame());

@@ -1,4 +1,4 @@
-/* Cascade: the falling-blocks well from the 1983 neon floor of 1973.ai, ported as it is.
+/* Cascade: the falling-blocks well from the original 1983 neon arcade (UPD8-group/1973), ported as it is.
    Fit the falling blocks into the well; full rows clear and the drop quickens as you go.
    The seven pieces, their colours, the rotation and wall kicks, the drop speeds, tones, scoring and drawing are the
    original's, function for function; only React state became plain variables. The neon cabinet is the frame
@@ -61,7 +61,7 @@
   /* The caption under the cabinet. The original's em-dashes are middle dots here, as everywhere on Games in Time. */
   const NOTE = 'fit the falling blocks · full rows clear';
 
-  /* Every rule the cabinet uses, copied from 1973.ai's styles.css and scoped to this game. The 1980s hall supplies
+  /* Every rule the cabinet uses, copied from the original arcade's styles.css and scoped to this game. The 1980s hall supplies
      the neon values of the shared variables (--amber is hot magenta there, --teal cyan, --olive mint).
      The site has its own .btn, so the arcade's btn, btn-solid and btn-outline are m-btn, m-btn-solid and
      m-btn-outline here. The first line is the arcade's body type, which its buttons inherit. */
@@ -418,7 +418,7 @@
         c.fillText(`L${st.level}`, W - 6, 16);
       }
 
-      // first paint: the empty well, as on 1973.ai before Start is pressed
+      // first paint: the empty well, as in the original before Start is pressed
       setRunning(false);
       showReadout();
       drawFrame(freshGame());

@@ -40,7 +40,7 @@ frame, and "Classroom mode" and "Next game" below it. `api` gives you:
 
 ## Frames
 
-The shell wraps the game in a period object, like the cabinets on 1973.ai. Each frame sets its own colours, so use the
+The shell wraps the game in a period object, like the cabinets in an arcade. Each frame sets its own colours, so use the
 colour variables below and the game will read correctly inside it.
 
 | Frame | Looks like | Inside colours | Use for |

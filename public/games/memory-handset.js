@@ -1,4 +1,4 @@
-/* The Memory Handset, ported from the 1973 floor of 1973.ai (src/components/MemoryHandset.jsx).
+/* The Memory Handset, ported from the original 1973 arcade source (UPD8-group/1973, src/components/MemoryHandset.jsx).
    Repeat a growing tone-and-light sequence on four burnt-palette squares. One wrong square ends the run.
    The handset, its timings, tones and copy are the arcade's own. The only change to how it plays is a fix for
    two very quick taps at the end of a sequence, which used to skip a round (see docs/game-notes/memory-handset.json).
@@ -20,7 +20,7 @@
   /* Every rule the handset uses from the arcade's src/styles.css, values unchanged, each selector prefixed with
      .game-memory-handset. The arcade's .btn, .btn-solid and .btn-outline are renamed .m-btn, .m-btn-solid and
      .m-btn-outline because Games in Time has its own global .btn. The first four rules carry over what the arcade
-     set on body, button, :focus-visible and every element, so the handset sets its type exactly as on 1973.ai. */
+     set on body, button, :focus-visible and every element, so the handset sets its type exactly as in the original. */
   var CSS = [
     '.game-memory-handset { font: 17px/1.65 var(--font-body); color: var(--ink); -webkit-font-smoothing: antialiased; }',
     '.game-memory-handset *, .game-memory-handset *::before, .game-memory-handset *::after { box-sizing: border-box; }',
@@ -219,7 +219,7 @@
         api.tone(TILES[i].freq, 0.18);
         lit = i;
         pos++;
-        /* Only the tap that finishes the sequence moves on to the next round. (On 1973.ai two taps less than
+        /* Only the tap that finishes the sequence moves on to the next round. (In the original, two taps less than
            180 ms apart both moved it on, which skipped a round and played two sequences over each other.) */
         var finished = pos === seq.length;
         render();

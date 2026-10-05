@@ -1,4 +1,4 @@
-/* Drifter: the vector rock-shooter from the 1983 neon floor of 1973.ai.
+/* Drifter: the vector rock-shooter from the original 1983 neon arcade (UPD8-group/1973).
    Thrust, turn and wrap around the edges; shoot the drifting rocks, which split as they break. Three ships.
    Ported from the arcade's Drifter.jsx (React) to plain JavaScript. The canvas drawing, physics, speeds, timings,
    scoring, tones, controls and copy are the arcade's own. The neon cabinet is the frame, so it registers with
@@ -25,7 +25,7 @@
 
   function wrap(v, max) { return v < 0 ? v + max : v >= max ? v - max : v; }
 
-  /* The arcade's CSS for this machine, copied from 1973.ai's styles.css and scoped to .game-drifter. The 1980s hall
+  /* The arcade's CSS for this machine, copied from the original arcade's styles.css and scoped to .game-drifter. The 1980s hall
      supplies the 1983 neon values of --ground, --ink, --ink-dim, --amber, --line, --font-body and --font-mono.
      The arcade's .btn, .btn-solid and .btn-outline are renamed m-btn, m-btn-solid and m-btn-outline because the site
      has its own .btn. */

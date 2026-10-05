@@ -1,4 +1,4 @@
-/* Brickfield, ported from the 1973 floor of 1973.ai (src/components/Brickfield.jsx).
+/* Brickfield, ported from the original 1973 arcade source (UPD8-group/1973, src/components/Brickfield.jsx).
    Knock down a six-row spectrum wall with three balls. Higher rows score more; each row has its own tone.
    The cabinet, physics, speeds, scoring, tones and copy are the arcade's own. New here: your best score is
    remembered and shown in the site's status line. Contract: docs/ADDING-A-GAME.md */
@@ -93,7 +93,7 @@
       root.appendChild(scoreEl);
       root.appendChild(h('div', { class: 'machine-controls' }, startBtn, stopBtn));
 
-      /* Drawn at the arcade's own fixed 520 by 560 size and scaled to fit by CSS, exactly as on 1973.ai. */
+      /* Drawn at the arcade's own fixed 520 by 560 size and scaled to fit by CSS, exactly as in the original. */
       var ctx = canvas.getContext('2d');
 
       function setText(el, text) {
