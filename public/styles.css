@@ -419,8 +419,19 @@ th { background: var(--surface-2); }
 
 /* footer */
 .site-footer { margin-top: 5rem; border-top: 1px solid var(--line); padding: 2rem var(--gutter) calc(2rem + env(safe-area-inset-bottom, 0px)); color: var(--ink-muted); font-size: .95rem; }
-.site-footer .wrap { padding: 0; display: flex; flex-wrap: wrap; gap: 1rem 2rem; justify-content: space-between; }
+.site-footer .wrap { padding: 0; display: flex; flex-wrap: wrap; gap: 1rem 2rem; justify-content: space-between; align-items: center; }
+.site-footer .wrap > * { margin: 0; }
 .site-footer a { color: var(--ink); }
+/* "Site by oo.studio" with a light tracing round an infinity loop, the same credit as santasecret.com.au */
+.site-footer .oo-credit { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; color: inherit; font-weight: 400; text-decoration: none; white-space: nowrap; transition: color .3s; }
+.oo-credit svg { flex-shrink: 0; }
+.oo-credit strong { font-weight: 500; }
+.site-footer .oo-credit:hover, .site-footer .oo-credit:focus-visible { color: var(--era, var(--gold)); }
+.oo-credit path { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; }
+.oo-credit .oo-loop { opacity: .35; }
+.oo-credit .oo-light { stroke-dasharray: 25 75; stroke-dashoffset: 0; animation: oo-trace 2.4s linear infinite; }
+@keyframes oo-trace { to { stroke-dashoffset: -100; } }
+@media (prefers-reduced-motion: reduce) { .oo-credit .oo-light { animation: none; opacity: 0; } }
 
 /* confetti layer and toast */
 .confetti { position: fixed; inset: 0; pointer-events: none; z-index: 300; }
