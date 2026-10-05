@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "Sixteen words hide four groups of four. Each group shares something: a category, a hidden word, or a word that goes before or after them.",
+    "Tap four words that you think belong together, then press Submit.",
+    "If you are right, the group locks in with its colour and its name. Yellow is the easiest group and purple the trickiest.",
+    "If you are wrong, you lose one of your four mistakes. If three of your four words were right, the game says One away.",
+    "Watch out for the red herring: every puzzle has a word that seems to fit one group but belongs in another.",
+    "Find all four groups before you run out of mistakes. Shuffle moves the words around, which can help you see new links.",
+    "Today's puzzle is the same for everyone on the same day. All puzzles lets you play any of the 46."
+  ],
+  "controls": "Tap or click a word to pick it, and tap it again to unpick it. Then press Submit. Keyboard: Tab to the words, use the arrow keys to move between them, Space or Enter to pick a word, then Tab to Submit.",
+  "computer": "Each puzzle stores its four groups, so checking a guess is simple: the computer looks up which group each of your four words belongs to and counts them. Four from the same group is a match. Three from one group means you are one away. The hard part was done before the game ever ran: a small program tried every possible way of splitting each puzzle's 16 words into four groups, allowing every word to go into any group it could sensibly fit (so ORANGE could be a fruit or a colour), and checked that exactly one split works. That is what makes the red herrings fair: if you think carefully, only one answer fits. The puzzle of the day comes from the date on your device, so everyone gets the same puzzle without the internet, and the tiles start in the same order for everyone.",
+  "players": ["solo"],
+  "notes": "The find-four-groups-of-four mechanic is from the 2023 newspaper puzzle; the name, look and all 46 puzzles are our own, written for school-age players, with subjects from the site's halls (playground games, board games, pre-decimal Australian money, an 1800s classroom), science, maths, geography, animals, Australian slang and wordplay. Each group has a shape as well as a colour, so colour is never the only clue. After each puzzle the game explains its red herring. Puzzles are numbered from 1 October 2026 and repeat after the last one."
+}

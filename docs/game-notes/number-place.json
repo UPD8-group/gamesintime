@@ -1,0 +1,17 @@
+{
+  "howToPlay": [
+    "Choose a size and a level, then press Start puzzle. The 9 by 9 grid is the classic. The junior 4 by 4 and 6 by 6 grids are a gentle way in.",
+    "Fill every empty square so that each row, each column and each box (the areas outlined in thick black) holds every number exactly once: 1 to 9 on the big grid, 1 to 6 or 1 to 4 on the junior ones.",
+    "Tap a square, then tap a number on the keypad. The numbers printed in the puzzle are bold and cannot change. The numbers you write are blue.",
+    "Not sure yet? Switch on Notes and pencil in the numbers a square might be. When you write a number, it is crossed off the notes in its row, column and box for you.",
+    "Clashes shows any number that appears twice in a row, column or box in red with a wavy line. Switch it off for a real challenge.",
+    "Stuck? Hint fills in one square and explains how a person could work it out. It always gives the easiest step left on the board.",
+    "Every puzzle has exactly one answer, so you can always solve it by thinking, never by guessing. Solve one without hints to set a best time for that size and level."
+  ],
+  "controls": "Tap or click a square, then a number on the keypad. Keyboard: the arrow keys move around the grid, 1 to 9 write a number, Backspace or Delete rubs it out, N switches notes on and off, Shift and a number pencils a note, U (or Ctrl and Z) undoes, and H gives a hint.",
+  "computer": "The computer makes a brand new puzzle every time, in three steps. First it fills an empty grid with a complete answer, trying numbers square by square and backing up whenever it gets stuck. This is called backtracking. Next it rubs out clues one at a time, in a random order, and after each one it asks two questions. Does the puzzle still have exactly one answer? A fast solver counts the answers and stops as soon as it finds a second one. Could a person still solve it with the techniques for this level? A second solver that thinks like a person checks that. If either answer is no, the clue goes back. Last, it grades the puzzle by the hardest technique the person-like solver needed. Easy needs only naked singles: a square where just one number fits. Medium needs hidden singles: a number that fits in only one square of a row, column or box. Hard needs pointing and pairs: a number trapped in one line of a box, or two squares that must share the same two numbers. The Hint button uses that same person-like solver to find the easiest step on your board.",
+  "players": [
+    "solo"
+  ],
+  "notes": "Plays like the newspaper puzzle of 2005, with our own newspaper page drawn on screen. Newspapers printed one puzzle a day with a difficulty rating. Here the computer makes a fresh puzzle whenever you like and grades it by the techniques a person needs to solve it. On top of the paper puzzle it adds notes that tidy themselves, clash checking you can switch off, undo, hints that explain their thinking, a timer and best times. The junior 4 by 4 and 6 by 6 grids are like the ones in puzzle books for younger children. Every 4 by 4 puzzle can be solved with naked singles alone, so the 4 by 4 grid only comes in Easy, and the 6 by 6 grid goes up to Medium. Number Place is the name the puzzle had when it first appeared in an American puzzle magazine in 1979."
+}

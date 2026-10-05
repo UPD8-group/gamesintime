@@ -1,0 +1,423 @@
+{
+  "hall": {
+    "id": "1990s",
+    "hook": "A maze drawn in 3D, water balloons over a night skyline, a pet on a keyring, arrows to dance on and a field of hidden mines.",
+    "intro": "In the 1990s the games came home. Ordinary computers learned to draw 3D worlds, discs replaced cartridges, and a pet could live in your pocket. Same rule as the rooms next door: the mechanics are the era's, the names and colours are ours."
+  },
+  "games": [
+    {
+      "id": "labyrinth",
+      "yearLabel": "1992 (Doom followed in 1993)",
+      "stamp": "1992",
+      "origin": "Mechanics of Wolfenstein 3D and Doom by id Software, Texas, USA",
+      "tagline": "Find the keys. Reach the lift.",
+      "blurb": "Walk through a maze drawn in 3D, find coloured keys and secret rooms and slip past the robot caretakers, like the 1992 game Wolfenstein 3D.",
+      "story": [
+        "On 1 February 1991 four young game makers started a company called id Software in Shreveport, Louisiana, USA: programmers John Carmack and John Romero, designer Tom Hall and artist Adrian Carmack. Carmack wanted to show a game world through your own eyes, in 3D, on an ordinary home computer. After two test games in 1991, Hovertank 3D and Catacomb 3-D, the team made Wolfenstein 3D. It came out on 5 May 1992, a few weeks after id moved to Mesquite, Texas.",
+        "Carmack's shortcut is called raycasting. The map is really a flat grid of squares, like graph paper, and every wall is the same height. For every column of pixels across the screen, the computer sends out one imaginary line, a ray, from your eye until it hits a wall. A close wall is drawn as a tall stripe and a far wall as a short one. Working out one ray per column was quick enough for a 1992 computer with an Intel 286 processor and a 320 by 200 pixel screen, and it looked like you were standing inside the maze.",
+        "The first episode of Wolfenstein 3D was shareware: free to copy and pass on, with more levels for sale. On 10 December 1993 id put the first episode of Doom on the internet. Its engine, also by Carmack, could draw walls at any angle and floors at different heights, and players could make their own levels. In 2015 The Strong National Museum of Play put Doom in its World Video Game Hall of Fame, saying it shaped the course of gaming history.",
+        "Both games were about fighting with weapons, and both are rated for older players: later releases carry the American M rating, for players 17 and over. That is why the maze in this hall has keys, stars, secret walls and robot caretakers, but no weapons. Labyrinth plays like Wolfenstein 3D, with a maze drawn by raycasting, coloured key doors and walls that slide back to reveal secret rooms. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "Wolfenstein 3D hid secret rooms behind wall squares that slide back when you push them, so players tried every wall they passed.",
+        "Wolfenstein 3D was made in about half a year for about 25,000 US dollars. Four months before it came out, the art was switched from 16 colours to 256.",
+        "Doom kept its levels and pictures in files called WADs, short for 'Where's All the Data?', so players could build new levels without changing the game's program.",
+        "On the night Doom came out, so many people were waiting to download it that the id team could not connect to the university computer where they planned to put it."
+      ],
+      "sources": [
+        {
+          "title": "DOOM, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/doom/",
+          "note": "Inducted 2015; led by John Carmack and John Romero at id Software; first of three episodes free (shareware); engine kept separate from art so players could modify it; 'shaped the course of gaming history'."
+        },
+        {
+          "title": "Wolfenstein 3D, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+          "note": "Released 5 May 1992; Carmack programmer, Romero and Hall designers, Adrian Carmack artist; viewpoint restricted to a single plane and ray casting; Hovertank 3D (April 1991) and Catacomb 3-D (November 1991); EGA to VGA four months before release; about half a year and US$25,000; sliding secret walls; shareware first episode."
+        },
+        {
+          "title": "Doom (1993 video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+          "note": "First episode uploaded at midnight on 10 December 1993; team could not connect to the University of Wisconsin FTP server because so many users were waiting; walls and floors at varied angles and heights; WAD means 'Where's All the Data?'."
+        },
+        {
+          "title": "Ray casting, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ray_casting",
+          "note": "Wolfenstein 3D was built from a square grid of uniform-height walls; a single ray was traced for every column of screen pixels and the wall slice scaled by how far the ray travelled."
+        },
+        {
+          "title": "id Software, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Id_Software",
+          "note": "Founded 1 February 1991 in Shreveport, Louisiana, by John Carmack, John Romero, Tom Hall and Adrian Carmack; moved to Madison, Wisconsin, in September 1991 and to Mesquite, Texas, on 1 April 1992."
+        },
+        {
+          "title": "Wolfenstein 3D technical specifications, Pixelated Arcade",
+          "url": "https://www.pixelatedarcade.com/games/wolfenstein-3d/techspecs",
+          "note": "Minimum CPU 80286; VGA at 320 x 200 with 256 colours; keyboard, mouse, joystick or gamepad."
+        },
+        {
+          "title": "Wolfenstein 3D rating, Entertainment Software Rating Board",
+          "url": "https://www.esrb.org/ratings/32926/wolfenstein-3d/",
+          "note": "Rated M for Mature 17+ (Blood and Gore, Violence) for the PlayStation 3, Xbox 360 and Xbox One releases."
+        },
+        {
+          "title": "DOOM (1993) rating, Entertainment Software Rating Board",
+          "url": "https://www.esrb.org/ratings/37846/doom-1993/",
+          "note": "Rated M for Mature 17+ (Blood and Gore, Violence) for the Linux, PlayStation 4 and Nintendo Switch releases."
+        },
+        {
+          "title": "Entertainment Software Rating Board, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board",
+          "note": "The ESRB was formed on 16 September 1994, after both games first came out."
+        }
+      ],
+      "uncertainties": [
+        "The ratings quoted are for later re-releases. When Wolfenstein 3D (1992) and Doom (1993) first came out, the American ESRB (formed in September 1994) did not exist, and Australia only introduced a separate classification system for games in 1994.",
+        "A search listing of the Australian Classification Board's database shows DOOM (1993) classified MA15+ for strong violence on 9 October 2020, but the database page could not be opened during this research, so the story uses the American rating only.",
+        "Sources differ on the minimum memory for Wolfenstein 3D (528 KB or 640 KB); Pixelated Arcade says a 286 processor was the minimum. A faster 386 ran it better.",
+        "id Software was in Madison, Wisconsin, for most of Wolfenstein 3D's development and moved to Mesquite, Texas, on 1 April 1992, a month before release, so the origin line says Texas.",
+        "Download and player numbers for Doom's shareware version are estimates and vary between sources, so they are left out."
+      ]
+    },
+    {
+      "id": "skyline",
+      "yearLabel": "1991 (Worms followed in 1995)",
+      "stamp": "1991",
+      "origin": "Mechanics of Gorillas by Microsoft, Redmond, USA, and Worms by Andy Davidson and Team17, Wakefield, England",
+      "tagline": "Angle, speed, wind and splash!",
+      "blurb": "Take turns to choose an angle and a speed and lob water balloons across a city skyline while the wind pushes them off course, like the 1991 game Gorillas.",
+      "story": [
+        "Artillery games are some of the oldest computer games. In 1969 Arthur Luehrmann made one called Potshot that drew each shot with a plotter, a machine that draws with a pen. In the 1970s players on big shared computers typed in an angle and a speed, then waited to see where the shot landed. The rule is simple: you choose the angle and the power, and gravity and wind do the rest.",
+        "In June 1991 Microsoft released MS-DOS 5.0 with a free programming language called QBasic and four example programs. One was Gorillas. Two gorillas stand on the roofs of a city skyline and take turns throwing exploding bananas, with the wind shown by an arrow. Three university students working at Microsoft as interns made it: Richard Moe drew the art and wrote the music, Lyle Hazle programmed the main game and Lance Delarme wrote the code that builds the city. Because the program was right there in a file called GORILLA.BAS, many kids changed it, and some say it made them want to be programmers.",
+        "In England, Andy Davidson, who worked in a computer shop, spent years making his own artillery game on an Amiga computer in a language called Blitz BASIC. He entered it in a competition run by Amiga Format magazine, then showed it at a trade show in September 1994, where Martyn Brown of the games company Team17 made him an offer on the spot. Worms came out on 17 November 1995: teams of cartoon worms take turns on a landscape that crumbles where shots land. By 2006 it had sold more than 5 million copies.",
+        "Skyline plays like Gorillas and Worms: two players take turns to set an angle and a speed while gravity pulls and the wind pushes every throw. Here the throws are water balloons and nobody gets hurt. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "Microsoft wanted to keep away from war games, so the Gorillas team brainstormed silly ideas. Richard Moe remembered: 'One idea was clowns throwing pies, but what are clowns doing on buildings? King Kong on the other hand...'",
+        "Gorillas let you change gravity. It started at 9.8 metres per second squared, Earth's real pull, but you could type in any number you liked.",
+        "Blitz BASIC, the language the first Worms was written in, was made by New Zealand programmer Mark Sibly, and its first version was published by an Australian company, Memory and Storage Technology.",
+        "Before it was called Worms, Andy Davidson's game was called Artillery, and then Total Wormage."
+      ],
+      "sources": [
+        {
+          "title": "GORILLA.BAS: How to Play the Secret MS-DOS Game From Your Childhood, Benj Edwards, How-To Geek, 2022",
+          "url": "https://www.howtogeek.com/779956/gorilla.bas-how-to-play-the-secret-ms-dos-game-from-your-childhood/",
+          "note": "MS-DOS 5.0 launched in June 1991 with QBasic and four example programs (MONEY.BAS, REMLINE.BAS, NIBBLES.BAS, GORILLA.BAS); co-op interns Richard Moe (design, music, art), Lyle Hazle (core mechanics) and Lance Delarme (cityscape); the clowns throwing pies quote; source code invited kids to experiment; Moe later joined Humongous Entertainment."
+        },
+        {
+          "title": "Gorillas (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gorillas_(video_game)",
+          "note": "Players enter an angle and velocity; gravity defaults to 9.8 m/s squared but any value may be chosen; wind shown by an arrow; impacts blow chunks out of buildings."
+        },
+        {
+          "title": "QBasic, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/QBasic",
+          "note": "QBasic came with four example programs: Nibbles, Gorillas, Money Manager and RemLine; version 1.0 shipped with MS-DOS 5.0."
+        },
+        {
+          "title": "Artillery game, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Artillery_game",
+          "note": "Potshot by Arthur Luehrmann (1969) with a plotter display; 1970s mainframe artillery games where players entered velocity and angle; Gorillas and Scorched Earth (1991); Worms (1995)."
+        },
+        {
+          "title": "Worms (1995 video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Worms_(1995_video_game)",
+          "note": "Andy Davidson, a computer shop employee, began in 1990; titled Artillery, then Total Wormage after an Amiga Format Blitz BASIC competition; met Martyn Brown at ECTS in September 1994, who made an offer on the spot; released 17 November 1995; more than 5 million sold by 2006."
+        },
+        {
+          "title": "Team17, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Team17",
+          "note": "Based in Wakefield, England; founded 7 December 1990."
+        },
+        {
+          "title": "Blitz BASIC, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blitz_BASIC",
+          "note": "Devised by New Zealand-based developer Mark Sibly; the first version, for the Amiga, was published by the Australian firm Memory and Storage Technology; Total Wormage was developed in Blitz BASIC."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia dates Gorillas to 1990, when the interns made it; it was first sold with MS-DOS 5.0 in June 1991, so this page uses 1991.",
+        "The names of Gorillas' makers come from Richard Moe's own account to How-To Geek. Rick Raddatz, who wrote Nibbles, remembers the start of the project a little differently.",
+        "It is not clear which version of Blitz BASIC Andy Davidson used. The first Blitz BASIC was published by an Australian company; Blitz BASIC 2 came from Acid Software in New Zealand.",
+        "Worms is a turn-based game about battling worms with weapons. This hall's version uses harmless water balloons."
+      ]
+    },
+    {
+      "id": "pocket-pet",
+      "yearLabel": "1996 (on sale around the world in 1997)",
+      "stamp": "1996",
+      "origin": "Mechanics of Tamagotchi by Aki Maita and Akihiro Yokoi, made by Bandai, Tokyo, Japan",
+      "tagline": "Feed it, clean it, love it.",
+      "blurb": "Hatch a tiny pixel pet, then feed it, play with it, clean up after it and put it to bed so it grows up happy, like the 1996 toy Tamagotchi.",
+      "story": [
+        "In 1995 Akihiro Yokoi, the head of a small company called WiZ, took an idea to the big Japanese toy maker Bandai: a pet you could carry anywhere. At Bandai, Aki Maita worked out how the pet would be raised. Its name joins tamago, the Japanese word for egg, with the English word watch, because at first it was meant to be worn like a wristwatch. In the story, Tamagotchis are little aliens who left an egg on Earth to see what life is like here.",
+        "Tamagotchi went on sale in Japan on 23 November 1996. It was a plastic egg on a keychain with three buttons and a tiny screen with no backlight. You fed your pet meals and snacks, played games with it, cleaned up its messes, gave it medicine and turned off the light at bedtime. It grew through baby, child and teenage stages, and the adult it became depended on how well you cared for it. By 1998 nearly 40 million had been sold, about half of them in Japan.",
+        "The first Tamagotchis beeped whenever the pet needed something and could not simply be paused, and a pet that was ignored could die in less than half a day. So kids took them to school, and many schools banned them. Sydney's Powerhouse museum keeps a first series Tamagotchi in its collection, still in its box. In 2025 The Strong National Museum of Play added Tamagotchi to its World Video Game Hall of Fame.",
+        "Pocket Pet plays like Tamagotchi: you care for a pixel creature as it grows, and how you care for it shapes what it grows into. Here the pet never dies. If it is not looked after, it goes back to its home planet and leaves a new egg. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "In 1997 Yokoi and Maita won a joke award, the Ig Nobel Prize for Economics, 'for diverting millions of person-hours of work into the husbandry of virtual pets'.",
+        "Tamagotchis were so wanted that Bandai staff were told not to carry bags with the Bandai name on them, in case someone tried to steal one.",
+        "Shigeru Miyamoto, who made Mario, said that in 1996 he felt his big 3D game Mario 64 had lost to the Tamagotchi, 'a tiny key chain boasting pictures made up of no more than 10 or 20 dots'.",
+        "More than 98 million Tamagotchis have been sold since 1996."
+      ],
+      "sources": [
+        {
+          "title": "Tamagotchi, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/tamagotchi/",
+          "note": "Inducted 2025; Yokoi of WiZ pitched a mobile pet toy to Bandai in 1995; Aki Maita developed the raising design; released in Japan in 1996 with three buttons and a non-backlit LCD; about 20 million sold in Japan and 20 million elsewhere."
+        },
+        {
+          "title": "Tamagotchi, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+          "note": "Released in Japan 23 November 1996 and in the USA 1 May 1997; tamago plus watch, first meant to be worn like a wristwatch; alien egg back-story; development depends on care; pets could die in less than half a day, leading to school bans; Bandai staff bag ban; Ig Nobel Prize; Miyamoto quote; nearly 40 million sold by spring 1998; 98.1 million by 2025."
+        },
+        {
+          "title": "The 1997 Ig Nobel Prize winners, Improbable Research",
+          "url": "https://improbable.com/ig/winners/",
+          "note": "Economics: Akihiro Yokoi of Wiz Company in Chiba and Aki Maita of Bandai in Tokyo, 'the father and mother of Tamagotchi, for diverting millions of person-hours of work into the husbandry of virtual pets'."
+        },
+        {
+          "title": "A first series Bandai Tamagotchi in original packaging, Powerhouse Collection (object 2013/88/1)",
+          "url": "https://collection.powerhouse.com.au/object/472103",
+          "note": "Sydney's Powerhouse holds a first series Tamagotchi in its packaging; schools banned them; first-generation alerts could not be silenced and the life cycle could not be paused; a pet could die after about twelve hours of neglect."
+        }
+      ],
+      "uncertainties": [
+        "Sources differ on pausing. The Powerhouse says the first models could not be paused; Wikipedia says the original could only be paused by going into the clock setting, which stopped time.",
+        "Sales figures differ: The Strong says about 40 million in the first year, Wikipedia says nearly 40 million by spring 1998.",
+        "The Powerhouse says Aki Maita got the idea from a television advertisement about a boy with a pet turtle; other sources opened do not mention this, so it is left out.",
+        "No reliable dated source was found for the day Tamagotchi went on sale in Australia or for which Australian schools banned it.",
+        "The American release date is given as 1 May 1997 by Wikipedia and later in May by some fan sites."
+      ]
+    },
+    {
+      "id": "dance-mat",
+      "yearLabel": "1998",
+      "stamp": "1998",
+      "origin": "Mechanics of Dance Dance Revolution by Konami, Japan",
+      "tagline": "Step on the arrows in time.",
+      "blurb": "Step on the left, down, up and right panels just as the arrows rise to the top of the screen, right on the beat, like Konami's 1998 arcade game Dance Dance Revolution.",
+      "story": [
+        "Music games started before the 1990s. In 1987 Dance Aerobics for the Nintendo Entertainment System had players copy an instructor's steps on a floor mat. In 1996 PaRappa the Rapper asked players to press buttons exactly in time with the music and graded them on how accurate they were. In 1997 the Japanese company Konami made Beatmania, where you play a club DJ.",
+        "Konami's next idea used feet instead of hands. Dance Dance Revolution reached Japanese arcades on 26 September 1998. Players stand on a metal stage with four arrow panels: left, down, up and right. Arrows scroll up the screen, and you step on the matching panel just as each arrow reaches the target at the top. Every step is judged Perfect, Great, Good, Boo or Miss, and a rail behind you gives tired dancers something to hold.",
+        "DDR reached North American and European arcades in March 1999; in Europe it was called Dancing Stage. Many people played it for exercise. In 2004 Norway made it an official sport, and in 2006 Konami announced that DDR would be part of a fitness program in West Virginia's 765 state schools in the USA. In 2020 players from Australia and New Zealand could enter Konami's world arcade championship, and in 2022 The Strong National Museum of Play added DDR to its World Video Game Hall of Fame.",
+        "Dance Mat plays like Dance Dance Revolution: arrows rise to a target row in time with the music and you hit them on the beat. The songs here are new ones written in code for this site. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "In 2011 Alexander Skularek played DDR for 16 hours, 18 minutes and 9 seconds, a Guinness World Record at the time.",
+        "Some players do freestyle: they set the game to its easiest level and make up a whole dance, with spins and jumps, while still hitting the arrows.",
+        "The first DDR arcade machines were built on the same kind of chips as Sony's first PlayStation.",
+        "Konami has made more than 100 Dance Dance Revolution games, including versions with Disney characters and Winnie the Pooh."
+      ],
+      "sources": [
+        {
+          "title": "Dance Dance Revolution, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/dance-dance-revolution/",
+          "note": "Inducted 2022; Dance Aerobics (1987), PaRappa the Rapper (1996) and Beatmania (1997); DDR hit Japanese arcades in September 1998; judgements Perfect, Great, Good, Boo or Miss; railing at the back; freestyle players; official sport in Norway in 2004; more than 100 games by 2018; Skularek's 16 hours 18 minutes 9 seconds record in 2011."
+        },
+        {
+          "title": "Dance Dance Revolution (1998 video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_(1998_video_game)",
+          "note": "Released to Japanese arcades on 26 September 1998; North American arcades in March 1999 and European arcades as Dancing Stage; PlayStation version in Japan on 10 April 1999."
+        },
+        {
+          "title": "Dance Dance Revolution, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution",
+          "note": "Early mixes ran on PlayStation-based hardware (System 573); Norway 2004; West Virginia fitness program announced in 2006 for 765 state schools; the 9th Konami Arcade Championship (finals 8 February 2020) added players from Australia and New Zealand."
+        }
+      ],
+      "uncertainties": [
+        "The Strong says September 1998; Wikipedia gives 26 September 1998 for the first arcade release and 18 November 1998 for the common 'Internet Ranking' update.",
+        "The names of the judgements changed in later versions of the game.",
+        "No reliable source was found for when DDR first appeared in Australian arcades.",
+        "Konami's West Virginia announcement says the program would be phased in over two years; no source was found for how many schools used it in the end."
+      ]
+    },
+    {
+      "id": "minefield",
+      "yearLabel": "1992 (first released in 1990)",
+      "stamp": "1992",
+      "origin": "Mechanics of Minesweeper by Curt Johnson and Robert Donner, Microsoft, Redmond, USA",
+      "tagline": "Read the numbers. Flag the mines.",
+      "blurb": "Uncover every safe square without touching a hidden mine, using numbers that tell you how many mines are next door, like the Minesweeper game in Windows 3.1.",
+      "story": [
+        "Grid games with hidden mines were around in the 1980s. In 1983 Ian Andrew, aged 24, made Mined-Out for the British ZX Spectrum home computer; he wrote it in BASIC and his mother tested it for him. At Microsoft, programmer Curt Johnson wrote his own version, called Mines, for a computer system called OS/2. He says he borrowed the idea from a slow, black and white game on his old Macintosh, not from Mined-Out.",
+        "Johnson's colleague Robert Donner turned it into a game for Windows. When a manager, Bruce Ryan, collected games to help sell Windows to people at home, Donner sent in Mine. With new pictures it became Minesweeper, released on 8 October 1990 in the Microsoft Entertainment Pack. It became the most popular game in Microsoft's offices, and in 1992 it replaced Reversi as a free game in Windows 3.1. Every version of Windows up to Windows 7 included it, so hundreds of millions of people may have played it.",
+        "Each number tells you how many of the eight squares around it hide a mine, so a careful player can often work out every mine with pure logic. Sometimes, though, you have to guess. In 2000 a mathematician proved that Minesweeper belongs to a famous group of hard problems called NP-complete: nobody knows a quick method that works for every possible board, however big.",
+        "Minefield plays like Minesweeper: dig a square, read the numbers, flag the mines and clear the field. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "Bill Gates once deleted Minesweeper from his computer because he was playing it too much, then went to a colleague's office to keep playing.",
+        "Curt Johnson had to write his own drawing program to make Minesweeper's pictures, because Microsoft Paint could only draw in black and white back then.",
+        "In the Italian version of Windows 2000 the game was called Prato Fiorito, 'field of flowers', with flowers instead of mines. Johnson said: 'Field of flowers, though? It's a fine name.'",
+        "In 2014 Kamil Murański of Poland cleared all three Minesweeper levels in a combined 38.65 seconds, a Guinness World Record."
+      ],
+      "sources": [
+        {
+          "title": "30 Years of 'Minesweeper' (Sudoku with Explosions), Benj Edwards, How-To Geek, 2020",
+          "url": "https://www.howtogeek.com/693898/30-years-of-minesweeper-sudoku-with-explosions/",
+          "note": "Released 8 October 1990 in the Microsoft Entertainment Pack; originally called Mine, by Robert Donner and Curt Johnson; Donner based it on Johnson's OS/2 game; product manager Bruce Ryan's call for games; most popular in Microsoft's offices; Bill Gates story from a 1994 Washington Post report; Windows 3.1 in 1992 replacing Reversi; included up to Windows 7; Prato Fiorito; 38.65-second record by Kamil Murański in 2014."
+        },
+        {
+          "title": "Every step you take: The story of Minesweeper, Dan Griliopoulos, Eurogamer, 2014",
+          "url": "https://www.eurogamer.net/every-step-you-take-the-story-of-minesweeper",
+          "note": "Interviews with Ian Andrew (Mined-Out, ZX Spectrum, written in BASIC at 24, tested by his mother) and Curt Johnson (moved from Minnesota where it was minus 20 Fahrenheit; wrote a 16-colour bitmap editor because Paint was black and white; borrowed the idea from a Macintosh game, not Mined-Out; built Mines in C; Donner converted it to Windows; 'Field of flowers, though? It's a fine name.')."
+        },
+        {
+          "title": "Microsoft Minesweeper, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Microsoft_Minesweeper",
+          "note": "Created by Curt Johnson for OS/2 and ported to Windows by Robert Donner; Microsoft Entertainment Pack 1 in 1990; standard in Windows 3.1 in 1992, replacing Reversi; Flower Field versions."
+        },
+        {
+          "title": "Minesweeper (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Minesweeper_(video_game)",
+          "note": "Origins unclear; Mined-Out (1983) by Ian Andrew; a 2000 proof in The Mathematical Intelligencer that Minesweeper is NP-complete."
+        }
+      ],
+      "uncertainties": [
+        "Accounts differ on who did what: Wikipedia says Johnson created the game and Donner ported it to Windows; How-To Geek says Donner based his game on Johnson's earlier one.",
+        "Ian Andrew believes Microsoft's game came from Mined-Out; Curt Johnson says it did not.",
+        "Eurogamer says Minesweeper was given away with Windows 3.11; How-To Geek and Wikipedia say Windows 3.1 in 1992.",
+        "The 2000 NP-completeness proof was published under the name Richard Kaye; Wikipedia now gives the author's name as Sadie Kaye, so the story does not name the mathematician.",
+        "The world record has since been beaten: Wikipedia lists a combined time of 32.88 seconds in later official rankings."
+      ]
+    }
+  ],
+  "kids": [
+    {
+      "era": "1990s",
+      "title": "Being 12 in the 1990s",
+      "paragraphs": [
+        "Computers moved from the school library into the lounge room. In 1998, 45 out of every 100 Australian homes had a computer, but only 16 had the internet at home. That was still a big jump: in 1996 only about 286,000 homes were online. In the 1990s the Australian Bureau of Statistics even added home computers and software to the list of things it checks to measure prices.",
+        "Money changed in your pocket. The 1 cent and 2 cent coins were taken out of use in 1992, and between 1992 and 1996 Australia brought in a whole set of plastic banknotes, the first country in the world to do it.",
+        "On TV, Bananas in Pyjamas began on the ABC on 20 July 1992, and the Wiggles started singing in 1991. Neighbours was still filmed in a real Melbourne street. Sony's PlayStation went on sale in Australia on 15 November 1995, the Tamagotchi went on sale around the world in 1997, and Pokémon Red and Blue arrived on the Game Boy in 1998. From 1994 video games sold in Australia got their own classification labels.",
+        "Big news you might remember: on 3 June 1992 the High Court's Mabo decision recognised that Aboriginal and Torres Strait Islander peoples could hold native title to their land. On 24 September 1993 Sydney won the vote to hold the 2000 Olympic Games, beating Beijing by 45 votes to 43."
+      ],
+      "fastFacts": [
+        "In 1998, 45 in every 100 Australian homes had a computer and 16 in every 100 had the internet. (Australian Bureau of Statistics)",
+        "Australia's polymer banknotes, issued from 1992 to 1996, were the world's first full set printed on plastic instead of paper. (Reserve Bank of Australia)",
+        "The 1 cent and 2 cent coins were withdrawn from circulation in 1992. (Wikipedia)",
+        "Sony's PlayStation went on sale in Australia on 15 November 1995. (Wikipedia)",
+        "From 1994 computer and video games in Australia had their own classification system, separate from films. (Wikipedia)",
+        "Sydney won the 2000 Olympics on 24 September 1993 by 45 votes to Beijing's 43. (Wikipedia)"
+      ],
+      "compare": "In 1998, 16 in every 100 Australian homes had the internet. If your class had 30 students in 1998, about how many would have been online at home? How many in your class are online at home today?",
+      "sources": [
+        {
+          "title": "Household Use of Information Technology, Australia, 1998 (media release 63/99), Australian Bureau of Statistics",
+          "url": "https://abs.gov.au/ausstats/abs@.nsf/Previousproducts/8146.0Media%20Release11998?issue=1998&num=&opendocument=&prodno=8146.0&tabname=Summary&view=",
+          "note": "In 1998, 16% of households (1.1 million) had home internet access, up from 286,000 households in 1996; 45% of households (3.0 million) had a home computer."
+        },
+        {
+          "title": "What changes in prices and their collection tell us about Australia, Australian Bureau of Statistics, 2023",
+          "url": "https://www.abs.gov.au/articles/what-changes-prices-and-their-collection-tell-us-about-australia",
+          "note": "Goods added to the CPI basket in the 1990s include home computers and software."
+        },
+        {
+          "title": "History of Australia's banknotes, Reserve Bank of Australia",
+          "url": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+          "note": "The first polymer series was issued between 1992 and 1996, the first in the world printed on polymer instead of paper."
+        },
+        {
+          "title": "Australian one-cent coin, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_one-cent_coin",
+          "note": "Withdrawn from circulation in 1992 along with the two-cent coin."
+        },
+        {
+          "title": "Bananas in Pyjamas, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bananas_in_Pyjamas",
+          "note": "First aired on ABC-TV on 20 July 1992."
+        },
+        {
+          "title": "The Wiggles, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Wiggles",
+          "note": "Years active 1991 to present."
+        },
+        {
+          "title": "Ramsay Street, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ramsay_Street",
+          "note": "Pin Oak Court in Vermont South, Melbourne, has doubled for Ramsay Street for the whole of Neighbours' run and is popular with tourists."
+        },
+        {
+          "title": "PlayStation (console), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+          "note": "Released in Australia on 15 November 1995."
+        },
+        {
+          "title": "Tamagotchi, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+          "note": "Released in Japan in 1996 and worldwide in 1997."
+        },
+        {
+          "title": "Pokémon Red, Blue and Yellow, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow",
+          "note": "Red and Blue were released in Australia later in 1998; Yellow on 3 September 1999."
+        },
+        {
+          "title": "Australian Classification Board, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_Classification_Board",
+          "note": "A separate classification system for computer and video games was introduced in 1994."
+        },
+        {
+          "title": "Mabo v Queensland (No 2), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mabo_v_Queensland_(No_2)",
+          "note": "High Court of Australia decision of 3 June 1992 recognising native title."
+        },
+        {
+          "title": "2000 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2000_Summer_Olympics",
+          "note": "Sydney won the right to host on 24 September 1993, beating Beijing 45 to 43 in the fourth round of voting."
+        }
+      ],
+      "uncertainties": [
+        "No reliable dated source was found for typical pocket money in the 1990s, so the panel uses internet and computer figures instead.",
+        "Wikipedia gives no exact Australian release date for Pokémon Red and Blue, only 'later in 1998'.",
+        "No source was found for the exact date the Tamagotchi went on sale in Australia; the panel says 1997, when it went on sale around the world.",
+        "The 1998 ABS figures combine four household surveys taken during the year."
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "gameId": "labyrinth",
+      "title": "Rays on graph paper",
+      "yearLevels": "Years 6 to 8",
+      "idea": "Play Labyrinth for five minutes and notice how walls grow taller as you walk towards them. On grid paper, students draw a small maze of whole squares and mark a player dot. With a ruler they draw eight rays fanning out from the dot, stopping each one where it first touches a wall, and measure each ray in squares. They work out a wall height for each ray with 'height = 12 divided by distance' and draw the eight heights side by side as stripes. The stripes make a little 3D picture of the view. Finish with the Then panel on John Carmack's 1992 shortcut.",
+      "computerAngle": "Raycasting turns a 2D map into a 3D-looking view. The program stores the maze as a grid of numbers, 0 for open floor and other numbers for walls. For each column of the screen it works out a ray's direction, then steps the ray from grid line to grid line (an algorithm called DDA, for digital differential analyser) until it lands in a wall square. The distance to that wall sets how tall to draw the column: height is a constant divided by distance. To stop walls bulging like a fishbowl, the distance is multiplied by the cosine of the angle between the ray and the direction you face. This is a loop (one pass per column) with a loop inside it (one step per grid line) and a condition (is this square a wall?).",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+    },
+    {
+      "gameId": "skyline",
+      "title": "Bracketing a throw",
+      "yearLevels": "Years 5 to 8",
+      "idea": "In pairs, students play a round of Skyline against the computer on Easy and keep a table of each throw: angle, speed and whether it landed short or long. They then use bracketing: after one short throw and one long throw, try halfway between. Count how many throws each pair needed. Compare with the computer on Normal, which adjusts from its last miss, and talk about why halving the gap is a fast way to close in. Finish with the Then panel on Gorillas and its QBasic code.",
+      "computerAngle": "There are two ways a computer can aim. It can calculate: a throw at speed v and angle a moves v times cos(a) across and v times sin(a) up each second, while gravity g pulls it down; stepping these numbers forward many times a second draws the curve, and wind adds a small push sideways each step. Or it can search: like a person, it remembers its last short and last long throw and tries a value between them, halving the gap each time. This second method is a binary search, the same idea a computer uses to find a word in a sorted list quickly.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+    },
+    {
+      "gameId": "pocket-pet",
+      "title": "A pet made of numbers",
+      "yearLevels": "Years 5 and 6",
+      "idea": "Play Pocket Pet for a few minutes and list everything the pet needs. Students turn each need into a number from 0 to 4, such as hunger 3 and happiness 2, and write rules on cards: 'Every minute, hunger goes down 1', 'If hunger is 0, health goes down 1', 'Feeding a meal adds 2 to hunger, up to 4'. In groups, one student is the timer, one keeps the numbers on a whiteboard and others act as owners, playing out ten minutes of pet time. Finish with the Then panel on the 1996 Tamagotchi, which could beep for food in the middle of a lesson.",
+      "computerAngle": "A virtual pet is a set of variables (hunger, happiness, cleanliness, health and age) that a program changes over time. A timer loop runs every few seconds and lowers some numbers; buttons raise them; if-then rules connect them, such as 'if hunger is 0, lower health'. The pet's growth stage is a simple state machine: after enough time it moves from egg to baby to child to adult, and the care score decides which adult it becomes. Saving the game means writing all these numbers down so they can be loaded again later.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+    },
+    {
+      "gameId": "dance-mat",
+      "title": "Beats per minute",
+      "yearLevels": "Years 5 to 7",
+      "idea": "Play one song in Dance Mat as a class and clap along. Students count claps for 15 seconds and multiply by 4 to find the beats per minute (BPM). They then work out the time between beats: 60 seconds divided by the BPM, so 120 BPM gives 0.5 seconds. Make a table for 90, 120 and 150 BPM. Talk about why a Perfect step needs you to be within a small fraction of a second, and try stepping a simple pattern on chalk arrows in the playground. Finish with the Then panel on DDR's dance stage.",
+      "computerAngle": "A rhythm game is a timing machine. Each arrow in a song's chart has a target time, worked out from the beat: the time of beat n is n multiplied by 60 divided by the BPM. When you press a key, the program reads the audio clock, subtracts the target time and looks at how big the difference is. A very small difference is Perfect, a bit larger is Great, then Good, and anything outside the window is a Miss. Using the sound card's clock rather than the screen's timer keeps the arrows and the music in step.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/mathematics/year-7"
+    },
+    {
+      "gameId": "minefield",
+      "title": "Logic without guessing",
+      "yearLevels": "Years 5 to 8",
+      "idea": "Play a Beginner board of Minefield. Then give pairs small paper puzzles, a 5 by 5 grid with some numbers already uncovered. Students mark squares that must be mines and squares that must be safe, writing the reason in words, such as 'this 1 touches only one hidden square, so that square is a mine'. Share the two most useful rules the class found. Finish with the Then panel on Minesweeper's journey from OS/2 to Windows 3.1.",
+      "computerAngle": "A solver uses two simple rules again and again. Rule one: if a number equals the count of hidden squares around it, all of them are mines; if a number equals the count of flags already around it, all other hidden neighbours are safe. Rule two compares two numbers that share neighbours: if every hidden square next to one number is also next to another, the difference between the two numbers tells you about the squares only the second one touches. A program can make a 'no guessing' board by generating a board, running the solver from the first click and starting again if the solver gets stuck.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "There is a secret five-letter word. You have six guesses to find it.",
+    "Type any real five-letter word and press Enter. Every guess must be a word in the game's word list.",
+    "Each letter changes colour. Green with a tick means the right letter in the right place. Yellow with arrows means the letter is in the word, but somewhere else. Grey means the letter is not in the word.",
+    "Use the clues to make a better guess. The keyboard shows which letters you have already tried.",
+    "Daily word is the same for everyone on the same day, and changes at midnight. Practice gives you as many extra words as you like.",
+    "Hard mode: every clue you find must be used in your next guesses. Switch it on or off before your first guess.",
+    "When you finish, copy your result as a grid of coloured squares to share. It never gives the word away."
+  ],
+  "controls": "Tap or click the letters on screen, then Enter. Keyboard: type the letters, press Enter to check the word and Backspace to rub out a letter. On a phone the on-screen keys go from A to Z, so they are big enough to tap.",
+  "computer": "The computer colours your guess in two passes, because each letter of the secret word can only light up one tile. First it finds every letter in exactly the right place, colours it green and crosses that letter off the secret word. Then it goes through your other letters from left to right: if a letter is still left over in the secret word, it turns yellow and that copy is crossed off; if not, it stays grey. That is why, if the word is CRANE and you guess EERIE, only the last E is green and the first two Es are grey: CRANE has just one E. The daily word comes from the date on your device. The computer shuffles the word list in the same order on every device (using a random number maker that always gives the same numbers from the same starting seed) and gives day 1 the first word, day 2 the second, and so on, so nobody needs the internet. At the end it shows how many secret words still fitted your clues after each guess: it tries every word in its list as if it were the answer and keeps the ones that would have given you exactly the same colours.",
+  "players": ["solo"],
+  "notes": "The guess-a-word-in-six-tries mechanic and the green, yellow and grey colours are from the 2021 web game; the name, look, sounds and both word lists are our own. The 485 secret words were chosen by hand: common words a 10-year-old knows, with Australian spellings such as metre, litre, fibre, ochre, mould and maths, and a few Aussie words such as cuppa, footy, lolly and galah. The 4,600 words you may guess come from the free, public-domain 12dicts lists by Alan Beale (3of6game and 2of4brif), with rude and unkind words taken out. Every coloured tile also carries a mark (a tick or arrows), and a Colour-blind colours switch changes green and yellow to orange and blue, so colour is never the only clue. Daily words are numbered from 1 October 2026. The game counts the secret words that still fit after each guess, to show how clues narrow things down."
+}

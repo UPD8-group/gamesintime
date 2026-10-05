@@ -1,0 +1,17 @@
+{
+  "howToPlay": [
+    "Choose a board and press Start. Two tiles appear.",
+    "Slide all the tiles at once: swipe on the board, press an arrow key, or tap an arrow button. Every tile slides as far as it can that way.",
+    "When two tiles with the same number bump into each other, they join into one tile worth double: 2 and 2 make 4, 4 and 4 make 8, and so on. Your score goes up by the new tile's number.",
+    "Each tile can only join once per move. A row of 2, 2, 2, 2 slid left becomes 4, 4, not 8.",
+    "After every move, a new 2 (or sometimes a 4) appears in an empty square.",
+    "Make the goal tile to win: 2048 on the 4 by 4 and 5 by 5 boards, or 128 on the quick 3 by 3 board. You can keep going after you win.",
+    "The game ends when the board is full and no tiles can join. Undo takes back your last move. Switch on Powers of 2 to see every tile as 2 multiplied by itself."
+  ],
+  "controls": "Swipe on the board, press the arrow keys or W, A, S and D, or tap the arrow buttons under the board. U undoes one move. New game lets you choose a board size.",
+  "computer": "The computer slides the tiles one line at a time. It starts with the tile nearest the wall you are sliding towards and moves each tile along until it meets the wall or another tile. If that tile has the same number and has not already joined this move, the two join. That one rule, join only once per move, is why 2, 2, 2, 2 becomes 4, 4 and not 8. After a move that changed something, the computer picks a random empty square and puts a 2 there, or a 4 about one time in ten. Joining tiles never changes the total of all the numbers on the board (4 and 4 become 8), so the total only grows by the new 2s and 4s. Every tile is a power of two: 2 multiplied by itself a number of times, which is how computers count too.",
+  "players": [
+    "solo"
+  ],
+  "notes": "Plays like the 2014 web game, with our own name, colours and flat look. The 3 by 3 and 5 by 5 boards are extras. The 3 by 3 board fills up so fast that its goal is 128 instead of 2048, and the 5 by 5 board gives you room to spare on the way to 2048. As in the original, you can keep playing after you win and your game is saved on this device. Undo (one move at a time), the arrow buttons and the Powers of 2 teaching switch are our additions."
+}

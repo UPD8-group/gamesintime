@@ -63,7 +63,7 @@
     },
     {
       "id": "number-place",
-      "title": "Number Place (Sudoku)",
+      "title": "Number Place",
       "era": "2000s",
       "year": 2005,
       "yearLabel": "2005",
@@ -89,9 +89,9 @@
       "id": "cave-copter",
       "title": "Cave Copter",
       "era": "2000s",
-      "year": 2004,
-      "yearLabel": "2004",
-      "stamp": "2004",
+      "year": 2000,
+      "yearLabel": "About 2000",
+      "stamp": "2000",
       "type": "action",
       "players": [
         "solo"

@@ -1,0 +1,102 @@
+{
+  "images": [
+    {
+      "id": "hall-1990s",
+      "hero": "img/hall-1990s-1600.webp",
+      "card": "img/hall-1990s-720.webp",
+      "width": 1600,
+      "height": 997,
+      "alt": "A boy in a white shirt sits cross-legged on the carpet holding a grey Nintendo 64 controller, beside a wooden coffee table with a candle jar on it.",
+      "caption": "A boy playing a Nintendo 64 at home, 1996",
+      "credit": "Lisa Moody, 1996. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Boy_playing_Nintendo_64_in_1996.tiff",
+      "focus": "65% 40%"
+    },
+    {
+      "id": "labyrinth",
+      "hero": "img/labyrinth-1600.webp",
+      "card": "img/labyrinth-720.webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Two black floppy disks with white labels reading DOOM, Shareware, Disk 1 of 2 and Disk 2 of 2, Created by id Software, 1993.",
+      "caption": "The two floppy disks of Doom's free shareware version from 1993, which players copied and passed on to friends",
+      "credit": "Pelle Wessman, 2008. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Doom_Disks_(2954946319).jpg",
+      "focus": "50% 50%"
+    },
+    {
+      "id": "skyline",
+      "hero": "img/skyline-1600.webp",
+      "card": "img/skyline-720.webp",
+      "width": 1600,
+      "height": 1205,
+      "alt": "Two young people, seen from behind, sit at a beige Amiga 500 computer and monitor showing a two-player game, with a box of floppy disks beside it.",
+      "caption": "Two players at a Commodore Amiga 500, the kind of home computer on which Andy Davidson wrote the first version of Worms, photographed in 2025",
+      "credit": "App.211, 2025. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Computerspieler_am_Amiga_500.jpg",
+      "focus": "50% 45%"
+    },
+    {
+      "id": "pocket-pet",
+      "hero": "img/pocket-pet-1600.webp",
+      "card": "img/pocket-pet-720.webp",
+      "width": 1600,
+      "height": 1263,
+      "alt": "A see-through yellow egg-shaped Tamagotchi with a small square screen, three white buttons and a silver ball chain.",
+      "caption": "A yellow Tamagotchi made in 1997, in the collection of Museum Rotterdam, Netherlands. The museum links it to school bans",
+      "credit": "Museum Rotterdam, object 78041. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gele_tamagotchi,_objectnr_78041.JPG",
+      "focus": "55% 50%"
+    },
+    {
+      "id": "dance-mat",
+      "hero": "img/dance-mat-1600.webp",
+      "card": "img/dance-mat-720.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Seen from behind, a girl in a yellow T-shirt and pink skirt steps across a metal dance stage with arrow panels, beside a Dance Dance Revolution cabinet, with prize machines behind her.",
+      "caption": "A girl dancing on the arrow panels of a Dance Dance Revolution machine in an arcade, 2011",
+      "credit": "mliu92, 2011. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Girl_playing_Legacy_Dance_dance_revolution_cabinet.jpg",
+      "focus": "45% 55%"
+    },
+    {
+      "id": "minefield",
+      "hero": "img/minefield-1600.webp",
+      "card": "img/minefield-720.webp",
+      "width": 1600,
+      "height": 1067,
+      "alt": "A beige tower computer and boxy monitor showing the Windows 3.1 Program Manager, with a keyboard and mouse, on a museum table next to a Microsoft information card.",
+      "caption": "A 1990s PC running Windows 3.1, the version of Windows that first came with Minesweeper, at the Living Computer Museum, Seattle, USA, 2013",
+      "credit": "Jason Scott, 2013. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Living_Computer_Museum_IMG_0029_(9636214849).jpg",
+      "focus": "60% 50%"
+    },
+    {
+      "id": "kids-1990s",
+      "hero": "img/kids-1990s-1600.webp",
+      "card": "img/kids-1990s-720.webp",
+      "width": 1167,
+      "height": 771,
+      "alt": "A man and two children in jumpers stand by a street sign reading Pin Oak Ct on a quiet suburban street with gum trees, brick fences and a red car.",
+      "caption": "Visitors at Pin Oak Court in Vermont South, Melbourne, the real street filmed as Ramsay Street in the TV soap Neighbours, 1996",
+      "credit": "Gareth Williams, 1996. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Melbourne_1996.jpg",
+      "focus": "72% 60%"
+    }
+  ]
+}

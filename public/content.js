@@ -119,7 +119,9 @@ window.GIT_CONTENT = {
       "gold": "Pixels, polygons and pets.",
       "kids": [
         "1990s"
-      ]
+      ],
+      "hook": "A maze drawn in 3D, water balloons over a night skyline, a pet on a keyring, arrows to dance on and a field of hidden mines.",
+      "intro": "In the 1990s the games came home. Ordinary computers learned to draw 3D worlds, discs replaced cartridges, and a pet could live in your pocket. Same rule as the rooms next door: the mechanics are the era's, the names and colours are ours."
     },
     {
       "id": "2000s",
@@ -131,7 +133,9 @@ window.GIT_CONTENT = {
       "gold": "Gems, Flash games and a wand in your hand.",
       "kids": [
         "2000s"
-      ]
+      ],
+      "hook": "A number grid from the newspaper, glittering gems to swap, a one-button cave flight, a garden full of pests and a bowling lane you swing at.",
+      "intro": "In the 2000s games reached people who never called themselves gamers. Free web games ran in school computer rooms, puzzles filled newspapers and phones, and a remote you swing brought whole families in to bowl. Same rule as the rooms next door: the mechanics are the era's, the names and colours are ours."
     },
     {
       "id": "2010s",
@@ -3408,6 +3412,647 @@ window.GIT_CONTENT = {
       "playable": true,
       "controls": "Left and right arrows, or A and D, slide the block. The up arrow or W turns it. The down arrow or S moves it down one row, and Space drops it straight to the bottom. On a phone or tablet, use the buttons under the well: the arrows slide and nudge the block down, the round arrow turns it, and DROP drops it. Start begins a new game and Stop ends it.",
       "adaptation": "Ported line for line from Cascade in the original 1983 neon arcade: the same 10 by 18 well, the seven shapes and their colours, the shuffled set of seven, the turning rules and the nudges away from walls, the falling speeds, scoring, ghost block, tones and drawing, checked frame by frame against the original with the same shuffles. Changes: the em-dashes in the caption are middle dots and the screen's label uses full stops; the screen has role img; the best score is kept with the Games in Time store; the site's status line shows the score and level; a new best (saved at game over, as before) sets off the site's celebration; the Start and Stop buttons use their own class names so the site's button style does not change them, and their symbols are hidden from screen readers; and the screen lets a phone scroll the page when no game is running (it still holds still during play). Kept as the original has them: the well is drawn at 240 by 432 pixels and stretched to fit, so the glow looks the same; there is no next-block preview or hold; and soft drops score nothing."
+    },
+    {
+      "story": [
+        "Artillery games are some of the oldest computer games. In 1969 Arthur Luehrmann made one called Potshot that drew each shot with a plotter, a machine that draws with a pen. In the 1970s players on big shared computers typed in an angle and a speed, then waited to see where the shot landed. The rule is simple: you choose the angle and the power, and gravity and wind do the rest.",
+        "In June 1991 Microsoft released MS-DOS 5.0 with a free programming language called QBasic and four example programs. One was Gorillas. Two gorillas stand on the roofs of a city skyline and take turns throwing exploding bananas, with the wind shown by an arrow. Three university students working at Microsoft as interns made it: Richard Moe drew the art and wrote the music, Lyle Hazle programmed the main game and Lance Delarme wrote the code that builds the city. Because the program was right there in a file called GORILLA.BAS, many kids changed it, and some say it made them want to be programmers.",
+        "In England, Andy Davidson, who worked in a computer shop, spent years making his own artillery game on an Amiga computer in a language called Blitz BASIC. He entered it in a competition run by Amiga Format magazine, then showed it at a trade show in September 1994, where Martyn Brown of the games company Team17 made him an offer on the spot. Worms came out on 17 November 1995: teams of cartoon worms take turns on a landscape that crumbles where shots land. By 2006 it had sold more than 5 million copies.",
+        "Skyline plays like Gorillas and Worms: two players take turns to set an angle and a speed while gravity pulls and the wind pushes every throw. Here the throws are water balloons and nobody gets hurt. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose vs Computer (Easy, Normal or Hard) or 2 players, then press Start. One thrower stands on a roof on the left, the other on a roof on the right.",
+        "On your turn, set the angle (0 degrees is a flat throw, 90 is straight up) and the speed (how hard you throw), then press Throw.",
+        "The balloon flies in a curve, because gravity pulls it down a little more every second. Watch the flag and the wind arrow at the top: the wind pushes the balloon sideways for the whole flight.",
+        "Each thrower's last throw stays on screen as a dotted trail. Use it to see how far off you were, and change one number at a time.",
+        "Hit the other thrower for a big, harmless SPLOOSH and a point. A miss splashes the buildings, and a balloon that lands on a roof can knock out a little notch.",
+        "Careful: if your balloon comes back down on your own head, you get soaked and the point goes to the other side.",
+        "After every splash there is a new city and a new wind. First to 3 points wins. Your wins against each computer level are saved on this device."
+      ],
+      "didYouKnow": [
+        "Microsoft wanted to keep away from war games, so the Gorillas team brainstormed silly ideas. Richard Moe remembered: 'One idea was clowns throwing pies, but what are clowns doing on buildings? King Kong on the other hand...'",
+        "Gorillas let you change gravity. It started at 9.8 metres per second squared, Earth's real pull, but you could type in any number you liked.",
+        "Blitz BASIC, the language the first Worms was written in, was made by New Zealand programmer Mark Sibly, and its first version was published by an Australian company, Memory and Storage Technology.",
+        "Before it was called Worms, Andy Davidson's game was called Artillery, and then Total Wormage."
+      ],
+      "sources": [
+        {
+          "title": "GORILLA.BAS: How to Play the Secret MS-DOS Game From Your Childhood, Benj Edwards, How-To Geek, 2022",
+          "url": "https://www.howtogeek.com/779956/gorilla.bas-how-to-play-the-secret-ms-dos-game-from-your-childhood/",
+          "note": "MS-DOS 5.0 launched in June 1991 with QBasic and four example programs (MONEY.BAS, REMLINE.BAS, NIBBLES.BAS, GORILLA.BAS); co-op interns Richard Moe (design, music, art), Lyle Hazle (core mechanics) and Lance Delarme (cityscape); the clowns throwing pies quote; source code invited kids to experiment; Moe later joined Humongous Entertainment."
+        },
+        {
+          "title": "Gorillas (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gorillas_(video_game)",
+          "note": "Players enter an angle and velocity; gravity defaults to 9.8 m/s squared but any value may be chosen; wind shown by an arrow; impacts blow chunks out of buildings."
+        },
+        {
+          "title": "QBasic, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/QBasic",
+          "note": "QBasic came with four example programs: Nibbles, Gorillas, Money Manager and RemLine; version 1.0 shipped with MS-DOS 5.0."
+        },
+        {
+          "title": "Artillery game, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Artillery_game",
+          "note": "Potshot by Arthur Luehrmann (1969) with a plotter display; 1970s mainframe artillery games where players entered velocity and angle; Gorillas and Scorched Earth (1991); Worms (1995)."
+        },
+        {
+          "title": "Worms (1995 video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Worms_(1995_video_game)",
+          "note": "Andy Davidson, a computer shop employee, began in 1990; titled Artillery, then Total Wormage after an Amiga Format Blitz BASIC competition; met Martyn Brown at ECTS in September 1994, who made an offer on the spot; released 17 November 1995; more than 5 million sold by 2006."
+        },
+        {
+          "title": "Team17, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Team17",
+          "note": "Based in Wakefield, England; founded 7 December 1990."
+        },
+        {
+          "title": "Blitz BASIC, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blitz_BASIC",
+          "note": "Devised by New Zealand-based developer Mark Sibly; the first version, for the Amiga, was published by the Australian firm Memory and Storage Technology; Total Wormage was developed in Blitz BASIC."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia dates Gorillas to 1990, when the interns made it; it was first sold with MS-DOS 5.0 in June 1991, so this page uses 1991.",
+        "The names of Gorillas' makers come from Richard Moe's own account to How-To Geek. Rick Raddatz, who wrote Nibbles, remembers the start of the project a little differently.",
+        "It is not clear which version of Blitz BASIC Andy Davidson used. The first Blitz BASIC was published by an Australian company; Blitz BASIC 2 came from Acid Software in New Zealand.",
+        "Worms is a turn-based game about battling worms with weapons. This hall's version uses harmless water balloons."
+      ],
+      "playable": true,
+      "id": "skyline",
+      "title": "Skyline",
+      "era": "1990s",
+      "year": 1991,
+      "yearLabel": "1991 (Worms followed in 1995)",
+      "stamp": "1991",
+      "type": "action",
+      "players": [
+        "vs computer",
+        "2 players"
+      ],
+      "controls": "Drag on the city from your thrower to aim: the arrow points the way you will throw, and a longer arrow means more speed. You can also use the sliders or type the numbers. Then press Throw. Keyboard: Up and Down arrows change the angle, Left and Right change the speed (hold Shift for steps of 5), Space or Enter throws.",
+      "computer": "The computer uses the same maths the game uses to fly the balloon. At any moment of the flight, the balloon's sideways position is where it started, plus its sideways speed times the time, plus half the wind times the time squared. Its height works the same way, with gravity instead of the wind. Easy uses a textbook formula that forgets about the wind and the buildings, then wobbles its guess a lot, so it mostly hits by luck. Normal does what a careful person does, called bracketing: it keeps the same angle, and if a throw lands short it throws harder, and if it lands too far it throws softer. Once it has one throw that was short and one that was too far, it tries halfway between them, halving the gap every time. Computer scientists call that a binary search. If a tall building is in the way, it throws harder, then higher. Hard tests throws in its head before it throws: for every angle from 20 to 80 degrees it runs the real equations, with the real wind and the real buildings, to find the speed that lands right on you, and picks one. That would never miss, so its hand wobbles by a few degrees and a few points of speed, like anyone's. In our tests on hundreds of random cities, Easy needed about 7 throws to score a splash, Normal about 3 and Hard about 2.",
+      "adaptation": "Plays like the 1991 artillery game in which two players on a city skyline take turns to choose an angle and a speed and throw at each other, with gravity and a wind that changes every round, first to a chosen score. Changed for Games in Time: the throwers are two friends of our own design with water balloons instead of anything that explodes, and a hit makes a harmless splash; the angle and speed are set with sliders, number boxes or by dragging an arrow, instead of being typed in at a prompt; each player's last throw stays on screen as a dotted trail, so kids can learn from every miss; a miss leaves a wet patch, and a roof hit knocks out only a small notch, never under anyone's feet; the building next to each thrower is never much taller than their own roof, so nobody starts stuck behind a wall; there is a computer opponent with three levels, where the original was for two people sharing one keyboard; the game is always first to 3, and gravity is fixed rather than typed in.",
+      "origin": "Mechanics of Gorillas by Microsoft, Redmond, USA, and Worms by Andy Davidson and Team17, Wakefield, England",
+      "tagline": "Angle, speed, wind and splash!",
+      "blurb": "Take turns to choose an angle and a speed and lob water balloons across a city skyline while the wind pushes them off course, like the 1991 game Gorillas."
+    },
+    {
+      "story": [
+        "At the start of 2009 a Finnish games studio called Rovio was close to going broke. It had made 51 games for other companies and had shrunk from 50 workers to 12. Its bosses, the cousins Mikael and Niklas Hed, decided to make a game of their own for the iPhone, with a list of rules: it had to suit everybody, be based on physics, need no tutorial, load fast and be fun to play for just one minute.",
+        "In March 2009 designer Jaakko Iisalo showed them a picture of round, cross-looking birds with no feet or wings, walking towards a pile of colourful blocks. Everyone loved the birds, though nobody yet knew what the game would be. Early versions had no slingshot and no pigs: you flung the birds by swiping. The slingshot stayed because players understood it straight away, and green pigs who steal the birds' eggs were added to explain why the birds were so angry.",
+        "Angry Birds went on sale in December 2009. It was Rovio's 52nd game and cost about 100,000 euros to make. At first it sold slowly in big countries, so Rovio started small: a few hundred sales put it at number one in Finland, then Sweden, Denmark, Greece and the Czech Republic. In February 2010 Apple made it game of the week in Britain, and by April it was number one in the United States. In 2013 Apple named it the most downloaded paid app ever, and in 2026 it joined the World Video Game Hall of Fame.",
+        "Slingshot plays like Angry Birds, the 2009 phone game from Rovio in Finland. Our pebbles are friendly puffballs, the targets are trophies and snowmen, and nothing alive gets hurt. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Pick a level under the picture and press Play. Your puffballs wait beside the slingshot on the left.",
+        "Drag back anywhere on the picture and let go. The further you pull, the faster the puffball flies. It flies the opposite way to your pull, like a real slingshot.",
+        "The white dots show where the first part of the flight will go. You have to judge the rest yourself.",
+        "Knock down every gold trophy and snowman. A target counts when it tips over, falls off its tower, or takes a hard knock.",
+        "Wood, ice and stone behave differently. Ice is slippery and breaks easily. Stone is heavy and tough. Cracks show that a piece is about to break. Knock out the bottom of a tower and the top comes down too.",
+        "The big blue puffballs are heavier, so they hit harder.",
+        "Clear a level with fewer puffballs for more stars, and get a bonus for every puffball left over. Clearing a level opens the next one. If you get stuck on a level three times, the next one opens anyway."
+      ],
+      "didYouKnow": [
+        "Jaakko Iisalo built two layers into every level: one star for finishing and three stars for experts, 'so that my mother can enjoy the game, and I can enjoy the game'.",
+        "The pigs were coloured green to go with the red of the birds.",
+        "Rovio's YouTube trailer for Angry Birds was only the second trailer ever made for an iPhone game.",
+        "Niklas Hed knew he had a hit when his mother, who never played games, burned the Christmas turkey because she was busy playing it.",
+        "By early 2011 people spent 200 million minutes a day playing Angry Birds. That is about 16 years of play every hour."
+      ],
+      "sources": [
+        {
+          "title": "In depth: How Rovio made Angry Birds a winner (and what's next), Tom Cheshire, Wired (UK), 7 March 2011",
+          "url": "https://www.wired.com/story/how-rovio-made-angry-birds-a-winner/",
+          "note": "Rovio close to bankruptcy at the start of 2009; 51 titles before Angry Birds; shrank from 50 employees to 12; office in downtown Helsinki; criteria: for everybody, physics-based, no tutorial, minimal loading, play for one minute; Iisalo's March 2009 screenshot of round, cross birds with no feet that can't fly; first versions used swiping and had no catapult or pigs; pigs added with the egg-stealing story; budget of 25,000 euros, final cost four times that; 52nd title; launched December 2009; number one in Finland, Sweden, Denmark, Greece and the Czech Republic; UK game of the week on 11 February 2010; number one in the US in April; second-ever iPhone game trailer; one-star and three-star layers; mother burned the Christmas turkey; 200 million minutes a day."
+        },
+        {
+          "title": "Angry Birds, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/angry-birds/",
+          "note": "Inducted 2026; Rovio's 52nd game; second-ever YouTube trailer for an iPhone game; Apple's 2013 list put it top as the most downloaded paid app of all time; more than two billion downloads by some estimates; 'The pigs were colored green to complement the red color of the birds.'"
+        },
+        {
+          "title": "Angry Birds (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angry_Birds_(video_game)",
+          "note": "Soft launch in Finland on 1 December 2009 and worldwide on 11 December 2009; Iisalo's sketch; slingshot first thought too obvious, then kept because players understood it immediately; programmer Tuomo Lehtinen made the physics; gameplay based on the 2009 Flash game Crush the Castle; three-star rating by birds used."
+        },
+        {
+          "title": "Box2D, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Box2D",
+          "note": "Free, open-source 2D physics engine by Erin Catto, released as open source on 11 September 2007; lists Angry Birds among games that used it."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia gives 11 December 2009 for the worldwide release (after a Finnish launch on 1 December); Wired says December 2009.",
+        "Wired places Rovio's 2009 office in downtown Helsinki; Rovio's later headquarters are in Espoo, next to Helsinki.",
+        "Wired says early versions flung birds by swiping; Wikipedia says the slingshot was tried first, thought too obvious, then brought back. The story combines the two.",
+        "Wikipedia says the 2009 swine flu outbreak may have inspired the green pigs, while Iisalo has said they came from drawings he made at age 10.",
+        "Wikipedia says the gameplay was based on Crush the Castle, a 2009 Flash game; Rovio's account in Wired mentions only that physics games were popular on Flash websites.",
+        "Wikipedia lists Angry Birds among Box2D games; no Rovio source was opened to confirm it."
+      ],
+      "playable": true,
+      "id": "slingshot",
+      "title": "Slingshot",
+      "era": "2010s",
+      "year": 2009,
+      "yearLabel": "2009",
+      "stamp": "2009",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Drag back anywhere on the picture and let go to launch, with a mouse or a finger. Keyboard: Up and Down arrows change the angle, Left and Right set the power (hold Shift for bigger steps), Space or Enter launches, and R restarts the level. The numbered buttons under the picture choose a level.",
+      "computer": "There is no computer opponent here: the computer is the physics. Every plank, block, trophy and puffball is a rigid body with a weight, a speed and a spin. 120 times a second, the game finds which pieces are touching, then works out the push at each touching point (called an impulse) that stops them sinking into each other, with friction so they do not slide like soap and a little bounce. Fixing one contact can spoil another, so it goes round all of them 8 times, getting closer each time. Towers can stand still because each step starts from the pushes it worked out the step before, a trick called warm starting. Groups of pieces that have been still for half a second go to sleep and are not calculated again until something awake touches them, so a tower waits without a wobble until your puffball arrives. When two things hit, the game measures how hard (how fast times how heavy) and takes that much off the piece's toughness: ice has very little, stone has a lot. It is a small version of the ideas in Box2D, the free physics engine by Erin Catto that many phone games of the 2010s were built on.",
+      "adaptation": "Plays like the 2009 phone game in which you pull back a slingshot and fling characters at towers of wood, ice and stone to knock out the targets, with up to three stars for using fewer shots. Changed for Games in Time: the shots are friendly round puffballs of our own design that bounce and then poof back home, and the targets are gold trophies and snowmen, so nothing alive gets hurt; the ten levels and all the art are our own; the screen does not pan or zoom, so the whole level always fits, which works well on a projector; a dotted line shows the first part of each flight, and the last shot's path stays on screen; you can drag anywhere on the picture, not only on the slingshot, which is easier on a small screen, and the whole game can be played from the keyboard; puffballs have no special powers, though the big blue ones are heavier; and a level you are stuck on three times opens the next one, so nobody is locked out.",
+      "origin": "Mechanics of Angry Birds by Rovio Entertainment, Helsinki, Finland",
+      "tagline": "Pull back, aim, let fly.",
+      "blurb": "Pull back a slingshot and launch round puffballs to topple wobbly towers of wood, ice and stone, like the 2009 phone game Angry Birds."
+    },
+    {
+      "story": [
+        "Guessing a secret word from clues is an old idea. In 1955 Morton Rosenfeld began selling Jotto, a pencil-and-paper game in which two players guess each other's secret five-letter words. In 1987 the American TV quiz Lingo lit up letters to show which ones were in the word and which were in the right place. Josh Wardle, a software engineer from Wales living in Brooklyn, New York, said Wordle also grew from Mastermind, a colour code-breaking board game he played a lot as a child.",
+        "Wardle made a first version in 2013 that used all of the roughly 13,000 five-letter English words, but his partner, Palak Shah, kept meeting words she had never heard of. So he built another small game that showed her each word with three buttons, and she sorted them all into words she knew, did not know and maybe knew. That gave about 2,500 friendly answers. During the pandemic in 2020 the couple enjoyed The New York Times' daily puzzles, so Wardle remade Wordle with one puzzle a day, the same for everyone.",
+        "He put Wordle on the web for everyone in October 2021. On 1 November it had 90 players. Then a woman in New Zealand, known on Twitter as Elizabeth S, began sharing her results as a grid of coloured squares that showed how she went without giving the word away. Wardle added a button that made the grid for you, and by 2 January 2022 more than 300,000 people were playing. On 31 January 2022 The New York Times bought Wordle for 'the low seven figures', more than a million US dollars. That year Wordle was the thing Australians searched for most on Google.",
+        "Five Letters plays like Wordle, the 2021 daily word game by Josh Wardle. Our word lists are our own, and every letter gets a shape as well as a colour. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "There is a secret five-letter word. You have six guesses to find it.",
+        "Type any real five-letter word and press Enter. Every guess must be a word in the game's word list.",
+        "Each letter changes colour. Green with a tick means the right letter in the right place. Yellow with arrows means the letter is in the word, but somewhere else. Grey means the letter is not in the word.",
+        "Use the clues to make a better guess. The keyboard shows which letters you have already tried.",
+        "Daily word is the same for everyone on the same day, and changes at midnight. Practice gives you as many extra words as you like.",
+        "Hard mode: every clue you find must be used in your next guesses. Switch it on or off before your first guess.",
+        "When you finish, copy your result as a grid of coloured squares to share. It never gives the word away."
+      ],
+      "didYouKnow": [
+        "Wordle's name is a pun on its maker's surname, Wardle.",
+        "In the 1987 TV show Lingo, a letter in the right place lit up red, not green.",
+        "Wardle says that, for its size, New Zealand is 'really into Wordle'. The shareable coloured squares were invented there.",
+        "An older, unrelated app called Wordle! was downloaded more than 200,000 times in one week in January 2022 by people looking for Wardle's game. Its maker and Wardle gave $50,000 from it to a tutoring charity for children in Oakland, California."
+      ],
+      "sources": [
+        {
+          "title": "Wordle creator Josh Wardle on strategy, stats, and why it went viral, Slate (Spectacular Vernacular), 19 January 2022",
+          "url": "https://slate.com/culture/2022/01/wordle-game-creator-wardle-twitter-scores-strategy-stats.html",
+          "note": "Brooklyn-based software engineer; released Wordle to the world in October; 'I was literally just making a game for my partner'; the emoji grid came from 'Elizabeth S' while 'New Zealand Twitter was playing a lot of the game'; he and his partner filtered about 13,000 five-letter words down to about 2,500 using a game with 'I know this word', 'I don't know this word' and 'I maybe know this word' buttons; Ben Zimmer mentions Jotto (1950s) and Lingo (1980s)."
+        },
+        {
+          "title": "Josh Wardle: The power of Wordle, RNZ The Weekend, 8 January 2022",
+          "url": "https://www.rnz.co.nz/national/programmes/the-weekend/audio/2018826546/josh-wardle-the-power-of-wordle",
+          "note": "Made for his partner, both fans of the New York Times puzzles; per head, New Zealand 'is really into Wordle'; the emoji grid began with a New Zealand woman, Elizabeth S; Wardle played Mastermind a lot as a child; list filtered from about 12,000 words to about 2,500."
+        },
+        {
+          "title": "Wordle, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wordle",
+          "note": "Welsh software engineer; 2013 prototype using about 13,000 words; partner Palak Shah; named as a pun on his surname; public release October 2021; 90 players on 1 November 2021, over 300,000 by 2 January 2022; bought by the New York Times Company on 31 January 2022 for an 'undisclosed price in the low-seven figures'; unrelated app Wordle! downloaded over 200,000 times in a week, with $50,000 given to the Oakland tutoring charity Boost."
+        },
+        {
+          "title": "Jotto, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jotto",
+          "note": "Invented in 1955 by Morton M. Rosenfeld and marketed by his New York-based Jotto Corp; players guess each other's secret five-letter words."
+        },
+        {
+          "title": "Lingo (American game show), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lingo_(American_game_show)",
+          "note": "First series from 28 September 1987, taped near Vancouver; five-letter mystery words; a letter in the right place turned red, one in the word but in the wrong place turned yellow."
+        },
+        {
+          "title": "Mastermind (board game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mastermind_(board_game)",
+          "note": "Invented in 1970 by Mordecai Meirowitz and made by Invicta Plastics in England."
+        },
+        {
+          "title": "Year in Search: Here's what Aussies searched for in 2022, Google Australia blog",
+          "url": "https://blog.google/intl/en-au/products/explore-get-answers/year-in-search-heres-what-aussies-searched-for-in-2022/",
+          "note": "Australians 'searched for Wordle more than anything else' in 2022."
+        }
+      ],
+      "uncertainties": [
+        "The size of the filtered answer list differs: about 2,000 (Wikipedia), about 2,500 (Slate and RNZ) and 2,315 answers in the original game (Wikipedia).",
+        "The New York Times did not say exactly what it paid; 'low seven figures' means somewhere above one million US dollars.",
+        "Wikipedia dates the share button and the Twitter craze to December 2021; the exact day of the change was not checked.",
+        "Wordle's original word list used some British spellings; the New York Times later moved to American spelling and removed some words, so its answers differ from the original list."
+      ],
+      "playable": true,
+      "id": "five-letters",
+      "title": "Five Letters",
+      "era": "2020s",
+      "year": 2021,
+      "yearLabel": "2021",
+      "stamp": "2021",
+      "type": "words",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click the letters on screen, then Enter. Keyboard: type the letters, press Enter to check the word and Backspace to rub out a letter. On a phone the on-screen keys go from A to Z, so they are big enough to tap.",
+      "computer": "The computer colours your guess in two passes, because each letter of the secret word can only light up one tile. First it finds every letter in exactly the right place, colours it green and crosses that letter off the secret word. Then it goes through your other letters from left to right: if a letter is still left over in the secret word, it turns yellow and that copy is crossed off; if not, it stays grey. That is why, if the word is CRANE and you guess EERIE, only the last E is green and the first two Es are grey: CRANE has just one E. The daily word comes from the date on your device. The computer shuffles the word list in the same order on every device (using a random number maker that always gives the same numbers from the same starting seed) and gives day 1 the first word, day 2 the second, and so on, so nobody needs the internet. At the end it shows how many secret words still fitted your clues after each guess: it tries every word in its list as if it were the answer and keeps the ones that would have given you exactly the same colours.",
+      "adaptation": "The guess-a-word-in-six-tries mechanic and the green, yellow and grey colours are from the 2021 web game; the name, look, sounds and both word lists are our own. The 485 secret words were chosen by hand: common words a 10-year-old knows, with Australian spellings such as metre, litre, fibre, ochre, mould and maths, and a few Aussie words such as cuppa, footy, lolly and galah. The 4,600 words you may guess come from the free, public-domain 12dicts lists by Alan Beale (3of6game and 2of4brif), with rude and unkind words taken out. Every coloured tile also carries a mark (a tick or arrows), and a Colour-blind colours switch changes green and yellow to orange and blue, so colour is never the only clue. Daily words are numbered from 1 October 2026. The game counts the secret words that still fit after each guess, to show how clues narrow things down.",
+      "origin": "Mechanics of Wordle by Josh Wardle, Brooklyn, New York, USA",
+      "tagline": "Five letters, six tries.",
+      "blurb": "Guess the hidden five-letter word in six tries, using coloured clues about every letter, like Wordle, the 2021 daily word game."
+    },
+    {
+      "story": [
+        "Sorting clues into groups is a favourite puzzle trick. Since 2008 the British TV quiz Only Connect has had a round called the Connecting Wall: teams get 16 clues and two and a half minutes to sort them into four groups of four. The walls are built with red herrings, clues that seem to fit more than one group, so only careful thinking finds the one right answer.",
+        "At The New York Times, staff hold a yearly 'game jam' where people suggest ideas for new games, and Connections began as an idea at one in 2021. Its puzzles are made by Wyna Liu, an artist and puzzle editor who joined the Times in 2020. She keeps a notebook of category ideas and says building a board takes about two hours. She was inspired by the cartoonist Robert Leighton, whose picture puzzles showed her that a tick, a thumbtack and a tow truck could stand for 'tic-tac-toe'.",
+        "Connections launched as a test on 12 June 2023 and took off straight away. Each group has a colour: yellow is the easiest, then green, blue and purple, the trickiest, which often hides wordplay such as words that sound alike or read the same backwards. By October 2023 it was the Times' second most played game after Wordle. The host of Only Connect, Victoria Coren Mitchell, pointed out how alike the two were; the Times said its puzzles were 'unique, handcrafted' and its own.",
+        "Four Groups plays like Connections, the 2023 daily puzzle from The New York Times. Every puzzle here was written for this site. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Sixteen words hide four groups of four. Each group shares something: a category, a hidden word, or a word that goes before or after them.",
+        "Tap four words that you think belong together, then press Submit.",
+        "If you are right, the group locks in with its colour and its name. Yellow is the easiest group and purple the trickiest.",
+        "If you are wrong, you lose one of your four mistakes. If three of your four words were right, the game says One away.",
+        "Watch out for the red herring: every puzzle has a word that seems to fit one group but belongs in another.",
+        "Find all four groups before you run out of mistakes. Shuffle moves the words around, which can help you see new links.",
+        "Today's puzzle is the same for everyone on the same day. All puzzles lets you play any of the 46."
+      ],
+      "didYouKnow": [
+        "Before it was called Connections, the team thought about names such as Group Think and Grouper. Matchbox was dropped because it sounded too like Letter Boxed, another Times game.",
+        "On 1 April 2024, April Fools' Day, the puzzle used emojis instead of words.",
+        "The 1,000th Connections puzzle appeared on 7 March 2026.",
+        "Wyna Liu once taught a university course on the history of Britpop music, and she makes jewellery and moving sculptures."
+      ],
+      "sources": [
+        {
+          "title": "The New York Times Connections, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Connections",
+          "note": "Released in beta on 12 June 2023; puzzles written by Wyna Liu; four groups of four from a grid of sixteen; red herrings; yellow, green, blue and purple from easiest to hardest; annual game jam; second most played Times game after Wordle; emoji puzzle on 1 April 2024; 1,000th puzzle on 7 March 2026; comments from people linked to Only Connect."
+        },
+        {
+          "title": "How The New York Times is making connections with puzzles and games, Rob Tornoe, Editor and Publisher, 17 October 2023",
+          "url": "https://www.editorandpublisher.com/stories/new-york-times-makes-a-connection-with-puzzles-and-games,246051",
+          "note": "Connections started as an idea in 2021 at a brainstorming session called the 'Game Jam'; 'the most successful launch of any game we've developed in-house since the Mini Crossword in 2014, and it's our second-most-played game after Wordle' (Zoe Bell); purple often has palindromes and homophones; Victoria Coren Mitchell pointed out the similarity and the Times said its content is 'unique, handcrafted'; Liu an editor at the Times since 2020; Liu on Robert Leighton: 'a drawing of a tick, a thumbtack and a tow truck could be used to express the term tic-tac-toe'."
+        },
+        {
+          "title": "Why Are People So Mad About a Hit NYT Word Game? We Talked to the Woman Who Makes It, Heather Schwedel, Slate, 28 July 2024",
+          "url": "https://slate.com/life/2024/07/connections-nyt-today-wordle-wyna-liu.html",
+          "note": "Liu keeps a notebook of category ideas and says a board takes about two hours to build; names considered included Group Think and Grouper, and Matchbox was too close to Letter Boxed; the game took off as soon as it launched in beta in June 2023."
+        },
+        {
+          "title": "Connections Is NYT's New Wordle Alternative. Here's How To Play, TODAY, 29 August 2023",
+          "url": "https://www.today.com/popculture/connections-nyt-puzzle-how-to-play-rcna102300",
+          "note": "Victoria Coren Mitchell tweeted to Liu: 'Do you know this has been a TV show in the UK since 2008?'; Liu was inspired by cartoonist Robert Leighton; some categories use palindromes, homophones and adding or dropping letters."
+        },
+        {
+          "title": "Only Connect, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Only_Connect",
+          "note": "BBC quiz presented by Victoria Coren Mitchell since 15 September 2008; the Connecting Wall gives teams 16 clues and 2 minutes 30 seconds to sort them into four groups of four, with red herrings."
+        },
+        {
+          "title": "Wyna Liu, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wyna_Liu",
+          "note": "Hired in 2020 as an associate puzzle editor at the New York Times; taught an experimental course on the history of Britpop at Oberlin College; an artist who makes movable sculptures and designs jewellery."
+        }
+      ],
+      "uncertainties": [
+        "Sources describe Liu's job title differently: associate puzzle editor (Wikipedia, TODAY), editor (Editor and Publisher) and crossword editor (Wikipedia's Connections article).",
+        "The Times has not said that Only Connect inspired Connections; it describes its own process (game jam, Robert Leighton's puzzles). The story presents Only Connect as an older game with a similar idea, not as the source.",
+        "The 'second most played' claim is the Times' own statement (October 2023) and was not independently measured."
+      ],
+      "playable": true,
+      "id": "four-groups",
+      "title": "Four Groups",
+      "era": "2020s",
+      "year": 2023,
+      "yearLabel": "2023",
+      "stamp": "2023",
+      "type": "words",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click a word to pick it, and tap it again to unpick it. Then press Submit. Keyboard: Tab to the words, use the arrow keys to move between them, Space or Enter to pick a word, then Tab to Submit.",
+      "computer": "Each puzzle stores its four groups, so checking a guess is simple: the computer looks up which group each of your four words belongs to and counts them. Four from the same group is a match. Three from one group means you are one away. The hard part was done before the game ever ran: a small program tried every possible way of splitting each puzzle's 16 words into four groups, allowing every word to go into any group it could sensibly fit (so ORANGE could be a fruit or a colour), and checked that exactly one split works. That is what makes the red herrings fair: if you think carefully, only one answer fits. The puzzle of the day comes from the date on your device, so everyone gets the same puzzle without the internet, and the tiles start in the same order for everyone.",
+      "adaptation": "The find-four-groups-of-four mechanic is from the 2023 newspaper puzzle; the name, look and all 46 puzzles are our own, written for school-age players, with subjects from the site's halls (playground games, board games, pre-decimal Australian money, an 1800s classroom), science, maths, geography, animals, Australian slang and wordplay. Each group has a shape as well as a colour, so colour is never the only clue. After each puzzle the game explains its red herring. Puzzles are numbered from 1 October 2026 and repeat after the last one.",
+      "origin": "Mechanics of Connections by Wyna Liu and The New York Times, New York, USA",
+      "tagline": "Sixteen words, four hidden groups.",
+      "blurb": "Sort 16 words into four groups of four that share something, and watch for the tricky word that seems to fit two groups, like Connections, the 2023 daily puzzle."
+    },
+    {
+      "story": [
+        "In May 1979 an American puzzle magazine, Dell Pencil Puzzles and Word Games, printed a new puzzle called Number Place. It did not print who made it. Years later, puzzle editor Will Shortz noticed that one name, Howard Garns, was in the list of contributors in every issue with Number Place and missing from every issue without it. Garns was a retired architect from Indianapolis, and old workmates remembered him working on the puzzle at the office. He died in 1989, before it became famous.",
+        "In 1984 the Japanese puzzle company Nikoli found Number Place in an American magazine and printed it for its readers as 'Suuji wa dokushin ni kagiru', which means 'the numbers must be single'. That was too long, so it was shortened to Sudoku: su means number and doku means single. In 1986 Nikoli added a rule that the starting numbers must make a symmetrical pattern, and the puzzle became a big hit in Japan.",
+        "In March 1997 Wayne Gould, a New Zealand-born judge who worked in Hong Kong, saw a Sudoku book in a Tokyo bookshop. He spent six years writing a computer program that could make the puzzles. In 2004 he walked into The Times newspaper in London 'like an old-fashioned travelling salesman', and The Times printed its first Sudoku on 12 November 2004. By 2005 newspapers around the world were printing Sudoku, and in 2006 Time magazine named Gould one of the 100 most influential people in the world.",
+        "Number Place plays like Sudoku: fill every row, column and box with 1 to 9 using logic, not sums. It uses the puzzle's first name from 1979, and the look here is our own."
+      ],
+      "howToPlay": [
+        "Choose a size and a level, then press Start puzzle. The 9 by 9 grid is the classic. The junior 4 by 4 and 6 by 6 grids are a gentle way in.",
+        "Fill every empty square so that each row, each column and each box (the areas outlined in thick black) holds every number exactly once: 1 to 9 on the big grid, 1 to 6 or 1 to 4 on the junior ones.",
+        "Tap a square, then tap a number on the keypad. The numbers printed in the puzzle are bold and cannot change. The numbers you write are blue.",
+        "Not sure yet? Switch on Notes and pencil in the numbers a square might be. When you write a number, it is crossed off the notes in its row, column and box for you.",
+        "Clashes shows any number that appears twice in a row, column or box in red with a wavy line. Switch it off for a real challenge.",
+        "Stuck? Hint fills in one square and explains how a person could work it out. It always gives the easiest step left on the board.",
+        "Every puzzle has exactly one answer, so you can always solve it by thinking, never by guessing. Solve one without hints to set a best time for that size and level."
+      ],
+      "didYouKnow": [
+        "The day after The Times printed its first Sudoku, a reader wrote in to complain that the puzzle had made him miss his stop on the London Underground.",
+        "There are 6,670,903,752,021,072,936,960 different ways to fill a complete 9 by 9 Sudoku grid.",
+        "A Sudoku needs at least 17 starting numbers to have only one answer. Gordon Royle, a mathematician at the University of Western Australia in Perth, collected more than 49,000 puzzles with exactly 17, and in 2012 a team in Ireland proved that 16 is never enough.",
+        "In 2008 a three-month court case in Sydney had to stop after a juror admitted that she and four others had been doing Sudoku instead of listening. Someone noticed they were writing up and down the page, not across."
+      ],
+      "sources": [
+        {
+          "title": "Sudoku, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sudoku",
+          "note": "Number Place in Dell Magazines from 1979; Will Shortz found Garns' name in contributor lists; Nikoli 1984 and the name Sudoku; Gould's program; The Times launched Su Doku on 12 November 2004; first reader's letter (13 November) about missing his stop on the tube; 6,670,903,752,021,072,936,960 solution grids; fewest clues is 17."
+        },
+        {
+          "title": "Howard Garns, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Howard_Garns",
+          "note": "Architect (1905 to 1989) at the Daggett firm in Indianapolis; colleagues recall him working on the puzzle on the firm's drawing boards; Dell Pencil Puzzles and Word Games first published Number Place in May 1979 without his byline."
+        },
+        {
+          "title": "Sudoku, Nikoli",
+          "url": "https://www.nikoli.co.jp/en/puzzles/sudoku/",
+          "note": "'We found this puzzle in an American puzzle magazine, where it was titled Number Place, and we introduced it to our Japanese readers at 1984'; first title 'Suuji wa dokushin ni kagiru'; SU means number and DOKU means single; symmetrical clue rule in 1986; 'Sudoku' is a Nikoli trademark in Japan, so other companies call it Number Place."
+        },
+        {
+          "title": "So you thought Sudoku came from the Land of the Rising Sun..., David Smith, The Observer, 15 May 2005",
+          "url": "https://www.theguardian.com/media/2005/may/15/pressandpublishing.usnews",
+          "note": "Dell's editor says the oldest copy in its archive is from 1979; Wayne Gould saw a Sudoku book in Tokyo in March 1997; developed a program over six years; 'I turned up unannounced at the Times, like an old-fashioned travelling salesman'."
+        },
+        {
+          "title": "Wayne Gould, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wayne_Gould",
+          "note": "Born 1945 in Hawera, New Zealand; judge in Hong Kong until 1997; six years developing Pappocom Sudoku; The Times from November 2004; Time 100 in 2006."
+        },
+        {
+          "title": "Good at Sudoku? Here's some you'll never complete, Gordon Royle, The Conversation, 2012",
+          "url": "https://theconversation.com/good-at-sudoku-heres-some-youll-never-complete-5234",
+          "note": "Royle, Professor of Mathematics at the University of Western Australia, collected more than 49,000 different 17-clue puzzles; a team led by Gary McGuire of University College Dublin proved no 16-clue puzzle exists."
+        },
+        {
+          "title": "Sudoku-spoiled trial: Lawyers' motives questioned, ABC News, 14 June 2008",
+          "url": "https://www.abc.net.au/news/2008-06-14/sudoku-spoiled-trial-lawyers-motives-questioned/2471026",
+          "note": "A three-month Sydney District Court trial was aborted after a defendant noticed jurors writing vertically; a juror admitted she and four others had been playing Sudoku while evidence was heard."
+        }
+      ],
+      "uncertainties": [
+        "Garns' role is worked out from Dell's lists of contributors, because the puzzles carried no names.",
+        "Sources differ on Wayne Gould's home town: Wikipedia says he was born in Hawera, The Observer calls him 'a man from Matamata'. The story says New Zealand.",
+        "Wikipedia says the first newspaper outside Japan to print Sudoku was The Conway Daily Sun in New Hampshire, USA, in September 2004, two months before The Times.",
+        "'Sudoku' is a registered trademark of Nikoli in Japan; the game's title uses Number Place, the name Dell gave the puzzle in 1979.",
+        "No source was found for which Australian newspaper printed Sudoku first."
+      ],
+      "playable": true,
+      "id": "number-place",
+      "title": "Number Place",
+      "era": "2000s",
+      "year": 2005,
+      "yearLabel": "1979 (a world craze in 2005)",
+      "stamp": "2005",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click a square, then a number on the keypad. Keyboard: the arrow keys move around the grid, 1 to 9 write a number, Backspace or Delete rubs it out, N switches notes on and off, Shift and a number pencils a note, U (or Ctrl and Z) undoes, and H gives a hint.",
+      "computer": "The computer makes a brand new puzzle every time, in three steps. First it fills an empty grid with a complete answer, trying numbers square by square and backing up whenever it gets stuck. This is called backtracking. Next it rubs out clues one at a time, in a random order, and after each one it asks two questions. Does the puzzle still have exactly one answer? A fast solver counts the answers and stops as soon as it finds a second one. Could a person still solve it with the techniques for this level? A second solver that thinks like a person checks that. If either answer is no, the clue goes back. Last, it grades the puzzle by the hardest technique the person-like solver needed. Easy needs only naked singles: a square where just one number fits. Medium needs hidden singles: a number that fits in only one square of a row, column or box. Hard needs pointing and pairs: a number trapped in one line of a box, or two squares that must share the same two numbers. The Hint button uses that same person-like solver to find the easiest step on your board.",
+      "adaptation": "Plays like the newspaper puzzle of 2005, with our own newspaper page drawn on screen. Newspapers printed one puzzle a day with a difficulty rating. Here the computer makes a fresh puzzle whenever you like and grades it by the techniques a person needs to solve it. On top of the paper puzzle it adds notes that tidy themselves, clash checking you can switch off, undo, hints that explain their thinking, a timer and best times. The junior 4 by 4 and 6 by 6 grids are like the ones in puzzle books for younger children. Every 4 by 4 puzzle can be solved with naked singles alone, so the 4 by 4 grid only comes in Easy, and the 6 by 6 grid goes up to Medium. Number Place is the name the puzzle had when it first appeared in an American puzzle magazine in 1979.",
+      "origin": "Mechanics of Number Place by Howard Garns, Dell Magazines, New York, USA, named Sudoku by Nikoli, Japan",
+      "tagline": "One to nine, no repeats.",
+      "blurb": "Fill the grid so that every row, every column and every box holds the numbers 1 to 9 exactly once, like the Sudoku puzzles that swept the world's newspapers in 2005."
+    },
+    {
+      "story": [
+        "In 2000 three young game makers in Seattle, USA, John Vechey, Brian Fiete and Jason Kapalka, were making simple games to sell to other companies. Vechey found a basic web game where you lined up three squares of the same colour. It used plain squares, had no animation or sound, and the page had to reload after every move, but the team could not stop playing it. They decided to make a polished version.",
+        "Kapalka thought about using fruit or shapes, but chose glittering gems. They called the game Diamond Mine and put it on the web in 2000. Microsoft wanted it for its MSN Games website, but instead of buying it for 50,000 US dollars it paid 1,500 dollars a month to show it, and asked for a new name because another game was already called Diamond Mines. So it became Bejeweled, the company became PopCap Games, and Bejeweled Deluxe went on sale on 30 May 2001.",
+        "The game with a timer was meant to be the main mode, and a relaxed mode with no timer was added almost as an afterthought. Players loved the relaxed mode most, and it helped begin a whole new kind of 'casual game' for people who did not think of themselves as gamers. Bejeweled was built into the Motorola Razr phone in 2004 and ran on the iPhone soon after it appeared in 2007. By 2013 it had been downloaded more than 500 million times, and in 2020 The Strong National Museum of Play added it to its World Video Game Hall of Fame.",
+        "Gem Swap plays like Bejeweled: swap neighbours, match three or more and set off chains of falling gems for bigger scores. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose a mode, then press Start. Classic lasts until there are no swaps left, Timed gives you 90 seconds, and Calm has no clock and no game over.",
+        "Swap two gems that sit side by side (not corner to corner) to make a line of three or more of the same gem, across or down. A swap that makes no line swaps straight back.",
+        "The line vanishes, the gems above fall down and new gems drop in from the top. If they make new lines, those vanish too. That is a cascade, and each cascade in a row is worth more points.",
+        "Make a line of four, or an L or T shape, and you get a bomb gem with a white spark. Match it and it blows up the eight gems around it.",
+        "Make a line of five and you get a prism ball with every colour. Swap it with any gem and every gem of that colour vanishes.",
+        "In Classic, fill the bar to go up a level. In Timed and Calm, the board shuffles itself if there are no swaps left.",
+        "Stuck? Wait a few seconds and a hint glows, or press Hint. Your best scores for Classic and Timed are saved on this device."
+      ],
+      "didYouKnow": [
+        "Diamond Mine was named after a song by the Canadian band Blue Rodeo.",
+        "Within a month of arriving on MSN Games, Bejeweled was the site's most-played game, and it stayed number one until July 2002.",
+        "The game's makers estimated in 2013 that players had spent more than 10 billion hours on Bejeweled.",
+        "Bejeweled 3 has a bonus level called Diamond Mine, a nod to the game's first name."
+      ],
+      "sources": [
+        {
+          "title": "Bejeweled, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/bejeweled/",
+          "note": "Inducted 2020; published by PopCap in 2001; popularised match three; first on ad-supported sites including Microsoft Zone; built into the Motorola Razr in 2004; more than 500 million downloads and 10 billion hours by 2013; first called Diamond Mine, renamed because of a 1980s game called Diamond Mines; Diamond Mine bonus level in Bejeweled 3."
+        },
+        {
+          "title": "Bejeweled (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bejeweled_(video_game)",
+          "note": "Vechey found a primitive match-three browser game in April 2000; Kapalka chose gems over fruit or shapes; named after a Blue Rodeo song; released as Diamond Mine on the web in 2000; Microsoft declined to pay $50,000 and leased it for $1,500 a month; renamed Bejeweled; Bejeweled Deluxe 30 May 2001; untimed mode an afterthought that became the main mode; number one on MSN Games until July 2002; Safari version for iPhone on 30 July 2007."
+        },
+        {
+          "title": "Tile-matching video game, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tile-matching_video_game",
+          "note": "The first match-three game was Shariki (1994), which led directly to Bejeweled (2001); the untimed mode made the game more accessible."
+        },
+        {
+          "title": "PopCap Games, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PopCap_Games",
+          "note": "Founded in Seattle in 2000 by John Vechey, Brian Fiete and Jason Kapalka; bought by Electronic Arts in 2011."
+        }
+      ],
+      "uncertainties": [
+        "Dates differ: Diamond Mine was on the web in 2000, while The Strong says PopCap published Bejeweled in 2001.",
+        "Wikipedia says the team was inspired by a browser game called Colors Game; other accounts trace match-three back to Shariki (1994).",
+        "Download totals are estimates from the makers: 150 million by 2008 (Wikipedia) and 500 million by 2013 (The Strong).",
+        "No Australian link to Bejeweled was found."
+      ],
+      "playable": true,
+      "id": "gem-swap",
+      "title": "Gem Swap",
+      "era": "2000s",
+      "year": 2001,
+      "yearLabel": "2001 (on the web in 2000 as Diamond Mine)",
+      "stamp": "2001",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap a gem, then tap a gem beside it to swap them, or drag a gem onto its neighbour. Keyboard: the arrow keys move the cursor, Space or Enter picks up the gem, then an arrow key swaps it that way. H shows a hint and P pauses.",
+      "computer": "The computer is the referee and the gem dropper. To find lines, it reads along every row and down every column, counting how many of the same gem sit together. To check a swap, it makes the swap in its memory, looks for a line through either gem, and swaps back if there is none. When it fills a new board, it places gems one at a time and never picks a gem that would finish a line of three. Then it tries every possible swap to make sure you have at least one, and starts again if you do not. After every move it tries every swap again, so it always knows whether you are stuck. Hints come from that same list. The new gems that drop in after a match are picked at random, which is why lucky cascades happen.",
+      "adaptation": "Plays like the 2001 match-three game, with our own gems, name, look and sounds. Each of our seven gems has its own shape as well as its own colour (square, hexagon, star, diamond, circle, triangle and heart), so players who see colours differently can still tell them apart. Bomb and prism gems are like the special gems that later match-three games added. As in the original, a swap only counts if it makes a line, and Classic ends when there are no swaps left. The Timed and Calm modes, the shuffling board and the hints are there so younger players can keep going.",
+      "origin": "Mechanics of Bejeweled by PopCap Games, Seattle, USA",
+      "tagline": "Swap two gems, match three.",
+      "blurb": "Swap two neighbouring gems to line up three or more of the same kind, then watch them vanish as new gems tumble in, like PopCap's 2001 hit Bejeweled."
+    },
+    {
+      "story": [
+        "On 6 February 2014 a small team called Sirvo released Threes!, a puzzle for the iPhone. Designer Asher Vollmer and artist Greg Wohlwend worked on it for 14 months. You slide numbered cards around a 4 by 4 grid: a 1 and a 2 join to make 3, and two matching cards from 3 upwards join to make double. Along the way they tried sushi, chess pieces and a tile-eating monster before going back to plain numbers with little faces.",
+        "Copies appeared within weeks. One called 1024 came out 21 days after Threes, and a web game called 2048, by a developer known as Saming, followed. Gabriele Cirulli, a 19-year-old web developer in Italy, got hooked on both. Over one weekend he built his own version with a new look and quicker animations, 'just to see if I could'. He shared the code on the website GitHub, where anyone could read it, and released the game on 9 March 2014.",
+        "Within a day someone posted it on Hacker News, a website for programmers, and it went to number one. In less than a week more than 4 million people visited. Cirulli had not known about Threes when he made 2048, and later wrote that '2048 owes its existence to it'. He kept the web game free because he did not feel right making money from an idea that was mostly other people's. Because the code was open, people made new versions with bigger boards, smaller boards, 3D boards and even Doctor Who.",
+        "Doubles plays like 2048, the 2014 web game by Gabriele Cirulli, which grew out of Threes!. Every tile is a power of two, so the game is secretly a maths lesson. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose a board and press Start. Two tiles appear.",
+        "Slide all the tiles at once: swipe on the board, press an arrow key, or tap an arrow button. Every tile slides as far as it can that way.",
+        "When two tiles with the same number bump into each other, they join into one tile worth double: 2 and 2 make 4, 4 and 4 make 8, and so on. Your score goes up by the new tile's number.",
+        "Each tile can only join once per move. A row of 2, 2, 2, 2 slid left becomes 4, 4, not 8.",
+        "After every move, a new 2 (or sometimes a 4) appears in an empty square.",
+        "Make the goal tile to win: 2048 on the 4 by 4 and 5 by 5 boards, or 128 on the quick 3 by 3 board. You can keep going after you win.",
+        "The game ends when the board is full and no tiles can join. Undo takes back your last move. Switch on Powers of 2 to see every tile as 2 multiplied by itself."
+      ],
+      "didYouKnow": [
+        "The winning screenshot on 2048's code page is fake. Cirulli admits it: 'I never reached 2048.'",
+        "A new tile is a 2 nine times out of ten, and a 4 one time in ten.",
+        "In March 2014 only about 0.7 per cent of games of 2048 ended with a 2048 tile, the newspaper City AM reported.",
+        "The biggest tile you can ever make on a 4 by 4 board is 131,072, which is 2 to the power of 17.",
+        "The makers of Threes said they both beat 2048 on their very first try."
+      ],
+      "sources": [
+        {
+          "title": "2048 README, Gabriele Cirulli, GitHub",
+          "url": "https://github.com/gabrielecirulli/2048",
+          "note": "'A small clone of 1024, based on Saming's 2048 (also a clone). 2048 was indirectly inspired by Threes.' 'Made just for fun.' 'That screenshot is fake, by the way. I never reached 2048.' MIT licence. (Read via raw.githubusercontent.com/gabrielecirulli/2048/master/README.md.)"
+        },
+        {
+          "title": "2048, success and me, Gabriele Cirulli, first posted on gabrielecirulli.com on 9 May 2014 (Medium)",
+          "url": "https://medium.com/@gabrielecirulli/2048-success-and-me-7dc664f7a9bd",
+          "note": "'I built 2048 in a weekend, just for fun. I had become addicted to two other games, called 1024! and 2048... I wanted to create my own version with a different visual style and quicker animations, just to see if I could. At that time, I did not know about Threes'; '2048 owes its existence to it'; posted on Designer News, then reached number 1 on Hacker News; played by more than 23 million people; did not feel comfortable profiting 'since 2048 was mostly based on other games'. (Read via the author's Medium RSS feed.)"
+        },
+        {
+          "title": "How one 19 year old won the internet with addictive puzzler 2048, Peter Spence, City AM, 17 March 2014",
+          "url": "https://www.cityam.com/how-one-19-year-old-won-internet-addictive-puzzler-2048/",
+          "note": "Italian web developer; an experiment to see if he could program a game almost from scratch; a weekend of work; played upwards of 33 million times with over 4 million visitors; 'just 0.7 per cent of rounds see the eponymous 2048 tile produced'."
+        },
+        {
+          "title": "The Rip-offs and Making Our Original Game (The Threes Letters), Asher Vollmer and Greg Wohlwend, 2014",
+          "url": "https://asherv.com/threes/threemails/",
+          "note": "1024 released 21 days after Threes (27 February); 2048 'about ten days later'; posted on Hacker News on 10 March; 'Threes is the reason 2048 exists'; 'We both beat 2048 on our first tries'; nearly a year and a half of work; only about 6 people had seen a 6144 tile."
+        },
+        {
+          "title": "2048 (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+          "note": "Released 9 March 2014 as free and open-source software under the MIT Licence; written in JavaScript and CSS over a weekend; new tiles are 2 (90 per cent) or 4 (10 per cent); largest possible tile 131,072; over 4 million visitors in less than a week; unwilling to make money 'from a concept that [he] didn't invent'; spin-offs including Doge, Doctor Who, Flappy Bird, Tetris, 3D and different grid sizes."
+        },
+        {
+          "title": "Threes, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Threes",
+          "note": "Released 6 February 2014 for iOS by Sirvo (Asher Vollmer, Greg Wohlwend, Jimmy Hinson); 14-month development; prototypes with sushi, chess and a monster that ate tiles; final tiles have faces."
+        }
+      ],
+      "uncertainties": [
+        "Cirulli's age at the time is given as 19 by City AM and Wikipedia; a later 2014 interview on download3k.com calls him 20.",
+        "Wikipedia gives the release date as 9 March 2014; the Threes team says 2048 was posted to Hacker News on 10 March.",
+        "Player numbers differ between reports: over 4 million visitors in a week (City AM, Wikipedia), 33 million games by 17 March (City AM) and 23 million people by May 2014 (Cirulli).",
+        "Wikipedia says Threes took 14 months to make; its makers wrote 'nearly a year and a half'.",
+        "Cirulli's home town in Italy was not confirmed, so the story says only Italy.",
+        "Cirulli kept the web game free but later released his own mobile app in May 2014, after first saying he would not; the story does not go into this."
+      ],
+      "playable": true,
+      "id": "doubles",
+      "title": "Doubles",
+      "era": "2010s",
+      "year": 2014,
+      "yearLabel": "2014",
+      "stamp": "2014",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ],
+      "controls": "Swipe on the board, press the arrow keys or W, A, S and D, or tap the arrow buttons under the board. U undoes one move. New game lets you choose a board size.",
+      "computer": "The computer slides the tiles one line at a time. It starts with the tile nearest the wall you are sliding towards and moves each tile along until it meets the wall or another tile. If that tile has the same number and has not already joined this move, the two join. That one rule, join only once per move, is why 2, 2, 2, 2 becomes 4, 4 and not 8. After a move that changed something, the computer picks a random empty square and puts a 2 there, or a 4 about one time in ten. Joining tiles never changes the total of all the numbers on the board (4 and 4 become 8), so the total only grows by the new 2s and 4s. Every tile is a power of two: 2 multiplied by itself a number of times, which is how computers count too.",
+      "adaptation": "Plays like the 2014 web game, with our own name, colours and flat look. The 3 by 3 and 5 by 5 boards are extras. The 3 by 3 board fills up so fast that its goal is 128 instead of 2048, and the 5 by 5 board gives you room to spare on the way to 2048. As in the original, you can keep playing after you win and your game is saved on this device. Undo (one move at a time), the arrow buttons and the Powers of 2 teaching switch are our additions.",
+      "origin": "Mechanics of 2048 by Gabriele Cirulli, Italy",
+      "tagline": "Slide, match, double, repeat.",
+      "blurb": "Slide every tile at once and join matching numbers so they double, all the way up to 2048, like the 2014 web game 2048."
+    },
+    {
+      "story": [
+        "Markus Persson, known online as Notch, was a programmer in Stockholm, Sweden. He made browser games at a company called King and built his own small games in his spare time. In 2009 he was inspired by Infiniminer, a new game where players dug through a world made of blocks. He added his own ideas about building and surviving, and on 17 May 2009 he shared the first version of Minecraft on an online forum for independent game makers.",
+        "Players could buy Minecraft while it was still being made, and they told their friends. With no advertising it passed a million sales in early 2011, months before it was finished. Persson started a company called Mojang, and the full game was launched on 18 November 2011 at MineCon, a fan convention in Las Vegas. Earlier that year a studio called Re-Logic had released Terraria, a block-building adventure seen from the side.",
+        "Every Minecraft world is generated at random by the computer, so no two are the same, and there is no score: players set their own goals. Microsoft bought Mojang in 2014. The Strong National Museum of Play added Minecraft to its World Video Game Hall of Fame in 2020, and by 2023 it had sold more than 300 million copies, more than any other video game. Schools use it too: in 2018 Victoria made Minecraft: Education Edition available to more than 600,000 students in its 1,500 state schools.",
+        "Block World plays like Minecraft and Terraria, the block-building games of 2011. Like Terraria, you see your world from the side. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Press Start. Pick Explore to collect every block yourself, or Creative to have every block and fly.",
+        "Dig: hold the left mouse button on a block, or pick Dig and hold your finger on it. Tougher blocks take longer to dig.",
+        "Build: pick a block in the hotbar, then right-click an empty space next to another block, or pick Place and tap. Aim at your own feet to hop up and build under yourself.",
+        "In Explore, open the Bag to make things: wood into planks, planks into a workbench, coal and a plank into torches. Stand next to your workbench to make glass, bricks, doors and lamps.",
+        "Night comes every few minutes. Caves and nights are dark, so light them with torches. There are no monsters: at night the fireflies come out.",
+        "Open Goals for the building challenges, like a house with a door and a window, a tower 10 blocks tall or a bridge over water.",
+        "Your world saves itself on this device. Type the same world number on another device to explore the same hills."
+      ],
+      "didYouKnow": [
+        "In 2014 the Danish Geodata Agency rebuilt the whole of Denmark in Minecraft at full size, the first entire country made in the game.",
+        "Minecraft's sound of footsteps on grass was not recorded on grass. Composer C418 made it by lightly touching old video tape.",
+        "Minecraft and Notch were part of ACMI's Game Masters exhibition in Melbourne in 2012, only months after the full game came out.",
+        "In 2014 Minecraft was the second most searched term on all of YouTube."
+      ],
+      "sources": [
+        {
+          "title": "Minecraft, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/minecraft/",
+          "note": "Inducted 2020; released by Mojang in 2009, now owned by Microsoft; 'a random, procedurally generated world'; objectives are self-generated; more than 176 million copies sold by 2019; in 2014 the Danish Geodata Agency made Denmark the first entire country explored at 1:1 in the game."
+        },
+        {
+          "title": "Minecraft and the Building Blocks of Fun, Jon-Paul Dyson, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/blog/minecraft-and-the-building-blocks-of-fun/",
+          "note": "Links Minecraft to construction play with building blocks, one of the oldest forms of play."
+        },
+        {
+          "title": "Minecraft, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Minecraft",
+          "note": "Persson worked at King until March 2009; Infiniminer (April 2009) inspired the blocky look; first public alpha on 17 May 2009 on the TIGSource forums; over a million purchases in early 2011 with no advertising; full release 18 November 2011 alongside MineCon in Las Vegas; Microsoft bought Mojang (announced 15 September 2014); Education Edition launched 1 November 2016; grass sounds made with lightly touched VHS tape; second most searched term on YouTube in 2014."
+        },
+        {
+          "title": "Markus Persson, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Markus_Persson",
+          "note": "Born 1 June 1979 in Stockholm, Sweden; known as Notch; founded Mojang in 2009."
+        },
+        {
+          "title": "Minecraft crosses 300 million copies sold as it prepares to celebrate its 15th anniversary, Windows Central, October 2023",
+          "url": "https://www.windowscentral.com/gaming/minecraft/minecraft-crosses-300-million-copies-sold-as-it-prepares-to-celebrate-its-15th-anniversary",
+          "note": "Mojang confirmed at Minecraft Live 2023 that it had crossed 300 million copies sold, keeping it the best-selling video game."
+        },
+        {
+          "title": "Victoria's teachers learn how to win maximum impact from Minecraft: Education Edition, Microsoft Australia News Centre, 26 June 2018",
+          "url": "https://news.microsoft.com/en-au/features/victorias-teachers-learn-how-to-win-maximum-impact-from-minecraft-education-edition/",
+          "note": "A 'world-leading rollout' making Minecraft: Education Edition available to 600,000 plus students in Victoria's 1,500 state schools."
+        },
+        {
+          "title": "New Programs For Schools To Build Digital Tech Skills, Premier of Victoria, media release",
+          "url": "https://www.premier.vic.gov.au/new-programs-schools-build-digital-tech-skills",
+          "note": "Every government school student will have access to Minecraft: Education Edition under an agreement with Microsoft. The page is dated 9 February 2020."
+        },
+        {
+          "title": "ACMI Game Masters Exhibition, Non-Fiction Gaming, 15 August 2012",
+          "url": "https://www.nonfictiongaming.com/2012/08/15/acmi-game-masters/",
+          "note": "The indie room included Marcus Persson 'Notch' (Minecraft)."
+        },
+        {
+          "title": "Terraria, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Terraria",
+          "note": "2D sandbox game by Re-Logic (Andrew 'Redigit' Spinks), released 16 May 2011; procedurally generated worlds; exploration, building, crafting and mining."
+        }
+      ],
+      "uncertainties": [
+        "Microsoft Australia reported Victoria's rollout in June 2018, but the Victorian Premier's media release about the same agreement is dated 9 February 2020; the story uses 2018.",
+        "Sales figures are company announcements: 176 million by 2019 (The Strong), over 300 million by October 2023 (Windows Central) and over 400 million by May 2026 (Wikipedia).",
+        "Wikipedia says Infiniminer inspired Minecraft's look; exactly when Persson first played it was not confirmed.",
+        "Re-Logic's home city was not confirmed, so the story does not name it."
+      ],
+      "playable": true,
+      "id": "block-world",
+      "title": "Block World",
+      "era": "2010s",
+      "year": 2011,
+      "yearLabel": "2011",
+      "stamp": "2011",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Mouse: hold the left button to dig, right button to place. Touch: pick Dig or Place, then tap or hold the world; the arrow buttons walk, jump and swim. Keyboard: A and D or the arrow keys walk, W, Up or Space jumps, S or Down swims or flies down, 1 to 9 pick a block, I, J, K and L aim, X digs, C places, E opens the Bag, G the goals, Q switches Dig and Place, F flies in Creative.",
+      "computer": "There is no opponent here: the computer's job is to grow the world. It starts from one number, the world number, and feeds it into a noise function that turns every spot on the map into a smooth random value. Smooth values become rolling hills and lakes, values very close to zero become winding caves, and small patches of high values become coal, copper and rare opals. The same number always gives the same values, so the same world number always grows the same world, which is how a whole class can share one. Light is worked out with a flood fill: sunlight shines straight down until it hits something solid, then spreads one block at a time, one step dimmer each block, like paint spreading through a maze. Torches spread light the same way. To check your house, the game pours an imaginary flood into the space inside: if the flood stays small and touches a door and some glass, you have built a closed room. Saving keeps only the world number and the blocks you changed, so even a big build fits in a few kilobytes.",
+      "adaptation": "Minecraft is a 3D world, usually seen through your character's eyes. Block World is side-on and 2D, like Terraria, so it runs smoothly on a school Chromebook or iPad. There are no monsters, no health and no hunger: night brings fireflies, not danger, so the game is all about exploring and building. Crafting is a short list of recipes in the Bag instead of a crafting grid, and you dig without tools (tougher blocks just take longer). Water flows and sand falls, but only near the blocks you change. The blocks, their names (like wattle and opal), the explorer and all the art are our own.",
+      "origin": "Mechanics of Minecraft by Markus Persson and Mojang, Stockholm, Sweden",
+      "tagline": "Dig, build and explore.",
+      "blurb": "Dig up blocks, craft new ones and build anything you like in a world seen from the side, like Minecraft and Terraria, the block-building games of 2011."
     }
   ],
   "kids": [
@@ -4022,6 +4667,205 @@ window.GIT_CONTENT = {
         "The figure of about 54,000 pairs of socks knitted by NSW schoolchildren in 1915 appeared in a search summary of a NSW State Archives page that could not be opened, so it is left out.",
         "NSW car registrations (10,734 by 1915) appeared only in a search snippet; the panel states only that plates began in 1910.",
         "Houdini's flight is described on Wikipedia as what Diggers Rest 'is referred to as' famous for; some sources credit earlier Australian flights."
+      ]
+    },
+    {
+      "era": "1990s",
+      "title": "Being 12 in the 1990s",
+      "paragraphs": [
+        "Computers moved from the school library into the lounge room. In 1998, 45 out of every 100 Australian homes had a computer, but only 16 had the internet at home. That was still a big jump: in 1996 only about 286,000 homes were online. In the 1990s the Australian Bureau of Statistics even added home computers and software to the list of things it checks to measure prices.",
+        "Money changed in your pocket. The 1 cent and 2 cent coins were taken out of use in 1992, and between 1992 and 1996 Australia brought in a whole set of plastic banknotes, the first country in the world to do it.",
+        "On TV, Bananas in Pyjamas began on the ABC on 20 July 1992, and the Wiggles started singing in 1991. Neighbours was still filmed in a real Melbourne street. Sony's PlayStation went on sale in Australia on 15 November 1995, the Tamagotchi went on sale around the world in 1997, and Pokémon Red and Blue arrived on the Game Boy in 1998. From 1994 video games sold in Australia got their own classification labels.",
+        "Big news you might remember: on 3 June 1992 the High Court's Mabo decision recognised that Aboriginal and Torres Strait Islander peoples could hold native title to their land. On 24 September 1993 Sydney won the vote to hold the 2000 Olympic Games, beating Beijing by 45 votes to 43."
+      ],
+      "fastFacts": [
+        "In 1998, 45 in every 100 Australian homes had a computer and 16 in every 100 had the internet. (Australian Bureau of Statistics)",
+        "Australia's polymer banknotes, issued from 1992 to 1996, were the world's first full set printed on plastic instead of paper. (Reserve Bank of Australia)",
+        "The 1 cent and 2 cent coins were withdrawn from circulation in 1992. (Wikipedia)",
+        "Sony's PlayStation went on sale in Australia on 15 November 1995. (Wikipedia)",
+        "From 1994 computer and video games in Australia had their own classification system, separate from films. (Wikipedia)",
+        "Sydney won the 2000 Olympics on 24 September 1993 by 45 votes to Beijing's 43. (Wikipedia)"
+      ],
+      "compare": "In 1998, 16 in every 100 Australian homes had the internet. If your class had 30 students in 1998, about how many would have been online at home? How many in your class are online at home today?",
+      "sources": [
+        {
+          "title": "Household Use of Information Technology, Australia, 1998 (media release 63/99), Australian Bureau of Statistics",
+          "url": "https://abs.gov.au/ausstats/abs@.nsf/Previousproducts/8146.0Media%20Release11998?issue=1998&num=&opendocument=&prodno=8146.0&tabname=Summary&view=",
+          "note": "In 1998, 16% of households (1.1 million) had home internet access, up from 286,000 households in 1996; 45% of households (3.0 million) had a home computer."
+        },
+        {
+          "title": "What changes in prices and their collection tell us about Australia, Australian Bureau of Statistics, 2023",
+          "url": "https://www.abs.gov.au/articles/what-changes-prices-and-their-collection-tell-us-about-australia",
+          "note": "Goods added to the CPI basket in the 1990s include home computers and software."
+        },
+        {
+          "title": "History of Australia's banknotes, Reserve Bank of Australia",
+          "url": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+          "note": "The first polymer series was issued between 1992 and 1996, the first in the world printed on polymer instead of paper."
+        },
+        {
+          "title": "Australian one-cent coin, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_one-cent_coin",
+          "note": "Withdrawn from circulation in 1992 along with the two-cent coin."
+        },
+        {
+          "title": "Bananas in Pyjamas, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bananas_in_Pyjamas",
+          "note": "First aired on ABC-TV on 20 July 1992."
+        },
+        {
+          "title": "The Wiggles, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Wiggles",
+          "note": "Years active 1991 to present."
+        },
+        {
+          "title": "Ramsay Street, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ramsay_Street",
+          "note": "Pin Oak Court in Vermont South, Melbourne, has doubled for Ramsay Street for the whole of Neighbours' run and is popular with tourists."
+        },
+        {
+          "title": "PlayStation (console), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+          "note": "Released in Australia on 15 November 1995."
+        },
+        {
+          "title": "Tamagotchi, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+          "note": "Released in Japan in 1996 and worldwide in 1997."
+        },
+        {
+          "title": "Pokémon Red, Blue and Yellow, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow",
+          "note": "Red and Blue were released in Australia later in 1998; Yellow on 3 September 1999."
+        },
+        {
+          "title": "Australian Classification Board, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_Classification_Board",
+          "note": "A separate classification system for computer and video games was introduced in 1994."
+        },
+        {
+          "title": "Mabo v Queensland (No 2), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mabo_v_Queensland_(No_2)",
+          "note": "High Court of Australia decision of 3 June 1992 recognising native title."
+        },
+        {
+          "title": "2000 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2000_Summer_Olympics",
+          "note": "Sydney won the right to host on 24 September 1993, beating Beijing 45 to 43 in the fourth round of voting."
+        }
+      ],
+      "uncertainties": [
+        "No reliable dated source was found for typical pocket money in the 1990s, so the panel uses internet and computer figures instead.",
+        "Wikipedia gives no exact Australian release date for Pokémon Red and Blue, only 'later in 1998'.",
+        "No source was found for the exact date the Tamagotchi went on sale in Australia; the panel says 1997, when it went on sale around the world.",
+        "The 1998 ABS figures combine four household surveys taken during the year."
+      ]
+    },
+    {
+      "era": "2000s",
+      "title": "Being 12 in the 2000s",
+      "paragraphs": [
+        "The decade began with the Sydney 2000 Olympic Games, from 15 September to 1 October. On 25 September Cathy Freeman, who had lit the Olympic flame, won the 400 metres. In October the Paralympic Games filled the stands with school groups in green and gold face paint.",
+        "Shopping changed on 1 July 2000, when a 10 per cent goods and services tax (GST) started on most things you buy. At home the internet became normal: by 2008-09, 72 in every 100 Australian homes were online, and most of them had broadband. In 2009, 79 in every 100 children aged 5 to 14 used the internet, and 31 in every 100 had their own mobile phone. From 2008 the Digital Education Revolution began giving laptops to public high school students in Years 9 to 12.",
+        "The PlayStation 2 went on sale in Australia on 30 November 2000, the Nintendo DS on 24 February 2005 and the Wii on 7 December 2006. Australian studios made hits too: Krome Studios in Brisbane made Ty the Tasmanian Tiger in 2002, and Firemint in Melbourne made Flight Control, which was the number 1 app in 19 countries at once on 6 April 2009. Australian Idol began on TV on 27 July 2003.",
+        "Much of southern Australia was in the Millennium Drought, the worst on record. Melbourne had strict Stage 3a water restrictions from 1 April 2007. On 13 February 2008 Prime Minister Kevin Rudd made the National Apology to the Stolen Generations, Aboriginal and Torres Strait Islander children who had been taken from their families."
+      ],
+      "fastFacts": [
+        "Cathy Freeman won the 400 metres at the Sydney Olympics on 25 September 2000 in 49.11 seconds. (Wikipedia)",
+        "The GST started on 1 July 2000. (Wikipedia)",
+        "In 2008-09, 72 in every 100 Australian homes had the internet, up from 16 in 1998. (Australian Bureau of Statistics)",
+        "In 2009, 69 in every 100 Australian children aged 5 to 14 who used the internet at home played games online. (Australian Bureau of Statistics)",
+        "The Wii went on sale in Australia on 7 December 2006, with Wii Sports in the box. (Wikipedia)",
+        "Flight Control, made by Firemint in Melbourne, was number 1 on the App Store in 19 countries at once on 6 April 2009. (Wikipedia)"
+      ],
+      "compare": "In 1998, 16 in every 100 Australian homes had the internet. By 2008-09 it was 72 in every 100. How many times bigger is that? In 2009, 31 in every 100 children aged 5 to 14 had their own mobile phone. How does your class compare today?",
+      "sources": [
+        {
+          "title": "2000 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2000_Summer_Olympics",
+          "note": "Held from 15 September to 1 October 2000; Cathy Freeman lit the cauldron."
+        },
+        {
+          "title": "Athletics at the 2000 Summer Olympics, Women's 400 metres, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Athletics_at_the_2000_Summer_Olympics_%E2%80%93_Women%27s_400_metres",
+          "note": "Final on 25 September 2000; Cathy Freeman won gold in 49.11 seconds."
+        },
+        {
+          "title": "Audience: Australian fans cheer, 2000 Sydney Paralympic Games, Australian Paralympic Committee (Wikimedia Commons)",
+          "url": "https://commons.wikimedia.org/wiki/File:251000_-_Audience_Australian_fans_cheer_-_3b_-_2000_Sydney_public_photo.jpg",
+          "note": "Excited school children in green and gold face paint cheering at the 2000 Sydney Paralympic Games, 25 October 2000."
+        },
+        {
+          "title": "Goods and Services Tax (Australia), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(Australia)",
+          "note": "A 10% tax on most goods and services, in operation from 1 July 2000."
+        },
+        {
+          "title": "Household Use of Information Technology, Australia, 2008-09, Australian Bureau of Statistics",
+          "url": "https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/8146.0Main+Features12008-09",
+          "note": "72% of households had home internet and 78% a computer; 62% had broadband; internet access rose from 16% in 1998; in 2009, 79% of children aged 5 to 14 used the internet, 69% of home users played online games and 31% had their own mobile phone."
+        },
+        {
+          "title": "Digital Education Revolution, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Digital_Education_Revolution",
+          "note": "Launched in 2008; laptops for public high school students in Years 9 to 12 through the National Secondary School Computer Fund."
+        },
+        {
+          "title": "PlayStation 2, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PlayStation_2",
+          "note": "Released in Australia on 30 November 2000."
+        },
+        {
+          "title": "Nintendo DS, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nintendo_DS",
+          "note": "Released in Australia on 24 February 2005."
+        },
+        {
+          "title": "Wii, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wii",
+          "note": "Released in Australia on 7 December 2006."
+        },
+        {
+          "title": "Ty the Tasmanian Tiger, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ty_the_Tasmanian_Tiger",
+          "note": "2002 platform game developed by Krome Studios."
+        },
+        {
+          "title": "Krome Studios, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Krome_Studios",
+          "note": "Australian developer with headquarters in Brisbane."
+        },
+        {
+          "title": "Flight Control (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flight_Control_(video_game)",
+          "note": "Developed by Firemint, released for iOS on 5 March 2009; number one on the App Store in 19 countries on 6 April 2009; an update added an Australian Outback map with Royal Flying Doctor Service planes."
+        },
+        {
+          "title": "Firemonkeys Studios (formerly Firemint), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Firemint",
+          "note": "Headquarters in Melbourne; made the Flight Control series."
+        },
+        {
+          "title": "Australian Idol, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_Idol",
+          "note": "First aired on Network 10 on 27 July 2003."
+        },
+        {
+          "title": "Millennium drought, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Millennium_drought",
+          "note": "Affected most of southern Australia; recognised by 2003 as the worst on record; Melbourne had Stage 3a water restrictions from 1 April 2007."
+        },
+        {
+          "title": "Apology to Australia's Indigenous peoples, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apology_to_Australia%27s_Indigenous_peoples",
+          "note": "On 13 February 2008 Prime Minister Kevin Rudd offered the apology to the Stolen Generations on behalf of the nation."
+        }
+      ],
+      "uncertainties": [
+        "No reliable dated source was found for typical pocket money in the 2000s, so the panel uses internet and phone figures instead.",
+        "The 2009 children's figures come from an ABS survey of children aged 5 to 14, not just 12-year-olds.",
+        "Wikipedia gives both 'late 2008' and August 2008 for the first Digital Education Revolution laptops, so the panel says 'from 2008'.",
+        "Water restrictions differed between cities and changed often; the panel gives only Melbourne's Stage 3a date."
       ]
     },
     {
@@ -4870,6 +5714,70 @@ window.GIT_CONTENT = {
         "idea": "Project the 1913 Word-Cross and solve it as a class, one clue at a time, noting that every clue is a plain definition. Ask which answers are hard because the language or the facts have changed since 1913, and list them as evidence about the period. Then have pairs write three definition clues and one cryptic clue for words from their own week. The Then panel gives the date: Arthur Wynne published the puzzle in the New York World on 21 December 1913, an illustrator later reversed the name to 'cross-word', and the first book of crosswords came from Simon and Schuster in 1924.",
         "computerAngle": "A crossword is a constraint puzzle: each clue is a definition, and the crossing letters, called checks, confirm or rule out an answer when several synonyms fit. Straight clues give a definition only; cryptic clues, which came later, give a definition plus wordplay. The site checks each letter against the grid the way a solver uses checks, so students can see why filling the crossings first makes the hard clues easier.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/hass-f-6/year-6"
+      },
+      {
+        "gameId": "skyline",
+        "title": "Bracketing a throw",
+        "yearLevels": "Years 5 to 8",
+        "idea": "In pairs, students play a round of Skyline against the computer on Easy and keep a table of each throw: angle, speed and whether it landed short or long. They then use bracketing: after one short throw and one long throw, try halfway between. Count how many throws each pair needed. Compare with the computer on Normal, which adjusts from its last miss, and talk about why halving the gap is a fast way to close in. Finish with the Then panel on Gorillas and its QBasic code.",
+        "computerAngle": "There are two ways a computer can aim. It can calculate: a throw at speed v and angle a moves v times cos(a) across and v times sin(a) up each second, while gravity g pulls it down; stepping these numbers forward many times a second draws the curve, and wind adds a small push sideways each step. Or it can search: like a person, it remembers its last short and last long throw and tries a value between them, halving the gap each time. This second method is a binary search, the same idea a computer uses to find a word in a sorted list quickly.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "number-place",
+        "title": "Backtracking by hand",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Warm up with a 4 by 4 junior puzzle in Number Place. Then give pairs a nearly empty 4 by 4 grid and a rule: always fill the first empty square with the smallest number that does not break a rule; if no number fits, rub out the last number you wrote and try the next one up. Students record how many times they had to go back. Compare their finished grids and talk about why the method always finds an answer. Finish with the Then panel on Howard Garns, Nikoli and Wayne Gould's puzzle program.",
+        "computerAngle": "Backtracking is a way to search: try a choice, keep going while the rules hold, and undo the last choice when you get stuck. A program fills a Sudoku grid this way, checking each new number against its row, column and box. To make a puzzle, it fills a whole grid, then removes numbers one at a time and runs the solver again, counting answers but stopping at two. If there is only one answer, the number stays removed. The grade (Easy, Medium, Hard) comes from which human-style rules a logic solver needs to finish.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "gem-swap",
+        "title": "Finding matches in a grid",
+        "yearLevels": "Years 5 and 6",
+        "idea": "Play Gem Swap for five minutes. Then give groups an 8 by 8 grid of coloured counters or coloured squares on paper. One student reads the grid row by row, saying 'match' whenever three or more of the same colour sit in a line, while another records where. Repeat for columns. Remove the matched counters, slide the ones above down, fill the gaps from the top and check again for new matches. Talk about why the computer has to keep checking until nothing changes. Finish with the Then panel on Bejeweled's relaxed mode.",
+        "computerAngle": "The board is a two-dimensional array: 8 rows of 8 numbers, each number standing for a gem type. To find matches the program uses nested loops, one loop for rows and one inside it for columns, counting how many of the same number appear in a run. Matched cells are cleared, then a gravity step moves gems down column by column, and new random gems fill the top. Because falling gems can make new matches, the whole check repeats in a loop until a pass finds no matches. Each extra pass is a cascade.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "doubles",
+        "title": "Doubling all the way to 2048",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play Doubles on the small 3 by 3 board, then switch on teaching mode so each tile also shows a power of two. Students record the tiles they make as 2, 2 squared, 2 cubed and so on, and notice that joining two equal tiles adds one to the power. In pairs, they predict how many 2 tiles it takes to build one 2048 tile (1,024 of them) and check the biggest tile a 4 by 4 board could ever hold (2 to the 17th, 131,072). Finish with the Then panel: Gabriele Cirulli built 2048 in one weekend in 2014.",
+        "computerAngle": "The board is stored as a 4 by 4 grid of numbers, with 0 for an empty square. To slide one row to the left, the program first squeezes out the zeros, then walks along the row: if two neighbouring tiles are equal it replaces them with one tile of double the value and skips ahead, so a tile can merge only once per move. Then it fills the end of the row with zeros again. Sliding right, up or down uses the same steps on a reversed row or on a column. After any move that changed the board, the program picks a random empty square and puts a 2 there nine times out of ten and a 4 one time in ten. The game is over when there are no empty squares and no equal neighbours. This is an algorithm with a loop (walk along the row) and a decision (are these two tiles equal?).",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "slingshot",
+        "title": "Aim, launch, predict",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play two levels of Slingshot with the dotted aiming line, then try a level without looking at it and compare how many shots you needed. Outside, students throw soft balls at a stack of cardboard boxes from a marked line, changing one thing at a time (the angle, then how hard they throw) and recording which change made the biggest difference. Back inside, sketch the path of one throw as a curve. Finish with the Then panel: Rovio kept the slingshot because players understood it straight away.",
+        "computerAngle": "A physics engine moves every object in tiny steps, many times a second. For a flying pebble, each step adds gravity to its downward speed and then adds its speed to its position, which makes the curved path. The dotted aiming line is the same calculation run ahead of time without drawing the pebble. When two shapes overlap, the engine pushes them apart and changes their speeds, using friction so blocks do not slide like ice and a bounciness number so they do not bounce like rubber. So that towers stand still until they are hit, many engines let objects that have stopped moving 'sleep' and skip them until something touches them. A free engine of this kind, Box2D, was written by Erin Catto and used in many phone games of the time.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "block-world",
+        "title": "A whole world from one number",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Block World and look at its hills, caves and ores. Explain that the computer builds the world from a starting number called a seed. On grid paper, each student builds a 10-column landscape with a rule: start at height 5, roll a die for each column, go down one for a 1 or 2, up one for a 5 or 6, and stay level otherwise. Students write down their ten rolls, swap the list with a partner and rebuild each other's world exactly. Discuss why saving the rolls plus a short list of changes takes far less space than saving every block. Finish with the Then panel: Markus Persson shared the first Minecraft in May 2009.",
+        "computerAngle": "Block World does not store a giant picture of its world. A pseudo-random number generator turns one starting number, the seed, into a long list of numbers that look random but are always the same for the same seed, just like the swapped dice rolls. The game smooths these numbers into gentle hills (a technique called noise) to set the height of the ground in each column, then uses more of them to decide where caves, ores and trees go. To save your world it keeps only the seed and a list of the blocks you changed. To stay fast, it draws only the blocks that fit on the screen.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "five-letters",
+        "title": "How the computer colours a guess",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play two rounds of Five Letters in practice mode. Then, on paper, one student picks a secret five-letter word and acts as 'the computer', marking a partner's guesses with the game's three signals. Give pairs tricky cases with double letters, such as a secret word with one E and a guess with two. Students write their marking rule as numbered steps and test it on each other's examples until it never gets a double letter wrong. Finish with the Then panel: Josh Wardle's partner sorted about 13,000 words to make Wordle's answer list.",
+        "computerAngle": "The computer marks a guess in two passes. First pass: it compares each position, marks a letter green when it matches the secret word in that exact spot, and crosses that letter off a list of the secret word's leftover letters. Second pass: for each letter not yet marked, it looks in the leftover list; if the letter is there it is marked yellow and crossed off, otherwise it is grey. Doing all the greens first is what makes double letters fair: if the secret word has one E and you guess two, only one E can light up. A daily puzzle that is the same for everyone does not need the internet: the program turns today's date into a number and uses it to choose the answer from its list.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "four-groups",
+        "title": "Build a puzzle with a red herring",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play the daily Four Groups puzzle together on the board, voting on each group. Then teams write their own puzzle: four categories from a topic the class is studying, four words in each, and at least one red herring, a word that seems to fit two groups. Teams swap puzzles, solve them and colour each group from yellow (easiest) to purple (hardest). Finish with the Then panel: Wyna Liu keeps a notebook of category ideas and takes about two hours to build a board.",
+        "computerAngle": "Each puzzle is stored as data: four groups, each with a name, a colour and a set of four words. When you submit four tiles, order does not matter, so the program checks whether your four words are exactly the same set as one of the groups. A game can also count how many of your four words belong to the same group, which is how it could tell you that you are one away. The 16 tiles are shuffled with the Fisher-Yates method: go through the tiles from last to first and swap each one with a randomly chosen tile at or before it, which makes every order equally likely.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
       },
       {
         "gameId": "prowl",
@@ -6874,6 +7782,188 @@ window.GIT_CONTENT = {
       "focus": "70% 55%",
       "width": 1600,
       "height": 1200
+    },
+    "hall-1990s": {
+      "hero": "img/hall-1990s-1600.webp",
+      "card": "img/hall-1990s-720.webp",
+      "alt": "A boy in a white shirt sits cross-legged on the carpet holding a grey Nintendo 64 controller, beside a wooden coffee table with a candle jar on it.",
+      "caption": "A boy playing a Nintendo 64 at home, 1996",
+      "credit": "Lisa Moody, 1996. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Boy_playing_Nintendo_64_in_1996.tiff",
+      "focus": "65% 40%",
+      "width": 1600,
+      "height": 997
+    },
+    "labyrinth": {
+      "hero": "img/labyrinth-1600.webp",
+      "card": "img/labyrinth-720.webp",
+      "alt": "Two black floppy disks with white labels reading DOOM, Shareware, Disk 1 of 2 and Disk 2 of 2, Created by id Software, 1993.",
+      "caption": "The two floppy disks of Doom's free shareware version from 1993, which players copied and passed on to friends",
+      "credit": "Pelle Wessman, 2008. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Doom_Disks_(2954946319).jpg",
+      "focus": "50% 50%",
+      "width": 1600,
+      "height": 1200
+    },
+    "skyline": {
+      "hero": "img/skyline-1600.webp",
+      "card": "img/skyline-720.webp",
+      "alt": "Two young people, seen from behind, sit at a beige Amiga 500 computer and monitor showing a two-player game, with a box of floppy disks beside it.",
+      "caption": "Two players at a Commodore Amiga 500, the kind of home computer on which Andy Davidson wrote the first version of Worms, photographed in 2025",
+      "credit": "App.211, 2025. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Computerspieler_am_Amiga_500.jpg",
+      "focus": "50% 45%",
+      "width": 1600,
+      "height": 1205
+    },
+    "pocket-pet": {
+      "hero": "img/pocket-pet-1600.webp",
+      "card": "img/pocket-pet-720.webp",
+      "alt": "A see-through yellow egg-shaped Tamagotchi with a small square screen, three white buttons and a silver ball chain.",
+      "caption": "A yellow Tamagotchi made in 1997, in the collection of Museum Rotterdam, Netherlands. The museum links it to school bans",
+      "credit": "Museum Rotterdam, object 78041. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gele_tamagotchi,_objectnr_78041.JPG",
+      "focus": "55% 50%",
+      "width": 1600,
+      "height": 1263
+    },
+    "dance-mat": {
+      "hero": "img/dance-mat-1600.webp",
+      "card": "img/dance-mat-720.webp",
+      "alt": "Seen from behind, a girl in a yellow T-shirt and pink skirt steps across a metal dance stage with arrow panels, beside a Dance Dance Revolution cabinet, with prize machines behind her.",
+      "caption": "A girl dancing on the arrow panels of a Dance Dance Revolution machine in an arcade, 2011",
+      "credit": "mliu92, 2011. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Girl_playing_Legacy_Dance_dance_revolution_cabinet.jpg",
+      "focus": "45% 55%",
+      "width": 1200,
+      "height": 1600
+    },
+    "minefield": {
+      "hero": "img/minefield-1600.webp",
+      "card": "img/minefield-720.webp",
+      "alt": "A beige tower computer and boxy monitor showing the Windows 3.1 Program Manager, with a keyboard and mouse, on a museum table next to a Microsoft information card.",
+      "caption": "A 1990s PC running Windows 3.1, the version of Windows that first came with Minesweeper, at the Living Computer Museum, Seattle, USA, 2013",
+      "credit": "Jason Scott, 2013. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Living_Computer_Museum_IMG_0029_(9636214849).jpg",
+      "focus": "60% 50%",
+      "width": 1600,
+      "height": 1067
+    },
+    "kids-1990s": {
+      "hero": "img/kids-1990s-1600.webp",
+      "card": "img/kids-1990s-720.webp",
+      "alt": "A man and two children in jumpers stand by a street sign reading Pin Oak Ct on a quiet suburban street with gum trees, brick fences and a red car.",
+      "caption": "Visitors at Pin Oak Court in Vermont South, Melbourne, the real street filmed as Ramsay Street in the TV soap Neighbours, 1996",
+      "credit": "Gareth Williams, 1996. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Melbourne_1996.jpg",
+      "focus": "72% 60%",
+      "width": 1167,
+      "height": 771
+    },
+    "hall-2000s": {
+      "hero": "img/hall-2000s-1600.webp",
+      "card": "img/hall-2000s-720.webp",
+      "alt": "Three boys sit on a wooden bench in a sandy playground, each holding a Nintendo DS, with swings and a spring rider behind them.",
+      "caption": "Three boys playing Nintendo DS together on a park bench in Tokyo, Japan, July 2006",
+      "credit": "iMorpheus, 2006. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:2006%E5%B9%B4%E3%81%AE%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1_(207696728).jpg",
+      "focus": "45% 55%",
+      "width": 1280,
+      "height": 960
+    },
+    "number-place": {
+      "hero": "img/number-place-1600.webp",
+      "card": "img/number-place-720.webp",
+      "alt": "Close-up of a newspaper Sudoku grid with printed black numbers, the rest filled in by hand in blue pen.",
+      "caption": "A Sudoku solved in pen in a Spanish newspaper, 2009",
+      "credit": "Héctor Rodríguez, 2009. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Sudoku_en_peri%C3%B3dico.jpg",
+      "focus": "50% 50%",
+      "width": 1600,
+      "height": 1200
+    },
+    "gem-swap": {
+      "hero": "img/gem-swap-1600.webp",
+      "card": "img/gem-swap-720.webp",
+      "alt": "A gold ring set with a curve of small cut gemstones in rainbow colours, blue, green, yellow, orange, red and purple, below a chevron of tiny diamonds.",
+      "caption": "A gold ring set with gemstones in rainbow colours, 2020",
+      "credit": "W.carter, 2020. CC BY 4.0, via Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_ring_with_different_gemstones_set_in_a_rainbow_and_topped_with_diamonds_1.jpg",
+      "focus": "62% 50%",
+      "width": 1600,
+      "height": 1200
+    },
+    "cave-copter": {
+      "hero": "img/cave-copter-1600.webp",
+      "card": "img/cave-copter-720.webp",
+      "alt": "Students sit at rows of beige desktop computers with bulky monitors in a carpeted school computer room with noticeboards on the walls.",
+      "caption": "Students working in a school computer lab, May 2006",
+      "credit": "Michael Surran, 2006. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Students_working_on_class_assignment_in_computer_lab.jpg",
+      "focus": "60% 55%",
+      "width": 1280,
+      "height": 960
+    },
+    "garden-guard": {
+      "hero": "img/garden-guard-1600.webp",
+      "card": "img/garden-guard-720.webp",
+      "alt": "Neat rows of green and red lettuces growing in a walled kitchen garden, with purple chive flowers along one side and tall hedges behind.",
+      "caption": "Rows of lettuces in the kitchen garden at Barton Bendish Hall, Norfolk, England, May 2024",
+      "credit": "Michael Garlick, 2024. CC BY-SA 2.0, Geograph Britain and Ireland, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Barton_Bendish_Hall,_Rows_of_lettuces_-_geograph.org.uk_-_7971306.jpg",
+      "focus": "55% 60%",
+      "width": 1600,
+      "height": 1067
+    },
+    "ten-pin": {
+      "hero": "img/ten-pin-1600.webp",
+      "card": "img/ten-pin-720.webp",
+      "alt": "A boy in a white T-shirt and camouflage pants follows through after a bowling swing with a Wii Remote, facing an old TV on a small table in a backyard, with adults sitting behind.",
+      "caption": "A boy bowling in Wii Sports at a backyard party, May 2008",
+      "credit": "daveynin, 2008. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kid_playing_Wii_Bowling_20080510.jpg",
+      "focus": "65% 45%",
+      "width": 1600,
+      "height": 1200
+    },
+    "kids-2000s": {
+      "hero": "img/kids-2000s-1600.webp",
+      "card": "img/kids-2000s-720.webp",
+      "alt": "A crowd of excited teenagers with green and gold face paint, zinc cream and coloured hair cheer and wave, many wearing green and gold shirts and lanyards.",
+      "caption": "School students in green and gold cheer for Australia at the Sydney 2000 Paralympic Games, 25 October 2000",
+      "credit": "Sport the library, Australian Paralympic Committee, 2000. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:251000_-_Audience_Australian_fans_cheer_-_3b_-_2000_Sydney_public_photo.jpg",
+      "focus": "50% 40%",
+      "width": 1600,
+      "height": 1050
     }
   }
 };
