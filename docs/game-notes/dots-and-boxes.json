@@ -1,0 +1,14 @@
+{
+  "howToPlay": [
+    "Take turns to draw one line between two dots that are next to each other, across or up and down.",
+    "If your line finishes the fourth side of a box, the box is yours: it fills with your colour and letter, and you must draw another line.",
+    "Try not to draw the third side of a box, because that hands the box to the other player.",
+    "When every line has been drawn, the player with more boxes wins.",
+    "Choose a board: Small (3 by 3), Medium (4 by 4), Big (5 by 5) or Huge (7 by 7). Only the Medium board can end in a draw.",
+    "Play the computer (choose Easy or Hard, and who starts), or two players on one device."
+  ],
+  "controls": "Tap or click the gap between two dots to draw a line there. Keyboard: press Tab to reach the board, use the arrow keys to move along the lines (hold Shift with an arrow key to turn a corner), and press Enter or Space to draw.",
+  "computer": "Both levels take any box they can, because closing a box earns another turn. When there is nothing to take, they draw a line that does not give you a box. Easy picks one of those safe lines at random, and once no safe line is left it gives something away at random. Hard thinks about chains: rows of boxes that already have two sides each, where one more line lets the next player take the whole row. When Hard has to give something away, it opens the shortest chain, and if several are equally short it plays the rest of the game out in its head to choose. Near the end it knows the double-cross: it can leave you the last two boxes of a chain on purpose, so that you have to open the next, longer chain for it. The computer waits about a third of a second before each move, and only a moment between boxes while it takes a chain.",
+  "players": ["vs computer", "2 players"],
+  "notes": "Édouard Lucas published the game in 1889 as La Pipopipette, on a board of 25 squares (5 by 5), so it could never end in a draw. That board is here as Big, 5 by 5. The other sizes are added: Small for a quick first game, Huge for a long one, and Medium, 4 by 4, because an even number of boxes is the only way a game can end in a draw. On paper, players write their initials in the boxes they win; online each box fills with its owner's colour and letter, so the two players are easy to tell apart on any screen."
+}

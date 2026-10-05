@@ -221,12 +221,13 @@ window.GIT_CONTENT = {
         "Hopscotch came to Australia with British settlers and has never left. Dorothy Howard wrote about Australian hopscotch after her fieldwork in the mid-1950s, and a 2007 to 2011 study of 19 Australian primary schools found children still hopping on courts painted onto the asphalt, throwing a stone, stick or woodchip as their \"taw\"."
       ],
       "howToPlay": [
-        "Chalk a court of eight to ten numbered squares on the ground and find a flat stone or marker.",
-        "Throw your stone into square 1. It must land inside the square without touching a line.",
-        "Hop through the court on one foot, skipping the square with your stone, and hop back. You may put two feet down where two squares sit side by side.",
-        "On the way back, pick up your stone while balanced on one foot, then hop out.",
-        "Next turn, throw into square 2, then 3, and so on. If you step on a line, miss the square or put a foot down, your turn ends.",
-        "Once you have finished every number, try the hard rounds: walk the court with the stone balanced on your shoe, then on your head."
+        "A hopscotch court is chalked on the ground, numbered 1 to 10. You start beside it with a flat stone.",
+        "Throw your stone into square 1. Hold the Throw button (or Space) and a meter swings up the court. Let go when it is level with your square. If the stone lands on a line or in the wrong square, your turn is over.",
+        "Now hop the court in time with the beat. Press as you land, when the gold ring closes on the square: one foot in a single square, both feet in two squares side by side.",
+        "Never land in the square with your stone. Hop over it, or if it sits in one of a pair, hop on one foot into the other one.",
+        "Jump round at the far end and hop back. Stoop to pick up your stone from the square before it, then hop into its square and out.",
+        "Land on the wrong foot or out of time and you have stepped on a line, so your turn is over. Next turn you try the same square again.",
+        "Clear all ten squares to win. On your own, try to do it in as few turns as you can. Against the computer, take turns and be first to clear the court."
       ],
       "didYouKnow": [
         "The \"scotch\" in hopscotch means a scratched line, not Scotland.",
@@ -234,7 +235,7 @@ window.GIT_CONTENT = {
         "In April 2020, during lockdown, people in Edinburgh chalked a giant hopscotch of about 1,400 squares stretching 400 metres up one street.",
         "Kent children in the 1890s finished hopscotch by walking the court with the stone balanced on an eyelid."
       ],
-      "computer": "",
+      "computer": "The computer throws with the same meter and hops to the same beat as you. Like a real player it sometimes slips: each throw might land on a line and each hop might wobble. On Easy it slips quite often, on Hard hardly ever. If you do not want to watch its whole turn, press Skip and it plays the rest straight away with the same chances.",
       "sources": [
         {
           "title": "Wikipedia: Hopscotch",
@@ -288,7 +289,9 @@ window.GIT_CONTENT = {
         "solo",
         "vs computer"
       ],
-      "type": "action"
+      "type": "action",
+      "controls": "Hold Space, the Hold to throw button or the court, and let go to throw. Then land on the beat: Left arrow or A for your left foot, Right arrow or L for your right foot, both together (or the Up arrow or Space) for both feet, Down arrow or S to stoop for your stone. On a touch screen use the Left, Both, Right and Pick up buttons, or tap the left or right half of the court (two fingers for both feet). P pauses. Enter skips the computer's turn.",
+      "adaptation": "The court is the third plan Miss Chase sent Alice Gomme from Crockham Hill, Kent (Gomme, The Traditional Games of England, Scotland and Ireland, vol. 1, 1894, entry Hop-scotch, fig. 3: 1, then 2 and 3 side by side, 4, then 5 and 6 side by side), carried on in the same pattern to 10, as on many later British and Australian courts. Her rules for that plan are followed: \"Hop, having one foot in No. 2 and the other in No. 3. Step into No. 4. Hop, having one foot in No. 5 and the other in No. 6. Jump round. Go back as you came.\" Throwing into 1, then 2, 3 and so on, comes from her fourth plan: \"Throw stone into No. 1. Pick it up. Hop from No. 1 to No. 8, not touching lines. So successively into Nos. 2, 3, 4, &c.\" Halliwell's definition, quoted by Gomme, says the game is played \"by hopping without touching any of the lines\". Never landing in the stone's square, picking it up on the way back and keeping your turn until you make a mistake follow the rules printed with the game on this page. Adapted for a screen: the throw uses a power meter (you throw from beside the court so you can see your square, and it is aimed straight at the right column); the hops fall on a steady beat that quickens a little with each square; stepping on a line means pressing out of time or with the wrong foot; in a single square either foot is fine. Gomme's harder rounds, carrying the stone on a shoe, thumb, palm, head or eyelid, are not included."
     },
     {
       "id": "twenty-questions",
@@ -442,11 +445,12 @@ window.GIT_CONTENT = {
         "Dorothy Howard saw children playing knucklebones in Australia in the mid-1950s. When researchers went back to Australian playgrounds between 2007 and 2011 they found knucklebones, like marbles, was no longer widely played and sometimes only came back when a teacher taught it."
       ],
       "howToPlay": [
-        "You need five knucklebones, small stones or jacks. Sit on the ground or at a table.",
-        "Throw all five up and catch as many as you can on the back of your hand, then toss them again and catch them in your palm.",
-        "\"Ones\": scatter four bones. Throw the fifth up, snatch one bone from the ground and catch the falling bone in the same hand. Repeat until all are picked up.",
-        "\"Twos\", \"threes\" and \"fours\": do the same, but pick up the bones two at a time, then three and one, then all four together.",
-        "If you drop a bone or miss a catch, your turn ends and the next player has a go. The first player to finish every trick wins."
+        "Four sheep knucklebones lie in a chalk ring. The fifth one, the jack, is in your hand.",
+        "Press Throw to toss the jack up. While it is in the air, scoop up a bone: tap it, or choose it with the arrow keys and press Enter.",
+        "Then catch the jack as it drops back into your hand. Press Catch when the gold ring closes on your palm and its shadow is darkest.",
+        "Ones: scoop one bone each throw. Twos: two at a time. Threes: one, then the other three together. Fours: all four in one go.",
+        "Then Backs: throw all five, catch them on the back of your hand, then catch them again in your palm. That is a whole game won, and the next level throws faster.",
+        "Catch too early, drop the jack, or forget to scoop, and you are out. Try to beat your best score."
       ],
       "didYouKnow": [
         "A wall painting from Pompeii, now in Naples, shows goddesses playing knucklebones.",
@@ -497,7 +501,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "action"
+      "type": "action",
+      "controls": "Space throws and catches. The arrow keys choose a bone and Enter scoops it up. On a touch screen, tap a bone to scoop it, and tap your hand or the Throw and Catch button. P pauses.",
+      "adaptation": "Follows the order of play a newspaper boy at Richmond Station showed Alice Gomme with five bits of tile (Gomme, The Traditional Games of England, Scotland and Ireland, vol. 1, 1894, entry Fivestones): four on the ground, then \"the fifth was thrown up, one stone being picked up from the ground, and the descending fifth stone caught in the same hand\"; then \"two were picked up together in the same manner twice, then one, then three, then all four at once\"; then \"all five were then thrown up and caught on the back of the hand, and then thrown from the back and caught in the palm\", which is the finale here. In South Notts the same tricks were One-ers, Two-ers, Three-ers and Four-ers, and \"every failure means 'out'\". In Wakefield the doorstep was \"made ready by drawing a ring upon it\", so the bones lie in a chalk ring on a stone step. The bones are drawn as sheep's ankle bones, like the homemade set from Gunning, New South Wales, in the Powerhouse Collection. Adapted for a screen: the four bones are laid out ready in ones, twos or a one and a three instead of being scattered by a throw; scooping is a tap; a single press makes each catch; and points and faster levels are added so there is a best score to beat. The Richmond boy also played the tricks again in reverse, putting the stones down one at a time, and South Notts players had harder tricks such as Fly-catchers and Magic; these are not included."
     },
     {
       "id": "marbles",
@@ -607,11 +613,12 @@ window.GIT_CONTENT = {
         "Australian children skipped to their own rhymes. Dorothy Howard collected playground chants across Australia in the mid-1950s, and one Brisbane school sang its own Charlie Chaplin skipping rhyme. Australian kids turned the rhyme \"Down the Mississippi\" into \"Down the Murray-Darling\". Long-rope skipping was still popular when researchers visited 19 Australian schools between 2007 and 2011."
       ],
       "howToPlay": [
-        "For solo skipping, hold a handle in each hand, swing the rope over your head and jump it as it passes under your feet. Count how many jumps you get without a trip.",
-        "For a long rope, two turners hold the ends and swing it in a steady arc while skippers line up.",
-        "Run in as the rope swings away from you, jump in time, then run out on the far side without stopping the rope.",
-        "Chant a rhyme to keep time. For \"Pepper, salt, mustard, cider, vinegar\", the turners start slowly and then turn as fast as they can until the skipper trips.",
-        "Try Chase the Fox: a leader runs through, then skips once, then twice, and everyone copies. Anyone who trips becomes a turner."
+        "Two turners swing a long rope. Watch it slap the ground and listen for the tick.",
+        "Run in: press Jump just after the rope hits the ground, while it swings up and away from you.",
+        "Then jump every time the rope comes down. Press just before it reaches your feet.",
+        "The turners chant real skipping rhymes from the 1890s, a word or two on each turn of the rope. Each new rhyme turns a little faster.",
+        "At \"pepper\" they turn as fast as they can. The last rhyme, Pepper, salt, mustard, cider, vinegar, starts slowly and gets faster and faster until you trip.",
+        "If the rope catches your feet you are tangled and your go is over. Count your jumps and try to beat your best."
       ],
       "didYouKnow": [
         "In the 1600s skipping was a boys' game; girls were told it was indecent because it might show their ankles.",
@@ -672,7 +679,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "action"
+      "type": "action",
+      "controls": "Space, the Up arrow or W to run in and to jump. On a touch screen tap the picture or the Jump button. P pauses.",
+      "adaptation": "Every rhyme is quoted exactly, with its spelling, from Alice Bertha Gomme, The Traditional Games of England, Scotland and Ireland, vol. 2 (London: David Nutt, 1898), entry Skipping, pages 200 to 204, in this order: \"My mother said / That the rope must go / Over my head.\" (Deptford, p. 203); \"Cups and saucers, / Plates and dishes, / My old man wears / Calico breeches.\" (printed as a \"Rhyme to time the jumps\", p. 204); \"Andy Pandy, / Sugardy candy, / French almond / Rock.\" (Deptford, p. 204); \"Up and down the ladder wall, / Ha'penny loaf to feed us all; / A bit for you, and a bit for me, / And a bit for Punch and Judy.\" (Paddington Green, p. 202); \"When I was young and able, / I sat upon the table; / The table broke, / And gave me a poke, / When I was young and able.\" (Deptford, p. 202); \"Half pound tuppeny rice, / Half a pound of treacle, / Penny 'orth of spice / To make it nice, / Pop goes the weazle.\" (Crockham Hill, Kent, p. 202); \"Dancing Dolly had no sense, / For to fiddle for eighteenpence; / All the tunes that she could play, / Were 'Sally get out of the donkey's way.'\" (Deptford, p. 203); \"Up and down the city wall, / Ha'penny loaf to feed us all; / I buy milk, you buy flour, / You shall have pepper in half an hour.\" with Gomme's note \"At pepper turn swiftly.\" (Deptford, p. 203); \"Knife and fork, / Lay the cloth, / Dont forget the salt, / Mustard, vinegar, / Pepper!\" (Deptford, p. 204); and the finale, \"Pepper, salt, mustard, cider, vinegar.\", where \"Two girls turn the rope slowly at first, repeating the above words, then they turn it as quickly as possible until the skipper is tired out, or trips.\" (p. 200). The rope speeds up in the middle of a rhyme only where Gomme says so, at \"pepper\" in the city wall rhyme and in the finale; Knife and fork ends with \"Pepper!\" but Gomme does not say to turn faster there, so it does not. Two girls turning a long rope while skippers run in and jump, with \"the turners time the skippers' movements by a sing song\", is from the same entry, and scoring by the number of jumps follows Strutt (1801), quoted by Gomme: \"he who passes the rope about most times without interruption is the conqueror\". Adapted for a screen: the rhymes are split a word or two to each turn of the rope, each rhyme turns a little faster than the one before, six counted fast turns follow the city wall \"pepper\", and the chant is played as a simple sol-mi tune. The fortune-telling rhymes about sweethearts and weddings, and those that mention gin or stout, are left out."
     },
     {
       "id": "mansion-of-happiness",
@@ -1060,9 +1069,11 @@ window.GIT_CONTENT = {
         "Victorian schoolchildren played it on slates and in the margins of their books. In 1952 it became one of the first ever video games, when Sandy Douglas programmed OXO on the EDSAC computer at Cambridge, and the machine could play a perfect game."
       ],
       "howToPlay": [
-        "Players take turns marking a square with O or X.",
-        "Three of your marks in a row, column or diagonal wins.",
-        "If all nine squares fill with no line, it is a draw."
+        "Play the computer, or a friend on the same device. X always goes first.",
+        "Take turns to put your mark in an empty square.",
+        "Get three of your marks in a row, a column or a diagonal to win. A gold line shows the winning three.",
+        "If all nine squares fill up with no line, the game is a draw.",
+        "Against the computer, pick Easy or Hard, and choose to be X (you go first) or O (you go second)."
       ],
       "didYouKnow": [
         "Counting rotations and reflections as the same, there are only 765 different board positions and 26,830 possible games.",
@@ -1070,7 +1081,7 @@ window.GIT_CONTENT = {
         "A 1952 Cambridge computer called OXO played noughts and crosses perfectly, making it one of the first video games.",
         "In 1858 a magazine reader reported that Irish schoolboys called the game Tip-top-Castle, while English schoolboys called it noughts and crosses."
       ],
-      "computer": "On the hardest setting the computer looks ahead at every possible game (minimax), so it never loses. On easy it plays at random.",
+      "computer": "On Easy the computer puts its mark in any empty square at random, so you can beat it. On Hard it imagines every way the rest of the game could go (a method called minimax) and picks a move that can never lose. If two moves are just as good, it chooses one of them at random, so its games are not always the same. Nobody can beat Hard: the best you can do is a draw. The computer waits about a third of a second before each move, so you can see where it played.",
       "sources": [
         {
           "title": "Tic-tac-toe - Wikipedia",
@@ -1108,7 +1119,9 @@ window.GIT_CONTENT = {
         "vs computer",
         "2 players"
       ],
-      "type": "board"
+      "type": "board",
+      "controls": "Tap or click a square. Keyboard: Tab to the board, move with the arrow keys, and press Enter or Space to play. New game wipes the slate clean. Reset score clears the tally for the mode you are playing.",
+      "adaptation": "These are the same three-in-a-row rules children played with chalk on slates and with pencil and paper in the 1800s, so the grid and the marks are drawn in chalk on a slate. The online version adds a computer opponent with two levels (random moves, and perfect play) and keeps two separate scores: one for games against the computer and one for games between two people. We use the British and Australian name, noughts and crosses, rather than the American tic-tac-toe."
     },
     {
       "id": "snap",
@@ -1193,9 +1206,11 @@ window.GIT_CONTENT = {
         "Loyd also claimed from 1891 until his death in 1911 that he had invented the puzzle. He had nothing to do with it; his first article about it appeared in 1886, well after the craze. Chapman's own patent application of February 1880 was rejected, probably because it was too similar to an earlier puzzle-blocks patent."
       ],
       "howToPlay": [
-        "Tap or click a tile next to the gap to slide it.",
-        "Put the tiles in order from 1 to 15, with the gap in the bottom right corner.",
-        "Fewer moves is better."
+        "Tap or click a tile next to the gap to slide it into the gap.",
+        "Shortcut: tap a tile further along the gap's row or column, and every tile between it and the gap slides one space.",
+        "Put the tiles in order, 1 to 15, reading across each row from the top, with the gap in the bottom right corner.",
+        "Each slide counts as one move, even when it moves several tiles. Try to finish in as few moves as you can. Your best for each size is saved on this device.",
+        "Want a quicker game? Choose the Eight puzzle (3 by 3). Feeling brave? Try the famous impossible 14-15 puzzle."
       ],
       "didYouKnow": [
         "Chapman applied for a patent on 21 February 1880, but it was rejected, probably because it was too similar to an 1878 Puzzle-Blocks patent.",
@@ -1203,7 +1218,7 @@ window.GIT_CONTENT = {
         "In March 1880 the magazine Puck printed a cartoon called The Great Presidential Puzzle, showing Senator Roscoe Conkling sliding blocks with the heads of Republican presidential hopefuls such as Grant and Blaine.",
         "The 1000 dollar prizes offered in 1880 for the impossible 14-15 swap would be worth roughly 35,000 US dollars today."
       ],
-      "computer": "The puzzle shuffles by making real moves from the solved position, so every puzzle it gives you can be solved. Half of all arrangements of the tiles can never be solved; the famous 14-15 swap is one of them.",
+      "computer": "There is no opponent. The computer only shuffles: it starts from the finished puzzle and makes hundreds of random slides (60 for every square on the board), so every puzzle it gives you can be solved. Half of all the ways to arrange the tiles can never be solved, and the 14-15 puzzle, with just 14 and 15 swapped, is one of them.",
       "sources": [
         {
           "title": "15 puzzle, Wikipedia",
@@ -1252,7 +1267,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "puzzle"
+      "type": "puzzle",
+      "controls": "Tap or click a tile in the gap's row or column. Keyboard: Tab to a tile and press Enter or Space, or press an arrow key to slide the tile beside the gap in that direction (Left slides a tile left into the gap). New game shuffles the tiles.",
+      "adaptation": "The 1880 puzzle was a small box of fifteen numbered wooden blocks that you pushed around with your fingers. Here you tap the tiles or use the keys. Tapping a tile further along the gap's row or column moves the whole line at once, as you could push several blocks together in the real box, and it counts as one move. In the real box the blocks could be lifted out and put back in any order, which is how impossible positions happened. This version always shuffles by sliding, so it never gives you an impossible puzzle unless you ask for the 14-15 one. The 3 by 3 Eight puzzle is a smaller version for a quicker game."
     },
     {
       "id": "halma",
@@ -1356,9 +1373,13 @@ window.GIT_CONTENT = {
         "In the original game the board starts empty. Each player places two discs in the four centre squares before any capturing begins, so the opening can vary. The modern version called Othello, patented in Japan by Goro Hasegawa in 1971 and launched by Tsukuda Original in April 1973, fixes those four discs in a set pattern instead."
       ],
       "howToPlay": [
-        "Each player has discs of one colour. In the 1883 rules the first four discs are placed in the centre square by the players in turn, in any arrangement.",
-        "A move must trap one or more enemy discs in a straight line between the new disc and one of yours. The trapped discs flip.",
-        "If you cannot move, you pass. When neither player can move, the player with more discs wins."
+        "Dark moves first. As in 1883, the board starts empty: the first four discs go in the four centre squares, one at a time, in any order you like.",
+        "After that, every new disc must trap at least one of your opponent's discs in a straight line (across, up and down, or diagonally) between it and one of your own discs.",
+        "Every trapped disc flips over to your colour. One disc can trap lines in several directions at once.",
+        "The gold dots show where you can play. Untick Show legal moves to hide them for a harder game.",
+        "If you cannot make a legal move, you pass and your opponent goes again.",
+        "The game ends when the board is full or neither player can move. The player with more discs wins.",
+        "Play the computer (choose Easy or Hard, and Dark or Light), or two players on one device."
       ],
       "didYouKnow": [
         "Ravensburger began producing Reversi in 1893 as one of its very first titles.",
@@ -1366,7 +1387,7 @@ window.GIT_CONTENT = {
         "In 2023 a computer scientist reported that, starting from Othello's fixed four-disc opening, perfect play on the 8 by 8 board ends in a draw.",
         "Two 18th-century European books may describe an earlier version of the game, but nobody has proved the link."
       ],
-      "computer": "The computer scores every legal move: corners are worth a lot, squares next to corners are risky, and flipping more discs is good. It picks the best score. A thoughtful kid can beat it.",
+      "computer": "In the opening both levels put their discs in the empty centre squares, as the rules say. After that, Easy picks any legal move at random. Hard gives every legal move a score. Corners are worth the most, because a disc in a corner can never be flipped. Edges are good, and the squares next to an empty corner are risky, because they can hand that corner to you. Every disc the move flips adds two points, and every move it would leave you takes three away. Then Hard looks one move ahead: it works out your best reply to each move and takes that off the score too. Near the end, when eight or fewer squares are empty, it simply plays the move that flips the most discs. The computer waits about a third of a second before it moves, so you can see what happened, and if you have no legal move it says so and moves again.",
       "sources": [
         {
           "title": "Reversi, Wikipedia",
@@ -1405,7 +1426,9 @@ window.GIT_CONTENT = {
         "vs computer",
         "2 players"
       ],
-      "type": "board"
+      "type": "board",
+      "controls": "Tap or click a square to put a disc there. Keyboard: press Tab to reach the board, use the arrow keys to move around it (Home and End jump to the ends of a row), and press Enter or Space to play. Show legal moves turns the gold dots on and off.",
+      "adaptation": "These are the 1883 rules, not modern Othello: the board starts empty and the first four discs are placed in the four centre squares, one at a time and in any arrangement, instead of starting with four discs already set out in a fixed pattern. A player with no legal move passes, and the game ends when neither player can move. As on a real board, each disc has a dark side and a light side, and a flip turns it over. Online, the legal moves can be shown as gold dots, a help a wooden board could not give, and the computer opponent has two levels."
     },
     {
       "id": "tiddlywinks",
@@ -1496,9 +1519,12 @@ window.GIT_CONTENT = {
         "All you need is paper and a pencil, so the game travelled everywhere under many names, including Boxes, Dots and Dashes, Game of Dots and Pigs in a Pen. Mathematicians still study it. Elwyn Berlekamp wrote a whole book on its strategy in 2000, and playing it perfectly has been shown to be extremely hard even for computers."
       ],
       "howToPlay": [
-        "Players take turns drawing one line between two dots that are next to each other.",
-        "Whoever draws the fourth side of a box claims it and takes another turn.",
-        "When every line is drawn, the player with more boxes wins."
+        "Take turns to draw one line between two dots that are next to each other, across or up and down.",
+        "If your line finishes the fourth side of a box, the box is yours: it fills with your colour and letter, and you must draw another line.",
+        "Try not to draw the third side of a box, because that hands the box to the other player.",
+        "When every line has been drawn, the player with more boxes wins.",
+        "Choose a board: Small (3 by 3), Medium (4 by 4), Big (5 by 5) or Huge (7 by 7). Only the Medium board can end in a draw.",
+        "Play the computer (choose Easy or Hard, and who starts), or two players on one device."
       ],
       "didYouKnow": [
         "The name Pipopipette comes from Pipo, French school slang for the École polytechnique.",
@@ -1506,7 +1532,7 @@ window.GIT_CONTENT = {
         "In 1876 Lucas proved by hand that 2 to the power 127 minus 1 is prime, still the largest prime ever proved without a computer.",
         "Playing Dots and Boxes perfectly is PSPACE-complete, a class of problems that is very hard for computers."
       ],
-      "computer": "The computer takes any box it can, then avoids drawing the third side of a box. On the harder setting it counts chains and tries to leave you the short ones.",
+      "computer": "Both levels take any box they can, because closing a box earns another turn. When there is nothing to take, they draw a line that does not give you a box. Easy picks one of those safe lines at random, and once no safe line is left it gives something away at random. Hard thinks about chains: rows of boxes that already have two sides each, where one more line lets the next player take the whole row. When Hard has to give something away, it opens the shortest chain, and if several are equally short it plays the rest of the game out in its head to choose. Near the end it knows the double-cross: it can leave you the last two boxes of a chain on purpose, so that you have to open the next, longer chain for it. The computer waits about a third of a second before each move, and only a moment between boxes while it takes a chain.",
       "sources": [
         {
           "title": "Dots and boxes, Wikipedia",
@@ -1544,7 +1570,9 @@ window.GIT_CONTENT = {
         "vs computer",
         "2 players"
       ],
-      "type": "words"
+      "type": "words",
+      "controls": "Tap or click the gap between two dots to draw a line there. Keyboard: press Tab to reach the board, use the arrow keys to move along the lines (hold Shift with an arrow key to turn a corner), and press Enter or Space to draw.",
+      "adaptation": "Édouard Lucas published the game in 1889 as La Pipopipette, on a board of 25 squares (5 by 5), so it could never end in a draw. That board is here as Big, 5 by 5. The other sizes are added: Small for a quick first game, Huge for a long one, and Medium, 4 by 4, because an even number of boxes is the only way a game can end in a draw. On paper, players write their initials in the boxes they win; online each box fills with its owner's colour and letter, so the two players are easy to tell apart on any screen."
     },
     {
       "id": "pigs-in-clover",
@@ -1708,9 +1736,11 @@ window.GIT_CONTENT = {
         "In Australia the game was printed locally by the National Game Company. Its cardboard 'National Snakes and Ladders Game', made between 1930 and 1950, is held by the Powerhouse Museum in Sydney. By then the moral labels had gone and the board was simply red and blue squares joined by snakes and ladders of different sizes."
       ],
       "howToPlay": [
-        "Players take turns rolling one die and moving that many squares along the winding path.",
-        "Land at the bottom of a ladder and climb to its top. Land on a snake's head and slide to its tail.",
-        "The first player to reach square 100 wins."
+        "Everybody starts off the board. Press Roll to roll the die, and your token moves that many squares along the winding path from 1 to 100.",
+        "Land at the foot of a ladder and you climb to the top. Land on a snake's head and you slide down to its tail.",
+        "If your roll would take you past 100 you still finish, unless Exact roll to finish is ticked. Then you must land on 100 exactly, and a roll that is too big is wasted.",
+        "The first player to reach square 100 wins.",
+        "Play against the computer, or with 2 to 4 players on one device: pass it to the player whose name is on the status line."
       ],
       "didYouKnow": [
         "Most Indian boards had more snakes than ladders. English makers gave the game equal numbers of each, making it kinder to players.",
@@ -1718,7 +1748,7 @@ window.GIT_CONTENT = {
         "On one board made about 1900, Punctuality leads up a ladder to Opulence, while Robbery leads down a snake to a beating.",
         "Milton Bradley's 1943 Chutes and Ladders swapped the snakes for playground slides because children were thought to dislike snakes."
       ],
-      "computer": "There is nothing to decide, so the computer only rolls. That is the point: Snakes and Ladders is pure chance, which makes it good for talking about probability.",
+      "computer": "There is nothing to decide in Snakes and Ladders, so the computer just rolls the same fair die you do. It waits about a third of a second so you can see it is its turn, then rolls. It cannot play well or badly, which makes the game pure luck: every player has the same chance to win. That is what makes it good for talking about probability.",
       "sources": [
         {
           "title": "Wikipedia: Snakes and ladders",
@@ -1753,7 +1783,7 @@ window.GIT_CONTENT = {
       ],
       "uncertainties": [
         "Jaques of London claims it published the first English-language edition in 1892, while Wikipedia (citing Topsfield and a National Archives design registration) credits F. H. Ayres in October 1892. The Ayres claim is better documented, so 1892 is safe but the maker is disputed.",
-        "The date of the Indian original is unsettled. Wikipedia's Gyan chauper article has a garbled sentence pointing to a 10th-century Jain text; Sahapedia says the game is generally thought to be about the 13th century; a reviewer citing a Topsfield-based review says the earliest reliably dated board is a Lucknow board of 1780 to 1782 and that no board or text from the 10th to 13th centuries survives. An earlier 10th-century claim was removed.",
+        "The date of the Indian original is unsettled. One Wikipedia article points to a 10th-century Jain text, and Sahapedia says the game is generally thought to date from about the 13th century, but a review based on Topsfield's research says the earliest reliably dated board was made in Lucknow between 1780 and 1782, and that no board or text from the 10th to 13th centuries survives.",
         "The meaning of Moksha Patam differs between sources: Wikipedia's uncited lede gives 'liberation lesson', Sahapedia gives 'board of enlightenment'. The Sahapedia gloss is used.",
         "Not every Indian board had more snakes than ladders. Sahapedia says most Jain boards have nine snakes and five ladders, but Wikipedia's Gyan chauper article says the 100-square Muslim version had 17 ladders and 13 snakes, so 'most' is used.",
         "Exact square numbers for the Indian virtues and vices vary between boards. The examples here come from published descriptions of Gyan Chaupar boards, not from one original board.",
@@ -1768,7 +1798,9 @@ window.GIT_CONTENT = {
         "vs computer",
         "2 to 4 players"
       ],
-      "type": "luck"
+      "type": "luck",
+      "controls": "Tap or click Roll. Keyboard: press Tab to reach Roll, then press Enter or Space. Players changes how many play (and starts a new game), and Exact roll to finish changes the finishing rule.",
+      "adaptation": "The ladders and snakes are named after virtues and vices (Thrift, Patience and Honesty; Indolence, Envy and Pride) in the style of English boards from the 1890s, which took the idea from the Indian game Moksha Patam, where ladders were good deeds and snakes were bad ones. The board is not a copy of any one old board. The earliest known English version, from 1892, was a circular board with a spiral track of 100 spaces; this one uses the 10 by 10 grid that later boards made familiar, numbered back and forth from the bottom left. We have not found the finishing rule printed with the 1892 board, so the game does not call either rule the original: by default a roll that goes past 100 still finishes, and Exact roll to finish asks for the exact number instead, as many families play."
     },
     {
       "id": "hangman",
@@ -1785,9 +1817,13 @@ window.GIT_CONTENT = {
         "A 2010 study by Jon McLoone of Wolfram Research found that the hardest English words to guess include jazz, buzz, hajj, faff and fizz, because they avoid common letters. The twelve most common letters in English, e t a o i n s h r d l u, give guessers their best opening moves."
       ],
       "howToPlay": [
-        "One player thinks of a word and shows a dash for each letter.",
-        "The other player guesses letters. Right letters go in their places; wrong letters count against you.",
-        "Guess the word before you run out of wrong guesses."
+        "The computer picks a secret word. With Two players, Player 1 types one while Player 2 looks away. Each letter starts as a dash.",
+        "Under the 1894 rules the word is a bird, beast or fish, and its first and last letters are shown from the start. Classic rules show only dashes.",
+        "Guess one letter at a time. A right letter is written into every place it appears in the word.",
+        "Each wrong guess burns one piece of the candle. After eight wrong guesses the candle goes out.",
+        "If a letter shown at the start also hides inside the word, pressing it fills in the other copies for free.",
+        "Stuck? Hint shows you one hidden letter, but it burns one piece of the candle. There is no hint when one more piece would put the candle out.",
+        "Guess the whole word before the candle goes out to win."
       ],
       "didYouKnow": [
         "The 1894 version had no hanged man at all. Players scored marks on a slate, one for each missing letter they guessed.",
@@ -1795,7 +1831,7 @@ window.GIT_CONTENT = {
         "The earliest known version with hanging pictures was played at a 1902 Philadelphia children's party where guests wore white peaked caps and masks.",
         "The hardest words to guess include jazz, buzz and hajj, according to a 2010 Wolfram Research study."
       ],
-      "computer": "The computer picks words that kids in the 1890s would have known, and tells you what they mean afterwards. Guess common letters first: E, A, R, O and T appear most often in English.",
+      "computer": "When you play the computer, it picks a word you have not seen lately: an animal under the 1894 rules, or a word a child in the 1890s would have known under Classic rules. After each round it tells you what the word means. Its hint shows the hidden letter that is most common in English (E is the most common, then T, A, O, I and N), so a hint is a letter you might well have guessed next. Under the 1894 rules it skips very short animals like EMU, where the shown letters would leave only one letter to guess. The computer never guesses: all the guessing is yours.",
       "sources": [
         {
           "title": "Alice Bertha Gomme, The Traditional Games of England, Scotland, and Ireland, Vol. I (1894), Project Gutenberg text",
@@ -1822,7 +1858,9 @@ window.GIT_CONTENT = {
         "solo",
         "2 players"
       ],
-      "type": "words"
+      "type": "words",
+      "controls": "Tap a letter, or type it on a keyboard. Keyboard: Tab to the letters, move with the arrow keys (Home and End jump to the ends), and press Enter or Space to guess. In Two players, Player 1 types the secret word and an optional hint, then presses Start.",
+      "adaptation": "Hangman is first recorded in 1894 as Birds, Beasts and Fishes, a slate game with no gallows: the first and last letters of an animal's name were shown, and players scored marks for the letters they guessed. Our 1894 rules keep the animal categories and the shown first and last letters, and the game is drawn in chalk on a slate. Instead of a hanged man, or of scoring marks, wrong guesses burn down a candle, which gives a clear limit of eight wrong guesses and nothing gruesome. In Gomme's game the children guessed in turn and the first right guesser set the next word. Online, one player guesses a word from the computer, or Player 2 guesses Player 1's word on one device and they swap after each round. Classic rules show only dashes, like the game most people play today."
     },
     {
       "id": "rock-paper-scissors",
@@ -1902,9 +1940,11 @@ window.GIT_CONTENT = {
         "In 1951 the Ferranti company built Nimrod for the Festival of Britain. It was designed by John Bennett, an Australian who had studied at Cambridge, and was twelve feet wide. Alan Turing played it. Crowds mostly came to gawk at the flashing lights, but Nimrod is often called one of the first computer games."
       ],
       "howToPlay": [
-        "Start with a few rows of matches.",
-        "On your turn take as many matches as you like, but all from one row.",
-        "The player who takes the last match wins."
+        "The matches are laid out in rows: 3, 5 and 7 to start with. You can also choose rows of 1, 3, 5 and 7, or random rows.",
+        "On your turn, take as many matches as you like, but all from one row. You must take at least one.",
+        "Tap a match to choose it and every match to its right, then press Take.",
+        "In the normal game, whoever takes the last match wins. Tick Last match loses for the misère game, where whoever takes the last match loses.",
+        "Tick Show the secret to see the binary trick the computer uses, then try it yourself."
       ],
       "didYouKnow": [
         "Bouton's 1901 paper gave the game its name. The Oxford English Dictionary links it to the German word nimm, meaning take.",
@@ -1912,7 +1952,7 @@ window.GIT_CONTENT = {
         "Nimrod was twelve feet wide, but the actual computer took up about two per cent of its volume. The rest was valves and lights.",
         "The 1961 French film Last Year at Marienbad features Nim played with rows of 1, 3, 5 and 7, where the player who takes the last match loses. This is now called the Marienbad version."
       ],
-      "computer": "The computer writes each row's count in binary and adds the columns without carrying (exclusive or). If the result is zero, you are in trouble. It always moves to make it zero. Turn on \"Show the secret\" to see it.",
+      "computer": "On Perfect, the computer writes the number of matches in each row in binary and adds the columns without carrying. That total is called the Nim-sum. If the Nim-sum is not 0 on its turn, it takes matches to make the Nim-sum 0, and from there it can always win. If the Nim-sum is already 0 on its turn, it cannot force a win, so it takes one match from the biggest row and waits for you to slip. In the misère game it plays the same way until only one row has more than one match. Then it changes plan and leaves an odd number of single matches, so you are the one left with the last match. On Easy, it picks a row at random and takes a random number of matches from it. It waits about a third of a second before each move, so you can see what you just did.",
       "sources": [
         {
           "title": "Nim - Wikipedia",
@@ -1961,7 +2001,9 @@ window.GIT_CONTENT = {
         "vs computer",
         "2 players"
       ],
-      "type": "board"
+      "type": "board",
+      "controls": "Tap or click a match to choose it and the matches to its right; tap it again to clear your choice. Then press Take. Keyboard: Tab to the matches, move with the arrow keys, press Enter or Space to choose, then press Tab once to reach Take and press Enter.",
+      "adaptation": "The normal game, where taking the last match wins, is the one Charles Bouton solved in 1901. The misère game, where taking the last match loses, is the version played with rows of 1, 3, 5 and 7 in the 1961 film Last Year at Marienbad. Nim was played with matches, stones or coins on a table; online you tap the matches and press Take instead of picking them up. Show the secret is our addition, so players can learn Bouton's binary method while they play."
     },
     {
       "id": "klondike",
@@ -2233,9 +2275,12 @@ window.GIT_CONTENT = {
         "Australia followed within weeks. Sydney's Evening News printed the first recognisable Australian crossword on 10 December 1924 as part of a competition, and the Sunday Times offered cash and land prizes from 1 February 1925. One Adelaide paper in January 1925 called crosswords a new sort of plague sweeping through home life."
       ],
       "howToPlay": [
-        "Each clue names two numbers. The answer runs from the first numbered cell to the second.",
-        "Type a letter in each cell. Use the arrow keys to move around.",
-        "Check your answers when you are done, or reveal a word if you are stuck."
+        "Each clue gives two numbers, like 2-3. The answer runs from the cell with the first number to the cell with the second, across or down.",
+        "Tap a clue or a cell, then type. The cursor moves along the word by itself and hops over the printed F, U and N.",
+        "Tap the same cell again, or press Enter, to swap between the two words that cross there.",
+        "A word you get right is crossed off the clue list. Press Check answers to show any wrong letters in red.",
+        "Stuck? Reveal this word fills in the word you are on, and Reveal all fills in the whole puzzle, but a puzzle solved with Reveal does not count as a win.",
+        "Your letters are kept on this device, so you can come back later. New game clears the grid."
       ],
       "didYouKnow": [
         "The first crossword was diamond-shaped with a hole in the middle, and the word FUN was filled in for you.",
@@ -2274,7 +2319,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "words"
+      "type": "words",
+      "controls": "Tap a cell or a clue, then type. Tap the cell again or press Enter to swap between across and down. The arrow keys move around the grid, Tab steps along the word and then on to the clues, and Backspace rubs out.",
+      "adaptation": "This is Arthur Wynne's Word-Cross from the New York World of 21 December 1913. As in the original, each clue names the numbers at both ends of its word instead of using across and down lists, and the word FUN is printed in the grid with no clue. The clues are kept exactly as Wynne wrote them, American spelling and all. Online, the cursor skips the printed letters, words you get right are crossed off the list, and there are buttons to check and reveal answers, which the newspaper page did not have."
     },
     {
       "id": "battleship",
