@@ -1724,6 +1724,124 @@ Skyline plays like Gorillas and Worms: two players take turns to set an angle an
 
 **Picture:** Two players at a Commodore Amiga 500, the kind of home computer on which Andy Davidson wrote the first version of Worms, photographed in 2025. Credit: App.211, 2025. CC BY-SA 4.0, via Wikimedia Commons. Licence: CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Computerspieler_am_Amiga_500.jpg
 
+### Pocket Pet
+
+- **When:** 1996 (on sale around the world in 1997)
+- **Where:** Mechanics of Tamagotchi by Aki Maita and Akihiro Yokoi, made by Bandai, Tokyo, Japan
+- **Players:** solo
+
+In 1995 Akihiro Yokoi, the head of a small company called WiZ, took an idea to the big Japanese toy maker Bandai: a pet you could carry anywhere. At Bandai, Aki Maita worked out how the pet would be raised. Its name joins tamago, the Japanese word for egg, with the English word watch, because at first it was meant to be worn like a wristwatch. In the story, Tamagotchis are little aliens who left an egg on Earth to see what life is like here.
+
+Tamagotchi went on sale in Japan on 23 November 1996. It was a plastic egg on a keychain with three buttons and a tiny screen with no backlight. You fed your pet meals and snacks, played games with it, cleaned up its messes, gave it medicine and turned off the light at bedtime. It grew through baby, child and teenage stages, and the adult it became depended on how well you cared for it. By 1998 nearly 40 million had been sold, about half of them in Japan.
+
+The first Tamagotchis beeped whenever the pet needed something and could not simply be paused, and a pet that was ignored could die in less than half a day. So kids took them to school, and many schools banned them. Sydney's Powerhouse museum keeps a first series Tamagotchi in its collection, still in its box. In 2025 The Strong National Museum of Play added Tamagotchi to its World Video Game Hall of Fame.
+
+Pocket Pet plays like Tamagotchi: you care for a pixel creature as it grows, and how you care for it shapes what it grows into. Here the pet never dies. If it is not looked after, it goes back to its home planet and leaves a new egg. The name and look here are our own.
+
+**Did you know?**
+
+- In 1997 Yokoi and Maita won a joke award, the Ig Nobel Prize for Economics, 'for diverting millions of person-hours of work into the husbandry of virtual pets'.
+- Tamagotchis were so wanted that Bandai staff were told not to carry bags with the Bandai name on them, in case someone tried to steal one.
+- Shigeru Miyamoto, who made Mario, said that in 1996 he felt his big 3D game Mario 64 had lost to the Tamagotchi, 'a tiny key chain boasting pictures made up of no more than 10 or 20 dots'.
+- More than 98 million Tamagotchis have been sold since 1996.
+
+**What we are not sure about**
+
+- Sources differ on pausing. The Powerhouse says the first models could not be paused; Wikipedia says the original could only be paused by going into the clock setting, which stopped time.
+- Sales figures differ: The Strong says about 40 million in the first year, Wikipedia says nearly 40 million by spring 1998.
+- The Powerhouse says Aki Maita got the idea from a television advertisement about a boy with a pet turtle; other sources opened do not mention this, so it is left out.
+- No reliable dated source was found for the day Tamagotchi went on sale in Australia or for which Australian schools banned it.
+- The American release date is given as 1 May 1997 by Wikipedia and later in May by some fan sites.
+
+**How we rebuilt it:** Plays like Tamagotchi (Bandai, 1996): an egg-shaped handheld with three buttons, a tiny dot screen, an egg that hatches, hunger and happiness hearts, meals and snacks, a left-or-right guessing game, cleaning up messes, lights off at bedtime, medicine, care mistakes that decide what it grows into, and an attention icon. The creatures, their names, the handheld and the screen pictures are all our own. Changes for this site: time runs about 360 times faster than in real life (one pet day is about 4 minutes on Normal) and only while the page is open, with no notifications; there is no discipline button; there are four stages (egg, baby, child, grown-up) instead of the original's extra teenager stage; and a neglected pet never dies. Instead its health runs out and it flies home to its own planet, where its family looks after it, and leaves you a new egg.
+
+**Sources**
+
+- [Tamagotchi, World Video Game Hall of Fame, The Strong National Museum of Play](https://www.museumofplay.org/games/tamagotchi/): Inducted 2025; Yokoi of WiZ pitched a mobile pet toy to Bandai in 1995; Aki Maita developed the raising design; released in Japan in 1996 with three buttons and a non-backlit LCD; about 20 million sold in Japan and 20 million elsewhere.
+- [Tamagotchi, Wikipedia](https://en.wikipedia.org/wiki/Tamagotchi): Released in Japan 23 November 1996 and in the USA 1 May 1997; tamago plus watch, first meant to be worn like a wristwatch; alien egg back-story; development depends on care; pets could die in less than half a day, leading to school bans; Bandai staff bag ban; Ig Nobel Prize; Miyamoto quote; nearly 40 million sold by spring 1998; 98.1 million by 2025.
+- [The 1997 Ig Nobel Prize winners, Improbable Research](https://improbable.com/ig/winners/): Economics: Akihiro Yokoi of Wiz Company in Chiba and Aki Maita of Bandai in Tokyo, 'the father and mother of Tamagotchi, for diverting millions of person-hours of work into the husbandry of virtual pets'.
+- [A first series Bandai Tamagotchi in original packaging, Powerhouse Collection (object 2013/88/1)](https://collection.powerhouse.com.au/object/472103): Sydney's Powerhouse holds a first series Tamagotchi in its packaging; schools banned them; first-generation alerts could not be silenced and the life cycle could not be paused; a pet could die after about twelve hours of neglect.
+
+**Picture:** A yellow Tamagotchi made in 1997, in the collection of Museum Rotterdam, Netherlands. The museum links it to school bans. Credit: Museum Rotterdam, object 78041. CC BY-SA 3.0, via Wikimedia Commons. Licence: CC BY-SA 3.0. Source: https://commons.wikimedia.org/wiki/File:Gele_tamagotchi,_objectnr_78041.JPG
+
+### Dance Mat
+
+- **When:** 1998
+- **Where:** Mechanics of Dance Dance Revolution by Konami, Japan
+- **Players:** solo
+
+Music games started before the 1990s. In 1987 Dance Aerobics for the Nintendo Entertainment System had players copy an instructor's steps on a floor mat. In 1996 PaRappa the Rapper asked players to press buttons exactly in time with the music and graded them on how accurate they were. In 1997 the Japanese company Konami made Beatmania, where you play a club DJ.
+
+Konami's next idea used feet instead of hands. Dance Dance Revolution reached Japanese arcades on 26 September 1998. Players stand on a metal stage with four arrow panels: left, down, up and right. Arrows scroll up the screen, and you step on the matching panel just as each arrow reaches the target at the top. Every step is judged Perfect, Great, Good, Boo or Miss, and a rail behind you gives tired dancers something to hold.
+
+DDR reached North American and European arcades in March 1999; in Europe it was called Dancing Stage. Many people played it for exercise. In 2004 Norway made it an official sport, and in 2006 Konami announced that DDR would be part of a fitness program in West Virginia's 765 state schools in the USA. In 2020 players from Australia and New Zealand could enter Konami's world arcade championship, and in 2022 The Strong National Museum of Play added DDR to its World Video Game Hall of Fame.
+
+Dance Mat plays like Dance Dance Revolution: arrows rise to a target row in time with the music and you hit them on the beat. The songs here are new ones written in code for this site. The name and look here are our own.
+
+**Did you know?**
+
+- In 2011 Alexander Skularek played DDR for 16 hours, 18 minutes and 9 seconds, a Guinness World Record at the time.
+- Some players do freestyle: they set the game to its easiest level and make up a whole dance, with spins and jumps, while still hitting the arrows.
+- The first DDR arcade machines were built on the same kind of chips as Sony's first PlayStation.
+- Konami has made more than 100 Dance Dance Revolution games, including versions with Disney characters and Winnie the Pooh.
+
+**What we are not sure about**
+
+- The Strong says September 1998; Wikipedia gives 26 September 1998 for the first arcade release and 18 November 1998 for the common 'Internet Ranking' update.
+- The names of the judgements changed in later versions of the game.
+- No reliable source was found for when DDR first appeared in Australian arcades.
+- Konami's West Virginia announcement says the program would be phased in over two years; no source was found for how many schools used it in the end.
+
+**How we rebuilt it:** Plays like Dance Dance Revolution (Konami, 1998): arrows scroll up to a fixed row of targets, you step in time to music, and each step is judged, with a combo and a dance gauge. The songs (Laser Lemonade, Pixel Picnic and Velvet Groove), the arrows, the dancer and every sound are our own. Changes for a browser: you play with a keyboard or a touch screen instead of a dance platform; the step charts are made by the computer from each song's beats instead of by hand; the gauge only counts at the end and can fill up again after it empties, so a song never stops halfway (in the arcade, an empty gauge ended your turn); and an audio delay setting with a tap test makes up for wireless headphones, which play sound later than wired ones.
+
+**Sources**
+
+- [Dance Dance Revolution, World Video Game Hall of Fame, The Strong National Museum of Play](https://www.museumofplay.org/games/dance-dance-revolution/): Inducted 2022; Dance Aerobics (1987), PaRappa the Rapper (1996) and Beatmania (1997); DDR hit Japanese arcades in September 1998; judgements Perfect, Great, Good, Boo or Miss; railing at the back; freestyle players; official sport in Norway in 2004; more than 100 games by 2018; Skularek's 16 hours 18 minutes 9 seconds record in 2011.
+- [Dance Dance Revolution (1998 video game), Wikipedia](https://en.wikipedia.org/wiki/Dance_Dance_Revolution_(1998_video_game)): Released to Japanese arcades on 26 September 1998; North American arcades in March 1999 and European arcades as Dancing Stage; PlayStation version in Japan on 10 April 1999.
+- [Dance Dance Revolution, Wikipedia](https://en.wikipedia.org/wiki/Dance_Dance_Revolution): Early mixes ran on PlayStation-based hardware (System 573); Norway 2004; West Virginia fitness program announced in 2006 for 765 state schools; the 9th Konami Arcade Championship (finals 8 February 2020) added players from Australia and New Zealand.
+
+**Picture:** A girl dancing on the arrow panels of a Dance Dance Revolution machine in an arcade, 2011. Credit: mliu92, 2011. CC BY-SA 2.0, via Wikimedia Commons. Licence: CC BY-SA 2.0. Source: https://commons.wikimedia.org/wiki/File:Girl_playing_Legacy_Dance_dance_revolution_cabinet.jpg
+
+### Minefield
+
+- **When:** 1992 (first released in 1990)
+- **Where:** Mechanics of Minesweeper by Curt Johnson and Robert Donner, Microsoft, Redmond, USA
+- **Players:** solo
+
+Grid games with hidden mines were around in the 1980s. In 1983 Ian Andrew, aged 24, made Mined-Out for the British ZX Spectrum home computer; he wrote it in BASIC and his mother tested it for him. At Microsoft, programmer Curt Johnson wrote his own version, called Mines, for a computer system called OS/2. He says he borrowed the idea from a slow, black and white game on his old Macintosh, not from Mined-Out.
+
+Johnson's colleague Robert Donner turned it into a game for Windows. When a manager, Bruce Ryan, collected games to help sell Windows to people at home, Donner sent in Mine. With new pictures it became Minesweeper, released on 8 October 1990 in the Microsoft Entertainment Pack. It became the most popular game in Microsoft's offices, and in 1992 it replaced Reversi as a free game in Windows 3.1. Every version of Windows up to Windows 7 included it, so hundreds of millions of people may have played it.
+
+Each number tells you how many of the eight squares around it hide a mine, so a careful player can often work out every mine with pure logic. Sometimes, though, you have to guess. In 2000 a mathematician proved that Minesweeper belongs to a famous group of hard problems called NP-complete: nobody knows a quick method that works for every possible board, however big.
+
+Minefield plays like Minesweeper: dig a square, read the numbers, flag the mines and clear the field. The name and look here are our own.
+
+**Did you know?**
+
+- Bill Gates once deleted Minesweeper from his computer because he was playing it too much, then went to a colleague's office to keep playing.
+- Curt Johnson had to write his own drawing program to make Minesweeper's pictures, because Microsoft Paint could only draw in black and white back then.
+- In the Italian version of Windows 2000 the game was called Prato Fiorito, 'field of flowers', with flowers instead of mines. Johnson said: 'Field of flowers, though? It's a fine name.'
+- In 2014 Kamil Murański of Poland cleared all three Minesweeper levels in a combined 38.65 seconds, a Guinness World Record.
+
+**What we are not sure about**
+
+- Accounts differ on who did what: Wikipedia says Johnson created the game and Donner ported it to Windows; How-To Geek says Donner based his game on Johnson's earlier one.
+- Ian Andrew believes Microsoft's game came from Mined-Out; Curt Johnson says it did not.
+- Eurogamer says Minesweeper was given away with Windows 3.11; How-To Geek and Wikipedia say Windows 3.1 in 1992.
+- The 2000 NP-completeness proof was published under the name Richard Kaye; Wikipedia now gives the author's name as Sadie Kaye, so the story does not name the mathematician.
+- The world record has since been beaten: Wikipedia lists a combined time of 32.88 seconds in later official rankings.
+
+**How we rebuilt it:** Plays like Minesweeper in Windows 3.1 (1992): three levels with 10, 40 and 99 mines, number clues, flags, opening the squares round a number in one go, a timer and a face that starts a new game. The name, the window, the little miner face, the LED counters and every picture are our own. Changes for this site: the first dig always opens an area, so a game never starts with a guess; press-and-hold and a Flag mode button stand in for the right mouse button on touch screens; on phones the Expert board turns on its side and a Big squares button makes the squares easier to tap; the timer stops while the tab is hidden; best times are kept separately for classic and no-guess boards; and the optional no-guess boards and the Hint button are additions that show how a computer can solve the puzzle with logic. The question-mark marker from the original is left out to keep the controls simple.
+
+**Sources**
+
+- [30 Years of 'Minesweeper' (Sudoku with Explosions), Benj Edwards, How-To Geek, 2020](https://www.howtogeek.com/693898/30-years-of-minesweeper-sudoku-with-explosions/): Released 8 October 1990 in the Microsoft Entertainment Pack; originally called Mine, by Robert Donner and Curt Johnson; Donner based it on Johnson's OS/2 game; product manager Bruce Ryan's call for games; most popular in Microsoft's offices; Bill Gates story from a 1994 Washington Post report; Windows 3.1 in 1992 replacing Reversi; included up to Windows 7; Prato Fiorito; 38.65-second record by Kamil Murański in 2014.
+- [Every step you take: The story of Minesweeper, Dan Griliopoulos, Eurogamer, 2014](https://www.eurogamer.net/every-step-you-take-the-story-of-minesweeper): Interviews with Ian Andrew (Mined-Out, ZX Spectrum, written in BASIC at 24, tested by his mother) and Curt Johnson (moved from Minnesota where it was minus 20 Fahrenheit; wrote a 16-colour bitmap editor because Paint was black and white; borrowed the idea from a Macintosh game, not Mined-Out; built Mines in C; Donner converted it to Windows; 'Field of flowers, though? It's a fine name.').
+- [Microsoft Minesweeper, Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Minesweeper): Created by Curt Johnson for OS/2 and ported to Windows by Robert Donner; Microsoft Entertainment Pack 1 in 1990; standard in Windows 3.1 in 1992, replacing Reversi; Flower Field versions.
+- [Minesweeper (video game), Wikipedia](https://en.wikipedia.org/wiki/Minesweeper_(video_game)): Origins unclear; Mined-Out (1983) by Ian Andrew; a 2000 proof in The Mathematical Intelligencer that Minesweeper is NP-complete.
+
+**Picture:** A 1990s PC running Windows 3.1, the version of Windows that first came with Minesweeper, at the Living Computer Museum, Seattle, USA, 2013. Credit: Jason Scott, 2013. CC BY 2.0, via Wikimedia Commons. Licence: CC BY 2.0. Source: https://commons.wikimedia.org/wiki/File:Living_Computer_Museum_IMG_0029_(9636214849).jpg
+
 ## The Y2K Lounge (2000 to 2009)
 
 A new millennium of play. Gems, Flash games and a wand in your hand. In the 2000s games reached people who never called themselves gamers. Free web games ran in school computer rooms, puzzles filled newspapers and phones, and a remote you swing brought whole families in to bowl. Same rule as the rooms next door: the mechanics are the era's, the names and colours are ours.
@@ -1854,6 +1972,85 @@ Flash games could not last forever: Adobe stopped supporting Flash Player on 31 
 - [Flash Back: preserving a gaming legacy, Film Stories](https://filmstories.co.uk/features/flash-back-preserving-a-gaming-legacy/): Describes BlueMaxima, real name Ben Latimore, as an Australian gamer and content creator who set up Flashpoint.
 
 **Picture:** Students working in a school computer lab, May 2006. Credit: Michael Surran, 2006. CC BY-SA 2.0, via Wikimedia Commons. Licence: CC BY-SA 2.0. Source: https://commons.wikimedia.org/wiki/File:Students_working_on_class_assignment_in_computer_lab.jpg
+
+### Garden Guard
+
+- **When:** 2009 (tower defence games boomed from 2007)
+- **Where:** Mechanics of Plants vs. Zombies by George Fan, PopCap Games, Seattle, USA, and Desktop Tower Defense by Paul Preece
+- **Players:** solo
+
+In a tower defence game, enemies march along a path and you place defenders beside it to stop them. Early ideas go back a long way: Pedro, from 1984, was a garden defence game where you placed barriers, and Rampart, from 1990, set up the pattern of building, defending and repairing. Players also built tower defence maps of their own inside strategy games such as StarCraft and Warcraft III.
+
+In March 2007 Paul Preece released Desktop Tower Defense, a free Flash game set on an office desk. The enemies always took the shortest path they could find to the exit, so players placed towers to make the longest, most winding maze. By July 2007 it had been played more than 15.7 million times.
+
+At PopCap Games in Seattle, George Fan first imagined a sequel to his fish tank game Insaniquarium, with aliens attacking. After playing Warcraft III tower defence maps, he decided plants would make good defenders. In most tower defence games the enemies walk straight past the towers, which Fan thought was odd, so he lined them up in five lanes across a lawn where they run into the plants. While sketching he drew what he called 'the perfect zombie', and the game became Plants vs. Zombies. It took three and a half years to make and came out on 5 May 2009. In the USA it is rated E10+, for everyone aged 10 and over.
+
+Garden Guard plays like Plants vs. Zombies: collect sunshine, plant defenders in garden beds and protect your lettuces lane by lane. Here the pests are snails, slugs and beetles, and they are shooed away, never hurt. The name and look here are our own.
+
+**Did you know?**
+
+- In Desktop Tower Defense the game would not let you block the exit completely, so the best players built long, twisting mazes out of towers instead.
+- George Fan chose zombies instead of aliens partly so his game would stand out from other games with plants in them.
+- At a 2012 conference for game makers, Fan gave a talk called 'How I Got My Mom to Play Through Plants vs. Zombies', sharing 10 tricks for teaching a game so anyone can learn it.
+- Plants vs. Zombies began as an idea for a fish game. In the early plan, aliens attacked a fish tank on the top screen of a Nintendo DS.
+
+**What we are not sure about**
+
+- Where the tower defence idea began is debated; Wikipedia's article on the genre is flagged as needing better sources.
+- No source opened gives Paul Preece's home town or country, so the origin line does not name one.
+- The ESRB rating quoted is for console and handheld versions; no rating was checked for the first computer version.
+- Plants vs. Zombies is about plants fighting zombies; this hall's game uses garden pests that are only shooed away.
+
+**How we rebuilt it:** Plays like the lane defence of Plants vs. Zombies (PopCap Games, 2009), with the plant-your-defences idea of tower defence games like the Flash game Desktop Tower Defense (2007), moved into a vegetable garden. There are no zombies and nobody is hurt: pests have a nerve meter instead of health, and they run away when it is empty. Plants vs. Zombies gives each lane a lawnmower as a last chance; here a pest reaching the lettuces ends the level straight away, but levels are short and you can try again at once. On a phone the garden stands up, so the pests crawl from the top of the screen to the bottom, which keeps the squares big enough to tap. The plants, pests, levels and pictures are our own.
+
+**Sources**
+
+- [Plants vs. Zombies (video game), Wikipedia](https://en.wikipedia.org/wiki/Plants_vs._Zombies_(video_game)): Designed by George Fan; released 5 May 2009; began as a defence-focused sequel to Insaniquarium with aliens attacking a top fish tank on a Nintendo DS; inspired by Warcraft III tower defence mods; five- and six-lane lawns; 'the perfect zombie'; zombies chosen to stand out from other plant games; three and a half years of development; artist Rich Werner, programmer Tod Semple, composer Laura Shigihara.
+- [Desktop Tower Defense, Wikipedia](https://en.wikipedia.org/wiki/Desktop_Tower_Defense): Flash browser game by Paul Preece, released 3 March 2007; played over 15.7 million times by July 2007; enemies take the shortest path; the game does not allow the exit to be made completely inaccessible.
+- [Tower defense, Wikipedia](https://en.wikipedia.org/wiki/Tower_defense): Imagine Software's Pedro (1984), a garden defence game with fixed obstructions; Rampart (1990) established build, defend and repair phases; StarCraft custom maps such as Turret Defense (2000).
+- [How I Got My Mom to Play Through Plants vs. Zombies, GDC Vault, Game Developers Conference 2012](https://www.gdcvault.com/play/1015541/How-I-Got-My-Mom): George Fan of PopCap presents 10 techniques for teaching game mechanics, using examples from Plants vs. Zombies, and how he got his mum to play through a full strategy game.
+- [Plants vs. Zombies rating, Entertainment Software Rating Board](https://www.esrb.org/ratings/29273/plants-vs-zombies/): Rated E10+ (Everyone 10+) for animated blood and cartoon violence, for console and handheld releases.
+
+**Picture:** Rows of lettuces in the kitchen garden at Barton Bendish Hall, Norfolk, England, May 2024. Credit: Michael Garlick, 2024. CC BY-SA 2.0, Geograph Britain and Ireland, via Wikimedia Commons. Licence: CC BY-SA 2.0. Source: https://commons.wikimedia.org/wiki/File:Barton_Bendish_Hall,_Rows_of_lettuces_-_geograph.org.uk_-_7971306.jpg
+
+### Ten-Pin
+
+- **When:** 2006
+- **Where:** Mechanics of bowling in Wii Sports by Nintendo, Kyoto, Japan
+- **Players:** solo, vs computer, 2 to 4 players
+
+Bowling was one of the first sports on home video game machines. The RCA Studio II console had a bowling game built in during 1977, with a square ball and ten square pins seen from above, and Fairchild, Atari and Mattel soon made their own. Later bowling games showed the lane from behind the bowler, with meters to set the power and spin.
+
+Nintendo wanted its new console, the Wii, to reach people who had never played video games. The Wii Remote could sense movement with a tiny part called an accelerometer. Wii Sports, produced by Katsuya Eguchi, turned tennis, baseball, bowling, golf and boxing into simple games you play by moving the remote like a racket, bat, ball, club or glove. It came in the box with the Wii in North America on 19 November 2006 and in Australia on 7 December 2006.
+
+Bowling became a favourite. Families, and even grandparents, played together, and senior centres in the USA ran Wii bowling leagues for people who had bowled in the 1950s and 1960s but now found real bowling too hard on their bodies. Wii Sports sold more than 82 million copies, and in 2023 The Strong National Museum of Play added it to its World Video Game Hall of Fame.
+
+In 1960 Hurstville Bowl in Sydney opened as Australia's first mechanical ten-pin bowling centre, and tennis champion Neale Fraser rolled the first ball. Ten-Pin plays like Wii Sports bowling: aim, add spin and swing, with full scoring for strikes and spares. The name and look here are our own.
+
+**Did you know?**
+
+- A strike scores 10 plus the pins from your next two balls, and a spare scores 10 plus your next ball. Twelve strikes in a row makes a perfect game of 300.
+- Early versions of Wii Sports used Mario characters, but players preferred their own Mii characters, so Mario was taken out.
+- Bowling and golf in Wii Sports can be played by several people sharing just one remote, taking turns.
+- A computer writer who loved real bowling said 'Nintendo did a stupendous job of coding' the bowling, but complained that his wrist and shoulder got sore.
+
+**What we are not sure about**
+
+- Some websites call Hurstville Bowl Australia's first fully automatic centre; The Leader says first mechanical centre.
+- Wii Sports sales are given as 'more than 82 million' by The Strong; other sources give slightly different totals.
+- No reliable Australian source was found about Wii bowling in Australian aged care homes, so the story describes the American leagues The Strong mentions.
+
+**How we rebuilt it:** Plays like Wii Sports Bowling (Nintendo, 2006), where you swung the Wii Remote like a real ball. Without a motion controller, the swing becomes a drag and flick, or a three-press power meter like the golf games of the 1990s. The scoring is real ten-pin scoring, including the tenth frame's bonus balls. The lane is real size (60 feet from the foul line to the head pin, 39 boards wide) and the pins stand 12 inches apart, but the physics is simplified: it is worked out flat, seen from above, and pins that are only nudged wobble and fall by chance. The curve control stands in for the spin a real bowler puts on the ball, and there is no foul line rule. The alley, the bowler and the art are our own.
+
+**Sources**
+
+- [Wii Sports, World Video Game Hall of Fame, The Strong National Museum of Play](https://www.museumofplay.org/games/wii-sports/): Inducted 2023; released 2006 and bundled with Wii consoles outside Japan; motion-sensitive Wii Remote; played with parents and grandparents; senior centres ran Wii bowling leagues; Aetna sponsored a senior bowling championship in 2011; more than 82 million copies.
+- [Pins and Pixels: A Brief History of Home Video Game Bowling, The Strong National Museum of Play](https://www.museumofplay.org/blog/pins-and-pixels-a-brief-history-of-home-video-game-bowling/): First home bowling video game built into the RCA Studio II in 1977 with a top-down square ball and ten pins; Fairchild Channel F, Odyssey2, APF, Atari (1979) and Intellivision (1981) versions; later games used a front-facing lane view and meters for placement, power and spin.
+- [Wii Sports, Wikipedia](https://en.wikipedia.org/wiki/Wii_Sports): Released in North America on 19 November 2006 and in Australia on 7 December 2006; pack-in everywhere except Japan and Korea; produced by Katsuya Eguchi; uses the Wii Remote's accelerometer; Mario characters removed after players preferred Miis; golf and bowling playable with one shared remote; John C. Dvorak's 'stupendous job of coding' and sore wrist.
+- [Ten-pin bowling, Wikipedia](https://en.wikipedia.org/wiki/Ten-pin_bowling): Strike: ten pins plus the next two rolls; spare: ten plus the next roll; bonus rolls in the tenth frame; a perfect game is 300.
+- [Flashback Friday: Hurstville Bowl was 'a first' for Australia when it opened in 1960, Murray Trembath, St George and Sutherland Shire Leader, 2018](https://www.theleader.com.au/story/5144714/flashback-friday-hurstville-bowl-closes-after-27-years/): Hurstville Bowl, the first mechanical tenpin bowling centre in Australia, opened in 1960 with tennis great Neale Fraser bowling the first ball; 20 lanes; closed in 1987.
+
+**Picture:** A boy bowling in Wii Sports at a backyard party, May 2008. Credit: daveynin, 2008. CC BY 2.0, via Wikimedia Commons. Licence: CC BY 2.0. Source: https://commons.wikimedia.org/wiki/File:Kid_playing_Wii_Bowling_20080510.jpg
 
 ## The Touchscreen Years (2010 to 2019)
 
@@ -2837,6 +3034,30 @@ In pairs, students play a round of Skyline against the computer on Easy and keep
 
 **The computing angle:** There are two ways a computer can aim. It can calculate: a throw at speed v and angle a moves v times cos(a) across and v times sin(a) up each second, while gravity g pulls it down; stepping these numbers forward many times a second draws the curve, and wind adds a small push sideways each step. Or it can search: like a person, it remembers its last short and last long throw and tries a value between them, halving the gap each time. This second method is a binary search, the same idea a computer uses to find a word in a sorted list quickly.
 
+### A pet made of numbers
+
+Years 5 and 6, with Pocket Pet.
+
+Play Pocket Pet for a few minutes and list everything the pet needs. Students turn each need into a number from 0 to 4, such as hunger 3 and happiness 2, and write rules on cards: 'Every minute, hunger goes down 1', 'If hunger is 0, health goes down 1', 'Feeding a meal adds 2 to hunger, up to 4'. In groups, one student is the timer, one keeps the numbers on a whiteboard and others act as owners, playing out ten minutes of pet time. Finish with the Then panel on the 1996 Tamagotchi, which could beep for food in the middle of a lesson.
+
+**The computing angle:** A virtual pet is a set of variables (hunger, happiness, cleanliness, health and age) that a program changes over time. A timer loop runs every few seconds and lowers some numbers; buttons raise them; if-then rules connect them, such as 'if hunger is 0, lower health'. The pet's growth stage is a simple state machine: after enough time it moves from egg to baby to child to adult, and the care score decides which adult it becomes. Saving the game means writing all these numbers down so they can be loaded again later.
+
+### Beats per minute
+
+Years 5 to 7, with Dance Mat.
+
+Play one song in Dance Mat as a class and clap along. Students count claps for 15 seconds and multiply by 4 to find the beats per minute (BPM). They then work out the time between beats: 60 seconds divided by the BPM, so 120 BPM gives 0.5 seconds. Make a table for 90, 120 and 150 BPM. Talk about why a Perfect step needs you to be within a small fraction of a second, and try stepping a simple pattern on chalk arrows in the playground. Finish with the Then panel on DDR's dance stage.
+
+**The computing angle:** A rhythm game is a timing machine. Each arrow in a song's chart has a target time, worked out from the beat: the time of beat n is n multiplied by 60 divided by the BPM. When you press a key, the program reads the audio clock, subtracts the target time and looks at how big the difference is. A very small difference is Perfect, a bit larger is Great, then Good, and anything outside the window is a Miss. Using the sound card's clock rather than the screen's timer keeps the arrows and the music in step.
+
+### Logic without guessing
+
+Years 5 to 8, with Minefield.
+
+Play a Beginner board of Minefield. Then give pairs small paper puzzles, a 5 by 5 grid with some numbers already uncovered. Students mark squares that must be mines and squares that must be safe, writing the reason in words, such as 'this 1 touches only one hidden square, so that square is a mine'. Share the two most useful rules the class found. Finish with the Then panel on Minesweeper's journey from OS/2 to Windows 3.1.
+
+**The computing angle:** A solver uses two simple rules again and again. Rule one: if a number equals the count of hidden squares around it, all of them are mines; if a number equals the count of flags already around it, all other hidden neighbours are safe. Rule two compares two numbers that share neighbours: if every hidden square next to one number is also next to another, the difference between the two numbers tells you about the squares only the second one touches. A program can make a 'no guessing' board by generating a board, running the solver from the first click and starting again if the solver gets stuck.
+
 ### Backtracking by hand
 
 Years 5 to 8, with Number Place.
@@ -2860,6 +3081,22 @@ Years 6 to 8, with Cave Copter.
 Play Cave Copter and notice how the craft speeds up as it falls and slows as it climbs. On grid paper, students start a dot at height 10 with speed 0. Each step they add the 'gravity' of -1 to the speed (or +2 while 'holding'), then add the speed to the height, and plot the new height. They act out 12 steps with a partner calling 'hold' or 'let go'. The plotted line curves just like the flight. Finish with the Then panel on the Helicopter Game and Flash.
 
 **The computing angle:** A game loop runs about 60 times a second. Each time, the program updates the craft's vertical speed (add gravity, or add lift while the button is held), then adds the speed to the position, then checks for a collision with the cave. This is called a simulation: small steps repeated quickly look like smooth movement. The cave itself can be made by a random walk: each new slice of roof moves up or down a little from the last one, kept inside limits so there is always a gap to fly through.
+
+### Designing a wave
+
+Years 5 to 8, with Garden Guard.
+
+Play the first two levels of Garden Guard and write down when each pest appears. In small groups, students design their own level on a timeline: which pests come in which lane and at what second, and how much sunshine the player will have. Swap plans with another group and 'play' them on paper. Was it too easy, too hard or fair? Adjust and try again. Finish with the Then panel on George Fan and how he taught his mum to play.
+
+**The computing angle:** A level is data, not just code. The program keeps a list of events in time order, such as 'at 20 seconds, a snail in lane 3', and a timer reads the next event when its time arrives. This list is a queue: first in, first out. Designers make difficulty rise gently by adding pests a few at a time, mixing fast and slow ones and giving the player new defenders just before they are needed. Each pest also follows a rule: keep moving left unless something blocks you, which makes it a very simple state machine.
+
+### Keeping score
+
+Years 5 to 7, with Ten-Pin.
+
+Play a game of Ten-Pin and watch the score sheet. Then hand out a printed sheet of ten frames with the pins knocked down for each ball already written in, including two strikes and a spare. Students work out the total using the rules: a strike scores 10 plus the next two balls, a spare scores 10 plus the next ball. Check answers with the game. Challenge: what is the highest possible score, and why is it 300? Finish with the Then panel on Wii Sports and Hurstville Bowl.
+
+**The computing angle:** Bowling scores need the computer to look ahead. The program keeps a list of every ball's pinfall in order. It walks through the list frame by frame: if the first ball is 10, add 10 plus the next two balls and move on one ball; if two balls make 10, add 10 plus the next ball and move on two; otherwise add the two balls. The tenth frame is a special case with bonus balls. A strike that has not got its next two balls yet shows a blank until they happen.
 
 ### Doubling all the way to 2048
 

@@ -1,0 +1,18 @@
+{
+  "howToPlay": [
+    "Pick a level: Beginner (9 by 9 squares, 10 mines), Intermediate (16 by 16, 40 mines) or Expert (30 by 16, 99 mines; on a phone it turns on its side to 16 by 30).",
+    "Dig any square to start. Your first square is always safe, and it always opens up an area.",
+    "Each number tells you how many mines touch that square: above, below, beside and on the corners.",
+    "Use the numbers to work out where the mines must be. Plant a flag on a square you are sure hides a mine.",
+    "When a number already has all its flags, click or tap it to open every other square around it at once.",
+    "Open every square that is not a mine to win. If you dig up a mine, every mine is shown so you can see where they were hiding.",
+    "Turn on No-guess for boards you can always finish with logic alone. Stuck? Hint shows one square the computer can prove, but adds 10 seconds to your time.",
+    "Try to beat your best time on each level. The miner's face starts a new board."
+  ],
+  "controls": "Click or tap a square to dig. Right click, press and hold, or turn on Flag mode to plant or remove a flag. Click or tap a number to open the rest of its squares when its flags are placed. Keyboard: Tab to the board, arrow keys move the yellow square, Space or Enter digs, F flags, H gives a hint and N starts a new board.",
+  "computer": "The mines are hidden only after your first dig, and never on that square or the eight around it, which is why your first square is always safe. For a no-guess board, the computer makes a board, then tries to solve it itself from your first square using only three rules a careful player uses. Rule 1, one number at a time: if a number already touches as many certain mines as it shows, every other hidden square around it is safe; if its hidden squares are exactly as many as the mines it still needs, they are all mines. Rule 2, the subset rule: compare two numbers close together. If every hidden square around the first one also touches the second one, then the squares only the second one touches must hold the difference between them. If the difference is 0 they are all safe, and if it equals how many squares there are, they are all mines. Rule 3, counting: if no mines are left to find, every hidden square is safe, and if the mines left equal the hidden squares, they are all mines. The solver keeps using the rules until it opens the whole board or gets stuck. If it gets stuck, that board would need a guess, so the computer throws it away and makes another. A Beginner board usually works on the first or second try; an Expert board often takes 20 or more tries, which still takes the computer less than a second. Hint uses the same solver, but only on the numbers you can see.",
+  "players": [
+    "solo"
+  ],
+  "notes": "Plays like Minesweeper in Windows 3.1 (1992): three levels with 10, 40 and 99 mines, number clues, flags, opening the squares round a number in one go, a timer and a face that starts a new game. The name, the window, the little miner face, the LED counters and every picture are our own. Changes for this site: the first dig always opens an area, so a game never starts with a guess; press-and-hold and a Flag mode button stand in for the right mouse button on touch screens; on phones the Expert board turns on its side and a Big squares button makes the squares easier to tap; the timer stops while the tab is hidden; best times are kept separately for classic and no-guess boards; and the optional no-guess boards and the Hint button are additions that show how a computer can solve the puzzle with logic. The question-mark marker from the original is left out to keep the controls simple."
+}

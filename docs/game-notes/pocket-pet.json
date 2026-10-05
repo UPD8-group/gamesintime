@@ -1,0 +1,18 @@
+{
+  "howToPlay": [
+    "Your pet starts as an egg. Wait a few seconds and it hatches into a baby.",
+    "Look after it with the buttons: Feed (a meal fills it up, a snack cheers it up), Play, Clean, Lights, Medicine and Stats.",
+    "The words above the buttons say what your pet wants. When the speech bubble on its screen lights up, it needs you now.",
+    "Meals make messes a little later. Clean them up quickly, or your pet may get ill. If it is ill, give it medicine.",
+    "In Play, guess whether your pet will look left or right. Get 3 of 5 right to make it really happy.",
+    "At 9 at night it goes to bed. Turn the lights off so it sleeps well; the night goes quickly in the dark.",
+    "It grows from baby to child to grown-up. Which of the five grown-ups it becomes depends on how you look after it. Collect them all.",
+    "Time only runs while this page is open. Your pet is saved, so it waits for you, just as you left it. If it is left hungry and ill for too long, it flies home to its own planet and leaves you a new egg."
+  ],
+  "controls": "Tap or click the big buttons beside the pet, or use the handheld's three buttons: A chooses an icon on the screen, B does it and C goes back. Keyboard: A, B and C do the same; in the game, the left and right arrow keys guess. Pet time can be Relaxed, Normal or Speedy, and you can rename your pet and change the shell colour.",
+  "computer": "Your pet is a list of numbers that the computer updates four times a second: how full, happy, clean, rested and healthy it is, how old it is, and the time of day. Each pet hour (10 real seconds on Normal) the numbers change by set amounts. Being awake makes it hungrier and more tired; sleeping with the lights off restores energy fastest; every mess makes it dirtier faster. Health falls while it is ill, starving or dirty, and slowly recovers when it is not. Getting ill is down to chance, but the chance grows when it is dirty or has eaten lots of snacks. The computer also counts care mistakes: a problem, like an empty tummy or lights left on at bedtime, that you leave alone for two pet hours. When the child grows up, a simple rule picks its form: 5 or more care mistakes makes a Drowse; 1 mistake or fewer with at least 3 games won makes a Zing; more snacks than meals makes a Munch; 6 or more games won makes a Bounce; anything else makes a Bloop. The whole list of numbers is saved in your browser every few seconds, which is why time stops when the page is closed.",
+  "players": [
+    "solo"
+  ],
+  "notes": "Plays like Tamagotchi (Bandai, 1996): an egg-shaped handheld with three buttons, a tiny dot screen, an egg that hatches, hunger and happiness hearts, meals and snacks, a left-or-right guessing game, cleaning up messes, lights off at bedtime, medicine, care mistakes that decide what it grows into, and an attention icon. The creatures, their names, the handheld and the screen pictures are all our own. Changes for this site: time runs about 360 times faster than in real life (one pet day is about 4 minutes on Normal) and only while the page is open, with no notifications; there is no discipline button; there are four stages (egg, baby, child, grown-up) instead of the original's extra teenager stage; and a neglected pet never dies. Instead its health runs out and it flies home to its own planet, where its family looks after it, and leaves you a new egg."
+}
