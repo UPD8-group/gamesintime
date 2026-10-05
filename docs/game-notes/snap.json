@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "All 64 cards are dealt face down, so you and each rival have a pile. There are 16 pictures, four of each, like the 1866 Jaques pack.",
+    "Take turns to turn your top card onto your own face-up pile. Tap your pile (or press Enter) when it is your turn.",
+    "Watch every face-up pile. When two top pictures match, hit SNAP (or press Space or S) before your rivals do.",
+    "The first to call Snap wins both matching piles and puts them under their face-down pile.",
+    "Call Snap when nothing matches and you pay a forfeit: one card from your face-down pile to each other player.",
+    "When your face-down pile runs out, your face-up pile is turned over and you carry on. A player with no cards at all is out.",
+    "Gather all 64 cards to win. In a Quick game, whoever has the most cards after 60 turns wins."
+  ],
+  "controls": "Tap your pile to turn a card, and tap the big SNAP button. Keyboard: Enter or T turns your card, and Space or S calls Snap.",
+  "computer": "Each rival watches the piles and calls Snap after its reaction time. Easy takes about a second (900 to 1300 milliseconds), sometimes misses a match, and sometimes calls Snap on two pictures that only look alike, like the parasol and the umbrella. Then it has to pay you a card! Medium takes 600 to 900 milliseconds and rarely misses. Hard takes 350 to 600 milliseconds and never misses, so you need quick eyes.",
+  "players": ["vs computer"],
+  "notes": "Rules follow the usual Victorian way described by the V&A (each player turns cards onto their own separate face-up pile, not one shared pile) and pagat.com (the first to call Snap takes both matching piles and puts them under their face-down pile; when your face-down pile runs out you turn your face-up pile over; with no cards left you are out). The forfeit for a wrong call is one of the two the V&A records for Victorian Snap: you give one card from your face-down pile to each other player (here from the bottom of the pile). The V&A's other forfeit (your face-down pile goes to a central pool) and pagat.com's snap pool are not used. Adapted: the 1866 pack had 64 cards of 'grotesque characters' in 16 sets of four. This pack also has 64 cards in 16 sets of four, but the pictures are new drawings of Victorian things: top hat, teapot, penny-farthing, parasol, clock, kite, sailing ship, oil lamp, bonnet, rocking horse, steam train, umbrella, drum, spinning top, birdcage and button boot. The penny-farthing arrived in the early 1870s, a few years after the 1866 pack, but still within this hall. The Quick game, and a limit of 600 turns on a full game (most cards wins), are additions so a game fits in a lesson."
+}

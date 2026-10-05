@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "Each player has four tokens waiting in a yard. Choose who plays from the Players menu: you against 1, 2 or 3 computers, or 2 to 4 people sharing one device.",
+    "Tap the die (or press R) to throw it.",
+    "You need a six to bring a token out onto your starting square, the one with the arrow. A six also gives you another throw.",
+    "Tap a glowing token to move it that many squares clockwise round the board. If one of your tokens can move, you must move one.",
+    "Land exactly on a rival's token to send it back to its yard. Two of your own tokens may not share a square.",
+    "After a full lap, a token turns up its own coloured home column. It needs the exact number to reach the centre.",
+    "The first player with all four tokens in the centre wins."
+  ],
+  "controls": "Tap the die, or press R or Space, to throw. Tap a glowing token to move it. Keyboard: after a throw, the first glowing token is selected; Tab goes to the next one, Enter moves it, and Escape goes back to the die.",
+  "computer": "The computer does not look ahead. It follows five rules, in order, and uses the first one that fits. 1: If it can land on one of your tokens, it sends it back to its yard, choosing the one that had gone furthest. 2: On a six, it brings a new token out of its yard. 3: If one of its tokens is in danger, because one of yours is 1 to 6 squares behind it, it moves that token somewhere safe. 4: If a token can reach the centre with exactly this throw, it takes it home. 5: Otherwise it moves the token that is furthest behind, but not into danger if a safer move exists.",
+  "players": ["vs computer", "2 to 4 players"],
+  "notes": "Alfred Collier patented Royal Ludo in England in 1891 (patent 14636), and Ludo was on sale by 1896. We could not open an 1890s rule sheet, so the game follows plain English Ludo as described by pachisi.vegard2.net, which draws on David Parlett's Oxford History of Board Games: one die, a token comes out only on a six, a six earns another throw, two tokens of the same colour may not share a square, there are no safe squares and no blocks, and an exact throw is needed to get home. Landing on a rival's token sends it back to its yard. Common modern house rules that are not used: losing your turn after three sixes in a row, two tokens making a block, star-shaped safe squares, extra throws for a capture or for getting a token home, and playing with two dice. Adapted: on a six you may bring a token out or move one already on the board, and you choose your colour against the computer. The colours (red, green, yellow and blue, clockwise from the top left) are drawn from the 1890s hall's palette."
+}

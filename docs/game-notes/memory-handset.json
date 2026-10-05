@@ -1,0 +1,14 @@
+{
+  "howToPlay": [
+    "Press Start. The handset lights up a square and plays its note.",
+    "Watch and listen, then tap the same square.",
+    "Each round the machine plays the whole pattern again with one more square on the end. Repeat it all, in the same order.",
+    "The pattern gets a little faster every round.",
+    "One wrong square ends the run. Your score is the number of rounds you finished.",
+    "Your best score shows on the handset and is saved on this device. Try to beat it."
+  ],
+  "controls": "Tap or click the four coloured squares. Start and Stop are the buttons under the squares. They also work from the keyboard: press Tab to reach them, then Enter or Space.",
+  "computer": "The machine picks each new square at random and adds it to the end of the pattern. It never changes the squares that came before, so the pattern only grows. Each square has its own note, from high to low: ember, teal, olive and plum. In the first round each light stays on for about four tenths of a second. Every round the machine plays a little faster, until round 24, when each light lasts only about a seventh of a second.",
+  "players": ["solo"],
+  "notes": "Ported from the original 1973 arcade source (UPD8-group/1973, src/components/MemoryHandset.jsx) with the same handset, colours, notes, timings and wording. What changed, and why: the caption uses a middle dot instead of a dash ('ember · teal · olive · plum · one wrong square ends the run'). Best scores are kept in this site's storage. The site's status line also shows Press Start, the round and whose turn it is, and Game over with the best score. A run that ends with a new best score sets off the site's celebration (confetti, a fanfare and a toast); it waits until the run is over so it never hides the lights while you are watching. One fix: in the original, two taps less than 180 ms apart that finished a pattern both counted as finishing it, which skipped a round and played two patterns over each other. Now only the tap that finishes the pattern moves on; everything else about tapping is unchanged. As in the original, the squares answer taps and clicks but not keys. The play and stop symbols on the Start and Stop buttons are hidden from screen readers. The section heading is not ported because the page gives the title. On phones the handset can be a few pixels wider than in the original because this site's page margins are narrower."
+}

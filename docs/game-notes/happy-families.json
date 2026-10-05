@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "All 44 cards are dealt out between you and your cousins. Anyone dealt a whole family lays it down straight away.",
+    "On your turn, tap one of your families, then the card you want from it, then the cousin to ask. You can only ask about a family you already hold at least one card of.",
+    "Every question is asked politely: 'Please, Ada, have you got Master Bun?'",
+    "If your cousin has the card, they must hand it over, and you ask again.",
+    "If not, they say it is 'not at home', and it becomes their turn.",
+    "When you hold all four of a family (Mr, Mrs, Master and Miss), it is laid down.",
+    "When every family is home, the player with the most families wins."
+  ],
+  "controls": "Tap or click a family, then a card, then a cousin. Keyboard: Tab to a button and press Enter. The arrow keys move along a row, and Escape goes back a step.",
+  "computer": "Your cousins listen to every question. If Ada asks for Master Bun, she must hold someone from the Bun family. If Albert says 'not at home', he hasn't got that card. When a card is handed over, everyone knows where it went. On Hard a cousin remembers all of this, asks whoever is most likely to have the card, and goes for the families it nearly has. On Medium it remembers most of what it hears. On Easy it forgets about half, only remembers the last few questions, and sometimes just guesses.",
+  "players": ["vs computer"],
+  "notes": "Rules of the Jaques game of 1851 as described by Wikipedia, the V&A and pagat.com: ask for a named card from a family you hold; a player who has it must hand it over and you ask again; otherwise the asked player says 'not at home' (the V&A's wording) and takes the turn; whole families are laid down; most families wins. The eleven families are the original Jaques set, confirmed by Wikipedia and by the card list of the Pepys reissue, with ten of them also named on the V&A's hand-coloured Jaques set of about 1860: Bun the Baker, Grits the Grocer, Bones the Butcher, Dose the Doctor, Block the Barber, Pots the Painter, Bung the Brewer, Tape the Tailor, Chip the Carpenter, Soot the Sweep and Dip the Dyer. Card names follow the original pattern: Mr Bun the Baker, Mrs Bun the Baker's Wife, Master Bun the Baker's Son, Miss Bun the Baker's Daughter. Adapted: the pictures are new drawings, not copies of the original caricatures (usually credited to John Tenniel); you always go first; the please and thank you are said for you in the speech bubbles (pagat.com records a house rule where forgetting them costs the card, which is not used here); a player who runs out of cards sits out and the turn passes to the next player who still has cards."
+}

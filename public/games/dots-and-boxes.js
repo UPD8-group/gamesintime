@@ -13,8 +13,12 @@
 (function () {
   'use strict';
 
-  var SIZES = { small: 3, even: 4, medium: 5, large: 7 };   /* boxes per side; 4 by 4 has an even number of boxes, so it can end in a draw */
+  /* Boxes per side. The keys are only names the game remembers, so they never change; the labels a
+     player sees are in the Board menu (Small, Medium, Big, Huge). 4 by 4 has an even number of boxes,
+     so it is the only board that can end in a draw. */
+  var SIZES = { small: 3, even: 4, medium: 5, large: 7 };
   var THINK_MS = 350;                                /* the computer's pause before it moves */
+  var THINK_AGAIN_MS = 150;                          /* a shorter pause between boxes while the computer eats a chain */
   var HUMAN = 1, COMPUTER = 2;                       /* in two-player mode these are Player 1 and Player 2 */
 
   /* =====================================================================
@@ -248,16 +252,116 @@
   }
 
 
+
   /* =====================================================================
      PART 3: THE SCREEN
+     The game sits on the site's puzzle page (frame: 'paper'): cream paper, dark ink and a navy
+     brand colour, all set by the frame's colour variables.
      ===================================================================== */
-  var MIN_UNIT = 22, MAX_UNIT = 48;   /* how wide one grid track may be, in px */
-  var HIT = 36;                       /* every line button is at least this big, so it is easy to tap */
+  /* The board is a grid of "tracks" (columns and rows), one track for each dot, line or box.
+     A track is MIN_UNIT to MAX_UNIT px wide, chosen to fit the space (see fitBoard). */
+  var MIN_UNIT = 14, MAX_UNIT = 72;
+  var HIT = 36;            /* line buttons are at least this big wherever the board has room */
+  var MIN_HIT = 30;        /* and never smaller than this: the contract's size for board cells that would not otherwise fit */
+  /* On wider screens the board is also kept short enough to sit on screen with the status line above it.
+     These are the parts of the window height that are not board: the site header, the status line, the
+     frame's padding and a little space below (on the page), or the buttons under the frame (classroom mode). */
+  var PAGE_RESERVE = 210, CLASSROOM_RESERVE = 330;
+
+  var CSS =
+    /* Player colours on the puzzle page: Player 1 (You) is the page's navy ink and Player 2 (the
+       Computer) is the page's red. Navy and red differ in brightness (about 1.6 to 1) and sit far apart
+       in hue, so they stay distinct for colour-blind players and on a washed-out projector, and every
+       box also carries its owner's letter. Both take cream letters (10 to 1 and 6 to 1). */
+    '.game-dots-and-boxes { --dab-p1: var(--brand); --dab-p1-ink: var(--on-brand); --dab-p2: var(--red); --dab-p2-ink: var(--surface); }' +
+    /* the board has no side padding, so the grid can use the full width before it needs to scroll */
+    '.game-dots-and-boxes .board { overflow-x: auto; overflow-y: hidden; padding: 6px 0; margin-bottom: .5rem; }' +
+    /* On phones the board also borrows 10px of the page's padding on each side (the frame keeps at least
+       12px there, so nothing reaches the edge that clips it). That is what lets the 7 by 7 board keep
+       36px line buttons at 360px. Only the invisible outer halves of the outer line buttons use it. */
+    '@media (max-width: 480px) { .game-dots-and-boxes .board { max-width: none; margin-inline: -10px; } }' +
+    /* "Board" and its drop-down wrap onto two lines on the narrowest phones, never past the frame. */
+    '.game-dots-and-boxes .field { flex-wrap: wrap; max-width: 100%; }' +
+    '.game-dots-and-boxes .field select { max-width: 100%; min-width: 0; }' +
+    /* --unit is the width of one track, set by fitBoard(). --hit is the size of a line button: two tracks,
+       but never less than MIN_HIT px. --pad is how far a line button pokes out past its own track on each
+       side; the grid has that much padding so the outer line buttons still fit inside the board. */
+    '.game-dots-and-boxes .grid { --unit: 44px; --hit: max(calc(var(--unit) * 2), ' + MIN_HIT + 'px); --pad: calc((var(--hit) - var(--unit)) / 2); display: grid; grid-template-columns: repeat(var(--tracks), var(--unit)); grid-auto-rows: var(--unit); width: max-content; margin: 0 auto; padding: var(--pad); }' +
+    /* dots sit on top of everything, but taps pass straight through them to the line buttons beneath */
+    '.game-dots-and-boxes .dot { position: relative; z-index: 3; pointer-events: none; }' +
+    '.game-dots-and-boxes .dot::before { content: ""; position: absolute; left: 50%; top: 50%; width: max(8px, calc(var(--unit) * .32)); height: max(8px, calc(var(--unit) * .32)); border-radius: 50%; background: var(--ink); transform: translate(-50%, -50%); }' +
+    /* Every line is a button shaped like a diamond (a square turned on its corner). The diamond's four
+       corners are the line's two dots and the middles of the boxes on either side of it, so the diamonds
+       fit together like floor tiles with no gaps and no overlaps: wherever you tap, you get the line
+       that is closest to your finger. Each button is --hit px square, centred on its own track with
+       negative margins, and clip-path cuts it to the diamond. fitBoard() keeps --hit at exactly two
+       tracks on every phone, so the tiles never overlap; only on a screen narrower than any phone would
+       the MIN_HIT floor make them overlap. The visible bar is drawn with ::before. */
+    '.game-dots-and-boxes .line { position: relative; z-index: 1; display: block; width: var(--hit); height: var(--hit); margin: calc(0px - var(--pad)); padding: 0; border: 0; background: transparent; border-radius: 50%; clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); cursor: pointer; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }' +
+    /* An undrawn line is the ink colour at a little over half strength: about 3.7:1 against the paper
+       (--line is too faint to see on a projector), and still clearly lighter than a drawn line. */
+    '.game-dots-and-boxes .line::before { content: ""; position: absolute; border-radius: 999px; background: var(--ink); opacity: .55; pointer-events: none; transition: background-color .12s, opacity .12s, left .12s, right .12s, top .12s, bottom .12s; }' +
+    '.game-dots-and-boxes .line-h::before { top: 50%; height: max(4px, calc(var(--unit) * .18)); left: calc(var(--pad) + var(--unit) * .1); right: calc(var(--pad) + var(--unit) * .1); transform: translateY(-50%); }' +
+    '.game-dots-and-boxes .line-v::before { left: 50%; width: max(4px, calc(var(--unit) * .18)); top: calc(var(--pad) + var(--unit) * .1); bottom: calc(var(--pad) + var(--unit) * .1); transform: translateX(-50%); }' +
+    '.game-dots-and-boxes .line:hover::before, .game-dots-and-boxes .line:focus-visible::before { background: var(--ink-muted); opacity: 1; }' +
+    /* The diamond would cut off a normal focus outline, so the outline is pulled inwards (a negative
+       offset) until it is a circle around the line that fits inside the diamond. */
+    '.game-dots-and-boxes .line:focus-visible { outline: 3px solid var(--focus); outline-offset: calc(var(--unit) * .65 - var(--hit) / 2); z-index: 2; }' +
+    /* A drawn line reaches the centre of each dot; the dots are painted over the top. Taps fall through a
+       drawn line to the grid behind it, which buzzes: that line is already taken. */
+    '.game-dots-and-boxes .line.is-drawn { cursor: default; pointer-events: none; }' +
+    '.game-dots-and-boxes .line.is-drawn::before, .game-dots-and-boxes .line.is-drawn:hover::before { background: var(--ink); opacity: 1; }' +
+    '.game-dots-and-boxes .line-h.is-drawn::before { left: calc(var(--pad) - var(--unit) * .5); right: calc(var(--pad) - var(--unit) * .5); }' +
+    '.game-dots-and-boxes .line-v.is-drawn::before { top: calc(var(--pad) - var(--unit) * .5); bottom: calc(var(--pad) - var(--unit) * .5); }' +
+    /* The newest line is drawn in, like a pencil stroke, in the colour of whoever drew it, with a glow. */
+    '.game-dots-and-boxes .line-h.is-new::before { transform-origin: left center; animation: game-dots-and-boxes-draw-h .22s ease-out; }' +
+    '.game-dots-and-boxes .line-v.is-new::before { transform-origin: center top; animation: game-dots-and-boxes-draw-v .22s ease-out; }' +
+    '@keyframes game-dots-and-boxes-draw-h { from { scale: 0 1; } to { scale: 1 1; } }' +
+    '@keyframes game-dots-and-boxes-draw-v { from { scale: 1 0; } to { scale: 1 1; } }' +
+    '.game-dots-and-boxes .line.is-last::before { box-shadow: 0 0 0 3px var(--brass-bright); }' +
+    '.game-dots-and-boxes .line.is-last.by-p1::before { background: var(--dab-p1); }' +
+    '.game-dots-and-boxes .line.is-last.by-p2::before { background: var(--dab-p2); }' +
+    /* boxes: the box cell is one track wide, so a claimed box grows (negative margins) to fill the whole square
+       between its four dots; it is painted beneath the lines and dots because they are positioned with a z-index */
+    '.game-dots-and-boxes .box { display: flex; align-items: center; justify-content: center; margin: calc(var(--unit) * -.5 + 4px); border-radius: 6px; font-family: var(--font-display); font-size: calc(var(--unit) * .8); line-height: 1; }' +
+    '.game-dots-and-boxes .box.is-p1 { background: var(--dab-p1); color: var(--dab-p1-ink); }' +
+    '.game-dots-and-boxes .box.is-p2 { background: var(--dab-p2); color: var(--dab-p2-ink); }' +
+    /* A claimed box lands like a rubber stamp; at the end the winner's boxes bounce in turn. */
+    '.game-dots-and-boxes .box.is-new { animation: game-dots-and-boxes-stamp .34s cubic-bezier(.3, 1.5, .5, 1); }' +
+    '@keyframes game-dots-and-boxes-stamp { 0% { scale: .3; rotate: -14deg; } 100% { scale: 1; rotate: 0deg; } }' +
+    '.game-dots-and-boxes .box.is-cheer { animation: game-dots-and-boxes-cheer .5s ease-in-out both; }' +
+    '@keyframes game-dots-and-boxes-cheer { 0%, 100% { scale: 1; rotate: 0deg; } 45% { scale: 1.16; rotate: -5deg; } }' +
+    /* scoreboard: the number hops when it goes up */
+    '.game-dots-and-boxes .score { padding: .1rem .35rem; border-radius: 6px; border: 2px solid transparent; }' +
+    '.game-dots-and-boxes .score.is-active { border-color: var(--brass); }' +
+    '.game-dots-and-boxes .score b { display: inline-block; min-width: 1ch; }' +
+    '.game-dots-and-boxes .score b.is-bump { animation: game-dots-and-boxes-bump .32s ease-out; }' +
+    '@keyframes game-dots-and-boxes-bump { 40% { scale: 1.35; } }' +
+    '.game-dots-and-boxes .swatch { display: inline-block; width: 1em; height: 1em; border-radius: 3px; }' +
+    '.game-dots-and-boxes .swatch-p1 { background: var(--dab-p1); }' +
+    '.game-dots-and-boxes .swatch-p2 { background: var(--dab-p2); }' +
+    '.game-dots-and-boxes .lines-left { color: var(--ink-muted); font-weight: 400; }' +
+    '.game-dots-and-boxes .scroll-note { margin: -.25rem 0 .5rem; text-align: center; }' +
+    /* On a phone the settings push the status line far above the board, so a short copy of
+       "whose turn" sits right above the board. Bigger screens do not need it. */
+    '.game-dots-and-boxes .turn-line { display: none; align-items: center; gap: .4rem; margin: 0 0 .4rem; font-weight: 700; }' +
+    '@media (max-width: 600px) {' +
+      '.game-dots-and-boxes .turn-line { display: flex; }' +
+      /* a tighter toolbar, so more of it fits on each row */
+      '.game-dots-and-boxes .game-toolbar { gap: .45rem .5rem; margin-bottom: .75rem; }' +
+      '.game-dots-and-boxes .game-toolbar .seg button { padding: .4rem .5rem; font-size: .95rem; line-height: 1.3; }' +
+      '.game-dots-and-boxes .scoreboard { gap: .35rem .9rem; margin-bottom: .5rem; }' +
+    '}' +
+    /* Classroom mode on a projector: a bigger score, and the notes give their room to the board. */
+    '.classroom .game-dots-and-boxes .scoreboard { font-size: 1.45rem; justify-content: center; }' +
+    '.classroom .game-dots-and-boxes .game-note:not(.scroll-note) { display: none; }';
 
   GamesInTime.register({
     id: 'dots-and-boxes',
+    frame: 'paper',
     mount: function (root, api) {
       var h = api.h;
+      var RM = !!api.reducedMotion;
 
       /* ---- settings, remembered for next time ---- */
       var sizeKey = api.store.get('size', 'small');
@@ -271,73 +375,43 @@
       var current = HUMAN;       /* whose turn it is: 1 or 2 */
       var over = false;
       var lastLine = -1;         /* the most recent line, highlighted so a kid can see what happened */
-      var timer = null;          /* the computer's thinking timer */
       var generation = 0;        /* goes up on every New game, so an old timer can be ignored */
       var lineButtons = [];      /* every line <button>, in board order */
       var buttonById = {};       /* line id -> its button */
       var boxEls = [];           /* every box element, by box id */
 
-      root.appendChild(h('style', null,
-        /* Player colours. In light mode Player 1 is the site's teal. In dark mode that teal is nearly
-           the same shade as the panel behind it, so Player 1 switches to the light teal (--link)
-           with dark numerals, which stands out and still looks nothing like Player 2's red. */
-        '.game-dots-and-boxes { --dab-p1: var(--brand); --dab-p1-ink: var(--on-brand); }' +
-        ':root[data-theme="dark"] .game-dots-and-boxes { --dab-p1: var(--link); --dab-p1-ink: var(--bg); }' +
-        '@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .game-dots-and-boxes { --dab-p1: var(--link); --dab-p1-ink: var(--bg); } }' +
-        /* the board has no side padding, so the grid can use the full width before it needs to scroll */
-        '.game-dots-and-boxes .board { overflow-x: auto; overflow-y: hidden; padding: 6px 0; margin-bottom: .5rem; }' +
-        '.game-dots-and-boxes .grid { --unit: 44px; --hit: max(var(--unit), ' + HIT + 'px); --pad: calc((var(--hit) - var(--unit)) / 2); display: grid; grid-template-columns: repeat(var(--tracks), var(--unit)); grid-auto-rows: var(--unit); width: max-content; margin: 0 auto; padding: var(--pad); }' +
-        /* dots sit on top of everything, but taps pass straight through them to the line buttons beneath */
-        '.game-dots-and-boxes .dot { position: relative; z-index: 3; pointer-events: none; }' +
-        '.game-dots-and-boxes .dot::before { content: ""; position: absolute; left: 50%; top: 50%; width: max(8px, calc(var(--unit) * .32)); height: max(8px, calc(var(--unit) * .32)); border-radius: 50%; background: var(--ink); transform: translate(-50%, -50%); }' +
-        /* Every line is a button. On a small screen the grid tracks can shrink below the tap size, so the
-           button is always at least HIT px square and is centred on its track with negative margins.
-           --pad (set on the grid) is how far it pokes out past the track on each side: zero on a big screen.
-           The visible bar is drawn with ::before, inside the track. */
-        '.game-dots-and-boxes .line { position: relative; z-index: 1; display: block; width: var(--hit); height: var(--hit); margin: calc(0px - var(--pad)); padding: 0; border: 0; background: transparent; border-radius: 8px; cursor: pointer; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }' +
-        '.game-dots-and-boxes .line::before { content: ""; position: absolute; border-radius: 999px; background: var(--line); pointer-events: none; transition: background-color .12s, left .12s, right .12s, top .12s, bottom .12s; }' +
-        '.game-dots-and-boxes .line-h::before { top: 50%; height: max(4px, calc(var(--unit) * .18)); left: calc(var(--pad) + var(--unit) * .1); right: calc(var(--pad) + var(--unit) * .1); transform: translateY(-50%); }' +
-        '.game-dots-and-boxes .line-v::before { left: 50%; width: max(4px, calc(var(--unit) * .18)); top: calc(var(--pad) + var(--unit) * .1); bottom: calc(var(--pad) + var(--unit) * .1); transform: translateX(-50%); }' +
-        '.game-dots-and-boxes .line:hover::before, .game-dots-and-boxes .line:focus-visible::before { background: var(--ink-muted); }' +
-        '.game-dots-and-boxes .line:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; z-index: 2; }' +
-        /* a drawn line reaches the centre of each dot; the dots are painted over the top */
-        '.game-dots-and-boxes .line.is-drawn { cursor: default; }' +
-        '.game-dots-and-boxes .line.is-drawn::before, .game-dots-and-boxes .line.is-drawn:hover::before { background: var(--ink); }' +
-        '.game-dots-and-boxes .line-h.is-drawn::before { left: calc(var(--pad) - var(--unit) * .5); right: calc(var(--pad) - var(--unit) * .5); }' +
-        '.game-dots-and-boxes .line-v.is-drawn::before { top: calc(var(--pad) - var(--unit) * .5); bottom: calc(var(--pad) - var(--unit) * .5); }' +
-        '.game-dots-and-boxes .line.is-last::before { box-shadow: 0 0 0 3px var(--brass-bright); }' +
-        /* boxes: the box cell is one track wide, so a claimed box grows (negative margins) to fill the whole square
-           between its four dots; it is painted beneath the lines and dots because they are positioned with a z-index */
-        '.game-dots-and-boxes .box { display: flex; align-items: center; justify-content: center; margin: calc(var(--unit) * -.5 + 4px); border-radius: 6px; font-family: var(--font-display); font-size: calc(var(--unit) * .8); line-height: 1; }' +
-        '.game-dots-and-boxes .box.is-p1 { background: var(--dab-p1); color: var(--dab-p1-ink); }' +
-        '.game-dots-and-boxes .box.is-p2 { background: var(--red); color: var(--surface); }' +
-        '.game-dots-and-boxes .box.is-new { animation: game-dots-and-boxes-pop .3s ease-out; }' +
-        '@keyframes game-dots-and-boxes-pop { from { transform: scale(.4); } to { transform: scale(1); } }' +
-        /* scoreboard */
-        '.game-dots-and-boxes .score { padding: .1rem .35rem; border-radius: 6px; border: 2px solid transparent; }' +
-        '.game-dots-and-boxes .score.is-active { border-color: var(--brass); }' +
-        '.game-dots-and-boxes .swatch { display: inline-block; width: 1em; height: 1em; border-radius: 3px; }' +
-        '.game-dots-and-boxes .swatch-p1 { background: var(--dab-p1); }' +
-        '.game-dots-and-boxes .swatch-p2 { background: var(--red); }' +
-        '.game-dots-and-boxes .lines-left { color: var(--ink-muted); font-weight: 400; }' +
-        '.game-dots-and-boxes .scroll-note { margin: -.25rem 0 .5rem; text-align: center; }'));
+      /* ---- timers: every pending timeout is kept, so New game and destroy() can cancel them ---- */
+      var timers = [], destroyed = false;
+      function later(fn, ms) {
+        var id = setTimeout(function () {
+          var k = timers.indexOf(id);
+          if (k >= 0) timers.splice(k, 1);
+          if (!destroyed) fn();
+        }, ms);
+        timers.push(id);
+        return id;
+      }
+      function clearTimers() { for (var i = 0; i < timers.length; i++) clearTimeout(timers[i]); timers = []; }
+
+      root.appendChild(h('style', null, CSS));
 
       /* ---- toolbar ---- */
-      var modeComputer = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { setMode('computer'); } }, 'Play the computer');
-      var modeTwo = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { setMode('two'); } }, 'Two players');
-      var levelEasy = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { setLevel('easy'); } }, 'Easy');
-      var levelHard = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { setLevel('hard'); } }, 'Hard');
+      var modeComputer = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { api.sound('click'); setMode('computer'); } }, 'Play the computer');
+      var modeTwo = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { api.sound('click'); setMode('two'); } }, 'Two players');
+      var levelEasy = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { api.sound('click'); setLevel('easy'); } }, 'Easy');
+      var levelHard = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { api.sound('click'); setLevel('hard'); } }, 'Hard');
       var levelSeg = h('div', { class: 'seg', role: 'group', 'aria-label': 'Difficulty' }, levelEasy, levelHard);
-      var startYou = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { setStarter('you'); } }, 'You first');
-      var startComputer = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { setStarter('computer'); } }, 'Computer first');
+      var startYou = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { api.sound('click'); setStarter('you'); } }, 'You first');
+      var startComputer = h('button', { type: 'button', 'aria-pressed': 'false', onclick: function () { api.sound('click'); setStarter('computer'); } }, 'Computer first');
       var starterSeg = h('div', { class: 'seg', role: 'group', 'aria-label': 'Who starts' }, startYou, startComputer);
-      /* The 4 by 4 board is the only one with an even number of boxes, so it is the only one where a draw can happen. */
-      var sizeSelect = h('select', { id: 'dab-size', onchange: function () { setSize(sizeSelect.value); } },
+      /* The option values are the SIZES keys from the top of the file; the words are what a player sees. */
+      var sizeSelect = h('select', { id: 'dab-size', onchange: function () { api.sound('click'); setSize(sizeSelect.value); } },
         h('option', { value: 'small' }, 'Small, 3 by 3'),
-        h('option', { value: 'even' }, 'Even, 4 by 4'),
-        h('option', { value: 'medium' }, 'Medium, 5 by 5'),
-        h('option', { value: 'large' }, 'Large, 7 by 7'));
-      var newGameBtn = h('button', { class: 'btn btn-primary', type: 'button', onclick: newGame }, 'New game');
+        h('option', { value: 'even' }, 'Medium, 4 by 4'),
+        h('option', { value: 'medium' }, 'Big, 5 by 5'),
+        h('option', { value: 'large' }, 'Huge, 7 by 7'));
+      /* New game turns over to a fresh sheet of paper. */
+      var newGameBtn = h('button', { class: 'btn btn-primary', type: 'button', onclick: function () { api.sound('flip'); newGame(); } }, 'New game');
       var toolbar = h('div', { class: 'game-toolbar' },
         h('div', { class: 'seg', role: 'group', 'aria-label': 'Who plays' }, modeComputer, modeTwo),
         levelSeg,
@@ -352,23 +426,32 @@
       var scoreP2 = h('span', { class: 'score score-p2' }, h('i', { class: 'swatch swatch-p2', 'aria-hidden': 'true' }), name2, score2);
       var linesLeft = h('span', { class: 'lines-left' }, '');
       var scoreboard = h('div', { class: 'scoreboard', role: 'group', 'aria-label': 'Boxes won' }, scoreP1, scoreP2, linesLeft);
+      /* the short "whose turn" line for phones; hidden from screen readers, which already hear the status line */
+      var turnSwatch = h('i', { class: 'swatch' });
+      var turnWords = h('span', null, '');
+      var turnLine = h('p', { class: 'turn-line', 'aria-hidden': 'true' }, turnSwatch, turnWords);
 
       /* ---- board ---- */
-      var grid = h('div', { class: 'grid', role: 'group', onkeydown: onGridKey });
+      var grid = h('div', { class: 'grid', role: 'group', onkeydown: onGridKey, onclick: onGridClick });
       var board = h('div', { class: 'board' }, grid);
-      /* shown only when the board is wider than the screen, which can happen with the big boards on a phone */
+      /* shown only when the board is wider than the screen, which can only happen on a screen narrower than any phone */
       var scrollNote = h('p', { class: 'game-note scroll-note', hidden: true }, 'Scroll sideways to see the whole board.');
 
       root.appendChild(toolbar);
       root.appendChild(scoreboard);
+      root.appendChild(turnLine);
       root.appendChild(board);
       root.appendChild(scrollNote);
-      root.appendChild(h('p', { class: 'game-note' }, 'Close a box and you go again. Tip: try not to draw the third side of a box, because that hands it to the other player. The 4 by 4 board is the only one where a draw is possible.'));
+      root.appendChild(h('p', { class: 'game-note' }, 'Close a box and you go again. Tip: try not to draw the third side of a box, because that hands it to the other player. The Medium board, 4 by 4, is the only one where a draw is possible.'));
       root.appendChild(h('p', { class: 'game-note' }, 'Keyboard: the arrow keys move along the lines, Shift with an arrow key turns a corner, Tab visits every line, and Enter draws.'));
 
       /* ---- names and words ---- */
       function nameOf(p) { return mode === 'computer' ? (p === HUMAN ? 'You' : 'Computer') : 'Player ' + p; }
       function initialOf(p) { return mode === 'computer' ? (p === HUMAN ? 'Y' : 'C') : String(p); }
+      function shortTurnText() {
+        if (mode === 'computer') return current === HUMAN ? 'Your turn' : "Computer's turn";
+        return 'Player ' + current + "'s turn";
+      }
       function turnText() {
         if (mode === 'computer') return current === HUMAN ? 'Your turn' : 'Computer is thinking';
         return 'Player ' + current + "'s turn";
@@ -380,10 +463,11 @@
       }
       function resultText() {
         var a = state.score[1], b = state.score[2];
-        if (a === b) return "It's a draw, " + a + ' boxes each';
-        var winner = a > b ? 1 : 2, hi = Math.max(a, b), lo = Math.min(a, b);
-        var who = mode === 'computer' ? (winner === HUMAN ? 'You win' : 'Computer wins') : 'Player ' + winner + ' wins';
-        return who + ', ' + hi + ' boxes to ' + lo;
+        if (a === b) return "It's a draw, " + a + ' boxes each. Well matched!';
+        var winner = a > b ? 1 : 2, score = Math.max(a, b) + ' boxes to ' + Math.min(a, b);
+        if (mode !== 'computer') return 'Player ' + winner + ' wins, ' + score + '. Well played!';
+        if (winner === HUMAN) return 'You win, ' + score + '! You beat the computer.';
+        return 'Computer wins, ' + score + '. Good game! Have another go, and try not to draw the third side of a box.';
       }
       function dotName(d) { return 'dot row ' + (d[0] + 1) + ' column ' + (d[1] + 1); }
       function lineLabel(id) {
@@ -423,24 +507,39 @@
       }
 
       /* ---- sizing: fit the board to the space available ----
-         Each track is MIN_UNIT to MAX_UNIT px. The line buttons stay at least HIT px even when the
-         tracks are smaller (see the CSS), so a 5 by 5 board fits a phone without sideways scrolling.
-         A 7 by 7 board on a narrow phone still will not fit, so then the scroll note is shown. */
+         Each track is MIN_UNIT to MAX_UNIT px. The whole grid is (tracks - 1) tracks plus one line button
+         wide, because the outer line buttons poke out past the outer dots by half a button. While a button
+         is two tracks wide that is (tracks + 1) tracks, and the diamonds tile with no overlap. That holds on
+         every phone: at 360px the 7 by 7 board has 18px tracks and 36px buttons, and at 320px it has 16px
+         tracks and 32px buttons (the contract allows board cells down to 30px when a board would not
+         otherwise fit). Only below MIN_HIT does a button stay MIN_HIT px and overlap its neighbours.
+         On wider screens, where the copy of the status line beside the board is hidden, the track size is
+         also capped by the window height, so the status line, the controls and the whole board fit on
+         screen together (but never below HIT / 2, so the buttons stay 36px). In classroom mode the cap uses
+         the whole projector screen. If the board is ever wider than the space, the scroll note is shown and
+         the board starts scrolled to the middle. */
       function fitBoard() {
         if (!state) return;
         var tracks = 2 * state.n + 1;
-        var avail = root.clientWidth || 320;
-        var unit = Math.floor(avail / tracks);
-        /* below HIT px the end buttons poke out past the grid by (HIT - unit) / 2 on each side,
-           so the whole board is unit * (tracks - 1) + HIT wide: solve that for unit instead */
-        if (unit < HIT) unit = Math.floor((avail - HIT) / (tracks - 1));
+        var avail = board.clientWidth || root.clientWidth || 320;
+        var unit = Math.floor(avail / (tracks + 1));
+        if (unit * 2 < MIN_HIT) unit = Math.floor((avail - MIN_HIT) / (tracks - 1));
+        if ((window.innerWidth || 0) > 600 && window.innerHeight) {
+          var classroom = document.documentElement.classList.contains('classroom');
+          var above = board.getBoundingClientRect().top - root.getBoundingClientRect().top;
+          var byHeight = Math.floor((window.innerHeight - (classroom ? CLASSROOM_RESERVE : PAGE_RESERVE) - above) / (tracks + 1));
+          unit = Math.min(unit, Math.max(byHeight, HIT / 2));
+        }
         unit = Math.max(MIN_UNIT, Math.min(MAX_UNIT, unit));
         grid.style.setProperty('--unit', unit + 'px');
-        scrollNote.hidden = board.scrollWidth <= board.clientWidth;
+        var spare = board.scrollWidth - board.clientWidth;
+        scrollNote.hidden = spare <= 0;
+        if (spare > 0) board.scrollLeft = spare / 2;
       }
       var observer = null;
       if (typeof ResizeObserver === 'function') { observer = new ResizeObserver(fitBoard); observer.observe(root); }
-      else window.addEventListener('resize', fitBoard);
+      /* The window's height matters too (and the observer does not see it change), so listen for resizes. */
+      window.addEventListener('resize', fitBoard);
 
       /* ---- building the board ----
          The grid has (2n + 1) by (2n + 1) cells. Even row and even column: a dot. Even row, odd column:
@@ -472,7 +571,7 @@
       }
       function makeLine(id, kindClass, i, j) {
         var btn = h('button', { type: 'button', class: 'line ' + kindClass, 'data-id': String(id), 'data-row': String(i), 'data-col': String(j), 'aria-label': lineLabel(id) });
-        btn.addEventListener('click', function () { humanPlays(id, btn); });
+        btn.addEventListener('click', function () { humanPlays(id); });
         lineButtons.push(btn);
         buttonById[id] = btn;
         return btn;
@@ -505,7 +604,8 @@
       function renderLine(id) {
         var btn = buttonById[id];
         keepFocusOff(btn);
-        btn.classList.add('is-drawn');
+        btn.classList.add('is-drawn', 'by-p' + current);
+        if (!RM) btn.classList.add('is-new');
         btn.disabled = true;
         btn.setAttribute('aria-label', lineLabel(id));
         if (lastLine >= 0) buttonById[lastLine].classList.remove('is-last');
@@ -517,24 +617,36 @@
           var b = ids[i], p = state.owner[b], el = boxEls[b];
           if (!p || el.classList.contains('is-p' + p)) continue;
           el.classList.add('is-p' + p);
-          if (!api.reducedMotion) el.classList.add('is-new');
+          if (!RM) el.classList.add('is-new');
           el.textContent = initialOf(p);
         }
+      }
+      /* Replays a short CSS animation: the class comes off, the browser lays the page out (reading
+         offsetWidth forces that), and the class goes back on. */
+      function bump(el) {
+        if (RM) return;
+        el.classList.remove('is-bump');
+        void el.offsetWidth;
+        el.classList.add('is-bump');
       }
       function renderScore() {
         name1.textContent = nameOf(1) + ': ';
         name2.textContent = nameOf(2) + ': ';
-        score1.textContent = String(state.score[1]);
-        score2.textContent = String(state.score[2]);
+        if (score1.textContent !== String(state.score[1])) { score1.textContent = String(state.score[1]); if (state.score[1]) bump(score1); }
+        if (score2.textContent !== String(state.score[2])) { score2.textContent = String(state.score[2]); if (state.score[2]) bump(score2); }
         scoreP1.classList.toggle('is-active', !over && current === 1);
         scoreP2.classList.toggle('is-active', !over && current === 2);
         linesLeft.textContent = state.left === 1 ? '1 line left' : state.left + ' lines left';
+        /* the phone turn line: a colour square for the player whose turn it is, then the words */
+        turnSwatch.className = 'swatch swatch-p' + current;
+        turnSwatch.hidden = over;
+        turnWords.textContent = over ? resultText() : shortTurnText();
       }
 
       /* ---- playing ---- */
       function newGame() {
         generation++;
-        if (timer) { clearTimeout(timer); timer = null; }
+        clearTimers();
         state = newState(SIZES[sizeKey]);
         /* Player 1 always starts a two-player game; against the computer the player chooses who starts */
         current = (mode === 'computer' && starter === 'computer') ? COMPUTER : HUMAN;
@@ -546,11 +658,14 @@
         if (mode === 'computer' && current === COMPUTER) scheduleComputer();
       }
 
-      /* Apply one move to the real board. Returns how many boxes it closed. */
+      /* Apply one move to the real board. Returns how many boxes it closed. The pencil scratches, and
+         each box it closes gives a pop. */
       function applyMove(id) {
         var closed = drawLine(state, id, current);
         renderLine(id);
         renderBoxes(boxesOfLine(state, id));
+        api.sound('chalk');
+        for (var k = 0; k < closed; k++) later(function () { api.sound('pop'); }, (RM ? 0 : 120) + k * 110);
         return closed;
       }
 
@@ -559,8 +674,8 @@
         if (state.left === 0) {
           over = true;
           renderScore();
-          api.status(resultText());
-          api.announce(resultText());
+          api.status(resultText());   /* the status line is read out by screen readers, so no extra announcement */
+          endOfGame();
           return;
         }
         if (closed) {
@@ -570,21 +685,53 @@
           api.status(turnText());
         }
         renderScore();
-        if (mode === 'computer' && current === COMPUTER) scheduleComputer();
+        /* If the computer has just closed a box it goes again, and only needs a short pause,
+           so eating a long chain does not keep the player waiting for ages. */
+        if (mode === 'computer' && current === COMPUTER) scheduleComputer(closed > 0);
+      }
+
+      /* A win gets the site's celebration (confetti, a fanfare, a toast and a star on the ticket), and the
+         winner's boxes bounce in turn. A loss to the computer gets a gentle "lose" tune and a kind word on
+         the status line; a draw rings the bell. */
+      function endOfGame() {
+        var a = state.score[1], b = state.score[2];
+        if (a === b) { api.sound('bell'); return; }
+        var winner = a > b ? 1 : 2, score = Math.max(a, b) + ' boxes to ' + Math.min(a, b);
+        if (mode === 'computer' && winner === COMPUTER) api.sound('lose');
+        else api.celebrate(mode === 'computer' ? 'You beat the computer, ' + score + '!' : 'Player ' + winner + ' wins, ' + score + '!');
+        if (RM) return;
+        for (var k = 0, n = 0; k < boxEls.length; k++) {
+          if (state.owner[k] !== winner) continue;
+          boxEls[k].classList.remove('is-new');
+          boxEls[k].style.animationDelay = (250 + n * 60) + 'ms';
+          boxEls[k].classList.add('is-cheer');
+          n++;
+        }
       }
 
       function humanPlays(id) {
         if (over || state.drawn[id]) return;
-        if (mode === 'computer' && current === COMPUTER) return;   /* wait for the computer */
+        if (mode === 'computer' && current === COMPUTER) { api.sound('wrong'); return; }   /* wait for the computer */
         var closed = applyMove(id);
         afterMove(closed);
       }
 
-      function scheduleComputer() {
+      /* A tap that misses every line that can still be drawn lands on a drawn line (drawn lines let taps
+         fall through to the grid) or on a claimed box. That is not a move, so it just buzzes. Taps in the
+         grid's outer padding, beyond the dots, are ignored. */
+      function onGridClick(ev) {
+        var t = ev.target;
+        if (over || !t || !t.closest || t.closest('.line')) return;
+        var r = grid.getBoundingClientRect(), pad = parseFloat(getComputedStyle(grid).paddingLeft) || 0;
+        if (ev.clientX < r.left + pad || ev.clientX > r.right - pad || ev.clientY < r.top + pad || ev.clientY > r.bottom - pad) return;
+        api.sound('wrong');
+      }
+
+      /* goAgain is true when the computer has just closed a box and is moving again in the same turn */
+      function scheduleComputer(goAgain) {
         var gen = generation;
-        var wait = api.reducedMotion ? 0 : THINK_MS;
-        timer = setTimeout(function () {
-          timer = null;
+        var wait = RM ? 0 : (goAgain ? THINK_AGAIN_MS : THINK_MS);
+        later(function () {
           if (gen !== generation || over) return;   /* a new game started while we were thinking */
           computerPlays();
         }, wait);
@@ -593,7 +740,8 @@
         var id = level === 'hard' ? hardMove(state, api.random) : easyMove(state, api.random);
         var L = lineInfo(state, id);
         var closed = applyMove(id);
-        api.announce('Computer drew the line between ' + dotName(L.from) + ' and ' + dotName(L.to) + (closed ? ' and closed a box' : ''));
+        var boxWords = closed === 2 ? ' and closed two boxes' : closed === 1 ? ' and closed a box' : '';
+        api.announce('Computer drew the line between ' + dotName(L.from) + ' and ' + dotName(L.to) + boxWords);
         afterMove(closed);
       }
 
@@ -644,10 +792,11 @@
 
       return {
         destroy: function () {
+          destroyed = true;
           generation++;
-          if (timer) { clearTimeout(timer); timer = null; }
+          clearTimers();
           if (observer) observer.disconnect();
-          else window.removeEventListener('resize', fitBoard);
+          window.removeEventListener('resize', fitBoard);
         }
       };
     }

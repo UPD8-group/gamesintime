@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "Dark moves first. As in 1883, the board starts empty: the first four discs go in the four centre squares, one at a time, in any order you like.",
+    "After that, every new disc must trap at least one of your opponent's discs in a straight line (across, up and down, or diagonally) between it and one of your own discs.",
+    "Every trapped disc flips over to your colour. One disc can trap lines in several directions at once.",
+    "The gold dots show where you can play. Untick Show legal moves to hide them for a harder game.",
+    "If you cannot make a legal move, you pass and your opponent goes again.",
+    "The game ends when the board is full or neither player can move. The player with more discs wins.",
+    "Play the computer (choose Easy or Hard, and Dark or Light), or two players on one device."
+  ],
+  "controls": "Tap or click a square to put a disc there. Keyboard: press Tab to reach the board, use the arrow keys to move around it (Home and End jump to the ends of a row), and press Enter or Space to play. Show legal moves turns the gold dots on and off.",
+  "computer": "In the opening both levels put their discs in the empty centre squares, as the rules say. After that, Easy picks any legal move at random. Hard gives every legal move a score. Corners are worth the most, because a disc in a corner can never be flipped. Edges are good, and the squares next to an empty corner are risky, because they can hand that corner to you. Every disc the move flips adds two points, and every move it would leave you takes three away. Then Hard looks one move ahead: it works out your best reply to each move and takes that off the score too. Near the end, when eight or fewer squares are empty, it simply plays the move that flips the most discs. The computer waits about a third of a second before it moves, so you can see what happened, and if you have no legal move it says so and moves again.",
+  "players": ["vs computer", "2 players"],
+  "notes": "These are the 1883 rules, not modern Othello: the board starts empty and the first four discs are placed in the four centre squares, one at a time and in any arrangement, instead of starting with four discs already set out in a fixed pattern. A player with no legal move passes, and the game ends when neither player can move. As on a real board, each disc has a dark side and a light side, and a flip turns it over. Online, the legal moves can be shown as gold dots, a help a wooden board could not give, and the computer opponent has two levels."
+}

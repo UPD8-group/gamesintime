@@ -1,0 +1,13 @@
+{
+  "howToPlay": [
+    "Play the computer, or a friend on the same device. X always goes first.",
+    "Take turns to put your mark in an empty square.",
+    "Get three of your marks in a row, a column or a diagonal to win. A gold line shows the winning three.",
+    "If all nine squares fill up with no line, the game is a draw.",
+    "Against the computer, pick Easy or Hard, and choose to be X (you go first) or O (you go second)."
+  ],
+  "controls": "Tap or click a square. Keyboard: Tab to the board, move with the arrow keys, and press Enter or Space to play. New game wipes the slate clean. Reset score clears the tally for the mode you are playing.",
+  "computer": "On Easy the computer puts its mark in any empty square at random, so you can beat it. On Hard it imagines every way the rest of the game could go (a method called minimax) and picks a move that can never lose. If two moves are just as good, it chooses one of them at random, so its games are not always the same. Nobody can beat Hard: the best you can do is a draw. The computer waits about a third of a second before each move, so you can see where it played.",
+  "players": ["vs computer", "2 players"],
+  "notes": "These are the same three-in-a-row rules children played with chalk on slates and with pencil and paper in the 1800s, so the grid and the marks are drawn in chalk on a slate. The online version adds a computer opponent with two levels (random moves, and perfect play) and keeps two separate scores: one for games against the computer and one for games between two people. We use the British and Australian name, noughts and crosses, rather than the American tic-tac-toe."
+}

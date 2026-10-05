@@ -22,12 +22,16 @@ async function check(name, path, width, fn) {
 
 const C = await loadContent();
 const playable = C.games.filter(g => g.playable).map(g => g.id);
-const eraIds = C.eras.filter(e => !e.gap && !e.external).map(e => e.id);
+const eraIds = C.eras.filter(e => !e.external).map(e => e.id);
 
 for (const width of [1280, 360]) {
   await check('home', '#/', width, async (page, problems) => {
-    const tickets = await page.locator('.ticket').count();
-    if (tickets < 5) problems.push('expected era tickets, got ' + tickets);
+    const halls = await page.locator('.era-tile').count();
+    if (halls !== C.eras.length) problems.push(`expected ${C.eras.length} hall tiles, got ${halls}`);
+    const cards = await page.locator('#games .gcard').count();
+    if (cards !== C.games.length) problems.push(`expected ${C.games.length} game cards, got ${cards}`);
+    const links = await page.$$eval('a[href*="1973.ai"]', a => a.length);
+    if (links) problems.push('page links to 1973.ai');
   });
   for (const id of eraIds) await check('era ' + id, '#/era/' + id, width);
   for (const id of playable) await check('game ' + id, '#/game/' + id, width, async (page, problems) => {
@@ -45,12 +49,18 @@ for (const width of [1280, 360]) {
     });
     if (small.length) problems.push('small touch targets: ' + small.join('; '));
   });
-  for (const [name, path] of [['all', '#/all'], ['real-life', '#/real-life'], ['teachers', '#/teachers'], ['about', '#/about'], ['print dots', '#/print/dots'], ['print hundred', '#/print/hundred'], ['not found', '#/nope']]) await check(name, path, width);
+  for (const [name, path] of [['all', '#/all'], ['teachers', '#/teachers'], ['about', '#/about'], ['print dots', '#/print/dots'], ['print hundred', '#/print/hundred'], ['not found', '#/nope']]) await check(name, path, width);
 }
-await check('theme toggle', '#/', 1280, async (page, problems) => {
-  await page.click('#theme-toggle');
-  const t = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
-  if (!t) problems.push('theme toggle did not set data-theme');
+await check('sound switch', '#/', 1280, async (page, problems) => {
+  const btn = page.locator('.site-header button[aria-label="Sound"]');
+  const before = await btn.getAttribute('aria-pressed');
+  await btn.click();
+  const after = await btn.getAttribute('aria-pressed');
+  if (before === after) problems.push('sound switch did not toggle');
+});
+await check('era colours', '#/era/1980s', 1280, async (page, problems) => {
+  const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
+  if (bg !== 'rgb(10, 6, 22)') problems.push('1980s hall is not wearing its neon ground: ' + bg);
 });
 await browser.close();
 server.close();

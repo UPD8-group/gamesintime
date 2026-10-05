@@ -2,7 +2,7 @@
   "name": "gamesintime",
   "version": "0.1.0",
   "private": true,
-  "description": "Games in Time: play the games kids played a hundred years and more ago, and learn who played them.",
+  "description": "Games in Time: play the games kids played, from candlelight to neon, and learn who played them.",
   "scripts": {
     "start": "python3 -m http.server 3000 --directory public",
     "build": "node scripts/build.mjs",

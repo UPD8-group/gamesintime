@@ -1,0 +1,16 @@
+{
+  "howToPlay": [
+    "Your fleet starts in a random spot on your grid: a battleship of 5 squares, a cruiser of 4, a destroyer of 3 and a submarine of 2. To move a ship, tap it, then tap where its front should go. Rotate turns it. Ships go across or down and may not overlap.",
+    "Press Start battle, then tap a square on the enemy's grid to fire at it. Red crosses are hits and dots are misses.",
+    "When you hit, you are told which ship you hit. When every square of a ship has been hit, it is sunk.",
+    "The computer fires back at your grid after each turn.",
+    "In Salvo, the 1931 rule, you fire one shot for every ship you still have afloat, so every ship you lose costs you a shot.",
+    "Sink all four enemy ships before the computer sinks yours."
+  ],
+  "controls": "Tap or click a square to fire. Keyboard: arrows move the target and Enter fires. When placing: arrows move, Enter picks up or puts down a ship, and R rotates it. On a phone, Show my fleet big swaps the sizes of the two grids.",
+  "computer": "Easy fires at random. Hard plays like a careful player with a pencil, and it never peeks at your fleet. For every square still unknown it counts how many ways your remaining ships could lie across it, and fires where that count is highest. While hunting it only fires at the black squares of a checkerboard, because every ship is at least two squares long and so must cover one of them. Once it hits a ship it only tries squares where that ship could still be, so after two hits in a row it follows the line until the ship sinks.",
+  "players": [
+    "vs computer"
+  ],
+  "notes": "Nobody knows who invented the pencil-and-paper game, and early players drew their own grids and chose their own fleets. The fleet here follows the pencil-and-paper version described by the game historian Bruce Whitehill (The Big Game Hunter, 'Pencil and paper games', https://thebiggamehunter.com/playing/pencil-paper-games/): a battleship of 5, a cruiser of 4, a destroyer of 3 and a submarine of 2, in straight lines across or down, with letters across the top and numbers down the side, and with the defender saying which ships were hit. Those rules do not forbid ships touching, so here they may touch but never overlap. Salvo, one shot for each ship still afloat, follows Wikipedia's description of the 1931 Salvo edition published by the Starex company. Wikipedia says those pads started players on five shots, one for each of five ships, but does not say what the ships were, so this game keeps Whitehill's four-ship pencil fleet and a full salvo is four shots. In the paper game the results of a salvo were announced together, without saying which square hit; here each shot is marked as it lands to keep the game quick. The aircraft carrier of the later plastic editions is left out because the game is presented as it was played around the First World War."
+}

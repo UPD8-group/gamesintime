@@ -1,0 +1,13 @@
+{
+  "howToPlay": [
+    "Everybody starts off the board. Press Roll to roll the die, and your token moves that many squares along the winding path from 1 to 100.",
+    "Land at the foot of a ladder and you climb to the top. Land on a snake's head and you slide down to its tail.",
+    "If your roll would take you past 100 you still finish, unless Exact roll to finish is ticked. Then you must land on 100 exactly, and a roll that is too big is wasted.",
+    "The first player to reach square 100 wins.",
+    "Play against the computer, or with 2 to 4 players on one device: pass it to the player whose name is on the status line."
+  ],
+  "controls": "Tap or click Roll. Keyboard: press Tab to reach Roll, then press Enter or Space. Players changes how many play (and starts a new game), and Exact roll to finish changes the finishing rule.",
+  "computer": "There is nothing to decide in Snakes and Ladders, so the computer just rolls the same fair die you do. It waits about a third of a second so you can see it is its turn, then rolls. It cannot play well or badly, which makes the game pure luck: every player has the same chance to win. That is what makes it good for talking about probability.",
+  "players": ["vs computer", "2 to 4 players"],
+  "notes": "The ladders and snakes are named after virtues and vices (Thrift, Patience and Honesty; Indolence, Envy and Pride) in the style of English boards from the 1890s, which took the idea from the Indian game Moksha Patam, where ladders were good deeds and snakes were bad ones. The board is not a copy of any one old board. The earliest known English version, from 1892, was a circular board with a spiral track of 100 spaces; this one uses the 10 by 10 grid that later boards made familiar, numbered back and forth from the bottom left. We have not found the finishing rule printed with the 1892 board, so the game does not call either rule the original: by default a roll that goes past 100 still finishes, and Exact roll to finish asks for the exact number instead, as many families play."
+}

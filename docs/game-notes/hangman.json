@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "The computer picks a secret word. With Two players, Player 1 types one while Player 2 looks away. Each letter starts as a dash.",
+    "Under the 1894 rules the word is a bird, beast or fish, and its first and last letters are shown from the start. Classic rules show only dashes.",
+    "Guess one letter at a time. A right letter is written into every place it appears in the word.",
+    "Each wrong guess burns one piece of the candle. After eight wrong guesses the candle goes out.",
+    "If a letter shown at the start also hides inside the word, pressing it fills in the other copies for free.",
+    "Stuck? Hint shows you one hidden letter, but it burns one piece of the candle. There is no hint when one more piece would put the candle out.",
+    "Guess the whole word before the candle goes out to win."
+  ],
+  "controls": "Tap a letter, or type it on a keyboard. Keyboard: Tab to the letters, move with the arrow keys (Home and End jump to the ends), and press Enter or Space to guess. In Two players, Player 1 types the secret word and an optional hint, then presses Start.",
+  "computer": "When you play the computer, it picks a word you have not seen lately: an animal under the 1894 rules, or a word a child in the 1890s would have known under Classic rules. After each round it tells you what the word means. Its hint shows the hidden letter that is most common in English (E is the most common, then T, A, O, I and N), so a hint is a letter you might well have guessed next. Under the 1894 rules it skips very short animals like EMU, where the shown letters would leave only one letter to guess. The computer never guesses: all the guessing is yours.",
+  "players": ["solo", "2 players"],
+  "notes": "Hangman is first recorded in 1894 as Birds, Beasts and Fishes, a slate game with no gallows: the first and last letters of an animal's name were shown, and players scored marks for the letters they guessed. Our 1894 rules keep the animal categories and the shown first and last letters, and the game is drawn in chalk on a slate. Instead of a hanged man, or of scoring marks, wrong guesses burn down a candle, which gives a clear limit of eight wrong guesses and nothing gruesome. In Gomme's game the children guessed in turn and the first right guesser set the next word. Online, one player guesses a word from the computer, or Player 2 guesses Player 1's word on one device and they swap after each round. Classic rules show only dashes, like the game most people play today."
+}

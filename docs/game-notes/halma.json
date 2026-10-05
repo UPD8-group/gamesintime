@@ -1,0 +1,16 @@
+{
+  "howToPlay": [
+    "The 1884 board is 16 by 16, with 19 men each in opposite corner yards. On a phone the game starts on a quick 10 by 10 board with 15 men each. Use the Board menu to switch.",
+    "Your red men start in the bottom left yard. Move every one of them into the blue yard in the top right corner.",
+    "On your turn, move one man. Either step one square in any direction (the dots),",
+    "or hop over a man next to you, yours or your rival's, onto the empty square straight behind it. You can keep hopping from man to man in the same turn. The end of every chain shows as a dotted ring.",
+    "Nothing is ever captured. Men you hop over stay where they are.",
+    "Once a man reaches the far yard it must stay inside it, but it can still move around inside.",
+    "The first player to fill every square of the far yard wins.",
+    "Site rule, no blocking: if your rival leaves men in their own starting yard, they count for you. Fill every other square of that yard and you win."
+  ],
+  "controls": "Tap or click one of your men, then a dot (a step) or a dotted ring (a chain of hops). With a mouse, point at a ring to see the whole chain. Keyboard: Tab to the board, use the arrow keys to move around, Enter or Space to pick up a man and put it down, and Escape to put it back.",
+  "computer": "The computer measures how far each of its men still has to go to the far corner and adds the distances up. For every move it could make, every step and every chain of hops, it works out how much that total would shrink, so a chain that leaps 9 squares scores 9 points. It adds a little extra for long chains, for moving a man that has been left far behind, and for moving men out of its starting yard. On Hard it also imagines your best reply to each of its best moves, so it avoids building a ladder of men you could hop along. On Easy it picks one of its four best moves at random.",
+  "players": ["vs computer", "2 players"],
+  "notes": "Original two-player rules from the 1880s and 1890s (Foster's Complete Hoyle, 1897, and the Jaques board of about 1900 at the V&A): a board of 256 squares, 19 men each in a corner yard of 19 squares (laid out in the usual rows of 5, 5, 4, 3 and 2), steps in any of the eight directions, hops over any single man of either colour, as many hops as you like in one turn, no mixing steps and hops in one move, no captures, and hopping is never compulsory. Printed Halma boards also mark the smaller 13-square yards used by four players, and they are drawn here too. The rule that a man in the far yard may not leave it comes from modern summaries of the game. Two rules are ours. The quick board (10 by 10, 15 men each in a triangle of 5, 4, 3, 2 and 1) is for phones and short lessons, because 16 by 16 squares need about 520 pixels to stay big enough to tap. The no-blocking rule exists because the old rules do not say what happens if a player never empties their own yard, which would stop the other player ever winning. The four-player game is not included, and Red always moves first because the rules we found do not say who starts."
+}

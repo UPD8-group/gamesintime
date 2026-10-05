@@ -5,6 +5,10 @@ import {extname, join, normalize} from 'node:path';
 import {chromium} from 'playwright';
 
 export const ROOT = new URL('../public/', import.meta.url).pathname;
+/* The same Content Security Policy Netlify sends (read from netlify.toml), so a page that breaks it fails here too. */
+const TOML = await readFile(new URL('../netlify.toml', import.meta.url), 'utf8');
+const CSP = (TOML.match(/Content-Security-Policy\s*=\s*"([^"]+)"/) || [])[1];
+if (!CSP) throw new Error('No Content-Security-Policy found in netlify.toml');
 const TYPES = {'.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.svg': 'image/svg+xml', '.txt': 'text/plain', '.json': 'application/json', '.webp': 'image/webp', '.png': 'image/png'};
 
 export async function serve() {
@@ -15,7 +19,7 @@ export async function serve() {
     if (!file.startsWith(ROOT)) { res.writeHead(403); return res.end(); }
     try {
       await stat(file);
-      res.writeHead(200, {'Content-Type': TYPES[extname(file)] || 'application/octet-stream'});
+      res.writeHead(200, {'Content-Type': TYPES[extname(file)] || 'application/octet-stream', 'Content-Security-Policy': CSP});
       res.end(await readFile(file));
     } catch { res.writeHead(404); res.end('not found'); }
   });

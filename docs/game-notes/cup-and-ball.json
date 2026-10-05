@@ -1,0 +1,14 @@
+{
+  "howToPlay": [
+    "Press Start for a 60-second round. The ball hangs on its string below the toy.",
+    "Drag the cup with a finger or the mouse and flick it upwards to toss the ball, just like jerking the handle of a real cup and ball. You can also press Up or Space.",
+    "Move the cup under the falling ball to catch it, then toss again straight from the cup to keep a run going.",
+    "Catches in a row multiply your points, up to five times. A miss ends the run of catches but not the round.",
+    "The expert catch: press Flip or F to turn the toy over, toss the ball straight up and land its hole on the spike for 50 points.",
+    "Unlock all eight tricks, including the Hat-trick, Round the world (swing the ball in a full loop, then catch it) and Jane Austen's point."
+  ],
+  "controls": "Drag the cup and flick it up to toss. Keys: Left and Right move, Up or Space tosses, F or Down flips the toy, P pauses. The Toss and Flip buttons under the board work too.",
+  "computer": "",
+  "players": ["solo"],
+  "notes": "The toy is simulated: the string stops the ball going further than its length, and the cup follows your finger on a stiff spring, so a quick flick tosses the ball just as a jerk of the wrist does. The ball's hole points away from the string while it is pulled, so a clean, straight toss is the way to land it on the spike, as on a real bilboquet. The 60-second round, points and combos are added to make it a game; in real life you count catches in a row. Jane Austen was said to manage more than a hundred on the point."
+}

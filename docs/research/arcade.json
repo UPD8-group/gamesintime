@@ -1,0 +1,709 @@
+{
+  "games": [
+    {
+      "id": "memory-handset",
+      "yearLabel": "1978",
+      "stamp": "1978",
+      "origin": "Mechanics of Simon by Ralph Baer and Howard Morrison, made by Milton Bradley, USA",
+      "blurb": "Watch the coloured lights, listen to the notes, then copy the pattern as it grows one step longer each turn, like the 1978 electronic game Simon.",
+      "story": [
+        "In 1976 two toy inventors, Ralph Baer and Howard Morrison, saw an Atari arcade game called Touch Me at a trade show in Chicago. Players copied a sequence of flashing buttons. Baer liked the idea but later wrote that the game looked boring and sounded harsh. Baer and Morrison worked with Marvin Glass and Associates, a Chicago toy design company, so they set out to make a friendlier version.",
+        "Their game had four coloured buttons, a small computer chip and four notes chosen to sound like a bugle. Programmer Lenny Cope worked on the code. The toy company Milton Bradley bought the game and named it Simon, after the old game Simon Says. It went on sale in 1978 for about 25 US dollars and was a huge hit that Christmas.",
+        "Milton Bradley launched Simon in May 1978 with a midnight party at Studio 54, a famous New York nightclub. A giant Simon, one metre across, came down from the ceiling while people danced below. At home, one person could play alone, or a family could take turns and even team up against the machine.",
+        "Memory Handset plays like Simon, the 1978 electronic memory game. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "In the 1979 rules, if you took more than five seconds to press a button, Simon made a 'razz' sound and your go was over.",
+        "Simon speeds up after the 5th, 9th and 13th signal in a sequence, so long patterns come faster.",
+        "The hardest level asks you to repeat a sequence of 31 signals. Simon salutes a winner with six quick flashes.",
+        "Ralph Baer, one of Simon's inventors, had earlier invented the first home video game console, which became the Magnavox Odyssey of 1972."
+      ],
+      "sources": [
+        {
+          "title": "What Simon Says (45 years after its launch, Milton Bradley's iconic memory game continues to challenge and charm), Joanna Goodrich, IEEE Spectrum, December 2023",
+          "url": "https://spectrum.ieee.org/simon-game",
+          "note": "Baer and Morrison saw Atari's Touch Me at the 1976 Music Operators of America show in Chicago; Baer called it 'visually boring' with 'miserable rasping sounds' in his 2005 autobiography; Marvin Glass; Lenny Cope; TMS1000 chip; bugle notes; renamed after Simon Says; launched May 1978 at Studio 54 with a 1 metre replica lowered at midnight; sold for US $25; hit that Christmas."
+        },
+        {
+          "title": "Simon handheld electronic game manual, Milton Bradley, 1979 (Internet Archive)",
+          "url": "https://archive.org/details/simon-handheld-electronic-game-manual-milton-bradley-1979",
+          "note": "Rule book: three games, skill levels of 8, 14, 20 or 31 signals, tempo rises after the 5th, 9th and 13th signals, 'RAZZ' sound after 5 seconds, six-signal salute for a win, players may team up against Simon."
+        },
+        {
+          "title": "Simon (game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Simon_(game)",
+          "note": "Inventors Baer and Morrison at Marvin Glass and Associates; programmer Lenny Cope; based on Atari's 1974 Touch Me; launch at Studio 54; retail price US $24.95; US patent 4,207,087 granted 1980."
+        },
+        {
+          "title": "Magnavox Odyssey, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+          "note": "Baer led the Sanders Associates team that designed the Odyssey, released by Magnavox in 1972."
+        }
+      ],
+      "uncertainties": [
+        "Sources disagree on Simon's four notes. IEEE Spectrum says Baer chose G, C, E and G as played on a bugle, while Wikipedia lists an A major chord (E, C sharp, A, E) and says some 1978 units used different notes. The story only says the notes were chosen to sound like a bugle.",
+        "IEEE Spectrum says the Texas Instruments TMS1000 chip had '1,000 kilobytes of memory'. That figure looks wrong for a 1970s toy chip, so it is left out.",
+        "IEEE Spectrum gives the launch as May 1978. Some websites give 15 May 1978, but no primary source for the exact day was opened.",
+        "The 1979 rule book on the Internet Archive is an American edition; Australian packs may have differed.",
+        "No source was found for when Simon first went on sale in Australia.",
+        "The year of Atari's Touch Me arcade game (1974) comes from Wikipedia only.",
+        "IEEE Spectrum credits Lenny Cope with the programming; Wikipedia also says much of the code was written by Charles Kapps of Temple University."
+      ]
+    },
+    {
+      "id": "television-tennis",
+      "yearLabel": "1972",
+      "stamp": "1972",
+      "origin": "Mechanics of the Magnavox Odyssey's table tennis (New Hampshire, USA) and Atari's Pong (California, USA)",
+      "blurb": "Two bats, one bouncing square and a television screen: the game that brought video games into bars and living rooms from 1972.",
+      "story": [
+        "In 1966 an engineer named Ralph Baer had the idea of playing games on an ordinary television. His team at Sanders Associates in New Hampshire, USA, built a string of test machines, and his colleague Bill Rusch came up with a ping-pong game. Magnavox sold the finished console, the Odyssey, from 1972. Players stuck plastic sheets on the screen to add colour.",
+        "In May 1972 Nolan Bushnell played the Odyssey's tennis game at a demonstration. He asked Allan Alcorn, a young engineer at his new company, Atari, to build a bat-and-ball game as practice. Alcorn made the ball bounce off at different angles depending on where it hit the bat, and speed up during long rallies. They called it Pong.",
+        "In 1972 Atari put the first Pong machine in Andy Capp's Tavern, a bar in Sunnyvale, California. After a few weeks the owner reported it was broken. It turned out the coin box was simply overflowing with 25-cent coins. Atari announced Pong on 29 November 1972, and in 1975 a home version went on sale through the Sears catalogue.",
+        "TV tennis reached Australia too. The Odyssey was sold here in small numbers, and in the late 1970s the Australian company Hanimex sold tennis games that plugged into the family TV, some with a switch marked ANGLE. Television Tennis plays like these early games. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "Alcorn split each Pong bat into eight parts. A hit near the middle sends the ball straight back; a hit near an end sends it off at a sharp angle.",
+        "The Odyssey could not make any sound or keep score. Players wrote the scores down themselves.",
+        "The instructions on early Pong machines ended with: 'Avoid missing ball for high score.' Alcorn wrote them.",
+        "Alcorn's Pong prototype used a black-and-white television he bought from a shop for 75 US dollars."
+      ],
+      "sources": [
+        {
+          "title": "Pong, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/pong/",
+          "note": "Inducted 2015; Bushnell assigned Alcorn; first prototype at Andy Capp's Tavern, Sunnyvale; owner Bill Gaddis thought it was malfunctioning after a few weeks but it was overflowing with quarters; Sears home version 1975."
+        },
+        {
+          "title": "Pong, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pong",
+          "note": "Bushnell played the Odyssey table tennis game in May 1972; eight paddle segments set the return angle; ball speeds up; $75 television; prototype installed August 1972; announced 29 November 1972; Magnavox lawsuit settled June 1976."
+        },
+        {
+          "title": "The Making of Pong, Benj Edwards, Vintage Computing and Gaming (republished from Edge, 2012)",
+          "url": "https://www.vintagecomputing.com/index.php/archives/3183/vcg-anthology-the-making-of-pong-2012",
+          "note": "Bushnell saw the Odyssey on 24 May 1972; Bill Rusch's table tennis memo of 18 October 1967; eight paddle segments; ball speeds up in long volleys; Odyssey used an 'English' knob instead; 'Avoid missing ball for high score'."
+        },
+        {
+          "title": "Oral History of Allan (Al) Alcorn, interviewed by Henry Lowood, Computer History Museum, 2008",
+          "url": "https://archive.computerhistory.org/resources/access/text/2012/09/102658257-05-01-acc.pdf",
+          "note": "Alcorn bought a black-and-white TV for $75; bolt-on laundromat coin box and a bread pan that overflowed; he wrote the three-line instructions."
+        },
+        {
+          "title": "Magnavox Odyssey, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+          "note": "Baer's idea in August 1966; Rusch proposed ping-pong; released September 1972; no sound or scoring; plastic overlays; released in 1974 in limited numbers in Australia and other countries."
+        },
+        {
+          "title": "1TL200: A Magnavox Odyssey, Alexander Smith, They Create Worlds, 2015",
+          "url": "https://videogamehistorian.wordpress.com/2015/11/16/1tl200-a-magnavox-odyssey/",
+          "note": "According to Baer the console was eventually sold in twelve countries including Australia."
+        },
+        {
+          "title": "'Magnavox Odyssey' video game console, Powerhouse Collection (object 2014/5/1)",
+          "url": "https://collection.powerhouse.com.au/object/476387",
+          "note": "Sydney's Powerhouse holds a complete Odyssey; says it was released for sale in August 1972."
+        },
+        {
+          "title": "Hanimex, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hanimex",
+          "note": "Australian distributor and manufacturer founded by Jack Hannes in 1947; sold several Pong-style video game consoles in the late 1970s and early 1980s."
+        },
+        {
+          "title": "Category:Hanimex 677CP, Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/Category:Hanimex_677CP",
+          "note": "Hanimex 677 home TV game, publication date 1978 (Wikidata); photographs show switches for ANGLE, SPEED and BAT SIZE."
+        }
+      ],
+      "uncertainties": [
+        "The Odyssey's release month differs: Wikipedia says September 1972, the Powerhouse says August 1972.",
+        "The year the Odyssey reached Australia is unclear. Wikipedia says 1974; Alexander Smith reports Baer's list of twelve countries without a year for each.",
+        "Wikipedia dates the Andy Capp's Tavern test to August 1972; The Strong gives no month.",
+        "Bushnell has given different accounts of how much the Odyssey inspired Pong. Magnavox sued Atari in 1974 and Atari settled in June 1976.",
+        "The Hanimex 677's date (1978) comes from Wikidata via Wikimedia Commons, not from a dated catalogue."
+      ]
+    },
+    {
+      "id": "brickfield",
+      "yearLabel": "1976",
+      "stamp": "1976",
+      "origin": "Mechanics of Atari's Breakout, California, USA",
+      "blurb": "Bounce a ball off your bat to knock out a wall of coloured bricks, the one-player game Atari built from Pong in 1976.",
+      "story": [
+        "Atari's founder Nolan Bushnell wanted a version of Pong for one player. His idea, worked out with engineer Steve Bristow, put a bat at the bottom of the screen and a wall of bricks at the top. Each brick the ball hits disappears. Breakout came out in 1976, and the ball speeds up as you dig deeper into the wall.",
+        "The first working version was built in four days by two young friends: Steve Jobs, who worked at Atari, and Steve Wozniak, an engineer at Hewlett-Packard. Atari offered a bonus for every chip they saved, and Wozniak's design used fewer than 50. It was too tricky to build in a factory, so Atari made its own version with about 100 chips.",
+        "The screen was really black and white. Strips of coloured see-through film stuck over it made the rows of bricks look yellow, green, orange and red. Breakout was one of the top-earning arcade games of 1976 and 1977 in the United States and Japan. Later, Wozniak and Jobs started Apple, and Wozniak built Breakout-style features into the Apple II computer.",
+        "Breakout also inspired the Japanese designer Tomohiro Nishikado to make Space Invaders in 1978. Brickfield plays like Atari's 1976 arcade game Breakout. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "Bricks near the top are worth more: yellow 1 point, green 3, orange 5 and red 7.",
+        "When the ball breaks through to the top wall, your bat shrinks to half its size.",
+        "The best possible score for one player is 896: two full walls of bricks worth 448 points each.",
+        "In January 1980 people at Schiphol Airport in Amsterdam were playing the 1978 sequel, Super Breakout, as the photo on this page shows."
+      ],
+      "sources": [
+        {
+          "title": "Steve Jobs, Breakout Pioneer, Jon-Paul Dyson, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/blog/steve-jobs-breakout-pioneer/",
+          "note": "Breakout (1976) is a one-player elaboration of Pong; ball speeds up with each layer of bricks; Jobs was Atari employee no. 40; Bushnell and Bristow offered a bonus per chip saved; Wozniak's design used fewer than 50 chips in four days; Atari could not mass-produce it."
+        },
+        {
+          "title": "Breakout (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Breakout_(video_game)",
+          "note": "Designed by Bushnell and Bristow; prototype by Wozniak with Jobs; Atari's production version used about 100 TTL chips; monochrome screen with coloured cellophane strips; brick colours and points; paddle shrinks; maximum 896; top-earning lists for 1976 and 1977; Apple II influence; Nishikado cited Breakout."
+        },
+        {
+          "title": "Space Invaders, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+          "note": "Nishikado designed Space Invaders as a response to Breakout, which was very popular in Japan in 1977."
+        },
+        {
+          "title": "Speelautomaten op Schiphol (game machines at Schiphol), Hans van Dijk for Anefo, 18 January 1980, Nationaal Archief via Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Speelautomaten_op_Schiphol,_Bestanddeelnr_930-6275.jpg",
+          "note": "Dated photograph showing a Super Breakout cabinet being played."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia gives 13 May 1976 as the North American release date; The Strong only says 1976.",
+        "The Strong calls Breakout the top-selling game of 1976, but Wikipedia, citing the RePlay chart, ranks it fifth-highest earning in the United States that year and fourth in Japan.",
+        "Wozniak's own accounts of how much he was paid have changed over the years, so the story leaves the money out.",
+        "Chip counts vary: The Strong says fewer than 50, Wikipedia says Wozniak's breadboard had 44.",
+        "No source was found for when Breakout reached Australian arcades."
+      ]
+    },
+    {
+      "id": "trail",
+      "yearLabel": "1976",
+      "stamp": "1976",
+      "origin": "Mechanics of Gremlin's Blockade, San Diego, USA",
+      "blurb": "Steer an arrow that leaves a solid wall behind it and make your opponent crash first, in the 1976 game that began the snake games.",
+      "story": [
+        "Lane Hauck taught himself to program and made games for Gremlin, a San Diego company. He was playing with a physics puzzle called the drunk and the lamppost, where a dot wanders about at random. He changed the rules so the dot could never go back to a square it had already visited. It soon trapped itself, and that gave him an idea for a two-player game.",
+        "In Blockade each player steers an arrow with push buttons. The arrow never stops, and it leaves a solid trail of blocks behind it. Hit a wall or any trail and you crash, and your opponent scores. Gremlin showed the game at a trade show in Chicago in 1976 and took about 3,000 orders. It went on sale in November 1976.",
+        "Before Gremlin could deliver, other companies made copies, and many orders were cancelled. A Gremlin sales flyer made for Australia advertised Blockade and its four-player version, CoMotion. Later came Gremlin's Hustle in 1977, Atari's home game Surround and, in the late 1990s, Snake on Nokia mobile phones.",
+        "Trail plays like Gremlin's 1976 arcade game Blockade and the snake games that followed. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "Gremlin first tested Blockade at a miniature golf course, where plenty of people put money in to play.",
+        "Hauck once watched a mother and daughter play Blockade, laughing every time they crashed into each other.",
+        "The arcade owner could set each game to end after 3, 4, 5 or 6 crashes.",
+        "In 2012 New York's Museum of Modern Art said it wanted Nokia's Snake game for its collection."
+      ],
+      "sources": [
+        {
+          "title": "Blockade (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blockade_(video_game)",
+          "note": "Lane Hauck and Ago Kiss for Gremlin; the drunk and the lamppost experiment; push-button controls; trails; crash scoring; 3 to 6 crashes; test at a miniature golf course; 1976 MOA show in Chicago with 3,000 orders; released November 1976; clones and cancelled orders; mother and daughter; progenitor of the snake genre."
+        },
+        {
+          "title": "New Gremlin Video Games sales flyer (Australia), The Arcade Flyer Archive",
+          "url": "https://flyers.arcade-museum.com/?page=thumbs&db=videodb&id=4377",
+          "note": "Flyer listed under region Australia, year 1976, covering Blockade and CoMotion."
+        },
+        {
+          "title": "Snake (video game genre), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Snake_(video_game_genre)",
+          "note": "Blockade began the genre; Atari's Surround (1977); Hustle described as a Blockade clone; Snake on the Nokia 6110 in 1998; MoMA announcement of 29 November 2012."
+        },
+        {
+          "title": "Gremlin, Hustle advertisement, Play Meter, June 1977 (Wikimedia Commons)",
+          "url": "https://commons.wikimedia.org/wiki/File:Gremlin_-_Hustle_-_June_1977_Play_Meter_advert.jpg",
+          "note": "Dated 1977 advertisement for Gremlin's Hustle, showing the snake-style screen and the San Diego address."
+        }
+      ],
+      "uncertainties": [
+        "The Arcade Flyer Archive dates the Australian flyer to 1976, but this may be the game's year rather than the date the flyer was printed. No evidence was found of how many machines reached Australian venues.",
+        "Wikipedia credits Lane Hauck as designer and both Hauck and Ago Kiss as programmers.",
+        "Wikipedia dates Snake on the Nokia 6110 to 1998; many other sources say 1997, so the story says the late 1990s.",
+        "The figure of 3,000 orders comes from Gremlin staff memories reported in Wikipedia's sources."
+      ]
+    },
+    {
+      "id": "starfall",
+      "yearLabel": "1978",
+      "stamp": "1978",
+      "origin": "Mechanics of Taito's Space Invaders, Japan",
+      "blurb": "Slide your laser base left and right and shoot the marching rows of aliens before they land, like the 1978 game that filled arcades around the world.",
+      "story": [
+        "Tomohiro Nishikado, a designer at the Japanese company Taito, was a fan of Atari's Breakout and wanted to make something better. He swapped the bricks for rows of aliens that march sideways and step down each time they reach the edge. He based them on octopus, squid and crab shapes, inspired by H. G. Wells's novel The War of the Worlds.",
+        "Nishikado built the machine around a microprocessor, a kind of chip that was new to him. It drew the aliens faster when fewer were left, so the last few rushed across the screen. He kept that as part of the game. Taito released Space Invaders in Japan in 1978, and soon whole arcades opened with nothing but Space Invaders machines.",
+        "The game soon reached Australia, where the Perth company Leisure and Allied Industries distributed it. In late 1979 two Sydney record producers, Russell Dunlop and Bruce Brown, released a song called Space Invaders under the name Player One. It reached number 3 in Australia, even though they had never actually played the game.",
+        "Starfall plays like Taito's 1978 arcade game Space Invaders. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "The first Space Invaders screens were black and white. Strips of coloured see-through film made parts of the screen look green and orange.",
+        "Nishikado first called his game Space Monsters. His bosses changed the name to Space Invaders.",
+        "A popular story says Space Invaders caused a shortage of 100-yen coins in Japan. Coin experts have found no evidence for it.",
+        "In 1980 Space Invaders came out for the Atari 2600, the first arcade game officially licensed for a home console."
+      ],
+      "sources": [
+        {
+          "title": "Space Invaders, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/space-invaders/",
+          "note": "Inducted 2016; designed by Nishikado and released in Japan in 1978; five rows of aliens; high score; inspired by The War of the Worlds; Atari 2600's most popular game in 1980."
+        },
+        {
+          "title": "Space Invaders, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+          "note": "Response to Breakout; octopus, squid and crab aliens; Intel 8080; aliens speed up as fewer remain; first called Space Monsters; black-and-white screen with cellophane strips; 'Space Invaders Houses'; 100-yen coin myth; 1980 Atari 2600 port first official arcade licence; Leisure and Allied Industries listed as Australian publisher."
+        },
+        {
+          "title": "Space Invaders and the birth of Chicago house, Jordie Kilby, RareCollections, ABC Radio National, 2015",
+          "url": "https://www.abc.net.au/radionational/programs/rarecollections/space-invaders-and-the-birth-of-chicago-house/6301186",
+          "note": "Warners' Sydney office had its own machine; Dunlop and Brown had never played it; the song hit Australian radio in late 1979, sold more than 120,000 copies and reached no. 3."
+        },
+        {
+          "title": "Space Invaders sales flyer (Australia), The Arcade Flyer Archive",
+          "url": "https://flyers.arcade-museum.com/?page=thumbs&db=videodb&id=4379",
+          "note": "Australian flyer listed with Leisure and Allied Industries (LAI)."
+        },
+        {
+          "title": "LAI Games, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/LAI_Games",
+          "note": "Leisure and Allied Industries founded in Perth in 1958 by Malcolm Steinberg; founded Timezone in 1978."
+        }
+      ],
+      "uncertainties": [
+        "Release month differs: Wikipedia says Taito registered it for copyright in April 1978, showed it to businesses in June and had it on sale by July 1978.",
+        "The Strong says it was the first Japanese game to use a microprocessor; Wikipedia says Nishikado was inspired by Midway's American microprocessor version of his earlier game.",
+        "Leisure and Allied Industries' role as Australian distributor rests on the Arcade Flyer Archive listing and Wikipedia. The flyer's printing date is not shown.",
+        "ABC says the single sold more than 120,000 copies; Wikipedia says it was the seventh best-selling single in Australia in 1980."
+      ]
+    },
+    {
+      "id": "drifter",
+      "yearLabel": "1979",
+      "stamp": "1979",
+      "origin": "Mechanics of Atari's Asteroids, California, USA",
+      "blurb": "Turn, thrust and drift through space, blasting rocks that split into smaller, faster pieces, in the glowing-line style of Atari's 1979 Asteroids.",
+      "story": [
+        "In April 1979 Atari's Lyle Rains talked with programmer Ed Logg about an unfinished game with a giant rock that could not be destroyed. They agreed on a game where you shoot rocks that break into smaller pieces. Logg based the ship and its five buttons on Spacewar!, a 1962 computer game he had played at university. The buttons turn left, turn right, thrust, fire and jump into hyperspace.",
+        "Asteroids used a vector screen. Instead of building the picture line by line like a television, the beam drew glowing lines straight onto the screen, which made the ship and rocks sharp and bright. The ship keeps drifting after you stop pushing the thrust button, and anything that leaves one edge of the screen comes back on the opposite side.",
+        "Asteroids went on sale in November 1979 and became Atari's best-selling arcade game, with more than 70,000 sold. Some arcade owners had to fit bigger coin boxes. On 13 November 1982, 15-year-old Scott Safran of New Jersey scored 41,336,440 points, a record that stood until 2010. In 2012 ACMI in Melbourne included Ed Logg in its Game Masters exhibition.",
+        "Drifter plays like Atari's 1979 arcade game Asteroids. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "Asteroids was one of the first arcade games that let top players type their three initials into a high-score table.",
+        "Logg borrowed the idea of a high-score table with initials from an earlier game, Exidy's Star Fire.",
+        "Demand was so high that several hundred Asteroids games were shipped in cabinets made for another Atari game, Lunar Lander.",
+        "Asteroids had no sound chip. Its heartbeat-like sound, which speeds up as you play, came from circuits wired by hand."
+      ],
+      "sources": [
+        {
+          "title": "Asteroids, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/asteroids/",
+          "note": "Inducted 2024; Lyle Rains and Ed Logg; released November 1979; inspired by Spacewar and Computer Space; five buttons; vector display; more than 70,000 sold; one of the first games with three-letter initials on the high-score list."
+        },
+        {
+          "title": "Asteroids (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+          "note": "April 1979 meeting about Cosmos; rocks that break up; Spacewar! controls played at UC Berkeley; vector monitor; inertia and screen wrap; initials idea from Exidy's Star Fire; no sound chip and hand-wired sound circuits; Lunar Lander cabinets; bigger coin boxes; Scott Safran's record of 13 November 1982, broken on 5 April 2010."
+        },
+        {
+          "title": "Game Masters (exhibition), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Game_Masters_(exhibition)",
+          "note": "Curated by ACMI, Melbourne, 28 June to 28 October 2012; Arcade Heroes section included Ed Logg, Tomohiro Nishikado and Toru Iwatani."
+        }
+      ],
+      "uncertainties": [
+        "Sales figures differ: The Strong says more than 70,000 sold; Wikipedia gives 47,840 upright and 8,725 cocktail cabinets in one place and up to 100,000 worldwide in another.",
+        "The Strong calls Asteroids one of the first games with initials on the high-score table; Wikipedia says Logg took the idea from Exidy's Star Fire.",
+        "Scott Safran's record and date come from Wikipedia, which cites Twin Galaxies; they were not checked against Twin Galaxies directly.",
+        "The Game Masters details come from Wikipedia; ACMI's own exhibition pages could not be opened.",
+        "No source was found for when Asteroids reached Australian arcades."
+      ]
+    },
+    {
+      "id": "rush",
+      "yearLabel": "1981",
+      "stamp": "1981",
+      "origin": "Mechanics of Konami's Frogger, Japan",
+      "blurb": "Hop a frog across a busy road and a rushing river full of logs and turtles to get it safely home, like Konami's 1981 Frogger.",
+      "story": [
+        "Frogger was made by the Japanese company Konami and came out in Japan in 1981. You guide a frog from the bottom of the screen to five homes at the top. First you cross a road full of speeding cars and trucks. Then you ride floating logs and turtles across a river, because falling in the water costs a life.",
+        "Konami did not put its designers' names on its games, so for years nobody was sure who made Frogger. In 2022 a former Konami programmer named Takahide Harima as the main creator. Sega bought the rights, and Sega/Gremlin of San Diego sold it in North America from late 1981 after a test machine in a San Diego bar did very well.",
+        "Some Sega/Gremlin managers first dismissed it as a game for women and kids. That turned out to be its strength. A Sega/Gremlin sales manager said it filled a gap for women, who mostly avoided shooting games, and the company's 1981 advert called it fun for the whole family. By 2005 home versions had sold about 20 million copies.",
+        "Rush plays like Konami's 1981 arcade game Frogger. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "In 1982 the magazine Softline said Frogger had more ways to die than any other arcade game, from trucks to snakes, otters and sinking turtles.",
+        "Each frog has about 30 seconds to reach a home before time runs out.",
+        "The tune at the start comes from a Japanese children's song called Inu no Omawarisan, which means The Dog Policeman.",
+        "While deciding whether to sell Frogger, Sega/Gremlin paid Konami 3,500 US dollars a day for the right to test it."
+      ],
+      "sources": [
+        {
+          "title": "Frogger, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frogger",
+          "note": "Developed by Konami, published by Sega; Sega/Gremlin in North America; Japan release August 1981; five frog homes; road and river; 30-second timer; Softline's 'most ways to die' (1982); opening tune Inu no Omawarisan; $3,500 a day licensing window; San Diego bar test; 'women and kids game'; Jack Gordon on women and shooting games; 20 million home copies by 2005."
+        },
+        {
+          "title": "Flashback: Who Created the Arcade Classic Frogger?, Time Extension, 1 September 2023 (updated)",
+          "url": "https://www.timeextension.com/features/flashback-who-created-the-arcade-classic-frogger",
+          "note": "Konami did not credit staff; the popular Akira Hashimoto story is unconfirmed; former programmer Masahiro Inoue told the site in 2022 that Takahide Harima made Frogger; a later staff list raised a question about the reading of his name."
+        },
+        {
+          "title": "Sega/Gremlin, Frogger advertisement, Play Meter, 1 December 1981 (Wikimedia Commons)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sega_-_Gremlin_-_Frogger_-_December_1st_1981_Play_Meter_advert.jpg",
+          "note": "Advert text: 'Leap for your life!', speeding cars, logs, diving turtles, 'fun for the whole family'."
+        }
+      ],
+      "uncertainties": [
+        "Who designed Frogger is not settled. Older articles name Akira Hashimoto and tell a story about a frog crossing a road; Time Extension found no evidence for it and names Takahide Harima, with some doubt about how his name is read.",
+        "The North American release is given as September 1981 by Wikipedia; other sources say October 1981, so the story says late 1981.",
+        "The Softline remark is reported by Wikipedia; the 1982 magazine itself was not opened.",
+        "No source was found for when Frogger reached Australian arcades."
+      ]
+    },
+    {
+      "id": "prowl",
+      "yearLabel": "1980",
+      "stamp": "1980",
+      "origin": "Mechanics of Namco's Pac-Man, Japan",
+      "blurb": "Gobble every dot in the maze while four chasers hunt you, each following its own simple rule, like Namco's 1980 Pac-Man.",
+      "story": [
+        "Toru Iwatani, a designer at the Japanese company Namco, wanted a game that women and couples would enjoy, not another war game. He chose eating as the theme. The hero's shape came partly from a pizza with a slice missing and partly from rounding off the Japanese character for mouth. Testing began in Shibuya, Tokyo, on 22 May 1980.",
+        "In Japan the game was called Puck Man, from paku paku, a word for gobbling. Midway sold it in North America from October 1980 as Pac-Man. It became one of the most popular arcade games ever, and a song called Pac-Man Fever reached the US top 10 in March 1982. Pac-Man soon appeared on toys, clothes and a cartoon show.",
+        "The four ghosts seem clever, but each follows one simple rule. Each has a target square. Red targets Pac-Man's own square. Pink aims four squares in front of him. Blue uses a spot two squares ahead of him and Red's position. Orange chases until it gets close, then heads for its corner. At every junction a ghost turns whichever way is nearest its target.",
+        "In 2012 ACMI in Melbourne included Iwatani in its Game Masters exhibition. Prowl plays like Namco's 1980 arcade game Pac-Man, including chasers that each follow one simple rule. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "Namco's president wanted all four ghosts to be red. Iwatani asked his colleagues, and they voted 40 to 0 for different colours.",
+        "In Japanese the ghosts' names meant chaser, ambusher, fickle and playing dumb. In English they became Blinky, Pinky, Inky and Clyde.",
+        "Every so often the ghosts stop chasing and head for their own corners of the maze. This is called scatter mode.",
+        "Because of a mistake in the code, when Pac-Man faces up, Pinky aims four squares up and four squares to the left."
+      ],
+      "sources": [
+        {
+          "title": "Pac-Man, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/pac-man/",
+          "note": "Inducted 2015; Iwatani, 1980; Namco in Japan and Midway in the United States; Puck Man in Japan; name from paku-paku; character from the Japanese character for mouth; licensing craze and cartoon; Pac-Man Fever in the Billboard top 10 in March 1982; best-selling arcade video game."
+        },
+        {
+          "title": "Pac-Man, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pac-Man",
+          "note": "Released in Japan 22 May 1980 and by Midway in October 1980; location test in Shibuya; designed to appeal to women and couples; eating theme; pizza and kuchi stories."
+        },
+        {
+          "title": "Ghosts (Pac-Man), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ghosts_(Pac-Man)",
+          "note": "Nakamura wanted red ghosts; 40 to 0 survey; Japanese names Oikake, Machibuse, Kimagure, Otoboke; Iwatani gave each ghost its own trait."
+        },
+        {
+          "title": "The Pac-Man Dossier, Jamey Pittman",
+          "url": "https://pacman.holenet.info/",
+          "note": "Chase, scatter and frightened modes; target tiles; Blinky targets Pac-Man's tile; Pinky four tiles ahead (with the facing-up overflow bug); Inky uses a point two tiles ahead and Blinky's position, doubled; Clyde chases when 8 or more tiles away, otherwise goes to his corner; at junctions ghosts pick the exit closest to the target, ties broken up, left, down, right."
+        },
+        {
+          "title": "Game Masters (exhibition), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Game_Masters_(exhibition)",
+          "note": "ACMI, Melbourne, 28 June to 28 October 2012; Arcade Heroes included Toru Iwatani."
+        }
+      ],
+      "uncertainties": [
+        "Iwatani has told the pizza story in different ways; in a 1986 interview he said it was only partly true.",
+        "The exact ghost rules come from Jamey Pittman's study of the game's program, not from Namco documents. Iwatani's own simpler description (red chases, pink and blue get in front, orange is random) differs a little.",
+        "Translations of the Japanese ghost names vary; Otoboke is given as 'stupid' by Wikipedia and 'pretending ignorance' by the Dossier.",
+        "The Strong calls Pac-Man the best-selling arcade video game ever; sales counts vary, so the story says one of the most popular.",
+        "No source was found for when Pac-Man reached Australian arcades."
+      ]
+    },
+    {
+      "id": "cascade",
+      "yearLabel": "1984 (some sources say 1985)",
+      "stamp": "1984",
+      "origin": "Mechanics of Tetris by Alexey Pajitnov, Moscow, Soviet Union",
+      "blurb": "Turn and slide falling shapes made of four squares to fill whole rows, which then vanish, like Alexey Pajitnov's Tetris from Moscow.",
+      "story": [
+        "Alexey Pajitnov was a computer researcher at the Dorodnitsyn Computing Centre of the Soviet Academy of Sciences in Moscow. He enjoyed pentominoes, a puzzle of shapes made from five squares. On a computer called the Elektronika 60 he made a falling-block game using the seven shapes made of four squares. The computer had no graphics, so the blocks were drawn with brackets.",
+        "He named it Tetris, from tetra, the Greek word for four, and tennis, his favourite sport. Friends helped him move it to IBM computers, adding colour and a score. Copies on floppy disks spread around Moscow. In 1986 a copy reached a computer institute in Budapest, Hungary, where a London software dealer, Robert Stein, saw it and set out to sell it.",
+        "Tetris went on sale in Britain and the United States in January 1988. In 1989 Nintendo packed it with its new Game Boy, and it became a worldwide hit. Because Pajitnov worked for the Soviet Academy of Sciences, he earned no royalties for years. That changed after 1996, when he and Henk Rogers started The Tetris Company.",
+        "Cascade plays like Tetris, the falling-block game Alexey Pajitnov made in Moscow. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "The famous Tetris tune is Korobeiniki, a Russian folk song from the 1800s. It became the game's theme on the Game Boy.",
+        "The very first version had no score and no levels. You just kept clearing rows.",
+        "In the first version you pressed 7 and 9 to move a piece and 8 to turn it, as its Russian on-screen help shows.",
+        "The Game Boy version has sold about 35 million copies, more than any other version of Tetris."
+      ],
+      "sources": [
+        {
+          "title": "Tetris, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/tetris/",
+          "note": "Inducted 2015; Pajitnov and pentominoes; 1984 computer version with seven shapes; name from tetra and tennis; spread to Eastern Europe; 1987 launch on PCs in the West; packed with the Game Boy in 1989; Korobeiniki."
+        },
+        {
+          "title": "Tetris, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tetris",
+          "note": "Dorodnitsyn Computing Center; Elektronika 60; brackets for blocks; first version had no score or levels; IBM PC port with Pavlovsky and Gerasimov; floppy disks around Moscow; early 1986 copy to the SZKI Institute in Budapest where Robert Stein saw it; Mirrorsoft (27 January 1988) and Spectrum HoloByte (29 January 1988); Game Boy June and July 1989; 35 million Game Boy sales; dating dispute 1984 or 1985."
+        },
+        {
+          "title": "Alexey Pajitnov, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alexey_Pajitnov",
+          "note": "Born in Moscow in 1955; no royalties while employed by the Soviet Academy of Sciences; founded The Tetris Company with Henk Rogers in 1996."
+        },
+        {
+          "title": "The first version of Tetris, photograph by Unnerving duck, 2022 (Wikimedia Commons)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_first_version_of_Tetris.jpg",
+          "note": "The original text-mode Tetris on display in Tampere; the Russian help text lists 7 left, 9 right, 8 rotate, 4 speed up, 5 drop."
+        }
+      ],
+      "uncertainties": [
+        "The date is disputed. June 1984 is widely given, but Pajitnov told a 1993 interviewer the game was finished in 1985, and a 2004 BBC documentary suggests spring 1985.",
+        "The Strong says Tetris launched on Western PCs in 1987; Wikipedia gives January 1988 for both the British and American releases.",
+        "The key list in the 'did you know' comes from the on-screen help visible in a 2022 photograph of the original version, possibly running on an emulator.",
+        "No source was found for when Tetris or the Game Boy first went on sale in Australia."
+      ]
+    }
+  ],
+  "kids": [
+    {
+      "era": "1970s",
+      "title": "Being 12 in the 1970s",
+      "paragraphs": [
+        "At school you learned the new metric system. From 1 September 1972 weather reports gave temperatures only in degrees Celsius, and from 1 July 1974 road signs showed kilometres. Money was already dollars and cents. In September 1973 a loaf of bread delivered to your door cost about 20 cents, a litre of milk about 27 cents and a stamp for a letter 7 cents.",
+        "Television went to colour. Every station switched at midnight on 1 March 1975, and within five years almost 80 per cent of homes had a colour set. The ABC's pop show Countdown began on 8 November 1974, and in 1976 Sherbet's song Howzat went to number 1. From 1979 commercial channels had to show children's programs from 4 to 5pm on weekdays.",
+        "Pinball machines stood in milk bars and arcades, and some kids played before or after school. In 1979 the ABC's Four Corners looked into claims that pinball arcades were bad for young people. The first Timezone opened in Murray Street, Perth, in 1978. Space Invaders arrived soon after, and some families bought tennis games that plugged into the TV.",
+        "Big news you might remember: the Sydney Opera House opened on 20 October 1973. On the night of Christmas Eve 1974 Cyclone Tracy destroyed most of the houses in Darwin. On 11 November 1975 the Governor-General dismissed Prime Minister Gough Whitlam. In July 1979 pieces of the falling Skylab space station landed near Esperance in Western Australia."
+      ],
+      "fastFacts": [
+        "Colour TV began at midnight on 1 March 1975, called C-day. The ABC's Aunty Jack Show sneaked colour on 30 seconds early. (ABC News)",
+        "In September 1973 a delivered loaf of bread cost about 20 cents. In 2023 a supermarket loaf cost about $4.40. (ABS)",
+        "Hankin of Newcastle built 1,150 Australian pinball machines from 1978 to 1980, including the first licensed Star Wars pinball. (ABC News)",
+        "The first Timezone arcade opened in Murray Street, Perth, in 1978. (TEEG, Timezone's owner)",
+        "The song Space Invaders by Sydney producers Dunlop and Brown reached number 3 after its late-1979 release. They never really played the game. (ABC RN)",
+        "After Skylab fell in July 1979, the Shire of Esperance jokingly fined NASA $400 for littering. (Wikipedia)"
+      ],
+      "compare": "In 1975 Australian kids saw colour TV for the first time and played pinball at the milk bar or arcade. How is the way you watch and play today different, and what has stayed the same?",
+      "sources": [
+        {
+          "title": "History of Australia's banknotes, Reserve Bank of Australia",
+          "url": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+          "note": "Australia issued its first decimal banknotes in 1966."
+        },
+        {
+          "title": "Metrication in Australia, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Metrication_in_Australia",
+          "note": "Celsius only from 1 September 1972; road signs converted on 1 July 1974 ('M-day')."
+        },
+        {
+          "title": "What changes in prices and their collection tell us about Australia, Australian Bureau of Statistics, 2023",
+          "url": "https://www.abs.gov.au/articles/what-changes-prices-and-their-collection-tell-us-about-australia",
+          "note": "September 1973 averages: 700 g loaf with delivery $0.20, litre of milk with delivery $0.27, standard letter $0.07; 2023 loaf $4.40; 1976 movie ticket $3.30."
+        },
+        {
+          "title": "Australia first saw colour television 10 years late, but it arrived with a big bang, ABC News, 1 March 2025",
+          "url": "https://www.abc.net.au/news/2025-03-01/act-fifty-years-of-colour-television-in-australia/104991656",
+          "note": "All channels switched to colour at midnight on 1 March 1975 (C-day); Aunty Jack revealed colour at 30 seconds to midnight on 28 February; almost 80 per cent of homes had colour TV within five years."
+        },
+        {
+          "title": "Television in Australia, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Television_in_Australia",
+          "note": "1972 decision to move to colour on 1 March 1975; 1979 rule requiring 'C' children's programs from 4 to 5pm."
+        },
+        {
+          "title": "Countdown (Australian TV program), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Countdown_(Australian_TV_program)",
+          "note": "ABC, 8 November 1974 to 19 July 1987."
+        },
+        {
+          "title": "Howzat (song), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Howzat_(song)",
+          "note": "Sherbet, released May 1976, number 1 on the Kent Music Report."
+        },
+        {
+          "title": "Milk bar, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Milk_bar",
+          "note": "Milk bars often had jukeboxes and pinball machines, later replaced by video games."
+        },
+        {
+          "title": "Iconic Australian-made pinball machines preserved for generations to come, ABC News, 12 March 2026",
+          "url": "https://www.abc.net.au/news/2026-03-12/pinball-machines-collected-nfsa-hankin/105971386",
+          "note": "Hankin built 1,150 machines in Newcastle 1978 to 1980; first licensed Star Wars pinball; 1979 Four Corners investigation; kids played before and after school; Space Invaders pushed pinball aside."
+        },
+        {
+          "title": "Our Story, TEEG (The Entertainment and Education Group)",
+          "url": "https://teeg.com/our-story/",
+          "note": "Malcolm Steinberg opened the first Timezone on Murray Street, Perth, in 1978."
+        },
+        {
+          "title": "Space Invaders and the birth of Chicago house, ABC Radio National, 2015",
+          "url": "https://www.abc.net.au/radionational/programs/rarecollections/space-invaders-and-the-birth-of-chicago-house/6301186",
+          "note": "Player One's Space Invaders hit Australian radio in late 1979 and reached number 3."
+        },
+        {
+          "title": "Hanimex, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hanimex",
+          "note": "Australian company that sold Pong-style TV games in the late 1970s and early 1980s."
+        },
+        {
+          "title": "Sydney Opera House, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+          "note": "Opened by Queen Elizabeth II on 20 October 1973."
+        },
+        {
+          "title": "Cyclone Tracy, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Tracy",
+          "note": "Struck Darwin on the night of 24 to 25 December 1974; destroyed about 80 per cent of houses."
+        },
+        {
+          "title": "1975 Australian constitutional crisis, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1975_Australian_constitutional_crisis",
+          "note": "Whitlam dismissed by Governor-General Sir John Kerr on 11 November 1975."
+        },
+        {
+          "title": "Skylab, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Skylab",
+          "note": "Re-entered on 11 July 1979 (UTC); debris found around Esperance; Shire of Esperance fined NASA A$400."
+        }
+      ],
+      "uncertainties": [
+        "No reliable dated source was found for typical pocket money in the 1970s, so the panel uses prices instead.",
+        "The 1973 prices are national averages for September 1973 and include home delivery of bread and milk; shop prices differed.",
+        "Colour TV officially began at midnight on 1 March 1975, but the ABC's Aunty Jack sketch went to air 30 seconds before midnight on 28 February.",
+        "An Australian Space Invaders sales flyer survives, but its printing date is not shown; the ABC says the song took off in late 1979.",
+        "Skylab broke up on 11 July 1979 by world time, which was already 12 July in Western Australia, so the panel says July 1979.",
+        "The picture of pinball in milk bars comes from general histories (Wikipedia and ABC News), not from a 1970s survey."
+      ]
+    },
+    {
+      "era": "1980s",
+      "title": "Being 12 in the 1980s",
+      "paragraphs": [
+        "Computers came into classrooms. In February 1982 an Australian computer, the Microbee, went on sale as a $399 kit you built yourself. It came from Applied Technology, a small Sydney electronics shop that later opened a factory at Gosford. After winning a New South Wales Department of Education order, the Microbee was sold ready-made, and many schools used it.",
+        "Money changed in your pocket. The $1 coin replaced the $1 note on 14 May 1984, and the $2 coin arrived on 20 June 1988. In January 1988 Australia issued the world's first plastic banknote, a $10 note for the Bicentenary. Parents surveyed in 2017 remembered getting about $1.67 a week in pocket money in the 1980s.",
+        "Arcades were full of games like Pac-Man and Frogger, and many milk bars swapped their pinball machines for video games. At home, families plugged an Atari 2600 into the TV or saved for a home computer. In August 1983 a Brisbane shop advertised the Commodore 64 for $699, then cut it to $499 a month later. Countdown ran on the ABC until July 1987.",
+        "Brisbane hosted the Commonwealth Games in 1982, with a giant winking kangaroo mascot called Matilda. On 16 February 1983 the Ash Wednesday bushfires killed 75 people in Victoria and South Australia. In September 1983 the yacht Australia II won the America's Cup. In 1988 Australia marked 200 years since the First Fleet arrived, and Brisbane held Expo 88."
+      ],
+      "fastFacts": [
+        "The $1 coin replaced the $1 note on 14 May 1984. The $2 coin followed on 20 June 1988. (Reserve Bank of Australia)",
+        "In January 1988 Australia issued the world's first plastic (polymer) banknote, a $10 note for the Bicentenary. (Reserve Bank of Australia)",
+        "The Australian-designed Microbee computer went on sale in February 1982 as a $399 kit. (Your Computer magazine, February 1982)",
+        "Neighbours started on 18 March 1985. Kylie Minogue's first single, Locomotion, spent seven weeks at number 1 in 1987. (Wikipedia)",
+        "The Slip! Slop! Slap! sun safety campaign, sung by Sid the Seagull, began in 1981. (Wikipedia)",
+        "The 1988 Bicentenary started a big national debate; some people said 1788 should be remembered as an invasion. (Wikipedia)"
+      ],
+      "compare": "Kids in the 1980s got about $1.67 a week in pocket money, and a Commodore 64 computer cost $499 at one Brisbane shop in September 1983. How many weeks would they have needed to save, and how does that compare with buying a game or device today?",
+      "sources": [
+        {
+          "title": "Your Computer (Australia), February 1982 (Internet Archive)",
+          "url": "https://archive.org/details/1982.02-your-computer",
+          "note": "'This month sees the release of a significant new computer, Australia's own $399 machine, Applied Technology's Bee'; 'inexpensive at $399 in kit form'."
+        },
+        {
+          "title": "Microbee PC85 computer and circuit board, Powerhouse Collection",
+          "url": "https://collection.powerhouse.com.au/object/473941",
+          "note": "Applied Technology began as a shop front in suburban northern Sydney; fully assembled Microbees on the market in 1982; Department of Education contracts; factory at Gosford."
+        },
+        {
+          "title": "MicroBee, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MicroBee",
+          "note": "Released as a kit in February 1982; repackaged and sold pre-built after winning the NSW Department of Education computer tender."
+        },
+        {
+          "title": "History of Australia's banknotes, Reserve Bank of Australia",
+          "url": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+          "note": "$1 coin introduced 14 May 1984; $2 coin 20 June 1988; polymer $10 commemorative note January 1988, a world first."
+        },
+        {
+          "title": "Aussie kids earn 250 per cent more pocket money than their parents, Commonwealth Bank, 2017",
+          "url": "https://www.commbank.com.au/guidance/newsroom/aussie-kids-earn-250-per-cent-more-pocket-money-201701.html",
+          "note": "2017 School Banking Study: parents who were children in the 80s received $1.67 a week."
+        },
+        {
+          "title": "Milk bar, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Milk_bar",
+          "note": "Pinball machines in milk bars were later upgraded to video games."
+        },
+        {
+          "title": "Atari 2600, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atari_2600",
+          "note": "Distributed in Australia by Futuretronics."
+        },
+        {
+          "title": "Your Computer (Australia), August 1983 and September 1983 (Internet Archive)",
+          "url": "https://archive.org/details/1983.08-your-computer-august-1983",
+          "note": "The VIC Centre, Stones Corner, Queensland: Commodore 64 $699 (August 1983); 'Prices slashed', $699 to $499 (September 1983, https://archive.org/details/1983.09-your-computer)."
+        },
+        {
+          "title": "Countdown (Australian TV program), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Countdown_(Australian_TV_program)",
+          "note": "Last episode 19 July 1987."
+        },
+        {
+          "title": "Neighbours, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neighbours",
+          "note": "First episode 18 March 1985."
+        },
+        {
+          "title": "The Loco-Motion, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Loco-Motion",
+          "note": "Kylie Minogue's Locomotion, July 1987, seven weeks at number 1 on the Kent Music Report."
+        },
+        {
+          "title": "Slip-Slop-Slap, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Slip-Slop-Slap",
+          "note": "Launched by Cancer Council Victoria in 1981 with Sid the Seagull."
+        },
+        {
+          "title": "1982 Commonwealth Games, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1982_Commonwealth_Games",
+          "note": "Brisbane, 30 September to 9 October 1982; mascot Matilda, a 13-metre winking kangaroo."
+        },
+        {
+          "title": "Ash Wednesday bushfires, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ash_Wednesday_bushfires",
+          "note": "16 February 1983; 75 deaths in Victoria and South Australia."
+        },
+        {
+          "title": "Australia II, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australia_II",
+          "note": "Won the 1983 America's Cup; deciding race 26 September 1983."
+        },
+        {
+          "title": "Australian Bicentenary, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_Bicentenary",
+          "note": "1988; debate on national identity and Indigenous rights; some wanted the colonisation remembered as an invasion."
+        },
+        {
+          "title": "World Expo 88, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/World_Expo_88",
+          "note": "Brisbane, 30 April to 30 October 1988."
+        }
+      ],
+      "uncertainties": [
+        "The pocket money figure is what parents remembered in a 2017 bank survey, not a record made in the 1980s.",
+        "Computer prices come from one Brisbane shop's advertisements in Your Computer magazine; other shops charged different prices.",
+        "The deciding America's Cup race was sailed on 26 September 1983 off Newport, USA, which was already 27 September in Australia, so the panel says September 1983.",
+        "No reliable dated source was found for how many Australian homes had an Atari 2600 or a home computer, or for when the Atari 2600 first went on sale here.",
+        "The New South Wales tender for the Microbee comes from Wikipedia; the Powerhouse confirms Department of Education contracts but gives no date."
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "gameId": "prowl",
+      "title": "Four chasers, four simple rules",
+      "yearLevels": "Years 5 to 8",
+      "idea": "Play Prowl for five minutes and watch one chaser at a time. Ask students to describe what each seems to be doing, then reveal that the ghosts in the 1980 game Pac-Man each followed one rule. Draw a small maze on grid paper or chalk it on the playground. One student is the runner and four are chasers, each given a target square on a card. At every junction a chaser steps the way that is closest to its target. Finish with the Then panel on Toru Iwatani and the ghosts' Japanese names.",
+      "computerAngle": "In Pac-Man every ghost uses the same path-finding steps; only its target square is different. At each junction a ghost looks at the exits it may take (it never turns back), measures the straight-line distance from each exit to its target and picks the shortest, breaking ties in the order up, left, down, right. Red targets Pac-Man's own square, pink aims four squares ahead of him, blue uses a point two squares ahead combined with red's position, and orange chases only while it is eight or more squares away, otherwise it heads for its corner. These rules come from Jamey Pittman's study of the game's code, The Pac-Man Dossier. Students can write each chaser's rule as an algorithm with branching (if, then, otherwise) inside a loop that repeats at every junction.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+    },
+    {
+      "gameId": "cascade",
+      "title": "Turning shapes on a grid",
+      "yearLevels": "Years 6 to 8",
+      "idea": "Give pairs grid paper and the seven Cascade shapes, each made of four squares. Students mark one square of the T shape as the centre and write the other squares as (x, y) coordinates measured from it. They turn the shape a quarter-turn, record the new coordinates and look for the pattern, then repeat for the L and S shapes. Test the pattern by predicting where a piece will sit after one turn in Cascade. Close with the Then panel: Alexey Pajitnov's first version drew the pieces with brackets on a text-only screen, and its help text says key 8 turns a piece.",
+      "computerAngle": "A falling-block game stores the playing field as a grid of numbers: 0 for an empty cell and 1 for a filled one. Each piece is a list of four squares measured from a pivot square. A quarter-turn clockwise moves a square at (x, y) to (y, -x) when y counts upwards; on a screen, where y usually counts downwards, the same turn is (x, y) to (-y, x). Doing it four times brings the shape back to the start. Before turning, a simple version of the program checks that every new square is inside the grid and empty; if not, the turn is refused. When a row is full of 1s it is removed and the rows above drop down one place.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+    },
+    {
+      "gameId": "television-tennis",
+      "title": "Why the ball bounces where it does",
+      "yearLevels": "Years 5 to 8",
+      "idea": "Pairs play Television Tennis and note when the ball comes back steep and when it comes back flat. Show the photo of the late-1970s Hanimex TV game with its switch marked ANGLE. On grid paper, students draw the court and trace a ball that moves 2 squares across and 1 square up each step, bouncing off the top and bottom walls, then try 2 across and 2 up. Finish with the Then panel: in 1972 Allan Alcorn made the Pong ball leave the bat at different angles depending on which of eight parts of the bat it hit.",
+      "computerAngle": "The ball's movement is two numbers added to its position every frame: how far it moves across (dx) and how far it moves up or down (dy). When it hits the top or bottom wall the program flips dy (dy becomes -dy), so the ball leaves the wall at the same angle it arrived. When it hits a bat, the program flips dx and chooses a new dy from where the ball struck: the middle of the bat sends it straight back, the ends send it away at a steep angle. Pong split each bat into eight parts to pick the new angle and sped the ball up during long rallies. These are conditionals (if the ball touches a wall, then flip dy) inside a loop that runs many times a second.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+    }
+  ]
+}

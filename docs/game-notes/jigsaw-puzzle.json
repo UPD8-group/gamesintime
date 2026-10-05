@@ -1,0 +1,13 @@
+{
+  "howToPlay": [
+    "Choose 12, 24, 48 or 96 pieces and pick a picture.",
+    "The pieces tip out around the board. Drag them onto the board.",
+    "A piece dropped near its true place clicks in and stays put. Two loose pieces that fit together stick and move as one.",
+    "Build the border first: Edges only hides the middle pieces until the frame is done.",
+    "Guide picture shows a faint copy on the board. Try to beat your best time for each size."
+  ],
+  "controls": "Drag pieces with a mouse or finger. Keyboard: Tab picks a piece, arrow keys move it (Shift for big steps), Enter drops it, G shows the guide picture, E shows edge pieces only.",
+  "computer": "",
+  "players": ["solo"],
+  "notes": "Wooden puzzles of the 1908 craze were cut by hand with a fretsaw, and many had no picture on the box and pieces that did not lock together. This version uses the interlocking tab-and-blank cut, so pieces can click together, and pieces always lie face up and the right way round, which makes it a little easier than the real thing. The pictures are the historical pictures from this site, shown with their captions and credits. If there are none, or one will not load, the computer paints a picture instead: Art Nouveau tiles, or a seaside poster in the style of 1908. John Spilsbury's dissected maps of the 1760s were cut along the borders of countries rather than into rows of pieces."
+}

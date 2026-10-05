@@ -1,0 +1,16 @@
+{
+  "howToPlay": [
+    "Press Start. Your ship waits in the middle of the screen with its nose pointing up.",
+    "Turn left or right, then thrust to push the ship the way its nose points. There are no brakes, so the ship keeps drifting and only slows down a little at a time.",
+    "Fly off one edge of the screen and you come back on the other side. The rocks and your shots do the same.",
+    "Shoot the rocks. A big rock breaks into two middle rocks, and a middle rock breaks into two small ones.",
+    "Big rocks are worth 20 points, middle rocks 50 and small rocks 100. Small rocks are fast, so they are hard to hit.",
+    "Only four of your shots can be on the screen at once, so make each one count.",
+    "If a rock touches your ship, you lose it. You have three ships. A new ship blinks for two seconds, and rocks cannot hurt it while it blinks.",
+    "Clear every rock and a new wave drifts in, with one more rock than before. See how high you can score."
+  ],
+  "controls": "Keyboard: Left and Right arrows (or A and D) turn, the Up arrow (or W) thrusts and Space fires. Touch or mouse: hold ⟲ or ⟳ to turn, hold ▲ to thrust and tap Fire to shoot. Start begins a game, Restart begins a fresh one and Stop ends it.",
+  "computer": "There is no computer player. Each rock drifts in a straight line and slowly spins, at a speed and direction picked at random when it appears. Smaller rocks move faster than big ones. Rocks wrap around the edges of the screen, just like your ship. New rocks always appear well away from your ship, so a new wave never lands right on top of you.",
+  "players": ["solo"],
+  "notes": "Ported from Drifter in the original 1983 neon arcade with the same screen, physics, speeds, scoring, sounds and controls. The em-dashes in the caption and the screen reader label became a middle dot and a full stop, to match this site's style. The section heading is left out because the game page already has a title. Your best score is kept in this site's storage, so it starts again from zero here. The site's status line also shows your score, the ships you have left and the game over message, and beating your best sets off the site's confetti and a message."
+}

@@ -1,0 +1,16 @@
+{
+  "howToPlay": [
+    "Red moves first. Tap one of your pieces, then a gold dot to move it there. You can play against the computer or a friend, and choose Red or White.",
+    "A man moves one square diagonally forward, onto a dark square.",
+    "To capture, jump diagonally over an enemy piece next to you onto the empty square just behind it. The jumped piece drops into your tray.",
+    "If you can capture, you must. The pieces that can jump glow, and the line above the board tells you.",
+    "If your piece can jump again after it lands, it must keep jumping in the same turn. Tap each landing ring in turn.",
+    "A man that reaches the far row is crowned a king, and that ends the move. Kings move and jump backwards as well as forwards.",
+    "You win when your rival has no pieces left or none of them can move.",
+    "Site rule: if 40 moves each go by with no capture and no man moving, the game is a draw."
+  ],
+  "controls": "Tap or click a piece, then a gold dot (a step) or a gold ring (a jump). Keyboard: Tab to the board, use the arrow keys to move around, Enter or Space to pick up a piece and put it down, and Escape to put it back.",
+  "computer": "The computer looks ahead: it imagines every move it could make, then every reply you could make, then its answer to that, and so on. Easy looks 2 moves ahead, Medium 4, and Hard 6 or more. It scores each board it imagines: 100 points for a man, 160 for a king, and a few points for men that have marched forward, men guarding the back row and pieces in the middle. It expects you to choose your best reply, and it plays the move that still scores best after that. This way of thinking is called minimax. It also skips any move as soon as it can see it is worse than one it has already found (alpha-beta pruning), and it never stops thinking halfway through a run of jumps. Easy adds some randomness to its scores, so it sometimes makes a mistake you can punish.",
+  "players": ["vs computer", "2 players"],
+  "notes": "English draughts as Andrew Anderson fixed the rules in 1852: an 8 by 8 board with a dark square in each player's bottom left corner, play on the dark squares only, 12 men each, the darker pieces move first, men move and capture diagonally forwards only, capturing is compulsory but you may choose which capture, a multi-jump must be finished with the same piece, reaching the far row crowns a man and ends the move, kings move and capture one square forwards or backwards, and a player who cannot move loses. Here the jumped pieces leave the board when the whole move is finished, so no piece can be jumped twice. Adapted: the pieces are red and ivory rather than black and white, to suit the parlour hall, so Red moves first. The 40-move draw (40 moves each with no capture and no man moving) is a site rule so that games against the computer always finish. Against the computer you can play either colour; playing White turns the board round so your pieces are at the bottom."
+}

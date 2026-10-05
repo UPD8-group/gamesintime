@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "Pick the game: Janken, Japan's rock, paper, scissors; the same game with the English chant; or mushi-ken, the older Japanese game of frog, slug and snake.",
+    "Choose your sign. Both hands shake three times to the chant (Jan, ken, pon!) and show their signs on the last beat.",
+    "Rock blunts scissors, scissors cut paper and paper wraps rock. In mushi-ken the frog beats the slug, the slug beats the snake and the snake beats the frog.",
+    "The same sign is a draw, so go again. The first to win three rounds wins the match.",
+    "Play the Hard computer and try not to fall into a pattern."
+  ],
+  "controls": "Tap or click a sign. Keyboard: 1, 2 and 3, or R, P and S in the rock, paper, scissors games. In mushi-ken, 1 is frog, 2 is slug and 3 is snake.",
+  "computer": "Easy picks at random every time, so nobody can predict it and nobody can beat it on purpose. Hard learns your habits. It keeps a tally of how often you play each sign, what you played after your last sign, and what you played after your last two signs. It adds those up to guess your most likely next move, then plays the sign that beats it. Play in a pattern, such as rock, paper, scissors over and over, and it will catch you within a few rounds. The only way to beat it for long is to be truly random, which is harder than it sounds.",
+  "players": [
+    "vs computer"
+  ],
+  "notes": "Who beats whom in mushi-ken (frog beats slug, slug beats snake, snake beats frog, shown with the thumb, the little finger and the index finger) follows Sansukumi-ken on Wikipedia, which cites Linhart (1998); the name means the hand game of the three who fear one another. Jan-ken-pon is the Japanese name and call (Rock paper scissors, Wikipedia), and rock blunts scissors, scissors cut paper, paper wraps rock is the usual rule. No call for mushi-ken was found in the sources, so the online version counts 'One, two, three!', one of the counts the catalogue's rules mention. A match is first to three round wins (best of five when nobody draws); the catalogue suggests best of three for settling who goes first. In the real game both players throw at once. Here you pick first, but the computer has already decided, using only your earlier moves, and then both hands shake and show together."
+}

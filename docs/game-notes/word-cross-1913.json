@@ -1,0 +1,14 @@
+{
+  "howToPlay": [
+    "Each clue gives two numbers, like 2-3. The answer runs from the cell with the first number to the cell with the second, across or down.",
+    "Tap a clue or a cell, then type. The cursor moves along the word by itself and hops over the printed F, U and N.",
+    "Tap the same cell again, or press Enter, to swap between the two words that cross there.",
+    "A word you get right is crossed off the clue list. Press Check answers to show any wrong letters in red.",
+    "Stuck? Reveal this word fills in the word you are on, and Reveal all fills in the whole puzzle, but a puzzle solved with Reveal does not count as a win.",
+    "Your letters are kept on this device, so you can come back later. New game clears the grid."
+  ],
+  "controls": "Tap a cell or a clue, then type. Tap the cell again or press Enter to swap between across and down. The arrow keys move around the grid, Tab steps along the word and then on to the clues, and Backspace rubs out.",
+  "computer": "",
+  "players": ["solo"],
+  "notes": "This is Arthur Wynne's Word-Cross from the New York World of 21 December 1913. As in the original, each clue names the numbers at both ends of its word instead of using across and down lists, and the word FUN is printed in the grid with no clue. The clues are kept exactly as Wynne wrote them, American spelling and all. Online, the cursor skips the printed letters, words you get right are crossed off the list, and there are buttons to check and reveal answers, which the newspaper page did not have."
+}
