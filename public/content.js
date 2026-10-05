@@ -746,11 +746,11 @@ window.GIT_CONTENT = {
         "The word 'tangram' itself is newer than the craze. Its first known use was in Thomas Hill's 'Geometrical Puzzle for the Young' in 1848, and it entered Webster's American Dictionary in 1864. Boxed sets with a booklet of fifty problems were still being sold in England in the 1840s."
       ],
       "howToPlay": [
-        "Start with the seven pieces: two large triangles, one medium triangle, two small triangles, one square and one parallelogram.",
-        "Choose a target silhouette, such as a cat, a sailing boat or a running figure.",
-        "Arrange all seven pieces, flat and touching, so their outline matches the silhouette. Every piece must be used and none may overlap.",
-        "Pieces can be rotated, and the parallelogram can be flipped over.",
-        "When you have matched the shape, try to invent a new silhouette for a friend to solve."
+        "Pick a puzzle from the puzzle book. Each black shape is made from all seven pieces: two large triangles, a medium triangle, two small triangles, a square and a parallelogram.",
+        "Drag the pieces out of the box onto the shape. A piece clicks into place when one of its corners lands on a corner of the shape or of another piece.",
+        "Turn a piece by double-tapping it, or with the turn buttons. Flip turns the parallelogram over.",
+        "Cover the whole shape exactly: every piece used, none overlapping, nothing sticking out.",
+        "Stuck? Hint slides one piece into its place, but it costs a star. Solve a puzzle with no hints for three stars."
       ],
       "didYouKnow": [
         "Only 13 different convex shapes (ones with no dents in their outline) can be made using all seven tangram pieces.",
@@ -794,7 +794,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "puzzle"
+      "type": "puzzle",
+      "controls": "Drag pieces with a mouse or finger. Double-tap a piece, or use the ↺ and ↻ buttons, to turn it. Keyboard: Tab picks a piece, arrow keys move it (Shift for bigger steps), R turns it (Shift R the other way), F flips the parallelogram, Enter drops it into place, H gives a hint.",
+      "adaptation": "The rules are the rules of 1817: use all seven pieces, no overlaps, turn any piece and flip the parallelogram. To make an exact fit possible with a mouse or finger, pieces turn in 45 degree steps and snap to a fine grid and to the corners of the picture. The 18 silhouettes (three letters, a cottage, a candle, a sailing boat, a teapot, a cat, a rabbit, a swan, a runner, a waving man, the square and others) are our own designs in the spirit of the 1817 puzzle books such as The Fashionable Chinese Puzzle, not copies of particular book pages. Each one was built from a known placement of the seven pieces and checked by a small computer program (right shapes, no overlaps, all seven used), so every puzzle can be solved exactly. The game checks your answer by sampling the board: the pieces must cover at least 98 per cent of the shape with no overlap and nothing outside, so a different arrangement that fills the shape also counts. Hints, stars and the timer are additions for the online version. History sources: Wikipedia, Tangram; the Puzzle Museum, 1817 Tangram Puzzle; Yale Center for British Art, The fashionable Chinese puzzle."
     },
     {
       "id": "draughts",
@@ -1327,7 +1329,7 @@ window.GIT_CONTENT = {
       ],
       "type": "board",
       "controls": "Tap or click one of your men, then a dot (a step) or a dotted ring (a chain of hops). With a mouse, point at a ring to see the whole chain. Keyboard: Tab to the board, use the arrow keys to move around, Enter or Space to pick up a man and put it down, and Escape to put it back.",
-      "adaptation": "Original two-player rules from the 1880s and 1890s (Foster's Complete Hoyle, 1897, and the Jaques board of about 1900 at the V&A): a board of 256 squares, 19 men each in corner yards of 5, 5, 4, 3 and 2 squares, steps in any of the eight directions, hops over any single man of either colour, as many hops as you like in one turn, no mixing steps and hops in one move, no captures, and hopping is never compulsory. The 1884 board also marks the smaller 13-square yards used by four players, and they are drawn here too. The rule that a man in the far yard may not leave it comes from modern summaries of the game. Two rules are ours. The quick board (10 by 10, 15 men each in a triangle of 5, 4, 3, 2 and 1) is for phones and short lessons, because 16 by 16 squares need about 520 pixels to stay big enough to tap. The no-blocking rule exists because the old rules do not say what happens if a player never empties their own yard, which would stop the other player ever winning. The four-player game is not included, and Red always moves first because the rules we found do not say who starts."
+      "adaptation": "Original two-player rules from the 1880s and 1890s (Foster's Complete Hoyle, 1897, and the Jaques board of about 1900 at the V&A): a board of 256 squares, 19 men each in a corner yard of 19 squares (laid out in the usual rows of 5, 5, 4, 3 and 2), steps in any of the eight directions, hops over any single man of either colour, as many hops as you like in one turn, no mixing steps and hops in one move, no captures, and hopping is never compulsory. Printed Halma boards also mark the smaller 13-square yards used by four players, and they are drawn here too. The rule that a man in the far yard may not leave it comes from modern summaries of the game. Two rules are ours. The quick board (10 by 10, 15 men each in a triangle of 5, 4, 3, 2 and 1) is for phones and short lessons, because 16 by 16 squares need about 520 pixels to stay big enough to tap. The no-blocking rule exists because the old rules do not say what happens if a player never empties their own yard, which would stop the other player ever winning. The four-player game is not included, and Red always moves first because the rules we found do not say who starts."
     },
     {
       "id": "reversi",
@@ -1543,11 +1545,11 @@ window.GIT_CONTENT = {
         "Over a million had sold by late April 1889. Copies appeared under names like Pigs in Sty. Crandall's patent was not granted until 10 September 1889, and even then he could not stop the imitators. The craze crossed the Atlantic: in June 1889 a newspaper in Chatham, New York State, joked that the English were 'squealing' because the puzzle had been introduced at the royal court. Mark Twain mentioned it in his 1892 novel The American Claimant."
       ],
       "howToPlay": [
-        "Hold the round box flat with the marbles resting in the outer ring.",
-        "Tilt the box gently so one marble rolls around until it finds the gap into the next ring.",
-        "Work it inwards through each ring until it drops into the centre pen.",
-        "Do the same for the other pigs without letting the first ones roll back out.",
-        "You win when every pig is in the pen. No fingers allowed."
+        "The four pink marbles are the pigs. They start outside the three rings.",
+        "Tilt the box so a pig rolls round its track to the gap, then tip it through into the next ring.",
+        "Work each pig inwards until it drops into the pen in the middle.",
+        "Pigs already in the pen can roll back out if you tilt too far, so go gently.",
+        "You win when all four pigs are in the pen at the same time. Narrow gaps is the harder setting."
       ],
       "didYouKnow": [
         "Crandall's factory went from 8000 puzzles a day to a reported 50,000 a day at the height of the craze.",
@@ -1596,7 +1598,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "puzzle"
+      "type": "puzzle",
+      "controls": "Arrow keys or W A S D tilt the box (hold Shift for a gentle tilt). With a mouse or finger, press and hold on the box where you want the pigs to roll. On a phone or tablet, press Tilt your device and tip it gently.",
+      "adaptation": "In the real toy you held the little round box in your hands and tilted it. Here you tilt it with the keys, by pressing on the box, or with the tilt sensor of a phone or tablet. No source we opened says how many marbles came in the box (four is the number usually given), so this version uses four. The gaps move to new places each game. The rolling is a computer simulation: gravity follows the tilt, the marbles slow down as they roll and bounce off the rings and each other. It is not a measurement of Crandall's original."
     },
     {
       "id": "ludo",
@@ -1626,7 +1630,7 @@ window.GIT_CONTENT = {
         "Pieces in early Ludo sets were flat discs of bone; today they are plastic or cardboard.",
         "Royal Navy sailors play a rowdy Ludo cousin called Uckers."
       ],
-      "computer": "The computer does not look ahead. It follows five rules, in order, and uses the first one that fits. 1: If it can land on one of your tokens, it sends it home, choosing the one that had gone furthest. 2: On a six, it brings a new token out of its yard. 3: If one of its tokens is in danger, because one of yours is 1 to 6 squares behind it, it moves that token somewhere safe. 4: If a token can reach the centre with exactly this throw, it takes it home. 5: Otherwise it moves the token that is furthest behind, but not into danger if a safer move exists.",
+      "computer": "The computer does not look ahead. It follows five rules, in order, and uses the first one that fits. 1: If it can land on one of your tokens, it sends it back to its yard, choosing the one that had gone furthest. 2: On a six, it brings a new token out of its yard. 3: If one of its tokens is in danger, because one of yours is 1 to 6 squares behind it, it moves that token somewhere safe. 4: If a token can reach the centre with exactly this throw, it takes it home. 5: Otherwise it moves the token that is furthest behind, but not into danger if a safer move exists.",
       "sources": [
         {
           "title": "Games Board (gamesboard.org.uk): Patent 14636, Royal Ludo",
@@ -1672,7 +1676,7 @@ window.GIT_CONTENT = {
       ],
       "type": "luck",
       "controls": "Tap the die, or press R or Space, to throw. Tap a glowing token to move it. Keyboard: after a throw, the first glowing token is selected; Tab goes to the next one, Enter moves it, and Escape goes back to the die.",
-      "adaptation": "Alfred Collier patented Royal Ludo in England in 1891 (patent 14636), and Ludo was on sale by 1896. We could not open an 1890s rule sheet, so the game follows plain English Ludo as the games historian David Parlett describes it (summarised by pachisi.vegard2.net): one die, a token comes out only on a six, a six earns another throw, two tokens of the same colour may not share a square, there are no safe squares and no blocks, and an exact throw is needed to get home. Landing on a rival's token sends it back to its yard. Common modern house rules that are not used: losing your turn after three sixes in a row, two tokens making a block, star-shaped safe squares, extra throws for a capture or for getting a token home, and playing with two dice. Adapted: on a six you may bring a token out or move one already on the board, and you choose your colour against the computer. The colours (red, green, yellow and blue, clockwise from the top left) are drawn from the 1890s hall's palette."
+      "adaptation": "Alfred Collier patented Royal Ludo in England in 1891 (patent 14636), and Ludo was on sale by 1896. We could not open an 1890s rule sheet, so the game follows plain English Ludo as described by pachisi.vegard2.net, which draws on David Parlett's Oxford History of Board Games: one die, a token comes out only on a six, a six earns another throw, two tokens of the same colour may not share a square, there are no safe squares and no blocks, and an exact throw is needed to get home. Landing on a rival's token sends it back to its yard. Common modern house rules that are not used: losing your turn after three sixes in a row, two tokens making a block, star-shaped safe squares, extra throws for a capture or for getting a token home, and playing with two dice. Adapted: on a six you may bring a token out or move one already on the board, and you choose your colour against the computer. The colours (red, green, yellow and blue, clockwise from the top left) are drawn from the 1890s hall's palette."
     },
     {
       "id": "snakes-and-ladders",
@@ -2122,11 +2126,11 @@ window.GIT_CONTENT = {
         "Parker Brothers of Salem, Massachusetts, began advertising its Pastime puzzles in July 1908. In 1909 the firm stopped making games altogether, employed 300 workers and rented another building just to cut puzzles. The craze reached London by 1909, when Raphael Tuck and Sons began its Zag-Zaw puzzles for adults, and a second boom came in the Great Depression."
       ],
       "howToPlay": [
-        "Tip the pieces out face up and turn over any that are face down.",
-        "Sort out the edge pieces, which have at least one straight side, and build the frame first.",
-        "Group the remaining pieces by colour or pattern, such as sky, water or faces.",
-        "Work on one area at a time, using the picture on the box to guide you.",
-        "Keep going until every piece is in place. Early wooden puzzles had no picture on the box and pieces that did not interlock, which made them much harder."
+        "Choose 12, 24, 48 or 96 pieces and pick a picture.",
+        "The pieces tip out around the board. Drag them onto the board.",
+        "A piece dropped near its true place clicks in and stays put. Two loose pieces that fit together stick and move as one.",
+        "Build the border first: Edges only hides the middle pieces until the frame is done.",
+        "Guide picture shows a faint copy on the board. Try to beat your best time for each size."
       ],
       "didYouKnow": [
         "Spilsbury's first puzzles were maps cut along borders, so each piece was a whole country.",
@@ -2192,7 +2196,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "puzzle"
+      "type": "puzzle",
+      "controls": "Drag pieces with a mouse or finger. Keyboard: Tab picks a piece, arrow keys move it (Shift for big steps), Enter drops it, G shows the guide picture, E shows edge pieces only.",
+      "adaptation": "Wooden puzzles of the 1908 craze were cut by hand with a fretsaw, and many had no picture on the box and pieces that did not lock together. This version uses the interlocking tab-and-blank cut, so pieces can click together, and pieces always lie face up and the right way round, which makes it a little easier than the real thing. The pictures are the historical pictures from this site, shown with their captions and credits. If there are none, or one will not load, the computer paints a picture instead: Art Nouveau tiles, or a seaside poster in the style of 1908. John Spilsbury's dissected maps of the 1760s were cut along the borders of countries rather than into rows of pieces."
     },
     {
       "id": "word-cross-1913",
@@ -2310,7 +2316,7 @@ window.GIT_CONTENT = {
       ],
       "type": "board",
       "controls": "Tap or click a square to fire. Keyboard: arrows move the target and Enter fires. When placing: arrows move, Enter picks up or puts down a ship, and R rotates it. On a phone, Show my fleet big swaps the sizes of the two grids.",
-      "adaptation": "Nobody knows who invented the pencil-and-paper game, and early players drew their own grids and chose their own fleets. The fleet here follows the pencil-and-paper version described by the game historian Bruce Whitehill (The Big Game Hunter, 'Pencil and paper games', https://thebiggamehunter.com/playing/pencil-paper-games/): a battleship of 5, a cruiser of 4, a destroyer of 3 and a submarine of 2, in straight lines across or down, with letters across the top and numbers down the side, and with the defender saying which ships were hit. Those rules do not forbid ships touching, so here they may touch but never overlap. Salvo, one shot for each ship still afloat, follows Wikipedia's description of the 1931 Salvo edition published by the Starex company. In the paper game the results of a salvo were announced together, without saying which square hit; here each shot is marked as it lands to keep the game quick. The aircraft carrier of the later plastic editions is left out because the game is presented as it was played around the First World War."
+      "adaptation": "Nobody knows who invented the pencil-and-paper game, and early players drew their own grids and chose their own fleets. The fleet here follows the pencil-and-paper version described by the game historian Bruce Whitehill (The Big Game Hunter, 'Pencil and paper games', https://thebiggamehunter.com/playing/pencil-paper-games/): a battleship of 5, a cruiser of 4, a destroyer of 3 and a submarine of 2, in straight lines across or down, with letters across the top and numbers down the side, and with the defender saying which ships were hit. Those rules do not forbid ships touching, so here they may touch but never overlap. Salvo, one shot for each ship still afloat, follows Wikipedia's description of the 1931 Salvo edition published by the Starex company. Wikipedia says those pads started players on five shots, one for each of five ships, but does not say what the ships were, so this game keeps Whitehill's four-ship pencil fleet and a full salvo is four shots. In the paper game the results of a salvo were announced together, without saying which square hit; here each shot is marked as it lands to keep the game quick. The aircraft carrier of the later plastic editions is left out because the game is presented as it was played around the First World War."
     },
     {
       "id": "memory-handset",
@@ -5364,6 +5370,305 @@ window.GIT_CONTENT = {
       "focus": "45% 25%",
       "width": 1600,
       "height": 1200
+    },
+    "hall-1880s": {
+      "hero": "img/hall-1880s-1600.webp",
+      "card": "img/hall-1880s-720.webp",
+      "alt": "Oil painting of a cosy farmhouse room with a tall clock and a curtained bed alcove. A smiling young woman in a white cap and apron holds a counter as she plays draughts against a young man in red breeches, who sits on a bench scratching his head over the board. Another young man holding a pipe leans in to watch, and an older woman looks on from behind.",
+      "caption": "Das Damespiel (The Game of Draughts): a game at home, painted by Otto Kirberg in 1882",
+      "credit": "Otto Kirberg, 1882. Private collection (sold by Van Ham Kunstauktionen), via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Otto_Kirberg_Das_Damespiel.jpg",
+      "focus": "62% 62%",
+      "width": 1600,
+      "height": 1215
+    },
+    "hall-1890s": {
+      "hero": "img/hall-1890s-1600.webp",
+      "card": "img/hall-1890s-720.webp",
+      "alt": "Colour advertising card showing four children indoors on a green rug: a boy in a white shirt with a big yellow bow and a girl in a pinafore sit on wooden stools playing draughts on a board held between them, a small girl sits on the floor watching, and a taller girl holding a doll stands at the right. The words McLaughlin's XXXX Coffee are printed along the bottom.",
+      "caption": "Children playing draughts on a coffee company's advertising card, printed in the United States in 1892",
+      "credit": "Cosack & Co., Buffalo and Chicago, for McLaughlin's Coffee, 1892. Cooper Hewitt, Smithsonian Design Museum, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Trade_Card,_Advertisement_for_McLaughlin%27s_Coffee_from_the_Children%27s_Scenes_and_Life_Series,_ca._1892_(CH_18442585).jpg",
+      "focus": "50% 45%",
+      "width": 1600,
+      "height": 1208
+    },
+    "hall-1900s": {
+      "hero": "img/hall-1900s-1600.webp",
+      "card": "img/hall-1900s-720.webp",
+      "alt": "Black-and-white photograph of boys sitting on a city footpath playing draughts with round counters on the pavement, while other children in caps and shirtsleeves crowd round to watch.",
+      "caption": "Boys playing draughts on the footpath, New York City, between 1908 and 1915",
+      "credit": "Bain News Service, 1908 to 1915. Library of Congress, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:New_York_City_-_children_on_the_street-_boys_playing_checkers_in_the_street_LCCN2003656073.jpg",
+      "focus": "45% 60%",
+      "width": 1246,
+      "height": 808
+    },
+    "kids-1880s": {
+      "hero": "img/kids-1880s-1600.webp",
+      "card": "img/kids-1880s-720.webp",
+      "alt": "Black-and-white photograph of about sixty schoolchildren and their teachers standing in rows on the verandah of a wooden schoolhouse with a shingled roof. The youngest sit in front behind a long board painted Springsure, May 1884, and a young woman in the back row holds a baby.",
+      "caption": "Pupils and teachers on the verandah of the first Springsure State School, Queensland, May 1884",
+      "credit": "Unknown photographer, 1884. John Oxley Library, State Library of Queensland, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_112612_Springsure_State_School_student_group,_1884.jpg",
+      "focus": "50% 70%",
+      "width": 950,
+      "height": 722
+    },
+    "kids-1890s": {
+      "hero": "img/kids-1890s-1600.webp",
+      "card": "img/kids-1890s-720.webp",
+      "alt": "Black-and-white photograph of about forty children with a male and a female teacher, posed in rows on the grass in front of a weatherboard schoolhouse with a verandah and a white picket fence. A girl in the middle holds up a slate with the school's name chalked on it, and another girl in the front row holds a doll.",
+      "caption": "Pupils and teachers outside Kettering State School, Tasmania, 1896",
+      "credit": "Unknown photographer, 1896. Libraries Tasmania, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Pupils_and_teachers_of_Kettering_State_School,_Tasmania,_assembled_in_front_of_the_school_building,_1896.jpg",
+      "focus": "50% 72%",
+      "width": 1600,
+      "height": 1108
+    },
+    "kids-1900s": {
+      "hero": "img/kids-1900s-1600.webp",
+      "card": "img/kids-1900s-720.webp",
+      "alt": "Black-and-white street photograph of a man in a felt hat carrying a big leather-covered case on his back, with a monkey in a striped jacket and cap perched on top of it, held on a chain. Girls in wide straw hats stand beside him and a boy in a checked cap and braces watches from the right, with weatherboard houses behind.",
+      "caption": "Children gather round a man with a monkey dressed in a cap and jacket, Tasmania, about 1900",
+      "credit": "Unknown photographer, about 1900. Tasmanian Archive and Heritage Office (Libraries Tasmania, NS1013-1-1269), via Wikimedia Commons",
+      "license": "No known copyright restrictions",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "source": "https://commons.wikimedia.org/wiki/File:Man_with_Monkey_and_Children_(c1900)_(11229284305).jpg",
+      "focus": "50% 30%",
+      "width": 1600,
+      "height": 842
+    },
+    "kids-1910s": {
+      "hero": "img/kids-1910s-1600.webp",
+      "card": "img/kids-1910s-720.webp",
+      "alt": "Black-and-white photograph of hundreds of schoolboys in dark suits and straw boater hats standing in rows in a large asphalt playground, all raising their arms above their heads in a drill exercise. Wooden school buildings stand on the left and a brick building with arched windows on the right.",
+      "caption": "Senior boys doing drill in the playground at Fort Street School, Sydney, August 1913",
+      "credit": "NSW Government Printing Office, 1913. State Records NSW (NRS 4481), via Wikimedia Commons",
+      "license": "No known copyright restrictions",
+      "licenseUrl": "https://www.flickr.com/commons/usage/",
+      "source": "https://commons.wikimedia.org/wiki/File:Fort_Street_School,_senior_boys_(16512381511).jpg",
+      "focus": "50% 70%",
+      "width": 1228,
+      "height": 924
+    },
+    "fifteen-puzzle": {
+      "hero": "img/fifteen-puzzle-1600.webp",
+      "card": "img/fifteen-puzzle-720.webp",
+      "alt": "Colour cartoon of a white-haired man in a dark suit perched on a stool, holding his forehead as he works a sliding puzzle in a big wooden box marked The Boss Puzzle. Each numbered square has a politician's head poking up through it, labelled with names such as Grant, Blaine, Sherman and Tilden, and one square is empty.",
+      "caption": "The Great Presidential Puzzle: a cartoon in Puck magazine, New York, March 1880, when the Fifteen Puzzle craze was at its height",
+      "credit": "James Albert Wales, 1880 (lithograph by Mayer, Merkel & Ottmann for Puck). Library of Congress, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:15-14-13._The_great_presidential_puzzle_-_J.A._Wales._LCCN2007684705.jpg",
+      "focus": "50% 30%",
+      "width": 1600,
+      "height": 1185
+    },
+    "reversi": {
+      "hero": "img/reversi-1600.webp",
+      "card": "img/reversi-720.webp",
+      "alt": "Worn red-and-cream Victorian book cover with a chequered border and game pieces in the corners. The lettering reads Handbook of Reversi and other new games of skill: Invasion, Halma, Fanarona. Explanations, rules, problems and suggestions to players. Price 1/-. Published by F. H. Ayres, London.",
+      "caption": "The Handbook of Reversi and other new games of skill, sold for one shilling by F. H. Ayres, London, 1889",
+      "credit": "F. H. Ayres, London, 1889 (date from the title page). Internet Archive",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://archive.org/details/handbook_reversi",
+      "focus": "50% 33%",
+      "width": 1156,
+      "height": 1600
+    },
+    "halma": {
+      "hero": "img/halma-1600.webp",
+      "card": "img/halma-720.webp",
+      "alt": "Black-and-white engraved advertisement showing three smiling children with their arms around each other above the words We are all so happy. Large lettering below reads The Popular Game Halma, E. I. Horsman, Publisher, 80 and 82 William St. N.Y.",
+      "caption": "An advertisement for The Popular Game Halma, published by E. I. Horsman of New York, in The Century magazine, 1890",
+      "credit": "E. I. Horsman, 1890. The Century Illustrated Monthly Magazine, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Halma_advert.jpg",
+      "focus": "50% 30%",
+      "width": 1280,
+      "height": 852
+    },
+    "tiddlywinks": {
+      "hero": "img/tiddlywinks-1600.webp",
+      "card": "img/tiddlywinks-720.webp",
+      "alt": "Colourful box lid lettered The Popular Game of Tiddledy Winks, New Edition 1897, Parker Brothers, Salem, Mass. A family gathers round a green table: a boy flicks a coloured counter towards a small cup while his father, mother and sister watch.",
+      "caption": "Box lid for The Popular Game of Tiddledy Winks, an 1897 edition made in Salem, Massachusetts",
+      "credit": "Parker Brothers, 1897. Miami University Libraries, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:TiddledyWinksCover_(13382731004).jpg",
+      "focus": "40% 55%",
+      "width": 1280,
+      "height": 1267
+    },
+    "dots-and-boxes": {
+      "hero": "img/dots-and-boxes-1600.webp",
+      "card": "img/dots-and-boxes-720.webp",
+      "alt": "Page from an 1889 French science magazine headed Nouveaux jeux scientifiques de M. Édouard Lucas, with two engravings of peg boards. On the left, La Fasioulette, a board criss-crossed with bars. On the right, La Pipopipette: a dark board with a square grid of pegs, where white bars hooked between neighbouring pegs close off small squares. Above each board is a close-up of a peg.",
+      "caption": "La Pipopipette, Édouard Lucas's dots-and-boxes board (right), in the French science magazine La Nature, 5 October 1889",
+      "credit": "Engraving signed Poyet, La Nature no. 853, 5 October 1889, p. 301. Source gallica.bnf.fr / Bibliothèque nationale de France",
+      "license": "Public domain",
+      "licenseUrl": "https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica",
+      "source": "https://gallica.bnf.fr/ark:/12148/bd6t512172795/f7.item",
+      "focus": "75% 72%",
+      "width": 1600,
+      "height": 1307
+    },
+    "pigs-in-clover": {
+      "hero": "img/pigs-in-clover-1600.webp",
+      "card": "img/pigs-in-clover-720.webp",
+      "alt": "Colour cartoon of Uncle Sam, with untidy white hair, a blue coat and striped trousers, slumped in a green armchair and holding his head as he stares at a round Pigs in Clover puzzle in his hand. A Fifteen Puzzle box lies on the floor beside him. The caption reads: The Pigs In Clover and Fifteen Puzzle were the next Crazes that he succumbed to.",
+      "caption": "Uncle Sam baffled by the Pigs in Clover puzzle, with a Fifteen Puzzle at his feet: one panel of a Puck cartoon about American crazes, 1896",
+      "credit": "Frederick Burr Opper, 1896 (detail of Uncle Sam's Crazes, Past and Present, Puck). Library of Congress, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Uncle_Sam%27s_%22crazes%22_past_and_present_-_F._Opper._LCCN2012648548.jpg",
+      "focus": "50% 40%",
+      "width": 1600,
+      "height": 1353
+    },
+    "ludo": {
+      "hero": "img/ludo-1600.webp",
+      "card": "img/ludo-720.webp",
+      "alt": "Watercolour of four men in turbans and white cloth sitting on the ground around a red cross-shaped cloth board with dark playing pieces on it. A bearded man on the right reaches out to move a piece, with a few small white shells by his hand, while an older man holding a long stick sits on the left. A faint handwritten pencil note runs along the bottom.",
+      "caption": "Four men playing pachisi, the Indian game that Ludo was adapted from: a watercolour painted in India, probably in 1851",
+      "credit": "William Carpenter, probably 1851. Victoria and Albert Museum, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:1851_Indian_men_playing_a_game_of_pachisi.jpg",
+      "focus": "50% 28%",
+      "width": 1600,
+      "height": 1204
+    },
+    "snakes-and-ladders": {
+      "hero": "img/snakes-and-ladders-1600.webp",
+      "card": "img/snakes-and-ladders-720.webp",
+      "alt": "Painted game board on cloth: a grid of numbered squares labelled in Devanagari script, with long dark snakes winding down across it and thin pale ladders leading upwards. Above the grid is a pavilion with seated crowned figures, flags and peacocks, a crowned rider on a deer to the left and a rider on a horse to the right.",
+      "caption": "A Jain snakes-and-ladders board called gyan bazi, painted in gouache on cloth, India, 19th century",
+      "credit": "Unknown Jain artist, 19th century (date as given by the source). Via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Snakes_and_Ladders.jpg",
+      "focus": "50% 62%",
+      "width": 1280,
+      "height": 1540
+    },
+    "hangman": {
+      "hero": "img/hangman-1600.webp",
+      "card": "img/hangman-720.webp",
+      "alt": "Oil painting of a young girl in a red bonnet, red checked dress and blue apron standing in the snow. She holds a school slate with books on it in one arm and a basket of red-and-white striped cloth on the other, with snowy village roofs behind her.",
+      "caption": "A Swiss schoolgirl with her slate, books and sewing basket, painted by Albert Anker in 1878",
+      "credit": "Albert Anker, 1878. Kunstmuseum Bern, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Albert_Anker-Schulm%C3%A4dchen_mit_Schiefertafel_und_N%C3%A4hk%C3%B6rbchen,_1878.jpg",
+      "focus": "45% 24%",
+      "width": 1207,
+      "height": 1600
+    },
+    "nim": {
+      "hero": "img/nim-1600.webp",
+      "card": "img/nim-720.webp",
+      "alt": "Photograph of a wooden box with a clear plastic top full of wires and relays. Its front panel is labelled Nimwit, with Player wins and Machine wins signs, four columns of small lamps, four black buttons and two dials.",
+      "caption": "Nimwit, a Nim-playing machine built by the mathematician Claude Shannon around 1953, now in the MIT Museum",
+      "credit": "Photograph by Daderot, 2026, of an object in the MIT Museum, via Wikimedia Commons",
+      "license": "CC0 (public domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Nimwit_by_Claude_Shannon,_Nim-playing_machine,_c._1953,_view_1_-_MIT_Museum_-_Cambridge,_MA_-_DSC09104.jpg",
+      "focus": "50% 45%",
+      "width": 1220,
+      "height": 1130
+    },
+    "klondike": {
+      "hero": "img/klondike-1600.webp",
+      "card": "img/klondike-720.webp",
+      "alt": "Black-and-white photograph of a long single-file line of people bent under heavy packs, climbing a steep snow slope towards a mountain pass, with more people, sleds and piles of supplies at the bottom.",
+      "caption": "Gold seekers climbing the snowy Chilkoot Pass on the way to the Klondike gold fields, Alaska, 1898",
+      "credit": "Eric A. Hegg, 1898. Library of Congress, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Packers_ascending_the_summit_of_Chilkoot_Pass_during_the_gold_rush_of_1898_LCCN2012646448.tif",
+      "focus": "50% 55%",
+      "width": 1600,
+      "height": 1277
+    },
+    "diabolo": {
+      "hero": "img/diabolo-1600.webp",
+      "card": "img/diabolo-720.webp",
+      "alt": "Black-and-white photograph of a small girl in a frilly white dress and bonnet holding two sticks joined by a string, with a diabolo spool on the ground at her feet. Empty wooden grandstands rise on the right and a man in white stands blurred in the background.",
+      "caption": "A young girl playing diabolo, France, 1907, at the height of the diabolo craze",
+      "credit": "Agence Rol, 1907. Bibliothèque nationale de France, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Jeune_joueuse_de_diabolo_-_btv1b53207202t.jpg",
+      "focus": "40% 85%",
+      "width": 1600,
+      "height": 1118
+    },
+    "jigsaw-puzzle": {
+      "hero": "img/jigsaw-puzzle-1600.webp",
+      "card": "img/jigsaw-puzzle-720.webp",
+      "alt": "An old hand-coloured map of Europe mounted on wood and cut into pieces along the borders of the countries. A few pieces are missing, leaving dark gaps where Scotland, the Netherlands and some islands should be. A decorated title in the corner reads Europe divided into its kingdoms, 1766.",
+      "caption": "John Spilsbury's map of Europe cut into pieces along the borders, one of the first jigsaw puzzles, London, 1766",
+      "credit": "John Spilsbury, 1766. British Library, via Wikimedia Commons",
+      "license": "CC0 (public domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Spilsbury_jigsaw_-_John_Spilsbury,_1766_-_BL.jpg",
+      "focus": "50% 50%",
+      "width": 1280,
+      "height": 1198
+    },
+    "rock-paper-scissors": {
+      "hero": "img/rock-paper-scissors-1600.webp",
+      "card": "img/rock-paper-scissors-720.webp",
+      "alt": "Colour woodblock print of three kabuki actors in brightly patterned robes. Two crouch side by side at the front, holding out their hands in game gestures, while the third leans over behind them with his hands at his mouth, watching. The upper half of the print is filled with small grey figures showing the poses of the game, with lines of Japanese writing between them and a large title in black.",
+      "caption": "Kabuki actors playing a ken hand game, a Japanese relative of rock-paper-scissors: woodblock print titled Hatsuuma tanuki-ken, Japan, 1861",
+      "credit": "Utagawa Yoshitsuya, 1861. National Diet Library, Japan, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:NDL-DC_1301927-Utagawa_Yoshitsuya-%E5%88%9D%E5%8D%88%E7%8B%B8%E6%8B%B3-%E6%96%87%E4%B9%851-crd.jpg",
+      "focus": "50% 52%",
+      "width": 1086,
+      "height": 1600
+    },
+    "word-cross-1913": {
+      "hero": "img/word-cross-1913-1600.webp",
+      "card": "img/word-cross-1913-720.webp",
+      "alt": "Black-and-white photograph of a very old man with white hair and a beard, in a dark suit and tie, sitting at a small table and filling in a newspaper crossword with a pencil, with a thick dictionary propped open beside him.",
+      "caption": "Ambrose Hines of Washington, D.C., who had just turned 100, solving a newspaper crossword during the crossword craze, 1925",
+      "credit": "Harris & Ewing, 1925. Library of Congress, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_age_versus_the_cross_word_puzzle._They_don%27t_come_too_hard_for_Ambrose_Hin(...)_D.C.,_who_just_celebrated_his_one_hundredth_(...)_%22Bring_on_the_hard_ones,%22_says_Mr._Hines._%22I%27ve_(...)_LCCN2016894037.jpg",
+      "focus": "45% 55%",
+      "width": 1600,
+      "height": 1345
+    },
+    "battleship": {
+      "hero": "img/battleship-1600.webp",
+      "card": "img/battleship-720.webp",
+      "alt": "Black-and-white photograph of a huge grey warship at anchor, seen from close to the bow, with two tall masts, three funnels and a long gun barrel pointing forward. A ladder runs down her side to a small boat, and the words H.M.A.S. Australia are written along the bottom of the picture.",
+      "caption": "The battlecruiser HMAS Australia, the Royal Australian Navy's first flagship, which was commissioned in 1913",
+      "credit": "Bain News Service, date unknown. Library of Congress, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://www.loc.gov/rr/print/res/274_bain.html",
+      "source": "https://commons.wikimedia.org/wiki/File:H.M.A.S._Australia_LCCN2014697075.jpg",
+      "focus": "55% 62%",
+      "width": 1600,
+      "height": 1076
     }
   }
 };
