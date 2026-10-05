@@ -1,0 +1,17 @@
+{
+  "howToPlay": [
+    "First, lag: drag back from your taw and let go to roll it up towards the chalk line near the top of the ring. Whoever stops closer to the line shoots first.",
+    "Thirteen marbles sit in a cross in the middle of the ring. On your shot your taw sits on the edge of the ring. Tap outside the ring to move it anywhere round the edge.",
+    "Drag back from your taw to aim and set the power, and let go to shoot. In the playground you would kneel, knuckle down on the edge and flick it with your thumb.",
+    "Every marble you knock right over the chalk line is yours, and you shoot again.",
+    "Knock nothing out and it is the computer's shot.",
+    "If your taw stops inside the ring you are \"fat\": every marble you won this turn rolls back into the ring, and the computer shoots. Hit hard enough that your taw rolls right out.",
+    "Win more than half of the marbles, 7 of the 13, to win the ring."
+  ],
+  "controls": "Drag back from your taw and let go to shoot. The further you pull, the harder the flick. Tap outside the ring to move your taw round the edge. Keyboard: Left and Right arrows aim, Up and Down move round the ring, hold Space to build power and let go to shoot.",
+  "computer": "The computer looks at each marble and works out where its taw must touch it to send it out of the ring, the same trick billiards players use. It walks round the edge to find a spot with a clear path, then plays its best ideas in its head, using the same rolling and clicking as the real game, and picks a shot that knocks marbles out without leaving its own taw in the ring. It knows its hand wobbles, so it prefers shots that still work if it is a little off. Its hand wobbles a lot on Easy and much less on Hard: about 4 in 10 of its shots knock a marble out on Easy, 6 in 10 on Medium and 3 in 4 on Hard.",
+  "players": [
+    "vs computer"
+  ],
+  "notes": "Rules follow Ring Taw as Alice Gomme described it in 1898 (The Traditional Games of England, Scotland and Ireland, vol. 2, entry Ring-taw) and as the game's rules on this site give them: a ring drawn on the ground with marbles inside it, a lag to decide who shoots first (the closer marble to the line shoots first), shooting from the edge of the ring, carrying on shooting as long as you knock marbles out, and the \"fat\" rule, where a taw that stops inside the ring puts back every marble won that turn and the other player shoots. Adapted for a screen: the 13 marbles stand in a cross, as in later ring games, instead of equal shares put in by each player, so a game is won by the first to reach 7 (more than half) rather than by emptying the ring; both lag shots roll from the bottom of the ring towards a chalk line across the top, instead of bowling from a line a few steps away; a marble counts as out only when the whole of it is past the chalk line; your taw is put on the edge of the ring for every shot, and you may move it anywhere round the edge; the taw is treated as a heavier \"alley\", so it rolls on after a hit the way a good taw does; the marbles are drawn larger than life so they can be seen on a phone or a projector. Marbles knocked out are kept only for the length of the game, which is how the site suggests playing at school rather than for \"keepsies\". The physics: marbles skid when struck, then grip and roll, lose a little speed as they roll, and bounce off each other elastically; the clicks are pitched and as loud as the knock."
+}

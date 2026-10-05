@@ -1,0 +1,18 @@
+{
+  "howToPlay": [
+    "Each player has four winks of one colour, starting at their end of the felt mat, with the cup in the middle. Yours are red.",
+    "To squidge a wink, drag back from it and let go. The squidger presses down on the far edge of the wink and it hops the other way. The further you pull, the further it flies.",
+    "Land a wink in the cup to pot it, and you shoot again. Clip the rim and it may rattle in, or bounce out. Too low, and it hits the side of the cup.",
+    "Land on top of another wink to squop it. A squopped wink has a dashed ring round it and cannot be played until the wink on top moves off.",
+    "A wink that flies off the mat goes back on at the edge.",
+    "Against the computer you take turns, one wink each turn. The first to pot all four winks wins.",
+    "Solo: pot all four in as few shots as you can. Your best is remembered."
+  ],
+  "controls": "Drag back from one of your winks and let go. Keyboard: Tab to a wink, Left and Right arrows aim (Up and Down make small changes), hold Space to build power and let go to squidge.",
+  "computer": "For each of its winks that is free to play, the computer imagines 24 squidges at the middle of the cup, each with the same wobble its hand really has, and counts how many would go in. Then it plays the wink with the best chance. On Hard, if no pot looks likely, it may squop your wink that is nearest the cup instead. If one of its winks is pressed right against the cup, where it cannot hop in, it hops it back to a better spot first. On Easy about 1 shot in 4 from the starting row goes in, on Medium about 2 in 5, and on Hard about 2 in 3.",
+  "players": [
+    "solo",
+    "vs computer"
+  ],
+  "notes": "Follows the game Joseph Assheton Fincher patented in 1888 and sold as Tiddledy-Winks from 1889: small counters (winks) are made to jump by pressing their edge with a larger counter (the squidger), and the aim is to land them in a cup on a felt mat or tablecloth. Potting a wink earns another shot, as the rules on this page say. Squopping follows the earliest printed rules of 1890, which already said a wink covered by another could not be played; back then landing on a rival on purpose was thought bad form, but it is allowed here (as in the later game) because it makes the game more interesting, and it is explained on the screen. Adapted for a screen: one player against the computer, or alone, with four winks of a colour; a wink that leaves the mat is put back at the edge, as later rules do; a landing wink either makes a clean squop or slides off to rest beside the other wink, and never knocks other winks about; the cup is drawn with a little height so that a low wink can hit its side and a wink can clip the rim. The mat carries the 1889 trademark spelling, Tiddledy-Winks, as an 1880s set would."
+}
