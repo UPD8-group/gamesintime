@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Games in Time</title>
+  <meta name="description" content="Play the games kids played a hundred years and more ago. Free, digitised games from the 1800s to the 1910s, with the true story of who played them.">
+  <meta name="theme-color" content="#13403d">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="games/noughts-and-crosses.js" defer></script>
+  <script src="games/fifteen-puzzle.js" defer></script>
+  <script src="games/reversi.js" defer></script>
+  <script src="games/dots-and-boxes.js" defer></script>
+  <script src="games/snakes-and-ladders.js" defer></script>
+  <script src="games/hangman.js" defer></script>
+  <script src="games/nim.js" defer></script>
+  <script src="games/word-cross-1913.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="site-header">
+  <a class="brand" href="#/" aria-label="Games in Time, home">
+    <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="3"/><path d="M24 11v13l8 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 24a16 16 0 0 1 4-10.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 4"/></svg>
+    <span class="brand-text">Games <em>in</em> Time</span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav class="site-nav" id="site-nav" aria-label="Main">
+    <a href="#/">Home</a>
+    <a href="#/all">All games</a>
+    <a href="#/real-life">Play in real life</a>
+    <a href="#/teachers">Teachers</a>
+    <a href="#/about">About</a>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+  </nav>
+</header>
+<main id="main" class="site-main" tabindex="-1"></main>
+<footer class="site-footer">
+  <p><strong>Games in Time</strong> is free for everyone. No accounts, no ads, no tracking.</p>
+  <p>Sister site: <a href="https://1973.ai" rel="noopener">1973.ai</a> for the 1970s, 80s and 90s. <a href="#/about">About this project</a> · <a href="#/teachers">For teachers</a></p>
+</footer>
+<div id="sr-live" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
