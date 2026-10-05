@@ -45,7 +45,7 @@ Plain HTML, CSS and JavaScript. No framework, no build step and no dependencies 
 | `docs/research/` | The raw research behind the stories and pictures, kept for provenance. |
 | `tests/` | The smoke test and the one-page harness. |
 
-Routes: `#/` home, `#/era/1880s` a hall, `#/game/reversi` a game, `#/all` every game, `#/teachers`, `#/about`, and `#/print/dots`, `#/print/noughts` and `#/print/hundred` for printables.
+Routes: `#/` home, `#/era/1880s` a hall, `#/game/reversi` a game, `#/all` every game, `#/about`, and For Teachers at `#/teachers` with its parts `#/teachers/lessons`, `#/teachers/curriculum`, `#/teachers/tips` and `#/teachers/printables`. The printables themselves are `#/print/dots`, `#/print/noughts` and `#/print/hundred`. Links like `#games` with no slash jump to part of the current page.
 
 ## Rules for the history
 

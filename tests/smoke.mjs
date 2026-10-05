@@ -62,6 +62,52 @@ await check('era colours', '#/era/1980s', 1280, async (page, problems) => {
   const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
   if (bg !== 'rgb(10, 6, 22)') problems.push('1980s hall is not wearing its neon ground: ' + bg);
 });
+/* Jump links scroll within the page; they must never be read as a page name and show "not found". */
+const notFound = page => page.evaluate(() => document.title.startsWith('Not found'));
+const inView = (page, id) => page.evaluate(id => { const r = document.getElementById(id).getBoundingClientRect(); return r.top < innerHeight / 2 && r.bottom > 0; }, id);
+await check('jump to hall games', '#/era/1880s', 1280, async (page, problems) => {
+  await page.locator('.hero a[href="#hall-games"]').click();
+  await page.waitForTimeout(1200);
+  if (await notFound(page)) problems.push('the games-in-this-hall button opened "not found"');
+  if (await page.evaluate(() => location.hash) !== '#/era/1880s') problems.push('the button changed the page address');
+  if (!(await inView(page, 'hall-games'))) problems.push('the hall games did not scroll into view');
+});
+await check('jump to every game', '#/', 360, async (page, problems) => {
+  await page.locator('.hero a[href="#games"]').click();
+  await page.waitForTimeout(1200);
+  if (await notFound(page)) problems.push('Start playing opened "not found"');
+  if (!(await inView(page, 'games'))) problems.push('Start playing did not scroll to the games');
+});
+await check('opened jump link', '#hall-games', 1280, async (page, problems) => {
+  await page.waitForTimeout(1200);
+  if (await notFound(page)) problems.push('gamesintime.com/#hall-games shows "not found"');
+  if (await page.evaluate(() => location.hash) !== '#/') problems.push('the address was not tidied to #/');
+  if (!(await inView(page, 'games'))) problems.push('#hall-games did not land on the game list');
+});
+await check('skip link', '#/about', 1280, async (page, problems) => {
+  await page.keyboard.press('Tab');
+  await page.keyboard.press('Enter');
+  await page.waitForTimeout(300);
+  if (await notFound(page)) problems.push('the skip link opened "not found"');
+  if (!(await page.evaluate(() => document.activeElement && document.activeElement.id === 'main'))) problems.push('the skip link did not move focus to the main content');
+});
+await check('for teachers parts', '#/teachers/curriculum', 1280, async (page, problems) => {
+  await page.waitForTimeout(300);
+  if (!(await page.title()).startsWith('Curriculum links')) problems.push('#/teachers/curriculum has the wrong title: ' + await page.title());
+  if (!(await inView(page, 'curriculum'))) problems.push('#/teachers/curriculum did not open at the curriculum links');
+  if (await page.locator('.site-header .teachers-pill[aria-current="page"]').count() !== 1) problems.push('the header does not show that For Teachers is open');
+});
+await check('teaching lives under For Teachers', '#/game/noughts-and-crosses', 1280, async (page, problems) => {
+  const labels = await page.$$eval('.info .label', l => l.map(x => x.textContent));
+  if (labels.some(t => /for teachers/i.test(t))) problems.push('a game page still has a For Teachers card');
+});
+for (const route of ['#/', '#/about', '#/teachers']) {
+  await check('no GitHub links ' + route, route, 1280, async (page, problems) => {
+    const n = await page.$$eval('a[href*="github.com"]', a => a.length);
+    if (n) problems.push(n + ' link(s) to GitHub on ' + route);
+    if (/github/i.test(await page.evaluate(() => document.body.innerText))) problems.push('the page mentions GitHub');
+  });
+}
 await browser.close();
 server.close();
 if (failures.length) { console.error(`\n${failures.length} page(s) failed`); process.exit(1); }
