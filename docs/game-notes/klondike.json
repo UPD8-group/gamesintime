@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "Seven columns are dealt, with the top card of each turned face up. The other 24 cards are the stock.",
+    "Build down the columns in alternating colours, like a red six on a black seven. You can move a whole face-up run together.",
+    "Send aces up to the four foundations, and build each one up in its own suit from ace to king.",
+    "Turn cards from the stock one at a time (Draw 1) or three at a time (Draw 3). Only the top card of the waste can be played.",
+    "An uncovered face-down card turns over by itself. Only a king can go into an empty column.",
+    "Tap a card to send it to its best place, or drag it where you want. Undo takes a move back and Hint suggests one.",
+    "When every card is face up, the game finishes itself. Get all 52 cards home to win, then try to beat your best time."
+  ],
+  "controls": "Tap or click a card to move it to its best place, or drag it with a mouse or a finger. Tap the stock to turn cards. Keyboard: the arrow keys choose a pile (Up and Down also choose how many cards to take from a column), Enter picks cards up and puts them down (Enter twice sends them to their best place), Space turns the stock, U undoes and H gives a hint.",
+  "computer": "There is no opponent, but the computer helps. A tap sends a card to the best place it can find: up to a foundation first, then onto another column, and a king into an empty column only when that uncovers something. The Hint button scores every move and suggests the best one: a card that can go up to a foundation, then a move that uncovers a face-down card, then a card from the waste, then turning the stock. When every card is face up, the computer plans the rest of the game and plays it out for you.",
+  "players": ["solo"],
+  "notes": "Standard Klondike as printed from about 1905: seven columns built down in alternating colours, foundations from ace to king in suit, and only kings in empty columns. Tarbart's Patience Games (1905, as 'Gambler's Delight') turned the stock three at a time, which is our Draw 3. Books of 1908 to 1914 turned it one card at a time with no second pass: choose 'once only (1908)' under Stock to play that way. The default lets you go round the stock as often as you like, which is kinder to beginners, and cards may be moved back down from a foundation, as in most modern rules. There is no money scoring: Canfield's casino paid players for every card sent home, and we leave the gambling out. The bouncing-cards finale is a nod to the 1990 computer version, not part of the 1905 game."
+}
