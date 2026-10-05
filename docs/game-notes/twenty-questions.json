@@ -1,0 +1,16 @@
+{
+  "howToPlay": [
+    "Choose who guesses. In Computer guesses, think of anything at all, keep it secret, and press I have one.",
+    "Answer each question Yes or No. The first is the Victorian opener: is it animal, vegetable or mineral?",
+    "The computer has twenty questions, and its guesses count as questions. If it guesses right, it wins.",
+    "If you stump it, tell it what you were thinking of and type a yes-or-no question that tells your thing apart from its guess. It remembers on this device and asks your question next time.",
+    "In You guess, the computer secretly picks one of its 49 things. Choose questions from the menu. It answers truthfully and crosses out everything that no longer fits.",
+    "Tap your guess in the list when you think you know. Guesses use up questions too. Get it within twenty to win."
+  ],
+  "controls": "Tap or click the buttons. Keyboard: Y and N answer yes and no, and Tab and Enter work everywhere. Forget what it learned wipes the new things from this device.",
+  "computer": "When it guesses, the computer walks down a tree of yes-or-no questions. Each answer sends it down one branch, and at the end of every branch is a thing to guess. Its starting tree was built from a table of facts about 49 things by always choosing the question that splits what is left most evenly, because a question that halves the list does the most work. When you stump it, your question becomes a new branch, so it gets cleverer on this device. When you guess, it simply looks up the true answer in its table of facts. Twenty yes-or-no questions can tell apart 2 to the power of 20 things, which is 1,048,576: about a million.",
+  "players": [
+    "vs computer"
+  ],
+  "notes": "Played as the catalogue sources describe: one player thinks of something, the others ask questions that can only be answered yes or no, and they must guess before twenty questions run out (Twenty questions, Wikipedia; Hannah More's letter of 17 February 1786). The first question is the Victorian 'animal, vegetable or mineral?', asked as two yes-or-no questions so that every answer stays a yes or a no; the three kingdoms follow the Linnaean idea in the sources (a leather belt is animal, a wooden table vegetable, a coin mineral). The 'maybe' answer some families allowed is left out so the computer's tree stays yes-or-no. The 49 things are ones a Victorian child and a child today would both know, and each fact in the table was chosen to have a clear answer. Things and questions that players teach the computer are stored only in this browser and are shown as plain text."
+}
