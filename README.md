@@ -2,13 +2,13 @@
 
 **gamesintime.com**: play the games kids played, from candlelight to neon, and learn who played them.
 
-Thirty-nine games from the 1800s to the 1980s, rebuilt so anyone can play them in a browser, right now, for free. Every game is playable online. Each game page opens on a big historical picture, and underneath sit the game itself, how to play, the story, did you know, what kids your age were doing, how the computer plays, notes for teachers, and the sources we checked.
+Fifty-six games from the 1800s to today, plus one made for the future, rebuilt so anyone can play them in a browser, right now, for free. Every game is playable online. Each game page opens on a big historical picture, and underneath sit the game itself, how to play, the story, did you know, what kids your age were doing, how the computer plays, and the sources we checked. Lesson ideas, curriculum links and printables live under For Teachers.
 
 Free for everyone. No accounts, no ads, no tracking, no AI in the product. Built for kids aged 10 to 14, their teachers, and anyone curious. The idea came from a thirteen-year-old.
 
-## The seven halls
+## The twelve halls
 
-Each hall is dressed in the look of its time, from parlour gilt to arcade neon.
+Each hall is dressed in the look of its time, from parlour gilt to arcade neon to the glow of the future.
 
 | Hall | Years | Look | Games |
 |---|---|---|---|
@@ -19,6 +19,11 @@ Each hall is dressed in the look of its time, from parlour gilt to arcade neon.
 | The New Century | 1900 to 1919 | Art Nouveau | Rock Paper Scissors, Nim, Klondike Patience, Diabolo, Jigsaw Puzzle, Word-Cross, Battleships |
 | The Memory Console | 1970 to 1979 | Burnt orange, amber, wood and bakelite | The Memory Handset, Television Tennis, Brickfield, Trail, Starfall |
 | The Neon Floor | 1980 to 1989 | Neon on midnight | Drifter, Rush, Prowl, Cascade |
+| The Bedroom Console | 1990 to 1999 | Desktop teal, jazz-cup purple and Game Boy green | Skyline, Labyrinth, Minefield, Pocket Pet, Dance Mat |
+| The Y2K Lounge | 2000 to 2009 | Frosted aqua, lime and chrome | Cave Copter, Gem Swap, Number Place, Ten-Pin, Garden Guard |
+| The Touchscreen Years | 2010 to 2019 | Flat coral, mint, sunshine and app blue | Slingshot, Fruit Slice, Block World, Doubles |
+| The Daily Puzzle | 2020 to 2029 | Dark mode with puzzle green and yellow | Five Letters, Melon Drop, Four Groups |
+| The Future Hall | 2030 and beyond | Aurora cyan, violet and green | Robot School, a game about how machines learn, plus where games are heading |
 
 ## Run it
 
@@ -35,11 +40,12 @@ Plain HTML, CSS and JavaScript. No framework, no build step and no dependencies 
 |---|---|
 | `public/index.html` | The one page. Loads the shell, the content and every game file. |
 | `public/app.js` | The shell: hash routing, the home page, the halls, game pages, the Teachers page, printables, sound, confetti, the ticket of stamps, and the small API every game plugs into. |
-| `public/styles.css` | Colour tokens, the seven era themes, the period frames games sit in, and the page layout. |
+| `public/styles.css` | Colour tokens, the twelve hall themes, the period frames games sit in, and the page layout. |
 | `public/content.js` | Every word on the site: halls, the games catalogue with stories and sources, the "Kids your age" panels, teacher lessons, the 1913 crossword, and picture credits. |
 | `public/games/<id>.js` | One file per game. `docs/ADDING-A-GAME.md` explains the contract. |
 | `public/img/` | Historical pictures in WebP, two sizes each. All public domain or freely licensed, mostly from Wikimedia Commons, and credited on the page that shows them. |
 | `docs/game-notes/<id>.json` | Each game's how to play, controls and "How the computer plays" text. |
+| `docs/research/halls.json`, `docs/research/new-games.json` | The newer halls and the base entries of their games. `merge-notes.mjs` adds a game only once its file exists. |
 | `scripts/merge-notes.mjs` | Copies the game notes, research and picture credits into `public/content.js`. Run it with `node scripts/merge-notes.mjs` after editing those files. |
 | `docs/RESEARCH.md` | Every story, source and doubt in one readable file, generated from `content.js` by `node scripts/research-doc.mjs`. |
 | `docs/research/` | The raw research behind the stories and pictures, kept for provenance. |
