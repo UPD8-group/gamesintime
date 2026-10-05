@@ -1,0 +1,18 @@
+{
+  "howToPlay": [
+    "A hopscotch court is chalked on the ground, numbered 1 to 10. You start beside it with a flat stone.",
+    "Throw your stone into square 1. Hold the Throw button (or Space) and a meter swings up the court. Let go when it is level with your square. If the stone lands on a line or in the wrong square, your turn is over.",
+    "Now hop the court in time with the beat. Press as you land, when the gold ring closes on the square: one foot in a single square, both feet in two squares side by side.",
+    "Never land in the square with your stone. Hop over it, or if it sits in one of a pair, hop on one foot into the other one.",
+    "Jump round at the far end and hop back. Stoop to pick up your stone from the square before it, then hop into its square and out.",
+    "Land on the wrong foot or out of time and you have stepped on a line, so your turn is over. Next turn you try the same square again.",
+    "Clear all ten squares to win. On your own, try to do it in as few turns as you can. Against the computer, take turns and be first to clear the court."
+  ],
+  "controls": "Hold Space, the Hold to throw button or the court, and let go to throw. Then land on the beat: Left arrow or A for your left foot, Right arrow or L for your right foot, both together (or the Up arrow or Space) for both feet, Down arrow or S to stoop for your stone. On a touch screen use the Left, Both, Right and Pick up buttons, or tap the left or right half of the court (two fingers for both feet). P pauses. Enter skips the computer's turn.",
+  "computer": "The computer throws with the same meter and hops to the same beat as you. Like a real player it sometimes slips: each throw might land on a line and each hop might wobble. On Easy it slips quite often, on Hard hardly ever. If you do not want to watch its whole turn, press Skip and it plays the rest straight away with the same chances.",
+  "players": [
+    "solo",
+    "vs computer"
+  ],
+  "notes": "The court is the third plan Miss Chase sent Alice Gomme from Crockham Hill, Kent (Gomme, The Traditional Games of England, Scotland and Ireland, vol. 1, 1894, entry Hop-scotch, fig. 3: 1, then 2 and 3 side by side, 4, then 5 and 6 side by side), carried on in the same pattern to 10, as on many later British and Australian courts. Her rules for that plan are followed: \"Hop, having one foot in No. 2 and the other in No. 3. Step into No. 4. Hop, having one foot in No. 5 and the other in No. 6. Jump round. Go back as you came.\" Throwing into 1, then 2, 3 and so on, comes from her fourth plan: \"Throw stone into No. 1. Pick it up. Hop from No. 1 to No. 8, not touching lines. So successively into Nos. 2, 3, 4, &c.\" Halliwell's definition, quoted by Gomme, says the game is played \"by hopping without touching any of the lines\". Never landing in the stone's square, picking it up on the way back and keeping your turn until you make a mistake follow the rules printed with the game on this page. Adapted for a screen: the throw uses a power meter (you throw from beside the court so you can see your square, and it is aimed straight at the right column); the hops fall on a steady beat that quickens a little with each square; stepping on a line means pressing out of time or with the wrong foot; in a single square either foot is fine. Gomme's harder rounds, carrying the stone on a shoe, thumb, palm, head or eyelid, are not included."
+}

@@ -1,0 +1,16 @@
+{
+  "howToPlay": [
+    "Four sheep knucklebones lie in a chalk ring. The fifth one, the jack, is in your hand.",
+    "Press Throw to toss the jack up. While it is in the air, scoop up a bone: tap it, or choose it with the arrow keys and press Enter.",
+    "Then catch the jack as it drops back into your hand. Press Catch when the gold ring closes on your palm and its shadow is darkest.",
+    "Ones: scoop one bone each throw. Twos: two at a time. Threes: one, then the other three together. Fours: all four in one go.",
+    "Then Backs: throw all five, catch them on the back of your hand, then catch them again in your palm. That is a whole game won, and the next level throws faster.",
+    "Catch too early, drop the jack, or forget to scoop, and you are out. Try to beat your best score."
+  ],
+  "controls": "Space throws and catches. The arrow keys choose a bone and Enter scoops it up. On a touch screen, tap a bone to scoop it, and tap your hand or the Throw and Catch button. P pauses.",
+  "computer": "",
+  "players": [
+    "solo"
+  ],
+  "notes": "Follows the order of play a newspaper boy at Richmond Station showed Alice Gomme with five bits of tile (Gomme, The Traditional Games of England, Scotland and Ireland, vol. 1, 1894, entry Fivestones): four on the ground, then \"the fifth was thrown up, one stone being picked up from the ground, and the descending fifth stone caught in the same hand\"; then \"two were picked up together in the same manner twice, then one, then three, then all four at once\"; then \"all five were then thrown up and caught on the back of the hand, and then thrown from the back and caught in the palm\", which is the finale here. In South Notts the same tricks were One-ers, Two-ers, Three-ers and Four-ers, and \"every failure means 'out'\". In Wakefield the doorstep was \"made ready by drawing a ring upon it\", so the bones lie in a chalk ring on a stone step. The bones are drawn as sheep's ankle bones, like the homemade set from Gunning, New South Wales, in the Powerhouse Collection. Adapted for a screen: the four bones are laid out ready in ones, twos or a one and a three instead of being scattered by a throw; scooping is a tap; a single press makes each catch; and points and faster levels are added so there is a best score to beat. The Richmond boy also played the tricks again in reverse, putting the stones down one at a time, and South Notts players had harder tricks such as Fly-catchers and Magic; these are not included."
+}
