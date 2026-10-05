@@ -231,9 +231,9 @@
         h('p', { class: 'eyebrow' }, 'The ' + e.id + ' hall · ' + e.years),
         h('h1', null, e.name),
         h('p', { class: 'lede' }, e.intro || '')),
-      kidsPanel(id, false),
       play.length ? h('section', { class: 'section', 'aria-labelledby': 'play-title' },
         h('div', { class: 'section-head' }, h('h2', { id: 'play-title' }, 'Play now')), cardGrid(play)) : null,
+      kidsPanel(id, true),
       rest.length ? h('section', { class: 'section', 'aria-labelledby': 'more-title' },
         h('div', { class: 'section-head' }, h('h2', { id: 'more-title' }, play.length ? 'Also in this hall' : 'In this hall'), h('p', { class: 'muted' }, 'Games to play off-screen, stories to read, and games we are still digitising.')), cardGrid(rest)) : null,
       !list.length ? h('p', { class: 'notice' }, 'This hall is being built. Check back soon.') : null);
