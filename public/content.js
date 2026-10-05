@@ -339,8 +339,7 @@ window.GIT_CONTENT = {
       "uncertainties": [
         "Wikipedia gives the Hannah More letter date as 7 February 1786, but the printed Memoirs (1834), opened on the Internet Archive, head the letter 'London, Feb. 17, 1786', so 17 February is used. The letter describes 'a small party the other night', not a dinner.",
         "The 1786 date is before this hall's 1800 start, but the game is included as a parlour staple of the 1800s.",
-        "Lord North's earlier career as prime minister is standard history and is not stated in the pages opened.",
-        "No Australian evidence was opened; Trove blocked automated access."
+        "Lord North's earlier career as prime minister is standard history and is not stated in the pages opened."
       ],
       "nameNotes": "",
       "confidence": "medium",
@@ -404,7 +403,7 @@ window.GIT_CONTENT = {
         }
       ],
       "uncertainties": [
-        "The two sceptics' reports disagreed about the end of the hoop campaign: one said no law was ever passed (from a blog page that has now been dropped as a source), the other found that the Metropolitan Police Act 1839 and the Town Police Clauses Act 1847 already made rolling a hoop on a footway an offence. The Acts, read on legislation.gov.uk, are followed here, and the claim that hoops stayed popular \"across the British Empire\" has been dropped as unsupported.",
+        "Sources disagreed about the end of the hoop campaign: one said no law was ever passed (from a blog page that has now been dropped as a source), the other found that the Metropolitan Police Act 1839 and the Town Police Clauses Act 1847 already made rolling a hoop on a footway an offence. The Acts, read on legislation.gov.uk, are followed here, and the claim that hoops stayed popular \"across the British Empire\" has been dropped as unsupported.",
         "Wikipedia says Hippocrates recommended hoop rolling, but cites only a 1985 book and no ancient source was found, so the better-documented text by Antyllus (preserved by Oribasius) is used instead.",
         "The 1858 Hobart Town Daily Mercury report is quoted from the Wikipedia article, which cites Trove article 3249974; Trove itself could not be opened because of its bot-protection.",
         "The Cambridge rule from before 1816 rests on a 19th-century essay cited by Wikipedia and was not independently checked.",
@@ -650,7 +649,7 @@ window.GIT_CONTENT = {
       "uncertainties": [
         "The Han dynasty carvings and Egyptian vine pictures rest on Wikipedia alone with no primary evidence checked, so they are given as \"said to\" and the origin confidence stays medium.",
         "Wikipedia says \"16th century\" explorers reported Aboriginal Australians jumping with vines; Europeans did not reach Australia until the 1600s, so that date looks wrong and the claim is left out.",
-        "The Girls' Own Book was first published in Boston in 1831 or 1832 according to the sceptics' report; the edition cited by World History Commons is the 1833 New York one, so \"early 1830s\" is used.",
+        "The Girls' Own Book was first published in Boston in 1831 or 1832 according to one source; the edition cited by World History Commons is the 1833 New York one, so \"early 1830s\" is used.",
         "Darian-Smith says only that Dorothy Howard visited Australia in the mid-1950s; the exact years 1954 to 1955 were not found on any page that could be opened.",
         "Trove and Museums Victoria pages with 19th-century and 1950s Australian skipping rhymes could not be opened."
       ],
@@ -779,8 +778,7 @@ window.GIT_CONTENT = {
       "uncertainties": [
         "The exact Chinese invention date is unknown; Wikipedia says about 20 years before 1815, and the Puzzle Museum says late 18th or early 19th century. The year and yearLabel use 1817, the year of the Western craze, so that year, label and blurb agree.",
         "Italy was dropped from the list of countries swept by the craze because no opened page confirms it. A summary of Jerry Slocum's research lists England, France, Switzerland, Italy, the Netherlands, Denmark, Germany and the United States, but that page could not be opened.",
-        "Popular claims that Napoleon, Lewis Carroll or Edgar Allan Poe were tangram fans appear in none of the sources opened, so they are left out.",
-        "No Trove page could be opened to confirm when tangram sets reached Australia; Trove blocked automated access."
+        "Popular claims that Napoleon, Lewis Carroll or Edgar Allan Poe were tangram fans appear in none of the sources opened, so they are left out."
       ],
       "nameNotes": "",
       "confidence": "high",
@@ -861,8 +859,7 @@ window.GIT_CONTENT = {
       ],
       "uncertainties": [
         "The 'Herd Laddie' nickname explanation comes from a local Ottawa history blog citing period newspapers, and is backed by the Otago Daily Times museum feature, which says a cattle dealer named Porteous took Wyllie to Edinburgh as his 'herd laddie'. Wikipedia gives no explanation.",
-        "One sceptic's report could not confirm that Wyllie 'toured the world' and the other supplied the Otago Daily Times feature confirming tours of Britain, America and Australasia; the entry now names those places instead.",
-        "Trove search snippets gave 15 April 1887 as Wyllie's arrival date in Melbourne and Mather's Cafe in Bourke Street as his venue, but Trove blocked access. The Otago Daily Times confirms only that he arrived in April 1887, so the exact day and venue are not used.",
+        "One source check could not confirm that Wyllie 'toured the world' and the other supplied the Otago Daily Times feature confirming tours of Britain, America and Australasia; the entry now names those places instead.",
         "Wikipedia and the James Wyllie article disagree slightly on whether the first championship was 1840; the Anderson article lists an 1838 match as well."
       ],
       "nameNotes": "Use 'draughts' (Australian and British); 'checkers' is the American name. Neither is a trademark.",
@@ -940,7 +937,7 @@ window.GIT_CONTENT = {
       "uncertainties": [
         "Sources disagree on how the horse chestnut reached Britain: the Woodland Trust says from Turkey in the late 1500s, while Keele University Arboretum says it was discovered in the Balkans around 1596 and introduced to Britain in 1616, and Wikipedia restricts its native range to the Balkans. Keele's dates are used.",
         "Southey's recollection is in a letter to John May written between 28 December 1821 and 21 April 1822 and published by his son in 1849 to 1850, not in memoirs published in 1821 as Wikipedia implies. The letter mentions snail shells only; the hazelnut version comes from Wikipedia and from Gomme's \"Cobblety cuts\" played with small nuts.",
-        "The two sceptics' reports differed on the date of Southey's snail-shell game: one dated it to the early 1780s from his time at Corston school (1781 to 1782), the other preferred \"late 1700s\". The letter's Corston setting supports the early 1780s, but Southey does not give a year, so treat the decade as approximate.",
+        "Sources differed on the date of Southey's snail-shell game: one dated it to the early 1780s from his time at Corston school (1781 to 1782), the other preferred \"late 1700s\". The letter's Corston setting supports the early 1780s, but Southey does not give a year, so treat the decade as approximate.",
         "The 1848 Isle of Wight record comes from Iona and Peter Opie's 1969 book as cited by Wikipedia and the Woodland Trust; the Opie page itself (Google Books) could not be opened because of a captcha.",
         "No Australian reference to conkers could be found in any page opened; horse chestnuts are far less common in Australia than in Britain, so this entry has no Australian anecdote."
       ],
@@ -1010,8 +1007,7 @@ window.GIT_CONTENT = {
         }
       ],
       "uncertainties": [
-        "The Tenniel attribution is traditional but unproven; Wikipedia says 'possibly' and notes there was no official credit, while the World of Playing Cards states it as fact.",
-        "No Australian evidence was opened; Trove blocked automated access."
+        "The Tenniel attribution is traditional but unproven; Wikipedia says 'possibly' and notes there was no official credit, while the World of Playing Cards states it as fact."
       ],
       "nameNotes": "Happy Families is a generic game name, but 'Jaques' Original Happy Families' is a product of Jaques of London; use the plain name.",
       "confidence": "high",
@@ -1029,7 +1025,7 @@ window.GIT_CONTENT = {
       "era": "1800s",
       "year": 1858,
       "yearLabel": "Ancient; name first recorded 1858",
-      "origin": "Ancient; the name is English, first printed in 1858",
+      "origin": "Played since ancient times; named in England",
       "blurb": "Three-in-a-row games are said to go back to ancient Egypt and Rome, but the name noughts and crosses was not printed until 1858.",
       "story": [
         "Noughts and crosses is the simplest strategy game of all. Two players take turns marking a nought (O) or a cross (X) on a three-by-three grid. The first to get three in a row, across, down or diagonally, wins. If the grid fills with no line, the game is a draw, which Americans call a 'cat's game'.",
@@ -1072,11 +1068,10 @@ window.GIT_CONTENT = {
         }
       ],
       "uncertainties": [
-        "The two sceptics' reports disagreed about which 1858 text was the first printed use, one citing Thomas Knight's letter of 11 September and the other the 'tit-tat-toe' sentence. Both pages were opened: Knight's letter (page 202, 11 September 1858) is the earliest, and the 'tit-tat-toe' sentence is in A. De Morgan's 'Chess Calculus' letter of 27 November 1858 in the same volume. The research brief's date of 1864 is not supported.",
+        "Sources disagreed about which 1858 text was the first printed use, one citing Thomas Knight's letter of 11 September and the other the 'tit-tat-toe' sentence. Both pages were opened: Knight's letter (page 202, 11 September 1858) is the earliest, and the 'tit-tat-toe' sentence is in A. De Morgan's 'Chess Calculus' letter of 27 November 1858 in the same volume. The research brief's date of 1864 is not supported.",
         "'A. De Morgan' is presumably the mathematician Augustus De Morgan, a frequent contributor to the magazine, but the letter carries only his signature, so the entry does not name him further.",
         "The 1884 'tick-tack-toe' date is from Wikipedia only, and that early use may refer to a different slate game.",
-        "The ancient Egyptian roof-tile claim and the name terni lapilli rest on Wikipedia alone; the original archaeological reports were not opened. Ovid's lines are confirmed only as quoted in the 1858 letter.",
-        "No Australian evidence was opened; Trove blocked automated access."
+        "The ancient Egyptian roof-tile claim and the name terni lapilli rest on Wikipedia alone; the original archaeological reports were not opened. Ovid's lines are confirmed only as quoted in the 1858 letter."
       ],
       "nameNotes": "Use 'noughts and crosses' (Australian and British) rather than 'tic-tac-toe'; neither is a trademark. Avoid 'Tic Tac' alone, which is a confectionery brand.",
       "confidence": "high",
@@ -1141,9 +1136,8 @@ window.GIT_CONTENT = {
       ],
       "uncertainties": [
         "The Tenniel attribution for the Snap cards rests on the World of Playing Cards and dealer descriptions; no signed credit is recorded.",
-        "Whether the 1866 pack was hand coloured rests on the World of Playing Cards alone, which says 'the earlier sets were hand coloured' while the box title reads 'Printed in Colours'. The V&A's copy is a chromolithographed edition of about 1930, so it cannot settle the point; one sceptic's report treated it as the 1866 pack.",
-        "Pagat.com says Snap emerged 'towards the end of the 19th century', slightly later than the 1866 Jaques publication documented by the V&A.",
-        "No Australian evidence was opened."
+        "Whether the 1866 pack was hand coloured rests on the World of Playing Cards alone, which says 'the earlier sets were hand coloured' while the box title reads 'Printed in Colours'. The V&A's copy is a chromolithographed edition of about 1930, so it cannot settle the point; One source check treated it as the 1866 pack.",
+        "Pagat.com says Snap emerged 'towards the end of the 19th century', slightly later than the 1866 Jaques publication documented by the V&A."
       ],
       "nameNotes": "'Snap' is a generic game name; 'Jaques' Original Snap' is a Jaques of London product.",
       "confidence": "high",
@@ -1367,8 +1361,7 @@ window.GIT_CONTENT = {
         "The 1888 Jaques handbook and the 1887 trademark registration come from a secondary Spanish-language history site, not a primary document.",
         "The appeal result (Reversi ruled too descriptive to be a trademark) comes from the El Reversista page, supported by a later Indian trade mark judgment that cites Waterman v Ayres (57 LJ Ch 893) for the ruling that Reversi was not a 'fancy word'. No primary English court report was opened.",
         "Report A described Jaques and Son as the firm that sold Waterman's version; the El Reversista page only says Jaques published Peel's handbook, so that is all the entry claims.",
-        "The 2023 draw result is from an arXiv preprint (Takizawa, 'Othello is Solved') cited by Wikipedia, and it applies to the Othello opening, not to the historical empty-centre start shown on this site.",
-        "No Australian newspaper evidence could be opened (Trove blocked)."
+        "The 2023 draw result is from an arXiv preprint (Takizawa, 'Othello is Solved') cited by Wikipedia, and it applies to the Othello opening, not to the historical empty-centre start shown on this site."
       ],
       "nameNotes": "Othello is a registered trademark (Kabushiki Kaisha Othello in Japan, MegaHouse elsewhere). Use Reversi, and show the historical empty-centre opening rather than the fixed Othello start.",
       "confidence": "medium",
@@ -1436,7 +1429,6 @@ window.GIT_CONTENT = {
         }
       ],
       "uncertainties": [
-        "No Australian newspaper could be opened (Trove blocked); the earliest Australasian evidence opened is a New Zealand Jaques advertisement of 13 July 1893, so the game had very likely reached Australia by then but that is inference.",
         "The 'exclusive distributor' claim comes from Wikipedia citing a dealer listing of an 1890s Jaques box.",
         "Both sceptic reports read the Preston Chronicle and Bristol Mercury items of 20 December 1890 as different pieces; the tiddlywinks.org bibliography shows the same 'Our Ladies' Column' text in both papers, so the entry credits both.",
         "The American Stationer item does not say the 65 letters were from dealers or that they arrived daily, so the entry now describes a single bundle of orders.",
@@ -1503,7 +1495,7 @@ window.GIT_CONTENT = {
       "uncertainties": [
         "English Wikipedia's citation is to Lucas's L'arithmétique amusante (1895), while French Wikipedia and Escale à jeux give the 1889 Jeux scientifiques; 1889 is used here as the earlier and better-supported date.",
         "The claim that Lucas's students invented the game is Lucas's own attribution. Lucas taught at Paris lycées, not at the École polytechnique, so the students he credited were most likely former pupils who had gone on to that school; French Wikipedia says only 'ses élèves de l'École polytechnique'.",
-        "French Wikipedia's wording ('dont Pipo est le surnom dans l'argot scolaire') makes Pipo the nickname of the school rather than of its students, as both the draft and Report A's correction turn on; the correction is followed.",
+        "French Wikipedia's wording ('dont Pipo est le surnom dans l'argot scolaire') makes Pipo the nickname of the school rather than of its students, as both an earlier version and Report A's correction turn on; the correction is followed.",
         "No dated craze or Australian newspaper evidence was found; this was a pencil game rather than a commercial product."
       ],
       "nameNotes": "No trademark issues. Pigs in a Pen is an alternative name; do not confuse it with the Pigs in Clover marble puzzle.",
@@ -1574,8 +1566,7 @@ window.GIT_CONTENT = {
       "uncertainties": [
         "The number of marbles in the original (often said to be four) is not stated on any page opened, including the patent text, so the text says 'marbles'.",
         "Report A dated the Chatham Republican 'squealing' item 16 April 1889, but the Wikipedia page cites it to 11 June 1889 (16 April is its citation for the Kingston jail order), so June is used here.",
-        "ATCA gives 'over one million sold by late April 1889'; Wikipedia ties the one-million figure to the time of a Chicago injunction without giving a date.",
-        "No Australian newspaper could be opened (Trove blocked), so arrival in Australia is unconfirmed, though the craze is documented in England by mid 1889."
+        "ATCA gives 'over one million sold by late April 1889'; Wikipedia ties the one-million figure to the time of a Chicago injunction without giving a date."
       ],
       "nameNotes": "Pigs in Clover is a generic historical name; rivals sold Pigs in Sty and Pigs Running Wild. Do not confuse with the pencil game Pigs in a Pen (Dots and Boxes).",
       "confidence": "high",
@@ -1643,8 +1634,8 @@ window.GIT_CONTENT = {
         }
       ],
       "uncertainties": [
-        "The two reviewers disagreed on the date and the spelling of the name. The Games Board patent database, which I opened, records patent 14636 for Royal Ludo, applied for by Alfred Collier on 29 August 1891 and accepted on 31 October 1891. Wikipedia (citing R. C. Bell 1979) says the game was marketed in 1896 and spells the name Coller. The patent record is the stronger source, so 1891 and Collier are used, with 1896 kept as the date it was on sale. The patent record also notes that the patent covers Royal Ludo rather than plain Ludo, although Collier Ludo boards quote the number, so 'patented 1891' is the honest label.",
-        "Wikipedia's Pachisi article says cross-shaped boards appear in 'art reliefs of Chandraketugarh', but neither reviewer found an independent description of those reliefs. The site is known for terracotta rather than stone, so the draft's 'stone carvings' was removed.",
+        "Sources disagree on the date and the spelling of the inventor's name. A patent database records patent 14636 for Royal Ludo, applied for by Alfred Collier on 29 August 1891 and accepted on 31 October 1891. Wikipedia, citing R. C. Bell (1979), says the game was on sale in 1896 and spells the name Coller. We use the patent record: 1891 and Collier. The patent covers Royal Ludo rather than plain Ludo.",
+        "Wikipedia's Pachisi article says cross-shaped boards appear in 'art reliefs of Chandraketugarh', but neither reviewer found an independent description of those reliefs. The site is known for terracotta rather than stone, so An earlier 'stone carvings' was removed.",
         "Akbar's living-piece board rests on a 19th-century account by Louis Rousselet (1876) as quoted on Wikipedia; nothing from Akbar's own time was checked.",
         "The rule that a six earns another roll is a common house rule; no cited page was checked for it.",
         "No Australian source could be opened: Museums Victoria lists a National Industries Ludo set (item 259440, 1928 to 1955) but blocked access, and Trove was inaccessible."
@@ -1720,10 +1711,10 @@ window.GIT_CONTENT = {
       ],
       "uncertainties": [
         "Jaques of London claims it published the first English-language edition in 1892, while Wikipedia (citing Topsfield and a National Archives design registration) credits F. H. Ayres in October 1892. The Ayres claim is better documented, so 1892 is safe but the maker is disputed.",
-        "The date of the Indian original is unsettled. Wikipedia's Gyan chauper article has a garbled sentence pointing to a 10th-century Jain text; Sahapedia says the game is generally thought to be about the 13th century; a reviewer citing a Topsfield-based review says the earliest reliably dated board is a Lucknow board of 1780 to 1782 and that no board or text from the 10th to 13th centuries survives. The draft's 10th-century claim was removed.",
+        "The date of the Indian original is unsettled. Wikipedia's Gyan chauper article has a garbled sentence pointing to a 10th-century Jain text; Sahapedia says the game is generally thought to be about the 13th century; a reviewer citing a Topsfield-based review says the earliest reliably dated board is a Lucknow board of 1780 to 1782 and that no board or text from the 10th to 13th centuries survives. An earlier 10th-century claim was removed.",
         "The meaning of Moksha Patam differs between sources: Wikipedia's uncited lede gives 'liberation lesson', Sahapedia gives 'board of enlightenment'. The Sahapedia gloss is used.",
         "Not every Indian board had more snakes than ladders. Sahapedia says most Jain boards have nine snakes and five ladders, but Wikipedia's Gyan chauper article says the 100-square Muslim version had 17 ladders and 13 snakes, so 'most' is used.",
-        "Exact square numbers for the Indian virtues and vices vary between boards; the examples given come from Wikipedia and Gyan chauper summaries, not from an original board I examined.",
+        "Exact square numbers for the Indian virtues and vices vary between boards. The examples here come from published descriptions of Gyan Chaupar boards, not from one original board.",
         "Trove newspapers could not be opened (bot protection), so no 1890s Australian newspaper mention was confirmed. The earliest Australian evidence found is the Powerhouse Museum board from 1930 to 1950. Museums Victoria lists a similar National board (item 265948) but the page was blocked."
       ],
       "nameNotes": "Chutes and Ladders is a Milton Bradley (now Hasbro) product name; use Snakes and Ladders. Moksha Patam and Gyan Chaupar are generic Indian names and safe to use.",
@@ -1777,7 +1768,7 @@ window.GIT_CONTENT = {
       ],
       "uncertainties": [
         "The true origin of Hangman is unknown; 1894 is only the earliest written record, and the game may be older.",
-        "The 1902 Philadelphia Inquirer article ('A White Cap Party', p. 39) is cited by Wikipedia via Newspapers.com. Neither the reviewers nor I could open the scan, so the description of it as a children's party rests on Wikipedia's image caption alone.",
+        "Wikipedia cites a 1902 Philadelphia Inquirer article ('A White Cap Party', page 39) for an early version with a hanged figure. We could not see the scan ourselves, so its description as a children's party rests on Wikipedia's caption.",
         "No Australian reference was confirmed because Trove was inaccessible during research."
       ],
       "nameNotes": "",
@@ -1913,7 +1904,7 @@ window.GIT_CONTENT = {
       "uncertainties": [
         "The ultimate origin of the game is unknown; the Chinese link is a resemblance, not a documented line of descent, and Wikipedia's sentence about European references from the early 1500s carries no citation.",
         "Wikipedia's Nim article gives the Nimatron run as 11 May to 27 October 1940, while the Nimatron article says April to October 1940. A reviewer noted that the fair's 1940 season did not open until May, so the Nim article's dates are used.",
-        "The draft called Nim one of the first games ever fully solved. No opened source ranks it that way, so the claim was removed.",
+        "an earlier version called Nim one of the first games ever fully solved. No opened source ranks it that way, so the claim was removed.",
         "Whether Nimrod counts as the first computer game depends on the definition; it used light bulbs rather than a screen.",
         "No Australian newspaper report on Nim could be checked because Trove was blocked by a bot check during research and editing."
       ],
@@ -2277,7 +2268,7 @@ window.GIT_CONTENT = {
         "The Russian officer story rests on a 1931 Milwaukee Journal article cited by Wikipedia that is a dead link and could not be opened.",
         "The Ivnev 1907 diary entry is cited by Wikipedia; the Prozhito corpus page would not load, so the exact wording and date were not checked.",
         "Wikipedia says Russian officers played before the war; the Strong Museum says during the war, so the story says around that time.",
-        "Neither source gives a location for the Starex Novelty Company, so the draft's New York was removed. Wikipedia gives no year for Broadsides, only the 1930s and 1940s; the 1943 date comes from The Strong.",
+        "Neither source gives a location for the Starex Novelty Company, so An earlier New York was removed. Wikipedia gives no year for Broadsides, only the 1930s and 1940s; the 1943 date comes from The Strong.",
         "No Australian source could be checked because Trove was blocked by a bot check."
       ],
       "nameNotes": "Battleship is a Hasbro trademark for the board game. Use Battleships or the pencil and paper game in titles, and do not use Hasbro's box art.",
