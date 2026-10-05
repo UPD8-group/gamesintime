@@ -155,7 +155,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "c. 1580s"
     },
     {
       "id": "hopscotch",
@@ -234,7 +235,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1600s"
     },
     {
       "id": "twenty-questions",
@@ -295,7 +297,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "by 1786"
     },
     {
       "id": "hoop-and-stick",
@@ -359,7 +362,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "Ancient"
     },
     {
       "id": "knucklebones",
@@ -427,7 +431,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "Ancient"
     },
     {
       "id": "marbles",
@@ -513,7 +518,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "Ancient"
     },
     {
       "id": "skipping",
@@ -591,7 +597,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "Centuries old"
     },
     {
       "id": "mansion-of-happiness",
@@ -648,7 +655,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1800"
     },
     {
       "id": "kaleidoscope",
@@ -698,7 +706,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1817"
     },
     {
       "id": "tangram",
@@ -760,7 +769,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1817"
     },
     {
       "id": "zoetrope",
@@ -822,7 +832,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1834"
     },
     {
       "id": "draughts",
@@ -901,7 +912,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1840s"
     },
     {
       "id": "conkers",
@@ -975,7 +987,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1848"
     },
     {
       "id": "happy-families",
@@ -1040,7 +1053,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1851"
     },
     {
       "id": "noughts-and-crosses",
@@ -1101,7 +1115,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": true,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1858"
     },
     {
       "id": "snap",
@@ -1163,7 +1178,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1866"
     },
     {
       "id": "fifteen-puzzle",
@@ -1235,7 +1251,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": true,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1880"
     },
     {
       "id": "halma",
@@ -1314,7 +1331,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1883"
     },
     {
       "id": "reversi",
@@ -1375,7 +1393,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": true,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1883"
     },
     {
       "id": "tiddlywinks",
@@ -1442,7 +1461,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1888"
     },
     {
       "id": "dots-and-boxes",
@@ -1501,7 +1521,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": true,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1889"
     },
     {
       "id": "pigs-in-clover",
@@ -1567,7 +1588,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1889"
     },
     {
       "id": "ludo",
@@ -1635,7 +1657,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1891"
     },
     {
       "id": "snakes-and-ladders",
@@ -1707,7 +1730,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": true,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1892"
     },
     {
       "id": "hangman",
@@ -1756,7 +1780,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": true,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1894"
     },
     {
       "id": "penny-arcade",
@@ -1833,7 +1858,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": false,
-      "kind": "story"
+      "kind": "story",
+      "stamp": "1894"
     },
     {
       "id": "rock-paper-scissors",
@@ -1890,7 +1916,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "Japan, 1800s"
     },
     {
       "id": "nim",
@@ -1961,12 +1988,13 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": true,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1901"
     },
     {
       "id": "klondike",
       "title": "Klondike Patience",
-      "era": "1890s",
+      "era": "1900s",
       "year": 1905,
       "yearLabel": "first printed 1905",
       "origin": "Unknown; United States or Britain, name recorded by 1905",
@@ -2037,7 +2065,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1905"
     },
     {
       "id": "diabolo",
@@ -2113,7 +2142,8 @@ window.GIT_CONTENT = {
       "confidence": "medium",
       "playable": false,
       "realLife": true,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1906"
     },
     {
       "id": "jigsaw-puzzle",
@@ -2196,7 +2226,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1908"
     },
     {
       "id": "word-cross-1913",
@@ -2250,7 +2281,8 @@ window.GIT_CONTENT = {
       "confidence": "high",
       "playable": true,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1913"
     },
     {
       "id": "battleship",
@@ -2303,7 +2335,8 @@ window.GIT_CONTENT = {
       "confidence": "low",
       "playable": false,
       "realLife": false,
-      "kind": "game"
+      "kind": "game",
+      "stamp": "1910s"
     }
   ],
   "kids": [
@@ -3154,15 +3187,15 @@ window.GIT_CONTENT = {
         "title": "The puzzle that cannot be solved",
         "yearLevels": "Years 6 to 9",
         "idea": "Give half the class a solvable scramble and half the famous '14-15' swap, and let them try for ten minutes without saying which is which. Reveal that in 1879 Johnson and Story proved half of all starting positions are impossible, no matter how many moves are made. Then read the Then panel together: Noyes Chapman of Canastota, New York showed a precursor as early as 1874, the craze hit the United States in 1880, and from 1891 Sam Loyd falsely claimed to be the inventor. Ask what kind of source would settle who invented it.",
-        "computerAngle": "Every arrangement has a parity: count the pairs of tiles that are out of order (inversions), add the row of the empty square, and if the total is even the position can be reached from solved, otherwise it never can. Because each slide changes the count in a fixed way, the arrangements split into two equal halves, and only one half is reachable. The puzzle checks this before it lets a scramble start.",
+        "computerAngle": "Every arrangement has a parity. On the 4 by 4 board, count the pairs of tiles that are out of order (inversions) and add the row of the empty square, counting rows from the top starting at 1. If the total is even, the position can be reached from the solved one; if it is odd, it never can. Each slide changes the count in a fixed way, so the arrangements split into two equal halves and only one half is reachable. The site shuffles by making real slides from the solved position, so every scramble it gives you is in the reachable half.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/history-7-10/year-7"
       },
       {
         "gameId": "reversi",
-        "title": "Why the greedy computer loses at Reversi",
+        "title": "Why corners win at Reversi",
         "yearLevels": "Years 5 to 8",
-        "idea": "Play one game as a class on the projector, choosing each move by a show of hands, and note that the computer always takes the move that flips the most discs. Then let pairs play with one rule only: take a corner whenever you can and avoid the squares next to corners. Compare win rates on the board. Close with the Then panel: two Englishmen, Lewis Waterman and John W. Mollett, each claimed to have invented Reversi in 1883 and called the other a fraud; the first reliable mention is in The Saturday Review of 21 August 1886.",
-        "computerAngle": "The opponent uses a greedy heuristic: it scores only the discs it would flip right now and never looks ahead. Strong players instead value mobility (the number of moves available), corners that can never be flipped back, and avoiding the squares next to corners. A player who follows those positional rules beats a disc-counting opponent, which is why the site's computer is beatable. In 1997 the program Logistello, which looked ahead and used positional evaluation, won every game of a six-game match against world champion Takeshi Murakami.",
+        "idea": "Play one game as a class on the projector against the Easy computer, choosing each move by a show of hands. Then switch to Hard and watch where it plays: it grabs corners and avoids the squares next to them. Let pairs play Hard with one rule: take a corner whenever you can and avoid the squares next to corners. Compare results on the board. Close with the Then panel: two Englishmen, Lewis Waterman and John W. Mollett, each claimed to have invented Reversi in 1883, and the first reliable mention is in The Saturday Review of 21 August 1886.",
+        "computerAngle": "Easy picks any legal move at random. Hard gives every square a score from a table: corners score highest because a corner disc can never be flipped back, and the squares next to corners score badly because they hand a corner to the other player. It adds a little for each disc flipped, then looks one reply ahead and subtracts the opponent's best answer. That is a heuristic, a rule of thumb rather than a perfect calculation, which is why a careful player can beat it. In 1997 the program Logistello, which looked much further ahead, beat the world champion Takeshi Murakami six games to nil.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
       },
       {
@@ -3185,8 +3218,8 @@ window.GIT_CONTENT = {
         "gameId": "hangman",
         "title": "Which letters should you guess first?",
         "yearLevels": "Years 3 to 7",
-        "idea": "Before anyone plays, ask each student to write the six letters they would guess first and why. Play three rounds against the computer and tally which guesses hit. Show the English letter frequency order e-t-a-o-i-n-s-h-r-d-l-u and let students revise their list, then try a word like 'rhythm' to see the strategy fail. Read the Then panel: a scoring variant called Birds, Beasts and Fishes appears in Alice Gomme's 1894 collection of children's games, and the version with the hanged man was described in a 1902 newspaper.",
-        "computerAngle": "When the computer guesses, it does not know words, it knows letter frequency: it tries the most common letters first and narrows down as positions are revealed. When it sets the word, it can pick words that avoid common letters. Students can describe its guessing rule as an algorithm with a loop (guess the next most frequent unused letter) and a branch (if the letter is in the word, fill it in).",
+        "idea": "Before anyone plays, ask each student to write the six letters they would guess first and why. Play three rounds and tally which guesses hit. Show the English letter frequency order e-t-a-o-i-n-s-h-r-d-l-u and let students revise their list, then use the two-player mode to set a word like RHYTHM and watch the strategy fail. Read the Then panel: a scoring game called Birds, Beasts and Fishes appears in Alice Gomme's 1894 collection of children's games, and it had no gallows at all.",
+        "computerAngle": "In this game the computer only picks the secret word; you do the guessing. A good guessing strategy is an algorithm that uses letter frequency: guess the most common unused letter, and when letters are revealed, think about which words still fit. Students can write that strategy as steps with a loop (guess the next most common unused letter) and a branch (if the letter is in the word, fill it in and rethink). The 1894 rules show the first and last letters, which makes the first guesses less important.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-3-and-4"
       },
       {

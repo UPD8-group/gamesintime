@@ -139,7 +139,7 @@
     var isPlay = g.playable && registry[g.id];
     return h('li', null,
       h('a', { class: 'card' + (isPlay ? ' card--playable' : ''), href: href(['game', g.id]) },
-        h('span', { class: 'card-stamp' }, g.yearLabel || String(g.year)),
+        h('span', { class: 'card-stamp' }, g.stamp || g.yearLabel || String(g.year)),
         h('span', { class: 'card-title' }, g.title),
         h('span', { class: 'card-blurb' }, g.blurb || ''),
         badgeFor(g)));
@@ -235,7 +235,7 @@
       play.length ? h('section', { class: 'section', 'aria-labelledby': 'play-title' },
         h('div', { class: 'section-head' }, h('h2', { id: 'play-title' }, 'Play now')), cardGrid(play)) : null,
       rest.length ? h('section', { class: 'section', 'aria-labelledby': 'more-title' },
-        h('div', { class: 'section-head' }, h('h2', { id: 'more-title' }, play.length ? 'Also in this hall' : 'In this hall'), h('p', { class: 'muted' }, 'Stories now, games soon.')), cardGrid(rest)) : null,
+        h('div', { class: 'section-head' }, h('h2', { id: 'more-title' }, play.length ? 'Also in this hall' : 'In this hall'), h('p', { class: 'muted' }, 'Games to play off-screen, stories to read, and games we are still digitising.')), cardGrid(rest)) : null,
       !list.length ? h('p', { class: 'notice' }, 'This hall is being built. Check back soon.') : null);
     return { el: el, title: e.name + ' (' + e.years + ')' };
   }
@@ -315,16 +315,18 @@
     var lesson = lessonFor(g.id);
     var trove = troveFor(g.id);
     var tabs = [];
-    if (g.howToPlay && g.howToPlay.length) tabs.push({ id: 'how', label: 'How to play', body: h('div', { class: 'stack' }, h('ol', null, g.howToPlay.map(function (s) { return h('li', null, s); })), g.computer ? h('div', null, h('h3', null, 'How the computer plays'), h('p', null, g.computer)) : null) });
+    var isStory = g.kind === 'story';
+    if (g.howToPlay && g.howToPlay.length) tabs.push({ id: 'how', label: isStory ? 'A visit, step by step' : 'How to play', body: h('div', { class: 'stack' }, h('ol', null, g.howToPlay.map(function (s) { return h('li', null, s); })), g.computer ? h('div', null, h('h3', null, 'How the computer plays'), h('p', null, g.computer)) : null) });
     if (g.story && g.story.length) tabs.push({ id: 'story', label: 'The story', body: h('div', { class: 'prose stack' }, paragraphs(g.story), trove.length ? h('div', null, h('h3', null, 'From the newspapers'), trove.map(function (t) {
       return h('div', { class: 'trove-quote' }, h('blockquote', null, '“' + (t.cleanQuote || t.rawQuote) + '”'), h('cite', null, t.newspaper + ', ' + t.date + '. ', h('a', { href: t.url, rel: 'noopener', target: '_blank' }, 'Read it on Trove')));
     })) : null) });
     if (g.didYouKnow && g.didYouKnow.length) tabs.push({ id: 'facts', label: 'Did you know', body: h('ul', null, g.didYouKnow.map(function (s) { return h('li', null, s); })) });
     if (lesson || g.computer) tabs.push({ id: 'teach', label: 'For teachers', body: h('div', { class: 'stack' },
-      lesson ? h('div', { class: 'lesson' }, h('h3', null, lesson.title), h('p', { class: 'muted' }, 'Years ' + lesson.yearLevels), h('p', null, lesson.idea), lesson.computerAngle ? h('p', { class: 'computer' }, lesson.computerAngle) : null, lesson.curriculumUrl ? h('p', null, h('a', { href: lesson.curriculumUrl, rel: 'noopener', target: '_blank' }, 'Curriculum link')) : null) : null,
+      lesson ? h('div', { class: 'lesson' }, h('h3', null, lesson.title), h('p', { class: 'muted' }, lesson.yearLevels), h('p', null, lesson.idea), lesson.computerAngle ? h('p', { class: 'computer' }, lesson.computerAngle) : null, lesson.curriculumUrl ? h('p', null, h('a', { href: lesson.curriculumUrl, rel: 'noopener', target: '_blank' }, 'Curriculum link')) : null) : null,
       h('p', null, h('a', { href: href(['teachers']) }, 'More for teachers'))) });
     if (g.sources && g.sources.length) tabs.push({ id: 'sources', label: 'Sources', body: h('div', null, sourcesList(g.sources), g.uncertainties && g.uncertainties.length ? h('details', { style: { marginTop: '.75rem' } }, h('summary', null, 'What we are not sure about'), h('ul', { class: 'sources' }, g.uncertainties.map(function (u) { return h('li', null, u); }))) : null) });
 
+    if (isStory) { var storyIdx = tabs.findIndex(function (t) { return t.id === 'story'; }); if (storyIdx > 0) tabs.unshift(tabs.splice(storyIdx, 1)[0]); }
     var tablist = h('div', { class: 'tabs', role: 'tablist', 'aria-label': 'About ' + g.title });
     var panels = [];
     tabs.forEach(function (t, i) {
@@ -351,7 +353,7 @@
       tablist, panels);
 
     var notPlayable = null;
-    if (!def) {
+    if (!def && !isStory) {
       notPlayable = h('div', { class: 'coming-soon' },
         h('p', null, h('strong', null, g.realLife ? 'This one is played off-screen.' : 'Not digitised yet.')),
         h('p', { class: 'muted' }, g.realLife ? 'Read how to play, then try it in the playground.' : 'We are building it. The story and the rules are ready now.'));
@@ -363,7 +365,7 @@
         h('h1', null, g.title),
         h('p', { class: 'game-meta' }, h('span', { class: 'stamp' }, g.yearLabel || g.year), g.origin ? h('span', null, g.origin) : null, badgeFor(g)),
         g.blurb ? h('p', { class: 'lede' }, g.blurb) : null),
-      h('div', { class: 'game-layout' }, def ? panel : notPlayable, then));
+      h('div', { class: 'game-layout' + (isStory ? ' game-layout--story' : '') }, def ? panel : notPlayable, then));
 
     var mounted = null;
     return {
@@ -397,9 +399,9 @@
           h('li', null, h('strong', null, 'Sources on every page. '), 'The Then panel beside each game cites the sources we used, and says what we are not sure about. Use it as a source-analysis task.'))),
       cur.lessons && cur.lessons.length ? h('section', { class: 'section', 'aria-labelledby': 'lessons-title' },
         h('h2', { id: 'lessons-title' }, 'Lesson ideas, twenty minutes each'),
-        h('div', { class: 'card-grid', style: { marginTop: '1rem' } }, cur.lessons.map(function (l) {
+        h('div', { class: 'card-grid lesson-grid', style: { marginTop: '1rem' } }, cur.lessons.map(function (l) {
           var g = game(l.gameId);
-          return h('div', { class: 'lesson' }, h('h3', null, l.title), h('p', { class: 'muted' }, (g ? g.title + ' · ' : '') + 'Years ' + l.yearLevels), h('p', null, l.idea), l.computerAngle ? h('p', { class: 'computer' }, l.computerAngle) : null,
+          return h('div', { class: 'lesson' }, h('h3', null, l.title), h('p', { class: 'muted' }, (g ? g.title + ' · ' : '') + l.yearLevels), h('p', null, l.idea), l.computerAngle ? h('p', { class: 'computer' }, l.computerAngle) : null,
             h('p', null, g ? h('a', { href: href(['game', g.id]) }, 'Open ' + g.title) : null, l.curriculumUrl ? [' · ', h('a', { href: l.curriculumUrl, rel: 'noopener', target: '_blank' }, 'Curriculum')] : null));
         }))) : null,
       cur.links && cur.links.length ? h('section', { class: 'section', 'aria-labelledby': 'curr-title' },
