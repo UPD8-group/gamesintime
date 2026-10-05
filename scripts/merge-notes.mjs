@@ -1,7 +1,12 @@
 /* Merges builder notes, research and picture manifests into public/content.js.
-   - docs/game-notes/<id>.json      -> howToPlay, controls, computer, players for that game
-   - docs/research/arcade.json      -> story, didYouKnow, sources and more for the 1970s and 1980s games, kids panels, lessons
-   - docs/research/images-*.json    -> content.images (pictures for the home page, halls, kids panels and games)
+   - docs/research/halls.json        -> the halls (eras), in order. Existing halls keep their words; new ones are added.
+   - docs/research/new-games.json    -> base entries for games added after the first 39. A game is only added once
+                                        public/games/<id>.js exists, so nothing half-built ever appears on the site.
+   - docs/game-notes/<id>.json       -> howToPlay, controls, computer, players and adaptation notes for that game
+   - docs/research/arcade.json and docs/research/<decade>s.json (1990s.json, 2030s.json ...)
+                                     -> each hall's hook and intro, the future hall's "where games are heading" cards,
+                                        game stories, sources and doubts, kids panels and lessons
+   - docs/research/images-*.json     -> content.images (pictures for the home page, halls, kids panels and games)
    Safe to run again: it only fills in what these files provide.
    Usage: node scripts/merge-notes.mjs */
 import {readFile, writeFile, readdir} from 'node:fs/promises';
@@ -14,17 +19,41 @@ const header = src.slice(0, src.indexOf('window.GIT_CONTENT = '));
 const box = {window: {}};
 vm.runInNewContext(src, box);
 const C = box.window.GIT_CONTENT;
-const byId = Object.fromEntries(C.games.map(g => [g.id, g]));
 const log = [];
+const readJson = async (p) => { try { return JSON.parse(await readFile(p, 'utf8')); } catch (e) { log.push(`bad JSON in ${p}: ${e.message}`); return null; } };
+
+// 0a. halls: add any hall that is missing, after the hall it names
+if (existsSync('docs/research/halls.json')) {
+  const H = await readJson('docs/research/halls.json');
+  for (const hall of (H && H.halls) || []) {
+    if (C.eras.some(e => e.id === hall.id)) continue;
+    const after = hall.after ? C.eras.findIndex(e => e.id === hall.after) : -1;
+    const entry = Object.fromEntries(Object.entries(hall).filter(([k]) => k !== 'after'));
+    if (after >= 0) C.eras.splice(after + 1, 0, entry); else C.eras.push(entry);
+    log.push(`hall added: ${hall.id}`);
+  }
+}
+
+// 0b. new games: only those whose game file exists
+if (existsSync('docs/research/new-games.json')) {
+  const N = await readJson('docs/research/new-games.json');
+  for (const base of (N && N.games) || []) {
+    if (C.games.some(g => g.id === base.id)) continue;
+    if (!existsSync(`public/games/${base.id}.js`)) { log.push(`not yet built, left out: ${base.id}`); continue; }
+    C.games.push(Object.assign({story: [], howToPlay: [], didYouKnow: [], sources: [], uncertainties: [], playable: true}, base));
+    log.push(`game added: ${base.id}`);
+  }
+}
+const byId = Object.fromEntries(C.games.map(g => [g.id, g]));
 
 // 1. builder notes
 if (existsSync('docs/game-notes')) {
   for (const f of (await readdir('docs/game-notes')).filter(f => f.endsWith('.json'))) {
     const id = f.replace(/\.json$/, '');
     const g = byId[id];
-    if (!g) { log.push(`notes for unknown game ${id}`); continue; }
-    let n;
-    try { n = JSON.parse(await readFile('docs/game-notes/' + f, 'utf8')); } catch (e) { log.push(`bad JSON in ${f}: ${e.message}`); continue; }
+    if (!g) { log.push(`notes for a game not on the site (yet): ${id}`); continue; }
+    const n = await readJson('docs/game-notes/' + f);
+    if (!n) continue;
     if (Array.isArray(n.howToPlay) && n.howToPlay.length) g.howToPlay = n.howToPlay;
     if (typeof n.controls === 'string' && n.controls) g.controls = n.controls;
     if (typeof n.computer === 'string') g.computer = n.computer;
@@ -34,29 +63,38 @@ if (existsSync('docs/game-notes')) {
   }
 }
 
-// 2. arcade research
-if (existsSync('docs/research/arcade.json')) {
-  const A = JSON.parse(await readFile('docs/research/arcade.json', 'utf8'));
+// 2. hall research: arcade.json (1970s and 1980s) and one file per newer hall
+const researchFiles = existsSync('docs/research') ? (await readdir('docs/research')).filter(f => f === 'arcade.json' || /^\d{4}s\.json$/.test(f)).sort() : [];
+for (const f of researchFiles) {
+  const A = await readJson('docs/research/' + f);
+  if (!A) continue;
+  const e = A.hall && A.hall.id ? C.eras.find(x => x.id === A.hall.id) : null;
+  if (A.hall && A.hall.id && !e) log.push(`${f}: hall ${A.hall.id} is not in the eras list`);
+  if (e) {
+    for (const k of ['hook', 'intro']) if (A.hall[k]) e[k] = A.hall[k];
+    if (A.future && A.future.length) { e.future = A.future; log.push(`future cards: ${A.future.length}`); }
+    log.push(`hall words: ${e.id}`);
+  }
   for (const a of A.games || []) {
     const g = byId[a.id];
-    if (!g) { log.push(`arcade entry for unknown game ${a.id}`); continue; }
-    for (const k of ['yearLabel', 'stamp', 'origin', 'blurb', 'story', 'didYouKnow', 'sources', 'uncertainties']) if (a[k] && (!Array.isArray(a[k]) || a[k].length)) g[k] = a[k];
-    log.push(`arcade story merged: ${a.id}`);
+    if (!g) { log.push(`${f}: story for a game not on the site (yet): ${a.id}`); continue; }
+    for (const k of ['yearLabel', 'stamp', 'origin', 'tagline', 'blurb', 'story', 'didYouKnow', 'sources', 'uncertainties']) if (a[k] && (!Array.isArray(a[k]) || a[k].length)) g[k] = a[k];
+    log.push(`story merged: ${a.id}`);
   }
   for (const k of A.kids || []) { C.kids = (C.kids || []).filter(x => x.era !== k.era); C.kids.push(k); log.push(`kids panel: ${k.era}`); }
-  if (A.lessons && A.lessons.length) {
-    C.curriculum.lessons = (C.curriculum.lessons || []).filter(l => !A.lessons.some(x => x.gameId === l.gameId)).concat(A.lessons);
-    log.push(`lessons added: ${A.lessons.length}`);
+  const lessons = (A.lessons || []).filter(l => byId[l.gameId]);
+  if (lessons.length) {
+    C.curriculum.lessons = (C.curriculum.lessons || []).filter(l => !lessons.some(x => x.gameId === l.gameId && x.title === l.title)).concat(lessons);
+    log.push(`${f}: lessons merged: ${lessons.length}`);
   }
 }
 
 // 3. pictures
 C.images = C.images || {};
-for (const f of ['images-a.json', 'images-b.json', 'images-c.json']) {
-  const p = 'docs/research/' + f;
-  if (!existsSync(p)) continue;
-  let M;
-  try { M = JSON.parse(await readFile(p, 'utf8')); } catch (e) { log.push(`bad JSON in ${f}: ${e.message}`); continue; }
+const imageFiles = existsSync('docs/research') ? (await readdir('docs/research')).filter(f => /^images-.+\.json$/.test(f)).sort() : [];
+for (const f of imageFiles) {
+  const M = await readJson('docs/research/' + f);
+  if (!M) continue;
   for (const im of M.images || []) {
     if (!im.hero) { delete C.images[im.id]; continue; }
     const ok = existsSync('public/' + im.hero) && (!im.card || existsSync('public/' + im.card));
@@ -69,6 +107,8 @@ for (const f of ['images-a.json', 'images-b.json', 'images-c.json']) {
 await writeFile(path, header + 'window.GIT_CONTENT = ' + JSON.stringify(C, null, 2) + ';\n');
 console.log(log.join('\n'));
 const missingPics = C.games.filter(g => !C.images[g.id]).map(g => g.id);
-console.log(`\n${Object.keys(C.images).length} pictures; games without a picture: ${missingPics.length ? missingPics.join(', ') : 'none'}`);
+console.log(`\n${C.games.length} games in ${C.eras.length} halls; ${Object.keys(C.images).length} pictures; games without a picture: ${missingPics.length ? missingPics.join(', ') : 'none'}`);
 const noRules = C.games.filter(g => !g.howToPlay || !g.howToPlay.length).map(g => g.id);
 console.log(`games without rules: ${noRules.length ? noRules.join(', ') : 'none'}`);
+const noStory = C.games.filter(g => !g.story || !g.story.length).map(g => g.id);
+console.log(`games without a story: ${noStory.length ? noStory.join(', ') : 'none'}`);

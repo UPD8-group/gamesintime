@@ -201,7 +201,7 @@
 
   var main, current = null, firstRender = true, header, menuEl, menuBtn, soundBtn;
 
-  function setTitle(t) { var n = C().site.name || 'Games in Time'; document.title = t ? t + ' · ' + n : n + ' · Play the games kids played, from candlelight to neon'; }
+  function setTitle(t) { var n = C().site.name || 'Games in Time'; document.title = t ? t + ' · ' + n : n + ' · Play the games kids played, from candlelight to touchscreens'; }
 
   function render() {
     if (current && current.destroy) { try { current.destroy(); } catch (e) { console.error(e); } }
@@ -299,12 +299,12 @@
     var n = gamesIn(e.id).length;
     return h('li', null,
       h('a', { class: 'gcard era-tile era-' + e.id, href: href(['era', e.id]) },
-        h('div', { class: 'gcard-img' }, pic || h('div', { class: 'hero-fallback', 'aria-hidden': 'true' }), h('span', { class: 'poster', 'aria-hidden': 'true' }, posterOf(e))),
+        h('div', { class: 'gcard-img' }, pic || h('div', { class: 'hero-fallback', 'aria-hidden': 'true' }), h('span', { class: 'poster' + (posterOf(e).length > 6 ? ' poster--long' : ''), 'aria-hidden': 'true' }, posterOf(e))),
         h('div', { class: 'gcard-body' },
           h('span', { class: 'label' }, e.years),
           h('span', { class: 'gcard-title' }, e.name),
           h('span', { class: 'gcard-hook' }, e.hook || ''),
-          h('span', { class: 'gcard-play' }, n + ' games to play →'))));
+          h('span', { class: 'gcard-play' }, n + (n === 1 ? ' game to play →' : ' games to play →')))));
   }
   function sourcesList(sources) {
     if (!sources || !sources.length) return null;
@@ -330,7 +330,7 @@
     types.forEach(function (tp) { filterBar.appendChild(h('button', { type: 'button', 'data-f': tp[0], 'aria-pressed': 'false', onclick: function () { filterState = tp[0]; store.set('filter', filterState); drawGrid(); } }, tp[1])); });
     drawGrid();
     var el = h('div', null,
-      hero({ imageId: 'home', height: '88vh', phoneHeight: '56vh', badge: all.length + ' games from 1800 to 1989. All free.', title: 'Play the games kids played,', gold: 'from candlelight to neon.', lede: site.lede,
+      hero({ imageId: 'home', height: '88vh', phoneHeight: '56vh', badge: all.length + ' games, from 1800 to the future. All free.', title: 'Play the games kids played,', gold: 'from candlelight to touchscreens.', lede: site.lede,
         actions: [h('a', { class: 'pill pill--gold', href: '#games' }, '▶ Start playing'), h('button', { class: 'pill pill--light', type: 'button', onclick: surprise }, 'Surprise me ', h('span', { class: 'arrow', 'aria-hidden': 'true' }, '→'))] }),
       h('section', { class: 'section', 'aria-labelledby': 'halls-title' },
         h('div', { class: 'section-head' }, h('p', { class: 'label' }, 'Pick a decade'), h('h2', { id: 'halls-title' }, 'Step through time')),
@@ -354,6 +354,19 @@
     return { el: el, title: '' };
   }
 
+  /* The future hall reads today's clues about where games are heading: predictions, each with its sources. */
+  function futureSection(e) {
+    if (!e.future || !e.future.length) return null;
+    return h('section', { class: 'section', id: 'future', 'aria-labelledby': 'future-title' },
+      h('div', { class: 'section-head' }, h('p', { class: 'label' }, 'Where games are heading'), h('h2', { id: 'future-title' }, 'Clues from today'),
+        h('p', null, 'These are predictions, not facts. Each one starts from something real that is happening now.')),
+      h('div', { class: 'info future-grid', style: { padding: 0 } }, e.future.map(function (f) {
+        return h('div', { class: 'icard' }, h('h3', null, f.title), h('div', { class: 'prose stack' }, paragraphs(f.paragraphs)),
+          f.uncertainties && f.uncertainties.length ? h('details', { class: 'more' }, h('summary', null, 'What we are not sure about'), h('ul', { class: 'sources' }, f.uncertainties.map(function (u) { return h('li', null, u); }))) : null,
+          f.sources && f.sources.length ? h('details', { class: 'more' }, h('summary', null, 'Sources'), sourcesList(f.sources)) : null);
+      })));
+  }
+
   function kidsSection(eraId) {
     var e = era(eraId);
     var ids = (e && e.kids) || [];
@@ -364,13 +377,14 @@
       var pic = picture('kids-' + k, '', '(max-width: 860px) 100vw, 40vw');
       var im = image('kids-' + k);
       return h('section', { class: 'kids', 'aria-labelledby': 'kids-' + k },
-        h('div', { class: 'section-head' }, h('p', { class: 'label' }, 'Kids your age'), h('h2', { id: 'kids-' + k }, p.title)),
+        h('div', { class: 'section-head' }, h('p', { class: 'label' }, p.imagined ? 'Kids your age · imagined from real forecasts' : 'Kids your age'), h('h2', { id: 'kids-' + k }, p.title)),
         h('div', { class: 'kids-grid' },
           h('figure', { class: 'kids-photo' }, pic || h('div', { class: 'hero-fallback', style: { position: 'absolute' } }), im ? h('figcaption', null, (im.caption || '') + (im.credit ? '. ' + im.credit : '')) : null),
           h('div', { class: 'stack' },
             h('div', { class: 'prose stack' }, paragraphs(p.paragraphs)),
             p.fastFacts && p.fastFacts.length ? h('ul', { class: 'facts' }, p.fastFacts.slice(0, 4).map(function (f) { return h('li', null, f); })) : null,
             p.compare ? h('p', { class: 'compare' }, h('strong', null, 'Talk about it: '), p.compare) : null,
+            p.questions && p.questions.length ? h('div', { class: 'compare' }, h('strong', null, 'Argue about it'), h('ul', { class: 'facts' }, p.questions.map(function (q) { return h('li', null, q); }))) : null,
             p.sources && p.sources.length ? h('details', { class: 'more' }, h('summary', null, 'Sources'), sourcesList(p.sources)) : null)));
     });
   }
@@ -382,10 +396,11 @@
     var i = eraIndex(id), next = eras()[i + 1], prev = eras()[i - 1];
     var el = h('div', null,
       hero({ imageId: 'hall-' + e.id, height: '78vh', label: 'The ' + e.pill + ' hall · ' + e.years, poster: posterOf(e), title: e.title || e.name, gold: e.gold, lede: e.intro,
-        actions: [list[0] ? h('a', { class: 'pill pill--gold', href: href(['game', list[0].id]) }, '▶ Play the first game') : null, h('a', { class: 'pill pill--ghost', href: '#hall-games' }, list.length + ' games in this hall')] }),
+        actions: [list[0] ? h('a', { class: 'pill pill--gold', href: href(['game', list[0].id]) }, '▶ Play the first game') : null, h('a', { class: 'pill pill--ghost', href: '#hall-games' }, list.length + (list.length === 1 ? ' game in this hall' : ' games in this hall'))] }),
       h('section', { class: 'section', id: 'hall-games', 'aria-labelledby': 'hall-games-title' },
         h('div', { class: 'section-head' }, h('p', { class: 'label' }, e.years), h('h2', { id: 'hall-games-title' }, 'Games in this hall')),
         gameGrid(list)),
+      futureSection(e),
       kidsSection(id),
       e.extra ? h('section', { class: 'kids' }, h('div', { class: 'icard icard--wide' }, h('p', { class: 'label' }, e.extra.label), h('h2', null, e.extra.title), h('div', { class: 'prose stack' }, paragraphs(e.extra.paragraphs)), e.extra.sources ? h('details', { class: 'more' }, h('summary', null, 'Sources'), sourcesList(e.extra.sources)) : null)) : null,
       h('div', { class: 'next-band' },
@@ -564,14 +579,14 @@
       h('section', { class: 'info' },
         h('div', { class: 'icard icard--wide' }, h('div', { class: 'prose stack' },
           h('p', { class: 'pull' }, 'What did kids my age play a hundred years ago, and could we play those games today?'),
-          h('p', null, 'That question, from a thirteen-year-old, is the whole site. Every game here was played by children between 1800 and the 1980s, and every one of them is playable right here, for free.'),
+          h('p', null, 'That question, from a thirteen-year-old, is the whole site. Every game here was played by children between 1800 and today, plus one made for the future, and every one of them is playable right here, for free.'),
           h('p', null, 'Beside each game is its true story: the year, where it came from, who played it, and the sources we used. Every hall also tells you what it was like to be twelve in that decade.'))),
         h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Our rules for the history'), h('ul', { class: 'facts' },
           h('li', null, 'Every date and story is checked against sources we actually read, and the sources are listed on the page.'),
           h('li', null, 'When historians disagree, we say so. What we cannot confirm goes under "What we are not sure about".'),
           h('li', null, 'We use the names people used at the time, and avoid trademarked names that belong to companies today.'))),
         h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Free, for everyone'), h('p', null, 'No accounts, no ads, no tracking. Everything runs in your web browser, so there is nothing to install and nothing to sign up for.'),
-          h('p', null, 'The halls run from the 1800s to the neon arcades of the 1980s, each one dressed in the colours of its own time.'))));
+          h('p', null, 'The halls run from the 1800s parlour, past the neon arcades of the 1980s and the touchscreens of the 2010s, to a hall about the future, each one dressed in the colours of its own time.'))));
     return { el: el, title: 'About' };
   }
 

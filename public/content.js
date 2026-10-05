@@ -4,8 +4,8 @@
 window.GIT_CONTENT = {
   "site": {
     "name": "Games in Time",
-    "tagline": "Play the games kids played, from candlelight to neon.",
-    "lede": "Thirty-nine games from the 1800s to the 1980s, rebuilt so you can play them right now, with the true story of the kids who played them first. No accounts. No ads. Nothing to install.",
+    "tagline": "Play the games kids played, from candlelight to touchscreens.",
+    "lede": "Games from the 1800s to today, and one from the future, rebuilt so you can play them right now, with the true story of the kids who played them first. No accounts. No ads. Nothing to install.",
     "repo": "https://github.com/UPD8-group/gamesintime"
   },
   "eras": [
@@ -107,6 +107,390 @@ window.GIT_CONTENT = {
       "intro": "Vector rocks in the dark, a dash through traffic, a hunt through a glowing maze, and a well of falling blocks. The arcade of the early eighties, rebuilt in neon and chrome. Same rule as the room next door: the mechanics are the era’s, the names and colours are ours.",
       "kids": [
         "1980s"
+      ]
+    },
+    {
+      "id": "1990s",
+      "pill": "1990s",
+      "poster": "1993",
+      "years": "1990 to 1999",
+      "name": "The Bedroom Console",
+      "title": "The games came home.",
+      "gold": "Pixels, polygons and pets.",
+      "kids": [
+        "1990s"
+      ]
+    },
+    {
+      "id": "2000s",
+      "pill": "2000s",
+      "poster": "2001",
+      "years": "2000 to 2009",
+      "name": "The Y2K Lounge",
+      "title": "A new millennium of play.",
+      "gold": "Gems, Flash games and a wand in your hand.",
+      "kids": [
+        "2000s"
+      ]
+    },
+    {
+      "id": "2010s",
+      "pill": "2010s",
+      "poster": "2014",
+      "years": "2010 to 2019",
+      "name": "The Touchscreen Years",
+      "title": "Games in your pocket.",
+      "gold": "Swipe, tap, merge, build.",
+      "kids": [
+        "2010s"
+      ]
+    },
+    {
+      "id": "2020s",
+      "pill": "2020s",
+      "poster": "2021",
+      "years": "2020 to 2029",
+      "name": "The Daily Puzzle",
+      "title": "The games of right now.",
+      "gold": "One puzzle a day, shared with the world.",
+      "kids": [
+        "2020s"
+      ]
+    },
+    {
+      "id": "2030s",
+      "pill": "2030+",
+      "poster": "2030",
+      "years": "2030 and beyond",
+      "name": "The Future Hall",
+      "title": "What comes next?",
+      "gold": "You get to decide.",
+      "kids": [
+        "2030s"
+      ],
+      "hook": "A robot that learns from you, characters that talk back, headsets in the classroom and games that help scientists.",
+      "intro": "Nobody knows exactly what kids will play in 2035, but the clues are already here: characters that learn, headsets that mix real and virtual worlds, and games anyone can make. This hall reads those clues honestly, as predictions, not facts. Its one game is brand new and made for this site: in Robot School you teach a robot and watch it learn, right in your browser.",
+      "future": [
+        {
+          "title": "Games and AI",
+          "paragraphs": [
+            "For decades, most game characters followed rules that people wrote. Now some are learning to talk back. In March 2024 the French company Ubisoft showed a test game where players spoke out loud to characters run by generative artificial intelligence (AI), the same kind used in chatbots. The characters remembered what you said and could even make up new missions. Ubisoft called it a prototype, not a finished game, and its writers still had to create each character's life story, hopes and feelings first.",
+            "AI helpers are being tried too. In May 2025 Microsoft let adults in Australia and other countries test Copilot for Gaming, an assistant that answered questions about your game using your Xbox play history. In May 2026 Xbox said it would wind the helper down. The future of games often changes direction like this.",
+            "There are big questions. If an AI learned to draw from millions of pictures made by people, who made the art? In October 2025 Australia's Attorney-General said AI companies would not be allowed a special exception to train on Australian creators' work for free. In the United States, game voice actors went on strike from July 2024 to July 2025, partly so their voices could not be copied without permission and pay. Since January 2024 the Steam store has asked game makers to say how they used AI. In a 2026 survey of more than 2,300 game workers, 52 per cent said generative AI was having a negative effect on games and only 7 per cent said positive.",
+            "Fairness and privacy matter too. An AI that learns from unfair examples can make unfair choices, which is what Robot School's fairness lesson is about. Australia's privacy regulator must finish a Children's Online Privacy Code by 10 December 2026, covering the apps, games and websites children use.",
+            "Where could it lead? In 2023 the Pew Research Center asked 305 technology experts about AI and life in 2035. 37 per cent were more worried than excited, 18 per cent were more excited than worried, and 42 per cent felt both equally. Many said the choices people make now will decide which way it goes."
+          ],
+          "sources": [
+            {
+              "title": "Ubisoft unveils NEO NPCs, its first prototype for GenAI-powered characters and gameplay, Ubisoft press release, 19 March 2024",
+              "url": "https://staticctf.ubisoft.com/8aefmxkxpxwl/Mw2s4KjssknqHHh1VIf8V/720296810ecc3deae51778a219732c7f/PRESS_RELEASE_GDC_UbisoftUnveilsNEONPC_190324.pdf",
+              "note": "Shown at GDC 2024; players talk to characters by voice; NPCs have memory and can generate quests; built with Inworld AI and Nvidia; 'Every detail, personalities, backstories, agendas, and emotions, needs to be thoroughly crafted' by the team; narrative director Virginie Mosser; described as a prototype."
+            },
+            {
+              "title": "Testing for Copilot for Gaming (Beta) begins rolling out on mobile devices today, Xbox Wire, 28 May 2025",
+              "url": "https://news.xbox.com/en-us/2025/05/28/copilot-gaming-test-xbox-android-ios/",
+              "note": "Beta for users 18 and older in the US, Australia, New Zealand, Japan, Singapore and other regions; 'it sources your player activity on Xbox alongside public sources of information from the Bing search engine'."
+            },
+            {
+              "title": "Xbox is ditching Microsoft's Copilot AI, Engadget, 5 May 2026",
+              "url": "https://www.engadget.com/2165562/xbox-is-ditching-microsofts-copilot-ai/",
+              "note": "Xbox CEO Asha Sharma said Xbox would 'begin winding down Copilot on mobile and will stop development of Copilot on console'."
+            },
+            {
+              "title": "Govt rules out AI copyright exemption for tech giants, Information Age (Australian Computer Society), 27 October 2025",
+              "url": "https://ia.acs.org.au/article/2025/govt-rules-out-ai-copyright-exemption-for-tech-giants.html",
+              "note": "Attorney-General Michelle Rowland: 'We will not be entertaining a text and data mining exception', so that creators 'are fairly remunerated'."
+            },
+            {
+              "title": "2024 to 2025 SAG-AFTRA video game strike, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/2024%E2%80%932025_SAG-AFTRA_video_game_strike",
+              "note": "Strike from 26 July 2024 to 9 July 2025 over 'AI guardrails', including consent and payment for digital replicas of performers' voices and likenesses; deal ratified by 95.04% of members."
+            },
+            {
+              "title": "Valve announces new rules for games with AI content on Steam, GamingOnLinux, 10 January 2024",
+              "url": "https://www.gamingonlinux.com/2024/01/valve-announces-new-rules-for-games-with-ai-content-on-steam/",
+              "note": "Developers disclose 'Pre-Generated' and 'Live-Generated' AI content; much of the disclosure is shown on the store page; players can report illegal live-generated content."
+            },
+            {
+              "title": "One third of game workers use generative AI, but half think it's bad for the industry, Game Developer, 3 February 2026",
+              "url": "https://www.gamedeveloper.com/business/one-third-of-game-workers-use-generative-ai-but-half-think-it-s-bad-for-the-industry",
+              "note": "GDC 2026 State of the Game Industry, more than 2,300 respondents: 52% say generative AI is having a negative impact, 7% positive, 36% personally use it."
+            },
+            {
+              "title": "Children's Online Privacy Code, Office of the Australian Information Commissioner",
+              "url": "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
+              "note": "An APP code for 'online services, like apps, games and websites, likely to be accessed by children'; 'must be finalised and registered by 10 December 2026'; 425 submissions came from children and families."
+            },
+            {
+              "title": "Artificial intelligence (AI), curriculum connection, Australian Curriculum v9, ACARA",
+              "url": "https://www.australiancurriculum.edu.au/curriculum-information/understand-this-curriculum-connection/artificial-intelligence",
+              "note": "'Biases in the data AI systems are trained on can perpetuate discriminatory stereotypes or unfairly represent, omit or negatively portray certain groups'; 'the quality of the training data impacts on the quality, reliability and bias of the output'; Years 5 and 6 'investigate bias and fairness in relation to outcomes'; Years 7 and 8 'design and trace algorithms... including algorithms that can sort and classify'."
+            },
+            {
+              "title": "As AI Spreads, Experts Predict the Best and Worst Changes in Digital Life by 2035, Pew Research Center and Elon University, 21 June 2023",
+              "url": "https://www.pewresearch.org/internet/2023/06/21/as-ai-spreads-experts-predict-the-best-and-worst-changes-in-digital-life-by-2035/",
+              "note": "305 technology experts canvassed 27 December 2022 to 21 February 2023: 42% equally excited and concerned, 37% more concerned than excited, 18% more excited than concerned; best changes expected in health and medicine, education and climate action; worst in surveillance, deepfakes, jobs and concentrated corporate power."
+            }
+          ],
+          "uncertainties": [
+            "Ubisoft's NEO NPCs were a prototype shown privately at GDC 2024; no released game using them was confirmed.",
+            "The survey figures are opinions of the people who answered, not a measure of what will happen.",
+            "Copilot for Gaming was an adults-only beta and its availability varied by country."
+          ]
+        },
+        {
+          "title": "Virtual and mixed reality",
+          "paragraphs": [
+            "Headsets are older than you might think. In 1968 the computer scientist Ivan Sutherland and his students built a head-mounted display that drew simple wireframe rooms. It was see-through, so the shapes floated over the real room, and it was nicknamed the Sword of Damocles after its big mechanical support. In 1995 Nintendo's Virtual Boy showed 3D games in red, but it sold only 770,000 and some players got headaches.",
+            "Virtual reality (VR) fills your eyes with a made-up world. Mixed or augmented reality (AR) adds virtual things to the real world around you. Pokémon Go put AR creatures in streets and parks from 6 July 2016, launching first in Australia, New Zealand and the United States, and passed 100 million downloads within a month. Apple's Vision Pro headset went on sale in Australia on 12 July 2024. In 2023 Meta lowered the minimum age for its Quest headsets from 13 to 10, with accounts run by parents.",
+            "Will everyone wear one by 2040? Experts disagree. In 2022 the Pew Research Center asked 624 experts whether, by 2040, fully immersive virtual worlds would be a well-working part of daily life for half a billion people or more. 54 per cent said yes and 46 per cent said no. Many of the doubters expected glasses that add things to the real world to beat headsets that shut it out."
+          ],
+          "sources": [
+            {
+              "title": "The Sword of Damocles (virtual reality), Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+              "note": "Ivan Sutherland with Bob Sproull, Quintin Foster and Danny Cohen, 1968; 'simple wireframe rooms'; the first functional augmented reality system with optical transparency; Sutherland said the name was 'merely a joke name for the mechanical system that supported and tracked' the display."
+            },
+            {
+              "title": "Virtual Boy, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Virtual_Boy",
+              "note": "Released July and August 1995; 'red monochrome display'; sold 770,000 units; reports of 'headaches, dizziness, and eye strain'; discontinued by 1996."
+            },
+            {
+              "title": "Pokémon Go, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go",
+              "note": "Augmented reality mobile game by Niantic, released 6 July 2016 in Australia, New Zealand and the United States; more than 100 million downloads by 31 July 2016."
+            },
+            {
+              "title": "Apple Vision Pro, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
+              "note": "Announced 5 June 2023; US release 2 February 2024 at US$3,499; available in Australia from 12 July 2024; marketed as a 'spatial computer'."
+            },
+            {
+              "title": "Meta to reduce Quest's minimum age restriction to 10 years, Road to VR, 19 June 2023",
+              "url": "https://www.roadtovr.com/meta-quest-age-limit-10-years/",
+              "note": "Minimum age lowered from 13+ to 10+ with parent-managed accounts; Meta Horizon Worlds kept its 13+ age limit in the US and Canada."
+            },
+            {
+              "title": "The Metaverse in 2040, Pew Research Center and Elon University, 30 June 2022",
+              "url": "https://www.pewresearch.org/internet/2022/06/30/the-metaverse-in-2040/",
+              "note": "624 experts canvassed 6 February to 21 March 2022 on whether the metaverse would be 'a much-more-refined and truly fully-immersive, well-functioning aspect of daily life for a half billion or more people globally' by 2040: 54% yes, 46% no; many doubters expected augmented reality to be far more common than immersive VR."
+            }
+          ],
+          "uncertainties": [
+            "Experts asked about 2040 were split almost evenly, so the future of headsets is genuinely unknown.",
+            "Pokémon Go's download figures come from Wikipedia, which cites company and analyst reports."
+          ]
+        },
+        {
+          "title": "Games anyone can make",
+          "paragraphs": [
+            "In May 2007 the Lifelong Kindergarten group at the MIT Media Lab in the United States released Scratch, where you snap coloured blocks together to make games, stories and animations. By February 2023 more than 103 million users had shared over 123 million projects.",
+            "Roblox, released in 2006, and Minecraft, fully released in 2011, turned millions of players into builders. Roblox games are made by players in Roblox Studio, using a programming language called Luau, and in mid-2025 Roblox averaged 111.8 million users a day. By April 2025 Minecraft had sold more than 350 million copies, more than any other video game. In December 2025 Roblox began asking players in Australia to check their age before they could chat.",
+            "Making things is getting easier still. In March 2025 Roblox released Cube 3D, an AI tool that turns typed words, such as 'motorcycle', into 3D objects, and more than 1.8 million objects have been made with it since. Tools like this could let far more people build games. Many game workers are uneasy, though: in a 2025 survey some worried that stores would fill up with low-effort games made quickly by AI."
+          ],
+          "sources": [
+            {
+              "title": "Scratch (programming language), Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Scratch_(programming_language)",
+              "note": "Created by Mitchel Resnick and Yasmin Kafai's Lifelong Kindergarten group at the MIT Media Lab; version 1.0 released 15 May 2007; 'more than 123 million projects shared by over 103 million users' as of February 2023; the Scratch Foundation took over in 2019."
+            },
+            {
+              "title": "Roblox, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Roblox",
+              "note": "Created by David Baszucki and Erik Cassel, released 1 September 2006; games built in Roblox Studio with Luau, a dialect of Lua 5.1; mandatory age checks to communicate began in Australia and some other countries in December 2025."
+            },
+            {
+              "title": "Roblox Reports Second Quarter 2025 Financial Results, Roblox Investor Relations, 31 July 2025",
+              "url": "https://ir.roblox.com/news/news-details/2025/Roblox-Reports-Second-Quarter-2025-Financial-Results/default.aspx",
+              "note": "'Average Daily Active Users (DAUs) were 111.8 million, up 41% year-over-year'; mentions the Cube 3D foundational AI model."
+            },
+            {
+              "title": "Best-selling videogame, Guinness World Records",
+              "url": "https://www.guinnessworldrecords.com/world-records/best-selling-video-game",
+              "note": "Minecraft, over 350 million units as of April 2025, confirmed by Mojang in the Minecraft Annual 2026."
+            },
+            {
+              "title": "Minecraft, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Minecraft",
+              "note": "Created by Markus Persson; first public version 17 May 2009; full release 18 November 2011; Minecraft Education launched 1 November 2016; players build computers from redstone."
+            },
+            {
+              "title": "Cube 3D, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cube_3D",
+              "note": "AI model by Roblox announced and open-sourced in March 2025; turns text into 3D meshes; trained on Roblox meshes; over 1.8 million assets generated since launch; built into Roblox Studio."
+            },
+            {
+              "title": "Developers still aren't warming up to generative AI, Game Developer, 22 January 2025",
+              "url": "https://www.gamedeveloper.com/business/developers-still-aren-t-warming-up-to-generative-ai",
+              "note": "GDC 2025 State of the Game Industry: 30% of developers saw a negative impact from generative AI, 13% positive; worries included quality and 'market oversaturation with low-effort AI-generated games'."
+            }
+          ],
+          "uncertainties": [
+            "Roblox's daily user figure counts accounts, not people, and changes every quarter.",
+            "Minecraft's sales keep rising; some 2026 reports give figures above 400 million, but only the April 2025 figure was checked against Guinness World Records.",
+            "The figure of 1.8 million objects made with Cube 3D comes from Wikipedia and was not checked against Roblox's own reports."
+          ]
+        },
+        {
+          "title": "Cloud games and games for everyone",
+          "paragraphs": [
+            "Cloud gaming runs the game on a powerful computer in a data centre and streams the pictures to your phone, tablet or laptop, like a video that listens to your buttons. Xbox Cloud Gaming started in September 2020 and reached Australia in September 2021. The catch is lag: the tiny delay between pressing a button and seeing what happens, which matters a lot in fast games.",
+            "Not every cloud bet works. Google's Stadia opened in November 2019 and closed on 18 January 2023 because not enough people used it, and Google refunded what players had paid. Stadia also needed fast internet: at least 10 megabits a second for its lowest picture quality and 35 for its sharpest.",
+            "Accessibility means games that everyone can play. On 4 September 2018 Microsoft released the Xbox Adaptive Controller, designed with gamers with disability and groups such as AbleGamers and SpecialEffect. It has two big buttons and 19 sockets where players can plug in switches, pedals or joysticks that suit their bodies. London's V&A museum collected one on the day it went on sale, and Sony later made its own Access controller. In Australia 13.5 per cent of children aged 5 to 14 had disability in 2022, so games like this matter in every classroom.",
+            "If the cloud keeps improving, the expensive part of a console could live in a data centre and a cheap screen could play almost anything. That depends on fast, steady internet, and on game makers designing for every kind of player from the start."
+          ],
+          "sources": [
+            {
+              "title": "Cloud gaming, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cloud_gaming",
+              "note": "Games run on remote servers and are streamed to the player's device; OnLive launched in June 2010 and struggled to make a profit; latency, the delay between input and effect, is a major problem for fast-paced games."
+            },
+            {
+              "title": "Xbox Cloud Gaming, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Xbox_Cloud_Gaming",
+              "note": "Launched 15 September 2020 for Game Pass Ultimate; games run on Xbox Series X-based servers in Microsoft's Azure data centres; expanded to Australia in September 2021."
+            },
+            {
+              "title": "Google Stadia, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Google_Stadia",
+              "note": "Launched 19 November 2019 in 14 countries; shut down 18 January 2023 citing 'lack of traction with users'; all hardware and game purchases refunded; 10 Mbps for 720p and 35 Mbps for 4K."
+            },
+            {
+              "title": "Xbox Adaptive Controller, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Xbox_Adaptive_Controller",
+              "note": "Announced May 2018, released 4 September 2018 at US$99.99; developed with SpecialEffect, Warfighter Engaged, The AbleGamers Foundation and others; two large 4-inch buttons and nineteen 3.5 mm jacks; inspired Sony's Access Controller and Hori's Flex Controller."
+            },
+            {
+              "title": "V&A acquires Xbox adaptive controller set to revolutionise accessibility in videogaming, V&A Blog, 4 September 2018",
+              "url": "https://www.vam.ac.uk/blog/museum-life/va-acquires-xbox-adaptive-controller-set-to-revolutionise-accessibility-in-videogaming",
+              "note": "Acquired for the V&A's Rapid Response Collecting at release; 'two large buttons that players can programme, nineteen jacks and two USB ports'."
+            },
+            {
+              "title": "Disability, Ageing and Carers, Australia: Summary of Findings, 2022, Australian Bureau of Statistics",
+              "url": "https://www.abs.gov.au/statistics/health/disability/disability-ageing-and-carers-australia-summary-findings/latest-release",
+              "note": "5.5 million Australians (21.4%) had disability; 13.5% of children aged 5 to 14 had disability in 2022, up from 9.6% in 2018."
+            }
+          ],
+          "uncertainties": [
+            "Stadia's internet speed figures are Google's recommendations as reported by Wikipedia; real needs varied with the game and network.",
+            "The year Sony's Access controller went on sale was not checked, so the panel says only 'later'."
+          ]
+        },
+        {
+          "title": "Playing for science and health",
+          "paragraphs": [
+            "Proteins are the tiny machines that do the work inside every living thing, and a protein's shape decides what it does. In May 2008 scientists and game designers at the University of Washington in Seattle released Foldit, a puzzle game where players fold proteins into good shapes. In 2011 Foldit players worked out the shape of an enzyme from a virus that causes an AIDS-like disease in monkeys. Scientists had been stuck on it for more than a decade. The players cracked it in about three weeks.",
+            "In 2024 David Baker, the biochemist who led the Foldit project, shared the Nobel Prize in Chemistry for designing brand-new proteins. The other half of the prize went to Demis Hassabis and John Jumper of Google DeepMind, the company behind AlphaGo, for AlphaFold2, an AI that predicts protein shapes. It has predicted the shapes of almost all 200 million proteins researchers know about. Foldit players have moved on to designing new proteins, and in 2019 four of their designs were made in a laboratory.",
+            "Other games help health research. Sea Hero Quest (2016) tested how well players find their way around, one of the first skills lost in dementia, and 4.3 million players gave researchers data that would have taken 17,600 years to collect in a laboratory. In June 2020 EndeavorRx became the first video game cleared by the United States Food and Drug Administration as a treatment, for children aged 8 to 12 with ADHD. In Australia, QuestaGame, launched in Canberra in 2014, turns spotting plants, animals and fungi into a game, and experts check the sightings before they go to the Atlas of Living Australia.",
+            "In the 2023 Pew survey about life in 2035, many experts named health and medicine as where AI could do the most good. Some of that progress may come from people playing games."
+          ],
+          "sources": [
+            {
+              "title": "Foldit, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Foldit",
+              "note": "Launched May 2008 by the University of Washington Center for Game Science and Department of Biochemistry, led by David Baker with Seth Cooper and Zoran Popovic; 2011 M-PMV retroviral protease model produced by players; 2019: four player-designed proteins synthesised and deposited in the Protein Data Bank; players credited as authors."
+            },
+            {
+              "title": "Gamers succeed where scientists fail, University of Washington News, 19 September 2011",
+              "url": "https://www.washington.edu/news/2011/09/19/gamers-succeed-where-scientists-fail",
+              "note": "Scientists struggled for 'more than a decade'; gamers solved it in 'three weeks'; published in Nature Structural & Molecular Biology on 18 September 2011; Firas Khatib: 'We wanted to see if human intuition could succeed where automated methods had failed'."
+            },
+            {
+              "title": "The Nobel Prize in Chemistry 2024, press release, Royal Swedish Academy of Sciences",
+              "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+              "note": "Half to David Baker 'for computational protein design', half jointly to Demis Hassabis and John Jumper of Google DeepMind, London, 'for protein structure prediction'; AlphaFold2 has predicted 'the structure of virtually all the 200 million proteins that researchers have identified'."
+            },
+            {
+              "title": "Sea Hero Quest, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Sea_Hero_Quest",
+              "note": "2016 mobile game by Glitchers with Alzheimer's Research UK, UCL and the University of East Anglia, funded by Deutsche Telekom; studies spatial navigation, which it describes as one of the first skills lost in dementia; three sections: navigation, shooting flares to test orientation, and chasing creatures; by October 2021 4.3 million players had produced data that would have taken 17,600 years to collect in the lab."
+            },
+            {
+              "title": "EndeavorRx, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/EndeavorRx",
+              "note": "On 15 June 2020 'the first ever video game to be cleared by the FDA'; for children with ADHD aged 8 to 12; reported side effects included frustration and headaches."
+            },
+            {
+              "title": "Questagame, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Questagame",
+              "note": "Launched in 2014 in Canberra; founder Andrew Robinson; players submit and identify sightings of fauna, flora and fungi; data goes to the Atlas of Living Australia; classroom version Ranger Vision."
+            },
+            {
+              "title": "As AI Spreads, Experts Predict the Best and Worst Changes in Digital Life by 2035, Pew Research Center and Elon University, 21 June 2023",
+              "url": "https://www.pewresearch.org/internet/2023/06/21/as-ai-spreads-experts-predict-the-best-and-worst-changes-in-digital-life-by-2035/",
+              "note": "305 technology experts canvassed 27 December 2022 to 21 February 2023: 42% equally excited and concerned, 37% more concerned than excited, 18% more excited than concerned; best changes expected in health and medicine, education and climate action; worst in surveillance, deepfakes, jobs and concentrated corporate power."
+            }
+          ],
+          "uncertainties": [
+            "Sources differ on how long the monkey-virus enzyme had stumped scientists: the University of Washington says more than a decade, Wikipedia says 15 years.",
+            "Wikipedia says the Foldit puzzle was open for three weeks and players produced the key model in ten days; the panel says about three weeks.",
+            "It is not clear from the sources opened whether QuestaGame is still active in 2026.",
+            "EndeavorRx was cleared by the US regulator; no source was found on its status in Australia."
+          ]
+        },
+        {
+          "title": "Games and the planet",
+          "paragraphs": [
+            "Games run on electricity. In 2015 the energy scientist Evan Mills of Lawrence Berkeley National Laboratory in California found that gaming computers were only 2.5 per cent of the world's computers but used 20 per cent of their energy. 'Your average gaming computer is like three refrigerators,' he said. Better parts and settings could save more than three quarters of that energy. His later research found that streaming games from the cloud can raise electricity use by up to 60 per cent on a desktop computer and 300 per cent on a laptop.",
+            "AI and cloud games run in data centres, and those are growing fast. The International Energy Agency expects the world's data centres to use about 945 terawatt hours of electricity a year by 2030, more than double the 415 they used in 2024.",
+            "Then there is the rubbish. In 2022 the world threw away 62 million tonnes of electronic waste, or e-waste, and only 22.3 per cent was properly collected and recycled. The United Nations' Global E-waste Monitor expects 82 million tonnes by 2030. Since 2019 it has been illegal in Victoria to put e-waste, anything with a plug, battery or power cord, in the household rubbish.",
+            "Repair is part of the answer. From 18 February 2027 a European Union law says the batteries in most portable devices sold there must be removable and replaceable by their owners. Australia's Productivity Commission reported on the right to repair in 2021. And in September 2019, twenty games companies with a combined 970 million players formed the Playing for the Planet Alliance with the United Nations, promising to cut emissions and put green ideas into their games."
+          ],
+          "sources": [
+            {
+              "title": "Gaming computers offer huge, untapped energy savings potential, Berkeley Lab News Center, 31 August 2015",
+              "url": "https://newscenter.lbl.gov/2015/08/31/gaming-computers-offer-huge-untapped-energy-savings-potential/",
+              "note": "Gaming computers are 2.5% of the global installed PC base but 20% of PC energy use; savings of more than 75% possible; Evan Mills: 'Your average gaming computer is like three refrigerators'."
+            },
+            {
+              "title": "Video games consume more electricity than 25 power plants can produce, Mother Jones, November 2018",
+              "url": "https://www.motherjones.com/environment/2018/11/video-games-electricity-carbon-footprint/",
+              "note": "Reports Evan Mills's research: US gaming systems use about $6 billion of electricity a year; cloud-based gaming increases electricity use 'by as much as 60 percent for desktop computers and 300 percent for laptops'; efficiency could cut use by 30 to 50%."
+            },
+            {
+              "title": "Environmental impact of artificial intelligence, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Environmental_impact_of_artificial_intelligence",
+              "note": "Cites the International Energy Agency (2025): data centres used about 415 TWh in 2024, about 1.5% of world electricity, and 'could rise to about 945 TWh by 2030, with AI identified as the main driver'."
+            },
+            {
+              "title": "The Global E-waste Monitor 2024, ITU and UNITAR",
+              "url": "https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+              "note": "62 million tonnes of e-waste generated in 2022; 22.3% documented as formally collected and recycled; projected 82 million tonnes by 2030."
+            },
+            {
+              "title": "E-waste ban, Victorian Government",
+              "url": "https://www.vic.gov.au/e-waste-ban",
+              "note": "'Since 2019, it has been illegal to put e-waste in household rubbish or landfill in Victoria'; 'E-waste is any item that has a plug, battery or power cord'."
+            },
+            {
+              "title": "How to comply with the EU replaceable battery rules, ComplianceGate",
+              "url": "https://www.compliancegate.com/removable-and-replaceable-battery-requirements-european-union/",
+              "note": "Article 11 of Batteries Regulation (EU) 2023/1542 applies from 18 February 2027: portable batteries must be removable and replaceable by end users, with exemptions."
+            },
+            {
+              "title": "Right to Repair, Productivity Commission inquiry report",
+              "url": "https://www.pc.gov.au/inquiries/completed/repair/report",
+              "note": "Final report handed to the Government on 29 October 2021 and released on 1 December 2021; looked at barriers to repair, planned obsolescence and e-waste."
+            },
+            {
+              "title": "Playing For The Planet Alliance launch video, UN Environment Programme via GRID-Arendal",
+              "url": "https://www.grida.no/resources/13462",
+              "note": "'Twenty of the biggest names in the video games industry' with 'a combined audience of 970 million players' launched the alliance at the UN Secretary-General's Climate Action Summit in 2019."
+            },
+            {
+              "title": "UN's Playing for the Planet inspires gaming industry to change, United Nations Regional Information Centre",
+              "url": "https://unric.org/en/uns-playing-for-the-planet-inspires-gaming-industry-to-change/",
+              "note": "The alliance was launched in 2019 at UN Headquarters in New York; over 60% of members committed to net zero or carbon negative by 2030."
+            }
+          ],
+          "uncertainties": [
+            "The data centre forecast is from the International Energy Agency as quoted by Wikipedia; the IEA's own pages blocked access during research.",
+            "Evan Mills's figures come from US and Californian studies of 2015 to 2019; newer gaming hardware may use energy differently.",
+            "The EU battery rule has exceptions, and how it will apply to game handhelds and controllers was not checked.",
+            "The launch date of 23 September 2019 for Playing for the Planet comes from search results; the pages opened confirm only 2019."
+          ]
+        }
       ]
     }
   ],
@@ -3637,6 +4021,119 @@ window.GIT_CONTENT = {
       ]
     },
     {
+      "era": "2030s",
+      "title": "Being 12 in 2035",
+      "imagined": true,
+      "paragraphs": [
+        "This panel is different. Nobody has been 12 in 2035 yet, so this is an honest imagining, built from real plans and forecasts, not facts. If you are 12 in 2035, you were born in 2023. You were about 5 when a total solar eclipse darkened Sydney on 22 July 2028, the city's first since 1857, and about 9 when Brisbane hosted the Olympic Games from 23 July to 8 August 2032.",
+        "At school you might have an AI helper that asks you questions instead of handing you answers. That has already begun: from 14 October 2025, NSW public school students in Year 5 and up could use NSWEduChat, built to guide students with open-ended questions. In 2023 Australia's education ministers agreed on a national framework for AI in schools, with fairness and privacy among its six principles. In Digital Technologies you would learn how machines learn from examples, and why bad examples make unfair machines.",
+        "You probably would not have a social media account. Since 10 December 2025 Australian law has required social media platforms to stop under-16s having accounts, although services mainly for playing online games with others are left out. You might rarely touch cash: in 2022 only 13 per cent of payments in Australia were made with it. Your games might run on a console, a phone, a headset or a server far away in the cloud.",
+        "Australia would be busier, with about 31.5 million people projected by the 2035-36 financial year, up from 27.5 million in 2025. The country has promised to cut its greenhouse gas emissions by 62 to 70 per cent below 2005 levels by 2035. The Climate Change Authority said even the lower number would need about four times as much wind power. Whether these plans come true depends on the grown-ups of today, and on the kids reading this."
+      ],
+      "fastFacts": [
+        "The total solar eclipse on 22 July 2028 will be Sydney's first since 26 March 1857. (Wikipedia)",
+        "Brisbane will host the Olympic Games from 23 July to 8 August 2032. (Wikipedia)",
+        "Since 10 December 2025, social media platforms must stop Australians under 16 from having accounts, but services mainly for playing online games together are excluded. (Clayton Utz, on the eSafety rules)",
+        "Australia's population is projected to reach 31.5 million by the 2035-36 financial year. (Centre for Population, 2025 Population Statement)",
+        "Old computers that count time as seconds since 1 January 1970 in a 32-bit number will run out at 3:14:07 am UTC on 19 January 2038 unless they are updated. (Wikipedia, Year 2038 problem)",
+        "In 2022 cash was used for 13 per cent of payments in Australia, down from 27 per cent in 2019. (Reserve Bank of Australia)"
+      ],
+      "compare": "A 12-year-old in 2035 was born in 2023. How old will you be in 2035? Scratch came out in 2007 and Minecraft's full version in 2011: how old will each be in 2035? Which games from this website do you think a 12-year-old in 2035 will still know?",
+      "questions": [
+        "Should a game character run by AI have to tell you it is not a person?",
+        "If an AI learned to draw by studying millions of pictures by real artists, who made the picture it draws for you?",
+        "Kids under 16 in Australia can play online games together but cannot have social media accounts. Is that the right line? Where would you draw it?",
+        "The world made 62 million tonnes of e-waste in 2022, and 82 million tonnes are expected in 2030. That is 20 million tonnes more in 8 years, or 2.5 million tonnes more each year. If it kept growing like that, how much would there be in 2035? What could players and game makers do to change that number?",
+        "Would you rather play in a headset that hides the real world, or in glasses that add things to it? Why?",
+        "RoboCup's goal is a robot team that beats the human World Cup champions by 2050. Will it happen? Should it?"
+      ],
+      "sources": [
+        {
+          "title": "Solar eclipse of July 22, 2028, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_July_22,_2028",
+          "note": "Total in Sydney, 'the first time Sydney will experience a total solar eclipse since March 26, 1857'; path crosses WA, NT, south-west Queensland and NSW."
+        },
+        {
+          "title": "2032 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2032_Summer_Olympics",
+          "note": "Awarded to Brisbane on 21 July 2021; Games 'from 23 July to 8 August 2032'."
+        },
+        {
+          "title": "NSW Education AI tool set to launch for students from October, iTnews, 23 September 2025",
+          "url": "https://www.itnews.com.au/news/nsw-education-ai-tool-set-to-launch-for-students-from-october-620457",
+          "note": "NSWEduChat for NSW public school students in Year 5 and above from 14 October 2025; responds 'with guidance and by asking open-ended questions'; text only, with filters; earlier trialled in 50 schools."
+        },
+        {
+          "title": "Generative Artificial Intelligence: Policy, Victorian Department of Education",
+          "url": "https://www2.education.vic.gov.au/pal/generative-artificial-intelligence/policy",
+          "note": "Refers to the Australian Framework for Generative AI in Schools, released by education ministers on 1 December 2023, with '6 principles and 25 guiding statements'; tells staff and students not to load personal information into AI tools."
+        },
+        {
+          "title": "Australian Framework for Generative AI in Schools, OECD.AI policy navigator",
+          "url": "https://oecd.ai/en/dashboards/policy-initiatives/australian-framework-for-generative-ai-in-schools-6294",
+          "note": "Education ministers agreed in February 2023 that responding to generative AI was a national priority; the framework is six principles supported by 25 guiding statements."
+        },
+        {
+          "title": "Australian Framework for Generative AI in Schools: a good start, but much more to be done, Leon Furze, 11 December 2023",
+          "url": "https://leonfurze.com/2023/12/11/australian-framework-for-generative-ai-in-schools-a-good-start-but-much-more-to-be-done/comment-page-1/",
+          "note": "Lists the six principles: Teaching and Learning; Human and Social Wellbeing; Transparency; Fairness; Accountability; and Privacy, Security and Safety. Notes the final framework had been published."
+        },
+        {
+          "title": "Social media age restrictions: eSafety Commissioner provides regulatory guidance, Clayton Utz, October 2025",
+          "url": "https://www.claytonutz.com/insights/2025/october/social-media-age-restrictions-esafety-commissioner-provides-regulatory-guidance",
+          "note": "'From 10 December 2025, providers of social media platforms must take reasonable steps to prevent users under 16 years from having accounts'; 'services that have the sole or primary purpose of enabling end-users to play online games with other end-users' are excluded under the Online Safety (Age-Restricted Social Media Platforms) Rules 2025."
+        },
+        {
+          "title": "Roblox, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roblox",
+          "note": "Mandatory age verification to chat began in Australia and some other countries in December 2025."
+        },
+        {
+          "title": "The Evolution of Consumer Payments in Australia: Results from the 2022 Consumer Payments Survey, section 4, Cash, Reserve Bank of Australia Research Discussion Paper 2023-08",
+          "url": "https://www.rba.gov.au/publications/rdp/2023/2023-08/cash.html",
+          "note": "Cash accounted for 13 per cent of payments in 2022 compared with 27 per cent in 2019."
+        },
+        {
+          "title": "2025 Population Statement, Centre for Population, Australian Government",
+          "url": "https://population.gov.au/publications/statements/2025-population-statement",
+          "note": "'Australia's population passed 27.5 million in 2025'; 'By 2035-36, it is projected to grow to 31.5 million'; fertility expected to fall to a record low of 1.42 in 2025-26."
+        },
+        {
+          "title": "Australia vows to cut emissions 62 to 70 per cent by 2035, ABC News, 18 September 2025",
+          "url": "https://www.abc.net.au/news/2025-09-18/australia-vows-to-cut-emissions-62-to-70-per-cent-by-2035/105786880",
+          "note": "Target of 62 to 70 per cent below 2005 levels by 2035; the Climate Change Authority said even 62 per cent would require quadrupling wind capacity, tripling large-scale solar and doubling rooftop solar; emissions already down about 27 per cent since 2005."
+        },
+        {
+          "title": "Year 2038 problem, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Year_2038_problem",
+          "note": "Signed 32-bit Unix time overflows after 03:14:07 UTC on 19 January 2038 and wraps to 13 December 1901; most modern systems use 64-bit time."
+        },
+        {
+          "title": "As AI Spreads, Experts Predict the Best and Worst Changes in Digital Life by 2035, Pew Research Center and Elon University, 21 June 2023",
+          "url": "https://www.pewresearch.org/internet/2023/06/21/as-ai-spreads-experts-predict-the-best-and-worst-changes-in-digital-life-by-2035/",
+          "note": "305 technology experts canvassed 27 December 2022 to 21 February 2023: 42% equally excited and concerned, 37% more concerned than excited, 18% more excited than concerned; best changes expected in health and medicine, education and climate action; worst in surveillance, deepfakes, jobs and concentrated corporate power."
+        },
+        {
+          "title": "RoboCup, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/RoboCup",
+          "note": "Official goal: 'By the middle of the 21st century, a team of fully autonomous humanoid robot soccer players shall win a soccer game, complying with the official rules of FIFA, against the winner of the most recent World Cup'; founded 1996, first competition 1997 in Nagoya; RoboCup 2019 held in Sydney."
+        },
+        {
+          "title": "The Global E-waste Monitor 2024, ITU and UNITAR",
+          "url": "https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+          "note": "62 million tonnes of e-waste in 2022; projected 82 million tonnes by 2030."
+        }
+      ],
+      "uncertainties": [
+        "Everything about 2035 here is a forecast or a plan, not a fact. Population projections, emissions targets and laws can all change.",
+        "Sources differ on the date of the national AI framework for schools: one search summary gave 5 October 2023 for ministers' approval, the Victorian policy says it was released on 1 December 2023, so the panel says 2023.",
+        "The eSafety Commissioner's own pages could not be opened during research (the site returned errors), so the gaming exclusion is taken from a law firm's summary of the rules.",
+        "Which platforms are age-restricted can change; eSafety's list as of December 2025 was reported in search results but not opened directly.",
+        "The cash figure is the share of the number of payments in the RBA's 2022 survey; by value the share was lower.",
+        "The Climate Change Authority's wind power comparison was reported by ABC News; the Authority's report itself was not opened."
+      ]
+    },
+    {
       "era": "1970s",
       "title": "Being 12 in the 1970s",
       "paragraphs": [
@@ -5964,6 +6461,45 @@ window.GIT_CONTENT = {
       "focus": "50% 45%",
       "width": 1600,
       "height": 1307
+    },
+    "hall-2030s": {
+      "hero": "img/hall-2030s-1600.webp",
+      "card": "img/hall-2030s-720.webp",
+      "alt": "A smiling girl wears a dark see-through visor over her eyes and reaches out a hand to touch something only she can see, in a classroom where a teacher and other students sit and stand behind her.",
+      "caption": "A student explores a virtual scene with a headset in a classroom, 20 May 2024",
+      "credit": "JFarbarik, 2024. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Student_explores_an_environment_using_a_VR_headset..jpg",
+      "focus": "55% 35%",
+      "width": 1600,
+      "height": 1067
+    },
+    "robot-school": {
+      "hero": "img/robot-school-1600.webp",
+      "card": "img/robot-school-720.webp",
+      "alt": "A tall black computer cabinet marked IBM RS/6000 SP stands on a white museum plinth beside a small information stand, with chess pictures and display panels around it.",
+      "caption": "One of the two racks of Deep Blue, the IBM computer that beat world chess champion Garry Kasparov in May 1997, on show at the Computer History Museum, Mountain View, California, 2011",
+      "credit": "Anton Chiang, 2011. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:IBM_Deep_Blue_at_Computer_History_Museum_(9361685537).jpg",
+      "focus": "45% 50%",
+      "width": 1067,
+      "height": 1600
+    },
+    "kids-2030s": {
+      "hero": "img/kids-2030s-1600.webp",
+      "card": "img/kids-2030s-720.webp",
+      "alt": "A young girl in a blue hoodie smiles at a laptop as she programs a small wheeled robot built from plastic construction pieces, with a poster of the International Space Station on the wall behind her.",
+      "caption": "A girl codes a robot to drive through an obstacle course at a children's day run by STARBASE Portland, Oregon, USA, 25 April 2015",
+      "credit": "Tech. Sgt. John Hughel, US Air National Guard, 2015. Public domain, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Month_of_Military_Child_150425-Z-CH590-276.jpg",
+      "focus": "62% 40%",
+      "width": 1600,
+      "height": 1368
     }
   }
 };

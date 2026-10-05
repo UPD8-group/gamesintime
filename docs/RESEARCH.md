@@ -1678,6 +1678,26 @@ Cascade plays like Tetris, the falling-block game Alexey Pajitnov made in Moscow
 
 **Picture:** The first version of Tetris, with blocks drawn in brackets, at the Lenin Museum in Tampere, Finland, 2022. Its Russian help says keys 7 and 9 move a piece and 8 turns it. Credit: Unnerving duck, 2022. CC BY-SA 4.0, via Wikimedia Commons. Licence: CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:The_first_version_of_Tetris.jpg
 
+## The Bedroom Console (1990 to 1999)
+
+The games came home. Pixels, polygons and pets.
+
+## The Y2K Lounge (2000 to 2009)
+
+A new millennium of play. Gems, Flash games and a wand in your hand.
+
+## The Touchscreen Years (2010 to 2019)
+
+Games in your pocket. Swipe, tap, merge, build.
+
+## The Daily Puzzle (2020 to 2029)
+
+The games of right now. One puzzle a day, shared with the world.
+
+## The Future Hall (2030 and beyond)
+
+What comes next? You get to decide. Nobody knows exactly what kids will play in 2035, but the clues are already here: characters that learn, headsets that mix real and virtual worlds, and games anyone can make. This hall reads those clues honestly, as predictions, not facts. Its one game is brand new and made for this site: in Robot School you teach a robot and watch it learn, right in your browser.
+
 ## Kids your age
 
 ### Being 12 in the 1800s
@@ -1922,6 +1942,52 @@ Homes had no radio: Australia's first station, 2SB Sydney, did not open until No
 - [Halley's Comet, Wikipedia](https://en.wikipedia.org/wiki/Halley%27s_Comet): Naked-eye from 10 April 1910; Earth passed through tail 19 May
 - [How Australia's response to the Spanish flu of 1919 sounds warnings, The Conversation](https://theconversation.com/how-australias-response-to-the-spanish-flu-of-1919-sounds-warnings-on-dealing-with-coronavirus-134017): 12,000 to 15,000 deaths; schools closed; 'for a time, it was compulsory to wear a mask in the street'
 - [Influenza Epidemic of 1919, University of Sydney Faculty of Medicine museum](https://www.sydney.edu.au/medicine/museum/mwmuseum/index.php/Influenza_Epidemic_of_1919): About 6,000 NSW deaths; 40 per cent of Sydney ill; masks worn in classrooms
+
+### Being 12 in 2035
+
+This panel is different. Nobody has been 12 in 2035 yet, so this is an honest imagining, built from real plans and forecasts, not facts. If you are 12 in 2035, you were born in 2023. You were about 5 when a total solar eclipse darkened Sydney on 22 July 2028, the city's first since 1857, and about 9 when Brisbane hosted the Olympic Games from 23 July to 8 August 2032.
+
+At school you might have an AI helper that asks you questions instead of handing you answers. That has already begun: from 14 October 2025, NSW public school students in Year 5 and up could use NSWEduChat, built to guide students with open-ended questions. In 2023 Australia's education ministers agreed on a national framework for AI in schools, with fairness and privacy among its six principles. In Digital Technologies you would learn how machines learn from examples, and why bad examples make unfair machines.
+
+You probably would not have a social media account. Since 10 December 2025 Australian law has required social media platforms to stop under-16s having accounts, although services mainly for playing online games with others are left out. You might rarely touch cash: in 2022 only 13 per cent of payments in Australia were made with it. Your games might run on a console, a phone, a headset or a server far away in the cloud.
+
+Australia would be busier, with about 31.5 million people projected by the 2035-36 financial year, up from 27.5 million in 2025. The country has promised to cut its greenhouse gas emissions by 62 to 70 per cent below 2005 levels by 2035. The Climate Change Authority said even the lower number would need about four times as much wind power. Whether these plans come true depends on the grown-ups of today, and on the kids reading this.
+
+**Fast facts**
+
+- The total solar eclipse on 22 July 2028 will be Sydney's first since 26 March 1857. (Wikipedia)
+- Brisbane will host the Olympic Games from 23 July to 8 August 2032. (Wikipedia)
+- Since 10 December 2025, social media platforms must stop Australians under 16 from having accounts, but services mainly for playing online games together are excluded. (Clayton Utz, on the eSafety rules)
+- Australia's population is projected to reach 31.5 million by the 2035-36 financial year. (Centre for Population, 2025 Population Statement)
+- Old computers that count time as seconds since 1 January 1970 in a 32-bit number will run out at 3:14:07 am UTC on 19 January 2038 unless they are updated. (Wikipedia, Year 2038 problem)
+- In 2022 cash was used for 13 per cent of payments in Australia, down from 27 per cent in 2019. (Reserve Bank of Australia)
+
+**What we are not sure about**
+
+- Everything about 2035 here is a forecast or a plan, not a fact. Population projections, emissions targets and laws can all change.
+- Sources differ on the date of the national AI framework for schools: one search summary gave 5 October 2023 for ministers' approval, the Victorian policy says it was released on 1 December 2023, so the panel says 2023.
+- The eSafety Commissioner's own pages could not be opened during research (the site returned errors), so the gaming exclusion is taken from a law firm's summary of the rules.
+- Which platforms are age-restricted can change; eSafety's list as of December 2025 was reported in search results but not opened directly.
+- The cash figure is the share of the number of payments in the RBA's 2022 survey; by value the share was lower.
+- The Climate Change Authority's wind power comparison was reported by ABC News; the Authority's report itself was not opened.
+
+**Sources**
+
+- [Solar eclipse of July 22, 2028, Wikipedia](https://en.wikipedia.org/wiki/Solar_eclipse_of_July_22,_2028): Total in Sydney, 'the first time Sydney will experience a total solar eclipse since March 26, 1857'; path crosses WA, NT, south-west Queensland and NSW.
+- [2032 Summer Olympics, Wikipedia](https://en.wikipedia.org/wiki/2032_Summer_Olympics): Awarded to Brisbane on 21 July 2021; Games 'from 23 July to 8 August 2032'.
+- [NSW Education AI tool set to launch for students from October, iTnews, 23 September 2025](https://www.itnews.com.au/news/nsw-education-ai-tool-set-to-launch-for-students-from-october-620457): NSWEduChat for NSW public school students in Year 5 and above from 14 October 2025; responds 'with guidance and by asking open-ended questions'; text only, with filters; earlier trialled in 50 schools.
+- [Generative Artificial Intelligence: Policy, Victorian Department of Education](https://www2.education.vic.gov.au/pal/generative-artificial-intelligence/policy): Refers to the Australian Framework for Generative AI in Schools, released by education ministers on 1 December 2023, with '6 principles and 25 guiding statements'; tells staff and students not to load personal information into AI tools.
+- [Australian Framework for Generative AI in Schools, OECD.AI policy navigator](https://oecd.ai/en/dashboards/policy-initiatives/australian-framework-for-generative-ai-in-schools-6294): Education ministers agreed in February 2023 that responding to generative AI was a national priority; the framework is six principles supported by 25 guiding statements.
+- [Australian Framework for Generative AI in Schools: a good start, but much more to be done, Leon Furze, 11 December 2023](https://leonfurze.com/2023/12/11/australian-framework-for-generative-ai-in-schools-a-good-start-but-much-more-to-be-done/comment-page-1/): Lists the six principles: Teaching and Learning; Human and Social Wellbeing; Transparency; Fairness; Accountability; and Privacy, Security and Safety. Notes the final framework had been published.
+- [Social media age restrictions: eSafety Commissioner provides regulatory guidance, Clayton Utz, October 2025](https://www.claytonutz.com/insights/2025/october/social-media-age-restrictions-esafety-commissioner-provides-regulatory-guidance): 'From 10 December 2025, providers of social media platforms must take reasonable steps to prevent users under 16 years from having accounts'; 'services that have the sole or primary purpose of enabling end-users to play online games with other end-users' are excluded under the Online Safety (Age-Restricted Social Media Platforms) Rules 2025.
+- [Roblox, Wikipedia](https://en.wikipedia.org/wiki/Roblox): Mandatory age verification to chat began in Australia and some other countries in December 2025.
+- [The Evolution of Consumer Payments in Australia: Results from the 2022 Consumer Payments Survey, section 4, Cash, Reserve Bank of Australia Research Discussion Paper 2023-08](https://www.rba.gov.au/publications/rdp/2023/2023-08/cash.html): Cash accounted for 13 per cent of payments in 2022 compared with 27 per cent in 2019.
+- [2025 Population Statement, Centre for Population, Australian Government](https://population.gov.au/publications/statements/2025-population-statement): 'Australia's population passed 27.5 million in 2025'; 'By 2035-36, it is projected to grow to 31.5 million'; fertility expected to fall to a record low of 1.42 in 2025-26.
+- [Australia vows to cut emissions 62 to 70 per cent by 2035, ABC News, 18 September 2025](https://www.abc.net.au/news/2025-09-18/australia-vows-to-cut-emissions-62-to-70-per-cent-by-2035/105786880): Target of 62 to 70 per cent below 2005 levels by 2035; the Climate Change Authority said even 62 per cent would require quadrupling wind capacity, tripling large-scale solar and doubling rooftop solar; emissions already down about 27 per cent since 2005.
+- [Year 2038 problem, Wikipedia](https://en.wikipedia.org/wiki/Year_2038_problem): Signed 32-bit Unix time overflows after 03:14:07 UTC on 19 January 2038 and wraps to 13 December 1901; most modern systems use 64-bit time.
+- [As AI Spreads, Experts Predict the Best and Worst Changes in Digital Life by 2035, Pew Research Center and Elon University, 21 June 2023](https://www.pewresearch.org/internet/2023/06/21/as-ai-spreads-experts-predict-the-best-and-worst-changes-in-digital-life-by-2035/): 305 technology experts canvassed 27 December 2022 to 21 February 2023: 42% equally excited and concerned, 37% more concerned than excited, 18% more excited than concerned; best changes expected in health and medicine, education and climate action; worst in surveillance, deepfakes, jobs and concentrated corporate power.
+- [RoboCup, Wikipedia](https://en.wikipedia.org/wiki/RoboCup): Official goal: 'By the middle of the 21st century, a team of fully autonomous humanoid robot soccer players shall win a soccer game, complying with the official rules of FIFA, against the winner of the most recent World Cup'; founded 1996, first competition 1997 in Nagoya; RoboCup 2019 held in Sydney.
+- [The Global E-waste Monitor 2024, ITU and UNITAR](https://ewastemonitor.info/the-global-e-waste-monitor-2024/): 62 million tonnes of e-waste in 2022; projected 82 million tonnes by 2030.
 
 ### Being 12 in the 1970s
 
