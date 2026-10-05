@@ -29,6 +29,8 @@ frame, and "Classroom mode" and "Next game" below it. `api` gives you:
 | `api.status(text)` | The big status line above the game: "Your turn", "Computer is thinking", "You win, 5 boxes to 4". Screen readers hear it. Never leave it empty during play. |
 | `api.announce(text)` | Extra screen-reader announcement without changing the status line. |
 | `api.sound(name)` | Plays a synthesised sound if the visitor has sound on. Names: `click`, `tick`, `clack` (wooden piece), `thud`, `flip` (card), `shuffle`, `dice`, `pop`, `whoosh`, `chalk`, `bell`, `coin`, `wrong`, `lose`, `win`. Use them on every meaningful action. |
+| `api.tone(freq, seconds, type, volume)` | Plays one synthesised note (an oscillator `type` such as `'square'` or `'sine'`) if the visitor has sound on. The arcade games use it for their bleeps and Skipping uses it for the chant. Check it exists before calling it. |
+| `api.unlockSound()` | Wakes the browser's sound engine. Call it from the first tap or key press of a game that makes its own sounds, because browsers keep sound off until the visitor does something. |
 | `api.celebrate(text)` | Call once when the player wins: confetti, a fanfare, a toast with `text`, and a star on their ticket. Call it for a new high score in solo games too. |
 | `api.h(tag, attrs, ...children)` | Element helper. `attrs`: `class`, `text`, `style` (object), `on<event>` (function), any attribute. |
 | `api.reducedMotion` | `true` when the visitor prefers reduced motion: skip shakes, long tweens and flashing, but keep the game fully playable. |

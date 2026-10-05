@@ -59,7 +59,7 @@
   --bg: #151b1a; --bg-2: #1b2321; --surface: #212b29; --surface-2: #2b3735; --ink: #f2f5ef; --ink-muted: #bac6bf; --ink-faint: #7f8e88; --line: rgba(242, 245, 239, .16);
   --gold: #f4d35e; --gold-shadow: #a88d2c; --vermilion: #e8704f; --peacock: #6cc7d8; --cobalt: #8ea6f7; --rose: #f39fba; --leaf: #8fd480;
   --brand: #2f5e45; --brand-2: #3d7a5a; --on-brand: #f2f5ef; --link: #f4d35e; --brand-text: #f7e08c; --red: #f07a5c; --green: #8fd480; --focus: #f4d35e;
-  --era: #8fd480; --on-era: #132016; --p1: #f39fba; --p2: #f4d35e; --p3: #6cc7d8; --p4: #8fd480; --font-poster: 'Cabin Sketch', 'Comic Sans MS', cursive;
+  --era: #8fd480; --on-era: #132016; --p1: #f39fba; --p2: #f4d35e; --p3: #6cc7d8; --p4: #8fd480; --font-poster: 'Cabin Sketch', 'Chalkboard SE', 'Comic Sans MS', 'Outfit', system-ui, sans-serif;
 }
 /* The 1880s: chromolithograph posters and the new aniline dyes: chrome yellow, vermilion, emerald, ultramarine, mauve */
 .era-1880s {
@@ -424,7 +424,7 @@ th { background: var(--surface-2); }
 
 /* confetti layer and toast */
 .confetti { position: fixed; inset: 0; pointer-events: none; z-index: 300; }
-.toast { position: fixed; left: 50%; bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 310; background: var(--ink); color: #1b1208; font-weight: 800; padding: .8rem 1.3rem; border-radius: 999px; box-shadow: var(--shadow); }
+.toast { pointer-events: none; position: fixed; left: 50%; bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); z-index: 310; background: var(--ink); color: #1b1208; font-weight: 800; padding: .8rem 1.3rem; border-radius: 999px; box-shadow: var(--shadow); }
 
 /* classroom mode: the game fills the screen */
 .classroom .site-header, .classroom .site-footer, .classroom .hero, .classroom .info, .classroom .next-band, .classroom .kids { display: none !important; }

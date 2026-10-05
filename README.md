@@ -41,7 +41,8 @@ Plain HTML, CSS and JavaScript. No framework, no build step and no dependencies 
 | `public/img/` | Historical pictures in WebP, two sizes each. All public domain or freely licensed, mostly from Wikimedia Commons, and credited on the page that shows them. |
 | `docs/game-notes/<id>.json` | Each game's how to play, controls and "How the computer plays" text. |
 | `scripts/merge-notes.mjs` | Copies the game notes, research and picture credits into `public/content.js`. Run it with `node scripts/merge-notes.mjs` after editing those files. |
-| `docs/RESEARCH.md`, `docs/research/` | The research behind the stories, kept for provenance. |
+| `docs/RESEARCH.md` | Every story, source and doubt in one readable file, generated from `content.js` by `node scripts/research-doc.mjs`. |
+| `docs/research/` | The raw research behind the stories and pictures, kept for provenance. |
 | `tests/` | The smoke test and the one-page harness. |
 
 Routes: `#/` home, `#/era/1880s` a hall, `#/game/reversi` a game, `#/all` every game, `#/teachers`, `#/about`, and `#/print/dots`, `#/print/noughts` and `#/print/hundred` for printables.
