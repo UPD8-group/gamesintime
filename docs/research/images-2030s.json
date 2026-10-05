@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "id": "hall-2030s",
+      "hero": "img/hall-2030s-1600.webp",
+      "card": "img/hall-2030s-720.webp",
+      "width": 1600,
+      "height": 1067,
+      "alt": "A smiling girl wears a dark see-through visor over her eyes and reaches out a hand to touch something only she can see, in a classroom where a teacher and other students sit and stand behind her.",
+      "caption": "A student explores a virtual scene with a headset in a classroom, 20 May 2024",
+      "credit": "JFarbarik, 2024. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Student_explores_an_environment_using_a_VR_headset..jpg",
+      "focus": "55% 35%"
+    },
+    {
+      "id": "robot-school",
+      "hero": "img/robot-school-1600.webp",
+      "card": "img/robot-school-720.webp",
+      "width": 1067,
+      "height": 1600,
+      "alt": "A tall black computer cabinet marked IBM RS/6000 SP stands on a white museum plinth beside a small information stand, with chess pictures and display panels around it.",
+      "caption": "One of the two racks of Deep Blue, the IBM computer that beat world chess champion Garry Kasparov in May 1997, on show at the Computer History Museum, Mountain View, California, 2011",
+      "credit": "Anton Chiang, 2011. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:IBM_Deep_Blue_at_Computer_History_Museum_(9361685537).jpg",
+      "focus": "45% 50%"
+    },
+    {
+      "id": "kids-2030s",
+      "hero": "img/kids-2030s-1600.webp",
+      "card": "img/kids-2030s-720.webp",
+      "width": 1600,
+      "height": 1368,
+      "alt": "A young girl in a blue hoodie smiles at a laptop as she programs a small wheeled robot built from plastic construction pieces, with a poster of the International Space Station on the wall behind her.",
+      "caption": "A girl codes a robot to drive through an obstacle course at a children's day run by STARBASE Portland, Oregon, USA, 25 April 2015",
+      "credit": "Tech. Sgt. John Hughel, US Air National Guard, 2015. Public domain, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Month_of_Military_Child_150425-Z-CH590-276.jpg",
+      "focus": "62% 40%"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "howToPlay": [
+    "Choose a mode, then press Start. Classic lasts until there are no swaps left, Timed gives you 90 seconds, and Calm has no clock and no game over.",
+    "Swap two gems that sit side by side (not corner to corner) to make a line of three or more of the same gem, across or down. A swap that makes no line swaps straight back.",
+    "The line vanishes, the gems above fall down and new gems drop in from the top. If they make new lines, those vanish too. That is a cascade, and each cascade in a row is worth more points.",
+    "Make a line of four, or an L or T shape, and you get a bomb gem with a white spark. Match it and it blows up the eight gems around it.",
+    "Make a line of five and you get a prism ball with every colour. Swap it with any gem and every gem of that colour vanishes.",
+    "In Classic, fill the bar to go up a level. In Timed and Calm, the board shuffles itself if there are no swaps left.",
+    "Stuck? Wait a few seconds and a hint glows, or press Hint. Your best scores for Classic and Timed are saved on this device."
+  ],
+  "controls": "Tap a gem, then tap a gem beside it to swap them, or drag a gem onto its neighbour. Keyboard: the arrow keys move the cursor, Space or Enter picks up the gem, then an arrow key swaps it that way. H shows a hint and P pauses.",
+  "computer": "The computer is the referee and the gem dropper. To find lines, it reads along every row and down every column, counting how many of the same gem sit together. To check a swap, it makes the swap in its memory, looks for a line through either gem, and swaps back if there is none. When it fills a new board, it places gems one at a time and never picks a gem that would finish a line of three. Then it tries every possible swap to make sure you have at least one, and starts again if you do not. After every move it tries every swap again, so it always knows whether you are stuck. Hints come from that same list. The new gems that drop in after a match are picked at random, which is why lucky cascades happen.",
+  "players": [
+    "solo"
+  ],
+  "notes": "Plays like the 2001 match-three game, with our own gems, name, look and sounds. Each of our seven gems has its own shape as well as its own colour (square, hexagon, star, diamond, circle, triangle and heart), so players who see colours differently can still tell them apart. Bomb and prism gems are like the special gems that later match-three games added. As in the original, a swap only counts if it makes a line, and Classic ends when there are no swaps left. The Timed and Calm modes, the shuffling board and the hints are there so younger players can keep going."
+}

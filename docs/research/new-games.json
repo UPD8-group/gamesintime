@@ -1,0 +1,222 @@
+{
+  "games": [
+    {
+      "id": "labyrinth",
+      "title": "Labyrinth",
+      "era": "1990s",
+      "year": 1992,
+      "yearLabel": "1992",
+      "stamp": "1992",
+      "type": "action",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "skyline",
+      "title": "Skyline",
+      "era": "1990s",
+      "year": 1991,
+      "yearLabel": "1991",
+      "stamp": "1991",
+      "type": "action",
+      "players": [
+        "vs computer",
+        "2 players"
+      ]
+    },
+    {
+      "id": "pocket-pet",
+      "title": "Pocket Pet",
+      "era": "1990s",
+      "year": 1996,
+      "yearLabel": "1996",
+      "stamp": "1996",
+      "type": "action",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "dance-mat",
+      "title": "Dance Mat",
+      "era": "1990s",
+      "year": 1998,
+      "yearLabel": "1998",
+      "stamp": "1998",
+      "type": "action",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "minefield",
+      "title": "Minefield",
+      "era": "1990s",
+      "year": 1992,
+      "yearLabel": "1992",
+      "stamp": "1992",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "number-place",
+      "title": "Number Place",
+      "era": "2000s",
+      "year": 2005,
+      "yearLabel": "2005",
+      "stamp": "2005",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "gem-swap",
+      "title": "Gem Swap",
+      "era": "2000s",
+      "year": 2001,
+      "yearLabel": "2001",
+      "stamp": "2001",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "cave-copter",
+      "title": "Cave Copter",
+      "era": "2000s",
+      "year": 2000,
+      "yearLabel": "About 2000",
+      "stamp": "2000",
+      "type": "action",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "garden-guard",
+      "title": "Garden Guard",
+      "era": "2000s",
+      "year": 2009,
+      "yearLabel": "2009",
+      "stamp": "2009",
+      "type": "action",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "ten-pin",
+      "title": "Ten-Pin",
+      "era": "2000s",
+      "year": 2006,
+      "yearLabel": "2006",
+      "stamp": "2006",
+      "type": "action",
+      "players": [
+        "solo",
+        "2 to 4 players"
+      ]
+    },
+    {
+      "id": "doubles",
+      "title": "Doubles",
+      "era": "2010s",
+      "year": 2014,
+      "yearLabel": "2014",
+      "stamp": "2014",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "fruit-slice",
+      "title": "Fruit Slice",
+      "era": "2010s",
+      "year": 2010,
+      "yearLabel": "2010",
+      "stamp": "2010",
+      "type": "action",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "slingshot",
+      "title": "Slingshot",
+      "era": "2010s",
+      "year": 2009,
+      "yearLabel": "2009",
+      "stamp": "2009",
+      "type": "action",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "block-world",
+      "title": "Block World",
+      "era": "2010s",
+      "year": 2011,
+      "yearLabel": "2011",
+      "stamp": "2011",
+      "type": "action",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "five-letters",
+      "title": "Five Letters",
+      "era": "2020s",
+      "year": 2021,
+      "yearLabel": "2021",
+      "stamp": "2021",
+      "type": "words",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "four-groups",
+      "title": "Four Groups",
+      "era": "2020s",
+      "year": 2023,
+      "yearLabel": "2023",
+      "stamp": "2023",
+      "type": "words",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "melon-drop",
+      "title": "Melon Drop",
+      "era": "2020s",
+      "year": 2021,
+      "yearLabel": "2021",
+      "stamp": "2021",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ]
+    },
+    {
+      "id": "robot-school",
+      "title": "Robot School",
+      "era": "2030s",
+      "year": 2030,
+      "yearLabel": "2030",
+      "stamp": "2030",
+      "type": "action",
+      "players": [
+        "solo"
+      ]
+    }
+  ]
+}

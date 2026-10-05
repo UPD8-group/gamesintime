@@ -1,0 +1,17 @@
+{
+  "howToPlay": [
+    "Pick a song and a level, then press Start. Beginner puts arrows on the beat; Basic adds half-beats and a few jumps; Trick adds quick steps, more jumps and faster arrows.",
+    "Arrows scroll up the screen towards four outlines at the top: left, down, up and right.",
+    "Step on the matching arrow just as it lines up with its outline. Two arrows side by side are a jump: hit both at once.",
+    "Each step is judged Perfect, Great or Good, and an arrow that goes past is a Miss. Great and Good also tell you if you were early or late.",
+    "Steps in a row build your combo, and good steps fill the dance gauge at the top. Misses drain it.",
+    "Finish the song with something left in the gauge to pass. Your best grade for each song and level is saved, from D up to AAA.",
+    "Using wireless headphones? Use Tap test (or the minus and plus buttons) to set the audio delay so the arrows match what you hear."
+  ],
+  "controls": "Keyboard: the arrow keys, or D, F, J and K for left, down, up and right. P or Escape pauses. Touch: tap the four big pads below the stage, or the lanes themselves; use two fingers for a jump.",
+  "computer": "All the music is made by the computer while you play, from a list of notes written in this game, a bit like a music box. Each bar is cut into 16 small steps. The drums are bursts of random noise shaped to sound like claps and cymbals, and the bass, chords and tunes come from simple waves (square, saw, triangle and sine) shaped into notes. The computer hands each note to the browser's sound system a quarter of a second before it is due, timed by the audio clock, the most accurate clock in the browser. The arrows come from the same list. The step-chart maker walks through the song one step at a time and puts arrows where the beat, the tune or the bass is strongest, more of them on harder levels and in the loud parts of the song. A random number generator with a fixed starting number (a seed) picks between equally good choices, so a song always has the same steps and you can learn them. To keep it fair, the chart pretends your feet take turns: the left foot only steps on left, down and up, the right foot only on right, down and up, and both feet never land on one arrow, so you never have to cross your legs. When the tune goes up, it tends to choose up or right; when the tune goes down, down or left. When you press, the computer reads the exact moment of your press, works out which moment of the music you were hearing then, and measures the gap to the arrow in thousandths of a second: within 45 is Perfect, 90 is Great and 135 is Good (a little wider on Beginner and Basic).",
+  "players": [
+    "solo"
+  ],
+  "notes": "Plays like Dance Dance Revolution (Konami, 1998): arrows scroll up to a fixed row of targets, you step in time to music, and each step is judged, with a combo and a dance gauge. The songs (Laser Lemonade, Pixel Picnic and Velvet Groove), the arrows, the dancer and every sound are our own. Changes for a browser: you play with a keyboard or a touch screen instead of a dance platform; the step charts are made by the computer from each song's beats instead of by hand; the gauge only counts at the end and can fill up again after it empties, so a song never stops halfway (in the arcade, an empty gauge ended your turn); and an audio delay setting with a tap test makes up for wireless headphones, which play sound later than wired ones."
+}

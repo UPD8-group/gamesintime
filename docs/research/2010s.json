@@ -1,0 +1,424 @@
+{
+ "hall": {
+  "id": "2010s",
+  "hook": "Number tiles that slide and double, fruit flying up to be sliced, wobbly towers to topple and a whole world made of blocks.",
+  "intro": "In the 2010s games moved onto touchscreens. Phones and tablets put games in millions of pockets, and a hit could come from a big studio, a small team in Brisbane or one 19-year-old with a free weekend. The mechanics are the era's; the names and colours are ours."
+ },
+ "games": [
+  {
+   "id": "doubles",
+   "yearLabel": "2014",
+   "stamp": "2014",
+   "origin": "Mechanics of 2048 by Gabriele Cirulli, Italy",
+   "tagline": "Slide, match, double, repeat.",
+   "blurb": "Slide every tile at once and join matching numbers so they double, all the way up to 2048, like the 2014 web game 2048.",
+   "story": [
+    "On 6 February 2014 a small team called Sirvo released Threes!, a puzzle for the iPhone. Designer Asher Vollmer and artist Greg Wohlwend worked on it for 14 months. You slide numbered cards around a 4 by 4 grid: a 1 and a 2 join to make 3, and two matching cards from 3 upwards join to make double. Along the way they tried sushi, chess pieces and a tile-eating monster before going back to plain numbers with little faces.",
+    "Copies appeared within weeks. One called 1024 came out 21 days after Threes, and a web game called 2048, by a developer known as Saming, followed. Gabriele Cirulli, a 19-year-old web developer in Italy, got hooked on both. Over one weekend he built his own version with a new look and quicker animations, 'just to see if I could'. He shared the code on the website GitHub, where anyone could read it, and released the game on 9 March 2014.",
+    "Within a day someone posted it on Hacker News, a website for programmers, and it went to number one. In less than a week more than 4 million people visited. Cirulli had not known about Threes when he made 2048, and later wrote that '2048 owes its existence to it'. He kept the web game free because he did not feel right making money from an idea that was mostly other people's. Because the code was open, people made new versions with bigger boards, smaller boards, 3D boards and even Doctor Who.",
+    "Doubles plays like 2048, the 2014 web game by Gabriele Cirulli, which grew out of Threes!. Every tile is a power of two, so the game is secretly a maths lesson. The name and look here are our own."
+   ],
+   "didYouKnow": [
+    "The winning screenshot on 2048's code page is fake. Cirulli admits it: 'I never reached 2048.'",
+    "A new tile is a 2 nine times out of ten, and a 4 one time in ten.",
+    "In March 2014 only about 0.7 per cent of games of 2048 ended with a 2048 tile, the newspaper City AM reported.",
+    "The biggest tile you can ever make on a 4 by 4 board is 131,072, which is 2 to the power of 17.",
+    "The makers of Threes said they both beat 2048 on their very first try."
+   ],
+   "sources": [
+    {
+     "title": "2048 README, Gabriele Cirulli, GitHub",
+     "url": "https://github.com/gabrielecirulli/2048",
+     "note": "'A small clone of 1024, based on Saming's 2048 (also a clone). 2048 was indirectly inspired by Threes.' 'Made just for fun.' 'That screenshot is fake, by the way. I never reached 2048.' MIT licence. (Read via raw.githubusercontent.com/gabrielecirulli/2048/master/README.md.)"
+    },
+    {
+     "title": "2048, success and me, Gabriele Cirulli, first posted on gabrielecirulli.com on 9 May 2014 (Medium)",
+     "url": "https://medium.com/@gabrielecirulli/2048-success-and-me-7dc664f7a9bd",
+     "note": "'I built 2048 in a weekend, just for fun. I had become addicted to two other games, called 1024! and 2048... I wanted to create my own version with a different visual style and quicker animations, just to see if I could. At that time, I did not know about Threes'; '2048 owes its existence to it'; posted on Designer News, then reached number 1 on Hacker News; played by more than 23 million people; did not feel comfortable profiting 'since 2048 was mostly based on other games'. (Read via the author's Medium RSS feed.)"
+    },
+    {
+     "title": "How one 19 year old won the internet with addictive puzzler 2048, Peter Spence, City AM, 17 March 2014",
+     "url": "https://www.cityam.com/how-one-19-year-old-won-internet-addictive-puzzler-2048/",
+     "note": "Italian web developer; an experiment to see if he could program a game almost from scratch; a weekend of work; played upwards of 33 million times with over 4 million visitors; 'just 0.7 per cent of rounds see the eponymous 2048 tile produced'."
+    },
+    {
+     "title": "The Rip-offs and Making Our Original Game (The Threes Letters), Asher Vollmer and Greg Wohlwend, 2014",
+     "url": "https://asherv.com/threes/threemails/",
+     "note": "1024 released 21 days after Threes (27 February); 2048 'about ten days later'; posted on Hacker News on 10 March; 'Threes is the reason 2048 exists'; 'We both beat 2048 on our first tries'; nearly a year and a half of work; only about 6 people had seen a 6144 tile."
+    },
+    {
+     "title": "2048 (video game), Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+     "note": "Released 9 March 2014 as free and open-source software under the MIT Licence; written in JavaScript and CSS over a weekend; new tiles are 2 (90 per cent) or 4 (10 per cent); largest possible tile 131,072; over 4 million visitors in less than a week; unwilling to make money 'from a concept that [he] didn't invent'; spin-offs including Doge, Doctor Who, Flappy Bird, Tetris, 3D and different grid sizes."
+    },
+    {
+     "title": "Threes, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Threes",
+     "note": "Released 6 February 2014 for iOS by Sirvo (Asher Vollmer, Greg Wohlwend, Jimmy Hinson); 14-month development; prototypes with sushi, chess and a monster that ate tiles; final tiles have faces."
+    }
+   ],
+   "uncertainties": [
+    "Cirulli's age at the time is given as 19 by City AM and Wikipedia; a later 2014 interview on download3k.com calls him 20.",
+    "Wikipedia gives the release date as 9 March 2014; the Threes team says 2048 was posted to Hacker News on 10 March.",
+    "Player numbers differ between reports: over 4 million visitors in a week (City AM, Wikipedia), 33 million games by 17 March (City AM) and 23 million people by May 2014 (Cirulli).",
+    "Wikipedia says Threes took 14 months to make; its makers wrote 'nearly a year and a half'.",
+    "Cirulli's home town in Italy was not confirmed, so the story says only Italy.",
+    "Cirulli kept the web game free but later released his own mobile app in May 2014, after first saying he would not; the story does not go into this."
+   ]
+  },
+  {
+   "id": "fruit-slice",
+   "yearLabel": "2010",
+   "stamp": "2010",
+   "origin": "Mechanics of Fruit Ninja by Halfbrick Studios, Brisbane, Australia",
+   "tagline": "Swipe fast, slice the fruit.",
+   "blurb": "Swipe across the screen to slice fruit tossed into the air, chain combos and dodge the grumpy cloud, like Fruit Ninja, the 2010 touchscreen game made in Brisbane.",
+   "story": [
+    "Fruit Ninja was made in Brisbane. Shainiel Deo started Halfbrick Studios there in 2001, and for years the studio made games for other companies, including Game Boy Advance versions of the Australian game hero Ty the Tasmanian Tiger. Then in 2009 the global financial crisis hit. The studio's work for overseas companies dried up, and designer Luke Muscat later remembered that 'something like 70 per cent' of game jobs in Australia vanished. The team thought they had about a year to make a hit of their own.",
+    "Every second Friday the staff pitched game ideas to each other. Muscat, then 25, was stuck for an idea until he remembered late-night TV ads for knives that could cut through anything. 'They throw a pineapple in the air and cut it mid-air,' he said, and he realised it could work as a game. Some workmates thought it seemed too simple, 'like a kid's toy'. While most of the studio was busy on another job, Muscat and fellow designer Joe Gatling built it, and it was finished in six weeks.",
+    "Fruit Ninja came out for the iPhone and iPod touch on 20 April 2010, for 99 US cents. Muscat remembers it made about $100 on its first day. Then Apple featured it on the App Store and downloads took off. In 2011 a version for the Xbox 360's Kinect camera let players slice with their whole arms, and by 2015 the game had been downloaded a billion times. While game studios around Australia were shrinking, Halfbrick grew and hired. In 2012 Fruit Ninja was one of the games in ACMI's Game Masters exhibition in Melbourne.",
+    "Fruit Slice plays like Fruit Ninja, the 2010 touchscreen game from Halfbrick Studios in Brisbane. Instead of bombs, a grumpy cloud ends your round. The name and look here are our own."
+   ],
+   "didYouKnow": [
+    "At 'Halfbrick Fridays' everyone at the studio, even people from accounting, could pitch game ideas. Fruit Ninja came out of one of them.",
+    "Halfbrick filmed its low-budget launch ad for Fruit Ninja in a park beside the Brisbane River.",
+    "Luke Muscat first saw a stranger playing Fruit Ninja in a pub. He recognised its start-up sound, which he had heard 'like, 10,000 times' while making it.",
+    "In December 2025 Halfbrick released Bluey's Quest for the Gold Pen, the first Bluey video game made by an Australian studio. Bluey is made in Brisbane too."
+   ],
+   "sources": [
+    {
+     "title": "Fruit Ninja creator Luke Muscat says the game was inspired by late night TV and a business on the brink, ABC News, 29 May 2023",
+     "url": "https://www.abc.net.au/news/2023-05-29/qld-fruit-ninja-iphone-game-created-in-brisbane-luke-muscat/102393110",
+     "note": "2009 global financial crisis; Muscat a 25-year-old designer at Halfbrick in Brisbane's inner north; about a year to turn things around; pitches every second Friday; knife ads where 'they throw a pineapple in the air and cut it mid-air'; 'It seemed too simple ... like a kid's toy'; built with Joe Gatling; finished in six weeks; released April 2010 with a budget ad filmed in a park on the Brisbane River; 'the first day it made like $100'; 1 billion downloads by 2015; 'In 2009 something like 70 per cent of game jobs vanished in Australia'; Halfbrick created jobs; first saw it played in a pub."
+    },
+    {
+     "title": "The Fruit Ninja: Shainiel Deo, MIT Technology Review, 18 November 2011",
+     "url": "https://www.technologyreview.com/2011/11/18/189655/the-fruit-ninja-shainiel-deo/",
+     "note": "'Deo founded Halfbrick in 2001 in Brisbane, Australia'; early games for children based on licensed TV and film characters; Fruit Ninja a '99-cent game released in April 2010'; 'They wouldn't want to hand the phones back.'"
+    },
+    {
+     "title": "How Halfbrick Studios Develops Games Like Fruit Ninja, Age Of Zombies And Jetpack Joyride, Frederic Lardinois, TechCrunch, 3 March 2013",
+     "url": "https://techcrunch.com/2013/03/03/how-halfbrick-studios-develops-games-like-fruit-ninja-age-of-zombies-and-jetpack-joyride/",
+     "note": "Fruit Ninja came out of 'Halfbrick Fridays', where the whole company, including accounting and quality assurance, brainstorms in groups; Brisbane-based; about 70 staff; games written in C++."
+    },
+    {
+     "title": "Fruit Ninja, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Fruit_Ninja",
+     "note": "Released 20 April 2010 for iPod Touch and iPhone; designer Luke Muscat; Fruit Ninja Kinect for Xbox 360 on 10 August 2011; arcade versions Fruit Ninja FX and FX 2 (November 2012); 1 billion downloads in 2015."
+    },
+    {
+     "title": "Halfbrick Studios, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halfbrick_Studios",
+     "note": "Founded 2001 in Toowong, Brisbane; CEO Shainiel Deo; list of games includes Ty the Tasmanian Tiger 2: Bush Rescue (2004) and Ty the Tasmanian Tiger 3 (2005) for Game Boy Advance."
+    },
+    {
+     "title": "ACMI Game Masters Exhibition, Non-Fiction Gaming, 15 August 2012",
+     "url": "https://www.nonfictiongaming.com/2012/08/15/acmi-game-masters/",
+     "note": "Visitor report: the indie room at ACMI included 'Halfbrick (Fruit Ninja, Raskulls), Marcus Persson \"Notch\" (Minecraft), Firemint ... (Flight Control)'; exhibition launched 28 June 2012."
+    },
+    {
+     "title": "Game Masters (exhibition), Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Game_Masters_(exhibition)",
+     "note": "Curated by ACMI, Melbourne, 28 June to 28 October 2012; Indie section lists Halfbrick (Fruit Ninja, Jetpack Joyride)."
+    },
+    {
+     "title": "Halfbrick Studios CEO Shainiel Deo on creating the first Bluey video game made in Brisbane, ABC News, 9 December 2025",
+     "url": "https://www.abc.net.au/news/2025-12-09/bluey-video-game-halfbrick-studios-brisbane/106113906",
+     "note": "Bluey's Quest for the Gold Pen is the first Bluey game made by an Australian studio; iOS release 11 December 2025; 'Fruit Ninja was phenomenal, a billion people played it.'"
+    }
+   ],
+   "uncertainties": [
+    "Wikipedia gives the release date as 20 April 2010; the ABC and MIT Technology Review say only April 2010.",
+    "The 70 per cent job-loss figure is Luke Muscat's memory in a 2023 ABC interview, not an official statistic.",
+    "The $100 first-day figure is Muscat's recollection ('like $100 or something') and may be in US or Australian dollars.",
+    "The ABC (2023) says the game was finished in six weeks; TechCrunch (2013) says it 'only took a few months to make'.",
+    "Halfbrick's work on the Game Boy Advance Ty games comes only from Wikipedia's list of Halfbrick games.",
+    "Fruit Ninja's presence at Game Masters in Melbourne in 2012 rests on a visitor's report and Wikipedia; ACMI's own pages were not opened."
+   ]
+  },
+  {
+   "id": "slingshot",
+   "yearLabel": "2009",
+   "stamp": "2009",
+   "origin": "Mechanics of Angry Birds by Rovio Entertainment, Helsinki, Finland",
+   "tagline": "Pull back, aim, let fly.",
+   "blurb": "Pull back a slingshot and launch round puffballs to topple wobbly towers of wood, ice and stone, like the 2009 phone game Angry Birds.",
+   "story": [
+    "At the start of 2009 a Finnish games studio called Rovio was close to going broke. It had made 51 games for other companies and had shrunk from 50 workers to 12. Its bosses, the cousins Mikael and Niklas Hed, decided to make a game of their own for the iPhone, with a list of rules: it had to suit everybody, be based on physics, need no tutorial, load fast and be fun to play for just one minute.",
+    "In March 2009 designer Jaakko Iisalo showed them a picture of round, cross-looking birds with no feet or wings, walking towards a pile of colourful blocks. Everyone loved the birds, though nobody yet knew what the game would be. Early versions had no slingshot and no pigs: you flung the birds by swiping. The slingshot stayed because players understood it straight away, and green pigs who steal the birds' eggs were added to explain why the birds were so angry.",
+    "Angry Birds went on sale in December 2009. It was Rovio's 52nd game and cost about 100,000 euros to make. At first it sold slowly in big countries, so Rovio started small: a few hundred sales put it at number one in Finland, then Sweden, Denmark, Greece and the Czech Republic. In February 2010 Apple made it game of the week in Britain, and by April it was number one in the United States. In 2013 Apple named it the most downloaded paid app ever, and in 2026 it joined the World Video Game Hall of Fame.",
+    "Slingshot plays like Angry Birds, the 2009 phone game from Rovio in Finland. Our pebbles are friendly puffballs, the targets are trophies and snowmen, and nothing alive gets hurt. The name and look here are our own."
+   ],
+   "didYouKnow": [
+    "Jaakko Iisalo built two layers into every level: one star for finishing and three stars for experts, 'so that my mother can enjoy the game, and I can enjoy the game'.",
+    "The pigs were coloured green to go with the red of the birds.",
+    "Rovio's YouTube trailer for Angry Birds was only the second trailer ever made for an iPhone game.",
+    "Niklas Hed knew he had a hit when his mother, who never played games, burned the Christmas turkey because she was busy playing it.",
+    "By early 2011 people spent 200 million minutes a day playing Angry Birds. That is about 16 years of play every hour."
+   ],
+   "sources": [
+    {
+     "title": "In depth: How Rovio made Angry Birds a winner (and what's next), Tom Cheshire, Wired (UK), 7 March 2011",
+     "url": "https://www.wired.com/story/how-rovio-made-angry-birds-a-winner/",
+     "note": "Rovio close to bankruptcy at the start of 2009; 51 titles before Angry Birds; shrank from 50 employees to 12; office in downtown Helsinki; criteria: for everybody, physics-based, no tutorial, minimal loading, play for one minute; Iisalo's March 2009 screenshot of round, cross birds with no feet that can't fly; first versions used swiping and had no catapult or pigs; pigs added with the egg-stealing story; budget of 25,000 euros, final cost four times that; 52nd title; launched December 2009; number one in Finland, Sweden, Denmark, Greece and the Czech Republic; UK game of the week on 11 February 2010; number one in the US in April; second-ever iPhone game trailer; one-star and three-star layers; mother burned the Christmas turkey; 200 million minutes a day."
+    },
+    {
+     "title": "Angry Birds, World Video Game Hall of Fame, The Strong National Museum of Play",
+     "url": "https://www.museumofplay.org/games/angry-birds/",
+     "note": "Inducted 2026; Rovio's 52nd game; second-ever YouTube trailer for an iPhone game; Apple's 2013 list put it top as the most downloaded paid app of all time; more than two billion downloads by some estimates; 'The pigs were colored green to complement the red color of the birds.'"
+    },
+    {
+     "title": "Angry Birds (video game), Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Angry_Birds_(video_game)",
+     "note": "Soft launch in Finland on 1 December 2009 and worldwide on 11 December 2009; Iisalo's sketch; slingshot first thought too obvious, then kept because players understood it immediately; programmer Tuomo Lehtinen made the physics; gameplay based on the 2009 Flash game Crush the Castle; three-star rating by birds used."
+    },
+    {
+     "title": "Box2D, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Box2D",
+     "note": "Free, open-source 2D physics engine by Erin Catto, released as open source on 11 September 2007; lists Angry Birds among games that used it."
+    }
+   ],
+   "uncertainties": [
+    "Wikipedia gives 11 December 2009 for the worldwide release (after a Finnish launch on 1 December); Wired says December 2009.",
+    "Wired places Rovio's 2009 office in downtown Helsinki; Rovio's later headquarters are in Espoo, next to Helsinki.",
+    "Wired says early versions flung birds by swiping; Wikipedia says the slingshot was tried first, thought too obvious, then brought back. The story combines the two.",
+    "Wikipedia says the 2009 swine flu outbreak may have inspired the green pigs, while Iisalo has said they came from drawings he made at age 10.",
+    "Wikipedia says the gameplay was based on Crush the Castle, a 2009 Flash game; Rovio's account in Wired mentions only that physics games were popular on Flash websites.",
+    "Wikipedia lists Angry Birds among Box2D games; no Rovio source was opened to confirm it."
+   ]
+  },
+  {
+   "id": "block-world",
+   "yearLabel": "2011",
+   "stamp": "2011",
+   "origin": "Mechanics of Minecraft by Markus Persson and Mojang, Stockholm, Sweden",
+   "tagline": "Dig, build and explore.",
+   "blurb": "Dig up blocks, craft new ones and build anything you like in a world seen from the side, like Minecraft and Terraria, the block-building games of 2011.",
+   "story": [
+    "Markus Persson, known online as Notch, was a programmer in Stockholm, Sweden. He made browser games at a company called King and built his own small games in his spare time. In 2009 he was inspired by Infiniminer, a new game where players dug through a world made of blocks. He added his own ideas about building and surviving, and on 17 May 2009 he shared the first version of Minecraft on an online forum for independent game makers.",
+    "Players could buy Minecraft while it was still being made, and they told their friends. With no advertising it passed a million sales in early 2011, months before it was finished. Persson started a company called Mojang, and the full game was launched on 18 November 2011 at MineCon, a fan convention in Las Vegas. Earlier that year a studio called Re-Logic had released Terraria, a block-building adventure seen from the side.",
+    "Every Minecraft world is generated at random by the computer, so no two are the same, and there is no score: players set their own goals. Microsoft bought Mojang in 2014. The Strong National Museum of Play added Minecraft to its World Video Game Hall of Fame in 2020, and by 2023 it had sold more than 300 million copies, more than any other video game. Schools use it too: in 2018 Victoria made Minecraft: Education Edition available to more than 600,000 students in its 1,500 state schools.",
+    "Block World plays like Minecraft and Terraria, the block-building games of 2011. Like Terraria, you see your world from the side. The name and look here are our own."
+   ],
+   "didYouKnow": [
+    "In 2014 the Danish Geodata Agency rebuilt the whole of Denmark in Minecraft at full size, the first entire country made in the game.",
+    "Minecraft's sound of footsteps on grass was not recorded on grass. Composer C418 made it by lightly touching old video tape.",
+    "Minecraft and Notch were part of ACMI's Game Masters exhibition in Melbourne in 2012, only months after the full game came out.",
+    "In 2014 Minecraft was the second most searched term on all of YouTube."
+   ],
+   "sources": [
+    {
+     "title": "Minecraft, World Video Game Hall of Fame, The Strong National Museum of Play",
+     "url": "https://www.museumofplay.org/games/minecraft/",
+     "note": "Inducted 2020; released by Mojang in 2009, now owned by Microsoft; 'a random, procedurally generated world'; objectives are self-generated; more than 176 million copies sold by 2019; in 2014 the Danish Geodata Agency made Denmark the first entire country explored at 1:1 in the game."
+    },
+    {
+     "title": "Minecraft and the Building Blocks of Fun, Jon-Paul Dyson, The Strong National Museum of Play",
+     "url": "https://www.museumofplay.org/blog/minecraft-and-the-building-blocks-of-fun/",
+     "note": "Links Minecraft to construction play with building blocks, one of the oldest forms of play."
+    },
+    {
+     "title": "Minecraft, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Minecraft",
+     "note": "Persson worked at King until March 2009; Infiniminer (April 2009) inspired the blocky look; first public alpha on 17 May 2009 on the TIGSource forums; over a million purchases in early 2011 with no advertising; full release 18 November 2011 alongside MineCon in Las Vegas; Microsoft bought Mojang (announced 15 September 2014); Education Edition launched 1 November 2016; grass sounds made with lightly touched VHS tape; second most searched term on YouTube in 2014."
+    },
+    {
+     "title": "Markus Persson, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Markus_Persson",
+     "note": "Born 1 June 1979 in Stockholm, Sweden; known as Notch; founded Mojang in 2009."
+    },
+    {
+     "title": "Minecraft crosses 300 million copies sold as it prepares to celebrate its 15th anniversary, Windows Central, October 2023",
+     "url": "https://www.windowscentral.com/gaming/minecraft/minecraft-crosses-300-million-copies-sold-as-it-prepares-to-celebrate-its-15th-anniversary",
+     "note": "Mojang confirmed at Minecraft Live 2023 that it had crossed 300 million copies sold, keeping it the best-selling video game."
+    },
+    {
+     "title": "Victoria's teachers learn how to win maximum impact from Minecraft: Education Edition, Microsoft Australia News Centre, 26 June 2018",
+     "url": "https://news.microsoft.com/en-au/features/victorias-teachers-learn-how-to-win-maximum-impact-from-minecraft-education-edition/",
+     "note": "A 'world-leading rollout' making Minecraft: Education Edition available to 600,000 plus students in Victoria's 1,500 state schools."
+    },
+    {
+     "title": "New Programs For Schools To Build Digital Tech Skills, Premier of Victoria, media release",
+     "url": "https://www.premier.vic.gov.au/new-programs-schools-build-digital-tech-skills",
+     "note": "Every government school student will have access to Minecraft: Education Edition under an agreement with Microsoft. The page is dated 9 February 2020."
+    },
+    {
+     "title": "ACMI Game Masters Exhibition, Non-Fiction Gaming, 15 August 2012",
+     "url": "https://www.nonfictiongaming.com/2012/08/15/acmi-game-masters/",
+     "note": "The indie room included Marcus Persson 'Notch' (Minecraft)."
+    },
+    {
+     "title": "Terraria, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Terraria",
+     "note": "2D sandbox game by Re-Logic (Andrew 'Redigit' Spinks), released 16 May 2011; procedurally generated worlds; exploration, building, crafting and mining."
+    }
+   ],
+   "uncertainties": [
+    "Microsoft Australia reported Victoria's rollout in June 2018, but the Victorian Premier's media release about the same agreement is dated 9 February 2020; the story uses 2018.",
+    "Sales figures are company announcements: 176 million by 2019 (The Strong), over 300 million by October 2023 (Windows Central) and over 400 million by May 2026 (Wikipedia).",
+    "Wikipedia says Infiniminer inspired Minecraft's look; exactly when Persson first played it was not confirmed.",
+    "Re-Logic's home city was not confirmed, so the story does not name it."
+   ]
+  }
+ ],
+ "kids": [
+  {
+   "era": "2010s",
+   "title": "Being 12 in the 2010s",
+   "paragraphs": [
+    "School went digital. Under the federal government's Digital Education Revolution, public high school students in Years 9 to 12 were given laptops from 2009, and in May 2010 the first iPads went on sale in Australia. In 2015 Year 7 moved from primary school into high school in Queensland and Western Australia. That September, education ministers signed off on the new Digital Technologies curriculum, so coding became part of school from the very first years.",
+    "In 2017 pocket money averaged almost $6 a week, and many kids were saving it for phones, tablets and even virtual reality headsets. More shopping was done by tapping a card or phone, and parents told a bank survey this made the value of money harder to teach. On 1 September 2016 a new $5 note arrived with raised bumps on its edges, so people who are blind can tell what it is worth. It happened after Connor McLeod, a blind teenager, started a petition that more than 57,000 people signed.",
+    "In 2012, 73 per cent of Australians aged 12 to 14 had their own mobile phone, and 98 per cent used the internet. Netflix arrived in March 2015. Kids sliced fruit in Fruit Ninja, made in Brisbane, built worlds in Minecraft and watched other people play on YouTube. On 6 July 2016 Australia was one of the first three countries to get Pokémon Go, and within days thousands of players were walking the streets of Canberra hunting for Pokémon. Bluey, also made in Brisbane, started on ABC Kids on 1 October 2018.",
+    "Big news you might remember: in April 2018 the Gold Coast hosted the Commonwealth Games, the first major multi-sport games with an equal number of events for women and men. In July 2018 two Australian cave divers, Dr Richard Harris and Dr Craig Challen, helped rescue 12 young footballers and their coach from a flooded cave in Thailand. In January 2019 they were named joint Australians of the Year."
+   ],
+   "fastFacts": [
+    "The first iPads went on sale in Australia on 28 May 2010. (Wikipedia)",
+    "Year 7 moved into high school in Queensland and Western Australia in 2015. (ABC News)",
+    "In 2017 kids' pocket money averaged almost $6 a week; their parents had got about $1.67 a week in the 1980s. (Commonwealth Bank)",
+    "The new $5 note of 1 September 2016 was the first Australian banknote with a tactile feature for people who are blind or have low vision. (Vision Australia)",
+    "Within 15 minutes of Pokémon Go's launch in Australia and New Zealand on 6 July 2016, more players arrived than its makers had expected for the whole world. (Wikipedia)",
+    "Owen Beck was 13 when he started playing Pokémon Go in 2016. By 2026 he had walked more than 32,500 kilometres while playing. (ABC News)"
+   ],
+   "compare": "In April 2012, 73 out of every 100 Australians aged 12 to 14 had a mobile phone. In a class of 26 twelve-year-olds, about how many is that? Ask your class how many have a phone today, and talk about what has changed since then, including the rules about phones at school.",
+   "sources": [
+    {
+     "title": "Digital Education Revolution, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Digital_Education_Revolution",
+     "note": "Australian government program launched in 2008 to provide laptops to all public high school students in Years 9 to 12 through the National Secondary School Computer Fund; first laptops delivered in NSW at Fairvale High School on 26 August 2009."
+    },
+    {
+     "title": "iPad (1st generation), Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/IPad_(1st_generation)",
+     "note": "Released in Australia and eight other countries on 28 May 2010."
+    },
+    {
+     "title": "Qld to move year 7 to high school, ABC News, 9 June 2011",
+     "url": "https://www.abc.net.au/news/2011-06-09/qld-to-move-year-7-to-high-school/2752234",
+     "note": "Year 7 will move to high school in Queensland schools from 2015."
+    },
+    {
+     "title": "Education in Western Australia, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Education_in_Western_Australia",
+     "note": "The age that a student begins secondary school was lowered in 2015, to begin at Year 7."
+    },
+    {
+     "title": "Australia's Digital Technologies curriculum finally signed off, The Register, 19 September 2015",
+     "url": "https://www.theregister.com/offbeat/2015/09/19/australias-digital-technologies-curriculum-finally-signed-off/514618",
+     "note": "'Last Friday, Australia signed off on the nation's Digital Technologies curriculum, the first effort to teach computational thinking from infants' school to late High School', endorsed by the Education Council of ministers."
+    },
+    {
+     "title": "Aussie kids earn 250 per cent more pocket money than their parents did and spend big on tech, Commonwealth Bank, 2017",
+     "url": "https://www.commbank.com.au/guidance/newsroom/aussie-kids-earn-250-per-cent-more-pocket-money-201701.html",
+     "note": "2017 School Banking Study: almost $6 a week, starting from age six; parents got $1.67 in the 1980s; 42 per cent saving for electronic devices such as smartphones, tablets and virtual reality headsets; parents say digital transactions make the value of money harder to understand; survey of 1,046 parents in December 2016."
+    },
+    {
+     "title": "Next Generation of Banknotes: $5 Banknote Design Reveal, Reserve Bank of Australia media release, 2016",
+     "url": "https://www.rba.gov.au/media-releases/2016/mr-16-09.html",
+     "note": "The new $5 banknote enters circulation from 1 September 2016 and has a new tactile feature to help the vision-impaired community."
+    },
+    {
+     "title": "Blind Boy's Quest Prompts Australia To Plan Tactile Cash, NPR, 18 February 2015",
+     "url": "https://www.npr.org/sections/thetwo-way/2015/02/18/387203841/blind-boy-s-quest-prompts-australia-to-plan-tactile-cash",
+     "note": "Connor McLeod, blind since birth, could not tell how much money he got for Christmas; more than 57,000 people signed the petition he and his mother started."
+    },
+    {
+     "title": "New $100 bill marks historic milestone for Australian currency, Vision Australia, 29 October 2020",
+     "url": "https://www.visionaustralia.org/news/2020-10-29/new-100-bill-marks-historic-milestone-australian-currency",
+     "note": "The $5 note was the first Australian banknote with the tactile feature in 2016, following a petition by then teenager Connor McLeod; raised bumps on the long edges."
+    },
+    {
+     "title": "Children's Participation in Cultural and Leisure Activities, Australia, April 2012, Australian Bureau of Statistics",
+     "url": "https://www.abs.gov.au/statistics/people/people-and-communities/childrens-participation-cultural-and-leisure-activities-australia/latest-release",
+     "note": "73 per cent of 12 to 14 year olds had a mobile phone; 98 per cent of 12 to 14 year olds accessed the internet."
+    },
+    {
+     "title": "Netflix, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Netflix",
+     "note": "In March 2015, Netflix expanded to Australia and New Zealand."
+    },
+    {
+     "title": "Pokémon Go, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go",
+     "note": "Official launch on 6 July 2016 in Australia, New Zealand and the United States; global server use expectations were passed within 15 minutes of the release in Australia and New Zealand."
+    },
+    {
+     "title": "Pokemon Go mass hunt lures thousands to Canberra's CBD, ABC News, 17 July 2016",
+     "url": "https://www.abc.net.au/news/2016-07-17/pokemon-go-mass-hunt-lures-thousands-in-canberra/7635956",
+     "note": "Thousands gathered in Civic to hunt Pokémon after the game's release in Australia, the US and New Zealand the week before."
+    },
+    {
+     "title": "Pokémon GO was a 2016 phenomenon. Ten years later, some players never stopped, ABC News, 4 July 2026",
+     "url": "https://www.abc.net.au/news/2026-07-04/pok%C3%A9mon-go-ten-years-brisbane/106814966",
+     "note": "Owen Beck started playing at 13; has walked more than 32,500 kilometres; weekly meet-ups at South Bank, Brisbane."
+    },
+    {
+     "title": "Bluey (2018 TV series), Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)",
+     "note": "Made by Ludo Studio in Brisbane; premiered on ABC Kids on 1 October 2018."
+    },
+    {
+     "title": "Minecraft, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Minecraft",
+     "note": "Minecraft was the second most searched term on YouTube in 2014 and YouTube's biggest game in 2018."
+    },
+    {
+     "title": "2018 Commonwealth Games, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Games",
+     "note": "Gold Coast, 4 to 15 April 2018; the first major multi-sport event with an equal number of events for male and female athletes."
+    },
+    {
+     "title": "Tham Luang cave rescue, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue",
+     "note": "Twelve team members aged 11 to 16 and their coach trapped from 23 June 2018; all rescued between 8 and 10 July 2018; Australians Richard Harris and Craig Challen among the lead divers."
+    },
+    {
+     "title": "Australian of the Year 2019 goes to Thai cave rescue divers Richard Harris and Craig Challen, ABC News, 26 January 2019",
+     "url": "https://www.abc.net.au/news/2019-01-26/australian-of-the-year-awards-2019-announced-in-canberra/10751382",
+     "note": "Named joint Australian of the Year for helping rescue 12 soccer players and their coach from a flooded cave in Chiang Rai, Thailand."
+    }
+   ],
+   "uncertainties": [
+    "Wikipedia describes the Digital Education Revolution laptops as for public high school students in Years 9 to 12; how the program worked differed from state to state.",
+    "The pocket money figure comes from a survey of 1,046 parents in December 2016, published by CommBank in 2017.",
+    "NPR (February 2015) gives Connor McLeod's age as 13; other reports describe him as 15 when the change was announced. The panel says only 'a blind teenager'.",
+    "Pokémon Go launched on 6 July 2016 in three countries; because of time zones Australians may have played before Americans, but no source opened says so directly.",
+    "The 73 per cent phone figure is from ABS in April 2012; no later ABS figure for this age group was opened.",
+    "One diver, the former Thai Navy SEAL Saman Kunan, died during the 2018 rescue operation. The panel does not go into this."
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "gameId": "doubles",
+   "title": "Doubling all the way to 2048",
+   "yearLevels": "Years 5 to 8",
+   "idea": "Play Doubles on the small 3 by 3 board, then switch on teaching mode so each tile also shows a power of two. Students record the tiles they make as 2, 2 squared, 2 cubed and so on, and notice that joining two equal tiles adds one to the power. In pairs, they predict how many 2 tiles it takes to build one 2048 tile (1,024 of them) and check the biggest tile a 4 by 4 board could ever hold (2 to the 17th, 131,072). Finish with the Then panel: Gabriele Cirulli built 2048 in one weekend in 2014.",
+   "computerAngle": "The board is stored as a 4 by 4 grid of numbers, with 0 for an empty square. To slide one row to the left, the program first squeezes out the zeros, then walks along the row: if two neighbouring tiles are equal it replaces them with one tile of double the value and skips ahead, so a tile can merge only once per move. Then it fills the end of the row with zeros again. Sliding right, up or down uses the same steps on a reversed row or on a column. After any move that changed the board, the program picks a random empty square and puts a 2 there nine times out of ten and a 4 one time in ten. The game is over when there are no empty squares and no equal neighbours. This is an algorithm with a loop (walk along the row) and a decision (are these two tiles equal?).",
+   "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+  },
+  {
+   "gameId": "fruit-slice",
+   "title": "Did my swipe hit the fruit?",
+   "yearLevels": "Years 6 to 8",
+   "idea": "Play Fruit Slice with a finger or a mouse. Then, on grid paper, draw a piece of fruit as a circle and a swipe as a straight line between two dots. Students measure the shortest distance from the circle's centre to the line and decide: hit or miss? Next they draw a fast swipe (dots far apart) and a slow one (dots close together) and discuss why a very fast swipe could jump right over a small fruit if the game only checked the dots. Finish with the Then panel: Luke Muscat and Joe Gatling built Fruit Ninja in six weeks in Brisbane.",
+   "computerAngle": "A touchscreen does not report a smooth line. Many times a second it reports where your finger is, so a swipe is really a list of points. The game joins each new point to the one before it to make a short straight segment, then checks every fruit against that segment: if the shortest distance from the fruit's centre to the segment is less than the fruit's radius, the fruit is sliced. Checking the whole segment, not just the points, is what stops fast swipes from missing. The fruit fly in curves because, every frame, the program adds each fruit's speed to its position and takes a little away from its upward speed, which is how gravity is simulated. A combo is simply a count of how many fruit one swipe has hit.",
+   "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+  },
+  {
+   "gameId": "slingshot",
+   "title": "Aim, launch, predict",
+   "yearLevels": "Years 5 to 8",
+   "idea": "Play two levels of Slingshot with the dotted aiming line, then try a level without looking at it and compare how many shots you needed. Outside, students throw soft balls at a stack of cardboard boxes from a marked line, changing one thing at a time (the angle, then how hard they throw) and recording which change made the biggest difference. Back inside, sketch the path of one throw as a curve. Finish with the Then panel: Rovio kept the slingshot because players understood it straight away.",
+   "computerAngle": "A physics engine moves every object in tiny steps, many times a second. For a flying pebble, each step adds gravity to its downward speed and then adds its speed to its position, which makes the curved path. The dotted aiming line is the same calculation run ahead of time without drawing the pebble. When two shapes overlap, the engine pushes them apart and changes their speeds, using friction so blocks do not slide like ice and a bounciness number so they do not bounce like rubber. So that towers stand still until they are hit, many engines let objects that have stopped moving 'sleep' and skip them until something touches them. A free engine of this kind, Box2D, was written by Erin Catto and used in many phone games of the time.",
+   "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+  },
+  {
+   "gameId": "block-world",
+   "title": "A whole world from one number",
+   "yearLevels": "Years 6 to 8",
+   "idea": "Play Block World and look at its hills, caves and ores. Explain that the computer builds the world from a starting number called a seed. On grid paper, each student builds a 10-column landscape with a rule: start at height 5, roll a die for each column, go down one for a 1 or 2, up one for a 5 or 6, and stay level otherwise. Students write down their ten rolls, swap the list with a partner and rebuild each other's world exactly. Discuss why saving the rolls plus a short list of changes takes far less space than saving every block. Finish with the Then panel: Markus Persson shared the first Minecraft in May 2009.",
+   "computerAngle": "Block World does not store a giant picture of its world. A pseudo-random number generator turns one starting number, the seed, into a long list of numbers that look random but are always the same for the same seed, just like the swapped dice rolls. The game smooths these numbers into gentle hills (a technique called noise) to set the height of the ground in each column, then uses more of them to decide where caves, ores and trees go. To save your world it keeps only the seed and a list of the blocks you changed. To stay fast, it draws only the blocks that fit on the screen.",
+   "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+  }
+ ]
+}

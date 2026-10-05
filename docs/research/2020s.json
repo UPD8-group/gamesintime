@@ -1,0 +1,324 @@
+{
+ "hall": {
+  "id": "2020s",
+  "hook": "Five-letter guesses in coloured squares, sixteen words hiding four groups, and fruit that bumps and merges into a watermelon.",
+  "intro": "In the 2020s millions of people played the same small puzzle each day and shared their results as grids of coloured squares. Many of these games began as tiny projects by one person or a small team, and most live in a phone or a web browser. The mechanics are the era's; the names and colours are ours."
+ },
+ "games": [
+  {
+   "id": "five-letters",
+   "yearLabel": "2021",
+   "stamp": "2021",
+   "origin": "Mechanics of Wordle by Josh Wardle, Brooklyn, New York, USA",
+   "tagline": "Five letters, six tries.",
+   "blurb": "Guess the hidden five-letter word in six tries, using coloured clues about every letter, like Wordle, the 2021 daily word game.",
+   "story": [
+    "Guessing a secret word from clues is an old idea. In 1955 Morton Rosenfeld began selling Jotto, a pencil-and-paper game in which two players guess each other's secret five-letter words. In 1987 the American TV quiz Lingo lit up letters to show which ones were in the word and which were in the right place. Josh Wardle, a software engineer from Wales living in Brooklyn, New York, said Wordle also grew from Mastermind, a colour code-breaking board game he played a lot as a child.",
+    "Wardle made a first version in 2013 that used all of the roughly 13,000 five-letter English words, but his partner, Palak Shah, kept meeting words she had never heard of. So he built another small game that showed her each word with three buttons, and she sorted them all into words she knew, did not know and maybe knew. That gave about 2,500 friendly answers. During the pandemic in 2020 the couple enjoyed The New York Times' daily puzzles, so Wardle remade Wordle with one puzzle a day, the same for everyone.",
+    "He put Wordle on the web for everyone in October 2021. On 1 November it had 90 players. Then a woman in New Zealand, known on Twitter as Elizabeth S, began sharing her results as a grid of coloured squares that showed how she went without giving the word away. Wardle added a button that made the grid for you, and by 2 January 2022 more than 300,000 people were playing. On 31 January 2022 The New York Times bought Wordle for 'the low seven figures', more than a million US dollars. That year Wordle was the thing Australians searched for most on Google.",
+    "Five Letters plays like Wordle, the 2021 daily word game by Josh Wardle. Our word lists are our own, and every letter gets a shape as well as a colour. The name and look here are our own."
+   ],
+   "didYouKnow": [
+    "Wordle's name is a pun on its maker's surname, Wardle.",
+    "In the 1987 TV show Lingo, a letter in the right place lit up red, not green.",
+    "Wardle says that, for its size, New Zealand is 'really into Wordle'. The shareable coloured squares were invented there.",
+    "An older, unrelated app called Wordle! was downloaded more than 200,000 times in one week in January 2022 by people looking for Wardle's game. Its maker and Wardle gave $50,000 from it to a tutoring charity for children in Oakland, California."
+   ],
+   "sources": [
+    {
+     "title": "Wordle creator Josh Wardle on strategy, stats, and why it went viral, Slate (Spectacular Vernacular), 19 January 2022",
+     "url": "https://slate.com/culture/2022/01/wordle-game-creator-wardle-twitter-scores-strategy-stats.html",
+     "note": "Brooklyn-based software engineer; released Wordle to the world in October; 'I was literally just making a game for my partner'; the emoji grid came from 'Elizabeth S' while 'New Zealand Twitter was playing a lot of the game'; he and his partner filtered about 13,000 five-letter words down to about 2,500 using a game with 'I know this word', 'I don't know this word' and 'I maybe know this word' buttons; Ben Zimmer mentions Jotto (1950s) and Lingo (1980s)."
+    },
+    {
+     "title": "Josh Wardle: The power of Wordle, RNZ The Weekend, 8 January 2022",
+     "url": "https://www.rnz.co.nz/national/programmes/the-weekend/audio/2018826546/josh-wardle-the-power-of-wordle",
+     "note": "Made for his partner, both fans of the New York Times puzzles; per head, New Zealand 'is really into Wordle'; the emoji grid began with a New Zealand woman, Elizabeth S; Wardle played Mastermind a lot as a child; list filtered from about 12,000 words to about 2,500."
+    },
+    {
+     "title": "Wordle, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wordle",
+     "note": "Welsh software engineer; 2013 prototype using about 13,000 words; partner Palak Shah; named as a pun on his surname; public release October 2021; 90 players on 1 November 2021, over 300,000 by 2 January 2022; bought by the New York Times Company on 31 January 2022 for an 'undisclosed price in the low-seven figures'; unrelated app Wordle! downloaded over 200,000 times in a week, with $50,000 given to the Oakland tutoring charity Boost."
+    },
+    {
+     "title": "Jotto, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jotto",
+     "note": "Invented in 1955 by Morton M. Rosenfeld and marketed by his New York-based Jotto Corp; players guess each other's secret five-letter words."
+    },
+    {
+     "title": "Lingo (American game show), Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lingo_(American_game_show)",
+     "note": "First series from 28 September 1987, taped near Vancouver; five-letter mystery words; a letter in the right place turned red, one in the word but in the wrong place turned yellow."
+    },
+    {
+     "title": "Mastermind (board game), Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mastermind_(board_game)",
+     "note": "Invented in 1970 by Mordecai Meirowitz and made by Invicta Plastics in England."
+    },
+    {
+     "title": "Year in Search: Here's what Aussies searched for in 2022, Google Australia blog",
+     "url": "https://blog.google/intl/en-au/products/explore-get-answers/year-in-search-heres-what-aussies-searched-for-in-2022/",
+     "note": "Australians 'searched for Wordle more than anything else' in 2022."
+    }
+   ],
+   "uncertainties": [
+    "The size of the filtered answer list differs: about 2,000 (Wikipedia), about 2,500 (Slate and RNZ) and 2,315 answers in the original game (Wikipedia).",
+    "The New York Times did not say exactly what it paid; 'low seven figures' means somewhere above one million US dollars.",
+    "Wikipedia dates the share button and the Twitter craze to December 2021; the exact day of the change was not checked.",
+    "Wordle's original word list used some British spellings; the New York Times later moved to American spelling and removed some words, so its answers differ from the original list."
+   ]
+  },
+  {
+   "id": "four-groups",
+   "yearLabel": "2023",
+   "stamp": "2023",
+   "origin": "Mechanics of Connections by Wyna Liu and The New York Times, New York, USA",
+   "tagline": "Sixteen words, four hidden groups.",
+   "blurb": "Sort 16 words into four groups of four that share something, and watch for the tricky word that seems to fit two groups, like Connections, the 2023 daily puzzle.",
+   "story": [
+    "Sorting clues into groups is a favourite puzzle trick. Since 2008 the British TV quiz Only Connect has had a round called the Connecting Wall: teams get 16 clues and two and a half minutes to sort them into four groups of four. The walls are built with red herrings, clues that seem to fit more than one group, so only careful thinking finds the one right answer.",
+    "At The New York Times, staff hold a yearly 'game jam' where people suggest ideas for new games, and Connections began as an idea at one in 2021. Its puzzles are made by Wyna Liu, an artist and puzzle editor who joined the Times in 2020. She keeps a notebook of category ideas and says building a board takes about two hours. She was inspired by the cartoonist Robert Leighton, whose picture puzzles showed her that a tick, a thumbtack and a tow truck could stand for 'tic-tac-toe'.",
+    "Connections launched as a test on 12 June 2023 and took off straight away. Each group has a colour: yellow is the easiest, then green, blue and purple, the trickiest, which often hides wordplay such as words that sound alike or read the same backwards. By October 2023 it was the Times' second most played game after Wordle. The host of Only Connect, Victoria Coren Mitchell, pointed out how alike the two were; the Times said its puzzles were 'unique, handcrafted' and its own.",
+    "Four Groups plays like Connections, the 2023 daily puzzle from The New York Times. Every puzzle here was written for this site. The name and look here are our own."
+   ],
+   "didYouKnow": [
+    "Before it was called Connections, the team thought about names such as Group Think and Grouper. Matchbox was dropped because it sounded too like Letter Boxed, another Times game.",
+    "On 1 April 2024, April Fools' Day, the puzzle used emojis instead of words.",
+    "The 1,000th Connections puzzle appeared on 7 March 2026.",
+    "Wyna Liu once taught a university course on the history of Britpop music, and she makes jewellery and moving sculptures."
+   ],
+   "sources": [
+    {
+     "title": "The New York Times Connections, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Connections",
+     "note": "Released in beta on 12 June 2023; puzzles written by Wyna Liu; four groups of four from a grid of sixteen; red herrings; yellow, green, blue and purple from easiest to hardest; annual game jam; second most played Times game after Wordle; emoji puzzle on 1 April 2024; 1,000th puzzle on 7 March 2026; comments from people linked to Only Connect."
+    },
+    {
+     "title": "How The New York Times is making connections with puzzles and games, Rob Tornoe, Editor and Publisher, 17 October 2023",
+     "url": "https://www.editorandpublisher.com/stories/new-york-times-makes-a-connection-with-puzzles-and-games,246051",
+     "note": "Connections started as an idea in 2021 at a brainstorming session called the 'Game Jam'; 'the most successful launch of any game we've developed in-house since the Mini Crossword in 2014, and it's our second-most-played game after Wordle' (Zoe Bell); purple often has palindromes and homophones; Victoria Coren Mitchell pointed out the similarity and the Times said its content is 'unique, handcrafted'; Liu an editor at the Times since 2020; Liu on Robert Leighton: 'a drawing of a tick, a thumbtack and a tow truck could be used to express the term tic-tac-toe'."
+    },
+    {
+     "title": "Why Are People So Mad About a Hit NYT Word Game? We Talked to the Woman Who Makes It, Heather Schwedel, Slate, 28 July 2024",
+     "url": "https://slate.com/life/2024/07/connections-nyt-today-wordle-wyna-liu.html",
+     "note": "Liu keeps a notebook of category ideas and says a board takes about two hours to build; names considered included Group Think and Grouper, and Matchbox was too close to Letter Boxed; the game took off as soon as it launched in beta in June 2023."
+    },
+    {
+     "title": "Connections Is NYT's New Wordle Alternative. Here's How To Play, TODAY, 29 August 2023",
+     "url": "https://www.today.com/popculture/connections-nyt-puzzle-how-to-play-rcna102300",
+     "note": "Victoria Coren Mitchell tweeted to Liu: 'Do you know this has been a TV show in the UK since 2008?'; Liu was inspired by cartoonist Robert Leighton; some categories use palindromes, homophones and adding or dropping letters."
+    },
+    {
+     "title": "Only Connect, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Only_Connect",
+     "note": "BBC quiz presented by Victoria Coren Mitchell since 15 September 2008; the Connecting Wall gives teams 16 clues and 2 minutes 30 seconds to sort them into four groups of four, with red herrings."
+    },
+    {
+     "title": "Wyna Liu, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wyna_Liu",
+     "note": "Hired in 2020 as an associate puzzle editor at the New York Times; taught an experimental course on the history of Britpop at Oberlin College; an artist who makes movable sculptures and designs jewellery."
+    }
+   ],
+   "uncertainties": [
+    "Sources describe Liu's job title differently: associate puzzle editor (Wikipedia, TODAY), editor (Editor and Publisher) and crossword editor (Wikipedia's Connections article).",
+    "The Times has not said that Only Connect inspired Connections; it describes its own process (game jam, Robert Leighton's puzzles). The story presents Only Connect as an older game with a similar idea, not as the source.",
+    "The 'second most played' claim is the Times' own statement (October 2023) and was not independently measured."
+   ]
+  },
+  {
+   "id": "melon-drop",
+   "yearLabel": "2021",
+   "stamp": "2021",
+   "origin": "Mechanics of Suika Game by Aladdin X, Japan",
+   "tagline": "Drop, bump, merge, grow.",
+   "blurb": "Drop fruit into a jar so that matching fruit bump together and merge into bigger fruit, like Suika Game, the 2021 watermelon puzzle from Japan.",
+   "story": [
+    "In January 2021 a simple web game swept China. Its name, Hechengdaxigua, means 'combine a big watermelon'. Players dropped fruit into a box, and two matching fruits that touched merged into a bigger one, all the way up to a watermelon. It ran inside the messaging app WeChat, and more than 40 million people played it in its first week. Its code was shared online, so people made their own versions with kittens, pop stars and even university badges.",
+    "In April 2021 the Japanese company Aladdin X put its own version, Suika Game, onto its popIn Aladdin ceiling projectors. Suika means watermelon in Japanese. Owners liked it, so in December 2021 Aladdin X released it for the Nintendo Switch in Japan for 240 yen. For almost two years it sold quietly.",
+    "Then in September 2023 Japanese streamers, including VTubers who appear online as cartoon characters, started playing it live, and millions watched. Aladdin X said daily downloads jumped to more than 50,000 times what they had been. On 20 October 2023 it was released in the Americas, and the game was the most downloaded on Japan's Nintendo eShop in both 2023 and 2024. By October 2024 it had been downloaded 11 million times.",
+    "Melon Drop plays like Suika Game, the 2021 watermelon game from Aladdin X in Japan, which grew out of a Chinese web game. Like Doubles in the hall next door, it is all about merging two of a kind, and the fruit are our own drawings. The name and look here are our own."
+   ],
+   "didYouKnow": [
+    "Suika Game has 11 fruits, from a cherry to a watermelon, but you can only ever drop the five smallest. Every bigger fruit has to be made by merging.",
+    "When two watermelons touch, they both vanish, which clears lots of room.",
+    "In China the craze gave people a new greeting: 'How many watermelons did you combine today?'",
+    "One reviewer described Suika Game as '2048 with physics'."
+   ],
+   "sources": [
+    {
+     "title": "Millions of Chinese netizens grow addicted to producing virtual watermelons in new viral mobile game that attracted 40 million users in a week, Global Times, 1 February 2021",
+     "url": "https://www.globaltimes.cn/page/202102/1214625.shtml",
+     "note": "Hechengdaxigua (lit: combine watermelon), played on WeChat; more than 40 million players within one week; first launched on 22 January; new greeting 'How many watermelons did you combine today?'"
+    },
+    {
+     "title": "Nearly 80 Million People are Playing a Mobile Game About Watermelons Right Now, RADII, February 2021",
+     "url": "https://radii.co/article/synthetic-watermelon",
+     "note": "Synthetic Watermelon on WeChat, 'like a mix of 2048 and Tetris'; almost 80 million players after 10 days according to its website; code available on GitHub; spin-offs with celebrities, kittens, university logos and Ultraman."
+    },
+    {
+     "title": "Nintendo Switch exclusive Suika Game is so addictive its previous daily sales have multiplied by fifty thousand, AUTOMATON WEST, 5 October 2023",
+     "url": "https://automaton-media.com/en/news/20231005-22096/",
+     "note": "Released December 2021 by popIn; first a built-in app for the popIn Aladdin projector; 240 yen; boom on Twitch from 15 September 2023; Aladdin X told Nippon TV daily downloads rose more than 50,000 times; compared with Threes!."
+    },
+    {
+     "title": "The Nintendo Switch dark horse Suika Game finally gets US release, AUTOMATON WEST, 23 October 2023",
+     "url": "https://automaton-media.com/en/news/20231023-22458/",
+     "note": "Released on 20 October 2023 in the US and the North, Central and South American regions; fruit order from cherry to watermelon; 1 million downloads by 5 October; popular with Japanese influencers and streamers from about September."
+    },
+    {
+     "title": "The Viral Nintendo Switch Hit 'Suika Game' Is Now Officially Available on the App Store in Japan, TouchArcade, 1 January 2024",
+     "url": "https://toucharcade.com/2024/01/01/suika-game-mobile-download-official-app-store-japan-release-date-aladdin-x-android/",
+     "note": "Popular thanks to VTubers such as Korone; over 5 million downloads; most downloaded game on the Japanese eShop for 2023."
+    },
+    {
+     "title": "Critics week: the unexpected genius of Suika Game, Nicole Carpenter, Mobilegamer.biz",
+     "url": "https://mobilegamer.biz/critics-week-nicole-carpenter-on-the-unexpected-genius-of-suika-game/",
+     "note": "Aladdin X was spun out of the Japanese projector company popIn; launched in 2021 for a projector, inspired by a Chinese browser game; 'Nothing larger than an orange can be placed outright.'"
+    },
+    {
+     "title": "Suika Game, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Suika_Game",
+     "note": "popIn Aladdin release April 2021, Switch in Japan 9 December 2021, worldwide 20 October 2023; 11 fruits from cherry to watermelon, only the five smallest can be dropped; two watermelons vanish; concept from the Chinese game Merge Big Watermelon (January 2021); VTubers; most downloaded eShop game in Japan in 2023 and 2024; 11 million downloads by October 2024; Nintendo Life called it '2048 with physics'."
+    }
+   ],
+   "uncertainties": [
+    "Player numbers for the Chinese game differ: more than 40 million in a week (Global Times) and almost 80 million after 10 days (RADII, quoting the game's website).",
+    "Wikipedia names the Chinese game's maker as the company Meadow Science; this was not checked in another source.",
+    "The 11 million download figure (October 2024) comes from Wikipedia only.",
+    "Automaton reported the October 2023 release for the Americas; Wikipedia calls it a worldwide release. The story says the Americas.",
+    "The city where Aladdin X is based was not confirmed, so the origin says only Japan."
+   ]
+  }
+ ],
+ "kids": [
+  {
+   "era": "2020s",
+   "title": "Being 12 in the 2020s",
+   "paragraphs": [
+    "In 2020 a new virus, COVID-19, spread around the world. To slow it down, many Australian schools moved lessons online for a while, and students learned from home with laptops, tablets and video calls. How long depended on where you lived: about 36 weeks across 2020 and 2021 in Melbourne, about 20 in Greater Sydney, 3 in Western Australia and less than one week in Darwin. Children of essential workers, and students who needed extra support, could still go to school. On walks, many kids spotted teddy bears that neighbours had put in their windows for them to find.",
+    "Phones got new rules. By 2024 every state and territory had rules keeping phones switched off and put away during public school hours; in Queensland it is called 'away for the day'. From 10 December 2025, a world-first law said platforms such as TikTok, Instagram, Snapchat and YouTube must take reasonable steps to stop under-16s having accounts. Online games and messaging apps are not covered. Pocket money went digital too: in 2025 about half of parents who paid pocket money did it digitally.",
+    "Bluey, the cartoon blue heeler from Brisbane, became one of the most watched shows in the world, and its makers kept animating from home during lockdowns. Daily puzzles were everywhere: Wordle was the thing Australians searched for most on Google in 2022, and in 2023 The New York Times added Connections. Many kids built in Minecraft at school, and in late 2023 the watermelon game, Suika, became a hit on the Nintendo Switch. In December 2025 Halfbrick, the Brisbane studio behind Fruit Ninja, released the first Bluey video game made in Australia.",
+    "Big news you might remember: on 21 July 2021 Brisbane was chosen to host the 2032 Olympic Games. In 2023 Australia and New Zealand hosted the FIFA Women's World Cup, and on 16 August the Matildas' semi-final against England became the most watched TV program in Australia since the current ratings system began in 2001."
+   ],
+   "fastFacts": [
+    "Over six lockdowns, students in Melbourne learned from home for about 36 weeks in 2020 and 2021; in Darwin it was less than one week. (Australian Education Research Organisation)",
+    "Wordle was the thing Australians searched for most on Google in 2022. (Google Australia)",
+    "The Matildas' 2023 World Cup semi-final drew an average TV audience of 7.13 million people. (ABC News)",
+    "From 10 December 2025, platforms that do not take reasonable steps to keep under-16s off can be fined up to $49.5 million. Online games are not included. (ABC News)",
+    "In a 2025 survey, kids aged 8 to 17 who earned pocket money for chores got an average of $25 a week. (Westpac)",
+    "Bluey's makers say their game Bluey's Quest for the Gold Pen gives about 10 hours of play, almost twice the length of a whole season of the show. (ABC News)"
+   ],
+   "compare": "In 2020 and 2021, students in Melbourne learned from home for about 36 weeks, while students in Western Australia did so for about 3. If a school year is about 40 weeks long, what fraction of a school year is each? What would you miss most if school moved to your kitchen table, and what might you enjoy?",
+   "sources": [
+    {
+     "title": "Review of remote and online learning experiences during COVID-19, final report, Australian Education Research Organisation and Victoria University, September 2022",
+     "url": "https://content.vu.edu.au/sites/default/files/documents/2023-04/review-remote-online-learning-aa-ff.pdf",
+     "note": "'from 6 lockdowns totalling 36 weeks in metropolitan Melbourne, through to Darwin experiencing less than 1 week'; table of weeks of remote schooling 2020 to 2021: Greater Sydney 20, Western Australia 3, regional Victoria 23; face-to-face learning stayed available for children of essential workers and vulnerable students."
+    },
+    {
+     "title": "Socially distant bear hunts popping up all around the world to distract children from coronavirus, ABC News, 25 March 2020",
+     "url": "https://www.abc.net.au/news/2020-03-25/coronavirus-bear-hunts-around-the-world-including-melbourne/12085168",
+     "note": "Teddy bears and rainbows appearing in gardens, windows and fences, including in Melbourne, for children to spot on walks."
+    },
+    {
+     "title": "Jury still out on whether school phone bans help kids learn, reduce bullying, ABC News, 15 August 2024",
+     "url": "https://www.abc.net.au/news/2024-08-15/is-mobile-phone-ban-in-schools-helping-students-learn/104218850",
+     "note": "'All states and territories now have their own bans on mobile phones in schools'; rules for each state."
+    },
+    {
+     "title": "Queensland government confirms blanket mobile phone ban in state schools, ABC News, 7 July 2023",
+     "url": "https://www.abc.net.au/news/2023-07-07/phones-banned-in-queensland-state-schools/102573822",
+     "note": "Phones must be 'away for the day' in Queensland state schools from the next year (2024)."
+    },
+    {
+     "title": "Australia's social media ban for under-16s starts today. Here is what you should know, ABC News, 10 December 2025",
+     "url": "https://www.abc.net.au/news/2025-12-10/australias-social-media-ban-for-under-16s-starts-today/106119800",
+     "note": "A world-first push; platforms must take 'reasonable steps' to stop under-16s holding accounts or face penalties of up to $50 million."
+    },
+    {
+     "title": "Which apps are included in Australia's social media ban?, ABC News, 5 November 2025",
+     "url": "https://www.abc.net.au/news/2025-11-05/what-social-media-apps-are-getting-banned-in-australia/105973258",
+     "note": "Ten platforms included, among them TikTok, Instagram, Snapchat and YouTube; fines of up to $49.5 million; excluded services include messaging, online games and education."
+    },
+    {
+     "title": "Kids earning more pocket money than their parents did, Westpac media release, 28 September 2025",
+     "url": "https://www.westpac.com.au/about-westpac/media/media-releases/2025/28-september/",
+     "note": "55 per cent of children aged 8 to 17 earn pocket money for chores, an average of $25 a week; 49 per cent of parents who give pocket money use digital payments."
+    },
+    {
+     "title": "Bluey (2018 TV series), Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)",
+     "note": "Made by Ludo Studio in Brisbane; during the COVID-19 lockdown the production staff of 50 worked on episodes remotely from home."
+    },
+    {
+     "title": "Halfbrick Studios CEO Shainiel Deo on creating the first Bluey video game made in Brisbane, ABC News, 9 December 2025",
+     "url": "https://www.abc.net.au/news/2025-12-09/bluey-video-game-halfbrick-studios-brisbane/106113906",
+     "note": "Bluey is 'one of the most watched television shows around the world'; Bluey's Quest for the Gold Pen is the first Bluey game made by an Australian studio; about 10 hours of play, almost twice the length of a season."
+    },
+    {
+     "title": "Year in Search: Here's what Aussies searched for in 2022, Google Australia blog",
+     "url": "https://blog.google/intl/en-au/products/explore-get-answers/year-in-search-heres-what-aussies-searched-for-in-2022/",
+     "note": "Australians 'searched for Wordle more than anything else'."
+    },
+    {
+     "title": "The New York Times Connections, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Connections",
+     "note": "Released in beta on 12 June 2023."
+    },
+    {
+     "title": "The Nintendo Switch dark horse Suika Game finally gets US release, AUTOMATON WEST, 23 October 2023",
+     "url": "https://automaton-media.com/en/news/20231023-22458/",
+     "note": "Viral in Japan from about September 2023; released in the Americas on 20 October 2023."
+    },
+    {
+     "title": "Minecraft: Education Edition partnership, Premier of Victoria media release, 9 February 2020",
+     "url": "https://www.premier.vic.gov.au/new-programs-schools-build-digital-tech-skills",
+     "note": "Every Victorian government school student to have access to Minecraft: Education Edition."
+    },
+    {
+     "title": "2032 Summer Olympics, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2032_Summer_Olympics",
+     "note": "Brisbane approved as host on 21 July 2021 at the IOC Session in Tokyo."
+    },
+    {
+     "title": "Matildas' Women's World Cup semifinal loss to England sets TV audience record, ABC News, 17 August 2023",
+     "url": "https://www.abc.net.au/news/2023-08-17/fifa-womens-world-cup-matildas-england-tv-audience/102741074",
+     "note": "The most-watched TV program since the current audience measurement system began in 2001; national average audience of 7.13 million."
+    }
+   ],
+   "uncertainties": [
+    "AERO's week counts include only weeks when most students learned remotely; the real time differed by year level and suburb.",
+    "The eSafety Commissioner's own pages could not be opened (server errors), so the social media rules come from ABC News. The ABC gives the maximum fine as both $49.5 million and 'up to $50 million', and the list of platforms may change.",
+    "Westpac's $25 average covers 8 to 17 year olds who earn pocket money for chores; an undated CommBank page gives $11.37 a week for 10 to 12 year olds, so averages depend on who is asked.",
+    "The Women's World Cup semi-final was played on the evening of 16 August 2023 in Sydney.",
+    "How many Australian kids used Minecraft at school was not measured in any source opened; the panel says 'many'."
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "gameId": "five-letters",
+   "title": "How the computer colours a guess",
+   "yearLevels": "Years 5 to 8",
+   "idea": "Play two rounds of Five Letters in practice mode. Then, on paper, one student picks a secret five-letter word and acts as 'the computer', marking a partner's guesses with the game's three signals. Give pairs tricky cases with double letters, such as a secret word with one E and a guess with two. Students write their marking rule as numbered steps and test it on each other's examples until it never gets a double letter wrong. Finish with the Then panel: Josh Wardle's partner sorted about 13,000 words to make Wordle's answer list.",
+   "computerAngle": "The computer marks a guess in two passes. First pass: it compares each position, marks a letter green when it matches the secret word in that exact spot, and crosses that letter off a list of the secret word's leftover letters. Second pass: for each letter not yet marked, it looks in the leftover list; if the letter is there it is marked yellow and crossed off, otherwise it is grey. Doing all the greens first is what makes double letters fair: if the secret word has one E and you guess two, only one E can light up. A daily puzzle that is the same for everyone does not need the internet: the program turns today's date into a number and uses it to choose the answer from its list.",
+   "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+  },
+  {
+   "gameId": "four-groups",
+   "title": "Build a puzzle with a red herring",
+   "yearLevels": "Years 5 to 8",
+   "idea": "Play the daily Four Groups puzzle together on the board, voting on each group. Then teams write their own puzzle: four categories from a topic the class is studying, four words in each, and at least one red herring, a word that seems to fit two groups. Teams swap puzzles, solve them and colour each group from yellow (easiest) to purple (hardest). Finish with the Then panel: Wyna Liu keeps a notebook of category ideas and takes about two hours to build a board.",
+   "computerAngle": "Each puzzle is stored as data: four groups, each with a name, a colour and a set of four words. When you submit four tiles, order does not matter, so the program checks whether your four words are exactly the same set as one of the groups. A game can also count how many of your four words belong to the same group, which is how it could tell you that you are one away. The 16 tiles are shuffled with the Fisher-Yates method: go through the tiles from last to first and swap each one with a randomly chosen tile at or before it, which makes every order equally likely.",
+   "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+  },
+  {
+   "gameId": "melon-drop",
+   "title": "When do two circles touch?",
+   "yearLevels": "Years 6 to 8",
+   "idea": "Play Melon Drop for five minutes and watch what happens when two of the same fruit touch. On grid paper, draw pairs of circles, measure the distance between their centres with a ruler and compare it with their two radii added together. Students discover the rule: two circles touch or overlap when the distance between their centres is less than or equal to the sum of their radii. Older students can work out the distance from coordinates using Pythagoras' theorem. Finish with the Then panel: the game began as a Chinese web game in January 2021.",
+   "computerAngle": "Every fruit is a circle with a centre (x, y) and a radius. Many times a second the program moves each fruit a little: it adds gravity to its downward speed, then adds its speed to its position. Then it checks every pair of fruit. It works out the distance between their centres with Pythagoras' theorem (the square root of the across difference squared plus the up-and-down difference squared). If that distance is less than the two radii added together, the fruit overlap, so the program pushes them apart along the line joining their centres. If they are the same kind, it removes both and puts one fruit of the next size halfway between them, and adds points. Repeating the push-apart step a few times each frame lets a big pile settle without jiggling.",
+   "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+  }
+ ]
+}

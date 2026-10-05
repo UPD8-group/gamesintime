@@ -4,8 +4,8 @@
 window.GIT_CONTENT = {
   "site": {
     "name": "Games in Time",
-    "tagline": "Play the games kids played, from candlelight to neon.",
-    "lede": "Thirty-nine games from the 1800s to the 1980s, rebuilt so you can play them right now, with the true story of the kids who played them first. No accounts. No ads. Nothing to install.",
+    "tagline": "Play the games kids played, from candlelight to touchscreens.",
+    "lede": "Games from the 1800s to today, and one from the future, rebuilt so you can play them right now, with the true story of the kids who played them first. No accounts. No ads. Nothing to install.",
     "repo": "https://github.com/UPD8-group/gamesintime"
   },
   "eras": [
@@ -107,6 +107,398 @@ window.GIT_CONTENT = {
       "intro": "Vector rocks in the dark, a dash through traffic, a hunt through a glowing maze, and a well of falling blocks. The arcade of the early eighties, rebuilt in neon and chrome. Same rule as the room next door: the mechanics are the era’s, the names and colours are ours.",
       "kids": [
         "1980s"
+      ]
+    },
+    {
+      "id": "1990s",
+      "pill": "1990s",
+      "poster": "1993",
+      "years": "1990 to 1999",
+      "name": "The Bedroom Console",
+      "title": "The games came home.",
+      "gold": "Pixels, polygons and pets.",
+      "kids": [
+        "1990s"
+      ],
+      "hook": "A maze drawn in 3D, water balloons over a night skyline, a pet on a keyring, arrows to dance on and a field of hidden mines.",
+      "intro": "In the 1990s the games came home. Ordinary computers learned to draw 3D worlds, discs replaced cartridges, and a pet could live in your pocket. Same rule as the rooms next door: the mechanics are the era's, the names and colours are ours."
+    },
+    {
+      "id": "2000s",
+      "pill": "2000s",
+      "poster": "2001",
+      "years": "2000 to 2009",
+      "name": "The Y2K Lounge",
+      "title": "A new millennium of play.",
+      "gold": "Gems, Flash games and a wand in your hand.",
+      "kids": [
+        "2000s"
+      ],
+      "hook": "A number grid from the newspaper, glittering gems to swap, a one-button cave flight, a garden full of pests and a bowling lane you swing at.",
+      "intro": "In the 2000s games reached people who never called themselves gamers. Free web games ran in school computer rooms, puzzles filled newspapers and phones, and a remote you swing brought whole families in to bowl. Same rule as the rooms next door: the mechanics are the era's, the names and colours are ours."
+    },
+    {
+      "id": "2010s",
+      "pill": "2010s",
+      "poster": "2014",
+      "years": "2010 to 2019",
+      "name": "The Touchscreen Years",
+      "title": "Games in your pocket.",
+      "gold": "Swipe, tap, merge, build.",
+      "kids": [
+        "2010s"
+      ],
+      "hook": "Number tiles that slide and double, fruit flying up to be sliced, wobbly towers to topple and a whole world made of blocks.",
+      "intro": "In the 2010s games moved onto touchscreens. Phones and tablets put games in millions of pockets, and a hit could come from a big studio, a small team in Brisbane or one 19-year-old with a free weekend. The mechanics are the era's; the names and colours are ours."
+    },
+    {
+      "id": "2020s",
+      "pill": "2020s",
+      "poster": "2021",
+      "years": "2020 to 2029",
+      "name": "The Daily Puzzle",
+      "title": "The games of right now.",
+      "gold": "One puzzle a day, shared with the world.",
+      "kids": [
+        "2020s"
+      ],
+      "hook": "Five-letter guesses in coloured squares, sixteen words hiding four groups, and fruit that bumps and merges into a watermelon.",
+      "intro": "In the 2020s millions of people played the same small puzzle each day and shared their results as grids of coloured squares. Many of these games began as tiny projects by one person or a small team, and most live in a phone or a web browser. The mechanics are the era's; the names and colours are ours."
+    },
+    {
+      "id": "2030s",
+      "pill": "2030+",
+      "poster": "2030",
+      "years": "2030 and beyond",
+      "name": "The Future Hall",
+      "title": "What comes next?",
+      "gold": "You get to decide.",
+      "kids": [
+        "2030s"
+      ],
+      "hook": "A robot that learns from you, characters that talk back, headsets in the classroom and games that help scientists.",
+      "intro": "Nobody knows exactly what kids will play in 2035, but the clues are already here: characters that learn, headsets that mix real and virtual worlds, and games anyone can make. This hall reads those clues honestly, as predictions, not facts. Its one game is brand new and made for this site: in Robot School you teach a robot and watch it learn, right in your browser.",
+      "future": [
+        {
+          "title": "Games and AI",
+          "paragraphs": [
+            "For decades, most game characters followed rules that people wrote. Now some are learning to talk back. In March 2024 the French company Ubisoft showed a test game where players spoke out loud to characters run by generative artificial intelligence (AI), the same kind used in chatbots. The characters remembered what you said and could even make up new missions. Ubisoft called it a prototype, not a finished game, and its writers still had to create each character's life story, hopes and feelings first.",
+            "AI helpers are being tried too. In May 2025 Microsoft let adults in Australia and other countries test Copilot for Gaming, an assistant that answered questions about your game using your Xbox play history. In May 2026 Xbox said it would wind the helper down. The future of games often changes direction like this.",
+            "There are big questions. If an AI learned to draw from millions of pictures made by people, who made the art? In October 2025 Australia's Attorney-General said AI companies would not be allowed a special exception to train on Australian creators' work for free. In the United States, game voice actors went on strike from July 2024 to July 2025, partly so their voices could not be copied without permission and pay. Since January 2024 the Steam store has asked game makers to say how they used AI. In a 2026 survey of more than 2,300 game workers, 52 per cent said generative AI was having a negative effect on games and only 7 per cent said positive.",
+            "Fairness and privacy matter too. An AI that learns from unfair examples can make unfair choices, which is what Robot School's fairness lesson is about. Australia's privacy regulator must finish a Children's Online Privacy Code by 10 December 2026, covering the apps, games and websites children use.",
+            "Where could it lead? In 2023 the Pew Research Center asked 305 technology experts about AI and life in 2035. 37 per cent were more worried than excited, 18 per cent were more excited than worried, and 42 per cent felt both equally. Many said the choices people make now will decide which way it goes."
+          ],
+          "sources": [
+            {
+              "title": "Ubisoft unveils NEO NPCs, its first prototype for GenAI-powered characters and gameplay, Ubisoft press release, 19 March 2024",
+              "url": "https://staticctf.ubisoft.com/8aefmxkxpxwl/Mw2s4KjssknqHHh1VIf8V/720296810ecc3deae51778a219732c7f/PRESS_RELEASE_GDC_UbisoftUnveilsNEONPC_190324.pdf",
+              "note": "Shown at GDC 2024; players talk to characters by voice; NPCs have memory and can generate quests; built with Inworld AI and Nvidia; 'Every detail, personalities, backstories, agendas, and emotions, needs to be thoroughly crafted' by the team; narrative director Virginie Mosser; described as a prototype."
+            },
+            {
+              "title": "Testing for Copilot for Gaming (Beta) begins rolling out on mobile devices today, Xbox Wire, 28 May 2025",
+              "url": "https://news.xbox.com/en-us/2025/05/28/copilot-gaming-test-xbox-android-ios/",
+              "note": "Beta for users 18 and older in the US, Australia, New Zealand, Japan, Singapore and other regions; 'it sources your player activity on Xbox alongside public sources of information from the Bing search engine'."
+            },
+            {
+              "title": "Xbox is ditching Microsoft's Copilot AI, Engadget, 5 May 2026",
+              "url": "https://www.engadget.com/2165562/xbox-is-ditching-microsofts-copilot-ai/",
+              "note": "Xbox CEO Asha Sharma said Xbox would 'begin winding down Copilot on mobile and will stop development of Copilot on console'."
+            },
+            {
+              "title": "Govt rules out AI copyright exemption for tech giants, Information Age (Australian Computer Society), 27 October 2025",
+              "url": "https://ia.acs.org.au/article/2025/govt-rules-out-ai-copyright-exemption-for-tech-giants.html",
+              "note": "Attorney-General Michelle Rowland: 'We will not be entertaining a text and data mining exception', so that creators 'are fairly remunerated'."
+            },
+            {
+              "title": "2024 to 2025 SAG-AFTRA video game strike, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/2024%E2%80%932025_SAG-AFTRA_video_game_strike",
+              "note": "Strike from 26 July 2024 to 9 July 2025 over 'AI guardrails', including consent and payment for digital replicas of performers' voices and likenesses; deal ratified by 95.04% of members."
+            },
+            {
+              "title": "Valve announces new rules for games with AI content on Steam, GamingOnLinux, 10 January 2024",
+              "url": "https://www.gamingonlinux.com/2024/01/valve-announces-new-rules-for-games-with-ai-content-on-steam/",
+              "note": "Developers disclose 'Pre-Generated' and 'Live-Generated' AI content; much of the disclosure is shown on the store page; players can report illegal live-generated content."
+            },
+            {
+              "title": "One third of game workers use generative AI, but half think it's bad for the industry, Game Developer, 3 February 2026",
+              "url": "https://www.gamedeveloper.com/business/one-third-of-game-workers-use-generative-ai-but-half-think-it-s-bad-for-the-industry",
+              "note": "GDC 2026 State of the Game Industry, more than 2,300 respondents: 52% say generative AI is having a negative impact, 7% positive, 36% personally use it."
+            },
+            {
+              "title": "Children's Online Privacy Code, Office of the Australian Information Commissioner",
+              "url": "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
+              "note": "An APP code for 'online services, like apps, games and websites, likely to be accessed by children'; 'must be finalised and registered by 10 December 2026'; 425 submissions came from children and families."
+            },
+            {
+              "title": "Artificial intelligence (AI), curriculum connection, Australian Curriculum v9, ACARA",
+              "url": "https://www.australiancurriculum.edu.au/curriculum-information/understand-this-curriculum-connection/artificial-intelligence",
+              "note": "'Biases in the data AI systems are trained on can perpetuate discriminatory stereotypes or unfairly represent, omit or negatively portray certain groups'; 'the quality of the training data impacts on the quality, reliability and bias of the output'; Years 5 and 6 'investigate bias and fairness in relation to outcomes'; Years 7 and 8 'design and trace algorithms... including algorithms that can sort and classify'."
+            },
+            {
+              "title": "As AI Spreads, Experts Predict the Best and Worst Changes in Digital Life by 2035, Pew Research Center and Elon University, 21 June 2023",
+              "url": "https://www.pewresearch.org/internet/2023/06/21/as-ai-spreads-experts-predict-the-best-and-worst-changes-in-digital-life-by-2035/",
+              "note": "305 technology experts canvassed 27 December 2022 to 21 February 2023: 42% equally excited and concerned, 37% more concerned than excited, 18% more excited than concerned; best changes expected in health and medicine, education and climate action; worst in surveillance, deepfakes, jobs and concentrated corporate power."
+            }
+          ],
+          "uncertainties": [
+            "Ubisoft's NEO NPCs were a prototype shown privately at GDC 2024; no released game using them was confirmed.",
+            "The survey figures are opinions of the people who answered, not a measure of what will happen.",
+            "Copilot for Gaming was an adults-only beta and its availability varied by country."
+          ]
+        },
+        {
+          "title": "Virtual and mixed reality",
+          "paragraphs": [
+            "Headsets are older than you might think. In 1968 the computer scientist Ivan Sutherland and his students built a head-mounted display that drew simple wireframe rooms. It was see-through, so the shapes floated over the real room, and it was nicknamed the Sword of Damocles after its big mechanical support. In 1995 Nintendo's Virtual Boy showed 3D games in red, but it sold only 770,000 and some players got headaches.",
+            "Virtual reality (VR) fills your eyes with a made-up world. Mixed or augmented reality (AR) adds virtual things to the real world around you. Pokémon Go put AR creatures in streets and parks from 6 July 2016, launching first in Australia, New Zealand and the United States, and passed 100 million downloads within a month. Apple's Vision Pro headset went on sale in Australia on 12 July 2024. In 2023 Meta lowered the minimum age for its Quest headsets from 13 to 10, with accounts run by parents.",
+            "Will everyone wear one by 2040? Experts disagree. In 2022 the Pew Research Center asked 624 experts whether, by 2040, fully immersive virtual worlds would be a well-working part of daily life for half a billion people or more. 54 per cent said yes and 46 per cent said no. Many of the doubters expected glasses that add things to the real world to beat headsets that shut it out."
+          ],
+          "sources": [
+            {
+              "title": "The Sword of Damocles (virtual reality), Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+              "note": "Ivan Sutherland with Bob Sproull, Quintin Foster and Danny Cohen, 1968; 'simple wireframe rooms'; the first functional augmented reality system with optical transparency; Sutherland said the name was 'merely a joke name for the mechanical system that supported and tracked' the display."
+            },
+            {
+              "title": "Virtual Boy, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Virtual_Boy",
+              "note": "Released July and August 1995; 'red monochrome display'; sold 770,000 units; reports of 'headaches, dizziness, and eye strain'; discontinued by 1996."
+            },
+            {
+              "title": "Pokémon Go, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go",
+              "note": "Augmented reality mobile game by Niantic, released 6 July 2016 in Australia, New Zealand and the United States; more than 100 million downloads by 31 July 2016."
+            },
+            {
+              "title": "Apple Vision Pro, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
+              "note": "Announced 5 June 2023; US release 2 February 2024 at US$3,499; available in Australia from 12 July 2024; marketed as a 'spatial computer'."
+            },
+            {
+              "title": "Meta to reduce Quest's minimum age restriction to 10 years, Road to VR, 19 June 2023",
+              "url": "https://www.roadtovr.com/meta-quest-age-limit-10-years/",
+              "note": "Minimum age lowered from 13+ to 10+ with parent-managed accounts; Meta Horizon Worlds kept its 13+ age limit in the US and Canada."
+            },
+            {
+              "title": "The Metaverse in 2040, Pew Research Center and Elon University, 30 June 2022",
+              "url": "https://www.pewresearch.org/internet/2022/06/30/the-metaverse-in-2040/",
+              "note": "624 experts canvassed 6 February to 21 March 2022 on whether the metaverse would be 'a much-more-refined and truly fully-immersive, well-functioning aspect of daily life for a half billion or more people globally' by 2040: 54% yes, 46% no; many doubters expected augmented reality to be far more common than immersive VR."
+            }
+          ],
+          "uncertainties": [
+            "Experts asked about 2040 were split almost evenly, so the future of headsets is genuinely unknown.",
+            "Pokémon Go's download figures come from Wikipedia, which cites company and analyst reports."
+          ]
+        },
+        {
+          "title": "Games anyone can make",
+          "paragraphs": [
+            "In May 2007 the Lifelong Kindergarten group at the MIT Media Lab in the United States released Scratch, where you snap coloured blocks together to make games, stories and animations. By February 2023 more than 103 million users had shared over 123 million projects.",
+            "Roblox, released in 2006, and Minecraft, fully released in 2011, turned millions of players into builders. Roblox games are made by players in Roblox Studio, using a programming language called Luau, and in mid-2025 Roblox averaged 111.8 million users a day. By April 2025 Minecraft had sold more than 350 million copies, more than any other video game. In December 2025 Roblox began asking players in Australia to check their age before they could chat.",
+            "Making things is getting easier still. In March 2025 Roblox released Cube 3D, an AI tool that turns typed words, such as 'motorcycle', into 3D objects, and more than 1.8 million objects have been made with it since. Tools like this could let far more people build games. Many game workers are uneasy, though: in a 2025 survey some worried that stores would fill up with low-effort games made quickly by AI."
+          ],
+          "sources": [
+            {
+              "title": "Scratch (programming language), Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Scratch_(programming_language)",
+              "note": "Created by Mitchel Resnick and Yasmin Kafai's Lifelong Kindergarten group at the MIT Media Lab; version 1.0 released 15 May 2007; 'more than 123 million projects shared by over 103 million users' as of February 2023; the Scratch Foundation took over in 2019."
+            },
+            {
+              "title": "Roblox, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Roblox",
+              "note": "Created by David Baszucki and Erik Cassel, released 1 September 2006; games built in Roblox Studio with Luau, a dialect of Lua 5.1; mandatory age checks to communicate began in Australia and some other countries in December 2025."
+            },
+            {
+              "title": "Roblox Reports Second Quarter 2025 Financial Results, Roblox Investor Relations, 31 July 2025",
+              "url": "https://ir.roblox.com/news/news-details/2025/Roblox-Reports-Second-Quarter-2025-Financial-Results/default.aspx",
+              "note": "'Average Daily Active Users (DAUs) were 111.8 million, up 41% year-over-year'; mentions the Cube 3D foundational AI model."
+            },
+            {
+              "title": "Best-selling videogame, Guinness World Records",
+              "url": "https://www.guinnessworldrecords.com/world-records/best-selling-video-game",
+              "note": "Minecraft, over 350 million units as of April 2025, confirmed by Mojang in the Minecraft Annual 2026."
+            },
+            {
+              "title": "Minecraft, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Minecraft",
+              "note": "Created by Markus Persson; first public version 17 May 2009; full release 18 November 2011; Minecraft Education launched 1 November 2016; players build computers from redstone."
+            },
+            {
+              "title": "Cube 3D, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cube_3D",
+              "note": "AI model by Roblox announced and open-sourced in March 2025; turns text into 3D meshes; trained on Roblox meshes; over 1.8 million assets generated since launch; built into Roblox Studio."
+            },
+            {
+              "title": "Developers still aren't warming up to generative AI, Game Developer, 22 January 2025",
+              "url": "https://www.gamedeveloper.com/business/developers-still-aren-t-warming-up-to-generative-ai",
+              "note": "GDC 2025 State of the Game Industry: 30% of developers saw a negative impact from generative AI, 13% positive; worries included quality and 'market oversaturation with low-effort AI-generated games'."
+            }
+          ],
+          "uncertainties": [
+            "Roblox's daily user figure counts accounts, not people, and changes every quarter.",
+            "Minecraft's sales keep rising; some 2026 reports give figures above 400 million, but only the April 2025 figure was checked against Guinness World Records.",
+            "The figure of 1.8 million objects made with Cube 3D comes from Wikipedia and was not checked against Roblox's own reports."
+          ]
+        },
+        {
+          "title": "Cloud games and games for everyone",
+          "paragraphs": [
+            "Cloud gaming runs the game on a powerful computer in a data centre and streams the pictures to your phone, tablet or laptop, like a video that listens to your buttons. Xbox Cloud Gaming started in September 2020 and reached Australia in September 2021. The catch is lag: the tiny delay between pressing a button and seeing what happens, which matters a lot in fast games.",
+            "Not every cloud bet works. Google's Stadia opened in November 2019 and closed on 18 January 2023 because not enough people used it, and Google refunded what players had paid. Stadia also needed fast internet: at least 10 megabits a second for its lowest picture quality and 35 for its sharpest.",
+            "Accessibility means games that everyone can play. On 4 September 2018 Microsoft released the Xbox Adaptive Controller, designed with gamers with disability and groups such as AbleGamers and SpecialEffect. It has two big buttons and 19 sockets where players can plug in switches, pedals or joysticks that suit their bodies. London's V&A museum collected one on the day it went on sale, and Sony later made its own Access controller. In Australia 13.5 per cent of children aged 5 to 14 had disability in 2022, so games like this matter in every classroom.",
+            "If the cloud keeps improving, the expensive part of a console could live in a data centre and a cheap screen could play almost anything. That depends on fast, steady internet, and on game makers designing for every kind of player from the start."
+          ],
+          "sources": [
+            {
+              "title": "Cloud gaming, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cloud_gaming",
+              "note": "Games run on remote servers and are streamed to the player's device; OnLive launched in June 2010 and struggled to make a profit; latency, the delay between input and effect, is a major problem for fast-paced games."
+            },
+            {
+              "title": "Xbox Cloud Gaming, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Xbox_Cloud_Gaming",
+              "note": "Launched 15 September 2020 for Game Pass Ultimate; games run on Xbox Series X-based servers in Microsoft's Azure data centres; expanded to Australia in September 2021."
+            },
+            {
+              "title": "Google Stadia, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Google_Stadia",
+              "note": "Launched 19 November 2019 in 14 countries; shut down 18 January 2023 citing 'lack of traction with users'; all hardware and game purchases refunded; 10 Mbps for 720p and 35 Mbps for 4K."
+            },
+            {
+              "title": "Xbox Adaptive Controller, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Xbox_Adaptive_Controller",
+              "note": "Announced May 2018, released 4 September 2018 at US$99.99; developed with SpecialEffect, Warfighter Engaged, The AbleGamers Foundation and others; two large 4-inch buttons and nineteen 3.5 mm jacks; inspired Sony's Access Controller and Hori's Flex Controller."
+            },
+            {
+              "title": "V&A acquires Xbox adaptive controller set to revolutionise accessibility in videogaming, V&A Blog, 4 September 2018",
+              "url": "https://www.vam.ac.uk/blog/museum-life/va-acquires-xbox-adaptive-controller-set-to-revolutionise-accessibility-in-videogaming",
+              "note": "Acquired for the V&A's Rapid Response Collecting at release; 'two large buttons that players can programme, nineteen jacks and two USB ports'."
+            },
+            {
+              "title": "Disability, Ageing and Carers, Australia: Summary of Findings, 2022, Australian Bureau of Statistics",
+              "url": "https://www.abs.gov.au/statistics/health/disability/disability-ageing-and-carers-australia-summary-findings/latest-release",
+              "note": "5.5 million Australians (21.4%) had disability; 13.5% of children aged 5 to 14 had disability in 2022, up from 9.6% in 2018."
+            }
+          ],
+          "uncertainties": [
+            "Stadia's internet speed figures are Google's recommendations as reported by Wikipedia; real needs varied with the game and network.",
+            "The year Sony's Access controller went on sale was not checked, so the panel says only 'later'."
+          ]
+        },
+        {
+          "title": "Playing for science and health",
+          "paragraphs": [
+            "Proteins are the tiny machines that do the work inside every living thing, and a protein's shape decides what it does. In May 2008 scientists and game designers at the University of Washington in Seattle released Foldit, a puzzle game where players fold proteins into good shapes. In 2011 Foldit players worked out the shape of an enzyme from a virus that causes an AIDS-like disease in monkeys. Scientists had been stuck on it for more than a decade. The players cracked it in about three weeks.",
+            "In 2024 David Baker, the biochemist who led the Foldit project, shared the Nobel Prize in Chemistry for designing brand-new proteins. The other half of the prize went to Demis Hassabis and John Jumper of Google DeepMind, the company behind AlphaGo, for AlphaFold2, an AI that predicts protein shapes. It has predicted the shapes of almost all 200 million proteins researchers know about. Foldit players have moved on to designing new proteins, and in 2019 four of their designs were made in a laboratory.",
+            "Other games help health research. Sea Hero Quest (2016) tested how well players find their way around, one of the first skills lost in dementia, and 4.3 million players gave researchers data that would have taken 17,600 years to collect in a laboratory. In June 2020 EndeavorRx became the first video game cleared by the United States Food and Drug Administration as a treatment, for children aged 8 to 12 with ADHD. In Australia, QuestaGame, launched in Canberra in 2014, turns spotting plants, animals and fungi into a game, and experts check the sightings before they go to the Atlas of Living Australia.",
+            "In the 2023 Pew survey about life in 2035, many experts named health and medicine as where AI could do the most good. Some of that progress may come from people playing games."
+          ],
+          "sources": [
+            {
+              "title": "Foldit, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Foldit",
+              "note": "Launched May 2008 by the University of Washington Center for Game Science and Department of Biochemistry, led by David Baker with Seth Cooper and Zoran Popovic; 2011 M-PMV retroviral protease model produced by players; 2019: four player-designed proteins synthesised and deposited in the Protein Data Bank; players credited as authors."
+            },
+            {
+              "title": "Gamers succeed where scientists fail, University of Washington News, 19 September 2011",
+              "url": "https://www.washington.edu/news/2011/09/19/gamers-succeed-where-scientists-fail",
+              "note": "Scientists struggled for 'more than a decade'; gamers solved it in 'three weeks'; published in Nature Structural & Molecular Biology on 18 September 2011; Firas Khatib: 'We wanted to see if human intuition could succeed where automated methods had failed'."
+            },
+            {
+              "title": "The Nobel Prize in Chemistry 2024, press release, Royal Swedish Academy of Sciences",
+              "url": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+              "note": "Half to David Baker 'for computational protein design', half jointly to Demis Hassabis and John Jumper of Google DeepMind, London, 'for protein structure prediction'; AlphaFold2 has predicted 'the structure of virtually all the 200 million proteins that researchers have identified'."
+            },
+            {
+              "title": "Sea Hero Quest, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Sea_Hero_Quest",
+              "note": "2016 mobile game by Glitchers with Alzheimer's Research UK, UCL and the University of East Anglia, funded by Deutsche Telekom; studies spatial navigation, which it describes as one of the first skills lost in dementia; three sections: navigation, shooting flares to test orientation, and chasing creatures; by October 2021 4.3 million players had produced data that would have taken 17,600 years to collect in the lab."
+            },
+            {
+              "title": "EndeavorRx, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/EndeavorRx",
+              "note": "On 15 June 2020 'the first ever video game to be cleared by the FDA'; for children with ADHD aged 8 to 12; reported side effects included frustration and headaches."
+            },
+            {
+              "title": "Questagame, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Questagame",
+              "note": "Launched in 2014 in Canberra; founder Andrew Robinson; players submit and identify sightings of fauna, flora and fungi; data goes to the Atlas of Living Australia; classroom version Ranger Vision."
+            },
+            {
+              "title": "As AI Spreads, Experts Predict the Best and Worst Changes in Digital Life by 2035, Pew Research Center and Elon University, 21 June 2023",
+              "url": "https://www.pewresearch.org/internet/2023/06/21/as-ai-spreads-experts-predict-the-best-and-worst-changes-in-digital-life-by-2035/",
+              "note": "305 technology experts canvassed 27 December 2022 to 21 February 2023: 42% equally excited and concerned, 37% more concerned than excited, 18% more excited than concerned; best changes expected in health and medicine, education and climate action; worst in surveillance, deepfakes, jobs and concentrated corporate power."
+            }
+          ],
+          "uncertainties": [
+            "Sources differ on how long the monkey-virus enzyme had stumped scientists: the University of Washington says more than a decade, Wikipedia says 15 years.",
+            "Wikipedia says the Foldit puzzle was open for three weeks and players produced the key model in ten days; the panel says about three weeks.",
+            "It is not clear from the sources opened whether QuestaGame is still active in 2026.",
+            "EndeavorRx was cleared by the US regulator; no source was found on its status in Australia."
+          ]
+        },
+        {
+          "title": "Games and the planet",
+          "paragraphs": [
+            "Games run on electricity. In 2015 the energy scientist Evan Mills of Lawrence Berkeley National Laboratory in California found that gaming computers were only 2.5 per cent of the world's computers but used 20 per cent of their energy. 'Your average gaming computer is like three refrigerators,' he said. Better parts and settings could save more than three quarters of that energy. His later research found that streaming games from the cloud can raise electricity use by up to 60 per cent on a desktop computer and 300 per cent on a laptop.",
+            "AI and cloud games run in data centres, and those are growing fast. The International Energy Agency expects the world's data centres to use about 945 terawatt hours of electricity a year by 2030, more than double the 415 they used in 2024.",
+            "Then there is the rubbish. In 2022 the world threw away 62 million tonnes of electronic waste, or e-waste, and only 22.3 per cent was properly collected and recycled. The United Nations' Global E-waste Monitor expects 82 million tonnes by 2030. Since 2019 it has been illegal in Victoria to put e-waste, anything with a plug, battery or power cord, in the household rubbish.",
+            "Repair is part of the answer. From 18 February 2027 a European Union law says the batteries in most portable devices sold there must be removable and replaceable by their owners. Australia's Productivity Commission reported on the right to repair in 2021. And in September 2019, twenty games companies with a combined 970 million players formed the Playing for the Planet Alliance with the United Nations, promising to cut emissions and put green ideas into their games."
+          ],
+          "sources": [
+            {
+              "title": "Gaming computers offer huge, untapped energy savings potential, Berkeley Lab News Center, 31 August 2015",
+              "url": "https://newscenter.lbl.gov/2015/08/31/gaming-computers-offer-huge-untapped-energy-savings-potential/",
+              "note": "Gaming computers are 2.5% of the global installed PC base but 20% of PC energy use; savings of more than 75% possible; Evan Mills: 'Your average gaming computer is like three refrigerators'."
+            },
+            {
+              "title": "Video games consume more electricity than 25 power plants can produce, Mother Jones, November 2018",
+              "url": "https://www.motherjones.com/environment/2018/11/video-games-electricity-carbon-footprint/",
+              "note": "Reports Evan Mills's research: US gaming systems use about $6 billion of electricity a year; cloud-based gaming increases electricity use 'by as much as 60 percent for desktop computers and 300 percent for laptops'; efficiency could cut use by 30 to 50%."
+            },
+            {
+              "title": "Environmental impact of artificial intelligence, Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Environmental_impact_of_artificial_intelligence",
+              "note": "Cites the International Energy Agency (2025): data centres used about 415 TWh in 2024, about 1.5% of world electricity, and 'could rise to about 945 TWh by 2030, with AI identified as the main driver'."
+            },
+            {
+              "title": "The Global E-waste Monitor 2024, ITU and UNITAR",
+              "url": "https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+              "note": "62 million tonnes of e-waste generated in 2022; 22.3% documented as formally collected and recycled; projected 82 million tonnes by 2030."
+            },
+            {
+              "title": "E-waste ban, Victorian Government",
+              "url": "https://www.vic.gov.au/e-waste-ban",
+              "note": "'Since 2019, it has been illegal to put e-waste in household rubbish or landfill in Victoria'; 'E-waste is any item that has a plug, battery or power cord'."
+            },
+            {
+              "title": "How to comply with the EU replaceable battery rules, ComplianceGate",
+              "url": "https://www.compliancegate.com/removable-and-replaceable-battery-requirements-european-union/",
+              "note": "Article 11 of Batteries Regulation (EU) 2023/1542 applies from 18 February 2027: portable batteries must be removable and replaceable by end users, with exemptions."
+            },
+            {
+              "title": "Right to Repair, Productivity Commission inquiry report",
+              "url": "https://www.pc.gov.au/inquiries/completed/repair/report",
+              "note": "Final report handed to the Government on 29 October 2021 and released on 1 December 2021; looked at barriers to repair, planned obsolescence and e-waste."
+            },
+            {
+              "title": "Playing For The Planet Alliance launch video, UN Environment Programme via GRID-Arendal",
+              "url": "https://www.grida.no/resources/13462",
+              "note": "'Twenty of the biggest names in the video games industry' with 'a combined audience of 970 million players' launched the alliance at the UN Secretary-General's Climate Action Summit in 2019."
+            },
+            {
+              "title": "UN's Playing for the Planet inspires gaming industry to change, United Nations Regional Information Centre",
+              "url": "https://unric.org/en/uns-playing-for-the-planet-inspires-gaming-industry-to-change/",
+              "note": "The alliance was launched in 2019 at UN Headquarters in New York; over 60% of members committed to net zero or carbon negative by 2030."
+            }
+          ],
+          "uncertainties": [
+            "The data centre forecast is from the International Energy Agency as quoted by Wikipedia; the IEA's own pages blocked access during research.",
+            "Evan Mills's figures come from US and Californian studies of 2015 to 2019; newer gaming hardware may use energy differently.",
+            "The EU battery rule has exceptions, and how it will apply to game handhelds and controllers was not checked.",
+            "The launch date of 23 September 2019 for Playing for the Planet comes from search results; the pages opened confirm only 2019."
+          ]
+        }
       ]
     }
   ],
@@ -3020,6 +3412,1515 @@ window.GIT_CONTENT = {
       "playable": true,
       "controls": "Left and right arrows, or A and D, slide the block. The up arrow or W turns it. The down arrow or S moves it down one row, and Space drops it straight to the bottom. On a phone or tablet, use the buttons under the well: the arrows slide and nudge the block down, the round arrow turns it, and DROP drops it. Start begins a new game and Stop ends it.",
       "adaptation": "Ported line for line from Cascade in the original 1983 neon arcade: the same 10 by 18 well, the seven shapes and their colours, the shuffled set of seven, the turning rules and the nudges away from walls, the falling speeds, scoring, ghost block, tones and drawing, checked frame by frame against the original with the same shuffles. Changes: the em-dashes in the caption are middle dots and the screen's label uses full stops; the screen has role img; the best score is kept with the Games in Time store; the site's status line shows the score and level; a new best (saved at game over, as before) sets off the site's celebration; the Start and Stop buttons use their own class names so the site's button style does not change them, and their symbols are hidden from screen readers; and the screen lets a phone scroll the page when no game is running (it still holds still during play). Kept as the original has them: the well is drawn at 240 by 432 pixels and stretched to fit, so the glow looks the same; there is no next-block preview or hold; and soft drops score nothing."
+    },
+    {
+      "story": [
+        "Artillery games are some of the oldest computer games. In 1969 Arthur Luehrmann made one called Potshot that drew each shot with a plotter, a machine that draws with a pen. In the 1970s players on big shared computers typed in an angle and a speed, then waited to see where the shot landed. The rule is simple: you choose the angle and the power, and gravity and wind do the rest.",
+        "In June 1991 Microsoft released MS-DOS 5.0 with a free programming language called QBasic and four example programs. One was Gorillas. Two gorillas stand on the roofs of a city skyline and take turns throwing exploding bananas, with the wind shown by an arrow. Three university students working at Microsoft as interns made it: Richard Moe drew the art and wrote the music, Lyle Hazle programmed the main game and Lance Delarme wrote the code that builds the city. Because the program was right there in a file called GORILLA.BAS, many kids changed it, and some say it made them want to be programmers.",
+        "In England, Andy Davidson, who worked in a computer shop, spent years making his own artillery game on an Amiga computer in a language called Blitz BASIC. He entered it in a competition run by Amiga Format magazine, then showed it at a trade show in September 1994, where Martyn Brown of the games company Team17 made him an offer on the spot. Worms came out on 17 November 1995: teams of cartoon worms take turns on a landscape that crumbles where shots land. By 2006 it had sold more than 5 million copies.",
+        "Skyline plays like Gorillas and Worms: two players take turns to set an angle and a speed while gravity pulls and the wind pushes every throw. Here the throws are water balloons and nobody gets hurt. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose vs Computer (Easy, Normal or Hard) or 2 players, then press Start. One thrower stands on a roof on the left, the other on a roof on the right.",
+        "On your turn, set the angle (0 degrees is a flat throw, 90 is straight up) and the speed (how hard you throw), then press Throw.",
+        "The balloon flies in a curve, because gravity pulls it down a little more every second. Watch the flag and the wind arrow at the top: the wind pushes the balloon sideways for the whole flight.",
+        "Each thrower's last throw stays on screen as a dotted trail. Use it to see how far off you were, and change one number at a time.",
+        "Hit the other thrower for a big, harmless SPLOOSH and a point. A miss splashes the buildings, and a balloon that lands on a roof can knock out a little notch.",
+        "Careful: if your balloon comes back down on your own head, you get soaked and the point goes to the other side.",
+        "After every splash there is a new city and a new wind. First to 3 points wins. Your wins against each computer level are saved on this device."
+      ],
+      "didYouKnow": [
+        "Microsoft wanted to keep away from war games, so the Gorillas team brainstormed silly ideas. Richard Moe remembered: 'One idea was clowns throwing pies, but what are clowns doing on buildings? King Kong on the other hand...'",
+        "Gorillas let you change gravity. It started at 9.8 metres per second squared, Earth's real pull, but you could type in any number you liked.",
+        "Blitz BASIC, the language the first Worms was written in, was made by New Zealand programmer Mark Sibly, and its first version was published by an Australian company, Memory and Storage Technology.",
+        "Before it was called Worms, Andy Davidson's game was called Artillery, and then Total Wormage."
+      ],
+      "sources": [
+        {
+          "title": "GORILLA.BAS: How to Play the Secret MS-DOS Game From Your Childhood, Benj Edwards, How-To Geek, 2022",
+          "url": "https://www.howtogeek.com/779956/gorilla.bas-how-to-play-the-secret-ms-dos-game-from-your-childhood/",
+          "note": "MS-DOS 5.0 launched in June 1991 with QBasic and four example programs (MONEY.BAS, REMLINE.BAS, NIBBLES.BAS, GORILLA.BAS); co-op interns Richard Moe (design, music, art), Lyle Hazle (core mechanics) and Lance Delarme (cityscape); the clowns throwing pies quote; source code invited kids to experiment; Moe later joined Humongous Entertainment."
+        },
+        {
+          "title": "Gorillas (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gorillas_(video_game)",
+          "note": "Players enter an angle and velocity; gravity defaults to 9.8 m/s squared but any value may be chosen; wind shown by an arrow; impacts blow chunks out of buildings."
+        },
+        {
+          "title": "QBasic, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/QBasic",
+          "note": "QBasic came with four example programs: Nibbles, Gorillas, Money Manager and RemLine; version 1.0 shipped with MS-DOS 5.0."
+        },
+        {
+          "title": "Artillery game, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Artillery_game",
+          "note": "Potshot by Arthur Luehrmann (1969) with a plotter display; 1970s mainframe artillery games where players entered velocity and angle; Gorillas and Scorched Earth (1991); Worms (1995)."
+        },
+        {
+          "title": "Worms (1995 video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Worms_(1995_video_game)",
+          "note": "Andy Davidson, a computer shop employee, began in 1990; titled Artillery, then Total Wormage after an Amiga Format Blitz BASIC competition; met Martyn Brown at ECTS in September 1994, who made an offer on the spot; released 17 November 1995; more than 5 million sold by 2006."
+        },
+        {
+          "title": "Team17, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Team17",
+          "note": "Based in Wakefield, England; founded 7 December 1990."
+        },
+        {
+          "title": "Blitz BASIC, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blitz_BASIC",
+          "note": "Devised by New Zealand-based developer Mark Sibly; the first version, for the Amiga, was published by the Australian firm Memory and Storage Technology; Total Wormage was developed in Blitz BASIC."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia dates Gorillas to 1990, when the interns made it; it was first sold with MS-DOS 5.0 in June 1991, so this page uses 1991.",
+        "The names of Gorillas' makers come from Richard Moe's own account to How-To Geek. Rick Raddatz, who wrote Nibbles, remembers the start of the project a little differently.",
+        "It is not clear which version of Blitz BASIC Andy Davidson used. The first Blitz BASIC was published by an Australian company; Blitz BASIC 2 came from Acid Software in New Zealand.",
+        "Worms is a turn-based game about battling worms with weapons. This hall's version uses harmless water balloons."
+      ],
+      "playable": true,
+      "id": "skyline",
+      "title": "Skyline",
+      "era": "1990s",
+      "year": 1991,
+      "yearLabel": "1991 (Worms followed in 1995)",
+      "stamp": "1991",
+      "type": "action",
+      "players": [
+        "vs computer",
+        "2 players"
+      ],
+      "controls": "Drag on the city from your thrower to aim: the arrow points the way you will throw, and a longer arrow means more speed. You can also use the sliders or type the numbers. Then press Throw. Keyboard: Up and Down arrows change the angle, Left and Right change the speed (hold Shift for steps of 5), Space or Enter throws.",
+      "computer": "The computer uses the same maths the game uses to fly the balloon. At any moment of the flight, the balloon's sideways position is where it started, plus its sideways speed times the time, plus half the wind times the time squared. Its height works the same way, with gravity instead of the wind. Easy uses a textbook formula that forgets about the wind and the buildings, then wobbles its guess a lot, so it mostly hits by luck. Normal does what a careful person does, called bracketing: it keeps the same angle, and if a throw lands short it throws harder, and if it lands too far it throws softer. Once it has one throw that was short and one that was too far, it tries halfway between them, halving the gap every time. Computer scientists call that a binary search. If a tall building is in the way, it throws harder, then higher. Hard tests throws in its head before it throws: for every angle from 20 to 80 degrees it runs the real equations, with the real wind and the real buildings, to find the speed that lands right on you, and picks one. That would never miss, so its hand wobbles by a few degrees and a few points of speed, like anyone's. In our tests on hundreds of random cities, Easy needed about 7 throws to score a splash, Normal about 3 and Hard about 2.",
+      "adaptation": "Plays like the 1991 artillery game in which two players on a city skyline take turns to choose an angle and a speed and throw at each other, with gravity and a wind that changes every round, first to a chosen score. Changed for Games in Time: the throwers are two friends of our own design with water balloons instead of anything that explodes, and a hit makes a harmless splash; the angle and speed are set with sliders, number boxes or by dragging an arrow, instead of being typed in at a prompt; each player's last throw stays on screen as a dotted trail, so kids can learn from every miss; a miss leaves a wet patch, and a roof hit knocks out only a small notch, never under anyone's feet; the building next to each thrower is never much taller than their own roof, so nobody starts stuck behind a wall; there is a computer opponent with three levels, where the original was for two people sharing one keyboard; the game is always first to 3, and gravity is fixed rather than typed in.",
+      "origin": "Mechanics of Gorillas by Microsoft, Redmond, USA, and Worms by Andy Davidson and Team17, Wakefield, England",
+      "tagline": "Angle, speed, wind and splash!",
+      "blurb": "Take turns to choose an angle and a speed and lob water balloons across a city skyline while the wind pushes them off course, like the 1991 game Gorillas."
+    },
+    {
+      "story": [
+        "At the start of 2009 a Finnish games studio called Rovio was close to going broke. It had made 51 games for other companies and had shrunk from 50 workers to 12. Its bosses, the cousins Mikael and Niklas Hed, decided to make a game of their own for the iPhone, with a list of rules: it had to suit everybody, be based on physics, need no tutorial, load fast and be fun to play for just one minute.",
+        "In March 2009 designer Jaakko Iisalo showed them a picture of round, cross-looking birds with no feet or wings, walking towards a pile of colourful blocks. Everyone loved the birds, though nobody yet knew what the game would be. Early versions had no slingshot and no pigs: you flung the birds by swiping. The slingshot stayed because players understood it straight away, and green pigs who steal the birds' eggs were added to explain why the birds were so angry.",
+        "Angry Birds went on sale in December 2009. It was Rovio's 52nd game and cost about 100,000 euros to make. At first it sold slowly in big countries, so Rovio started small: a few hundred sales put it at number one in Finland, then Sweden, Denmark, Greece and the Czech Republic. In February 2010 Apple made it game of the week in Britain, and by April it was number one in the United States. In 2013 Apple named it the most downloaded paid app ever, and in 2026 it joined the World Video Game Hall of Fame.",
+        "Slingshot plays like Angry Birds, the 2009 phone game from Rovio in Finland. Our pebbles are friendly puffballs, the targets are trophies and snowmen, and nothing alive gets hurt. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Pick a level under the picture and press Play. Your puffballs wait beside the slingshot on the left.",
+        "Drag back anywhere on the picture and let go. The further you pull, the faster the puffball flies. It flies the opposite way to your pull, like a real slingshot.",
+        "The white dots show where the first part of the flight will go. You have to judge the rest yourself.",
+        "Knock down every gold trophy and snowman. A target counts when it tips over, falls off its tower, or takes a hard knock.",
+        "Wood, ice and stone behave differently. Ice is slippery and breaks easily. Stone is heavy and tough. Cracks show that a piece is about to break. Knock out the bottom of a tower and the top comes down too.",
+        "The big blue puffballs are heavier, so they hit harder.",
+        "Clear a level with fewer puffballs for more stars, and get a bonus for every puffball left over. Clearing a level opens the next one. If you get stuck on a level three times, the next one opens anyway."
+      ],
+      "didYouKnow": [
+        "Jaakko Iisalo built two layers into every level: one star for finishing and three stars for experts, 'so that my mother can enjoy the game, and I can enjoy the game'.",
+        "The pigs were coloured green to go with the red of the birds.",
+        "Rovio's YouTube trailer for Angry Birds was only the second trailer ever made for an iPhone game.",
+        "Niklas Hed knew he had a hit when his mother, who never played games, burned the Christmas turkey because she was busy playing it.",
+        "By early 2011 people spent 200 million minutes a day playing Angry Birds. That is about 16 years of play every hour."
+      ],
+      "sources": [
+        {
+          "title": "In depth: How Rovio made Angry Birds a winner (and what's next), Tom Cheshire, Wired (UK), 7 March 2011",
+          "url": "https://www.wired.com/story/how-rovio-made-angry-birds-a-winner/",
+          "note": "Rovio close to bankruptcy at the start of 2009; 51 titles before Angry Birds; shrank from 50 employees to 12; office in downtown Helsinki; criteria: for everybody, physics-based, no tutorial, minimal loading, play for one minute; Iisalo's March 2009 screenshot of round, cross birds with no feet that can't fly; first versions used swiping and had no catapult or pigs; pigs added with the egg-stealing story; budget of 25,000 euros, final cost four times that; 52nd title; launched December 2009; number one in Finland, Sweden, Denmark, Greece and the Czech Republic; UK game of the week on 11 February 2010; number one in the US in April; second-ever iPhone game trailer; one-star and three-star layers; mother burned the Christmas turkey; 200 million minutes a day."
+        },
+        {
+          "title": "Angry Birds, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/angry-birds/",
+          "note": "Inducted 2026; Rovio's 52nd game; second-ever YouTube trailer for an iPhone game; Apple's 2013 list put it top as the most downloaded paid app of all time; more than two billion downloads by some estimates; 'The pigs were colored green to complement the red color of the birds.'"
+        },
+        {
+          "title": "Angry Birds (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angry_Birds_(video_game)",
+          "note": "Soft launch in Finland on 1 December 2009 and worldwide on 11 December 2009; Iisalo's sketch; slingshot first thought too obvious, then kept because players understood it immediately; programmer Tuomo Lehtinen made the physics; gameplay based on the 2009 Flash game Crush the Castle; three-star rating by birds used."
+        },
+        {
+          "title": "Box2D, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Box2D",
+          "note": "Free, open-source 2D physics engine by Erin Catto, released as open source on 11 September 2007; lists Angry Birds among games that used it."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia gives 11 December 2009 for the worldwide release (after a Finnish launch on 1 December); Wired says December 2009.",
+        "Wired places Rovio's 2009 office in downtown Helsinki; Rovio's later headquarters are in Espoo, next to Helsinki.",
+        "Wired says early versions flung birds by swiping; Wikipedia says the slingshot was tried first, thought too obvious, then brought back. The story combines the two.",
+        "Wikipedia says the 2009 swine flu outbreak may have inspired the green pigs, while Iisalo has said they came from drawings he made at age 10.",
+        "Wikipedia says the gameplay was based on Crush the Castle, a 2009 Flash game; Rovio's account in Wired mentions only that physics games were popular on Flash websites.",
+        "Wikipedia lists Angry Birds among Box2D games; no Rovio source was opened to confirm it."
+      ],
+      "playable": true,
+      "id": "slingshot",
+      "title": "Slingshot",
+      "era": "2010s",
+      "year": 2009,
+      "yearLabel": "2009",
+      "stamp": "2009",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Drag back anywhere on the picture and let go to launch, with a mouse or a finger. Keyboard: Up and Down arrows change the angle, Left and Right set the power (hold Shift for bigger steps), Space or Enter launches, and R restarts the level. The numbered buttons under the picture choose a level.",
+      "computer": "There is no computer opponent here: the computer is the physics. Every plank, block, trophy and puffball is a rigid body with a weight, a speed and a spin. 120 times a second, the game finds which pieces are touching, then works out the push at each touching point (called an impulse) that stops them sinking into each other, with friction so they do not slide like soap and a little bounce. Fixing one contact can spoil another, so it goes round all of them 8 times, getting closer each time. Towers can stand still because each step starts from the pushes it worked out the step before, a trick called warm starting. Groups of pieces that have been still for half a second go to sleep and are not calculated again until something awake touches them, so a tower waits without a wobble until your puffball arrives. When two things hit, the game measures how hard (how fast times how heavy) and takes that much off the piece's toughness: ice has very little, stone has a lot. It is a small version of the ideas in Box2D, the free physics engine by Erin Catto that many phone games of the 2010s were built on.",
+      "adaptation": "Plays like the 2009 phone game in which you pull back a slingshot and fling characters at towers of wood, ice and stone to knock out the targets, with up to three stars for using fewer shots. Changed for Games in Time: the shots are friendly round puffballs of our own design that bounce and then poof back home, and the targets are gold trophies and snowmen, so nothing alive gets hurt; the ten levels and all the art are our own; the screen does not pan or zoom, so the whole level always fits, which works well on a projector; a dotted line shows the first part of each flight, and the last shot's path stays on screen; you can drag anywhere on the picture, not only on the slingshot, which is easier on a small screen, and the whole game can be played from the keyboard; puffballs have no special powers, though the big blue ones are heavier; and a level you are stuck on three times opens the next one, so nobody is locked out.",
+      "origin": "Mechanics of Angry Birds by Rovio Entertainment, Helsinki, Finland",
+      "tagline": "Pull back, aim, let fly.",
+      "blurb": "Pull back a slingshot and launch round puffballs to topple wobbly towers of wood, ice and stone, like the 2009 phone game Angry Birds."
+    },
+    {
+      "story": [
+        "Guessing a secret word from clues is an old idea. In 1955 Morton Rosenfeld began selling Jotto, a pencil-and-paper game in which two players guess each other's secret five-letter words. In 1987 the American TV quiz Lingo lit up letters to show which ones were in the word and which were in the right place. Josh Wardle, a software engineer from Wales living in Brooklyn, New York, said Wordle also grew from Mastermind, a colour code-breaking board game he played a lot as a child.",
+        "Wardle made a first version in 2013 that used all of the roughly 13,000 five-letter English words, but his partner, Palak Shah, kept meeting words she had never heard of. So he built another small game that showed her each word with three buttons, and she sorted them all into words she knew, did not know and maybe knew. That gave about 2,500 friendly answers. During the pandemic in 2020 the couple enjoyed The New York Times' daily puzzles, so Wardle remade Wordle with one puzzle a day, the same for everyone.",
+        "He put Wordle on the web for everyone in October 2021. On 1 November it had 90 players. Then a woman in New Zealand, known on Twitter as Elizabeth S, began sharing her results as a grid of coloured squares that showed how she went without giving the word away. Wardle added a button that made the grid for you, and by 2 January 2022 more than 300,000 people were playing. On 31 January 2022 The New York Times bought Wordle for 'the low seven figures', more than a million US dollars. That year Wordle was the thing Australians searched for most on Google.",
+        "Five Letters plays like Wordle, the 2021 daily word game by Josh Wardle. Our word lists are our own, and every letter gets a shape as well as a colour. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "There is a secret five-letter word. You have six guesses to find it.",
+        "Type any real five-letter word and press Enter. Every guess must be a word in the game's word list.",
+        "Each letter changes colour. Green with a tick means the right letter in the right place. Yellow with arrows means the letter is in the word, but somewhere else. Grey means the letter is not in the word.",
+        "Use the clues to make a better guess. The keyboard shows which letters you have already tried.",
+        "Daily word is the same for everyone on the same day, and changes at midnight. Practice gives you as many extra words as you like.",
+        "Hard mode: every clue you find must be used in your next guesses. Switch it on or off before your first guess.",
+        "When you finish, copy your result as a grid of coloured squares to share. It never gives the word away."
+      ],
+      "didYouKnow": [
+        "Wordle's name is a pun on its maker's surname, Wardle.",
+        "In the 1987 TV show Lingo, a letter in the right place lit up red, not green.",
+        "Wardle says that, for its size, New Zealand is 'really into Wordle'. The shareable coloured squares were invented there.",
+        "An older, unrelated app called Wordle! was downloaded more than 200,000 times in one week in January 2022 by people looking for Wardle's game. Its maker and Wardle gave $50,000 from it to a tutoring charity for children in Oakland, California."
+      ],
+      "sources": [
+        {
+          "title": "Wordle creator Josh Wardle on strategy, stats, and why it went viral, Slate (Spectacular Vernacular), 19 January 2022",
+          "url": "https://slate.com/culture/2022/01/wordle-game-creator-wardle-twitter-scores-strategy-stats.html",
+          "note": "Brooklyn-based software engineer; released Wordle to the world in October; 'I was literally just making a game for my partner'; the emoji grid came from 'Elizabeth S' while 'New Zealand Twitter was playing a lot of the game'; he and his partner filtered about 13,000 five-letter words down to about 2,500 using a game with 'I know this word', 'I don't know this word' and 'I maybe know this word' buttons; Ben Zimmer mentions Jotto (1950s) and Lingo (1980s)."
+        },
+        {
+          "title": "Josh Wardle: The power of Wordle, RNZ The Weekend, 8 January 2022",
+          "url": "https://www.rnz.co.nz/national/programmes/the-weekend/audio/2018826546/josh-wardle-the-power-of-wordle",
+          "note": "Made for his partner, both fans of the New York Times puzzles; per head, New Zealand 'is really into Wordle'; the emoji grid began with a New Zealand woman, Elizabeth S; Wardle played Mastermind a lot as a child; list filtered from about 12,000 words to about 2,500."
+        },
+        {
+          "title": "Wordle, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wordle",
+          "note": "Welsh software engineer; 2013 prototype using about 13,000 words; partner Palak Shah; named as a pun on his surname; public release October 2021; 90 players on 1 November 2021, over 300,000 by 2 January 2022; bought by the New York Times Company on 31 January 2022 for an 'undisclosed price in the low-seven figures'; unrelated app Wordle! downloaded over 200,000 times in a week, with $50,000 given to the Oakland tutoring charity Boost."
+        },
+        {
+          "title": "Jotto, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jotto",
+          "note": "Invented in 1955 by Morton M. Rosenfeld and marketed by his New York-based Jotto Corp; players guess each other's secret five-letter words."
+        },
+        {
+          "title": "Lingo (American game show), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lingo_(American_game_show)",
+          "note": "First series from 28 September 1987, taped near Vancouver; five-letter mystery words; a letter in the right place turned red, one in the word but in the wrong place turned yellow."
+        },
+        {
+          "title": "Mastermind (board game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mastermind_(board_game)",
+          "note": "Invented in 1970 by Mordecai Meirowitz and made by Invicta Plastics in England."
+        },
+        {
+          "title": "Year in Search: Here's what Aussies searched for in 2022, Google Australia blog",
+          "url": "https://blog.google/intl/en-au/products/explore-get-answers/year-in-search-heres-what-aussies-searched-for-in-2022/",
+          "note": "Australians 'searched for Wordle more than anything else' in 2022."
+        }
+      ],
+      "uncertainties": [
+        "The size of the filtered answer list differs: about 2,000 (Wikipedia), about 2,500 (Slate and RNZ) and 2,315 answers in the original game (Wikipedia).",
+        "The New York Times did not say exactly what it paid; 'low seven figures' means somewhere above one million US dollars.",
+        "Wikipedia dates the share button and the Twitter craze to December 2021; the exact day of the change was not checked.",
+        "Wordle's original word list used some British spellings; the New York Times later moved to American spelling and removed some words, so its answers differ from the original list."
+      ],
+      "playable": true,
+      "id": "five-letters",
+      "title": "Five Letters",
+      "era": "2020s",
+      "year": 2021,
+      "yearLabel": "2021",
+      "stamp": "2021",
+      "type": "words",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click the letters on screen, then Enter. Keyboard: type the letters, press Enter to check the word and Backspace to rub out a letter. On a phone the on-screen keys go from A to Z, so they are big enough to tap.",
+      "computer": "The computer colours your guess in two passes, because each letter of the secret word can only light up one tile. First it finds every letter in exactly the right place, colours it green and crosses that letter off the secret word. Then it goes through your other letters from left to right: if a letter is still left over in the secret word, it turns yellow and that copy is crossed off; if not, it stays grey. That is why, if the word is CRANE and you guess EERIE, only the last E is green and the first two Es are grey: CRANE has just one E. The daily word comes from the date on your device. The computer shuffles the word list in the same order on every device (using a random number maker that always gives the same numbers from the same starting seed) and gives day 1 the first word, day 2 the second, and so on, so nobody needs the internet. At the end it shows how many secret words still fitted your clues after each guess: it tries every word in its list as if it were the answer and keeps the ones that would have given you exactly the same colours.",
+      "adaptation": "The guess-a-word-in-six-tries mechanic and the green, yellow and grey colours are from the 2021 web game; the name, look, sounds and both word lists are our own. The 485 secret words were chosen by hand: common words a 10-year-old knows, with Australian spellings such as metre, litre, fibre, ochre, mould and maths, and a few Aussie words such as cuppa, footy, lolly and galah. The 4,600 words you may guess come from the free, public-domain 12dicts lists by Alan Beale (3of6game and 2of4brif), with rude and unkind words taken out. Every coloured tile also carries a mark (a tick or arrows), and a Colour-blind colours switch changes green and yellow to orange and blue, so colour is never the only clue. Daily words are numbered from 1 October 2026. The game counts the secret words that still fit after each guess, to show how clues narrow things down.",
+      "origin": "Mechanics of Wordle by Josh Wardle, Brooklyn, New York, USA",
+      "tagline": "Five letters, six tries.",
+      "blurb": "Guess the hidden five-letter word in six tries, using coloured clues about every letter, like Wordle, the 2021 daily word game."
+    },
+    {
+      "story": [
+        "Sorting clues into groups is a favourite puzzle trick. Since 2008 the British TV quiz Only Connect has had a round called the Connecting Wall: teams get 16 clues and two and a half minutes to sort them into four groups of four. The walls are built with red herrings, clues that seem to fit more than one group, so only careful thinking finds the one right answer.",
+        "At The New York Times, staff hold a yearly 'game jam' where people suggest ideas for new games, and Connections began as an idea at one in 2021. Its puzzles are made by Wyna Liu, an artist and puzzle editor who joined the Times in 2020. She keeps a notebook of category ideas and says building a board takes about two hours. She was inspired by the cartoonist Robert Leighton, whose picture puzzles showed her that a tick, a thumbtack and a tow truck could stand for 'tic-tac-toe'.",
+        "Connections launched as a test on 12 June 2023 and took off straight away. Each group has a colour: yellow is the easiest, then green, blue and purple, the trickiest, which often hides wordplay such as words that sound alike or read the same backwards. By October 2023 it was the Times' second most played game after Wordle. The host of Only Connect, Victoria Coren Mitchell, pointed out how alike the two were; the Times said its puzzles were 'unique, handcrafted' and its own.",
+        "Four Groups plays like Connections, the 2023 daily puzzle from The New York Times. Every puzzle here was written for this site. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Sixteen words hide four groups of four. Each group shares something: a category, a hidden word, or a word that goes before or after them.",
+        "Tap four words that you think belong together, then press Submit.",
+        "If you are right, the group locks in with its colour and its name. Yellow is the easiest group and purple the trickiest.",
+        "If you are wrong, you lose one of your four mistakes. If three of your four words were right, the game says One away.",
+        "Watch out for the red herring: every puzzle has a word that seems to fit one group but belongs in another.",
+        "Find all four groups before you run out of mistakes. Shuffle moves the words around, which can help you see new links.",
+        "Today's puzzle is the same for everyone on the same day. All puzzles lets you play any of the 46."
+      ],
+      "didYouKnow": [
+        "Before it was called Connections, the team thought about names such as Group Think and Grouper. Matchbox was dropped because it sounded too like Letter Boxed, another Times game.",
+        "On 1 April 2024, April Fools' Day, the puzzle used emojis instead of words.",
+        "The 1,000th Connections puzzle appeared on 7 March 2026.",
+        "Wyna Liu once taught a university course on the history of Britpop music, and she makes jewellery and moving sculptures."
+      ],
+      "sources": [
+        {
+          "title": "The New York Times Connections, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Connections",
+          "note": "Released in beta on 12 June 2023; puzzles written by Wyna Liu; four groups of four from a grid of sixteen; red herrings; yellow, green, blue and purple from easiest to hardest; annual game jam; second most played Times game after Wordle; emoji puzzle on 1 April 2024; 1,000th puzzle on 7 March 2026; comments from people linked to Only Connect."
+        },
+        {
+          "title": "How The New York Times is making connections with puzzles and games, Rob Tornoe, Editor and Publisher, 17 October 2023",
+          "url": "https://www.editorandpublisher.com/stories/new-york-times-makes-a-connection-with-puzzles-and-games,246051",
+          "note": "Connections started as an idea in 2021 at a brainstorming session called the 'Game Jam'; 'the most successful launch of any game we've developed in-house since the Mini Crossword in 2014, and it's our second-most-played game after Wordle' (Zoe Bell); purple often has palindromes and homophones; Victoria Coren Mitchell pointed out the similarity and the Times said its content is 'unique, handcrafted'; Liu an editor at the Times since 2020; Liu on Robert Leighton: 'a drawing of a tick, a thumbtack and a tow truck could be used to express the term tic-tac-toe'."
+        },
+        {
+          "title": "Why Are People So Mad About a Hit NYT Word Game? We Talked to the Woman Who Makes It, Heather Schwedel, Slate, 28 July 2024",
+          "url": "https://slate.com/life/2024/07/connections-nyt-today-wordle-wyna-liu.html",
+          "note": "Liu keeps a notebook of category ideas and says a board takes about two hours to build; names considered included Group Think and Grouper, and Matchbox was too close to Letter Boxed; the game took off as soon as it launched in beta in June 2023."
+        },
+        {
+          "title": "Connections Is NYT's New Wordle Alternative. Here's How To Play, TODAY, 29 August 2023",
+          "url": "https://www.today.com/popculture/connections-nyt-puzzle-how-to-play-rcna102300",
+          "note": "Victoria Coren Mitchell tweeted to Liu: 'Do you know this has been a TV show in the UK since 2008?'; Liu was inspired by cartoonist Robert Leighton; some categories use palindromes, homophones and adding or dropping letters."
+        },
+        {
+          "title": "Only Connect, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Only_Connect",
+          "note": "BBC quiz presented by Victoria Coren Mitchell since 15 September 2008; the Connecting Wall gives teams 16 clues and 2 minutes 30 seconds to sort them into four groups of four, with red herrings."
+        },
+        {
+          "title": "Wyna Liu, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wyna_Liu",
+          "note": "Hired in 2020 as an associate puzzle editor at the New York Times; taught an experimental course on the history of Britpop at Oberlin College; an artist who makes movable sculptures and designs jewellery."
+        }
+      ],
+      "uncertainties": [
+        "Sources describe Liu's job title differently: associate puzzle editor (Wikipedia, TODAY), editor (Editor and Publisher) and crossword editor (Wikipedia's Connections article).",
+        "The Times has not said that Only Connect inspired Connections; it describes its own process (game jam, Robert Leighton's puzzles). The story presents Only Connect as an older game with a similar idea, not as the source.",
+        "The 'second most played' claim is the Times' own statement (October 2023) and was not independently measured."
+      ],
+      "playable": true,
+      "id": "four-groups",
+      "title": "Four Groups",
+      "era": "2020s",
+      "year": 2023,
+      "yearLabel": "2023",
+      "stamp": "2023",
+      "type": "words",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click a word to pick it, and tap it again to unpick it. Then press Submit. Keyboard: Tab to the words, use the arrow keys to move between them, Space or Enter to pick a word, then Tab to Submit.",
+      "computer": "Each puzzle stores its four groups, so checking a guess is simple: the computer looks up which group each of your four words belongs to and counts them. Four from the same group is a match. Three from one group means you are one away. The hard part was done before the game ever ran: a small program tried every possible way of splitting each puzzle's 16 words into four groups, allowing every word to go into any group it could sensibly fit (so ORANGE could be a fruit or a colour), and checked that exactly one split works. That is what makes the red herrings fair: if you think carefully, only one answer fits. The puzzle of the day comes from the date on your device, so everyone gets the same puzzle without the internet, and the tiles start in the same order for everyone.",
+      "adaptation": "The find-four-groups-of-four mechanic is from the 2023 newspaper puzzle; the name, look and all 46 puzzles are our own, written for school-age players, with subjects from the site's halls (playground games, board games, pre-decimal Australian money, an 1800s classroom), science, maths, geography, animals, Australian slang and wordplay. Each group has a shape as well as a colour, so colour is never the only clue. After each puzzle the game explains its red herring. Puzzles are numbered from 1 October 2026 and repeat after the last one.",
+      "origin": "Mechanics of Connections by Wyna Liu and The New York Times, New York, USA",
+      "tagline": "Sixteen words, four hidden groups.",
+      "blurb": "Sort 16 words into four groups of four that share something, and watch for the tricky word that seems to fit two groups, like Connections, the 2023 daily puzzle."
+    },
+    {
+      "story": [
+        "In May 1979 an American puzzle magazine, Dell Pencil Puzzles and Word Games, printed a new puzzle called Number Place. It did not print who made it. Years later, puzzle editor Will Shortz noticed that one name, Howard Garns, was in the list of contributors in every issue with Number Place and missing from every issue without it. Garns was a retired architect from Indianapolis, and old workmates remembered him working on the puzzle at the office. He died in 1989, before it became famous.",
+        "In 1984 the Japanese puzzle company Nikoli found Number Place in an American magazine and printed it for its readers as 'Suuji wa dokushin ni kagiru', which means 'the numbers must be single'. That was too long, so it was shortened to Sudoku: su means number and doku means single. In 1986 Nikoli added a rule that the starting numbers must make a symmetrical pattern, and the puzzle became a big hit in Japan.",
+        "In March 1997 Wayne Gould, a New Zealand-born judge who worked in Hong Kong, saw a Sudoku book in a Tokyo bookshop. He spent six years writing a computer program that could make the puzzles. In 2004 he walked into The Times newspaper in London 'like an old-fashioned travelling salesman', and The Times printed its first Sudoku on 12 November 2004. By 2005 newspapers around the world were printing Sudoku, and in 2006 Time magazine named Gould one of the 100 most influential people in the world.",
+        "Number Place plays like Sudoku: fill every row, column and box with 1 to 9 using logic, not sums. It uses the puzzle's first name from 1979, and the look here is our own."
+      ],
+      "howToPlay": [
+        "Choose a size and a level, then press Start puzzle. The 9 by 9 grid is the classic. The junior 4 by 4 and 6 by 6 grids are a gentle way in.",
+        "Fill every empty square so that each row, each column and each box (the areas outlined in thick black) holds every number exactly once: 1 to 9 on the big grid, 1 to 6 or 1 to 4 on the junior ones.",
+        "Tap a square, then tap a number on the keypad. The numbers printed in the puzzle are bold and cannot change. The numbers you write are blue.",
+        "Not sure yet? Switch on Notes and pencil in the numbers a square might be. When you write a number, it is crossed off the notes in its row, column and box for you.",
+        "Clashes shows any number that appears twice in a row, column or box in red with a wavy line. Switch it off for a real challenge.",
+        "Stuck? Hint fills in one square and explains how a person could work it out. It always gives the easiest step left on the board.",
+        "Every puzzle has exactly one answer, so you can always solve it by thinking, never by guessing. Solve one without hints to set a best time for that size and level."
+      ],
+      "didYouKnow": [
+        "The day after The Times printed its first Sudoku, a reader wrote in to complain that the puzzle had made him miss his stop on the London Underground.",
+        "There are 6,670,903,752,021,072,936,960 different ways to fill a complete 9 by 9 Sudoku grid.",
+        "A Sudoku needs at least 17 starting numbers to have only one answer. Gordon Royle, a mathematician at the University of Western Australia in Perth, collected more than 49,000 puzzles with exactly 17, and in 2012 a team in Ireland proved that 16 is never enough.",
+        "In 2008 a three-month court case in Sydney had to stop after a juror admitted that she and four others had been doing Sudoku instead of listening. Someone noticed they were writing up and down the page, not across."
+      ],
+      "sources": [
+        {
+          "title": "Sudoku, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sudoku",
+          "note": "Number Place in Dell Magazines from 1979; Will Shortz found Garns' name in contributor lists; Nikoli 1984 and the name Sudoku; Gould's program; The Times launched Su Doku on 12 November 2004; first reader's letter (13 November) about missing his stop on the tube; 6,670,903,752,021,072,936,960 solution grids; fewest clues is 17."
+        },
+        {
+          "title": "Howard Garns, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Howard_Garns",
+          "note": "Architect (1905 to 1989) at the Daggett firm in Indianapolis; colleagues recall him working on the puzzle on the firm's drawing boards; Dell Pencil Puzzles and Word Games first published Number Place in May 1979 without his byline."
+        },
+        {
+          "title": "Sudoku, Nikoli",
+          "url": "https://www.nikoli.co.jp/en/puzzles/sudoku/",
+          "note": "'We found this puzzle in an American puzzle magazine, where it was titled Number Place, and we introduced it to our Japanese readers at 1984'; first title 'Suuji wa dokushin ni kagiru'; SU means number and DOKU means single; symmetrical clue rule in 1986; 'Sudoku' is a Nikoli trademark in Japan, so other companies call it Number Place."
+        },
+        {
+          "title": "So you thought Sudoku came from the Land of the Rising Sun..., David Smith, The Observer, 15 May 2005",
+          "url": "https://www.theguardian.com/media/2005/may/15/pressandpublishing.usnews",
+          "note": "Dell's editor says the oldest copy in its archive is from 1979; Wayne Gould saw a Sudoku book in Tokyo in March 1997; developed a program over six years; 'I turned up unannounced at the Times, like an old-fashioned travelling salesman'."
+        },
+        {
+          "title": "Wayne Gould, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wayne_Gould",
+          "note": "Born 1945 in Hawera, New Zealand; judge in Hong Kong until 1997; six years developing Pappocom Sudoku; The Times from November 2004; Time 100 in 2006."
+        },
+        {
+          "title": "Good at Sudoku? Here's some you'll never complete, Gordon Royle, The Conversation, 2012",
+          "url": "https://theconversation.com/good-at-sudoku-heres-some-youll-never-complete-5234",
+          "note": "Royle, Professor of Mathematics at the University of Western Australia, collected more than 49,000 different 17-clue puzzles; a team led by Gary McGuire of University College Dublin proved no 16-clue puzzle exists."
+        },
+        {
+          "title": "Sudoku-spoiled trial: Lawyers' motives questioned, ABC News, 14 June 2008",
+          "url": "https://www.abc.net.au/news/2008-06-14/sudoku-spoiled-trial-lawyers-motives-questioned/2471026",
+          "note": "A three-month Sydney District Court trial was aborted after a defendant noticed jurors writing vertically; a juror admitted she and four others had been playing Sudoku while evidence was heard."
+        }
+      ],
+      "uncertainties": [
+        "Garns' role is worked out from Dell's lists of contributors, because the puzzles carried no names.",
+        "Sources differ on Wayne Gould's home town: Wikipedia says he was born in Hawera, The Observer calls him 'a man from Matamata'. The story says New Zealand.",
+        "Wikipedia says the first newspaper outside Japan to print Sudoku was The Conway Daily Sun in New Hampshire, USA, in September 2004, two months before The Times.",
+        "'Sudoku' is a registered trademark of Nikoli in Japan; the game's title uses Number Place, the name Dell gave the puzzle in 1979.",
+        "No source was found for which Australian newspaper printed Sudoku first."
+      ],
+      "playable": true,
+      "id": "number-place",
+      "title": "Number Place",
+      "era": "2000s",
+      "year": 2005,
+      "yearLabel": "1979 (a world craze in 2005)",
+      "stamp": "2005",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click a square, then a number on the keypad. Keyboard: the arrow keys move around the grid, 1 to 9 write a number, Backspace or Delete rubs it out, N switches notes on and off, Shift and a number pencils a note, U (or Ctrl and Z) undoes, and H gives a hint.",
+      "computer": "The computer makes a brand new puzzle every time, in three steps. First it fills an empty grid with a complete answer, trying numbers square by square and backing up whenever it gets stuck. This is called backtracking. Next it rubs out clues one at a time, in a random order, and after each one it asks two questions. Does the puzzle still have exactly one answer? A fast solver counts the answers and stops as soon as it finds a second one. Could a person still solve it with the techniques for this level? A second solver that thinks like a person checks that. If either answer is no, the clue goes back. Last, it grades the puzzle by the hardest technique the person-like solver needed. Easy needs only naked singles: a square where just one number fits. Medium needs hidden singles: a number that fits in only one square of a row, column or box. Hard needs pointing and pairs: a number trapped in one line of a box, or two squares that must share the same two numbers. The Hint button uses that same person-like solver to find the easiest step on your board.",
+      "adaptation": "Plays like the newspaper puzzle of 2005, with our own newspaper page drawn on screen. Newspapers printed one puzzle a day with a difficulty rating. Here the computer makes a fresh puzzle whenever you like and grades it by the techniques a person needs to solve it. On top of the paper puzzle it adds notes that tidy themselves, clash checking you can switch off, undo, hints that explain their thinking, a timer and best times. The junior 4 by 4 and 6 by 6 grids are like the ones in puzzle books for younger children. Every 4 by 4 puzzle can be solved with naked singles alone, so the 4 by 4 grid only comes in Easy, and the 6 by 6 grid goes up to Medium. Number Place is the name the puzzle had when it first appeared in an American puzzle magazine in 1979.",
+      "origin": "Mechanics of Number Place by Howard Garns, Dell Magazines, New York, USA, named Sudoku by Nikoli, Japan",
+      "tagline": "One to nine, no repeats.",
+      "blurb": "Fill the grid so that every row, every column and every box holds the numbers 1 to 9 exactly once, like the Sudoku puzzles that swept the world's newspapers in 2005."
+    },
+    {
+      "story": [
+        "In 2000 three young game makers in Seattle, USA, John Vechey, Brian Fiete and Jason Kapalka, were making simple games to sell to other companies. Vechey found a basic web game where you lined up three squares of the same colour. It used plain squares, had no animation or sound, and the page had to reload after every move, but the team could not stop playing it. They decided to make a polished version.",
+        "Kapalka thought about using fruit or shapes, but chose glittering gems. They called the game Diamond Mine and put it on the web in 2000. Microsoft wanted it for its MSN Games website, but instead of buying it for 50,000 US dollars it paid 1,500 dollars a month to show it, and asked for a new name because another game was already called Diamond Mines. So it became Bejeweled, the company became PopCap Games, and Bejeweled Deluxe went on sale on 30 May 2001.",
+        "The game with a timer was meant to be the main mode, and a relaxed mode with no timer was added almost as an afterthought. Players loved the relaxed mode most, and it helped begin a whole new kind of 'casual game' for people who did not think of themselves as gamers. Bejeweled was built into the Motorola Razr phone in 2004 and ran on the iPhone soon after it appeared in 2007. By 2013 it had been downloaded more than 500 million times, and in 2020 The Strong National Museum of Play added it to its World Video Game Hall of Fame.",
+        "Gem Swap plays like Bejeweled: swap neighbours, match three or more and set off chains of falling gems for bigger scores. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose a mode, then press Start. Classic lasts until there are no swaps left, Timed gives you 90 seconds, and Calm has no clock and no game over.",
+        "Swap two gems that sit side by side (not corner to corner) to make a line of three or more of the same gem, across or down. A swap that makes no line swaps straight back.",
+        "The line vanishes, the gems above fall down and new gems drop in from the top. If they make new lines, those vanish too. That is a cascade, and each cascade in a row is worth more points.",
+        "Make a line of four, or an L or T shape, and you get a bomb gem with a white spark. Match it and it blows up the eight gems around it.",
+        "Make a line of five and you get a prism ball with every colour. Swap it with any gem and every gem of that colour vanishes.",
+        "In Classic, fill the bar to go up a level. In Timed and Calm, the board shuffles itself if there are no swaps left.",
+        "Stuck? Wait a few seconds and a hint glows, or press Hint. Your best scores for Classic and Timed are saved on this device."
+      ],
+      "didYouKnow": [
+        "Diamond Mine was named after a song by the Canadian band Blue Rodeo.",
+        "Within a month of arriving on MSN Games, Bejeweled was the site's most-played game, and it stayed number one until July 2002.",
+        "The game's makers estimated in 2013 that players had spent more than 10 billion hours on Bejeweled.",
+        "Bejeweled 3 has a bonus level called Diamond Mine, a nod to the game's first name."
+      ],
+      "sources": [
+        {
+          "title": "Bejeweled, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/bejeweled/",
+          "note": "Inducted 2020; published by PopCap in 2001; popularised match three; first on ad-supported sites including Microsoft Zone; built into the Motorola Razr in 2004; more than 500 million downloads and 10 billion hours by 2013; first called Diamond Mine, renamed because of a 1980s game called Diamond Mines; Diamond Mine bonus level in Bejeweled 3."
+        },
+        {
+          "title": "Bejeweled (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bejeweled_(video_game)",
+          "note": "Vechey found a primitive match-three browser game in April 2000; Kapalka chose gems over fruit or shapes; named after a Blue Rodeo song; released as Diamond Mine on the web in 2000; Microsoft declined to pay $50,000 and leased it for $1,500 a month; renamed Bejeweled; Bejeweled Deluxe 30 May 2001; untimed mode an afterthought that became the main mode; number one on MSN Games until July 2002; Safari version for iPhone on 30 July 2007."
+        },
+        {
+          "title": "Tile-matching video game, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tile-matching_video_game",
+          "note": "The first match-three game was Shariki (1994), which led directly to Bejeweled (2001); the untimed mode made the game more accessible."
+        },
+        {
+          "title": "PopCap Games, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PopCap_Games",
+          "note": "Founded in Seattle in 2000 by John Vechey, Brian Fiete and Jason Kapalka; bought by Electronic Arts in 2011."
+        }
+      ],
+      "uncertainties": [
+        "Dates differ: Diamond Mine was on the web in 2000, while The Strong says PopCap published Bejeweled in 2001.",
+        "Wikipedia says the team was inspired by a browser game called Colors Game; other accounts trace match-three back to Shariki (1994).",
+        "Download totals are estimates from the makers: 150 million by 2008 (Wikipedia) and 500 million by 2013 (The Strong).",
+        "No Australian link to Bejeweled was found."
+      ],
+      "playable": true,
+      "id": "gem-swap",
+      "title": "Gem Swap",
+      "era": "2000s",
+      "year": 2001,
+      "yearLabel": "2001 (on the web in 2000 as Diamond Mine)",
+      "stamp": "2001",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap a gem, then tap a gem beside it to swap them, or drag a gem onto its neighbour. Keyboard: the arrow keys move the cursor, Space or Enter picks up the gem, then an arrow key swaps it that way. H shows a hint and P pauses.",
+      "computer": "The computer is the referee and the gem dropper. To find lines, it reads along every row and down every column, counting how many of the same gem sit together. To check a swap, it makes the swap in its memory, looks for a line through either gem, and swaps back if there is none. When it fills a new board, it places gems one at a time and never picks a gem that would finish a line of three. Then it tries every possible swap to make sure you have at least one, and starts again if you do not. After every move it tries every swap again, so it always knows whether you are stuck. Hints come from that same list. The new gems that drop in after a match are picked at random, which is why lucky cascades happen.",
+      "adaptation": "Plays like the 2001 match-three game, with our own gems, name, look and sounds. Each of our seven gems has its own shape as well as its own colour (square, hexagon, star, diamond, circle, triangle and heart), so players who see colours differently can still tell them apart. Bomb and prism gems are like the special gems that later match-three games added. As in the original, a swap only counts if it makes a line, and Classic ends when there are no swaps left. The Timed and Calm modes, the shuffling board and the hints are there so younger players can keep going.",
+      "origin": "Mechanics of Bejeweled by PopCap Games, Seattle, USA",
+      "tagline": "Swap two gems, match three.",
+      "blurb": "Swap two neighbouring gems to line up three or more of the same kind, then watch them vanish as new gems tumble in, like PopCap's 2001 hit Bejeweled."
+    },
+    {
+      "story": [
+        "On 6 February 2014 a small team called Sirvo released Threes!, a puzzle for the iPhone. Designer Asher Vollmer and artist Greg Wohlwend worked on it for 14 months. You slide numbered cards around a 4 by 4 grid: a 1 and a 2 join to make 3, and two matching cards from 3 upwards join to make double. Along the way they tried sushi, chess pieces and a tile-eating monster before going back to plain numbers with little faces.",
+        "Copies appeared within weeks. One called 1024 came out 21 days after Threes, and a web game called 2048, by a developer known as Saming, followed. Gabriele Cirulli, a 19-year-old web developer in Italy, got hooked on both. Over one weekend he built his own version with a new look and quicker animations, 'just to see if I could'. He shared the code on the website GitHub, where anyone could read it, and released the game on 9 March 2014.",
+        "Within a day someone posted it on Hacker News, a website for programmers, and it went to number one. In less than a week more than 4 million people visited. Cirulli had not known about Threes when he made 2048, and later wrote that '2048 owes its existence to it'. He kept the web game free because he did not feel right making money from an idea that was mostly other people's. Because the code was open, people made new versions with bigger boards, smaller boards, 3D boards and even Doctor Who.",
+        "Doubles plays like 2048, the 2014 web game by Gabriele Cirulli, which grew out of Threes!. Every tile is a power of two, so the game is secretly a maths lesson. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose a board and press Start. Two tiles appear.",
+        "Slide all the tiles at once: swipe on the board, press an arrow key, or tap an arrow button. Every tile slides as far as it can that way.",
+        "When two tiles with the same number bump into each other, they join into one tile worth double: 2 and 2 make 4, 4 and 4 make 8, and so on. Your score goes up by the new tile's number.",
+        "Each tile can only join once per move. A row of 2, 2, 2, 2 slid left becomes 4, 4, not 8.",
+        "After every move, a new 2 (or sometimes a 4) appears in an empty square.",
+        "Make the goal tile to win: 2048 on the 4 by 4 and 5 by 5 boards, or 128 on the quick 3 by 3 board. You can keep going after you win.",
+        "The game ends when the board is full and no tiles can join. Undo takes back your last move. Switch on Powers of 2 to see every tile as 2 multiplied by itself."
+      ],
+      "didYouKnow": [
+        "The winning screenshot on 2048's code page is fake. Cirulli admits it: 'I never reached 2048.'",
+        "A new tile is a 2 nine times out of ten, and a 4 one time in ten.",
+        "In March 2014 only about 0.7 per cent of games of 2048 ended with a 2048 tile, the newspaper City AM reported.",
+        "The biggest tile you can ever make on a 4 by 4 board is 131,072, which is 2 to the power of 17.",
+        "The makers of Threes said they both beat 2048 on their very first try."
+      ],
+      "sources": [
+        {
+          "title": "2048 README, Gabriele Cirulli, GitHub",
+          "url": "https://github.com/gabrielecirulli/2048",
+          "note": "'A small clone of 1024, based on Saming's 2048 (also a clone). 2048 was indirectly inspired by Threes.' 'Made just for fun.' 'That screenshot is fake, by the way. I never reached 2048.' MIT licence. (Read via raw.githubusercontent.com/gabrielecirulli/2048/master/README.md.)"
+        },
+        {
+          "title": "2048, success and me, Gabriele Cirulli, first posted on gabrielecirulli.com on 9 May 2014 (Medium)",
+          "url": "https://medium.com/@gabrielecirulli/2048-success-and-me-7dc664f7a9bd",
+          "note": "'I built 2048 in a weekend, just for fun. I had become addicted to two other games, called 1024! and 2048... I wanted to create my own version with a different visual style and quicker animations, just to see if I could. At that time, I did not know about Threes'; '2048 owes its existence to it'; posted on Designer News, then reached number 1 on Hacker News; played by more than 23 million people; did not feel comfortable profiting 'since 2048 was mostly based on other games'. (Read via the author's Medium RSS feed.)"
+        },
+        {
+          "title": "How one 19 year old won the internet with addictive puzzler 2048, Peter Spence, City AM, 17 March 2014",
+          "url": "https://www.cityam.com/how-one-19-year-old-won-internet-addictive-puzzler-2048/",
+          "note": "Italian web developer; an experiment to see if he could program a game almost from scratch; a weekend of work; played upwards of 33 million times with over 4 million visitors; 'just 0.7 per cent of rounds see the eponymous 2048 tile produced'."
+        },
+        {
+          "title": "The Rip-offs and Making Our Original Game (The Threes Letters), Asher Vollmer and Greg Wohlwend, 2014",
+          "url": "https://asherv.com/threes/threemails/",
+          "note": "1024 released 21 days after Threes (27 February); 2048 'about ten days later'; posted on Hacker News on 10 March; 'Threes is the reason 2048 exists'; 'We both beat 2048 on our first tries'; nearly a year and a half of work; only about 6 people had seen a 6144 tile."
+        },
+        {
+          "title": "2048 (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+          "note": "Released 9 March 2014 as free and open-source software under the MIT Licence; written in JavaScript and CSS over a weekend; new tiles are 2 (90 per cent) or 4 (10 per cent); largest possible tile 131,072; over 4 million visitors in less than a week; unwilling to make money 'from a concept that [he] didn't invent'; spin-offs including Doge, Doctor Who, Flappy Bird, Tetris, 3D and different grid sizes."
+        },
+        {
+          "title": "Threes, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Threes",
+          "note": "Released 6 February 2014 for iOS by Sirvo (Asher Vollmer, Greg Wohlwend, Jimmy Hinson); 14-month development; prototypes with sushi, chess and a monster that ate tiles; final tiles have faces."
+        }
+      ],
+      "uncertainties": [
+        "Cirulli's age at the time is given as 19 by City AM and Wikipedia; a later 2014 interview on download3k.com calls him 20.",
+        "Wikipedia gives the release date as 9 March 2014; the Threes team says 2048 was posted to Hacker News on 10 March.",
+        "Player numbers differ between reports: over 4 million visitors in a week (City AM, Wikipedia), 33 million games by 17 March (City AM) and 23 million people by May 2014 (Cirulli).",
+        "Wikipedia says Threes took 14 months to make; its makers wrote 'nearly a year and a half'.",
+        "Cirulli's home town in Italy was not confirmed, so the story says only Italy.",
+        "Cirulli kept the web game free but later released his own mobile app in May 2014, after first saying he would not; the story does not go into this."
+      ],
+      "playable": true,
+      "id": "doubles",
+      "title": "Doubles",
+      "era": "2010s",
+      "year": 2014,
+      "yearLabel": "2014",
+      "stamp": "2014",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ],
+      "controls": "Swipe on the board, press the arrow keys or W, A, S and D, or tap the arrow buttons under the board. U undoes one move. New game lets you choose a board size.",
+      "computer": "The computer slides the tiles one line at a time. It starts with the tile nearest the wall you are sliding towards and moves each tile along until it meets the wall or another tile. If that tile has the same number and has not already joined this move, the two join. That one rule, join only once per move, is why 2, 2, 2, 2 becomes 4, 4 and not 8. After a move that changed something, the computer picks a random empty square and puts a 2 there, or a 4 about one time in ten. Joining tiles never changes the total of all the numbers on the board (4 and 4 become 8), so the total only grows by the new 2s and 4s. Every tile is a power of two: 2 multiplied by itself a number of times, which is how computers count too.",
+      "adaptation": "Plays like the 2014 web game, with our own name, colours and flat look. The 3 by 3 and 5 by 5 boards are extras. The 3 by 3 board fills up so fast that its goal is 128 instead of 2048, and the 5 by 5 board gives you room to spare on the way to 2048. As in the original, you can keep playing after you win and your game is saved on this device. Undo (one move at a time), the arrow buttons and the Powers of 2 teaching switch are our additions.",
+      "origin": "Mechanics of 2048 by Gabriele Cirulli, Italy",
+      "tagline": "Slide, match, double, repeat.",
+      "blurb": "Slide every tile at once and join matching numbers so they double, all the way up to 2048, like the 2014 web game 2048."
+    },
+    {
+      "story": [
+        "Markus Persson, known online as Notch, was a programmer in Stockholm, Sweden. He made browser games at a company called King and built his own small games in his spare time. In 2009 he was inspired by Infiniminer, a new game where players dug through a world made of blocks. He added his own ideas about building and surviving, and on 17 May 2009 he shared the first version of Minecraft on an online forum for independent game makers.",
+        "Players could buy Minecraft while it was still being made, and they told their friends. With no advertising it passed a million sales in early 2011, months before it was finished. Persson started a company called Mojang, and the full game was launched on 18 November 2011 at MineCon, a fan convention in Las Vegas. Earlier that year a studio called Re-Logic had released Terraria, a block-building adventure seen from the side.",
+        "Every Minecraft world is generated at random by the computer, so no two are the same, and there is no score: players set their own goals. Microsoft bought Mojang in 2014. The Strong National Museum of Play added Minecraft to its World Video Game Hall of Fame in 2020, and by 2023 it had sold more than 300 million copies, more than any other video game. Schools use it too: in 2018 Victoria made Minecraft: Education Edition available to more than 600,000 students in its 1,500 state schools.",
+        "Block World plays like Minecraft and Terraria, the block-building games of 2011. Like Terraria, you see your world from the side. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Press Start. Pick Explore to collect every block yourself, or Creative to have every block and fly.",
+        "Dig: hold the left mouse button on a block, or pick Dig and hold your finger on it. Tougher blocks take longer to dig.",
+        "Build: pick a block in the hotbar, then right-click an empty space next to another block, or pick Place and tap. Aim at your own feet to hop up and build under yourself.",
+        "In Explore, open the Bag to make things: wood into planks, planks into a workbench, coal and a plank into torches. Stand next to your workbench to make glass, bricks, doors and lamps.",
+        "Night comes every few minutes. Caves and nights are dark, so light them with torches. There are no monsters: at night the fireflies come out.",
+        "Open Goals for the building challenges, like a house with a door and a window, a tower 10 blocks tall or a bridge over water.",
+        "Your world saves itself on this device. Type the same world number on another device to explore the same hills."
+      ],
+      "didYouKnow": [
+        "In 2014 the Danish Geodata Agency rebuilt the whole of Denmark in Minecraft at full size, the first entire country made in the game.",
+        "Minecraft's sound of footsteps on grass was not recorded on grass. Composer C418 made it by lightly touching old video tape.",
+        "Minecraft and Notch were part of ACMI's Game Masters exhibition in Melbourne in 2012, only months after the full game came out.",
+        "In 2014 Minecraft was the second most searched term on all of YouTube."
+      ],
+      "sources": [
+        {
+          "title": "Minecraft, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/minecraft/",
+          "note": "Inducted 2020; released by Mojang in 2009, now owned by Microsoft; 'a random, procedurally generated world'; objectives are self-generated; more than 176 million copies sold by 2019; in 2014 the Danish Geodata Agency made Denmark the first entire country explored at 1:1 in the game."
+        },
+        {
+          "title": "Minecraft and the Building Blocks of Fun, Jon-Paul Dyson, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/blog/minecraft-and-the-building-blocks-of-fun/",
+          "note": "Links Minecraft to construction play with building blocks, one of the oldest forms of play."
+        },
+        {
+          "title": "Minecraft, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Minecraft",
+          "note": "Persson worked at King until March 2009; Infiniminer (April 2009) inspired the blocky look; first public alpha on 17 May 2009 on the TIGSource forums; over a million purchases in early 2011 with no advertising; full release 18 November 2011 alongside MineCon in Las Vegas; Microsoft bought Mojang (announced 15 September 2014); Education Edition launched 1 November 2016; grass sounds made with lightly touched VHS tape; second most searched term on YouTube in 2014."
+        },
+        {
+          "title": "Markus Persson, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Markus_Persson",
+          "note": "Born 1 June 1979 in Stockholm, Sweden; known as Notch; founded Mojang in 2009."
+        },
+        {
+          "title": "Minecraft crosses 300 million copies sold as it prepares to celebrate its 15th anniversary, Windows Central, October 2023",
+          "url": "https://www.windowscentral.com/gaming/minecraft/minecraft-crosses-300-million-copies-sold-as-it-prepares-to-celebrate-its-15th-anniversary",
+          "note": "Mojang confirmed at Minecraft Live 2023 that it had crossed 300 million copies sold, keeping it the best-selling video game."
+        },
+        {
+          "title": "Victoria's teachers learn how to win maximum impact from Minecraft: Education Edition, Microsoft Australia News Centre, 26 June 2018",
+          "url": "https://news.microsoft.com/en-au/features/victorias-teachers-learn-how-to-win-maximum-impact-from-minecraft-education-edition/",
+          "note": "A 'world-leading rollout' making Minecraft: Education Edition available to 600,000 plus students in Victoria's 1,500 state schools."
+        },
+        {
+          "title": "New Programs For Schools To Build Digital Tech Skills, Premier of Victoria, media release",
+          "url": "https://www.premier.vic.gov.au/new-programs-schools-build-digital-tech-skills",
+          "note": "Every government school student will have access to Minecraft: Education Edition under an agreement with Microsoft. The page is dated 9 February 2020."
+        },
+        {
+          "title": "ACMI Game Masters Exhibition, Non-Fiction Gaming, 15 August 2012",
+          "url": "https://www.nonfictiongaming.com/2012/08/15/acmi-game-masters/",
+          "note": "The indie room included Marcus Persson 'Notch' (Minecraft)."
+        },
+        {
+          "title": "Terraria, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Terraria",
+          "note": "2D sandbox game by Re-Logic (Andrew 'Redigit' Spinks), released 16 May 2011; procedurally generated worlds; exploration, building, crafting and mining."
+        }
+      ],
+      "uncertainties": [
+        "Microsoft Australia reported Victoria's rollout in June 2018, but the Victorian Premier's media release about the same agreement is dated 9 February 2020; the story uses 2018.",
+        "Sales figures are company announcements: 176 million by 2019 (The Strong), over 300 million by October 2023 (Windows Central) and over 400 million by May 2026 (Wikipedia).",
+        "Wikipedia says Infiniminer inspired Minecraft's look; exactly when Persson first played it was not confirmed.",
+        "Re-Logic's home city was not confirmed, so the story does not name it."
+      ],
+      "playable": true,
+      "id": "block-world",
+      "title": "Block World",
+      "era": "2010s",
+      "year": 2011,
+      "yearLabel": "2011",
+      "stamp": "2011",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Mouse: hold the left button to dig, right button to place. Touch: pick Dig or Place, then tap or hold the world; the arrow buttons walk, jump and swim. Keyboard: A and D or the arrow keys walk, W, Up or Space jumps, S or Down swims or flies down, 1 to 9 pick a block, I, J, K and L aim, X digs, C places, E opens the Bag, G the goals, Q switches Dig and Place, F flies in Creative.",
+      "computer": "There is no opponent here: the computer's job is to grow the world. It starts from one number, the world number, and feeds it into a noise function that turns every spot on the map into a smooth random value. Smooth values become rolling hills and lakes, values very close to zero become winding caves, and small patches of high values become coal, copper and rare opals. The same number always gives the same values, so the same world number always grows the same world, which is how a whole class can share one. Light is worked out with a flood fill: sunlight shines straight down until it hits something solid, then spreads one block at a time, one step dimmer each block, like paint spreading through a maze. Torches spread light the same way. To check your house, the game pours an imaginary flood into the space inside: if the flood stays small and touches a door and some glass, you have built a closed room. Saving keeps only the world number and the blocks you changed, so even a big build fits in a few kilobytes.",
+      "adaptation": "Minecraft is a 3D world, usually seen through your character's eyes. Block World is side-on and 2D, like Terraria, so it runs smoothly on a school Chromebook or iPad. There are no monsters, no health and no hunger: night brings fireflies, not danger, so the game is all about exploring and building. Crafting is a short list of recipes in the Bag instead of a crafting grid, and you dig without tools (tougher blocks just take longer). Water flows and sand falls, but only near the blocks you change. The blocks, their names (like wattle and opal), the explorer and all the art are our own.",
+      "origin": "Mechanics of Minecraft by Markus Persson and Mojang, Stockholm, Sweden",
+      "tagline": "Dig, build and explore.",
+      "blurb": "Dig up blocks, craft new ones and build anything you like in a world seen from the side, like Minecraft and Terraria, the block-building games of 2011."
+    },
+    {
+      "story": [
+        "One-button cave games began on small screens. In 1995 SFCave, by Sunflat Games, asked players to steer a ribbon through a narrowing cave: touch to rise, let go to fall. It later appeared on Palm handheld computers and phones.",
+        "Around 2000 the British writer David McCandless ran seethru.co.uk, a real website made to go with Attachments, a BBC TV drama about young people working at an internet company in London. The site was full of quizzes and silly games. McCandless and a programmer friend built the Helicopter Game in Flash in a matter of days: hold the mouse button and the helicopter climbs, let go and it sinks, and you fly as far as you can without touching the cave.",
+        "Copies spread from one game website to another, often without the maker's name, and many people remember playing it in school computer classes. 'It was very gradual,' McCandless said. 'I never expected it to be a big craze.' He never earned money from it. Years later, critics said the 2013 phone hit Flappy Bird borrowed the same one-button idea.",
+        "Flash games could not last forever: Adobe stopped supporting Flash Player on 31 December 2020. In 2017 an Australian, Ben Latimore, started Flashpoint to save them, and it now holds more than 200,000 web games and animations. Cave Copter plays like the Helicopter Game: one button, an endless cave and your distance as the score. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Pick Easy, Normal or Hard, then press Play.",
+        "Click and hold (or touch and hold, or hold Space) to make your sky-pod's rotor lift it up. Let go and it sinks.",
+        "Fly through the cave without bumping the roof, the floor or the shiny pink blocks.",
+        "Quick taps keep you level. Holding too long sends you shooting up into the roof.",
+        "The cave slowly gets faster and narrower. Your distance in metres is your score.",
+        "Beat your best and a green BEST flag marks that spot in the cave next time."
+      ],
+      "didYouKnow": [
+        "McCandless says that in 2008 someone copied his game for Apple's new App Store, where it was the seventh biggest selling app for about three months.",
+        "When Flappy Bird was a hit in 2014, McCandless joked that he was 'mostly annoyed my high score is only two'.",
+        "Seethru was a made-up company in a TV show, but its website was real and changed as the series went on.",
+        "From 12 January 2021 Adobe blocked Flash content from running in Flash Player at all."
+      ],
+      "sources": [
+        {
+          "title": "The Man Behind 'Helicopter Game,' the Original 'Flappy Bird', Karissa Bell, Mashable, 9 February 2014",
+          "url": "https://mashable.com/2014/02/08/flappy-bird-helicopter-game/",
+          "note": "McCandless created Helicopter Game in 2000 for seethru.co.uk, a tie-in to the BBC drama Attachments; he and a programmer friend built the Flash game in a matter of days; 'It was very gradual. I never expected it to be a big craze'; a 2008 App Store copy was the seventh biggest selling iOS app for about three months; he never earned from it; 'mostly annoyed my high score is only two'."
+        },
+        {
+          "title": "The Shrouded Origins of 'The Helicopter Game', merritt k, Other Strangeness, 2022",
+          "url": "https://www.otherstrangeness.com/2022/09/29/the-shrouded-origins-of-the-helicopter-game/",
+          "note": "A staple of the author's high school computer class; Addicting Games lists SeeThru.co.uk and 2004, the Web Gaming Wiki says 2002; Flash games often spread without their makers' names."
+        },
+        {
+          "title": "Helicopter Game, Flash Museum",
+          "url": "https://flashmuseum.org/helicopter-game/",
+          "note": "Lists developer SeeThru.co.uk, release date 13 November 2004, left mouse button for power."
+        },
+        {
+          "title": "Attachments (TV series), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Attachments_(TV_series)",
+          "note": "BBC Two comedy-drama, 2000 to 2002, about young professionals in London at an internet startup called seethru; the fictional company ran a real website at seethru.co.uk, updated as the show progressed."
+        },
+        {
+          "title": "David McCandless, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/David_McCandless",
+          "note": "British data journalist, writer and information designer, born 1971; began his career writing about video games."
+        },
+        {
+          "title": "SFCave, Internet Archive (from MobyGames)",
+          "url": "https://archive.org/details/win3_SFCave",
+          "note": "Sunflat Games, 1995, Windows 3.x; also for Palm OS, iPhone, Android and others; one-button ribbon through a cave."
+        },
+        {
+          "title": "Flappy Bird, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flappy_Bird",
+          "note": "A Canada.com editor charged that its main mechanic was taken from Helicopter Game."
+        },
+        {
+          "title": "Adobe Flash Player End of Life, Adobe",
+          "url": "https://www.adobe.com/products/flashplayer/end-of-life.html",
+          "note": "Adobe stopped supporting Flash Player after 31 December 2020 and blocked Flash content from 12 January 2021."
+        },
+        {
+          "title": "Flashpoint Archive, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flashpoint_Archive",
+          "note": "Started by Australian Ben 'BlueMaxima' Latimore in late 2017; over 200,000 applications from over 120 browser plugins, mostly Adobe Flash."
+        },
+        {
+          "title": "Flash Back: preserving a gaming legacy, Film Stories",
+          "url": "https://filmstories.co.uk/features/flash-back-preserving-a-gaming-legacy/",
+          "note": "Describes BlueMaxima, real name Ben Latimore, as an Australian gamer and content creator who set up Flashpoint."
+        }
+      ],
+      "uncertainties": [
+        "The planning notes credit 'Dave McClure, 2004', but the sources opened point to David McCandless, who told Mashable he made it with a programmer friend. A web comment names the Flash programmer as Leandro Barreto, but this could not be confirmed.",
+        "The year is unclear. Mashable says 2000 (an earlier copy of the same article said 1999); the Web Gaming Wiki says 2002; Addicting Games and Flash Museum say 2004, which may be when it was added to those sites.",
+        "SFCave is listed as a 1995 Windows game by Sunflat Games; some websites date its popular Palm version to 1998.",
+        "How many schools had the game is not recorded; the story relies on people's memories of school computer classes."
+      ],
+      "playable": true,
+      "id": "cave-copter",
+      "title": "Cave Copter",
+      "era": "2000s",
+      "year": 2000,
+      "yearLabel": "About 2000 (game sites list 2002 or 2004)",
+      "stamp": "2000",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Mouse: hold the button to rise, let go to fall. Touch: hold a finger anywhere on the cave. Keyboard: hold Space, the Up arrow or W. P pauses.",
+      "computer": "The computer builds the cave while you fly, one thin column at a time. It keeps an invisible middle line that drifts up and down: every so often it picks a new height for the middle of the cave and glides towards it, but never more steeply than your sky-pod can climb, so there is always a way through. The gap between the roof and the floor starts wide and shrinks as you go, and a small random wobble makes the rock look rough. Every few hundred units it hangs a block in the gap, always leaving at least one side wide enough to fly past. Only the part of the cave you can see is kept in memory: when a column scrolls off the left, its memory is reused for a new column on the right. Your sky-pod follows simple physics. Holding pushes it up, letting go lets gravity pull it down, and its speed builds up gradually, which is why short taps work better than long holds.",
+      "adaptation": "The original web game, made by David McCandless around 2000, flew a helicopter through a green cave with one mouse button. Ours keeps the one-button rise and fall and the score by distance, but flies a round sky-pod of our own design through a glassy blue cave, with three levels, a best-distance flag, a pause button, and Space and touch controls as well as the mouse.",
+      "origin": "Mechanics of the Helicopter Game by David McCandless for the website seethru.co.uk, United Kingdom",
+      "tagline": "Hold to rise, release to fall.",
+      "blurb": "Hold one button to climb and let go to sink as your little craft flies through an endless cave, like the Flash web game Helicopter that spread through school computer rooms in the 2000s."
+    },
+    {
+      "story": [
+        "Fruit Ninja was made in Brisbane. Shainiel Deo started Halfbrick Studios there in 2001, and for years the studio made games for other companies, including Game Boy Advance versions of the Australian game hero Ty the Tasmanian Tiger. Then in 2009 the global financial crisis hit. The studio's work for overseas companies dried up, and designer Luke Muscat later remembered that 'something like 70 per cent' of game jobs in Australia vanished. The team thought they had about a year to make a hit of their own.",
+        "Every second Friday the staff pitched game ideas to each other. Muscat, then 25, was stuck for an idea until he remembered late-night TV ads for knives that could cut through anything. 'They throw a pineapple in the air and cut it mid-air,' he said, and he realised it could work as a game. Some workmates thought it seemed too simple, 'like a kid's toy'. While most of the studio was busy on another job, Muscat and fellow designer Joe Gatling built it, and it was finished in six weeks.",
+        "Fruit Ninja came out for the iPhone and iPod touch on 20 April 2010, for 99 US cents. Muscat remembers it made about $100 on its first day. Then Apple featured it on the App Store and downloads took off. In 2011 a version for the Xbox 360's Kinect camera let players slice with their whole arms, and by 2015 the game had been downloaded a billion times. While game studios around Australia were shrinking, Halfbrick grew and hired. In 2012 Fruit Ninja was one of the games in ACMI's Game Masters exhibition in Melbourne.",
+        "Fruit Slice plays like Fruit Ninja, the 2010 touchscreen game from Halfbrick Studios in Brisbane. Instead of bombs, a grumpy cloud ends your round. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose Classic or Arcade, then press Start.",
+        "Fruit is thrown up from the bottom of the screen. Swipe through it with a finger, or hold the mouse button and drag, to slice it in two.",
+        "Slice three or more fruit in one swipe for a combo and bonus points.",
+        "Never slice the grumpy cloud. It rumbles and ends the round.",
+        "Classic: if three fruit fall without being sliced, the round is over. Arcade: slice as much as you can in 60 seconds.",
+        "Using a keyboard? Turn on Letter keys, or just start typing. Every fruit wears a letter: press it to slice that fruit. Leave the cloud's letter alone!"
+      ],
+      "didYouKnow": [
+        "At 'Halfbrick Fridays' everyone at the studio, even people from accounting, could pitch game ideas. Fruit Ninja came out of one of them.",
+        "Halfbrick filmed its low-budget launch ad for Fruit Ninja in a park beside the Brisbane River.",
+        "Luke Muscat first saw a stranger playing Fruit Ninja in a pub. He recognised its start-up sound, which he had heard 'like, 10,000 times' while making it.",
+        "In December 2025 Halfbrick released Bluey's Quest for the Gold Pen, the first Bluey video game made by an Australian studio. Bluey is made in Brisbane too."
+      ],
+      "sources": [
+        {
+          "title": "Fruit Ninja creator Luke Muscat says the game was inspired by late night TV and a business on the brink, ABC News, 29 May 2023",
+          "url": "https://www.abc.net.au/news/2023-05-29/qld-fruit-ninja-iphone-game-created-in-brisbane-luke-muscat/102393110",
+          "note": "2009 global financial crisis; Muscat a 25-year-old designer at Halfbrick in Brisbane's inner north; about a year to turn things around; pitches every second Friday; knife ads where 'they throw a pineapple in the air and cut it mid-air'; 'It seemed too simple ... like a kid's toy'; built with Joe Gatling; finished in six weeks; released April 2010 with a budget ad filmed in a park on the Brisbane River; 'the first day it made like $100'; 1 billion downloads by 2015; 'In 2009 something like 70 per cent of game jobs vanished in Australia'; Halfbrick created jobs; first saw it played in a pub."
+        },
+        {
+          "title": "The Fruit Ninja: Shainiel Deo, MIT Technology Review, 18 November 2011",
+          "url": "https://www.technologyreview.com/2011/11/18/189655/the-fruit-ninja-shainiel-deo/",
+          "note": "'Deo founded Halfbrick in 2001 in Brisbane, Australia'; early games for children based on licensed TV and film characters; Fruit Ninja a '99-cent game released in April 2010'; 'They wouldn't want to hand the phones back.'"
+        },
+        {
+          "title": "How Halfbrick Studios Develops Games Like Fruit Ninja, Age Of Zombies And Jetpack Joyride, Frederic Lardinois, TechCrunch, 3 March 2013",
+          "url": "https://techcrunch.com/2013/03/03/how-halfbrick-studios-develops-games-like-fruit-ninja-age-of-zombies-and-jetpack-joyride/",
+          "note": "Fruit Ninja came out of 'Halfbrick Fridays', where the whole company, including accounting and quality assurance, brainstorms in groups; Brisbane-based; about 70 staff; games written in C++."
+        },
+        {
+          "title": "Fruit Ninja, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fruit_Ninja",
+          "note": "Released 20 April 2010 for iPod Touch and iPhone; designer Luke Muscat; Fruit Ninja Kinect for Xbox 360 on 10 August 2011; arcade versions Fruit Ninja FX and FX 2 (November 2012); 1 billion downloads in 2015."
+        },
+        {
+          "title": "Halfbrick Studios, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halfbrick_Studios",
+          "note": "Founded 2001 in Toowong, Brisbane; CEO Shainiel Deo; list of games includes Ty the Tasmanian Tiger 2: Bush Rescue (2004) and Ty the Tasmanian Tiger 3 (2005) for Game Boy Advance."
+        },
+        {
+          "title": "ACMI Game Masters Exhibition, Non-Fiction Gaming, 15 August 2012",
+          "url": "https://www.nonfictiongaming.com/2012/08/15/acmi-game-masters/",
+          "note": "Visitor report: the indie room at ACMI included 'Halfbrick (Fruit Ninja, Raskulls), Marcus Persson \"Notch\" (Minecraft), Firemint ... (Flight Control)'; exhibition launched 28 June 2012."
+        },
+        {
+          "title": "Game Masters (exhibition), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Game_Masters_(exhibition)",
+          "note": "Curated by ACMI, Melbourne, 28 June to 28 October 2012; Indie section lists Halfbrick (Fruit Ninja, Jetpack Joyride)."
+        },
+        {
+          "title": "Halfbrick Studios CEO Shainiel Deo on creating the first Bluey video game made in Brisbane, ABC News, 9 December 2025",
+          "url": "https://www.abc.net.au/news/2025-12-09/bluey-video-game-halfbrick-studios-brisbane/106113906",
+          "note": "Bluey's Quest for the Gold Pen is the first Bluey game made by an Australian studio; iOS release 11 December 2025; 'Fruit Ninja was phenomenal, a billion people played it.'"
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia gives the release date as 20 April 2010; the ABC and MIT Technology Review say only April 2010.",
+        "The 70 per cent job-loss figure is Luke Muscat's memory in a 2023 ABC interview, not an official statistic.",
+        "The $100 first-day figure is Muscat's recollection ('like $100 or something') and may be in US or Australian dollars.",
+        "The ABC (2023) says the game was finished in six weeks; TechCrunch (2013) says it 'only took a few months to make'.",
+        "Halfbrick's work on the Game Boy Advance Ty games comes only from Wikipedia's list of Halfbrick games.",
+        "Fruit Ninja's presence at Game Masters in Melbourne in 2012 rests on a visitor's report and Wikipedia; ACMI's own pages were not opened."
+      ],
+      "playable": true,
+      "id": "fruit-slice",
+      "title": "Fruit Slice",
+      "era": "2010s",
+      "year": 2010,
+      "yearLabel": "2010",
+      "stamp": "2010",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Touch: swipe across the fruit. Mouse: hold the left button and drag. Keyboard: press the letter shown on a fruit (turn on Letter keys, or just start typing). P or Escape pauses.",
+      "computer": "Your swipe is a line made of lots of short pieces: every time your finger moves, the computer joins the last point to the new one. For each fruit it finds the spot on that short piece that is closest to the middle of the fruit. If that spot is closer than the fruit's radius, the line went through the fruit, so it is sliced, and the two halves fly apart at the angle of your swipe. The computer throws the fruit with real physics too. To make a fruit rise to a height h against gravity g, it throws it upwards at a speed of the square root of 2 times g times h, then picks a sideways speed so the fruit reaches its highest point inside the screen. Fruit comes in waves. For each wave the computer picks how many fruit, a pattern (all at once, one after another, or from both sides) and sometimes a cloud. As your score grows (or the Arcade clock runs down) the waves get bigger and quicker and bring more clouds.",
+      "adaptation": "The 2010 game was made for touchscreen phones and used bombs as the thing to avoid. Ours uses a grumpy cloud instead, and the cloud ends the round in both modes. The fruit are our own drawings in a flat 2010s style. Mouse dragging works as well as touch, and Letter keys lets keyboard players slice by typing, with the fruit flying a little slower so there is time to read the letters.",
+      "origin": "Mechanics of Fruit Ninja by Halfbrick Studios, Brisbane, Australia",
+      "tagline": "Swipe fast, slice the fruit.",
+      "blurb": "Swipe across the screen to slice fruit tossed into the air, chain combos and dodge the grumpy cloud, like Fruit Ninja, the 2010 touchscreen game made in Brisbane."
+    },
+    {
+      "story": [
+        "In January 2021 a simple web game swept China. Its name, Hechengdaxigua, means 'combine a big watermelon'. Players dropped fruit into a box, and two matching fruits that touched merged into a bigger one, all the way up to a watermelon. It ran inside the messaging app WeChat, and more than 40 million people played it in its first week. Its code was shared online, so people made their own versions with kittens, pop stars and even university badges.",
+        "In April 2021 the Japanese company Aladdin X put its own version, Suika Game, onto its popIn Aladdin ceiling projectors. Suika means watermelon in Japanese. Owners liked it, so in December 2021 Aladdin X released it for the Nintendo Switch in Japan for 240 yen. For almost two years it sold quietly.",
+        "Then in September 2023 Japanese streamers, including VTubers who appear online as cartoon characters, started playing it live, and millions watched. Aladdin X said daily downloads jumped to more than 50,000 times what they had been. On 20 October 2023 it was released in the Americas, and the game was the most downloaded on Japan's Nintendo eShop in both 2023 and 2024. By October 2024 it had been downloaded 11 million times.",
+        "Melon Drop plays like Suika Game, the 2021 watermelon game from Aladdin X in Japan, which grew out of a Chinese web game. Like Doubles in the hall next door, it is all about merging two of a kind, and the fruit are our own drawings. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Press Start. A fruit hangs from the dropper above the glass jar.",
+        "Move the dropper with the mouse, your finger or the arrow keys, then drop the fruit.",
+        "When two of the same fruit touch, they squash together into the next fruit up and you score points.",
+        "The fruit grow from cherry to strawberry, plum, mandarin, apple, lemon, peach, pineapple, rockmelon and honeydew melon, all the way to watermelon. Two watermelons together make a melon party!",
+        "Watch the Next circle to plan ahead. Keep big fruit near big fruit and small fruit near small fruit.",
+        "If fruit stays above the dashed line for a few seconds, the jar is full and the game is over."
+      ],
+      "didYouKnow": [
+        "Suika Game has 11 fruits, from a cherry to a watermelon, but you can only ever drop the five smallest. Every bigger fruit has to be made by merging.",
+        "When two watermelons touch, they both vanish, which clears lots of room.",
+        "In China the craze gave people a new greeting: 'How many watermelons did you combine today?'",
+        "One reviewer described Suika Game as '2048 with physics'."
+      ],
+      "sources": [
+        {
+          "title": "Millions of Chinese netizens grow addicted to producing virtual watermelons in new viral mobile game that attracted 40 million users in a week, Global Times, 1 February 2021",
+          "url": "https://www.globaltimes.cn/page/202102/1214625.shtml",
+          "note": "Hechengdaxigua (lit: combine watermelon), played on WeChat; more than 40 million players within one week; first launched on 22 January; new greeting 'How many watermelons did you combine today?'"
+        },
+        {
+          "title": "Nearly 80 Million People are Playing a Mobile Game About Watermelons Right Now, RADII, February 2021",
+          "url": "https://radii.co/article/synthetic-watermelon",
+          "note": "Synthetic Watermelon on WeChat, 'like a mix of 2048 and Tetris'; almost 80 million players after 10 days according to its website; code available on GitHub; spin-offs with celebrities, kittens, university logos and Ultraman."
+        },
+        {
+          "title": "Nintendo Switch exclusive Suika Game is so addictive its previous daily sales have multiplied by fifty thousand, AUTOMATON WEST, 5 October 2023",
+          "url": "https://automaton-media.com/en/news/20231005-22096/",
+          "note": "Released December 2021 by popIn; first a built-in app for the popIn Aladdin projector; 240 yen; boom on Twitch from 15 September 2023; Aladdin X told Nippon TV daily downloads rose more than 50,000 times; compared with Threes!."
+        },
+        {
+          "title": "The Nintendo Switch dark horse Suika Game finally gets US release, AUTOMATON WEST, 23 October 2023",
+          "url": "https://automaton-media.com/en/news/20231023-22458/",
+          "note": "Released on 20 October 2023 in the US and the North, Central and South American regions; fruit order from cherry to watermelon; 1 million downloads by 5 October; popular with Japanese influencers and streamers from about September."
+        },
+        {
+          "title": "The Viral Nintendo Switch Hit 'Suika Game' Is Now Officially Available on the App Store in Japan, TouchArcade, 1 January 2024",
+          "url": "https://toucharcade.com/2024/01/01/suika-game-mobile-download-official-app-store-japan-release-date-aladdin-x-android/",
+          "note": "Popular thanks to VTubers such as Korone; over 5 million downloads; most downloaded game on the Japanese eShop for 2023."
+        },
+        {
+          "title": "Critics week: the unexpected genius of Suika Game, Nicole Carpenter, Mobilegamer.biz",
+          "url": "https://mobilegamer.biz/critics-week-nicole-carpenter-on-the-unexpected-genius-of-suika-game/",
+          "note": "Aladdin X was spun out of the Japanese projector company popIn; launched in 2021 for a projector, inspired by a Chinese browser game; 'Nothing larger than an orange can be placed outright.'"
+        },
+        {
+          "title": "Suika Game, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Suika_Game",
+          "note": "popIn Aladdin release April 2021, Switch in Japan 9 December 2021, worldwide 20 October 2023; 11 fruits from cherry to watermelon, only the five smallest can be dropped; two watermelons vanish; concept from the Chinese game Merge Big Watermelon (January 2021); VTubers; most downloaded eShop game in Japan in 2023 and 2024; 11 million downloads by October 2024; Nintendo Life called it '2048 with physics'."
+        }
+      ],
+      "uncertainties": [
+        "Player numbers for the Chinese game differ: more than 40 million in a week (Global Times) and almost 80 million after 10 days (RADII, quoting the game's website).",
+        "Wikipedia names the Chinese game's maker as the company Meadow Science; this was not checked in another source.",
+        "The 11 million download figure (October 2024) comes from Wikipedia only.",
+        "Automaton reported the October 2023 release for the Americas; Wikipedia calls it a worldwide release. The story says the Americas.",
+        "The city where Aladdin X is based was not confirmed, so the origin says only Japan."
+      ],
+      "playable": true,
+      "id": "melon-drop",
+      "title": "Melon Drop",
+      "era": "2020s",
+      "year": 2021,
+      "yearLabel": "2021",
+      "stamp": "2021",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ],
+      "controls": "Mouse: move to aim, click to drop. Touch: touch the jar, slide to aim and let go to drop, or use the arrow and Drop buttons below. Keyboard: Left and Right arrows (or A and D) to aim, Space or the Down arrow to drop. P pauses.",
+      "computer": "Every fruit is a circle, and the computer moves time forward 60 times a second in 8 tiny steps. In each tiny step it pulls every fruit down a little (gravity), then checks every pair of fruit. Two circles overlap when the distance between their centres is less than their two radii added together. When they do, the computer pushes them apart along the line between their centres. A big fruit counts as heavier, so it moves less than a small one. It also rubs away a little of their sideways sliding, which is friction. Any fruit poking through the glass is put straight back inside, and because the steps are so tiny, nothing can ever move far enough in one step to jump through a wall or another fruit. When every fruit has been still for a little over half a second, the computer lets the whole jar rest, so the pile sits perfectly calm until the next fruit lands. If two touching fruit are the same, the computer swaps them for the next fruit up, halfway between them, and it grows to full size in a blink so it nudges its neighbours instead of blasting them away. The points follow the triangle numbers 1, 3, 6, 10, 15 and so on: each new fruit is worth one more than the jump before.",
+      "adaptation": "The 2021 game from Japan drops fruit into a box and merges matching pairs. Ours keeps that mechanic with eleven fruit of our own (with friendly faces and an Australian rockmelon), a glass jar, a fruit ladder that shows how far you have grown, and a dashed line that warns you before the jar overflows. The dropper only ever holds one of the five smallest fruit, so the big ones have to be grown. The circle physics is written from scratch for this site.",
+      "origin": "Mechanics of Suika Game by Aladdin X, Japan",
+      "tagline": "Drop, bump, merge, grow.",
+      "blurb": "Drop fruit into a jar so that matching fruit bump together and merge into bigger fruit, like Suika Game, the 2021 watermelon puzzle from Japan."
+    },
+    {
+      "story": [
+        "In 1995 Akihiro Yokoi, the head of a small company called WiZ, took an idea to the big Japanese toy maker Bandai: a pet you could carry anywhere. At Bandai, Aki Maita worked out how the pet would be raised. Its name joins tamago, the Japanese word for egg, with the English word watch, because at first it was meant to be worn like a wristwatch. In the story, Tamagotchis are little aliens who left an egg on Earth to see what life is like here.",
+        "Tamagotchi went on sale in Japan on 23 November 1996. It was a plastic egg on a keychain with three buttons and a tiny screen with no backlight. You fed your pet meals and snacks, played games with it, cleaned up its messes, gave it medicine and turned off the light at bedtime. It grew through baby, child and teenage stages, and the adult it became depended on how well you cared for it. By 1998 nearly 40 million had been sold, about half of them in Japan.",
+        "The first Tamagotchis beeped whenever the pet needed something and could not simply be paused, and a pet that was ignored could die in less than half a day. So kids took them to school, and many schools banned them. Sydney's Powerhouse museum keeps a first series Tamagotchi in its collection, still in its box. In 2025 The Strong National Museum of Play added Tamagotchi to its World Video Game Hall of Fame.",
+        "Pocket Pet plays like Tamagotchi: you care for a pixel creature as it grows, and how you care for it shapes what it grows into. Here the pet never dies. If it is not looked after, it goes back to its home planet and leaves a new egg. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Your pet starts as an egg. Wait a few seconds and it hatches into a baby.",
+        "Look after it with the buttons: Feed (a meal fills it up, a snack cheers it up), Play, Clean, Lights, Medicine and Stats.",
+        "The words above the buttons say what your pet wants. When the speech bubble on its screen lights up, it needs you now.",
+        "Meals make messes a little later. Clean them up quickly, or your pet may get ill. If it is ill, give it medicine.",
+        "In Play, guess whether your pet will look left or right. Get 3 of 5 right to make it really happy.",
+        "At 9 at night it goes to bed. Turn the lights off so it sleeps well; the night goes quickly in the dark.",
+        "It grows from baby to child to grown-up. Which of the five grown-ups it becomes depends on how you look after it. Collect them all.",
+        "Time only runs while this page is open. Your pet is saved, so it waits for you, just as you left it. If it is left hungry and ill for too long, it flies home to its own planet and leaves you a new egg."
+      ],
+      "didYouKnow": [
+        "In 1997 Yokoi and Maita won a joke award, the Ig Nobel Prize for Economics, 'for diverting millions of person-hours of work into the husbandry of virtual pets'.",
+        "Tamagotchis were so wanted that Bandai staff were told not to carry bags with the Bandai name on them, in case someone tried to steal one.",
+        "Shigeru Miyamoto, who made Mario, said that in 1996 he felt his big 3D game Mario 64 had lost to the Tamagotchi, 'a tiny key chain boasting pictures made up of no more than 10 or 20 dots'.",
+        "More than 98 million Tamagotchis have been sold since 1996."
+      ],
+      "sources": [
+        {
+          "title": "Tamagotchi, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/tamagotchi/",
+          "note": "Inducted 2025; Yokoi of WiZ pitched a mobile pet toy to Bandai in 1995; Aki Maita developed the raising design; released in Japan in 1996 with three buttons and a non-backlit LCD; about 20 million sold in Japan and 20 million elsewhere."
+        },
+        {
+          "title": "Tamagotchi, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+          "note": "Released in Japan 23 November 1996 and in the USA 1 May 1997; tamago plus watch, first meant to be worn like a wristwatch; alien egg back-story; development depends on care; pets could die in less than half a day, leading to school bans; Bandai staff bag ban; Ig Nobel Prize; Miyamoto quote; nearly 40 million sold by spring 1998; 98.1 million by 2025."
+        },
+        {
+          "title": "The 1997 Ig Nobel Prize winners, Improbable Research",
+          "url": "https://improbable.com/ig/winners/",
+          "note": "Economics: Akihiro Yokoi of Wiz Company in Chiba and Aki Maita of Bandai in Tokyo, 'the father and mother of Tamagotchi, for diverting millions of person-hours of work into the husbandry of virtual pets'."
+        },
+        {
+          "title": "A first series Bandai Tamagotchi in original packaging, Powerhouse Collection (object 2013/88/1)",
+          "url": "https://collection.powerhouse.com.au/object/472103",
+          "note": "Sydney's Powerhouse holds a first series Tamagotchi in its packaging; schools banned them; first-generation alerts could not be silenced and the life cycle could not be paused; a pet could die after about twelve hours of neglect."
+        }
+      ],
+      "uncertainties": [
+        "Sources differ on pausing. The Powerhouse says the first models could not be paused; Wikipedia says the original could only be paused by going into the clock setting, which stopped time.",
+        "Sales figures differ: The Strong says about 40 million in the first year, Wikipedia says nearly 40 million by spring 1998.",
+        "The Powerhouse says Aki Maita got the idea from a television advertisement about a boy with a pet turtle; other sources opened do not mention this, so it is left out.",
+        "No reliable dated source was found for the day Tamagotchi went on sale in Australia or for which Australian schools banned it.",
+        "The American release date is given as 1 May 1997 by Wikipedia and later in May by some fan sites."
+      ],
+      "playable": true,
+      "id": "pocket-pet",
+      "title": "Pocket Pet",
+      "era": "1990s",
+      "year": 1996,
+      "yearLabel": "1996 (on sale around the world in 1997)",
+      "stamp": "1996",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click the big buttons beside the pet, or use the handheld's three buttons: A chooses an icon on the screen, B does it and C goes back. Keyboard: A, B and C do the same; in the game, the left and right arrow keys guess. Pet time can be Relaxed, Normal or Speedy, and you can rename your pet and change the shell colour.",
+      "computer": "Your pet is a list of numbers that the computer updates four times a second: how full, happy, clean, rested and healthy it is, how old it is, and the time of day. Each pet hour (10 real seconds on Normal) the numbers change by set amounts. Being awake makes it hungrier and more tired; sleeping with the lights off restores energy fastest; every mess makes it dirtier faster. Health falls while it is ill, starving or dirty, and slowly recovers when it is not. Getting ill is down to chance, but the chance grows when it is dirty or has eaten lots of snacks. The computer also counts care mistakes: a problem, like an empty tummy or lights left on at bedtime, that you leave alone for two pet hours. When the child grows up, a simple rule picks its form: 5 or more care mistakes makes a Drowse; 1 mistake or fewer with at least 3 games won makes a Zing; more snacks than meals makes a Munch; 6 or more games won makes a Bounce; anything else makes a Bloop. The whole list of numbers is saved in your browser every few seconds, which is why time stops when the page is closed.",
+      "adaptation": "Plays like Tamagotchi (Bandai, 1996): an egg-shaped handheld with three buttons, a tiny dot screen, an egg that hatches, hunger and happiness hearts, meals and snacks, a left-or-right guessing game, cleaning up messes, lights off at bedtime, medicine, care mistakes that decide what it grows into, and an attention icon. The creatures, their names, the handheld and the screen pictures are all our own. Changes for this site: time runs about 360 times faster than in real life (one pet day is about 4 minutes on Normal) and only while the page is open, with no notifications; there is no discipline button; there are four stages (egg, baby, child, grown-up) instead of the original's extra teenager stage; and a neglected pet never dies. Instead its health runs out and it flies home to its own planet, where its family looks after it, and leaves you a new egg.",
+      "origin": "Mechanics of Tamagotchi by Aki Maita and Akihiro Yokoi, made by Bandai, Tokyo, Japan",
+      "tagline": "Feed it, clean it, love it.",
+      "blurb": "Hatch a tiny pixel pet, then feed it, play with it, clean up after it and put it to bed so it grows up happy, like the 1996 toy Tamagotchi."
+    },
+    {
+      "story": [
+        "Music games started before the 1990s. In 1987 Dance Aerobics for the Nintendo Entertainment System had players copy an instructor's steps on a floor mat. In 1996 PaRappa the Rapper asked players to press buttons exactly in time with the music and graded them on how accurate they were. In 1997 the Japanese company Konami made Beatmania, where you play a club DJ.",
+        "Konami's next idea used feet instead of hands. Dance Dance Revolution reached Japanese arcades on 26 September 1998. Players stand on a metal stage with four arrow panels: left, down, up and right. Arrows scroll up the screen, and you step on the matching panel just as each arrow reaches the target at the top. Every step is judged Perfect, Great, Good, Boo or Miss, and a rail behind you gives tired dancers something to hold.",
+        "DDR reached North American and European arcades in March 1999; in Europe it was called Dancing Stage. Many people played it for exercise. In 2004 Norway made it an official sport, and in 2006 Konami announced that DDR would be part of a fitness program in West Virginia's 765 state schools in the USA. In 2020 players from Australia and New Zealand could enter Konami's world arcade championship, and in 2022 The Strong National Museum of Play added DDR to its World Video Game Hall of Fame.",
+        "Dance Mat plays like Dance Dance Revolution: arrows rise to a target row in time with the music and you hit them on the beat. The songs here are new ones written in code for this site. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Pick a song and a level, then press Start. Beginner puts arrows on the beat; Basic adds half-beats and a few jumps; Trick adds quick steps, more jumps and faster arrows.",
+        "Arrows scroll up the screen towards four outlines at the top: left, down, up and right.",
+        "Step on the matching arrow just as it lines up with its outline. Two arrows side by side are a jump: hit both at once.",
+        "Each step is judged Perfect, Great or Good, and an arrow that goes past is a Miss. Great and Good also tell you if you were early or late.",
+        "Steps in a row build your combo, and good steps fill the dance gauge at the top. Misses drain it.",
+        "Finish the song with something left in the gauge to pass. Your best grade for each song and level is saved, from D up to AAA.",
+        "Using wireless headphones? Use Tap test (or the minus and plus buttons) to set the audio delay so the arrows match what you hear."
+      ],
+      "didYouKnow": [
+        "In 2011 Alexander Skularek played DDR for 16 hours, 18 minutes and 9 seconds, a Guinness World Record at the time.",
+        "Some players do freestyle: they set the game to its easiest level and make up a whole dance, with spins and jumps, while still hitting the arrows.",
+        "The first DDR arcade machines were built on the same kind of chips as Sony's first PlayStation.",
+        "Konami has made more than 100 Dance Dance Revolution games, including versions with Disney characters and Winnie the Pooh."
+      ],
+      "sources": [
+        {
+          "title": "Dance Dance Revolution, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/dance-dance-revolution/",
+          "note": "Inducted 2022; Dance Aerobics (1987), PaRappa the Rapper (1996) and Beatmania (1997); DDR hit Japanese arcades in September 1998; judgements Perfect, Great, Good, Boo or Miss; railing at the back; freestyle players; official sport in Norway in 2004; more than 100 games by 2018; Skularek's 16 hours 18 minutes 9 seconds record in 2011."
+        },
+        {
+          "title": "Dance Dance Revolution (1998 video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_(1998_video_game)",
+          "note": "Released to Japanese arcades on 26 September 1998; North American arcades in March 1999 and European arcades as Dancing Stage; PlayStation version in Japan on 10 April 1999."
+        },
+        {
+          "title": "Dance Dance Revolution, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution",
+          "note": "Early mixes ran on PlayStation-based hardware (System 573); Norway 2004; West Virginia fitness program announced in 2006 for 765 state schools; the 9th Konami Arcade Championship (finals 8 February 2020) added players from Australia and New Zealand."
+        }
+      ],
+      "uncertainties": [
+        "The Strong says September 1998; Wikipedia gives 26 September 1998 for the first arcade release and 18 November 1998 for the common 'Internet Ranking' update.",
+        "The names of the judgements changed in later versions of the game.",
+        "No reliable source was found for when DDR first appeared in Australian arcades.",
+        "Konami's West Virginia announcement says the program would be phased in over two years; no source was found for how many schools used it in the end."
+      ],
+      "playable": true,
+      "id": "dance-mat",
+      "title": "Dance Mat",
+      "era": "1990s",
+      "year": 1998,
+      "yearLabel": "1998",
+      "stamp": "1998",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Keyboard: the arrow keys, or D, F, J and K for left, down, up and right. P or Escape pauses. Touch: tap the four big pads below the stage, or the lanes themselves; use two fingers for a jump.",
+      "computer": "All the music is made by the computer while you play, from a list of notes written in this game, a bit like a music box. Each bar is cut into 16 small steps. The drums are bursts of random noise shaped to sound like claps and cymbals, and the bass, chords and tunes come from simple waves (square, saw, triangle and sine) shaped into notes. The computer hands each note to the browser's sound system a quarter of a second before it is due, timed by the audio clock, the most accurate clock in the browser. The arrows come from the same list. The step-chart maker walks through the song one step at a time and puts arrows where the beat, the tune or the bass is strongest, more of them on harder levels and in the loud parts of the song. A random number generator with a fixed starting number (a seed) picks between equally good choices, so a song always has the same steps and you can learn them. To keep it fair, the chart pretends your feet take turns: the left foot only steps on left, down and up, the right foot only on right, down and up, and both feet never land on one arrow, so you never have to cross your legs. When the tune goes up, it tends to choose up or right; when the tune goes down, down or left. When you press, the computer reads the exact moment of your press, works out which moment of the music you were hearing then, and measures the gap to the arrow in thousandths of a second: within 45 is Perfect, 90 is Great and 135 is Good (a little wider on Beginner and Basic).",
+      "adaptation": "Plays like Dance Dance Revolution (Konami, 1998): arrows scroll up to a fixed row of targets, you step in time to music, and each step is judged, with a combo and a dance gauge. The songs (Laser Lemonade, Pixel Picnic and Velvet Groove), the arrows, the dancer and every sound are our own. Changes for a browser: you play with a keyboard or a touch screen instead of a dance platform; the step charts are made by the computer from each song's beats instead of by hand; the gauge only counts at the end and can fill up again after it empties, so a song never stops halfway (in the arcade, an empty gauge ended your turn); and an audio delay setting with a tap test makes up for wireless headphones, which play sound later than wired ones.",
+      "origin": "Mechanics of Dance Dance Revolution by Konami, Japan",
+      "tagline": "Step on the arrows in time.",
+      "blurb": "Step on the left, down, up and right panels just as the arrows rise to the top of the screen, right on the beat, like Konami's 1998 arcade game Dance Dance Revolution."
+    },
+    {
+      "story": [
+        "Grid games with hidden mines were around in the 1980s. In 1983 Ian Andrew, aged 24, made Mined-Out for the British ZX Spectrum home computer; he wrote it in BASIC and his mother tested it for him. At Microsoft, programmer Curt Johnson wrote his own version, called Mines, for a computer system called OS/2. He says he borrowed the idea from a slow, black and white game on his old Macintosh, not from Mined-Out.",
+        "Johnson's colleague Robert Donner turned it into a game for Windows. When a manager, Bruce Ryan, collected games to help sell Windows to people at home, Donner sent in Mine. With new pictures it became Minesweeper, released on 8 October 1990 in the Microsoft Entertainment Pack. It became the most popular game in Microsoft's offices, and in 1992 it replaced Reversi as a free game in Windows 3.1. Every version of Windows up to Windows 7 included it, so hundreds of millions of people may have played it.",
+        "Each number tells you how many of the eight squares around it hide a mine, so a careful player can often work out every mine with pure logic. Sometimes, though, you have to guess. In 2000 a mathematician proved that Minesweeper belongs to a famous group of hard problems called NP-complete: nobody knows a quick method that works for every possible board, however big.",
+        "Minefield plays like Minesweeper: dig a square, read the numbers, flag the mines and clear the field. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Pick a level: Beginner (9 by 9 squares, 10 mines), Intermediate (16 by 16, 40 mines) or Expert (30 by 16, 99 mines; on a phone it turns on its side to 16 by 30).",
+        "Dig any square to start. Your first square is always safe, and it always opens up an area.",
+        "Each number tells you how many mines touch that square: above, below, beside and on the corners.",
+        "Use the numbers to work out where the mines must be. Plant a flag on a square you are sure hides a mine.",
+        "When a number already has all its flags, click or tap it to open every other square around it at once.",
+        "Open every square that is not a mine to win. If you dig up a mine, every mine is shown so you can see where they were hiding.",
+        "Turn on No-guess for boards you can always finish with logic alone. Stuck? Hint shows one square the computer can prove, but adds 10 seconds to your time.",
+        "Try to beat your best time on each level. The miner's face starts a new board."
+      ],
+      "didYouKnow": [
+        "Bill Gates once deleted Minesweeper from his computer because he was playing it too much, then went to a colleague's office to keep playing.",
+        "Curt Johnson had to write his own drawing program to make Minesweeper's pictures, because Microsoft Paint could only draw in black and white back then.",
+        "In the Italian version of Windows 2000 the game was called Prato Fiorito, 'field of flowers', with flowers instead of mines. Johnson said: 'Field of flowers, though? It's a fine name.'",
+        "In 2014 Kamil Murański of Poland cleared all three Minesweeper levels in a combined 38.65 seconds, a Guinness World Record."
+      ],
+      "sources": [
+        {
+          "title": "30 Years of 'Minesweeper' (Sudoku with Explosions), Benj Edwards, How-To Geek, 2020",
+          "url": "https://www.howtogeek.com/693898/30-years-of-minesweeper-sudoku-with-explosions/",
+          "note": "Released 8 October 1990 in the Microsoft Entertainment Pack; originally called Mine, by Robert Donner and Curt Johnson; Donner based it on Johnson's OS/2 game; product manager Bruce Ryan's call for games; most popular in Microsoft's offices; Bill Gates story from a 1994 Washington Post report; Windows 3.1 in 1992 replacing Reversi; included up to Windows 7; Prato Fiorito; 38.65-second record by Kamil Murański in 2014."
+        },
+        {
+          "title": "Every step you take: The story of Minesweeper, Dan Griliopoulos, Eurogamer, 2014",
+          "url": "https://www.eurogamer.net/every-step-you-take-the-story-of-minesweeper",
+          "note": "Interviews with Ian Andrew (Mined-Out, ZX Spectrum, written in BASIC at 24, tested by his mother) and Curt Johnson (moved from Minnesota where it was minus 20 Fahrenheit; wrote a 16-colour bitmap editor because Paint was black and white; borrowed the idea from a Macintosh game, not Mined-Out; built Mines in C; Donner converted it to Windows; 'Field of flowers, though? It's a fine name.')."
+        },
+        {
+          "title": "Microsoft Minesweeper, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Microsoft_Minesweeper",
+          "note": "Created by Curt Johnson for OS/2 and ported to Windows by Robert Donner; Microsoft Entertainment Pack 1 in 1990; standard in Windows 3.1 in 1992, replacing Reversi; Flower Field versions."
+        },
+        {
+          "title": "Minesweeper (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Minesweeper_(video_game)",
+          "note": "Origins unclear; Mined-Out (1983) by Ian Andrew; a 2000 proof in The Mathematical Intelligencer that Minesweeper is NP-complete."
+        }
+      ],
+      "uncertainties": [
+        "Accounts differ on who did what: Wikipedia says Johnson created the game and Donner ported it to Windows; How-To Geek says Donner based his game on Johnson's earlier one.",
+        "Ian Andrew believes Microsoft's game came from Mined-Out; Curt Johnson says it did not.",
+        "Eurogamer says Minesweeper was given away with Windows 3.11; How-To Geek and Wikipedia say Windows 3.1 in 1992.",
+        "The 2000 NP-completeness proof was published under the name Richard Kaye; Wikipedia now gives the author's name as Sadie Kaye, so the story does not name the mathematician.",
+        "The world record has since been beaten: Wikipedia lists a combined time of 32.88 seconds in later official rankings."
+      ],
+      "playable": true,
+      "id": "minefield",
+      "title": "Minefield",
+      "era": "1990s",
+      "year": 1992,
+      "yearLabel": "1992 (first released in 1990)",
+      "stamp": "1992",
+      "type": "puzzle",
+      "players": [
+        "solo"
+      ],
+      "controls": "Click or tap a square to dig. Right click, press and hold, or turn on Flag mode to plant or remove a flag. Click or tap a number to open the rest of its squares when its flags are placed. Keyboard: Tab to the board, arrow keys move the yellow square, Space or Enter digs, F flags, H gives a hint and N starts a new board.",
+      "computer": "The mines are hidden only after your first dig, and never on that square or the eight around it, which is why your first square is always safe. For a no-guess board, the computer makes a board, then tries to solve it itself from your first square using only three rules a careful player uses. Rule 1, one number at a time: if a number already touches as many certain mines as it shows, every other hidden square around it is safe; if its hidden squares are exactly as many as the mines it still needs, they are all mines. Rule 2, the subset rule: compare two numbers close together. If every hidden square around the first one also touches the second one, then the squares only the second one touches must hold the difference between them. If the difference is 0 they are all safe, and if it equals how many squares there are, they are all mines. Rule 3, counting: if no mines are left to find, every hidden square is safe, and if the mines left equal the hidden squares, they are all mines. The solver keeps using the rules until it opens the whole board or gets stuck. If it gets stuck, that board would need a guess, so the computer throws it away and makes another. A Beginner board usually works on the first or second try; an Expert board often takes 20 or more tries, which still takes the computer less than a second. Hint uses the same solver, but only on the numbers you can see.",
+      "adaptation": "Plays like Minesweeper in Windows 3.1 (1992): three levels with 10, 40 and 99 mines, number clues, flags, opening the squares round a number in one go, a timer and a face that starts a new game. The name, the window, the little miner face, the LED counters and every picture are our own. Changes for this site: the first dig always opens an area, so a game never starts with a guess; press-and-hold and a Flag mode button stand in for the right mouse button on touch screens; on phones the Expert board turns on its side and a Big squares button makes the squares easier to tap; the timer stops while the tab is hidden; best times are kept separately for classic and no-guess boards; and the optional no-guess boards and the Hint button are additions that show how a computer can solve the puzzle with logic. The question-mark marker from the original is left out to keep the controls simple.",
+      "origin": "Mechanics of Minesweeper by Curt Johnson and Robert Donner, Microsoft, Redmond, USA",
+      "tagline": "Read the numbers. Flag the mines.",
+      "blurb": "Uncover every safe square without touching a hidden mine, using numbers that tell you how many mines are next door, like the Minesweeper game in Windows 3.1."
+    },
+    {
+      "story": [
+        "In a tower defence game, enemies march along a path and you place defenders beside it to stop them. Early ideas go back a long way: Pedro, from 1984, was a garden defence game where you placed barriers, and Rampart, from 1990, set up the pattern of building, defending and repairing. Players also built tower defence maps of their own inside strategy games such as StarCraft and Warcraft III.",
+        "In March 2007 Paul Preece released Desktop Tower Defense, a free Flash game set on an office desk. The enemies always took the shortest path they could find to the exit, so players placed towers to make the longest, most winding maze. By July 2007 it had been played more than 15.7 million times.",
+        "At PopCap Games in Seattle, George Fan first imagined a sequel to his fish tank game Insaniquarium, with aliens attacking. After playing Warcraft III tower defence maps, he decided plants would make good defenders. In most tower defence games the enemies walk straight past the towers, which Fan thought was odd, so he lined them up in five lanes across a lawn where they run into the plants. While sketching he drew what he called 'the perfect zombie', and the game became Plants vs. Zombies. It took three and a half years to make and came out on 5 May 2009. In the USA it is rated E10+, for everyone aged 10 and over.",
+        "Garden Guard plays like Plants vs. Zombies: collect sunshine, plant defenders in garden beds and protect your lettuces lane by lane. Here the pests are snails, slugs and beetles, and they are shooed away, never hurt. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Pick a level. Each level shows its plan first: which pests are coming, which plants you have, and how many waves there are.",
+        "Pests crawl from the wild end of the garden towards your lettuces. If one reaches a lettuce, it has a munch and the level is over. You can try again straight away.",
+        "Plants cost sunshine. Tap the sunshine that floats down from the sky, and the sunshine your Sun Catchers make, to collect it.",
+        "Tap a seed packet, then a square in a bed, to plant it. After you plant, that packet needs a few seconds to grow a new seed.",
+        "Pea Flickers flick peas, Prickle Walls block the way, Sprinklers slow pests down and Bee Hives send bees to buzz around them.",
+        "Nobody gets hurt. Every pest has a nerve meter (the bar above it). When its nerve runs out, it turns round and runs home.",
+        "Shoo every pest in every wave to clear the level and open the next one. Clear all seven levels to open the Endless Garden, where the waves never stop.",
+        "Use the trowel to dig up a plant if you need the square. The fast forward button speeds the garden up to 2 or 3 times."
+      ],
+      "didYouKnow": [
+        "In Desktop Tower Defense the game would not let you block the exit completely, so the best players built long, twisting mazes out of towers instead.",
+        "George Fan chose zombies instead of aliens partly so his game would stand out from other games with plants in them.",
+        "At a 2012 conference for game makers, Fan gave a talk called 'How I Got My Mom to Play Through Plants vs. Zombies', sharing 10 tricks for teaching a game so anyone can learn it.",
+        "Plants vs. Zombies began as an idea for a fish game. In the early plan, aliens attacked a fish tank on the top screen of a Nintendo DS."
+      ],
+      "sources": [
+        {
+          "title": "Plants vs. Zombies (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plants_vs._Zombies_(video_game)",
+          "note": "Designed by George Fan; released 5 May 2009; began as a defence-focused sequel to Insaniquarium with aliens attacking a top fish tank on a Nintendo DS; inspired by Warcraft III tower defence mods; five- and six-lane lawns; 'the perfect zombie'; zombies chosen to stand out from other plant games; three and a half years of development; artist Rich Werner, programmer Tod Semple, composer Laura Shigihara."
+        },
+        {
+          "title": "Desktop Tower Defense, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Desktop_Tower_Defense",
+          "note": "Flash browser game by Paul Preece, released 3 March 2007; played over 15.7 million times by July 2007; enemies take the shortest path; the game does not allow the exit to be made completely inaccessible."
+        },
+        {
+          "title": "Tower defense, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tower_defense",
+          "note": "Imagine Software's Pedro (1984), a garden defence game with fixed obstructions; Rampart (1990) established build, defend and repair phases; StarCraft custom maps such as Turret Defense (2000)."
+        },
+        {
+          "title": "How I Got My Mom to Play Through Plants vs. Zombies, GDC Vault, Game Developers Conference 2012",
+          "url": "https://www.gdcvault.com/play/1015541/How-I-Got-My-Mom",
+          "note": "George Fan of PopCap presents 10 techniques for teaching game mechanics, using examples from Plants vs. Zombies, and how he got his mum to play through a full strategy game."
+        },
+        {
+          "title": "Plants vs. Zombies rating, Entertainment Software Rating Board",
+          "url": "https://www.esrb.org/ratings/29273/plants-vs-zombies/",
+          "note": "Rated E10+ (Everyone 10+) for animated blood and cartoon violence, for console and handheld releases."
+        }
+      ],
+      "uncertainties": [
+        "Where the tower defence idea began is debated; Wikipedia's article on the genre is flagged as needing better sources.",
+        "No source opened gives Paul Preece's home town or country, so the origin line does not name one.",
+        "The ESRB rating quoted is for console and handheld versions; no rating was checked for the first computer version.",
+        "Plants vs. Zombies is about plants fighting zombies; this hall's game uses garden pests that are only shooed away."
+      ],
+      "playable": true,
+      "id": "garden-guard",
+      "title": "Garden Guard",
+      "era": "2000s",
+      "year": 2009,
+      "yearLabel": "2009 (tower defence games boomed from 2007)",
+      "stamp": "2009",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click a seed packet, then a square in a bed. Tap sunshine to collect it. Keyboard: arrow keys (or W, A, S, D) move the gold square, 1 to 5 pick a plant, Enter or Space plants it, C collects all the sunshine, Delete digs a plant up, Escape puts the packet away, P pauses and F fast forwards.",
+      "computer": "The computer plans every wave of pests. Each wave gets a budget of pest points. Wave 1 is always a single pest, then the budget grows by about one point a wave, and a big wave (the ones with a flag) gets double. The computer spends the points on pests from the level's list: a snail or a slug costs 1, a grasshopper or a group of three aphids costs 2, a beetle 3 and a Giant Caterpillar 14. It picks pests at random, but it chooses cheap ones in the first two waves and shows off the level's new pest after that. As each pest sets off, the computer chooses its bed. It gives every bed a score. A bed that just had a pest scores lower, so the pests spread out. A bed with fewer helpers scores higher, because the computer is looking for your weakest bed. In level 1 it does not care about your weakest bed at all, and by level 7 it cares a lot. Then it picks a bed at random, with high scores more likely, so you can never be completely sure where the next pest will come from. In the Endless Garden every 5th wave is big, every 10th brings caterpillars, and after wave 10 the budget grows by 6 per cent every wave.",
+      "adaptation": "Plays like the lane defence of Plants vs. Zombies (PopCap Games, 2009), with the plant-your-defences idea of tower defence games like the Flash game Desktop Tower Defense (2007), moved into a vegetable garden. There are no zombies and nobody is hurt: pests have a nerve meter instead of health, and they run away when it is empty. Plants vs. Zombies gives each lane a lawnmower as a last chance; here a pest reaching the lettuces ends the level straight away, but levels are short and you can try again at once. On a phone the garden stands up, so the pests crawl from the top of the screen to the bottom, which keeps the squares big enough to tap. The plants, pests, levels and pictures are our own.",
+      "origin": "Mechanics of Plants vs. Zombies by George Fan, PopCap Games, Seattle, USA, and Desktop Tower Defense by Paul Preece",
+      "tagline": "Plant helpers. Save the lettuces.",
+      "blurb": "Plant helpers in the garden beds and shoo crawling pests away before they reach your lettuces, like the tower defence games Desktop Tower Defense (2007) and Plants vs. Zombies (2009)."
+    },
+    {
+      "story": [
+        "Bowling was one of the first sports on home video game machines. The RCA Studio II console had a bowling game built in during 1977, with a square ball and ten square pins seen from above, and Fairchild, Atari and Mattel soon made their own. Later bowling games showed the lane from behind the bowler, with meters to set the power and spin.",
+        "Nintendo wanted its new console, the Wii, to reach people who had never played video games. The Wii Remote could sense movement with a tiny part called an accelerometer. Wii Sports, produced by Katsuya Eguchi, turned tennis, baseball, bowling, golf and boxing into simple games you play by moving the remote like a racket, bat, ball, club or glove. It came in the box with the Wii in North America on 19 November 2006 and in Australia on 7 December 2006.",
+        "Bowling became a favourite. Families, and even grandparents, played together, and senior centres in the USA ran Wii bowling leagues for people who had bowled in the 1950s and 1960s but now found real bowling too hard on their bodies. Wii Sports sold more than 82 million copies, and in 2023 The Strong National Museum of Play added it to its World Video Game Hall of Fame.",
+        "In 1960 Hurstville Bowl in Sydney opened as Australia's first mechanical ten-pin bowling centre, and tennis champion Neale Fraser rolled the first ball. Ten-Pin plays like Wii Sports bowling: aim, add spin and swing, with full scoring for strikes and spares. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose how many people are playing (they take turns on one device) and whether the computer joins in, then press Start.",
+        "Move along the foul line with the Move buttons and set the curve. The dotted line shows roughly where a perfect throw would roll.",
+        "To bowl on a touch screen or with a mouse, drag down on the lane to swing back, then flick up. A faster flick bowls a faster ball, and a flick that leans sideways sends the ball a little that way.",
+        "Or press Bowl (or Space) three times: once to start the swing, once to set the power as the meter climbs, and once as the needle crosses the white line. Too early pulls the ball left, too late pushes it right.",
+        "Knock down all ten pins with your first ball for a strike, or with both balls of a frame for a spare. The pin chart in the corner shows which pins are still standing.",
+        "A frame without a strike or a spare scores its pins. A spare scores 10 plus the pins from your next ball. A strike scores 10 plus your next two balls. The score sheet shows dots until it knows the bonus.",
+        "The tenth frame is special: a strike or spare there earns its bonus balls straight away, so you can bowl three balls. Twelve strikes in a row is a perfect game: 300."
+      ],
+      "didYouKnow": [
+        "A strike scores 10 plus the pins from your next two balls, and a spare scores 10 plus your next ball. Twelve strikes in a row makes a perfect game of 300.",
+        "Early versions of Wii Sports used Mario characters, but players preferred their own Mii characters, so Mario was taken out.",
+        "Bowling and golf in Wii Sports can be played by several people sharing just one remote, taking turns.",
+        "A computer writer who loved real bowling said 'Nintendo did a stupendous job of coding' the bowling, but complained that his wrist and shoulder got sore."
+      ],
+      "sources": [
+        {
+          "title": "Wii Sports, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/wii-sports/",
+          "note": "Inducted 2023; released 2006 and bundled with Wii consoles outside Japan; motion-sensitive Wii Remote; played with parents and grandparents; senior centres ran Wii bowling leagues; Aetna sponsored a senior bowling championship in 2011; more than 82 million copies."
+        },
+        {
+          "title": "Pins and Pixels: A Brief History of Home Video Game Bowling, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/blog/pins-and-pixels-a-brief-history-of-home-video-game-bowling/",
+          "note": "First home bowling video game built into the RCA Studio II in 1977 with a top-down square ball and ten pins; Fairchild Channel F, Odyssey2, APF, Atari (1979) and Intellivision (1981) versions; later games used a front-facing lane view and meters for placement, power and spin."
+        },
+        {
+          "title": "Wii Sports, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wii_Sports",
+          "note": "Released in North America on 19 November 2006 and in Australia on 7 December 2006; pack-in everywhere except Japan and Korea; produced by Katsuya Eguchi; uses the Wii Remote's accelerometer; Mario characters removed after players preferred Miis; golf and bowling playable with one shared remote; John C. Dvorak's 'stupendous job of coding' and sore wrist."
+        },
+        {
+          "title": "Ten-pin bowling, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ten-pin_bowling",
+          "note": "Strike: ten pins plus the next two rolls; spare: ten plus the next roll; bonus rolls in the tenth frame; a perfect game is 300."
+        },
+        {
+          "title": "Flashback Friday: Hurstville Bowl was 'a first' for Australia when it opened in 1960, Murray Trembath, St George and Sutherland Shire Leader, 2018",
+          "url": "https://www.theleader.com.au/story/5144714/flashback-friday-hurstville-bowl-closes-after-27-years/",
+          "note": "Hurstville Bowl, the first mechanical tenpin bowling centre in Australia, opened in 1960 with tennis great Neale Fraser bowling the first ball; 20 lanes; closed in 1987."
+        }
+      ],
+      "uncertainties": [
+        "Some websites call Hurstville Bowl Australia's first fully automatic centre; The Leader says first mechanical centre.",
+        "Wii Sports sales are given as 'more than 82 million' by The Strong; other sources give slightly different totals.",
+        "No reliable Australian source was found about Wii bowling in Australian aged care homes, so the story describes the American leagues The Strong mentions."
+      ],
+      "playable": true,
+      "id": "ten-pin",
+      "title": "Ten-Pin",
+      "era": "2000s",
+      "year": 2006,
+      "yearLabel": "2006",
+      "stamp": "2006",
+      "type": "action",
+      "players": [
+        "solo",
+        "vs computer",
+        "2 to 4 players"
+      ],
+      "controls": "Touch or mouse: drag down on the lane, then flick up to bowl. Buttons: Move left and right, Curve left and right, and Bowl (press it three times for the power meter). Keyboard: Left and Right arrows move, A and D set the curve, Space three times bowls with the meter, and Enter or Skip jumps to the result.",
+      "computer": "Under the 3D picture the game is flat. Seen from above, the ball and the pins are circles that slide and bump like snooker balls, and the computer works out every bump 240 times a second. A pin hit hard falls over. A pin hit gently wobbles, and it may or may not go down. To draw the lane in 3D, the computer divides each position by its distance from the camera, so things further away look smaller. The computer player imagines its throws before it bowls. It runs the same physics in its head for every start board and every curve, 231 imagined throws, and counts the pins each one would knock down. It picks the best throw, preferring one whose neighbours also do well, so a small slip still works. Then its hand wobbles: a random error is added to where it stands, its aim, its speed and its curve. Easy wobbles a lot and scores about 100 a game, Normal about 150, and Pro hardly wobbles at all and scores about 200.",
+      "adaptation": "Plays like Wii Sports Bowling (Nintendo, 2006), where you swung the Wii Remote like a real ball. Without a motion controller, the swing becomes a drag and flick, or a three-press power meter like the golf games of the 1990s. The scoring is real ten-pin scoring, including the tenth frame's bonus balls. The lane is real size (60 feet from the foul line to the head pin, 39 boards wide) and the pins stand 12 inches apart, but the physics is simplified: it is worked out flat, seen from above, and pins that are only nudged wobble and fall by chance. The curve control stands in for the spin a real bowler puts on the ball, and there is no foul line rule. The alley, the bowler and the art are our own.",
+      "origin": "Mechanics of bowling in Wii Sports by Nintendo, Kyoto, Japan",
+      "tagline": "Aim, swing and knock them down.",
+      "blurb": "Line up, add some spin and swing to roll the ball down the lane and knock down all ten pins, like bowling in Nintendo's 2006 game Wii Sports."
+    },
+    {
+      "story": [
+        "People built machines to play games long before anyone talked about machine learning. At the New York World's Fair in 1940, the Westinghouse company showed the Nimatron, a machine weighing more than a tonne that played Nim with rows of light bulbs. It won about 90,000 of the 100,000 or so games it played. But it never learned a thing. Its moves were wired into its relays, and its operators learned its few patterns so well that they could beat it whenever they liked. Nimrod, a Nim-playing computer designed by the Australian John Bennett for the Festival of Britain in 1951, also followed fixed rules.",
+        "Arthur Samuel wanted a machine that could get better by itself. He joined IBM in 1949 and wrote a checkers program for the IBM 701, one of the most powerful computers of its time. The program remembered each position it had seen and whether it led to a win or a loss, and it played thousands of games against itself. On 24 February 1956 it was shown on television. In 1959 Samuel described it in a paper called Some Studies in Machine Learning Using the Game of Checkers, and the name machine learning stuck. In 1962 it beat Robert Nealey, a player who called himself a checkers master.",
+        "Chess was the next big test. In May 1997 IBM's Deep Blue beat world champion Garry Kasparov in New York, winning their six-game match 3½ to 2½. Deep Blue did not learn as it played. It checked about 200 million positions a second, using scoring rules tuned by chess experts and programmers. Go, invented in China more than 2,500 years ago, was far harder for computers, because it has more possible positions than there are atoms in the known universe. In March 2016 AlphaGo, made by DeepMind in London, beat Lee Sedol, one of the world's best players, 4 games to 1 in Seoul, South Korea. AlphaGo studied about 30 million moves from human games, then played millions of games against itself. Lee won game 4 with a brilliant move, move 78.",
+        "Today machine learning turns up in many games. In Creatures (1996) players taught little creatures called Norns the names of things, and every Norn had a brain made of a neural network. In 2021 Sony AI's GT Sophy learned to race in Gran Turismo by trial and error, rewarded when it drove well, and outraced some of the world's best Gran Turismo drivers. In 2024 the game company Ubisoft tested characters you can talk to out loud, run by the same kind of AI as a chatbot, with writers creating each character's life story first.",
+        "Robot School is our own game, made for this site. The robot learns right here in your browser, from the examples you give it, and nothing is sent anywhere."
+      ],
+      "howToPlay": [
+        "You are a teacher at a robot school in 2035. Your student is Pip, a brand-new robot with an empty brain. You can give Pip a new name on the start card.",
+        "Pick a lesson. Each lesson is a different way that real machines learn, and each one earns up to three stars.",
+        "Snack Sorter: snacks drop down a chute. Tell Pip whether each one is a fruit or a veg. Every snack becomes a dot on Pip's chart, and Pip's line moves to split them. Then press Let Pip try: Pip sorts 10 new snacks by itself. Teach it the ones it got wrong and test it again. Ten out of ten earns three stars.",
+        "Doodle Detective: pick a star, a heart or an arrow, draw it on the 16 by 16 grid and teach Pip. Teach each sign a few times. Then test Pip: the card tells you what to draw, but Pip cannot see the card. Six right out of six earns three stars.",
+        "Maze Runner: press Train and watch Pip wander until it finds its charger. Over many tries the glow spreads back from the charger and Pip gets faster. Pip stops when it thinks it knows the way: press Show me what you learned. Master all three mazes for three stars. Add puddles, batteries and walls, and change Pip's curiosity, to see what happens.",
+        "Fair Robot: Pip gives out stickers for neat writing, but it is unfair to left-handed writers. Find out why, tick extra example pages for Pip to learn from, and run sticker day again. Make Pip fair with four pages or fewer for three stars.",
+        "At the end of each lesson Pip asks you a question. Answer it to collect that lesson's big idea. Collect all four and Pip graduates. Your progress is saved in this browser only."
+      ],
+      "didYouKnow": [
+        "The Nimatron's operators learned its patterns and could beat it whenever they wanted. The people learned. The machine never did.",
+        "IBM's president Thomas Watson arranged for Samuel's checkers program to be shown to shareholders and predicted IBM's share price would rise 15 points. It did.",
+        "Lee Sedol is the only person to beat AlphaGo in any of its 74 official games.",
+        "UNSW Sydney's robot soccer team, rUNSWift, has been world champion five times: 2000, 2001, 2003, 2014 and 2015. RoboCup's goal is a team of robots that beats the human World Cup champions by 2050."
+      ],
+      "sources": [
+        {
+          "title": "Nimatron, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nimatron",
+          "note": "Conceived by Edward Condon, built by Westinghouse for the 1940 New York World's Fair; over a metric ton; 116 relays; four lines of seven light bulbs; about 100,000 games played and 90,000 won; non-programmable, 'could only play the game in a dozen or so preset patterns'; operators 'could learn the patterns and beat the machine at any time' to show visitors it could be done."
+        },
+        {
+          "title": "Nimrod (computer), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nimrod_(computer)",
+          "note": "Proposed by John Makepeace Bennett, an Australian Cambridge PhD graduate working at Ferranti; shown at the Festival of Britain from 5 May 1951; played Nim with a fixed mathematical strategy; Alan Turing played it."
+        },
+        {
+          "title": "The games that helped AI evolve, IBM History",
+          "url": "https://www.ibm.com/history/early-games",
+          "note": "Samuel joined IBM in 1949; the IBM 701 was 'among the most powerful computers of its time'; Samuel Checkers 'recorded each position it saw and whether that position eventually led to a win or a loss'; 'Samuel called this process machine learning, a term he coined'; 'after it had played thousands of games against itself... defeated self-described checkers master Robert Nealey' in 1962; Deep Blue won a six-game series against Kasparov in 1997; TD-Gammon (1992) played about 300,000 games against itself."
+        },
+        {
+          "title": "Arthur Samuel's Legacy, Chinook project, University of Alberta",
+          "url": "https://webdocs.cs.ualberta.ca/~chinook/project/legacy.html",
+          "note": "Program 'first publicly demonstrated on television on February 24, 1956'; IBM president Thomas Watson arranged a showing for shareholders and predicted a fifteen-point rise in IBM's stock, 'It did'; Nealey's 'tournament results never justified' the title of master; the win gave 'the false impression that checkers was a solved game'."
+        },
+        {
+          "title": "IBM 701, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IBM_701",
+          "note": "'The IBM 701 has a claim to be the first computer displaying the potential of artificial intelligence in Arthur Samuel's checkers-playing program on February 24, 1956'; nineteen 701 systems were installed."
+        },
+        {
+          "title": "Machine learning, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Machine_learning",
+          "note": "'The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence'; the synonym 'self-teaching computers' was also used."
+        },
+        {
+          "title": "Deep Blue, IBM History",
+          "url": "https://www.ibm.com/history/deep-blue",
+          "note": "Kasparov won the 1996 Philadelphia match 4 to 2; Deep Blue won the May 1997 rematch 3.5 to 2.5, the first computer to defeat a reigning world champion under standard tournament time controls; evaluated 200 million positions per second; built by Feng-hsiung Hsu, Murray Campbell and other IBM scientists; brute force rather than learning."
+        },
+        {
+          "title": "Deep Blue (chess computer), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+          "note": "1997 match in New York, 3 to 11 May; an expert system 'relying upon rules and variables defined and fine-tuned by chess masters and computer scientists'; one rack at the Smithsonian's National Museum of American History, the other at the Computer History Museum; Kasparov's accusations and IBM's reply that the only human intervention was between games."
+        },
+        {
+          "title": "Go (game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Go_(game)",
+          "note": "'The game was invented in China more than 2,500 years ago'; about 2.1 x 10^170 legal positions."
+        },
+        {
+          "title": "AlphaGo, Google DeepMind",
+          "url": "https://deepmind.google/research/breakthroughs/alphago/",
+          "note": "AlphaGo beat Lee Sedol 4 to 1 in March 2016; Go has '10 to the power of 170 possible board configurations. That's more than the number of atoms in the known universe'; policy and value networks; trained on expert games then by playing itself; Move 37 had 'a 1 in 10,000 chance' of being played by a human."
+        },
+        {
+          "title": "AlphaGo versus Lee Sedol, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol",
+          "note": "9 to 15 March 2016 at the Four Seasons Hotel, Seoul; AlphaGo won 4 to 1; Lee's move 78 in game 4 'turned the game around'; trained on about 30 million moves from human games, then tens of millions of self-play games; Lee retired in 2019 calling AI 'an entity that cannot be defeated'."
+        },
+        {
+          "title": "AlphaGo, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AlphaGo",
+          "note": "Beat Fan Hui 5 to 0 in October 2015; Lee Sedol is 'the only human player who beat AlphaGo in all of its 74 official games'; AlphaGo Zero was 'completely self-taught without learning from human games'."
+        },
+        {
+          "title": "Creatures (video game series), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Creatures_(video_game_series)",
+          "note": "First game 1996 by Steve Grand at Millennium Interactive, Cambridge; artificial life with 'neural network brains'; players taught Norns words 'by repeating the name of the object while the creature looks at it'; rewards by tickling."
+        },
+        {
+          "title": "Gran Turismo Sophy project page, Polyphony Digital",
+          "url": "https://www.gran-turismo.com/us/gran-turismo-sophy/project/",
+          "note": "A collaboration of Sony AI, Polyphony Digital and Sony Interactive Entertainment; trained with deep reinforcement learning; Race Together events against top human drivers on 2 July and 21 October 2021."
+        },
+        {
+          "title": "Sony's AI system GT Sophy beats 95% of human competitors at Gran Turismo Sport, TechXplore, February 2022",
+          "url": "https://techxplore.com/news/2022-02-sony-ai-gt-sophy-human.html",
+          "note": "GT Sophy 'was rewarded when it did things well and penalized when it did not'; 'It also learned the rules of etiquette to ensure fair play'."
+        },
+        {
+          "title": "Outracing champion Gran Turismo drivers with deep reinforcement learning, Wurman and others, Nature 602, 2022",
+          "url": "https://www.nature.com/articles/s41586-021-04357-7",
+          "note": "Sony AI's agent, trained with deep reinforcement learning, outraced champion Gran Turismo drivers; featured on the cover of Nature in February 2022. Only the abstract details reported in search results and the project page were checked; the paper itself is behind a login."
+        },
+        {
+          "title": "Ubisoft unveils NEO NPCs, its first prototype for GenAI-powered characters and gameplay, Ubisoft press release, 19 March 2024",
+          "url": "https://staticctf.ubisoft.com/8aefmxkxpxwl/Mw2s4KjssknqHHh1VIf8V/720296810ecc3deae51778a219732c7f/PRESS_RELEASE_GDC_UbisoftUnveilsNEONPC_190324.pdf",
+          "note": "Shown at GDC 2024; players talk to characters by voice; NPCs have memory and can generate quests; built with Inworld AI and Nvidia; 'Every detail, personalities, backstories, agendas, and emotions, needs to be thoroughly crafted' by the team; narrative director Virginie Mosser; described as a prototype."
+        },
+        {
+          "title": "UNSW's robot soccer team finish third at world championship in Sydney, UNSW Newsroom, 2019",
+          "url": "https://www.inside.unsw.edu.au/news-unsw/unsws-robot-soccer-team-finish-third-world-championship-in-sydney",
+          "note": "rUNSWift won the Standard Platform League world title in 2000, 2001, 2003, 2014 and 2015 and came third at RoboCup 2019 in Sydney; RoboCup aims for robots that beat the human World Cup champions by 2050; RoboCup Junior is for school students; robots are autonomous, not remote controlled."
+        },
+        {
+          "title": "RoboCup, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/RoboCup",
+          "note": "Official goal: 'By the middle of the 21st century, a team of fully autonomous humanoid robot soccer players shall win a soccer game, complying with the official rules of FIFA, against the winner of the most recent World Cup'; founded 1996, first competition 1997 in Nagoya; RoboCup 2019 held in Sydney."
+        },
+        {
+          "title": "Chinook (computer program), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinook_(computer_program)",
+          "note": "Jonathan Schaeffer's team at the University of Alberta; on 19 July 2007 Science published their proof that perfect play in checkers leads to a draw."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia says the Nimatron's win count was skewed because its operators sometimes beat it on purpose to show visitors it could be done.",
+        "Sources differ on when Samuel's first checkers program ran: secondary sources say 1952 on the IBM 701, while the IEEE Computer Society's pioneer page suggests 1949 to 1950. The story only says he wrote it after joining IBM in 1949.",
+        "IBM and Wikipedia say Samuel coined the phrase machine learning in 1959; some writers say he popularised it. The idea of machines that learn is older.",
+        "IBM dates the win over Robert Nealey to 1962; the IEEE pioneer page mentions a 1961 game. The University of Alberta's checkers team says Nealey's tournament results never matched the title of master, and that the win wrongly made people think checkers was solved. Checkers was actually solved in 2007: perfect play by both sides ends in a draw.",
+        "Kasparov suggested people had helped Deep Blue during the 1997 games; IBM said the only human changes were made between games.",
+        "GT Sophy's 2021 races against top drivers are taken from Sony's project page and the title of the Nature paper; the results of each separate race were not checked.",
+        "Ubisoft's talking characters were a prototype, not a released game.",
+        "DeepMind was a London company owned by Google in 2016; it is now called Google DeepMind."
+      ],
+      "playable": true,
+      "id": "robot-school",
+      "title": "Robot School",
+      "era": "2030s",
+      "year": 2030,
+      "yearLabel": "2030 and beyond",
+      "stamp": "2030",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Tap or click the buttons. Snack Sorter: Fruit and Veg buttons, or the left arrow (or F) for fruit and the right arrow (or V) for veg. Doodle Detective: draw with a finger or the mouse (right-click or the Eraser rubs out); with the keyboard, Tab to the grid, move with the arrow keys, press Space to colour a square, hold Shift with an arrow key to draw a line, and press Enter to teach or to show Pip. Maze Runner: tap a square to use the chosen tool; with the keyboard, Tab to the maze, move with the arrow keys and press Space. Fair Robot: tap pages to tick them.",
+      "computer": "Pip really learns, using machine learning written in plain JavaScript that runs only in your browser. Nothing is sent anywhere and no AI service is used. Each lesson uses a different method. Snack Sorter uses one artificial neuron, the building block of big AI systems. Pip turns each snack into two numbers, how sweet and how juicy, multiplies each by a weight, adds them up and squashes the total into a chance of being a fruit. Where the chance is exactly 50 percent you get the straight line on the chart. Training means checking how wrong each guess was and nudging the weights a tiny bit, hundreds of times, until the line fits your examples (this is called gradient descent). Doodle Detective sees your drawing only as 256 squares, each 1 or 0. Pip crops and stretches each drawing to the same size, smudges it slightly, and averages all your drawings of a sign into a memory picture. To guess, it measures how alike a new drawing is to each memory picture and picks the closest; the bars show how sure it is. Maze Runner uses Q-learning, a kind of reinforcement learning described by Chris Watkins in 1989. Pip keeps a table with a score for every square and every move. After each step it updates one score: the reward it got (plus 10 for the charger, plus 3 for a battery, minus 5 for a puddle) plus most of the best score from the square it landed on. Over many tries the good scores spread back from the charger, which is the glow you see. Curiosity is the chance Pip makes a random move instead of its best one, which is how it finds new ways. Fair Robot uses the same kind of neuron as Snack Sorter, trained on two numbers for each page: slant and wobble. Because every neat page in its first examples leaned right, it learned that leaning right meant neat. Adding neat left-handed examples turns the line so that only wobble matters.",
+      "adaptation": "Robot School is not a copy of an old game: it was designed for this site to show how machines learn, the idea behind the history panel's milestones from Arthur Samuel's 1959 checkers program to the game characters that learn today. Every brain is real and small enough to read. Adaptations for 10 to 14 year olds: the sweet and juicy scores are our own made-up readings, not laboratory measurements, and real sorting machines measure many more things; the first two snacks are chosen so that Pip's first rule is too simple, so the first test always has mistakes to learn from; the drawing brain averages examples into memory pictures (a nearest-average classifier), which is simpler than the neural networks used in real handwriting readers; the maze uses a table rather than a neural network and Pip can sense walls next to it, so it never walks into one; a try ends after 10 steps for every square, when Pip's battery runs out; the writing in Fair Robot is drawn by the computer with a chosen slant and wobble, and the class lists are invented. The real-world example in Fair Robot (Joy Buolamwini's 2018 study of face-reading programs) is described in one sentence and should be checked by the history researchers alongside the panel.",
+      "origin": "Our own game, built on machine learning ideas from Arthur Samuel's checkers program (IBM, USA, 1959) to AlphaGo (DeepMind, London, 2016)",
+      "tagline": "Teach it. Watch it learn.",
+      "blurb": "Teach a friendly robot with your own examples, then watch it learn to sort, recognise and find its way, using real machine learning that runs in your browser."
+    },
+    {
+      "story": [
+        "On 1 February 1991 four young game makers started a company called id Software in Shreveport, Louisiana, USA: programmers John Carmack and John Romero, designer Tom Hall and artist Adrian Carmack. Carmack wanted to show a game world through your own eyes, in 3D, on an ordinary home computer. After two test games in 1991, Hovertank 3D and Catacomb 3-D, the team made Wolfenstein 3D. It came out on 5 May 1992, a few weeks after id moved to Mesquite, Texas.",
+        "Carmack's shortcut is called raycasting. The map is really a flat grid of squares, like graph paper, and every wall is the same height. For every column of pixels across the screen, the computer sends out one imaginary line, a ray, from your eye until it hits a wall. A close wall is drawn as a tall stripe and a far wall as a short one. Working out one ray per column was quick enough for a 1992 computer with an Intel 286 processor and a 320 by 200 pixel screen, and it looked like you were standing inside the maze.",
+        "The first episode of Wolfenstein 3D was shareware: free to copy and pass on, with more levels for sale. On 10 December 1993 id put the first episode of Doom on the internet. Its engine, also by Carmack, could draw walls at any angle and floors at different heights, and players could make their own levels. In 2015 The Strong National Museum of Play put Doom in its World Video Game Hall of Fame, saying it shaped the course of gaming history.",
+        "Both games were about fighting with weapons, and both are rated for older players: later releases carry the American M rating, for players 17 and over. That is why the maze in this hall has keys, stars, secret walls and robot caretakers, but no weapons. Labyrinth plays like Wolfenstein 3D, with a maze drawn by raycasting, coloured key doors and walls that slide back to reveal secret rooms. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose a level and press Start. You see the maze through your own eyes, like the first 3D computer games of 1992.",
+        "Explore and collect the gold stars. The bar along the bottom shows your level, your stars, your keys and your time, and the face in the middle shows how you are feeling.",
+        "Coloured doors need the key of the same colour and shape: the red circle, the blue square or the gold triangle. Walk over a key to pick it up, then face the door and press Use.",
+        "Some walls have cracks in them. Face a cracked wall and press Use: it slides back to show a secret room, often full of stars.",
+        "Caretaker robots roll along set routes, tidying up. Each one sees in a cone in front of it. When its eye turns yellow it is starting to notice you, and when it turns pink you have been spotted and sent back to your last checkpoint. Sneak up behind them and wait around corners.",
+        "Walk over a floppy disk to save a checkpoint. Anything you have already collected stays collected.",
+        "Press M for the map. It shows every place you have seen, and the pink squares show what each robot can see right now.",
+        "Find the lift, face it and press Use to finish the level. Finishing a level unlocks the next one. Your best time and most stars are saved on this device."
+      ],
+      "didYouKnow": [
+        "Wolfenstein 3D hid secret rooms behind wall squares that slide back when you push them, so players tried every wall they passed.",
+        "Wolfenstein 3D was made in about half a year for about 25,000 US dollars. Four months before it came out, the art was switched from 16 colours to 256.",
+        "Doom kept its levels and pictures in files called WADs, short for 'Where's All the Data?', so players could build new levels without changing the game's program.",
+        "On the night Doom came out, so many people were waiting to download it that the id team could not connect to the university computer where they planned to put it."
+      ],
+      "sources": [
+        {
+          "title": "DOOM, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/doom/",
+          "note": "Inducted 2015; led by John Carmack and John Romero at id Software; first of three episodes free (shareware); engine kept separate from art so players could modify it; 'shaped the course of gaming history'."
+        },
+        {
+          "title": "Wolfenstein 3D, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+          "note": "Released 5 May 1992; Carmack programmer, Romero and Hall designers, Adrian Carmack artist; viewpoint restricted to a single plane and ray casting; Hovertank 3D (April 1991) and Catacomb 3-D (November 1991); EGA to VGA four months before release; about half a year and US$25,000; sliding secret walls; shareware first episode."
+        },
+        {
+          "title": "Doom (1993 video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+          "note": "First episode uploaded at midnight on 10 December 1993; team could not connect to the University of Wisconsin FTP server because so many users were waiting; walls and floors at varied angles and heights; WAD means 'Where's All the Data?'."
+        },
+        {
+          "title": "Ray casting, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ray_casting",
+          "note": "Wolfenstein 3D was built from a square grid of uniform-height walls; a single ray was traced for every column of screen pixels and the wall slice scaled by how far the ray travelled."
+        },
+        {
+          "title": "id Software, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Id_Software",
+          "note": "Founded 1 February 1991 in Shreveport, Louisiana, by John Carmack, John Romero, Tom Hall and Adrian Carmack; moved to Madison, Wisconsin, in September 1991 and to Mesquite, Texas, on 1 April 1992."
+        },
+        {
+          "title": "Wolfenstein 3D technical specifications, Pixelated Arcade",
+          "url": "https://www.pixelatedarcade.com/games/wolfenstein-3d/techspecs",
+          "note": "Minimum CPU 80286; VGA at 320 x 200 with 256 colours; keyboard, mouse, joystick or gamepad."
+        },
+        {
+          "title": "Wolfenstein 3D rating, Entertainment Software Rating Board",
+          "url": "https://www.esrb.org/ratings/32926/wolfenstein-3d/",
+          "note": "Rated M for Mature 17+ (Blood and Gore, Violence) for the PlayStation 3, Xbox 360 and Xbox One releases."
+        },
+        {
+          "title": "DOOM (1993) rating, Entertainment Software Rating Board",
+          "url": "https://www.esrb.org/ratings/37846/doom-1993/",
+          "note": "Rated M for Mature 17+ (Blood and Gore, Violence) for the Linux, PlayStation 4 and Nintendo Switch releases."
+        },
+        {
+          "title": "Entertainment Software Rating Board, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board",
+          "note": "The ESRB was formed on 16 September 1994, after both games first came out."
+        }
+      ],
+      "uncertainties": [
+        "The ratings quoted are for later re-releases. When Wolfenstein 3D (1992) and Doom (1993) first came out, the American ESRB (formed in September 1994) did not exist, and Australia only introduced a separate classification system for games in 1994.",
+        "A search listing of the Australian Classification Board's database shows DOOM (1993) classified MA15+ for strong violence on 9 October 2020, but the database page could not be opened during this research, so the story uses the American rating only.",
+        "Sources differ on the minimum memory for Wolfenstein 3D (528 KB or 640 KB); Pixelated Arcade says a 286 processor was the minimum. A faster 386 ran it better.",
+        "id Software was in Madison, Wisconsin, for most of Wolfenstein 3D's development and moved to Mesquite, Texas, on 1 April 1992, a month before release, so the origin line says Texas.",
+        "Download and player numbers for Doom's shareware version are estimates and vary between sources, so they are left out."
+      ],
+      "playable": true,
+      "id": "labyrinth",
+      "title": "Labyrinth",
+      "era": "1990s",
+      "year": 1992,
+      "yearLabel": "1992 (Doom followed in 1993)",
+      "stamp": "1992",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Keyboard: Up and Down arrows (or W and S) to walk, Left and Right arrows (or A and D) to turn, Q and E (or Shift with Left and Right) to step sideways, Space or Enter to use, M for the map, P to pause. Touch or mouse: hold the arrow keys under the screen to walk, turn and step sideways, and tap the screen or USE to open doors, push walls and ride the lift. MAP and the pause key sit next to USE.",
+      "computer": "There is no real 3D world inside this game. The maze is a flat grid of squares, like a map drawn on graph paper. To draw what you see, the computer sends out one invisible ray for every column of pixels across the screen, fanning out from your eyes like a torch beam. Each ray hops from square to square across the grid until it lands in a square that holds a wall, and the computer measures how far it travelled. A close wall is drawn as a tall stripe and a far wall as a short stripe, so all the stripes side by side look like a 3D room. The computer also works out exactly where the ray hit the wall, so it knows which thin slice of the brick or bookshelf picture to paint in that stripe, and it paints far stripes darker, like fog. This trick is called raycasting. On a laptop the picture is 320 pixels wide, so the computer casts 320 rays, 60 times a second: more than 19,000 rays every second. The floor is painted row by row in a similar way. The keys, stars and robots are flat pictures called sprites that always turn to face you. They are drawn from the furthest to the nearest, and any slice of a sprite is skipped if a wall in that column is closer. The caretaker robots never chase you. Each one follows its own fixed loop of points. Many times a second it checks three things: are you within its range, are you inside its cone of vision, and is there a clear line between you with no wall in the way? It checks that line with the same square-hopping trick as the rays. If all three are true, its notice meter fills, faster when you are close. When the meter is full, you are spotted.",
+      "adaptation": "Wolfenstein 3D (id Software, 1992) and Doom (id Software, 1993) were shooting games. Labyrinth keeps their 3D maze mechanics and leaves out every weapon and every fight. Like Wolfenstein 3D, it draws its maze with raycasting on a grid, with sliding doors, secret walls that slide back when you push them, and a face in the status bar that reacts to what happens. Like both games, it has coloured keys for locked doors, and like Doom it has an automap and textured floors and ceilings (Wolfenstein 3D's floors and ceilings were flat colours). There are no enemies and no health: the only danger is being spotted by a caretaker robot, which sends you back to a checkpoint. Instead of treasure and points you collect stars and try for your best time. The robots' view cones on the map are new, to show how their seeing works. The four levels, the names, the robots, the face, the sounds and every picture are our own, drawn by code.",
+      "origin": "Mechanics of Wolfenstein 3D and Doom by id Software, Texas, USA",
+      "tagline": "Find the keys. Reach the lift.",
+      "blurb": "Walk through a maze drawn in 3D, find coloured keys and secret rooms and slip past the robot caretakers, like the 1992 game Wolfenstein 3D."
     }
   ],
   "kids": [
@@ -3637,6 +5538,545 @@ window.GIT_CONTENT = {
       ]
     },
     {
+      "era": "1990s",
+      "title": "Being 12 in the 1990s",
+      "paragraphs": [
+        "Computers moved from the school library into the lounge room. In 1998, 45 out of every 100 Australian homes had a computer, but only 16 had the internet at home. That was still a big jump: in 1996 only about 286,000 homes were online. In the 1990s the Australian Bureau of Statistics even added home computers and software to the list of things it checks to measure prices.",
+        "Money changed in your pocket. The 1 cent and 2 cent coins were taken out of use in 1992, and between 1992 and 1996 Australia brought in a whole set of plastic banknotes, the first country in the world to do it.",
+        "On TV, Bananas in Pyjamas began on the ABC on 20 July 1992, and the Wiggles started singing in 1991. Neighbours was still filmed in a real Melbourne street. Sony's PlayStation went on sale in Australia on 15 November 1995, the Tamagotchi went on sale around the world in 1997, and Pokémon Red and Blue arrived on the Game Boy in 1998. From 1994 video games sold in Australia got their own classification labels.",
+        "Big news you might remember: on 3 June 1992 the High Court's Mabo decision recognised that Aboriginal and Torres Strait Islander peoples could hold native title to their land. On 24 September 1993 Sydney won the vote to hold the 2000 Olympic Games, beating Beijing by 45 votes to 43."
+      ],
+      "fastFacts": [
+        "In 1998, 45 in every 100 Australian homes had a computer and 16 in every 100 had the internet. (Australian Bureau of Statistics)",
+        "Australia's polymer banknotes, issued from 1992 to 1996, were the world's first full set printed on plastic instead of paper. (Reserve Bank of Australia)",
+        "The 1 cent and 2 cent coins were withdrawn from circulation in 1992. (Wikipedia)",
+        "Sony's PlayStation went on sale in Australia on 15 November 1995. (Wikipedia)",
+        "From 1994 computer and video games in Australia had their own classification system, separate from films. (Wikipedia)",
+        "Sydney won the 2000 Olympics on 24 September 1993 by 45 votes to Beijing's 43. (Wikipedia)"
+      ],
+      "compare": "In 1998, 16 in every 100 Australian homes had the internet. If your class had 30 students in 1998, about how many would have been online at home? How many in your class are online at home today?",
+      "sources": [
+        {
+          "title": "Household Use of Information Technology, Australia, 1998 (media release 63/99), Australian Bureau of Statistics",
+          "url": "https://abs.gov.au/ausstats/abs@.nsf/Previousproducts/8146.0Media%20Release11998?issue=1998&num=&opendocument=&prodno=8146.0&tabname=Summary&view=",
+          "note": "In 1998, 16% of households (1.1 million) had home internet access, up from 286,000 households in 1996; 45% of households (3.0 million) had a home computer."
+        },
+        {
+          "title": "What changes in prices and their collection tell us about Australia, Australian Bureau of Statistics, 2023",
+          "url": "https://www.abs.gov.au/articles/what-changes-prices-and-their-collection-tell-us-about-australia",
+          "note": "Goods added to the CPI basket in the 1990s include home computers and software."
+        },
+        {
+          "title": "History of Australia's banknotes, Reserve Bank of Australia",
+          "url": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+          "note": "The first polymer series was issued between 1992 and 1996, the first in the world printed on polymer instead of paper."
+        },
+        {
+          "title": "Australian one-cent coin, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_one-cent_coin",
+          "note": "Withdrawn from circulation in 1992 along with the two-cent coin."
+        },
+        {
+          "title": "Bananas in Pyjamas, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bananas_in_Pyjamas",
+          "note": "First aired on ABC-TV on 20 July 1992."
+        },
+        {
+          "title": "The Wiggles, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Wiggles",
+          "note": "Years active 1991 to present."
+        },
+        {
+          "title": "Ramsay Street, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ramsay_Street",
+          "note": "Pin Oak Court in Vermont South, Melbourne, has doubled for Ramsay Street for the whole of Neighbours' run and is popular with tourists."
+        },
+        {
+          "title": "PlayStation (console), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+          "note": "Released in Australia on 15 November 1995."
+        },
+        {
+          "title": "Tamagotchi, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+          "note": "Released in Japan in 1996 and worldwide in 1997."
+        },
+        {
+          "title": "Pokémon Red, Blue and Yellow, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow",
+          "note": "Red and Blue were released in Australia later in 1998; Yellow on 3 September 1999."
+        },
+        {
+          "title": "Australian Classification Board, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_Classification_Board",
+          "note": "A separate classification system for computer and video games was introduced in 1994."
+        },
+        {
+          "title": "Mabo v Queensland (No 2), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mabo_v_Queensland_(No_2)",
+          "note": "High Court of Australia decision of 3 June 1992 recognising native title."
+        },
+        {
+          "title": "2000 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2000_Summer_Olympics",
+          "note": "Sydney won the right to host on 24 September 1993, beating Beijing 45 to 43 in the fourth round of voting."
+        }
+      ],
+      "uncertainties": [
+        "No reliable dated source was found for typical pocket money in the 1990s, so the panel uses internet and computer figures instead.",
+        "Wikipedia gives no exact Australian release date for Pokémon Red and Blue, only 'later in 1998'.",
+        "No source was found for the exact date the Tamagotchi went on sale in Australia; the panel says 1997, when it went on sale around the world.",
+        "The 1998 ABS figures combine four household surveys taken during the year."
+      ]
+    },
+    {
+      "era": "2000s",
+      "title": "Being 12 in the 2000s",
+      "paragraphs": [
+        "The decade began with the Sydney 2000 Olympic Games, from 15 September to 1 October. On 25 September Cathy Freeman, who had lit the Olympic flame, won the 400 metres. In October the Paralympic Games filled the stands with school groups in green and gold face paint.",
+        "Shopping changed on 1 July 2000, when a 10 per cent goods and services tax (GST) started on most things you buy. At home the internet became normal: by 2008-09, 72 in every 100 Australian homes were online, and most of them had broadband. In 2009, 79 in every 100 children aged 5 to 14 used the internet, and 31 in every 100 had their own mobile phone. From 2008 the Digital Education Revolution began giving laptops to public high school students in Years 9 to 12.",
+        "The PlayStation 2 went on sale in Australia on 30 November 2000, the Nintendo DS on 24 February 2005 and the Wii on 7 December 2006. Australian studios made hits too: Krome Studios in Brisbane made Ty the Tasmanian Tiger in 2002, and Firemint in Melbourne made Flight Control, which was the number 1 app in 19 countries at once on 6 April 2009. Australian Idol began on TV on 27 July 2003.",
+        "Much of southern Australia was in the Millennium Drought, the worst on record. Melbourne had strict Stage 3a water restrictions from 1 April 2007. On 13 February 2008 Prime Minister Kevin Rudd made the National Apology to the Stolen Generations, Aboriginal and Torres Strait Islander children who had been taken from their families."
+      ],
+      "fastFacts": [
+        "Cathy Freeman won the 400 metres at the Sydney Olympics on 25 September 2000 in 49.11 seconds. (Wikipedia)",
+        "The GST started on 1 July 2000. (Wikipedia)",
+        "In 2008-09, 72 in every 100 Australian homes had the internet, up from 16 in 1998. (Australian Bureau of Statistics)",
+        "In 2009, 69 in every 100 Australian children aged 5 to 14 who used the internet at home played games online. (Australian Bureau of Statistics)",
+        "The Wii went on sale in Australia on 7 December 2006, with Wii Sports in the box. (Wikipedia)",
+        "Flight Control, made by Firemint in Melbourne, was number 1 on the App Store in 19 countries at once on 6 April 2009. (Wikipedia)"
+      ],
+      "compare": "In 1998, 16 in every 100 Australian homes had the internet. By 2008-09 it was 72 in every 100. How many times bigger is that? In 2009, 31 in every 100 children aged 5 to 14 had their own mobile phone. How does your class compare today?",
+      "sources": [
+        {
+          "title": "2000 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2000_Summer_Olympics",
+          "note": "Held from 15 September to 1 October 2000; Cathy Freeman lit the cauldron."
+        },
+        {
+          "title": "Athletics at the 2000 Summer Olympics, Women's 400 metres, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Athletics_at_the_2000_Summer_Olympics_%E2%80%93_Women%27s_400_metres",
+          "note": "Final on 25 September 2000; Cathy Freeman won gold in 49.11 seconds."
+        },
+        {
+          "title": "Audience: Australian fans cheer, 2000 Sydney Paralympic Games, Australian Paralympic Committee (Wikimedia Commons)",
+          "url": "https://commons.wikimedia.org/wiki/File:251000_-_Audience_Australian_fans_cheer_-_3b_-_2000_Sydney_public_photo.jpg",
+          "note": "Excited school children in green and gold face paint cheering at the 2000 Sydney Paralympic Games, 25 October 2000."
+        },
+        {
+          "title": "Goods and Services Tax (Australia), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(Australia)",
+          "note": "A 10% tax on most goods and services, in operation from 1 July 2000."
+        },
+        {
+          "title": "Household Use of Information Technology, Australia, 2008-09, Australian Bureau of Statistics",
+          "url": "https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/8146.0Main+Features12008-09",
+          "note": "72% of households had home internet and 78% a computer; 62% had broadband; internet access rose from 16% in 1998; in 2009, 79% of children aged 5 to 14 used the internet, 69% of home users played online games and 31% had their own mobile phone."
+        },
+        {
+          "title": "Digital Education Revolution, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Digital_Education_Revolution",
+          "note": "Launched in 2008; laptops for public high school students in Years 9 to 12 through the National Secondary School Computer Fund."
+        },
+        {
+          "title": "PlayStation 2, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PlayStation_2",
+          "note": "Released in Australia on 30 November 2000."
+        },
+        {
+          "title": "Nintendo DS, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nintendo_DS",
+          "note": "Released in Australia on 24 February 2005."
+        },
+        {
+          "title": "Wii, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wii",
+          "note": "Released in Australia on 7 December 2006."
+        },
+        {
+          "title": "Ty the Tasmanian Tiger, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ty_the_Tasmanian_Tiger",
+          "note": "2002 platform game developed by Krome Studios."
+        },
+        {
+          "title": "Krome Studios, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Krome_Studios",
+          "note": "Australian developer with headquarters in Brisbane."
+        },
+        {
+          "title": "Flight Control (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flight_Control_(video_game)",
+          "note": "Developed by Firemint, released for iOS on 5 March 2009; number one on the App Store in 19 countries on 6 April 2009; an update added an Australian Outback map with Royal Flying Doctor Service planes."
+        },
+        {
+          "title": "Firemonkeys Studios (formerly Firemint), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Firemint",
+          "note": "Headquarters in Melbourne; made the Flight Control series."
+        },
+        {
+          "title": "Australian Idol, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_Idol",
+          "note": "First aired on Network 10 on 27 July 2003."
+        },
+        {
+          "title": "Millennium drought, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Millennium_drought",
+          "note": "Affected most of southern Australia; recognised by 2003 as the worst on record; Melbourne had Stage 3a water restrictions from 1 April 2007."
+        },
+        {
+          "title": "Apology to Australia's Indigenous peoples, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apology_to_Australia%27s_Indigenous_peoples",
+          "note": "On 13 February 2008 Prime Minister Kevin Rudd offered the apology to the Stolen Generations on behalf of the nation."
+        }
+      ],
+      "uncertainties": [
+        "No reliable dated source was found for typical pocket money in the 2000s, so the panel uses internet and phone figures instead.",
+        "The 2009 children's figures come from an ABS survey of children aged 5 to 14, not just 12-year-olds.",
+        "Wikipedia gives both 'late 2008' and August 2008 for the first Digital Education Revolution laptops, so the panel says 'from 2008'.",
+        "Water restrictions differed between cities and changed often; the panel gives only Melbourne's Stage 3a date."
+      ]
+    },
+    {
+      "era": "2010s",
+      "title": "Being 12 in the 2010s",
+      "paragraphs": [
+        "School went digital. Under the federal government's Digital Education Revolution, public high school students in Years 9 to 12 were given laptops from 2009, and in May 2010 the first iPads went on sale in Australia. In 2015 Year 7 moved from primary school into high school in Queensland and Western Australia. That September, education ministers signed off on the new Digital Technologies curriculum, so coding became part of school from the very first years.",
+        "In 2017 pocket money averaged almost $6 a week, and many kids were saving it for phones, tablets and even virtual reality headsets. More shopping was done by tapping a card or phone, and parents told a bank survey this made the value of money harder to teach. On 1 September 2016 a new $5 note arrived with raised bumps on its edges, so people who are blind can tell what it is worth. It happened after Connor McLeod, a blind teenager, started a petition that more than 57,000 people signed.",
+        "In 2012, 73 per cent of Australians aged 12 to 14 had their own mobile phone, and 98 per cent used the internet. Netflix arrived in March 2015. Kids sliced fruit in Fruit Ninja, made in Brisbane, built worlds in Minecraft and watched other people play on YouTube. On 6 July 2016 Australia was one of the first three countries to get Pokémon Go, and within days thousands of players were walking the streets of Canberra hunting for Pokémon. Bluey, also made in Brisbane, started on ABC Kids on 1 October 2018.",
+        "Big news you might remember: in April 2018 the Gold Coast hosted the Commonwealth Games, the first major multi-sport games with an equal number of events for women and men. In July 2018 two Australian cave divers, Dr Richard Harris and Dr Craig Challen, helped rescue 12 young footballers and their coach from a flooded cave in Thailand. In January 2019 they were named joint Australians of the Year."
+      ],
+      "fastFacts": [
+        "The first iPads went on sale in Australia on 28 May 2010. (Wikipedia)",
+        "Year 7 moved into high school in Queensland and Western Australia in 2015. (ABC News)",
+        "In 2017 kids' pocket money averaged almost $6 a week; their parents had got about $1.67 a week in the 1980s. (Commonwealth Bank)",
+        "The new $5 note of 1 September 2016 was the first Australian banknote with a tactile feature for people who are blind or have low vision. (Vision Australia)",
+        "Within 15 minutes of Pokémon Go's launch in Australia and New Zealand on 6 July 2016, more players arrived than its makers had expected for the whole world. (Wikipedia)",
+        "Owen Beck was 13 when he started playing Pokémon Go in 2016. By 2026 he had walked more than 32,500 kilometres while playing. (ABC News)"
+      ],
+      "compare": "In April 2012, 73 out of every 100 Australians aged 12 to 14 had a mobile phone. In a class of 26 twelve-year-olds, about how many is that? Ask your class how many have a phone today, and talk about what has changed since then, including the rules about phones at school.",
+      "sources": [
+        {
+          "title": "Digital Education Revolution, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Digital_Education_Revolution",
+          "note": "Australian government program launched in 2008 to provide laptops to all public high school students in Years 9 to 12 through the National Secondary School Computer Fund; first laptops delivered in NSW at Fairvale High School on 26 August 2009."
+        },
+        {
+          "title": "iPad (1st generation), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IPad_(1st_generation)",
+          "note": "Released in Australia and eight other countries on 28 May 2010."
+        },
+        {
+          "title": "Qld to move year 7 to high school, ABC News, 9 June 2011",
+          "url": "https://www.abc.net.au/news/2011-06-09/qld-to-move-year-7-to-high-school/2752234",
+          "note": "Year 7 will move to high school in Queensland schools from 2015."
+        },
+        {
+          "title": "Education in Western Australia, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Education_in_Western_Australia",
+          "note": "The age that a student begins secondary school was lowered in 2015, to begin at Year 7."
+        },
+        {
+          "title": "Australia's Digital Technologies curriculum finally signed off, The Register, 19 September 2015",
+          "url": "https://www.theregister.com/offbeat/2015/09/19/australias-digital-technologies-curriculum-finally-signed-off/514618",
+          "note": "'Last Friday, Australia signed off on the nation's Digital Technologies curriculum, the first effort to teach computational thinking from infants' school to late High School', endorsed by the Education Council of ministers."
+        },
+        {
+          "title": "Aussie kids earn 250 per cent more pocket money than their parents did and spend big on tech, Commonwealth Bank, 2017",
+          "url": "https://www.commbank.com.au/guidance/newsroom/aussie-kids-earn-250-per-cent-more-pocket-money-201701.html",
+          "note": "2017 School Banking Study: almost $6 a week, starting from age six; parents got $1.67 in the 1980s; 42 per cent saving for electronic devices such as smartphones, tablets and virtual reality headsets; parents say digital transactions make the value of money harder to understand; survey of 1,046 parents in December 2016."
+        },
+        {
+          "title": "Next Generation of Banknotes: $5 Banknote Design Reveal, Reserve Bank of Australia media release, 2016",
+          "url": "https://www.rba.gov.au/media-releases/2016/mr-16-09.html",
+          "note": "The new $5 banknote enters circulation from 1 September 2016 and has a new tactile feature to help the vision-impaired community."
+        },
+        {
+          "title": "Blind Boy's Quest Prompts Australia To Plan Tactile Cash, NPR, 18 February 2015",
+          "url": "https://www.npr.org/sections/thetwo-way/2015/02/18/387203841/blind-boy-s-quest-prompts-australia-to-plan-tactile-cash",
+          "note": "Connor McLeod, blind since birth, could not tell how much money he got for Christmas; more than 57,000 people signed the petition he and his mother started."
+        },
+        {
+          "title": "New $100 bill marks historic milestone for Australian currency, Vision Australia, 29 October 2020",
+          "url": "https://www.visionaustralia.org/news/2020-10-29/new-100-bill-marks-historic-milestone-australian-currency",
+          "note": "The $5 note was the first Australian banknote with the tactile feature in 2016, following a petition by then teenager Connor McLeod; raised bumps on the long edges."
+        },
+        {
+          "title": "Children's Participation in Cultural and Leisure Activities, Australia, April 2012, Australian Bureau of Statistics",
+          "url": "https://www.abs.gov.au/statistics/people/people-and-communities/childrens-participation-cultural-and-leisure-activities-australia/latest-release",
+          "note": "73 per cent of 12 to 14 year olds had a mobile phone; 98 per cent of 12 to 14 year olds accessed the internet."
+        },
+        {
+          "title": "Netflix, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Netflix",
+          "note": "In March 2015, Netflix expanded to Australia and New Zealand."
+        },
+        {
+          "title": "Pokémon Go, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go",
+          "note": "Official launch on 6 July 2016 in Australia, New Zealand and the United States; global server use expectations were passed within 15 minutes of the release in Australia and New Zealand."
+        },
+        {
+          "title": "Pokemon Go mass hunt lures thousands to Canberra's CBD, ABC News, 17 July 2016",
+          "url": "https://www.abc.net.au/news/2016-07-17/pokemon-go-mass-hunt-lures-thousands-in-canberra/7635956",
+          "note": "Thousands gathered in Civic to hunt Pokémon after the game's release in Australia, the US and New Zealand the week before."
+        },
+        {
+          "title": "Pokémon GO was a 2016 phenomenon. Ten years later, some players never stopped, ABC News, 4 July 2026",
+          "url": "https://www.abc.net.au/news/2026-07-04/pok%C3%A9mon-go-ten-years-brisbane/106814966",
+          "note": "Owen Beck started playing at 13; has walked more than 32,500 kilometres; weekly meet-ups at South Bank, Brisbane."
+        },
+        {
+          "title": "Bluey (2018 TV series), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)",
+          "note": "Made by Ludo Studio in Brisbane; premiered on ABC Kids on 1 October 2018."
+        },
+        {
+          "title": "Minecraft, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Minecraft",
+          "note": "Minecraft was the second most searched term on YouTube in 2014 and YouTube's biggest game in 2018."
+        },
+        {
+          "title": "2018 Commonwealth Games, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Games",
+          "note": "Gold Coast, 4 to 15 April 2018; the first major multi-sport event with an equal number of events for male and female athletes."
+        },
+        {
+          "title": "Tham Luang cave rescue, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue",
+          "note": "Twelve team members aged 11 to 16 and their coach trapped from 23 June 2018; all rescued between 8 and 10 July 2018; Australians Richard Harris and Craig Challen among the lead divers."
+        },
+        {
+          "title": "Australian of the Year 2019 goes to Thai cave rescue divers Richard Harris and Craig Challen, ABC News, 26 January 2019",
+          "url": "https://www.abc.net.au/news/2019-01-26/australian-of-the-year-awards-2019-announced-in-canberra/10751382",
+          "note": "Named joint Australian of the Year for helping rescue 12 soccer players and their coach from a flooded cave in Chiang Rai, Thailand."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia describes the Digital Education Revolution laptops as for public high school students in Years 9 to 12; how the program worked differed from state to state.",
+        "The pocket money figure comes from a survey of 1,046 parents in December 2016, published by CommBank in 2017.",
+        "NPR (February 2015) gives Connor McLeod's age as 13; other reports describe him as 15 when the change was announced. The panel says only 'a blind teenager'.",
+        "Pokémon Go launched on 6 July 2016 in three countries; because of time zones Australians may have played before Americans, but no source opened says so directly.",
+        "The 73 per cent phone figure is from ABS in April 2012; no later ABS figure for this age group was opened.",
+        "One diver, the former Thai Navy SEAL Saman Kunan, died during the 2018 rescue operation. The panel does not go into this."
+      ]
+    },
+    {
+      "era": "2020s",
+      "title": "Being 12 in the 2020s",
+      "paragraphs": [
+        "In 2020 a new virus, COVID-19, spread around the world. To slow it down, many Australian schools moved lessons online for a while, and students learned from home with laptops, tablets and video calls. How long depended on where you lived: about 36 weeks across 2020 and 2021 in Melbourne, about 20 in Greater Sydney, 3 in Western Australia and less than one week in Darwin. Children of essential workers, and students who needed extra support, could still go to school. On walks, many kids spotted teddy bears that neighbours had put in their windows for them to find.",
+        "Phones got new rules. By 2024 every state and territory had rules keeping phones switched off and put away during public school hours; in Queensland it is called 'away for the day'. From 10 December 2025, a world-first law said platforms such as TikTok, Instagram, Snapchat and YouTube must take reasonable steps to stop under-16s having accounts. Online games and messaging apps are not covered. Pocket money went digital too: in 2025 about half of parents who paid pocket money did it digitally.",
+        "Bluey, the cartoon blue heeler from Brisbane, became one of the most watched shows in the world, and its makers kept animating from home during lockdowns. Daily puzzles were everywhere: Wordle was the thing Australians searched for most on Google in 2022, and in 2023 The New York Times added Connections. Many kids built in Minecraft at school, and in late 2023 the watermelon game, Suika, became a hit on the Nintendo Switch. In December 2025 Halfbrick, the Brisbane studio behind Fruit Ninja, released the first Bluey video game made in Australia.",
+        "Big news you might remember: on 21 July 2021 Brisbane was chosen to host the 2032 Olympic Games. In 2023 Australia and New Zealand hosted the FIFA Women's World Cup, and on 16 August the Matildas' semi-final against England became the most watched TV program in Australia since the current ratings system began in 2001."
+      ],
+      "fastFacts": [
+        "Over six lockdowns, students in Melbourne learned from home for about 36 weeks in 2020 and 2021; in Darwin it was less than one week. (Australian Education Research Organisation)",
+        "Wordle was the thing Australians searched for most on Google in 2022. (Google Australia)",
+        "The Matildas' 2023 World Cup semi-final drew an average TV audience of 7.13 million people. (ABC News)",
+        "From 10 December 2025, platforms that do not take reasonable steps to keep under-16s off can be fined up to $49.5 million. Online games are not included. (ABC News)",
+        "In a 2025 survey, kids aged 8 to 17 who earned pocket money for chores got an average of $25 a week. (Westpac)",
+        "Bluey's makers say their game Bluey's Quest for the Gold Pen gives about 10 hours of play, almost twice the length of a whole season of the show. (ABC News)"
+      ],
+      "compare": "In 2020 and 2021, students in Melbourne learned from home for about 36 weeks, while students in Western Australia did so for about 3. If a school year is about 40 weeks long, what fraction of a school year is each? What would you miss most if school moved to your kitchen table, and what might you enjoy?",
+      "sources": [
+        {
+          "title": "Review of remote and online learning experiences during COVID-19, final report, Australian Education Research Organisation and Victoria University, September 2022",
+          "url": "https://content.vu.edu.au/sites/default/files/documents/2023-04/review-remote-online-learning-aa-ff.pdf",
+          "note": "'from 6 lockdowns totalling 36 weeks in metropolitan Melbourne, through to Darwin experiencing less than 1 week'; table of weeks of remote schooling 2020 to 2021: Greater Sydney 20, Western Australia 3, regional Victoria 23; face-to-face learning stayed available for children of essential workers and vulnerable students."
+        },
+        {
+          "title": "Socially distant bear hunts popping up all around the world to distract children from coronavirus, ABC News, 25 March 2020",
+          "url": "https://www.abc.net.au/news/2020-03-25/coronavirus-bear-hunts-around-the-world-including-melbourne/12085168",
+          "note": "Teddy bears and rainbows appearing in gardens, windows and fences, including in Melbourne, for children to spot on walks."
+        },
+        {
+          "title": "Jury still out on whether school phone bans help kids learn, reduce bullying, ABC News, 15 August 2024",
+          "url": "https://www.abc.net.au/news/2024-08-15/is-mobile-phone-ban-in-schools-helping-students-learn/104218850",
+          "note": "'All states and territories now have their own bans on mobile phones in schools'; rules for each state."
+        },
+        {
+          "title": "Queensland government confirms blanket mobile phone ban in state schools, ABC News, 7 July 2023",
+          "url": "https://www.abc.net.au/news/2023-07-07/phones-banned-in-queensland-state-schools/102573822",
+          "note": "Phones must be 'away for the day' in Queensland state schools from the next year (2024)."
+        },
+        {
+          "title": "Australia's social media ban for under-16s starts today. Here is what you should know, ABC News, 10 December 2025",
+          "url": "https://www.abc.net.au/news/2025-12-10/australias-social-media-ban-for-under-16s-starts-today/106119800",
+          "note": "A world-first push; platforms must take 'reasonable steps' to stop under-16s holding accounts or face penalties of up to $50 million."
+        },
+        {
+          "title": "Which apps are included in Australia's social media ban?, ABC News, 5 November 2025",
+          "url": "https://www.abc.net.au/news/2025-11-05/what-social-media-apps-are-getting-banned-in-australia/105973258",
+          "note": "Ten platforms included, among them TikTok, Instagram, Snapchat and YouTube; fines of up to $49.5 million; excluded services include messaging, online games and education."
+        },
+        {
+          "title": "Kids earning more pocket money than their parents did, Westpac media release, 28 September 2025",
+          "url": "https://www.westpac.com.au/about-westpac/media/media-releases/2025/28-september/",
+          "note": "55 per cent of children aged 8 to 17 earn pocket money for chores, an average of $25 a week; 49 per cent of parents who give pocket money use digital payments."
+        },
+        {
+          "title": "Bluey (2018 TV series), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)",
+          "note": "Made by Ludo Studio in Brisbane; during the COVID-19 lockdown the production staff of 50 worked on episodes remotely from home."
+        },
+        {
+          "title": "Halfbrick Studios CEO Shainiel Deo on creating the first Bluey video game made in Brisbane, ABC News, 9 December 2025",
+          "url": "https://www.abc.net.au/news/2025-12-09/bluey-video-game-halfbrick-studios-brisbane/106113906",
+          "note": "Bluey is 'one of the most watched television shows around the world'; Bluey's Quest for the Gold Pen is the first Bluey game made by an Australian studio; about 10 hours of play, almost twice the length of a season."
+        },
+        {
+          "title": "Year in Search: Here's what Aussies searched for in 2022, Google Australia blog",
+          "url": "https://blog.google/intl/en-au/products/explore-get-answers/year-in-search-heres-what-aussies-searched-for-in-2022/",
+          "note": "Australians 'searched for Wordle more than anything else'."
+        },
+        {
+          "title": "The New York Times Connections, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Connections",
+          "note": "Released in beta on 12 June 2023."
+        },
+        {
+          "title": "The Nintendo Switch dark horse Suika Game finally gets US release, AUTOMATON WEST, 23 October 2023",
+          "url": "https://automaton-media.com/en/news/20231023-22458/",
+          "note": "Viral in Japan from about September 2023; released in the Americas on 20 October 2023."
+        },
+        {
+          "title": "Minecraft: Education Edition partnership, Premier of Victoria media release, 9 February 2020",
+          "url": "https://www.premier.vic.gov.au/new-programs-schools-build-digital-tech-skills",
+          "note": "Every Victorian government school student to have access to Minecraft: Education Edition."
+        },
+        {
+          "title": "2032 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2032_Summer_Olympics",
+          "note": "Brisbane approved as host on 21 July 2021 at the IOC Session in Tokyo."
+        },
+        {
+          "title": "Matildas' Women's World Cup semifinal loss to England sets TV audience record, ABC News, 17 August 2023",
+          "url": "https://www.abc.net.au/news/2023-08-17/fifa-womens-world-cup-matildas-england-tv-audience/102741074",
+          "note": "The most-watched TV program since the current audience measurement system began in 2001; national average audience of 7.13 million."
+        }
+      ],
+      "uncertainties": [
+        "AERO's week counts include only weeks when most students learned remotely; the real time differed by year level and suburb.",
+        "The eSafety Commissioner's own pages could not be opened (server errors), so the social media rules come from ABC News. The ABC gives the maximum fine as both $49.5 million and 'up to $50 million', and the list of platforms may change.",
+        "Westpac's $25 average covers 8 to 17 year olds who earn pocket money for chores; an undated CommBank page gives $11.37 a week for 10 to 12 year olds, so averages depend on who is asked.",
+        "The Women's World Cup semi-final was played on the evening of 16 August 2023 in Sydney.",
+        "How many Australian kids used Minecraft at school was not measured in any source opened; the panel says 'many'."
+      ]
+    },
+    {
+      "era": "2030s",
+      "title": "Being 12 in 2035",
+      "imagined": true,
+      "paragraphs": [
+        "This panel is different. Nobody has been 12 in 2035 yet, so this is an honest imagining, built from real plans and forecasts, not facts. If you are 12 in 2035, you were born in 2023. You were about 5 when a total solar eclipse darkened Sydney on 22 July 2028, the city's first since 1857, and about 9 when Brisbane hosted the Olympic Games from 23 July to 8 August 2032.",
+        "At school you might have an AI helper that asks you questions instead of handing you answers. That has already begun: from 14 October 2025, NSW public school students in Year 5 and up could use NSWEduChat, built to guide students with open-ended questions. In 2023 Australia's education ministers agreed on a national framework for AI in schools, with fairness and privacy among its six principles. In Digital Technologies you would learn how machines learn from examples, and why bad examples make unfair machines.",
+        "You probably would not have a social media account. Since 10 December 2025 Australian law has required social media platforms to stop under-16s having accounts, although services mainly for playing online games with others are left out. You might rarely touch cash: in 2022 only 13 per cent of payments in Australia were made with it. Your games might run on a console, a phone, a headset or a server far away in the cloud.",
+        "Australia would be busier, with about 31.5 million people projected by the 2035-36 financial year, up from 27.5 million in 2025. The country has promised to cut its greenhouse gas emissions by 62 to 70 per cent below 2005 levels by 2035. The Climate Change Authority said even the lower number would need about four times as much wind power. Whether these plans come true depends on the grown-ups of today, and on the kids reading this."
+      ],
+      "fastFacts": [
+        "The total solar eclipse on 22 July 2028 will be Sydney's first since 26 March 1857. (Wikipedia)",
+        "Brisbane will host the Olympic Games from 23 July to 8 August 2032. (Wikipedia)",
+        "Since 10 December 2025, social media platforms must stop Australians under 16 from having accounts, but services mainly for playing online games together are excluded. (Clayton Utz, on the eSafety rules)",
+        "Australia's population is projected to reach 31.5 million by the 2035-36 financial year. (Centre for Population, 2025 Population Statement)",
+        "Old computers that count time as seconds since 1 January 1970 in a 32-bit number will run out at 3:14:07 am UTC on 19 January 2038 unless they are updated. (Wikipedia, Year 2038 problem)",
+        "In 2022 cash was used for 13 per cent of payments in Australia, down from 27 per cent in 2019. (Reserve Bank of Australia)"
+      ],
+      "compare": "A 12-year-old in 2035 was born in 2023. How old will you be in 2035? Scratch came out in 2007 and Minecraft's full version in 2011: how old will each be in 2035? Which games from this website do you think a 12-year-old in 2035 will still know?",
+      "questions": [
+        "Should a game character run by AI have to tell you it is not a person?",
+        "If an AI learned to draw by studying millions of pictures by real artists, who made the picture it draws for you?",
+        "Kids under 16 in Australia can play online games together but cannot have social media accounts. Is that the right line? Where would you draw it?",
+        "The world made 62 million tonnes of e-waste in 2022, and 82 million tonnes are expected in 2030. That is 20 million tonnes more in 8 years, or 2.5 million tonnes more each year. If it kept growing like that, how much would there be in 2035? What could players and game makers do to change that number?",
+        "Would you rather play in a headset that hides the real world, or in glasses that add things to it? Why?",
+        "RoboCup's goal is a robot team that beats the human World Cup champions by 2050. Will it happen? Should it?"
+      ],
+      "sources": [
+        {
+          "title": "Solar eclipse of July 22, 2028, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_July_22,_2028",
+          "note": "Total in Sydney, 'the first time Sydney will experience a total solar eclipse since March 26, 1857'; path crosses WA, NT, south-west Queensland and NSW."
+        },
+        {
+          "title": "2032 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2032_Summer_Olympics",
+          "note": "Awarded to Brisbane on 21 July 2021; Games 'from 23 July to 8 August 2032'."
+        },
+        {
+          "title": "NSW Education AI tool set to launch for students from October, iTnews, 23 September 2025",
+          "url": "https://www.itnews.com.au/news/nsw-education-ai-tool-set-to-launch-for-students-from-october-620457",
+          "note": "NSWEduChat for NSW public school students in Year 5 and above from 14 October 2025; responds 'with guidance and by asking open-ended questions'; text only, with filters; earlier trialled in 50 schools."
+        },
+        {
+          "title": "Generative Artificial Intelligence: Policy, Victorian Department of Education",
+          "url": "https://www2.education.vic.gov.au/pal/generative-artificial-intelligence/policy",
+          "note": "Refers to the Australian Framework for Generative AI in Schools, released by education ministers on 1 December 2023, with '6 principles and 25 guiding statements'; tells staff and students not to load personal information into AI tools."
+        },
+        {
+          "title": "Australian Framework for Generative AI in Schools, OECD.AI policy navigator",
+          "url": "https://oecd.ai/en/dashboards/policy-initiatives/australian-framework-for-generative-ai-in-schools-6294",
+          "note": "Education ministers agreed in February 2023 that responding to generative AI was a national priority; the framework is six principles supported by 25 guiding statements."
+        },
+        {
+          "title": "Australian Framework for Generative AI in Schools: a good start, but much more to be done, Leon Furze, 11 December 2023",
+          "url": "https://leonfurze.com/2023/12/11/australian-framework-for-generative-ai-in-schools-a-good-start-but-much-more-to-be-done/comment-page-1/",
+          "note": "Lists the six principles: Teaching and Learning; Human and Social Wellbeing; Transparency; Fairness; Accountability; and Privacy, Security and Safety. Notes the final framework had been published."
+        },
+        {
+          "title": "Social media age restrictions: eSafety Commissioner provides regulatory guidance, Clayton Utz, October 2025",
+          "url": "https://www.claytonutz.com/insights/2025/october/social-media-age-restrictions-esafety-commissioner-provides-regulatory-guidance",
+          "note": "'From 10 December 2025, providers of social media platforms must take reasonable steps to prevent users under 16 years from having accounts'; 'services that have the sole or primary purpose of enabling end-users to play online games with other end-users' are excluded under the Online Safety (Age-Restricted Social Media Platforms) Rules 2025."
+        },
+        {
+          "title": "Roblox, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roblox",
+          "note": "Mandatory age verification to chat began in Australia and some other countries in December 2025."
+        },
+        {
+          "title": "The Evolution of Consumer Payments in Australia: Results from the 2022 Consumer Payments Survey, section 4, Cash, Reserve Bank of Australia Research Discussion Paper 2023-08",
+          "url": "https://www.rba.gov.au/publications/rdp/2023/2023-08/cash.html",
+          "note": "Cash accounted for 13 per cent of payments in 2022 compared with 27 per cent in 2019."
+        },
+        {
+          "title": "2025 Population Statement, Centre for Population, Australian Government",
+          "url": "https://population.gov.au/publications/statements/2025-population-statement",
+          "note": "'Australia's population passed 27.5 million in 2025'; 'By 2035-36, it is projected to grow to 31.5 million'; fertility expected to fall to a record low of 1.42 in 2025-26."
+        },
+        {
+          "title": "Australia vows to cut emissions 62 to 70 per cent by 2035, ABC News, 18 September 2025",
+          "url": "https://www.abc.net.au/news/2025-09-18/australia-vows-to-cut-emissions-62-to-70-per-cent-by-2035/105786880",
+          "note": "Target of 62 to 70 per cent below 2005 levels by 2035; the Climate Change Authority said even 62 per cent would require quadrupling wind capacity, tripling large-scale solar and doubling rooftop solar; emissions already down about 27 per cent since 2005."
+        },
+        {
+          "title": "Year 2038 problem, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Year_2038_problem",
+          "note": "Signed 32-bit Unix time overflows after 03:14:07 UTC on 19 January 2038 and wraps to 13 December 1901; most modern systems use 64-bit time."
+        },
+        {
+          "title": "As AI Spreads, Experts Predict the Best and Worst Changes in Digital Life by 2035, Pew Research Center and Elon University, 21 June 2023",
+          "url": "https://www.pewresearch.org/internet/2023/06/21/as-ai-spreads-experts-predict-the-best-and-worst-changes-in-digital-life-by-2035/",
+          "note": "305 technology experts canvassed 27 December 2022 to 21 February 2023: 42% equally excited and concerned, 37% more concerned than excited, 18% more excited than concerned; best changes expected in health and medicine, education and climate action; worst in surveillance, deepfakes, jobs and concentrated corporate power."
+        },
+        {
+          "title": "RoboCup, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/RoboCup",
+          "note": "Official goal: 'By the middle of the 21st century, a team of fully autonomous humanoid robot soccer players shall win a soccer game, complying with the official rules of FIFA, against the winner of the most recent World Cup'; founded 1996, first competition 1997 in Nagoya; RoboCup 2019 held in Sydney."
+        },
+        {
+          "title": "The Global E-waste Monitor 2024, ITU and UNITAR",
+          "url": "https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+          "note": "62 million tonnes of e-waste in 2022; projected 82 million tonnes by 2030."
+        }
+      ],
+      "uncertainties": [
+        "Everything about 2035 here is a forecast or a plan, not a fact. Population projections, emissions targets and laws can all change.",
+        "Sources differ on the date of the national AI framework for schools: one search summary gave 5 October 2023 for ministers' approval, the Victorian policy says it was released on 1 December 2023, so the panel says 2023.",
+        "The eSafety Commissioner's own pages could not be opened during research (the site returned errors), so the gaming exclusion is taken from a law firm's summary of the rules.",
+        "Which platforms are age-restricted can change; eSafety's list as of December 2025 was reported in search results but not opened directly.",
+        "The cash figure is the share of the number of payments in the RBA's 2022 survey; by value the share was lower.",
+        "The Climate Change Authority's wind power comparison was reported by ABC News; the Authority's report itself was not opened."
+      ]
+    },
+    {
       "era": "1970s",
       "title": "Being 12 in the 1970s",
       "paragraphs": [
@@ -4142,6 +6582,170 @@ window.GIT_CONTENT = {
         "idea": "Project the 1913 Word-Cross and solve it as a class, one clue at a time, noting that every clue is a plain definition. Ask which answers are hard because the language or the facts have changed since 1913, and list them as evidence about the period. Then have pairs write three definition clues and one cryptic clue for words from their own week. The Then panel gives the date: Arthur Wynne published the puzzle in the New York World on 21 December 1913, an illustrator later reversed the name to 'cross-word', and the first book of crosswords came from Simon and Schuster in 1924.",
         "computerAngle": "A crossword is a constraint puzzle: each clue is a definition, and the crossing letters, called checks, confirm or rule out an answer when several synonyms fit. Straight clues give a definition only; cryptic clues, which came later, give a definition plus wordplay. The site checks each letter against the grid the way a solver uses checks, so students can see why filling the crossings first makes the hard clues easier.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/hass-f-6/year-6"
+      },
+      {
+        "gameId": "labyrinth",
+        "title": "Rays on graph paper",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Labyrinth for five minutes and notice how walls grow taller as you walk towards them. On grid paper, students draw a small maze of whole squares and mark a player dot. With a ruler they draw eight rays fanning out from the dot, stopping each one where it first touches a wall, and measure each ray in squares. They work out a wall height for each ray with 'height = 12 divided by distance' and draw the eight heights side by side as stripes. The stripes make a little 3D picture of the view. Finish with the Then panel on John Carmack's 1992 shortcut.",
+        "computerAngle": "Raycasting turns a 2D map into a 3D-looking view. The program stores the maze as a grid of numbers, 0 for open floor and other numbers for walls. For each column of the screen it works out a ray's direction, then steps the ray from grid line to grid line (an algorithm called DDA, for digital differential analyser) until it lands in a wall square. The distance to that wall sets how tall to draw the column: height is a constant divided by distance. To stop walls bulging like a fishbowl, the distance is multiplied by the cosine of the angle between the ray and the direction you face. This is a loop (one pass per column) with a loop inside it (one step per grid line) and a condition (is this square a wall?).",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "skyline",
+        "title": "Bracketing a throw",
+        "yearLevels": "Years 5 to 8",
+        "idea": "In pairs, students play a round of Skyline against the computer on Easy and keep a table of each throw: angle, speed and whether it landed short or long. They then use bracketing: after one short throw and one long throw, try halfway between. Count how many throws each pair needed. Compare with the computer on Normal, which adjusts from its last miss, and talk about why halving the gap is a fast way to close in. Finish with the Then panel on Gorillas and its QBasic code.",
+        "computerAngle": "There are two ways a computer can aim. It can calculate: a throw at speed v and angle a moves v times cos(a) across and v times sin(a) up each second, while gravity g pulls it down; stepping these numbers forward many times a second draws the curve, and wind adds a small push sideways each step. Or it can search: like a person, it remembers its last short and last long throw and tries a value between them, halving the gap each time. This second method is a binary search, the same idea a computer uses to find a word in a sorted list quickly.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "pocket-pet",
+        "title": "A pet made of numbers",
+        "yearLevels": "Years 5 and 6",
+        "idea": "Play Pocket Pet for a few minutes and list everything the pet needs. Students turn each need into a number from 0 to 4, such as hunger 3 and happiness 2, and write rules on cards: 'Every minute, hunger goes down 1', 'If hunger is 0, health goes down 1', 'Feeding a meal adds 2 to hunger, up to 4'. In groups, one student is the timer, one keeps the numbers on a whiteboard and others act as owners, playing out ten minutes of pet time. Finish with the Then panel on the 1996 Tamagotchi, which could beep for food in the middle of a lesson.",
+        "computerAngle": "A virtual pet is a set of variables (hunger, happiness, cleanliness, health and age) that a program changes over time. A timer loop runs every few seconds and lowers some numbers; buttons raise them; if-then rules connect them, such as 'if hunger is 0, lower health'. The pet's growth stage is a simple state machine: after enough time it moves from egg to baby to child to adult, and the care score decides which adult it becomes. Saving the game means writing all these numbers down so they can be loaded again later.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "dance-mat",
+        "title": "Beats per minute",
+        "yearLevels": "Years 5 to 7",
+        "idea": "Play one song in Dance Mat as a class and clap along. Students count claps for 15 seconds and multiply by 4 to find the beats per minute (BPM). They then work out the time between beats: 60 seconds divided by the BPM, so 120 BPM gives 0.5 seconds. Make a table for 90, 120 and 150 BPM. Talk about why a Perfect step needs you to be within a small fraction of a second, and try stepping a simple pattern on chalk arrows in the playground. Finish with the Then panel on DDR's dance stage.",
+        "computerAngle": "A rhythm game is a timing machine. Each arrow in a song's chart has a target time, worked out from the beat: the time of beat n is n multiplied by 60 divided by the BPM. When you press a key, the program reads the audio clock, subtracts the target time and looks at how big the difference is. A very small difference is Perfect, a bit larger is Great, then Good, and anything outside the window is a Miss. Using the sound card's clock rather than the screen's timer keeps the arrows and the music in step.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/mathematics/year-7"
+      },
+      {
+        "gameId": "minefield",
+        "title": "Logic without guessing",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play a Beginner board of Minefield. Then give pairs small paper puzzles, a 5 by 5 grid with some numbers already uncovered. Students mark squares that must be mines and squares that must be safe, writing the reason in words, such as 'this 1 touches only one hidden square, so that square is a mine'. Share the two most useful rules the class found. Finish with the Then panel on Minesweeper's journey from OS/2 to Windows 3.1.",
+        "computerAngle": "A solver uses two simple rules again and again. Rule one: if a number equals the count of hidden squares around it, all of them are mines; if a number equals the count of flags already around it, all other hidden neighbours are safe. Rule two compares two numbers that share neighbours: if every hidden square next to one number is also next to another, the difference between the two numbers tells you about the squares only the second one touches. A program can make a 'no guessing' board by generating a board, running the solver from the first click and starting again if the solver gets stuck.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "number-place",
+        "title": "Backtracking by hand",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Warm up with a 4 by 4 junior puzzle in Number Place. Then give pairs a nearly empty 4 by 4 grid and a rule: always fill the first empty square with the smallest number that does not break a rule; if no number fits, rub out the last number you wrote and try the next one up. Students record how many times they had to go back. Compare their finished grids and talk about why the method always finds an answer. Finish with the Then panel on Howard Garns, Nikoli and Wayne Gould's puzzle program.",
+        "computerAngle": "Backtracking is a way to search: try a choice, keep going while the rules hold, and undo the last choice when you get stuck. A program fills a Sudoku grid this way, checking each new number against its row, column and box. To make a puzzle, it fills a whole grid, then removes numbers one at a time and runs the solver again, counting answers but stopping at two. If there is only one answer, the number stays removed. The grade (Easy, Medium, Hard) comes from which human-style rules a logic solver needs to finish.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "gem-swap",
+        "title": "Finding matches in a grid",
+        "yearLevels": "Years 5 and 6",
+        "idea": "Play Gem Swap for five minutes. Then give groups an 8 by 8 grid of coloured counters or coloured squares on paper. One student reads the grid row by row, saying 'match' whenever three or more of the same colour sit in a line, while another records where. Repeat for columns. Remove the matched counters, slide the ones above down, fill the gaps from the top and check again for new matches. Talk about why the computer has to keep checking until nothing changes. Finish with the Then panel on Bejeweled's relaxed mode.",
+        "computerAngle": "The board is a two-dimensional array: 8 rows of 8 numbers, each number standing for a gem type. To find matches the program uses nested loops, one loop for rows and one inside it for columns, counting how many of the same number appear in a run. Matched cells are cleared, then a gravity step moves gems down column by column, and new random gems fill the top. Because falling gems can make new matches, the whole check repeats in a loop until a pass finds no matches. Each extra pass is a cascade.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "cave-copter",
+        "title": "Gravity in a loop",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Cave Copter and notice how the craft speeds up as it falls and slows as it climbs. On grid paper, students start a dot at height 10 with speed 0. Each step they add the 'gravity' of -1 to the speed (or +2 while 'holding'), then add the speed to the height, and plot the new height. They act out 12 steps with a partner calling 'hold' or 'let go'. The plotted line curves just like the flight. Finish with the Then panel on the Helicopter Game and Flash.",
+        "computerAngle": "A game loop runs about 60 times a second. Each time, the program updates the craft's vertical speed (add gravity, or add lift while the button is held), then adds the speed to the position, then checks for a collision with the cave. This is called a simulation: small steps repeated quickly look like smooth movement. The cave itself can be made by a random walk: each new slice of roof moves up or down a little from the last one, kept inside limits so there is always a gap to fly through.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "garden-guard",
+        "title": "Designing a wave",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play the first two levels of Garden Guard and write down when each pest appears. In small groups, students design their own level on a timeline: which pests come in which lane and at what second, and how much sunshine the player will have. Swap plans with another group and 'play' them on paper. Was it too easy, too hard or fair? Adjust and try again. Finish with the Then panel on George Fan and how he taught his mum to play.",
+        "computerAngle": "A level is data, not just code. The program keeps a list of events in time order, such as 'at 20 seconds, a snail in lane 3', and a timer reads the next event when its time arrives. This list is a queue: first in, first out. Designers make difficulty rise gently by adding pests a few at a time, mixing fast and slow ones and giving the player new defenders just before they are needed. Each pest also follows a rule: keep moving left unless something blocks you, which makes it a very simple state machine.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "ten-pin",
+        "title": "Keeping score",
+        "yearLevels": "Years 5 to 7",
+        "idea": "Play a game of Ten-Pin and watch the score sheet. Then hand out a printed sheet of ten frames with the pins knocked down for each ball already written in, including two strikes and a spare. Students work out the total using the rules: a strike scores 10 plus the next two balls, a spare scores 10 plus the next ball. Check answers with the game. Challenge: what is the highest possible score, and why is it 300? Finish with the Then panel on Wii Sports and Hurstville Bowl.",
+        "computerAngle": "Bowling scores need the computer to look ahead. The program keeps a list of every ball's pinfall in order. It walks through the list frame by frame: if the first ball is 10, add 10 plus the next two balls and move on one ball; if two balls make 10, add 10 plus the next ball and move on two; otherwise add the two balls. The tenth frame is a special case with bonus balls. A strike that has not got its next two balls yet shows a blank until they happen.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/mathematics/year-6"
+      },
+      {
+        "gameId": "doubles",
+        "title": "Doubling all the way to 2048",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play Doubles on the small 3 by 3 board, then switch on teaching mode so each tile also shows a power of two. Students record the tiles they make as 2, 2 squared, 2 cubed and so on, and notice that joining two equal tiles adds one to the power. In pairs, they predict how many 2 tiles it takes to build one 2048 tile (1,024 of them) and check the biggest tile a 4 by 4 board could ever hold (2 to the 17th, 131,072). Finish with the Then panel: Gabriele Cirulli built 2048 in one weekend in 2014.",
+        "computerAngle": "The board is stored as a 4 by 4 grid of numbers, with 0 for an empty square. To slide one row to the left, the program first squeezes out the zeros, then walks along the row: if two neighbouring tiles are equal it replaces them with one tile of double the value and skips ahead, so a tile can merge only once per move. Then it fills the end of the row with zeros again. Sliding right, up or down uses the same steps on a reversed row or on a column. After any move that changed the board, the program picks a random empty square and puts a 2 there nine times out of ten and a 4 one time in ten. The game is over when there are no empty squares and no equal neighbours. This is an algorithm with a loop (walk along the row) and a decision (are these two tiles equal?).",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "fruit-slice",
+        "title": "Did my swipe hit the fruit?",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Fruit Slice with a finger or a mouse. Then, on grid paper, draw a piece of fruit as a circle and a swipe as a straight line between two dots. Students measure the shortest distance from the circle's centre to the line and decide: hit or miss? Next they draw a fast swipe (dots far apart) and a slow one (dots close together) and discuss why a very fast swipe could jump right over a small fruit if the game only checked the dots. Finish with the Then panel: Luke Muscat and Joe Gatling built Fruit Ninja in six weeks in Brisbane.",
+        "computerAngle": "A touchscreen does not report a smooth line. Many times a second it reports where your finger is, so a swipe is really a list of points. The game joins each new point to the one before it to make a short straight segment, then checks every fruit against that segment: if the shortest distance from the fruit's centre to the segment is less than the fruit's radius, the fruit is sliced. Checking the whole segment, not just the points, is what stops fast swipes from missing. The fruit fly in curves because, every frame, the program adds each fruit's speed to its position and takes a little away from its upward speed, which is how gravity is simulated. A combo is simply a count of how many fruit one swipe has hit.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "slingshot",
+        "title": "Aim, launch, predict",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play two levels of Slingshot with the dotted aiming line, then try a level without looking at it and compare how many shots you needed. Outside, students throw soft balls at a stack of cardboard boxes from a marked line, changing one thing at a time (the angle, then how hard they throw) and recording which change made the biggest difference. Back inside, sketch the path of one throw as a curve. Finish with the Then panel: Rovio kept the slingshot because players understood it straight away.",
+        "computerAngle": "A physics engine moves every object in tiny steps, many times a second. For a flying pebble, each step adds gravity to its downward speed and then adds its speed to its position, which makes the curved path. The dotted aiming line is the same calculation run ahead of time without drawing the pebble. When two shapes overlap, the engine pushes them apart and changes their speeds, using friction so blocks do not slide like ice and a bounciness number so they do not bounce like rubber. So that towers stand still until they are hit, many engines let objects that have stopped moving 'sleep' and skip them until something touches them. A free engine of this kind, Box2D, was written by Erin Catto and used in many phone games of the time.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "block-world",
+        "title": "A whole world from one number",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Block World and look at its hills, caves and ores. Explain that the computer builds the world from a starting number called a seed. On grid paper, each student builds a 10-column landscape with a rule: start at height 5, roll a die for each column, go down one for a 1 or 2, up one for a 5 or 6, and stay level otherwise. Students write down their ten rolls, swap the list with a partner and rebuild each other's world exactly. Discuss why saving the rolls plus a short list of changes takes far less space than saving every block. Finish with the Then panel: Markus Persson shared the first Minecraft in May 2009.",
+        "computerAngle": "Block World does not store a giant picture of its world. A pseudo-random number generator turns one starting number, the seed, into a long list of numbers that look random but are always the same for the same seed, just like the swapped dice rolls. The game smooths these numbers into gentle hills (a technique called noise) to set the height of the ground in each column, then uses more of them to decide where caves, ores and trees go. To save your world it keeps only the seed and a list of the blocks you changed. To stay fast, it draws only the blocks that fit on the screen.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "five-letters",
+        "title": "How the computer colours a guess",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play two rounds of Five Letters in practice mode. Then, on paper, one student picks a secret five-letter word and acts as 'the computer', marking a partner's guesses with the game's three signals. Give pairs tricky cases with double letters, such as a secret word with one E and a guess with two. Students write their marking rule as numbered steps and test it on each other's examples until it never gets a double letter wrong. Finish with the Then panel: Josh Wardle's partner sorted about 13,000 words to make Wordle's answer list.",
+        "computerAngle": "The computer marks a guess in two passes. First pass: it compares each position, marks a letter green when it matches the secret word in that exact spot, and crosses that letter off a list of the secret word's leftover letters. Second pass: for each letter not yet marked, it looks in the leftover list; if the letter is there it is marked yellow and crossed off, otherwise it is grey. Doing all the greens first is what makes double letters fair: if the secret word has one E and you guess two, only one E can light up. A daily puzzle that is the same for everyone does not need the internet: the program turns today's date into a number and uses it to choose the answer from its list.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "four-groups",
+        "title": "Build a puzzle with a red herring",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play the daily Four Groups puzzle together on the board, voting on each group. Then teams write their own puzzle: four categories from a topic the class is studying, four words in each, and at least one red herring, a word that seems to fit two groups. Teams swap puzzles, solve them and colour each group from yellow (easiest) to purple (hardest). Finish with the Then panel: Wyna Liu keeps a notebook of category ideas and takes about two hours to build a board.",
+        "computerAngle": "Each puzzle is stored as data: four groups, each with a name, a colour and a set of four words. When you submit four tiles, order does not matter, so the program checks whether your four words are exactly the same set as one of the groups. A game can also count how many of your four words belong to the same group, which is how it could tell you that you are one away. The 16 tiles are shuffled with the Fisher-Yates method: go through the tiles from last to first and swap each one with a randomly chosen tile at or before it, which makes every order equally likely.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "melon-drop",
+        "title": "When do two circles touch?",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Melon Drop for five minutes and watch what happens when two of the same fruit touch. On grid paper, draw pairs of circles, measure the distance between their centres with a ruler and compare it with their two radii added together. Students discover the rule: two circles touch or overlap when the distance between their centres is less than or equal to the sum of their radii. Older students can work out the distance from coordinates using Pythagoras' theorem. Finish with the Then panel: the game began as a Chinese web game in January 2021.",
+        "computerAngle": "Every fruit is a circle with a centre (x, y) and a radius. Many times a second the program moves each fruit a little: it adds gravity to its downward speed, then adds its speed to its position. Then it checks every pair of fruit. It works out the distance between their centres with Pythagoras' theorem (the square root of the across difference squared plus the up-and-down difference squared). If that distance is less than the two radii added together, the fruit overlap, so the program pushes them apart along the line joining their centres. If they are the same kind, it removes both and puts one fruit of the next size halfway between them, and adds points. Repeating the push-apart step a few times each frame lets a big pile settle without jiggling.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "robot-school",
+        "title": "How a robot learns from examples",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Start unplugged. Draw a big chart on the board with two scales from 1 to 10: how sweet and how crunchy. Students call out foods (apple, carrot, strawberry, celery) and place each one as a dot, coloured fruit or vegetable. Ask a volunteer to draw one straight line that splits fruit from vegetables. Then play Robot School's sorting lesson for ten minutes: label examples, watch the robot's line move, and test it on items it has never seen. Ask: what does the robot really know about a strawberry? (Only the numbers you gave it.) When does it get things wrong, and what fixes it? Finish with the Then panel: in 1959 Arthur Samuel's checkers program learned by remembering which positions led to wins, and AlphaGo studied about 30 million human moves before playing itself.",
+        "computerAngle": "Machine learning means a program gets better at a task from examples or experience, instead of being told every rule. Each example becomes a list of numbers, called features, which places it as a dot on a chart. One simple method, nearest neighbour, gives a new item the same label as the closest example it has already seen. Another, the perceptron, keeps a dividing line and nudges it a little every time it gets an example wrong, until most examples land on the right side. More, and more varied, examples usually move the line to a better place. Testing on items the robot has never seen shows whether it has really learned the pattern or only memorised the examples. The Australian Curriculum asks Years 7 and 8 to design and trace algorithms that can sort and classify.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/curriculum-information/understand-this-curriculum-connection/artificial-intelligence"
+      },
+      {
+        "gameId": "robot-school",
+        "title": "Fair robots need fair examples",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play Robot School's fairness lesson: teach the robot with only one kind of example, watch it make unfair mistakes on the others, then fix it by adding better examples. Next, an unplugged test. Give groups 20 cards describing past winners of a pretend school prize; by accident, every winner on the cards wore a red hat. Ask: if a robot learned only from these cards, what would it look for in next year's winner? Then share a real study. In 2018 Joy Buolamwini and Timnit Gebru tested three face-analysis systems sold by big companies: they were wrong less than 1 per cent of the time for lighter-skinned men, but up to 34.7 per cent of the time for darker-skinned women. Groups finish by writing three rules for checking that an AI is fair, and compare them with the fairness principle in Australia's 2023 framework for generative AI in schools.",
+        "computerAngle": "A model can only learn the patterns that are in its training data. If the data leaves some groups out, or has far more of one group than another, the model can be accurate for some people and often wrong for others while its overall score still looks good. That is called bias. In the 2018 study, one company's test set was more than 77 per cent male and more than 83 per cent white. Ways to reduce bias include collecting balanced examples, testing the model separately for each group, and letting people check and challenge its decisions. The Australian Curriculum asks Years 5 and 6 students to investigate bias and fairness in relation to outcomes and how bias in AI systems might be reduced.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/curriculum-information/understand-this-curriculum-connection/artificial-intelligence",
+        "sources": [
+          {
+            "title": "Study finds gender and skin-type bias in commercial artificial-intelligence systems, MIT News, 11 February 2018",
+            "url": "https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212",
+            "note": "Joy Buolamwini and Timnit Gebru; error rates as low as 0.8% for light-skinned men and 20.8%, 34.5% and 34.7% for darker-skinned women across three systems; one data set used to assess performance was 'more than 77 percent male and more than 83 percent white'."
+          },
+          {
+            "title": "Artificial intelligence (AI), curriculum connection, Australian Curriculum v9, ACARA",
+            "url": "https://www.australiancurriculum.edu.au/curriculum-information/understand-this-curriculum-connection/artificial-intelligence",
+            "note": "'Biases in the data AI systems are trained on can perpetuate discriminatory stereotypes or unfairly represent, omit or negatively portray certain groups'; 'the quality of the training data impacts on the quality, reliability and bias of the output'; Years 5 and 6 'investigate bias and fairness in relation to outcomes'; Years 7 and 8 'design and trace algorithms... including algorithms that can sort and classify'."
+          }
+        ]
       },
       {
         "gameId": "prowl",
@@ -5964,6 +8568,370 @@ window.GIT_CONTENT = {
       "focus": "50% 45%",
       "width": 1600,
       "height": 1307
+    },
+    "hall-2030s": {
+      "hero": "img/hall-2030s-1600.webp",
+      "card": "img/hall-2030s-720.webp",
+      "alt": "A smiling girl wears a dark see-through visor over her eyes and reaches out a hand to touch something only she can see, in a classroom where a teacher and other students sit and stand behind her.",
+      "caption": "A student explores a virtual scene with a headset in a classroom, 20 May 2024",
+      "credit": "JFarbarik, 2024. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Student_explores_an_environment_using_a_VR_headset..jpg",
+      "focus": "55% 35%",
+      "width": 1600,
+      "height": 1067
+    },
+    "robot-school": {
+      "hero": "img/robot-school-1600.webp",
+      "card": "img/robot-school-720.webp",
+      "alt": "A tall black computer cabinet marked IBM RS/6000 SP stands on a white museum plinth beside a small information stand, with chess pictures and display panels around it.",
+      "caption": "One of the two racks of Deep Blue, the IBM computer that beat world chess champion Garry Kasparov in May 1997, on show at the Computer History Museum, Mountain View, California, 2011",
+      "credit": "Anton Chiang, 2011. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:IBM_Deep_Blue_at_Computer_History_Museum_(9361685537).jpg",
+      "focus": "45% 50%",
+      "width": 1067,
+      "height": 1600
+    },
+    "kids-2030s": {
+      "hero": "img/kids-2030s-1600.webp",
+      "card": "img/kids-2030s-720.webp",
+      "alt": "A young girl in a blue hoodie smiles at a laptop as she programs a small wheeled robot built from plastic construction pieces, with a poster of the International Space Station on the wall behind her.",
+      "caption": "A girl codes a robot to drive through an obstacle course at a children's day run by STARBASE Portland, Oregon, USA, 25 April 2015",
+      "credit": "Tech. Sgt. John Hughel, US Air National Guard, 2015. Public domain, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Month_of_Military_Child_150425-Z-CH590-276.jpg",
+      "focus": "62% 40%",
+      "width": 1600,
+      "height": 1368
+    },
+    "hall-2010s": {
+      "hero": "img/hall-2010s-1600.webp",
+      "card": "img/hall-2010s-720.webp",
+      "alt": "Three children in matching blue T-shirts lean against a big blue bean bag on a carpet, using tablet computers with pens.",
+      "caption": "Children using tablet computers in the early 2010s. Intel Free Press shared the photo with tips on choosing devices for school; the file is dated 14 September 2010",
+      "credit": "Intel Free Press. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kids_with_Education_Tablet_Computers.jpg",
+      "focus": "62% 45%",
+      "width": 1600,
+      "height": 1200
+    },
+    "doubles": {
+      "hero": "img/doubles-1600.webp",
+      "card": "img/doubles-720.webp",
+      "alt": "A phone screen showing a finished game of 2048: sixteen orange, yellow and red tiles that snake from 4 up to 131072, with a score of 3,869,064.",
+      "caption": "The final position of a game of 2048, photographed on a phone on 15 June 2014. The tiles snake from 4 up to 131,072, the biggest tile a 4 by 4 board allows",
+      "credit": "Heavy Horse, 2014. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:2048_Final_Position.jpg",
+      "focus": "50% 60%",
+      "width": 1071,
+      "height": 1600
+    },
+    "fruit-slice": {
+      "hero": "img/fruit-slice-1600.webp",
+      "card": "img/fruit-slice-720.webp",
+      "alt": "A dark games arcade glowing with purple, blue and green lights. In the middle stands a two-screen Fruit Ninja FX 2 machine, with ticket games and basketball games around it.",
+      "caption": "A Fruit Ninja FX 2 arcade machine, the arcade version of Halfbrick's game, at a Main Event entertainment centre in Orlando, Florida, USA, 15 October 2025",
+      "credit": "Nielsoncaetanosalmeron, 2025. CC BY 4.0, via Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Main_Event_Entertainment_arcade.jpg",
+      "focus": "45% 45%",
+      "width": 1600,
+      "height": 1067
+    },
+    "slingshot": {
+      "hero": "img/slingshot-1600.webp",
+      "card": "img/slingshot-720.webp",
+      "alt": "Two young men in red hooded jumpers printed with a cross bird face stand at a lectern on a dark stage. The one on the left speaks into a microphone; the one on the right wears glasses.",
+      "caption": "Rovio's Matthew Wilson (left) and Angry Birds designer Jaakko Iisalo (right) give a talk on how to design a hit iPhone game at Game Design Expo, Vancouver, Canada, 22 January 2011",
+      "credit": "Vancouver Film School, 2011. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Jaakko_Iisalo_and_Matthew_Wilson_of_Rovio_Mobile_at_Game_Design_Expo_2011.jpg",
+      "focus": "62% 40%",
+      "width": 1600,
+      "height": 1068
+    },
+    "block-world": {
+      "hero": "img/block-world-1600.webp",
+      "card": "img/block-world-720.webp",
+      "alt": "Four students sit side by side at a row of computer screens in a school room, building in Minecraft, with school bags and a drink bottle beside them.",
+      "caption": "Students working and building together in a Minecraft after-school program, 22 October 2014",
+      "credit": "Kevin Jarrett, 2014. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Minecraft_in_school.jpg",
+      "focus": "45% 40%",
+      "width": 1600,
+      "height": 1200
+    },
+    "kids-2010s": {
+      "hero": "img/kids-2010s-1600.webp",
+      "card": "img/kids-2010s-720.webp",
+      "alt": "Boys in caps and T-shirts stand at white and blue game stations playing a colourful paint-splatting game, with paint splash shapes on the floor around them.",
+      "caption": "Young players try Splatoon on the Wii U at the EB Games Expo, Sydney Showground, Sydney Olympic Park, 3 October 2015",
+      "credit": "Philip Terry Graham, 2015. CC0, via Wikimedia Commons",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:EB_Games_Expo_2015_-_Splatoon.JPG",
+      "focus": "65% 45%",
+      "width": 1600,
+      "height": 1097
+    },
+    "hall-2020s": {
+      "hero": "img/hall-2020s-1600.webp",
+      "card": "img/hall-2020s-720.webp",
+      "alt": "On a stage with red curtains, two solvers race to fill in giant crossword grids on wooden easels. The one in front wears a face mask.",
+      "caption": "Finalists race to solve giant crosswords at Lollapuzzoola, a crossword tournament at Riverside Church, New York, 19 August 2023",
+      "credit": "Hameltion, 2023. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lollapuzzoola_2023_-_Express_final_05.jpg",
+      "focus": "62% 40%",
+      "width": 1600,
+      "height": 1067
+    },
+    "five-letters": {
+      "hero": "img/five-letters-1600.webp",
+      "card": "img/five-letters-720.webp",
+      "alt": "A grey Mastermind board with rows of coloured code pegs, small black and white scoring pegs, and a tray full of spare pegs.",
+      "caption": "A game of Mastermind, the colour code-breaking board game invented in 1970. Josh Wardle played it a lot as a child, and it helped inspire Wordle",
+      "credit": "Piotrus, 2007. CC BY-SA 3.0 (also GFDL), via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Mastermind2.JPG",
+      "focus": "50% 40%",
+      "width": 1600,
+      "height": 1200
+    },
+    "four-groups": {
+      "hero": "img/four-groups-1600.webp",
+      "card": "img/four-groups-720.webp",
+      "alt": "Wyna Liu, a smiling woman with long dark hair, round dark-framed glasses and an orange pleated top.",
+      "caption": "Wyna Liu, who makes the Connections puzzles for The New York Times, at the American Crossword Puzzle Tournament, April 2024",
+      "credit": "Hameltion, 2024. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Wyna_Liu_(2024_ACPT)_01.jpg",
+      "focus": "50% 30%",
+      "width": 1125,
+      "height": 1600
+    },
+    "melon-drop": {
+      "hero": "img/melon-drop-1600.webp",
+      "card": "img/melon-drop-720.webp",
+      "alt": "Striped green watermelons of different sizes, some wrapped in green foam nets, piled up for sale in a Japanese shop.",
+      "caption": "Big and small watermelons (suika) for sale in Japan, 19 May 2019",
+      "credit": "Nesnad, 2019. CC BY 4.0, via Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Watermelons_for_sale_in_japan_-_big_and_small_-_May_19_2019.jpeg",
+      "focus": "50% 50%",
+      "width": 1600,
+      "height": 1200
+    },
+    "kids-2020s": {
+      "hero": "img/kids-2020s-1600.webp",
+      "card": "img/kids-2020s-720.webp",
+      "alt": "Two teddy bears, one wearing a pink ribbon and one a dark jumper, sit in a sunny window above a brick sill, looking out at the street.",
+      "caption": "Teddy bears placed in a window in South Australia for children to spot on their walks during COVID-19 restrictions, 27 April 2020",
+      "credit": "Michael Coghlan, 2020. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Bears_in_Sunshine_(50070171096).jpg",
+      "focus": "70% 55%",
+      "width": 1600,
+      "height": 1200
+    },
+    "hall-1990s": {
+      "hero": "img/hall-1990s-1600.webp",
+      "card": "img/hall-1990s-720.webp",
+      "alt": "A boy in a white shirt sits cross-legged on the carpet holding a grey Nintendo 64 controller, beside a wooden coffee table with a candle jar on it.",
+      "caption": "A boy playing a Nintendo 64 at home, 1996",
+      "credit": "Lisa Moody, 1996. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Boy_playing_Nintendo_64_in_1996.tiff",
+      "focus": "65% 40%",
+      "width": 1600,
+      "height": 997
+    },
+    "labyrinth": {
+      "hero": "img/labyrinth-1600.webp",
+      "card": "img/labyrinth-720.webp",
+      "alt": "Two black floppy disks with white labels reading DOOM, Shareware, Disk 1 of 2 and Disk 2 of 2, Created by id Software, 1993.",
+      "caption": "The two floppy disks of Doom's free shareware version from 1993, which players copied and passed on to friends",
+      "credit": "Pelle Wessman, 2008. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Doom_Disks_(2954946319).jpg",
+      "focus": "50% 50%",
+      "width": 1600,
+      "height": 1200
+    },
+    "skyline": {
+      "hero": "img/skyline-1600.webp",
+      "card": "img/skyline-720.webp",
+      "alt": "Two young people, seen from behind, sit at a beige Amiga 500 computer and monitor showing a two-player game, with a box of floppy disks beside it.",
+      "caption": "Two players at a Commodore Amiga 500, the kind of home computer on which Andy Davidson wrote the first version of Worms, photographed in 2025",
+      "credit": "App.211, 2025. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Computerspieler_am_Amiga_500.jpg",
+      "focus": "50% 45%",
+      "width": 1600,
+      "height": 1205
+    },
+    "pocket-pet": {
+      "hero": "img/pocket-pet-1600.webp",
+      "card": "img/pocket-pet-720.webp",
+      "alt": "A see-through yellow egg-shaped Tamagotchi with a small square screen, three white buttons and a silver ball chain.",
+      "caption": "A yellow Tamagotchi made in 1997, in the collection of Museum Rotterdam, Netherlands. The museum links it to school bans",
+      "credit": "Museum Rotterdam, object 78041. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gele_tamagotchi,_objectnr_78041.JPG",
+      "focus": "55% 50%",
+      "width": 1600,
+      "height": 1263
+    },
+    "dance-mat": {
+      "hero": "img/dance-mat-1600.webp",
+      "card": "img/dance-mat-720.webp",
+      "alt": "Seen from behind, a girl in a yellow T-shirt and pink skirt steps across a metal dance stage with arrow panels, beside a Dance Dance Revolution cabinet, with prize machines behind her.",
+      "caption": "A girl dancing on the arrow panels of a Dance Dance Revolution machine in an arcade, 2011",
+      "credit": "mliu92, 2011. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Girl_playing_Legacy_Dance_dance_revolution_cabinet.jpg",
+      "focus": "45% 55%",
+      "width": 1200,
+      "height": 1600
+    },
+    "minefield": {
+      "hero": "img/minefield-1600.webp",
+      "card": "img/minefield-720.webp",
+      "alt": "A beige tower computer and boxy monitor showing the Windows 3.1 Program Manager, with a keyboard and mouse, on a museum table next to a Microsoft information card.",
+      "caption": "A 1990s PC running Windows 3.1, the version of Windows that first came with Minesweeper, at the Living Computer Museum, Seattle, USA, 2013",
+      "credit": "Jason Scott, 2013. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Living_Computer_Museum_IMG_0029_(9636214849).jpg",
+      "focus": "60% 50%",
+      "width": 1600,
+      "height": 1067
+    },
+    "kids-1990s": {
+      "hero": "img/kids-1990s-1600.webp",
+      "card": "img/kids-1990s-720.webp",
+      "alt": "A man and two children in jumpers stand by a street sign reading Pin Oak Ct on a quiet suburban street with gum trees, brick fences and a red car.",
+      "caption": "Visitors at Pin Oak Court in Vermont South, Melbourne, the real street filmed as Ramsay Street in the TV soap Neighbours, 1996",
+      "credit": "Gareth Williams, 1996. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Melbourne_1996.jpg",
+      "focus": "72% 60%",
+      "width": 1167,
+      "height": 771
+    },
+    "hall-2000s": {
+      "hero": "img/hall-2000s-1600.webp",
+      "card": "img/hall-2000s-720.webp",
+      "alt": "Three boys sit on a wooden bench in a sandy playground, each holding a Nintendo DS, with swings and a spring rider behind them.",
+      "caption": "Three boys playing Nintendo DS together on a park bench in Tokyo, Japan, July 2006",
+      "credit": "iMorpheus, 2006. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:2006%E5%B9%B4%E3%81%AE%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1_(207696728).jpg",
+      "focus": "45% 55%",
+      "width": 1280,
+      "height": 960
+    },
+    "number-place": {
+      "hero": "img/number-place-1600.webp",
+      "card": "img/number-place-720.webp",
+      "alt": "Close-up of a newspaper Sudoku grid with printed black numbers, the rest filled in by hand in blue pen.",
+      "caption": "A Sudoku solved in pen in a Spanish newspaper, 2009",
+      "credit": "Héctor Rodríguez, 2009. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Sudoku_en_peri%C3%B3dico.jpg",
+      "focus": "50% 50%",
+      "width": 1600,
+      "height": 1200
+    },
+    "gem-swap": {
+      "hero": "img/gem-swap-1600.webp",
+      "card": "img/gem-swap-720.webp",
+      "alt": "A gold ring set with a curve of small cut gemstones in rainbow colours, blue, green, yellow, orange, red and purple, below a chevron of tiny diamonds.",
+      "caption": "A gold ring set with gemstones in rainbow colours, 2020",
+      "credit": "W.carter, 2020. CC BY 4.0, via Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_ring_with_different_gemstones_set_in_a_rainbow_and_topped_with_diamonds_1.jpg",
+      "focus": "62% 50%",
+      "width": 1600,
+      "height": 1200
+    },
+    "cave-copter": {
+      "hero": "img/cave-copter-1600.webp",
+      "card": "img/cave-copter-720.webp",
+      "alt": "Students sit at rows of beige desktop computers with bulky monitors in a carpeted school computer room with noticeboards on the walls.",
+      "caption": "Students working in a school computer lab, May 2006",
+      "credit": "Michael Surran, 2006. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Students_working_on_class_assignment_in_computer_lab.jpg",
+      "focus": "60% 55%",
+      "width": 1280,
+      "height": 960
+    },
+    "garden-guard": {
+      "hero": "img/garden-guard-1600.webp",
+      "card": "img/garden-guard-720.webp",
+      "alt": "Neat rows of green and red lettuces growing in a walled kitchen garden, with purple chive flowers along one side and tall hedges behind.",
+      "caption": "Rows of lettuces in the kitchen garden at Barton Bendish Hall, Norfolk, England, May 2024",
+      "credit": "Michael Garlick, 2024. CC BY-SA 2.0, Geograph Britain and Ireland, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Barton_Bendish_Hall,_Rows_of_lettuces_-_geograph.org.uk_-_7971306.jpg",
+      "focus": "55% 60%",
+      "width": 1600,
+      "height": 1067
+    },
+    "ten-pin": {
+      "hero": "img/ten-pin-1600.webp",
+      "card": "img/ten-pin-720.webp",
+      "alt": "A boy in a white T-shirt and camouflage pants follows through after a bowling swing with a Wii Remote, facing an old TV on a small table in a backyard, with adults sitting behind.",
+      "caption": "A boy bowling in Wii Sports at a backyard party, May 2008",
+      "credit": "daveynin, 2008. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kid_playing_Wii_Bowling_20080510.jpg",
+      "focus": "65% 45%",
+      "width": 1600,
+      "height": 1200
+    },
+    "kids-2000s": {
+      "hero": "img/kids-2000s-1600.webp",
+      "card": "img/kids-2000s-720.webp",
+      "alt": "A crowd of excited teenagers with green and gold face paint, zinc cream and coloured hair cheer and wave, many wearing green and gold shirts and lanyards.",
+      "caption": "School students in green and gold cheer for Australia at the Sydney 2000 Paralympic Games, 25 October 2000",
+      "credit": "Sport the library, Australian Paralympic Committee, 2000. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:251000_-_Audience_Australian_fans_cheer_-_3b_-_2000_Sydney_public_photo.jpg",
+      "focus": "50% 40%",
+      "width": 1600,
+      "height": 1050
     }
   }
 };

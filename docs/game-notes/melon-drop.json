@@ -1,0 +1,14 @@
+{
+  "howToPlay": [
+    "Press Start. A fruit hangs from the dropper above the glass jar.",
+    "Move the dropper with the mouse, your finger or the arrow keys, then drop the fruit.",
+    "When two of the same fruit touch, they squash together into the next fruit up and you score points.",
+    "The fruit grow from cherry to strawberry, plum, mandarin, apple, lemon, peach, pineapple, rockmelon and honeydew melon, all the way to watermelon. Two watermelons together make a melon party!",
+    "Watch the Next circle to plan ahead. Keep big fruit near big fruit and small fruit near small fruit.",
+    "If fruit stays above the dashed line for a few seconds, the jar is full and the game is over."
+  ],
+  "controls": "Mouse: move to aim, click to drop. Touch: touch the jar, slide to aim and let go to drop, or use the arrow and Drop buttons below. Keyboard: Left and Right arrows (or A and D) to aim, Space or the Down arrow to drop. P pauses.",
+  "computer": "Every fruit is a circle, and the computer moves time forward 60 times a second in 8 tiny steps. In each tiny step it pulls every fruit down a little (gravity), then checks every pair of fruit. Two circles overlap when the distance between their centres is less than their two radii added together. When they do, the computer pushes them apart along the line between their centres. A big fruit counts as heavier, so it moves less than a small one. It also rubs away a little of their sideways sliding, which is friction. Any fruit poking through the glass is put straight back inside, and because the steps are so tiny, nothing can ever move far enough in one step to jump through a wall or another fruit. When every fruit has been still for a little over half a second, the computer lets the whole jar rest, so the pile sits perfectly calm until the next fruit lands. If two touching fruit are the same, the computer swaps them for the next fruit up, halfway between them, and it grows to full size in a blink so it nudges its neighbours instead of blasting them away. The points follow the triangle numbers 1, 3, 6, 10, 15 and so on: each new fruit is worth one more than the jump before.",
+  "players": ["solo"],
+  "notes": "The 2021 game from Japan drops fruit into a box and merges matching pairs. Ours keeps that mechanic with eleven fruit of our own (with friendly faces and an Australian rockmelon), a glass jar, a fruit ladder that shows how far you have grown, and a dashed line that warns you before the jar overflows. The dropper only ever holds one of the five smallest fruit, so the big ones have to be grown. The circle physics is written from scratch for this site."
+}

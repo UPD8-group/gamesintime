@@ -1,0 +1,88 @@
+{
+ "images": [
+  {
+   "id": "hall-2010s",
+   "hero": "img/hall-2010s-1600.webp",
+   "card": "img/hall-2010s-720.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "Three children in matching blue T-shirts lean against a big blue bean bag on a carpet, using tablet computers with pens.",
+   "caption": "Children using tablet computers in the early 2010s. Intel Free Press shared the photo with tips on choosing devices for school; the file is dated 14 September 2010",
+   "credit": "Intel Free Press. CC BY-SA 2.0, via Wikimedia Commons",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Kids_with_Education_Tablet_Computers.jpg",
+   "focus": "62% 45%"
+  },
+  {
+   "id": "doubles",
+   "hero": "img/doubles-1600.webp",
+   "card": "img/doubles-720.webp",
+   "width": 1071,
+   "height": 1600,
+   "alt": "A phone screen showing a finished game of 2048: sixteen orange, yellow and red tiles that snake from 4 up to 131072, with a score of 3,869,064.",
+   "caption": "The final position of a game of 2048, photographed on a phone on 15 June 2014. The tiles snake from 4 up to 131,072, the biggest tile a 4 by 4 board allows",
+   "credit": "Heavy Horse, 2014. CC BY-SA 3.0, via Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:2048_Final_Position.jpg",
+   "focus": "50% 60%"
+  },
+  {
+   "id": "fruit-slice",
+   "hero": "img/fruit-slice-1600.webp",
+   "card": "img/fruit-slice-720.webp",
+   "width": 1600,
+   "height": 1067,
+   "alt": "A dark games arcade glowing with purple, blue and green lights. In the middle stands a two-screen Fruit Ninja FX 2 machine, with ticket games and basketball games around it.",
+   "caption": "A Fruit Ninja FX 2 arcade machine, the arcade version of Halfbrick's game, at a Main Event entertainment centre in Orlando, Florida, USA, 15 October 2025",
+   "credit": "Nielsoncaetanosalmeron, 2025. CC BY 4.0, via Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Main_Event_Entertainment_arcade.jpg",
+   "focus": "45% 45%"
+  },
+  {
+   "id": "slingshot",
+   "hero": "img/slingshot-1600.webp",
+   "card": "img/slingshot-720.webp",
+   "width": 1600,
+   "height": 1068,
+   "alt": "Two young men in red hooded jumpers printed with a cross bird face stand at a lectern on a dark stage. The one on the left speaks into a microphone; the one on the right wears glasses.",
+   "caption": "Rovio's Matthew Wilson (left) and Angry Birds designer Jaakko Iisalo (right) give a talk on how to design a hit iPhone game at Game Design Expo, Vancouver, Canada, 22 January 2011",
+   "credit": "Vancouver Film School, 2011. CC BY 2.0, via Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Jaakko_Iisalo_and_Matthew_Wilson_of_Rovio_Mobile_at_Game_Design_Expo_2011.jpg",
+   "focus": "62% 40%"
+  },
+  {
+   "id": "block-world",
+   "hero": "img/block-world-1600.webp",
+   "card": "img/block-world-720.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "Four students sit side by side at a row of computer screens in a school room, building in Minecraft, with school bags and a drink bottle beside them.",
+   "caption": "Students working and building together in a Minecraft after-school program, 22 October 2014",
+   "credit": "Kevin Jarrett, 2014. CC BY 2.0, via Wikimedia Commons",
+   "license": "CC BY 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Minecraft_in_school.jpg",
+   "focus": "45% 40%"
+  },
+  {
+   "id": "kids-2010s",
+   "hero": "img/kids-2010s-1600.webp",
+   "card": "img/kids-2010s-720.webp",
+   "width": 1600,
+   "height": 1097,
+   "alt": "Boys in caps and T-shirts stand at white and blue game stations playing a colourful paint-splatting game, with paint splash shapes on the floor around them.",
+   "caption": "Young players try Splatoon on the Wii U at the EB Games Expo, Sydney Showground, Sydney Olympic Park, 3 October 2015",
+   "credit": "Philip Terry Graham, 2015. CC0, via Wikimedia Commons",
+   "license": "CC0 1.0",
+   "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:EB_Games_Expo_2015_-_Splatoon.JPG",
+   "focus": "65% 45%"
+  }
+ ]
+}

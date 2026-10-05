@@ -1,0 +1,18 @@
+{
+  "howToPlay": [
+    "Pick a level. Each level shows its plan first: which pests are coming, which plants you have, and how many waves there are.",
+    "Pests crawl from the wild end of the garden towards your lettuces. If one reaches a lettuce, it has a munch and the level is over. You can try again straight away.",
+    "Plants cost sunshine. Tap the sunshine that floats down from the sky, and the sunshine your Sun Catchers make, to collect it.",
+    "Tap a seed packet, then a square in a bed, to plant it. After you plant, that packet needs a few seconds to grow a new seed.",
+    "Pea Flickers flick peas, Prickle Walls block the way, Sprinklers slow pests down and Bee Hives send bees to buzz around them.",
+    "Nobody gets hurt. Every pest has a nerve meter (the bar above it). When its nerve runs out, it turns round and runs home.",
+    "Shoo every pest in every wave to clear the level and open the next one. Clear all seven levels to open the Endless Garden, where the waves never stop.",
+    "Use the trowel to dig up a plant if you need the square. The fast forward button speeds the garden up to 2 or 3 times."
+  ],
+  "controls": "Tap or click a seed packet, then a square in a bed. Tap sunshine to collect it. Keyboard: arrow keys (or W, A, S, D) move the gold square, 1 to 5 pick a plant, Enter or Space plants it, C collects all the sunshine, Delete digs a plant up, Escape puts the packet away, P pauses and F fast forwards.",
+  "computer": "The computer plans every wave of pests. Each wave gets a budget of pest points. Wave 1 is always a single pest, then the budget grows by about one point a wave, and a big wave (the ones with a flag) gets double. The computer spends the points on pests from the level's list: a snail or a slug costs 1, a grasshopper or a group of three aphids costs 2, a beetle 3 and a Giant Caterpillar 14. It picks pests at random, but it chooses cheap ones in the first two waves and shows off the level's new pest after that. As each pest sets off, the computer chooses its bed. It gives every bed a score. A bed that just had a pest scores lower, so the pests spread out. A bed with fewer helpers scores higher, because the computer is looking for your weakest bed. In level 1 it does not care about your weakest bed at all, and by level 7 it cares a lot. Then it picks a bed at random, with high scores more likely, so you can never be completely sure where the next pest will come from. In the Endless Garden every 5th wave is big, every 10th brings caterpillars, and after wave 10 the budget grows by 6 per cent every wave.",
+  "players": [
+    "solo"
+  ],
+  "notes": "Plays like the lane defence of Plants vs. Zombies (PopCap Games, 2009), with the plant-your-defences idea of tower defence games like the Flash game Desktop Tower Defense (2007), moved into a vegetable garden. There are no zombies and nobody is hurt: pests have a nerve meter instead of health, and they run away when it is empty. Plants vs. Zombies gives each lane a lawnmower as a last chance; here a pest reaching the lettuces ends the level straight away, but levels are short and you can try again at once. On a phone the garden stands up, so the pests crawl from the top of the screen to the bottom, which keeps the squares big enough to tap. The plants, pests, levels and pictures are our own."
+}

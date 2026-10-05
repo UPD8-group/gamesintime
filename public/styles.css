@@ -100,6 +100,62 @@
   --era: #ff2e97; --on-era: #12051d; --font-poster: 'Iowan Old Style', Palatino, 'Palatino Linotype', Georgia, serif;
   --font-head: 'Iowan Old Style', Palatino, 'Palatino Linotype', Georgia, serif; --font-body: Charter, 'Bitstream Charter', Georgia, serif; --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
 }
+/* ===== The five new halls (1990s, 2000s, 2010s, 2020s, 2030 and beyond). Same token set as .era-1980s. ===== */
+/* The 1990s: the bedroom console. Teal desktop, jazz-cup teal and purple, Game Boy green, hot magenta, block poster type. */
+.era-1990s {
+  --ground: #071c1f; --ground-2: #0b272b; --ground-3: #10343a; --ink-dim: #9fd3cc; --amber: #1fc8b9; --orange: #ff3d9a; --straw: #ffd23f; --olive: #9bbc0f; --teal: #8b5cf6;
+  --bg: #071c1f; --bg-2: #0b272b; --surface: #10343a; --surface-2: #164249; --ink: #f2fbf8; --ink-muted: #9fd3cc; --ink-faint: #5f8f89; --line: rgba(242, 251, 248, .16);
+  --gold: #1fc8b9; --gold-shadow: #0d6e66; --vermilion: #ff3d9a; --peacock: #1fc8b9; --cobalt: #8b5cf6; --rose: #ff3d9a; --leaf: #9bbc0f;
+  --brand: #0e3b40; --brand-2: #14525a; --on-brand: #f2fbf8; --link: #5ee6da; --brand-text: #ffd23f; --red: #ff3d9a; --green: #9bbc0f; --focus: #ffd23f;
+  --era: #1fc8b9; --on-era: #04201d; --font-poster: 'Bungee', 'Arial Black', Impact, sans-serif;
+  --font-head: 'Outfit', system-ui, sans-serif; --font-body: 'Outfit', system-ui, sans-serif; --font-mono: 'VT323', ui-monospace, Menlo, Consolas, monospace;
+}
+/* The 2000s: Y2K. Frosted Bondi blue, aqua, lime and chrome silver on deep navy, techno poster type. */
+.era-2000s {
+  --ground: #061423; --ground-2: #0a1e33; --ground-3: #0f2a45; --ink-dim: #a9c6dc; --amber: #3fd0ff; --orange: #ff6ec7; --straw: #b4f000; --olive: #b4f000; --teal: #0095b6;
+  --bg: #061423; --bg-2: #0a1e33; --surface: #0f2a45; --surface-2: #153656; --ink: #eef7ff; --ink-muted: #a9c6dc; --ink-faint: #5d7d97; --line: rgba(238, 247, 255, .16);
+  --gold: #3fd0ff; --gold-shadow: #0b6f8f; --vermilion: #ff6ec7; --peacock: #0095b6; --cobalt: #5b8cff; --rose: #ff6ec7; --leaf: #b4f000;
+  --brand: #0f2a45; --brand-2: #173a5e; --on-brand: #eef7ff; --link: #7fe0ff; --brand-text: #b4f000; --red: #ff6e8a; --green: #b4f000; --focus: #b4f000;
+  --era: #3fd0ff; --on-era: #031422; --font-poster: 'Orbitron', 'Arial Black', sans-serif;
+  --font-head: 'Outfit', system-ui, sans-serif; --font-body: 'Outfit', system-ui, sans-serif; --font-mono: ui-monospace, Menlo, Consolas, monospace;
+}
+/* The 2010s: the touchscreen years. Flat design: coral, mint, sunshine and app blue on charcoal, rounded type. */
+.era-2010s {
+  --ground: #15171c; --ground-2: #1b1e24; --ground-3: #23272f; --ink-dim: #b7bec9; --amber: #ffc233; --orange: #ff5a5f; --straw: #ffc233; --olive: #00c9a7; --teal: #3d8bff;
+  --bg: #15171c; --bg-2: #1b1e24; --surface: #23272f; --surface-2: #2c313a; --ink: #ffffff; --ink-muted: #b7bec9; --ink-faint: #6b7380; --line: rgba(255, 255, 255, .14);
+  --gold: #ffc233; --gold-shadow: #a87a10; --vermilion: #ff5a5f; --peacock: #00c9a7; --cobalt: #3d8bff; --rose: #ff5a5f; --leaf: #00c9a7;
+  --brand: #23272f; --brand-2: #2f3540; --on-brand: #ffffff; --link: #5aa2ff; --brand-text: #00e0b9; --red: #ff5a5f; --green: #00c9a7; --focus: #ffc233;
+  --era: #00c9a7; --on-era: #00241e; --font-poster: 'Fredoka', 'Arial Rounded MT Bold', system-ui, sans-serif;
+  --font-head: 'Fredoka', 'Outfit', system-ui, sans-serif; --font-body: 'Outfit', system-ui, sans-serif; --font-mono: ui-monospace, Menlo, Consolas, monospace;
+}
+/* The 2020s: right now. Dark mode, daily-puzzle green and yellow, soft lilac, grotesk type. */
+.era-2020s {
+  --ground: #0f1115; --ground-2: #15181d; --ground-3: #1c2027; --ink-dim: #b9bec7; --amber: #c9b458; --orange: #ff7a59; --straw: #c9b458; --olive: #6aaa64; --teal: #b18cff;
+  --bg: #0f1115; --bg-2: #15181d; --surface: #1c2027; --surface-2: #252a33; --ink: #f5f5f5; --ink-muted: #b9bec7; --ink-faint: #6c727c; --line: rgba(245, 245, 245, .14);
+  --gold: #6aaa64; --gold-shadow: #3d6b38; --vermilion: #ff7a59; --peacock: #4fe3c1; --cobalt: #b18cff; --rose: #ff7a9c; --leaf: #6aaa64;
+  --brand: #1c2027; --brand-2: #282d36; --on-brand: #f5f5f5; --link: #9fd99a; --brand-text: #c9b458; --red: #ff6b6b; --green: #6aaa64; --focus: #c9b458;
+  --era: #6aaa64; --on-era: #0c1a0b; --font-poster: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  --font-head: 'Space Grotesk', 'Outfit', system-ui, sans-serif; --font-body: 'Outfit', system-ui, sans-serif; --font-mono: ui-monospace, Menlo, Consolas, monospace;
+}
+/* 2030 and beyond: the future hall. Aurora cyan, violet and green glowing on near-black. */
+.era-2030s {
+  --ground: #04060d; --ground-2: #080c18; --ground-3: #0e1426; --ink-dim: #a9b8d6; --amber: #5ef2ff; --orange: #ff7a90; --straw: #5effa1; --olive: #5effa1; --teal: #a78bfa;
+  --bg: #04060d; --bg-2: #080c18; --surface: #0e1426; --surface-2: #151d36; --ink: #eaf2ff; --ink-muted: #a9b8d6; --ink-faint: #5b6a8a; --line: rgba(234, 242, 255, .14);
+  --gold: #5ef2ff; --gold-shadow: #1a7f8a; --vermilion: #ff7a90; --peacock: #5ef2ff; --cobalt: #a78bfa; --rose: #ff7a90; --leaf: #5effa1;
+  --brand: #0e1426; --brand-2: #18213d; --on-brand: #eaf2ff; --link: #8cf6ff; --brand-text: #5effa1; --red: #ff7a90; --green: #5effa1; --focus: #5effa1;
+  --era: #5ef2ff; --on-era: #021317; --font-poster: 'Sora', 'Outfit', system-ui, sans-serif;
+  --font-head: 'Sora', 'Outfit', system-ui, sans-serif; --font-body: 'Outfit', system-ui, sans-serif; --font-mono: ui-monospace, Menlo, Consolas, monospace;
+}
+.site-main.era-1990s { background: radial-gradient(ellipse 80% 46% at 50% 0%, rgba(31, 200, 185, .12), transparent 62%), var(--bg); }
+.site-main.era-2000s { background: radial-gradient(ellipse 80% 46% at 50% 0%, rgba(63, 208, 255, .14), transparent 62%), var(--bg); }
+.site-main.era-2010s { background: radial-gradient(ellipse 80% 46% at 50% 0%, rgba(0, 201, 167, .10), transparent 62%), var(--bg); }
+.site-main.era-2020s { background: radial-gradient(ellipse 80% 46% at 50% 0%, rgba(106, 170, 100, .12), transparent 62%), var(--bg); }
+.site-main.era-2030s { background: radial-gradient(ellipse 70% 40% at 20% 0%, rgba(94, 242, 255, .12), transparent 62%), radial-gradient(ellipse 60% 40% at 85% 10%, rgba(167, 139, 250, .14), transparent 62%), var(--bg); }
+.era-1990s .hero-fallback { background: radial-gradient(60% 60% at 25% 30%, rgba(31, 200, 185, .35), transparent 70%), radial-gradient(50% 50% at 80% 70%, rgba(139, 92, 246, .3), transparent 70%), #071c1f; }
+.era-2000s .hero-fallback { background: radial-gradient(70% 60% at 30% 30%, rgba(63, 208, 255, .35), transparent 70%), linear-gradient(160deg, rgba(180, 240, 0, .12), transparent 55%), #061423; }
+.era-2010s .hero-fallback { background: linear-gradient(135deg, #ff5a5f 0 25%, #ffc233 25% 50%, #00c9a7 50% 75%, #3d8bff 75%); opacity: .55; }
+.era-2020s .hero-fallback { background: repeating-linear-gradient(90deg, rgba(106, 170, 100, .25) 0 54px, rgba(201, 180, 88, .2) 54px 108px, rgba(58, 58, 60, .5) 108px 162px), #0f1115; }
+.era-2030s .hero-fallback { background: radial-gradient(60% 50% at 20% 30%, rgba(94, 242, 255, .35), transparent 70%), radial-gradient(50% 50% at 75% 40%, rgba(167, 139, 250, .35), transparent 70%), radial-gradient(60% 40% at 50% 90%, rgba(94, 255, 161, .25), transparent 70%), #04060d; }
 .site-main[class*="era-"], .game-page[class*="era-"] { background: var(--bg); color: var(--ink); font-family: var(--font-body); }
 .site-main.era-1980s { background: radial-gradient(ellipse 80% 46% at 50% 0%, rgba(255, 46, 151, .12), transparent 62%), var(--bg); }
 .era-1980s .hero-fallback { background: radial-gradient(70% 60% at 30% 30%, rgba(255, 46, 151, .35), transparent 70%), linear-gradient(transparent 60%, rgba(5, 217, 232, .12)), repeating-linear-gradient(0deg, rgba(5, 217, 232, .14) 0 1px, transparent 1px 44px), repeating-linear-gradient(90deg, rgba(255, 46, 151, .12) 0 1px, transparent 1px 44px), #0a0616; }
@@ -149,22 +205,23 @@ button { cursor: pointer; }
 .brand:hover { color: var(--ink); }
 .brand-mark { width: 34px; height: 34px; flex: none; }
 .brand .dot { color: var(--gold); }
-.era-pills { display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: color-mix(in srgb, var(--bg) 60%, transparent); border: 1px solid var(--line); margin-inline: auto; backdrop-filter: blur(6px); }
-.era-pills a { font-family: var(--font-mono); font-weight: 700; font-size: .8rem; letter-spacing: .08em; text-decoration: none; color: var(--ink-muted); padding: .45rem .8rem; border-radius: 999px; white-space: nowrap; }
+.era-pills { display: flex; gap: 2px; padding: 4px; border-radius: 999px; background: color-mix(in srgb, var(--bg) 60%, transparent); border: 1px solid var(--line); margin-inline: auto; backdrop-filter: blur(6px); }
+.era-pills a { font-family: var(--font-mono); font-weight: 700; font-size: .78rem; letter-spacing: .02em; text-decoration: none; color: var(--ink-muted); padding: .45rem .52rem; border-radius: 999px; white-space: nowrap; }
 .era-pills a:hover { color: var(--ink); background: rgba(253, 243, 225, .08); }
 .era-pills a[aria-current="page"] { background: var(--gold); color: var(--on-era); }
 .header-actions { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
-@media (min-width: 1181px) { .era-pills + .header-actions { margin-left: 0; } }
+@media (min-width: 1310px) { .era-pills + .header-actions { margin-left: 0; } }
 .circle-btn { width: 46px; height: 46px; border-radius: 50%; border: 1.5px solid rgba(253, 243, 225, .55); background: rgba(20, 15, 11, .35); color: var(--ink); display: inline-grid; place-items: center; padding: 0; backdrop-filter: blur(6px); }
 .circle-btn:hover { border-color: var(--gold); color: var(--gold); }
 .circle-btn svg { width: 22px; height: 22px; }
 .circle-btn[aria-pressed="false"] .wave { opacity: 0; }
-@media (max-width: 1180px) { .era-pills { display: none; } }
+@media (max-width: 1309px) { .era-pills { display: none; } }
+.header-actions > * { flex-shrink: 0; }
 .surprise-icon { display: none; }
 /* For Teachers sits in the header beside Surprise me; on phones it lives at the top of the menu instead */
 .teachers-pill { min-height: 46px; padding: .5rem 1.1rem; white-space: nowrap; backdrop-filter: blur(6px); }
 .teachers-pill[aria-current="page"] { border-color: var(--gold); color: var(--gold); }
-@media (min-width: 1181px) and (max-width: 1240px), (min-width: 561px) and (max-width: 700px) {
+@media (min-width: 1310px) and (max-width: 1399px), (min-width: 561px) and (max-width: 700px) {
   .surprise-pill { display: none !important; }
   .surprise-icon { display: inline-grid; }
 }
@@ -262,6 +319,13 @@ button { cursor: pointer; }
 .era-1970s .hero-title, .era-1980s .hero-title { font-weight: 800; letter-spacing: -.01em; }
 .era-1980s .hero-title .gold { color: #b39ee0; }
 .era-1970s .hero-title .gold { color: #cdb48c; }
+.era-1990s .poster { color: #ffd23f; letter-spacing: .02em; text-shadow: 4px 4px 0 #ff3d9a, 8px 8px 0 #1fc8b9, 12px 12px 0 #8b5cf6, 16px 18px 24px rgba(0,0,0,.45); }
+.era-2000s .poster { font-weight: 900; letter-spacing: .04em; color: transparent; background: linear-gradient(180deg, #ffffff 0%, #c9d4de 42%, #5d7d97 52%, #eef7ff 66%, #3fd0ff 100%); -webkit-background-clip: text; background-clip: text; text-shadow: none; filter: drop-shadow(0 0 16px rgba(63, 208, 255, .5)); }
+.era-2010s .poster { font-weight: 700; color: #ffffff; text-shadow: 4px 4px 0 #ff5a5f, 8px 8px 0 #ffc233, 12px 12px 0 #00c9a7, 16px 16px 0 #3d8bff; }
+.era-2020s .poster { font-weight: 700; letter-spacing: -.03em; color: #6aaa64; text-shadow: 4px 4px 0 #c9b458, 8px 8px 0 #3a3a3c, 12px 14px 22px rgba(0,0,0,.45); }
+.era-2030s .poster { font-weight: 800; letter-spacing: -.02em; color: transparent; background: linear-gradient(100deg, #5ef2ff 0%, #a78bfa 48%, #5effa1 85%); -webkit-background-clip: text; background-clip: text; text-shadow: none; filter: drop-shadow(0 0 22px rgba(94, 242, 255, .45)); }
+.era-1990s .hero-title .gold { color: #5ee6da; }
+.era-2020s .hero-title .gold { color: #9fd99a; }
 .poster--big { font-size: clamp(4.2rem, 2rem + 11vw, 10rem); }
 
 /* ---------- main ---------- */
@@ -297,17 +361,12 @@ button { cursor: pointer; }
 .era-tile .poster { font-size: 3.1rem; position: absolute; left: 1rem; bottom: .6rem; }
 .era-tile .gcard-img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 40%, rgba(20,15,11,.8)); }
 .era-tile .poster { z-index: 1; }
+.era-tile .poster--long { font-size: 2.3rem; }
 
-/* seven halls: four across, then three wider ones; two across on tablets with the last one full width */
-@media (min-width: 1000px) {
-  .era-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); }
-  .era-grid > li { grid-column: span 3; }
-  .era-grid > li:nth-child(n+5) { grid-column: span 4; }
-}
-@media (min-width: 640px) and (max-width: 999px) {
-  .era-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .era-grid > li:last-child:nth-child(odd) { grid-column: 1 / -1; }
-}
+/* twelve halls: four across on wide screens, three on laptops and tablets, two on small tablets, one on phones */
+@media (min-width: 1100px) { .era-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 820px) and (max-width: 1099px) { .era-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 560px) and (max-width: 819px) { .era-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
 /* filter chips */
 .filters { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.25rem; }

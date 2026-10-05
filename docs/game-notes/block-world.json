@@ -1,0 +1,15 @@
+{
+  "howToPlay": [
+    "Press Start. Pick Explore to collect every block yourself, or Creative to have every block and fly.",
+    "Dig: hold the left mouse button on a block, or pick Dig and hold your finger on it. Tougher blocks take longer to dig.",
+    "Build: pick a block in the hotbar, then right-click an empty space next to another block, or pick Place and tap. Aim at your own feet to hop up and build under yourself.",
+    "In Explore, open the Bag to make things: wood into planks, planks into a workbench, coal and a plank into torches. Stand next to your workbench to make glass, bricks, doors and lamps.",
+    "Night comes every few minutes. Caves and nights are dark, so light them with torches. There are no monsters: at night the fireflies come out.",
+    "Open Goals for the building challenges, like a house with a door and a window, a tower 10 blocks tall or a bridge over water.",
+    "Your world saves itself on this device. Type the same world number on another device to explore the same hills."
+  ],
+  "controls": "Mouse: hold the left button to dig, right button to place. Touch: pick Dig or Place, then tap or hold the world; the arrow buttons walk, jump and swim. Keyboard: A and D or the arrow keys walk, W, Up or Space jumps, S or Down swims or flies down, 1 to 9 pick a block, I, J, K and L aim, X digs, C places, E opens the Bag, G the goals, Q switches Dig and Place, F flies in Creative.",
+  "computer": "There is no opponent here: the computer's job is to grow the world. It starts from one number, the world number, and feeds it into a noise function that turns every spot on the map into a smooth random value. Smooth values become rolling hills and lakes, values very close to zero become winding caves, and small patches of high values become coal, copper and rare opals. The same number always gives the same values, so the same world number always grows the same world, which is how a whole class can share one. Light is worked out with a flood fill: sunlight shines straight down until it hits something solid, then spreads one block at a time, one step dimmer each block, like paint spreading through a maze. Torches spread light the same way. To check your house, the game pours an imaginary flood into the space inside: if the flood stays small and touches a door and some glass, you have built a closed room. Saving keeps only the world number and the blocks you changed, so even a big build fits in a few kilobytes.",
+  "players": ["solo"],
+  "notes": "Minecraft is a 3D world, usually seen through your character's eyes. Block World is side-on and 2D, like Terraria, so it runs smoothly on a school Chromebook or iPad. There are no monsters, no health and no hunger: night brings fireflies, not danger, so the game is all about exploring and building. Crafting is a short list of recipes in the Bag instead of a crafting grid, and you dig without tools (tougher blocks just take longer). Water flows and sand falls, but only near the blocks you change. The blocks, their names (like wattle and opal), the explorer and all the art are our own."
+}

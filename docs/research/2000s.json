@@ -1,0 +1,455 @@
+{
+  "hall": {
+    "id": "2000s",
+    "hook": "A number grid from the newspaper, glittering gems to swap, a one-button cave flight, a garden full of pests and a bowling lane you swing at.",
+    "intro": "In the 2000s games reached people who never called themselves gamers. Free web games ran in school computer rooms, puzzles filled newspapers and phones, and a remote you swing brought whole families in to bowl. Same rule as the rooms next door: the mechanics are the era's, the names and colours are ours."
+  },
+  "games": [
+    {
+      "id": "number-place",
+      "yearLabel": "1979 (a world craze in 2005)",
+      "stamp": "2005",
+      "origin": "Mechanics of Number Place by Howard Garns, Dell Magazines, New York, USA, named Sudoku by Nikoli, Japan",
+      "tagline": "One to nine, no repeats.",
+      "blurb": "Fill the grid so that every row, every column and every box holds the numbers 1 to 9 exactly once, like the Sudoku puzzles that swept the world's newspapers in 2005.",
+      "story": [
+        "In May 1979 an American puzzle magazine, Dell Pencil Puzzles and Word Games, printed a new puzzle called Number Place. It did not print who made it. Years later, puzzle editor Will Shortz noticed that one name, Howard Garns, was in the list of contributors in every issue with Number Place and missing from every issue without it. Garns was a retired architect from Indianapolis, and old workmates remembered him working on the puzzle at the office. He died in 1989, before it became famous.",
+        "In 1984 the Japanese puzzle company Nikoli found Number Place in an American magazine and printed it for its readers as 'Suuji wa dokushin ni kagiru', which means 'the numbers must be single'. That was too long, so it was shortened to Sudoku: su means number and doku means single. In 1986 Nikoli added a rule that the starting numbers must make a symmetrical pattern, and the puzzle became a big hit in Japan.",
+        "In March 1997 Wayne Gould, a New Zealand-born judge who worked in Hong Kong, saw a Sudoku book in a Tokyo bookshop. He spent six years writing a computer program that could make the puzzles. In 2004 he walked into The Times newspaper in London 'like an old-fashioned travelling salesman', and The Times printed its first Sudoku on 12 November 2004. By 2005 newspapers around the world were printing Sudoku, and in 2006 Time magazine named Gould one of the 100 most influential people in the world.",
+        "Number Place plays like Sudoku: fill every row, column and box with 1 to 9 using logic, not sums. It uses the puzzle's first name from 1979, and the look here is our own."
+      ],
+      "didYouKnow": [
+        "The day after The Times printed its first Sudoku, a reader wrote in to complain that the puzzle had made him miss his stop on the London Underground.",
+        "There are 6,670,903,752,021,072,936,960 different ways to fill a complete 9 by 9 Sudoku grid.",
+        "A Sudoku needs at least 17 starting numbers to have only one answer. Gordon Royle, a mathematician at the University of Western Australia in Perth, collected more than 49,000 puzzles with exactly 17, and in 2012 a team in Ireland proved that 16 is never enough.",
+        "In 2008 a three-month court case in Sydney had to stop after a juror admitted that she and four others had been doing Sudoku instead of listening. Someone noticed they were writing up and down the page, not across."
+      ],
+      "sources": [
+        {
+          "title": "Sudoku, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sudoku",
+          "note": "Number Place in Dell Magazines from 1979; Will Shortz found Garns' name in contributor lists; Nikoli 1984 and the name Sudoku; Gould's program; The Times launched Su Doku on 12 November 2004; first reader's letter (13 November) about missing his stop on the tube; 6,670,903,752,021,072,936,960 solution grids; fewest clues is 17."
+        },
+        {
+          "title": "Howard Garns, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Howard_Garns",
+          "note": "Architect (1905 to 1989) at the Daggett firm in Indianapolis; colleagues recall him working on the puzzle on the firm's drawing boards; Dell Pencil Puzzles and Word Games first published Number Place in May 1979 without his byline."
+        },
+        {
+          "title": "Sudoku, Nikoli",
+          "url": "https://www.nikoli.co.jp/en/puzzles/sudoku/",
+          "note": "'We found this puzzle in an American puzzle magazine, where it was titled Number Place, and we introduced it to our Japanese readers at 1984'; first title 'Suuji wa dokushin ni kagiru'; SU means number and DOKU means single; symmetrical clue rule in 1986; 'Sudoku' is a Nikoli trademark in Japan, so other companies call it Number Place."
+        },
+        {
+          "title": "So you thought Sudoku came from the Land of the Rising Sun..., David Smith, The Observer, 15 May 2005",
+          "url": "https://www.theguardian.com/media/2005/may/15/pressandpublishing.usnews",
+          "note": "Dell's editor says the oldest copy in its archive is from 1979; Wayne Gould saw a Sudoku book in Tokyo in March 1997; developed a program over six years; 'I turned up unannounced at the Times, like an old-fashioned travelling salesman'."
+        },
+        {
+          "title": "Wayne Gould, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wayne_Gould",
+          "note": "Born 1945 in Hawera, New Zealand; judge in Hong Kong until 1997; six years developing Pappocom Sudoku; The Times from November 2004; Time 100 in 2006."
+        },
+        {
+          "title": "Good at Sudoku? Here's some you'll never complete, Gordon Royle, The Conversation, 2012",
+          "url": "https://theconversation.com/good-at-sudoku-heres-some-youll-never-complete-5234",
+          "note": "Royle, Professor of Mathematics at the University of Western Australia, collected more than 49,000 different 17-clue puzzles; a team led by Gary McGuire of University College Dublin proved no 16-clue puzzle exists."
+        },
+        {
+          "title": "Sudoku-spoiled trial: Lawyers' motives questioned, ABC News, 14 June 2008",
+          "url": "https://www.abc.net.au/news/2008-06-14/sudoku-spoiled-trial-lawyers-motives-questioned/2471026",
+          "note": "A three-month Sydney District Court trial was aborted after a defendant noticed jurors writing vertically; a juror admitted she and four others had been playing Sudoku while evidence was heard."
+        }
+      ],
+      "uncertainties": [
+        "Garns' role is worked out from Dell's lists of contributors, because the puzzles carried no names.",
+        "Sources differ on Wayne Gould's home town: Wikipedia says he was born in Hawera, The Observer calls him 'a man from Matamata'. The story says New Zealand.",
+        "Wikipedia says the first newspaper outside Japan to print Sudoku was The Conway Daily Sun in New Hampshire, USA, in September 2004, two months before The Times.",
+        "'Sudoku' is a registered trademark of Nikoli in Japan; the game's title uses Number Place, the name Dell gave the puzzle in 1979.",
+        "No source was found for which Australian newspaper printed Sudoku first."
+      ]
+    },
+    {
+      "id": "gem-swap",
+      "yearLabel": "2001 (on the web in 2000 as Diamond Mine)",
+      "stamp": "2001",
+      "origin": "Mechanics of Bejeweled by PopCap Games, Seattle, USA",
+      "tagline": "Swap two gems, match three.",
+      "blurb": "Swap two neighbouring gems to line up three or more of the same kind, then watch them vanish as new gems tumble in, like PopCap's 2001 hit Bejeweled.",
+      "story": [
+        "In 2000 three young game makers in Seattle, USA, John Vechey, Brian Fiete and Jason Kapalka, were making simple games to sell to other companies. Vechey found a basic web game where you lined up three squares of the same colour. It used plain squares, had no animation or sound, and the page had to reload after every move, but the team could not stop playing it. They decided to make a polished version.",
+        "Kapalka thought about using fruit or shapes, but chose glittering gems. They called the game Diamond Mine and put it on the web in 2000. Microsoft wanted it for its MSN Games website, but instead of buying it for 50,000 US dollars it paid 1,500 dollars a month to show it, and asked for a new name because another game was already called Diamond Mines. So it became Bejeweled, the company became PopCap Games, and Bejeweled Deluxe went on sale on 30 May 2001.",
+        "The game with a timer was meant to be the main mode, and a relaxed mode with no timer was added almost as an afterthought. Players loved the relaxed mode most, and it helped begin a whole new kind of 'casual game' for people who did not think of themselves as gamers. Bejeweled was built into the Motorola Razr phone in 2004 and ran on the iPhone soon after it appeared in 2007. By 2013 it had been downloaded more than 500 million times, and in 2020 The Strong National Museum of Play added it to its World Video Game Hall of Fame.",
+        "Gem Swap plays like Bejeweled: swap neighbours, match three or more and set off chains of falling gems for bigger scores. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "Diamond Mine was named after a song by the Canadian band Blue Rodeo.",
+        "Within a month of arriving on MSN Games, Bejeweled was the site's most-played game, and it stayed number one until July 2002.",
+        "The game's makers estimated in 2013 that players had spent more than 10 billion hours on Bejeweled.",
+        "Bejeweled 3 has a bonus level called Diamond Mine, a nod to the game's first name."
+      ],
+      "sources": [
+        {
+          "title": "Bejeweled, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/bejeweled/",
+          "note": "Inducted 2020; published by PopCap in 2001; popularised match three; first on ad-supported sites including Microsoft Zone; built into the Motorola Razr in 2004; more than 500 million downloads and 10 billion hours by 2013; first called Diamond Mine, renamed because of a 1980s game called Diamond Mines; Diamond Mine bonus level in Bejeweled 3."
+        },
+        {
+          "title": "Bejeweled (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bejeweled_(video_game)",
+          "note": "Vechey found a primitive match-three browser game in April 2000; Kapalka chose gems over fruit or shapes; named after a Blue Rodeo song; released as Diamond Mine on the web in 2000; Microsoft declined to pay $50,000 and leased it for $1,500 a month; renamed Bejeweled; Bejeweled Deluxe 30 May 2001; untimed mode an afterthought that became the main mode; number one on MSN Games until July 2002; Safari version for iPhone on 30 July 2007."
+        },
+        {
+          "title": "Tile-matching video game, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tile-matching_video_game",
+          "note": "The first match-three game was Shariki (1994), which led directly to Bejeweled (2001); the untimed mode made the game more accessible."
+        },
+        {
+          "title": "PopCap Games, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PopCap_Games",
+          "note": "Founded in Seattle in 2000 by John Vechey, Brian Fiete and Jason Kapalka; bought by Electronic Arts in 2011."
+        }
+      ],
+      "uncertainties": [
+        "Dates differ: Diamond Mine was on the web in 2000, while The Strong says PopCap published Bejeweled in 2001.",
+        "Wikipedia says the team was inspired by a browser game called Colors Game; other accounts trace match-three back to Shariki (1994).",
+        "Download totals are estimates from the makers: 150 million by 2008 (Wikipedia) and 500 million by 2013 (The Strong).",
+        "No Australian link to Bejeweled was found."
+      ]
+    },
+    {
+      "id": "cave-copter",
+      "yearLabel": "About 2000 (game sites list 2002 or 2004)",
+      "stamp": "2000",
+      "origin": "Mechanics of the Helicopter Game by David McCandless for the website seethru.co.uk, United Kingdom",
+      "tagline": "Hold to rise, release to fall.",
+      "blurb": "Hold one button to climb and let go to sink as your little craft flies through an endless cave, like the Flash web game Helicopter that spread through school computer rooms in the 2000s.",
+      "story": [
+        "One-button cave games began on small screens. In 1995 SFCave, by Sunflat Games, asked players to steer a ribbon through a narrowing cave: touch to rise, let go to fall. It later appeared on Palm handheld computers and phones.",
+        "Around 2000 the British writer David McCandless ran seethru.co.uk, a real website made to go with Attachments, a BBC TV drama about young people working at an internet company in London. The site was full of quizzes and silly games. McCandless and a programmer friend built the Helicopter Game in Flash in a matter of days: hold the mouse button and the helicopter climbs, let go and it sinks, and you fly as far as you can without touching the cave.",
+        "Copies spread from one game website to another, often without the maker's name, and many people remember playing it in school computer classes. 'It was very gradual,' McCandless said. 'I never expected it to be a big craze.' He never earned money from it. Years later, critics said the 2013 phone hit Flappy Bird borrowed the same one-button idea.",
+        "Flash games could not last forever: Adobe stopped supporting Flash Player on 31 December 2020. In 2017 an Australian, Ben Latimore, started Flashpoint to save them, and it now holds more than 200,000 web games and animations. Cave Copter plays like the Helicopter Game: one button, an endless cave and your distance as the score. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "McCandless says that in 2008 someone copied his game for Apple's new App Store, where it was the seventh biggest selling app for about three months.",
+        "When Flappy Bird was a hit in 2014, McCandless joked that he was 'mostly annoyed my high score is only two'.",
+        "Seethru was a made-up company in a TV show, but its website was real and changed as the series went on.",
+        "From 12 January 2021 Adobe blocked Flash content from running in Flash Player at all."
+      ],
+      "sources": [
+        {
+          "title": "The Man Behind 'Helicopter Game,' the Original 'Flappy Bird', Karissa Bell, Mashable, 9 February 2014",
+          "url": "https://mashable.com/2014/02/08/flappy-bird-helicopter-game/",
+          "note": "McCandless created Helicopter Game in 2000 for seethru.co.uk, a tie-in to the BBC drama Attachments; he and a programmer friend built the Flash game in a matter of days; 'It was very gradual. I never expected it to be a big craze'; a 2008 App Store copy was the seventh biggest selling iOS app for about three months; he never earned from it; 'mostly annoyed my high score is only two'."
+        },
+        {
+          "title": "The Shrouded Origins of 'The Helicopter Game', merritt k, Other Strangeness, 2022",
+          "url": "https://www.otherstrangeness.com/2022/09/29/the-shrouded-origins-of-the-helicopter-game/",
+          "note": "A staple of the author's high school computer class; Addicting Games lists SeeThru.co.uk and 2004, the Web Gaming Wiki says 2002; Flash games often spread without their makers' names."
+        },
+        {
+          "title": "Helicopter Game, Flash Museum",
+          "url": "https://flashmuseum.org/helicopter-game/",
+          "note": "Lists developer SeeThru.co.uk, release date 13 November 2004, left mouse button for power."
+        },
+        {
+          "title": "Attachments (TV series), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Attachments_(TV_series)",
+          "note": "BBC Two comedy-drama, 2000 to 2002, about young professionals in London at an internet startup called seethru; the fictional company ran a real website at seethru.co.uk, updated as the show progressed."
+        },
+        {
+          "title": "David McCandless, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/David_McCandless",
+          "note": "British data journalist, writer and information designer, born 1971; began his career writing about video games."
+        },
+        {
+          "title": "SFCave, Internet Archive (from MobyGames)",
+          "url": "https://archive.org/details/win3_SFCave",
+          "note": "Sunflat Games, 1995, Windows 3.x; also for Palm OS, iPhone, Android and others; one-button ribbon through a cave."
+        },
+        {
+          "title": "Flappy Bird, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flappy_Bird",
+          "note": "A Canada.com editor charged that its main mechanic was taken from Helicopter Game."
+        },
+        {
+          "title": "Adobe Flash Player End of Life, Adobe",
+          "url": "https://www.adobe.com/products/flashplayer/end-of-life.html",
+          "note": "Adobe stopped supporting Flash Player after 31 December 2020 and blocked Flash content from 12 January 2021."
+        },
+        {
+          "title": "Flashpoint Archive, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flashpoint_Archive",
+          "note": "Started by Australian Ben 'BlueMaxima' Latimore in late 2017; over 200,000 applications from over 120 browser plugins, mostly Adobe Flash."
+        },
+        {
+          "title": "Flash Back: preserving a gaming legacy, Film Stories",
+          "url": "https://filmstories.co.uk/features/flash-back-preserving-a-gaming-legacy/",
+          "note": "Describes BlueMaxima, real name Ben Latimore, as an Australian gamer and content creator who set up Flashpoint."
+        }
+      ],
+      "uncertainties": [
+        "The planning notes credit 'Dave McClure, 2004', but the sources opened point to David McCandless, who told Mashable he made it with a programmer friend. A web comment names the Flash programmer as Leandro Barreto, but this could not be confirmed.",
+        "The year is unclear. Mashable says 2000 (an earlier copy of the same article said 1999); the Web Gaming Wiki says 2002; Addicting Games and Flash Museum say 2004, which may be when it was added to those sites.",
+        "SFCave is listed as a 1995 Windows game by Sunflat Games; some websites date its popular Palm version to 1998.",
+        "How many schools had the game is not recorded; the story relies on people's memories of school computer classes."
+      ]
+    },
+    {
+      "id": "garden-guard",
+      "yearLabel": "2009 (tower defence games boomed from 2007)",
+      "stamp": "2009",
+      "origin": "Mechanics of Plants vs. Zombies by George Fan, PopCap Games, Seattle, USA, and Desktop Tower Defense by Paul Preece",
+      "tagline": "Plant helpers. Save the lettuces.",
+      "blurb": "Plant helpers in the garden beds and shoo crawling pests away before they reach your lettuces, like the tower defence games Desktop Tower Defense (2007) and Plants vs. Zombies (2009).",
+      "story": [
+        "In a tower defence game, enemies march along a path and you place defenders beside it to stop them. Early ideas go back a long way: Pedro, from 1984, was a garden defence game where you placed barriers, and Rampart, from 1990, set up the pattern of building, defending and repairing. Players also built tower defence maps of their own inside strategy games such as StarCraft and Warcraft III.",
+        "In March 2007 Paul Preece released Desktop Tower Defense, a free Flash game set on an office desk. The enemies always took the shortest path they could find to the exit, so players placed towers to make the longest, most winding maze. By July 2007 it had been played more than 15.7 million times.",
+        "At PopCap Games in Seattle, George Fan first imagined a sequel to his fish tank game Insaniquarium, with aliens attacking. After playing Warcraft III tower defence maps, he decided plants would make good defenders. In most tower defence games the enemies walk straight past the towers, which Fan thought was odd, so he lined them up in five lanes across a lawn where they run into the plants. While sketching he drew what he called 'the perfect zombie', and the game became Plants vs. Zombies. It took three and a half years to make and came out on 5 May 2009. In the USA it is rated E10+, for everyone aged 10 and over.",
+        "Garden Guard plays like Plants vs. Zombies: collect sunshine, plant defenders in garden beds and protect your lettuces lane by lane. Here the pests are snails, slugs and beetles, and they are shooed away, never hurt. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "In Desktop Tower Defense the game would not let you block the exit completely, so the best players built long, twisting mazes out of towers instead.",
+        "George Fan chose zombies instead of aliens partly so his game would stand out from other games with plants in them.",
+        "At a 2012 conference for game makers, Fan gave a talk called 'How I Got My Mom to Play Through Plants vs. Zombies', sharing 10 tricks for teaching a game so anyone can learn it.",
+        "Plants vs. Zombies began as an idea for a fish game. In the early plan, aliens attacked a fish tank on the top screen of a Nintendo DS."
+      ],
+      "sources": [
+        {
+          "title": "Plants vs. Zombies (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plants_vs._Zombies_(video_game)",
+          "note": "Designed by George Fan; released 5 May 2009; began as a defence-focused sequel to Insaniquarium with aliens attacking a top fish tank on a Nintendo DS; inspired by Warcraft III tower defence mods; five- and six-lane lawns; 'the perfect zombie'; zombies chosen to stand out from other plant games; three and a half years of development; artist Rich Werner, programmer Tod Semple, composer Laura Shigihara."
+        },
+        {
+          "title": "Desktop Tower Defense, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Desktop_Tower_Defense",
+          "note": "Flash browser game by Paul Preece, released 3 March 2007; played over 15.7 million times by July 2007; enemies take the shortest path; the game does not allow the exit to be made completely inaccessible."
+        },
+        {
+          "title": "Tower defense, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tower_defense",
+          "note": "Imagine Software's Pedro (1984), a garden defence game with fixed obstructions; Rampart (1990) established build, defend and repair phases; StarCraft custom maps such as Turret Defense (2000)."
+        },
+        {
+          "title": "How I Got My Mom to Play Through Plants vs. Zombies, GDC Vault, Game Developers Conference 2012",
+          "url": "https://www.gdcvault.com/play/1015541/How-I-Got-My-Mom",
+          "note": "George Fan of PopCap presents 10 techniques for teaching game mechanics, using examples from Plants vs. Zombies, and how he got his mum to play through a full strategy game."
+        },
+        {
+          "title": "Plants vs. Zombies rating, Entertainment Software Rating Board",
+          "url": "https://www.esrb.org/ratings/29273/plants-vs-zombies/",
+          "note": "Rated E10+ (Everyone 10+) for animated blood and cartoon violence, for console and handheld releases."
+        }
+      ],
+      "uncertainties": [
+        "Where the tower defence idea began is debated; Wikipedia's article on the genre is flagged as needing better sources.",
+        "No source opened gives Paul Preece's home town or country, so the origin line does not name one.",
+        "The ESRB rating quoted is for console and handheld versions; no rating was checked for the first computer version.",
+        "Plants vs. Zombies is about plants fighting zombies; this hall's game uses garden pests that are only shooed away."
+      ]
+    },
+    {
+      "id": "ten-pin",
+      "yearLabel": "2006",
+      "stamp": "2006",
+      "origin": "Mechanics of bowling in Wii Sports by Nintendo, Kyoto, Japan",
+      "tagline": "Aim, swing and knock them down.",
+      "blurb": "Line up, add some spin and swing to roll the ball down the lane and knock down all ten pins, like bowling in Nintendo's 2006 game Wii Sports.",
+      "story": [
+        "Bowling was one of the first sports on home video game machines. The RCA Studio II console had a bowling game built in during 1977, with a square ball and ten square pins seen from above, and Fairchild, Atari and Mattel soon made their own. Later bowling games showed the lane from behind the bowler, with meters to set the power and spin.",
+        "Nintendo wanted its new console, the Wii, to reach people who had never played video games. The Wii Remote could sense movement with a tiny part called an accelerometer. Wii Sports, produced by Katsuya Eguchi, turned tennis, baseball, bowling, golf and boxing into simple games you play by moving the remote like a racket, bat, ball, club or glove. It came in the box with the Wii in North America on 19 November 2006 and in Australia on 7 December 2006.",
+        "Bowling became a favourite. Families, and even grandparents, played together, and senior centres in the USA ran Wii bowling leagues for people who had bowled in the 1950s and 1960s but now found real bowling too hard on their bodies. Wii Sports sold more than 82 million copies, and in 2023 The Strong National Museum of Play added it to its World Video Game Hall of Fame.",
+        "In 1960 Hurstville Bowl in Sydney opened as Australia's first mechanical ten-pin bowling centre, and tennis champion Neale Fraser rolled the first ball. Ten-Pin plays like Wii Sports bowling: aim, add spin and swing, with full scoring for strikes and spares. The name and look here are our own."
+      ],
+      "didYouKnow": [
+        "A strike scores 10 plus the pins from your next two balls, and a spare scores 10 plus your next ball. Twelve strikes in a row makes a perfect game of 300.",
+        "Early versions of Wii Sports used Mario characters, but players preferred their own Mii characters, so Mario was taken out.",
+        "Bowling and golf in Wii Sports can be played by several people sharing just one remote, taking turns.",
+        "A computer writer who loved real bowling said 'Nintendo did a stupendous job of coding' the bowling, but complained that his wrist and shoulder got sore."
+      ],
+      "sources": [
+        {
+          "title": "Wii Sports, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/wii-sports/",
+          "note": "Inducted 2023; released 2006 and bundled with Wii consoles outside Japan; motion-sensitive Wii Remote; played with parents and grandparents; senior centres ran Wii bowling leagues; Aetna sponsored a senior bowling championship in 2011; more than 82 million copies."
+        },
+        {
+          "title": "Pins and Pixels: A Brief History of Home Video Game Bowling, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/blog/pins-and-pixels-a-brief-history-of-home-video-game-bowling/",
+          "note": "First home bowling video game built into the RCA Studio II in 1977 with a top-down square ball and ten pins; Fairchild Channel F, Odyssey2, APF, Atari (1979) and Intellivision (1981) versions; later games used a front-facing lane view and meters for placement, power and spin."
+        },
+        {
+          "title": "Wii Sports, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wii_Sports",
+          "note": "Released in North America on 19 November 2006 and in Australia on 7 December 2006; pack-in everywhere except Japan and Korea; produced by Katsuya Eguchi; uses the Wii Remote's accelerometer; Mario characters removed after players preferred Miis; golf and bowling playable with one shared remote; John C. Dvorak's 'stupendous job of coding' and sore wrist."
+        },
+        {
+          "title": "Ten-pin bowling, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ten-pin_bowling",
+          "note": "Strike: ten pins plus the next two rolls; spare: ten plus the next roll; bonus rolls in the tenth frame; a perfect game is 300."
+        },
+        {
+          "title": "Flashback Friday: Hurstville Bowl was 'a first' for Australia when it opened in 1960, Murray Trembath, St George and Sutherland Shire Leader, 2018",
+          "url": "https://www.theleader.com.au/story/5144714/flashback-friday-hurstville-bowl-closes-after-27-years/",
+          "note": "Hurstville Bowl, the first mechanical tenpin bowling centre in Australia, opened in 1960 with tennis great Neale Fraser bowling the first ball; 20 lanes; closed in 1987."
+        }
+      ],
+      "uncertainties": [
+        "Some websites call Hurstville Bowl Australia's first fully automatic centre; The Leader says first mechanical centre.",
+        "Wii Sports sales are given as 'more than 82 million' by The Strong; other sources give slightly different totals.",
+        "No reliable Australian source was found about Wii bowling in Australian aged care homes, so the story describes the American leagues The Strong mentions."
+      ]
+    }
+  ],
+  "kids": [
+    {
+      "era": "2000s",
+      "title": "Being 12 in the 2000s",
+      "paragraphs": [
+        "The decade began with the Sydney 2000 Olympic Games, from 15 September to 1 October. On 25 September Cathy Freeman, who had lit the Olympic flame, won the 400 metres. In October the Paralympic Games filled the stands with school groups in green and gold face paint.",
+        "Shopping changed on 1 July 2000, when a 10 per cent goods and services tax (GST) started on most things you buy. At home the internet became normal: by 2008-09, 72 in every 100 Australian homes were online, and most of them had broadband. In 2009, 79 in every 100 children aged 5 to 14 used the internet, and 31 in every 100 had their own mobile phone. From 2008 the Digital Education Revolution began giving laptops to public high school students in Years 9 to 12.",
+        "The PlayStation 2 went on sale in Australia on 30 November 2000, the Nintendo DS on 24 February 2005 and the Wii on 7 December 2006. Australian studios made hits too: Krome Studios in Brisbane made Ty the Tasmanian Tiger in 2002, and Firemint in Melbourne made Flight Control, which was the number 1 app in 19 countries at once on 6 April 2009. Australian Idol began on TV on 27 July 2003.",
+        "Much of southern Australia was in the Millennium Drought, the worst on record. Melbourne had strict Stage 3a water restrictions from 1 April 2007. On 13 February 2008 Prime Minister Kevin Rudd made the National Apology to the Stolen Generations, Aboriginal and Torres Strait Islander children who had been taken from their families."
+      ],
+      "fastFacts": [
+        "Cathy Freeman won the 400 metres at the Sydney Olympics on 25 September 2000 in 49.11 seconds. (Wikipedia)",
+        "The GST started on 1 July 2000. (Wikipedia)",
+        "In 2008-09, 72 in every 100 Australian homes had the internet, up from 16 in 1998. (Australian Bureau of Statistics)",
+        "In 2009, 69 in every 100 Australian children aged 5 to 14 who used the internet at home played games online. (Australian Bureau of Statistics)",
+        "The Wii went on sale in Australia on 7 December 2006, with Wii Sports in the box. (Wikipedia)",
+        "Flight Control, made by Firemint in Melbourne, was number 1 on the App Store in 19 countries at once on 6 April 2009. (Wikipedia)"
+      ],
+      "compare": "In 1998, 16 in every 100 Australian homes had the internet. By 2008-09 it was 72 in every 100. How many times bigger is that? In 2009, 31 in every 100 children aged 5 to 14 had their own mobile phone. How does your class compare today?",
+      "sources": [
+        {
+          "title": "2000 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2000_Summer_Olympics",
+          "note": "Held from 15 September to 1 October 2000; Cathy Freeman lit the cauldron."
+        },
+        {
+          "title": "Athletics at the 2000 Summer Olympics, Women's 400 metres, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Athletics_at_the_2000_Summer_Olympics_%E2%80%93_Women%27s_400_metres",
+          "note": "Final on 25 September 2000; Cathy Freeman won gold in 49.11 seconds."
+        },
+        {
+          "title": "Audience: Australian fans cheer, 2000 Sydney Paralympic Games, Australian Paralympic Committee (Wikimedia Commons)",
+          "url": "https://commons.wikimedia.org/wiki/File:251000_-_Audience_Australian_fans_cheer_-_3b_-_2000_Sydney_public_photo.jpg",
+          "note": "Excited school children in green and gold face paint cheering at the 2000 Sydney Paralympic Games, 25 October 2000."
+        },
+        {
+          "title": "Goods and Services Tax (Australia), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(Australia)",
+          "note": "A 10% tax on most goods and services, in operation from 1 July 2000."
+        },
+        {
+          "title": "Household Use of Information Technology, Australia, 2008-09, Australian Bureau of Statistics",
+          "url": "https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/8146.0Main+Features12008-09",
+          "note": "72% of households had home internet and 78% a computer; 62% had broadband; internet access rose from 16% in 1998; in 2009, 79% of children aged 5 to 14 used the internet, 69% of home users played online games and 31% had their own mobile phone."
+        },
+        {
+          "title": "Digital Education Revolution, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Digital_Education_Revolution",
+          "note": "Launched in 2008; laptops for public high school students in Years 9 to 12 through the National Secondary School Computer Fund."
+        },
+        {
+          "title": "PlayStation 2, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PlayStation_2",
+          "note": "Released in Australia on 30 November 2000."
+        },
+        {
+          "title": "Nintendo DS, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nintendo_DS",
+          "note": "Released in Australia on 24 February 2005."
+        },
+        {
+          "title": "Wii, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wii",
+          "note": "Released in Australia on 7 December 2006."
+        },
+        {
+          "title": "Ty the Tasmanian Tiger, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ty_the_Tasmanian_Tiger",
+          "note": "2002 platform game developed by Krome Studios."
+        },
+        {
+          "title": "Krome Studios, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Krome_Studios",
+          "note": "Australian developer with headquarters in Brisbane."
+        },
+        {
+          "title": "Flight Control (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flight_Control_(video_game)",
+          "note": "Developed by Firemint, released for iOS on 5 March 2009; number one on the App Store in 19 countries on 6 April 2009; an update added an Australian Outback map with Royal Flying Doctor Service planes."
+        },
+        {
+          "title": "Firemonkeys Studios (formerly Firemint), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Firemint",
+          "note": "Headquarters in Melbourne; made the Flight Control series."
+        },
+        {
+          "title": "Australian Idol, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_Idol",
+          "note": "First aired on Network 10 on 27 July 2003."
+        },
+        {
+          "title": "Millennium drought, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Millennium_drought",
+          "note": "Affected most of southern Australia; recognised by 2003 as the worst on record; Melbourne had Stage 3a water restrictions from 1 April 2007."
+        },
+        {
+          "title": "Apology to Australia's Indigenous peoples, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apology_to_Australia%27s_Indigenous_peoples",
+          "note": "On 13 February 2008 Prime Minister Kevin Rudd offered the apology to the Stolen Generations on behalf of the nation."
+        }
+      ],
+      "uncertainties": [
+        "No reliable dated source was found for typical pocket money in the 2000s, so the panel uses internet and phone figures instead.",
+        "The 2009 children's figures come from an ABS survey of children aged 5 to 14, not just 12-year-olds.",
+        "Wikipedia gives both 'late 2008' and August 2008 for the first Digital Education Revolution laptops, so the panel says 'from 2008'.",
+        "Water restrictions differed between cities and changed often; the panel gives only Melbourne's Stage 3a date."
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "gameId": "number-place",
+      "title": "Backtracking by hand",
+      "yearLevels": "Years 5 to 8",
+      "idea": "Warm up with a 4 by 4 junior puzzle in Number Place. Then give pairs a nearly empty 4 by 4 grid and a rule: always fill the first empty square with the smallest number that does not break a rule; if no number fits, rub out the last number you wrote and try the next one up. Students record how many times they had to go back. Compare their finished grids and talk about why the method always finds an answer. Finish with the Then panel on Howard Garns, Nikoli and Wayne Gould's puzzle program.",
+      "computerAngle": "Backtracking is a way to search: try a choice, keep going while the rules hold, and undo the last choice when you get stuck. A program fills a Sudoku grid this way, checking each new number against its row, column and box. To make a puzzle, it fills a whole grid, then removes numbers one at a time and runs the solver again, counting answers but stopping at two. If there is only one answer, the number stays removed. The grade (Easy, Medium, Hard) comes from which human-style rules a logic solver needs to finish.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+    },
+    {
+      "gameId": "gem-swap",
+      "title": "Finding matches in a grid",
+      "yearLevels": "Years 5 and 6",
+      "idea": "Play Gem Swap for five minutes. Then give groups an 8 by 8 grid of coloured counters or coloured squares on paper. One student reads the grid row by row, saying 'match' whenever three or more of the same colour sit in a line, while another records where. Repeat for columns. Remove the matched counters, slide the ones above down, fill the gaps from the top and check again for new matches. Talk about why the computer has to keep checking until nothing changes. Finish with the Then panel on Bejeweled's relaxed mode.",
+      "computerAngle": "The board is a two-dimensional array: 8 rows of 8 numbers, each number standing for a gem type. To find matches the program uses nested loops, one loop for rows and one inside it for columns, counting how many of the same number appear in a run. Matched cells are cleared, then a gravity step moves gems down column by column, and new random gems fill the top. Because falling gems can make new matches, the whole check repeats in a loop until a pass finds no matches. Each extra pass is a cascade.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+    },
+    {
+      "gameId": "cave-copter",
+      "title": "Gravity in a loop",
+      "yearLevels": "Years 6 to 8",
+      "idea": "Play Cave Copter and notice how the craft speeds up as it falls and slows as it climbs. On grid paper, students start a dot at height 10 with speed 0. Each step they add the 'gravity' of -1 to the speed (or +2 while 'holding'), then add the speed to the height, and plot the new height. They act out 12 steps with a partner calling 'hold' or 'let go'. The plotted line curves just like the flight. Finish with the Then panel on the Helicopter Game and Flash.",
+      "computerAngle": "A game loop runs about 60 times a second. Each time, the program updates the craft's vertical speed (add gravity, or add lift while the button is held), then adds the speed to the position, then checks for a collision with the cave. This is called a simulation: small steps repeated quickly look like smooth movement. The cave itself can be made by a random walk: each new slice of roof moves up or down a little from the last one, kept inside limits so there is always a gap to fly through.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+    },
+    {
+      "gameId": "garden-guard",
+      "title": "Designing a wave",
+      "yearLevels": "Years 5 to 8",
+      "idea": "Play the first two levels of Garden Guard and write down when each pest appears. In small groups, students design their own level on a timeline: which pests come in which lane and at what second, and how much sunshine the player will have. Swap plans with another group and 'play' them on paper. Was it too easy, too hard or fair? Adjust and try again. Finish with the Then panel on George Fan and how he taught his mum to play.",
+      "computerAngle": "A level is data, not just code. The program keeps a list of events in time order, such as 'at 20 seconds, a snail in lane 3', and a timer reads the next event when its time arrives. This list is a queue: first in, first out. Designers make difficulty rise gently by adding pests a few at a time, mixing fast and slow ones and giving the player new defenders just before they are needed. Each pest also follows a rule: keep moving left unless something blocks you, which makes it a very simple state machine.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+    },
+    {
+      "gameId": "ten-pin",
+      "title": "Keeping score",
+      "yearLevels": "Years 5 to 7",
+      "idea": "Play a game of Ten-Pin and watch the score sheet. Then hand out a printed sheet of ten frames with the pins knocked down for each ball already written in, including two strikes and a spare. Students work out the total using the rules: a strike scores 10 plus the next two balls, a spare scores 10 plus the next ball. Check answers with the game. Challenge: what is the highest possible score, and why is it 300? Finish with the Then panel on Wii Sports and Hurstville Bowl.",
+      "computerAngle": "Bowling scores need the computer to look ahead. The program keeps a list of every ball's pinfall in order. It walks through the list frame by frame: if the first ball is 10, add 10 plus the next two balls and move on one ball; if two balls make 10, add 10 plus the next ball and move on two; otherwise add the two balls. The tenth frame is a special case with bonus balls. A strike that has not got its next two balls yet shows a blank until they happen.",
+      "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/mathematics/year-6"
+    }
+  ]
+}

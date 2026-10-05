@@ -1,0 +1,102 @@
+{
+  "images": [
+    {
+      "id": "hall-2000s",
+      "hero": "img/hall-2000s-1600.webp",
+      "card": "img/hall-2000s-720.webp",
+      "width": 1280,
+      "height": 960,
+      "alt": "Three boys sit on a wooden bench in a sandy playground, each holding a Nintendo DS, with swings and a spring rider behind them.",
+      "caption": "Three boys playing Nintendo DS together on a park bench in Tokyo, Japan, July 2006",
+      "credit": "iMorpheus, 2006. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:2006%E5%B9%B4%E3%81%AE%E5%AD%90%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1_(207696728).jpg",
+      "focus": "45% 55%"
+    },
+    {
+      "id": "number-place",
+      "hero": "img/number-place-1600.webp",
+      "card": "img/number-place-720.webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "Close-up of a newspaper Sudoku grid with printed black numbers, the rest filled in by hand in blue pen.",
+      "caption": "A Sudoku solved in pen in a Spanish newspaper, 2009",
+      "credit": "Héctor Rodríguez, 2009. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Sudoku_en_peri%C3%B3dico.jpg",
+      "focus": "50% 50%"
+    },
+    {
+      "id": "gem-swap",
+      "hero": "img/gem-swap-1600.webp",
+      "card": "img/gem-swap-720.webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "A gold ring set with a curve of small cut gemstones in rainbow colours, blue, green, yellow, orange, red and purple, below a chevron of tiny diamonds.",
+      "caption": "A gold ring set with gemstones in rainbow colours, 2020",
+      "credit": "W.carter, 2020. CC BY 4.0, via Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gold_ring_with_different_gemstones_set_in_a_rainbow_and_topped_with_diamonds_1.jpg",
+      "focus": "62% 50%"
+    },
+    {
+      "id": "cave-copter",
+      "hero": "img/cave-copter-1600.webp",
+      "card": "img/cave-copter-720.webp",
+      "width": 1280,
+      "height": 960,
+      "alt": "Students sit at rows of beige desktop computers with bulky monitors in a carpeted school computer room with noticeboards on the walls.",
+      "caption": "Students working in a school computer lab, May 2006",
+      "credit": "Michael Surran, 2006. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Students_working_on_class_assignment_in_computer_lab.jpg",
+      "focus": "60% 55%"
+    },
+    {
+      "id": "garden-guard",
+      "hero": "img/garden-guard-1600.webp",
+      "card": "img/garden-guard-720.webp",
+      "width": 1600,
+      "height": 1067,
+      "alt": "Neat rows of green and red lettuces growing in a walled kitchen garden, with purple chive flowers along one side and tall hedges behind.",
+      "caption": "Rows of lettuces in the kitchen garden at Barton Bendish Hall, Norfolk, England, May 2024",
+      "credit": "Michael Garlick, 2024. CC BY-SA 2.0, Geograph Britain and Ireland, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Barton_Bendish_Hall,_Rows_of_lettuces_-_geograph.org.uk_-_7971306.jpg",
+      "focus": "55% 60%"
+    },
+    {
+      "id": "ten-pin",
+      "hero": "img/ten-pin-1600.webp",
+      "card": "img/ten-pin-720.webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "A boy in a white T-shirt and camouflage pants follows through after a bowling swing with a Wii Remote, facing an old TV on a small table in a backyard, with adults sitting behind.",
+      "caption": "A boy bowling in Wii Sports at a backyard party, May 2008",
+      "credit": "daveynin, 2008. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kid_playing_Wii_Bowling_20080510.jpg",
+      "focus": "65% 45%"
+    },
+    {
+      "id": "kids-2000s",
+      "hero": "img/kids-2000s-1600.webp",
+      "card": "img/kids-2000s-720.webp",
+      "width": 1600,
+      "height": 1050,
+      "alt": "A crowd of excited teenagers with green and gold face paint, zinc cream and coloured hair cheer and wave, many wearing green and gold shirts and lanyards.",
+      "caption": "School students in green and gold cheer for Australia at the Sydney 2000 Paralympic Games, 25 October 2000",
+      "credit": "Sport the library, Australian Paralympic Committee, 2000. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:251000_-_Audience_Australian_fans_cheer_-_3b_-_2000_Sydney_public_photo.jpg",
+      "focus": "50% 40%"
+    }
+  ]
+}

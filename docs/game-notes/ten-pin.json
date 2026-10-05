@@ -1,0 +1,19 @@
+{
+  "howToPlay": [
+    "Choose how many people are playing (they take turns on one device) and whether the computer joins in, then press Start.",
+    "Move along the foul line with the Move buttons and set the curve. The dotted line shows roughly where a perfect throw would roll.",
+    "To bowl on a touch screen or with a mouse, drag down on the lane to swing back, then flick up. A faster flick bowls a faster ball, and a flick that leans sideways sends the ball a little that way.",
+    "Or press Bowl (or Space) three times: once to start the swing, once to set the power as the meter climbs, and once as the needle crosses the white line. Too early pulls the ball left, too late pushes it right.",
+    "Knock down all ten pins with your first ball for a strike, or with both balls of a frame for a spare. The pin chart in the corner shows which pins are still standing.",
+    "A frame without a strike or a spare scores its pins. A spare scores 10 plus the pins from your next ball. A strike scores 10 plus your next two balls. The score sheet shows dots until it knows the bonus.",
+    "The tenth frame is special: a strike or spare there earns its bonus balls straight away, so you can bowl three balls. Twelve strikes in a row is a perfect game: 300."
+  ],
+  "controls": "Touch or mouse: drag down on the lane, then flick up to bowl. Buttons: Move left and right, Curve left and right, and Bowl (press it three times for the power meter). Keyboard: Left and Right arrows move, A and D set the curve, Space three times bowls with the meter, and Enter or Skip jumps to the result.",
+  "computer": "Under the 3D picture the game is flat. Seen from above, the ball and the pins are circles that slide and bump like snooker balls, and the computer works out every bump 240 times a second. A pin hit hard falls over. A pin hit gently wobbles, and it may or may not go down. To draw the lane in 3D, the computer divides each position by its distance from the camera, so things further away look smaller. The computer player imagines its throws before it bowls. It runs the same physics in its head for every start board and every curve, 231 imagined throws, and counts the pins each one would knock down. It picks the best throw, preferring one whose neighbours also do well, so a small slip still works. Then its hand wobbles: a random error is added to where it stands, its aim, its speed and its curve. Easy wobbles a lot and scores about 100 a game, Normal about 150, and Pro hardly wobbles at all and scores about 200.",
+  "players": [
+    "solo",
+    "vs computer",
+    "2 to 4 players"
+  ],
+  "notes": "Plays like Wii Sports Bowling (Nintendo, 2006), where you swung the Wii Remote like a real ball. Without a motion controller, the swing becomes a drag and flick, or a three-press power meter like the golf games of the 1990s. The scoring is real ten-pin scoring, including the tenth frame's bonus balls. The lane is real size (60 feet from the foul line to the head pin, 39 boards wide) and the pins stand 12 inches apart, but the physics is simplified: it is worked out flat, seen from above, and pins that are only nudged wobble and fall by chance. The curve control stands in for the spin a real bowler puts on the ball, and there is no foul line rule. The alley, the bowler and the art are our own."
+}

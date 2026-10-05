@@ -1,0 +1,69 @@
+{
+  "halls": [
+    {
+      "id": "1990s",
+      "pill": "1990s",
+      "poster": "1993",
+      "years": "1990 to 1999",
+      "name": "The Bedroom Console",
+      "title": "The games came home.",
+      "gold": "Pixels, polygons and pets.",
+      "kids": [
+        "1990s"
+      ],
+      "after": "1980s"
+    },
+    {
+      "id": "2000s",
+      "pill": "2000s",
+      "poster": "2001",
+      "years": "2000 to 2009",
+      "name": "The Y2K Lounge",
+      "title": "A new millennium of play.",
+      "gold": "Gems, Flash games and a wand in your hand.",
+      "kids": [
+        "2000s"
+      ],
+      "after": "1990s"
+    },
+    {
+      "id": "2010s",
+      "pill": "2010s",
+      "poster": "2014",
+      "years": "2010 to 2019",
+      "name": "The Touchscreen Years",
+      "title": "Games in your pocket.",
+      "gold": "Swipe, tap, merge, build.",
+      "kids": [
+        "2010s"
+      ],
+      "after": "2000s"
+    },
+    {
+      "id": "2020s",
+      "pill": "2020s",
+      "poster": "2021",
+      "years": "2020 to 2029",
+      "name": "The Daily Puzzle",
+      "title": "The games of right now.",
+      "gold": "One puzzle a day, shared with the world.",
+      "kids": [
+        "2020s"
+      ],
+      "after": "2010s"
+    },
+    {
+      "id": "2030s",
+      "pill": "2030+",
+      "poster": "2030",
+      "years": "2030 and beyond",
+      "name": "The Future Hall",
+      "title": "What comes next?",
+      "gold": "You get to decide.",
+      "kids": [
+        "2030s"
+      ],
+      "after": "2020s"
+    }
+  ]
+}

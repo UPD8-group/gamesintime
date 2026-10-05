@@ -1,0 +1,16 @@
+{
+  "howToPlay": [
+    "Pick Easy, Normal or Hard, then press Play.",
+    "Click and hold (or touch and hold, or hold Space) to make your sky-pod's rotor lift it up. Let go and it sinks.",
+    "Fly through the cave without bumping the roof, the floor or the shiny pink blocks.",
+    "Quick taps keep you level. Holding too long sends you shooting up into the roof.",
+    "The cave slowly gets faster and narrower. Your distance in metres is your score.",
+    "Beat your best and a green BEST flag marks that spot in the cave next time."
+  ],
+  "controls": "Mouse: hold the button to rise, let go to fall. Touch: hold a finger anywhere on the cave. Keyboard: hold Space, the Up arrow or W. P pauses.",
+  "computer": "The computer builds the cave while you fly, one thin column at a time. It keeps an invisible middle line that drifts up and down: every so often it picks a new height for the middle of the cave and glides towards it, but never more steeply than your sky-pod can climb, so there is always a way through. The gap between the roof and the floor starts wide and shrinks as you go, and a small random wobble makes the rock look rough. Every few hundred units it hangs a block in the gap, always leaving at least one side wide enough to fly past. Only the part of the cave you can see is kept in memory: when a column scrolls off the left, its memory is reused for a new column on the right. Your sky-pod follows simple physics. Holding pushes it up, letting go lets gravity pull it down, and its speed builds up gradually, which is why short taps work better than long holds.",
+  "players": [
+    "solo"
+  ],
+  "notes": "The original web game, made by David McCandless around 2000, flew a helicopter through a green cave with one mouse button. Ours keeps the one-button rise and fall and the score by distance, but flies a round sky-pod of our own design through a glassy blue cave, with three levels, a best-distance flag, a pause button, and Space and touch controls as well as the mouse."
+}
