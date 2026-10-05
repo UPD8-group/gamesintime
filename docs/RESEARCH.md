@@ -439,26 +439,6 @@ Every entry on the site was researched by one agent, fact-checked by two sceptic
   - The 1904 tour details come from the OzVTA troupes page, which gives mid-June for Cairns, September for Brisbane and early October for the move to the Theatre Royal, but no exact days. OzVTA says no reports of the company were found in Australian or New Zealand newspapers after the Brisbane season, so where the tour ended is not certain.
   - Trove newspapers could not be opened (bot protection). A Trove search hit exists for 'The Mutoscope Biotint Tour', Morning Post (Cairns), 24 June 1904, article 42958718, which would give Australian newspaper evidence, but it could not be read, so it is not listed as a source and no Australian report of 1890s penny-in-the-slot machines was confirmed.
 
-### Klondike Patience
-
-- **Date shown:** first printed 1905 (sort year 1905); **origin:** Unknown; United States or Britain, name recorded by 1905; **confidence:** medium; played off-screen
-- **Names:** Klondike, Patience and Solitaire are all generic. 'Microsoft Solitaire' is a Microsoft product name; avoid it as a title. In America 'Canfield' can mean either Klondike or the different British game Demon.
-- **Sources:**
-  - [Wikipedia: Klondike (solitaire)](https://en.wikipedia.org/wiki/Klondike_(solitaire)) — Name origin unknown, 1907 Hoyle's Games Seven-Card Klondike, 1913 Official Rules, Canfield confusion, Windows in the 1990s, 1994 Washington Post statement on usage, Diaconis quote, rules and win rates.
-  - [Wikipedia: Microsoft Solitaire](https://en.wikipedia.org/wiki/Microsoft_Solitaire) — Included in Windows since Windows 3.0 in 1990; useful for teaching mouse use and drag-and-drop; Microsoft telemetry placing Solitaire among the three most-used Windows programs and FreeCell seventh, ahead of Word and Excel.
-  - [Wikipedia: Canfield (solitaire)](https://en.wikipedia.org/wiki/Canfield_(solitaire)) — Richard Canfield's Saratoga Springs casino 'some time after 1900', $50 or $52 per pack and $5 per card, 1908 Hapgood and Dick books, Demon first recorded 1891 by Mary Whitmore Jones, and its claim that the 1907 Hoyle 'Klondike' is a gambling version of Demon.
-  - [Solitaire Laboratory: What game was played at Canfield's Casino?](http://www.solitairelaboratory.com/canfield.html) — Tarbart's Patience Games 1905 'Gambler's Delight' as first publication of Klondike; 1908 Canfield names; 1913 Klondike; argues the casino game was Klondike.
-  - [David Parlett: History of patience games](https://www.parlettgames.uk/histocs/patience.html) — Patience first in a 1791 German games book, dated to about 1758; Lady Cadogan's collection; Parlett's own aside linking Klondike to the gold rush.
-  - [Wikipedia: Klondike Gold Rush](https://en.wikipedia.org/wiki/Klondike_Gold_Rush) — Gold discovered 16 August 1896 at Bonanza Creek; about 100,000 prospectors; rush 1896 to 1899.
-- **Not sure about:**
-  - Sources disagree on the name: Wikipedia says no evidence links Klondike to the gold rush, while Parlett's history page states the link as fact in passing. Treated here as unproven.
-  - Earliest print date: Keller (Solitaire Laboratory) gives Tarbart's Patience Games, 1905, as 'Gambler's Delight'; Wikipedia gives the 1907 Hoyle's Games. Both are later than the 1890s era this hall covers.
-  - Wikipedia's Canfield (solitaire) article argues that the 1907 Hoyle's Games entry called Klondike is really a gambling version of Demon, while Wikipedia's Klondike article and Keller treat it as Klondike. The entry follows Keller and the Klondike article.
-  - Richard Canfield's dates differ: Wikipedia's Richard Canfield article (opened by a reviewer) says he took the Saratoga Clubhouse in 1893 as a partnership, bought it outright in 1894, that gambling there ended in 1907 and that he sold it in 1911; Keller says he bought it in 1884 and owned it until 1911. One reviewer suggested 'around 1900' for the casino game, but the Wikipedia Canfield (solitaire) page says 'some time after 1900', so that wording is kept.
-  - The price of a pack at Canfield's casino is given as $50 by some sources and $52 by others.
-  - The 1994 Washington Post article behind the 'most-used application' claim could not be opened (403). Wikipedia's Microsoft Solitaire article says only that Microsoft telemetry placed Solitaire 'among the three most-used Windows programs' and gives no year for that figure, so the wording was softened.
-  - No Australian reference was confirmed; Trove was inaccessible.
-
 ## The New Century (1900 to 1909)
 
 
@@ -533,6 +513,26 @@ Every entry on the site was researched by one agent, fact-checked by two sceptic
   - Wikipedia dates the adult craze 1907 to 1910; Anne Williams says adult puzzles emerged around 1900 with a full craze by 1908.
   - Click Americana quotes a figure of 225 puzzle cutters making 15,000 puzzles a week at Parker Brothers in 1909; the Wikipedia Pastime Puzzles article says 300 workers, and that figure is used.
   - Trove and Australian museum collection sites were not reachable, so the arrival of the craze in Australia could not be confirmed; a search listing showed Argus jigsaw articles from 1933 and 1934 that could not be opened.
+
+### Klondike Patience
+
+- **Date shown:** first printed 1905 (sort year 1905); **origin:** Unknown; United States or Britain, name recorded by 1905; **confidence:** medium; played off-screen
+- **Names:** Klondike, Patience and Solitaire are all generic. 'Microsoft Solitaire' is a Microsoft product name; avoid it as a title. In America 'Canfield' can mean either Klondike or the different British game Demon.
+- **Sources:**
+  - [Wikipedia: Klondike (solitaire)](https://en.wikipedia.org/wiki/Klondike_(solitaire)) — Name origin unknown, 1907 Hoyle's Games Seven-Card Klondike, 1913 Official Rules, Canfield confusion, Windows in the 1990s, 1994 Washington Post statement on usage, Diaconis quote, rules and win rates.
+  - [Wikipedia: Microsoft Solitaire](https://en.wikipedia.org/wiki/Microsoft_Solitaire) — Included in Windows since Windows 3.0 in 1990; useful for teaching mouse use and drag-and-drop; Microsoft telemetry placing Solitaire among the three most-used Windows programs and FreeCell seventh, ahead of Word and Excel.
+  - [Wikipedia: Canfield (solitaire)](https://en.wikipedia.org/wiki/Canfield_(solitaire)) — Richard Canfield's Saratoga Springs casino 'some time after 1900', $50 or $52 per pack and $5 per card, 1908 Hapgood and Dick books, Demon first recorded 1891 by Mary Whitmore Jones, and its claim that the 1907 Hoyle 'Klondike' is a gambling version of Demon.
+  - [Solitaire Laboratory: What game was played at Canfield's Casino?](http://www.solitairelaboratory.com/canfield.html) — Tarbart's Patience Games 1905 'Gambler's Delight' as first publication of Klondike; 1908 Canfield names; 1913 Klondike; argues the casino game was Klondike.
+  - [David Parlett: History of patience games](https://www.parlettgames.uk/histocs/patience.html) — Patience first in a 1791 German games book, dated to about 1758; Lady Cadogan's collection; Parlett's own aside linking Klondike to the gold rush.
+  - [Wikipedia: Klondike Gold Rush](https://en.wikipedia.org/wiki/Klondike_Gold_Rush) — Gold discovered 16 August 1896 at Bonanza Creek; about 100,000 prospectors; rush 1896 to 1899.
+- **Not sure about:**
+  - Sources disagree on the name: Wikipedia says no evidence links Klondike to the gold rush, while Parlett's history page states the link as fact in passing. Treated here as unproven.
+  - Earliest print date: Keller (Solitaire Laboratory) gives Tarbart's Patience Games, 1905, as 'Gambler's Delight'; Wikipedia gives the 1907 Hoyle's Games. Both are later than the 1890s era this hall covers.
+  - Wikipedia's Canfield (solitaire) article argues that the 1907 Hoyle's Games entry called Klondike is really a gambling version of Demon, while Wikipedia's Klondike article and Keller treat it as Klondike. The entry follows Keller and the Klondike article.
+  - Richard Canfield's dates differ: Wikipedia's Richard Canfield article (opened by a reviewer) says he took the Saratoga Clubhouse in 1893 as a partnership, bought it outright in 1894, that gambling there ended in 1907 and that he sold it in 1911; Keller says he bought it in 1884 and owned it until 1911. One reviewer suggested 'around 1900' for the casino game, but the Wikipedia Canfield (solitaire) page says 'some time after 1900', so that wording is kept.
+  - The price of a pack at Canfield's casino is given as $50 by some sources and $52 by others.
+  - The 1994 Washington Post article behind the 'most-used application' claim could not be opened (403). Wikipedia's Microsoft Solitaire article says only that Microsoft telemetry placed Solitaire 'among the three most-used Windows programs' and gives no year for that figure, so the wording was softened.
+  - No Australian reference was confirmed; Trove was inaccessible.
 
 ## The Puzzle Page (1910 to 1919)
 
