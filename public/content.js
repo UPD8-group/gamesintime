@@ -2296,12 +2296,21 @@ window.GIT_CONTENT = {
       "type": "action",
       "blurb": "Repeat a growing tone-and-light sequence on four burnt-palette squares. One wrong square ends the run.",
       "story": [],
-      "howToPlay": [],
+      "howToPlay": [
+        "Press Start. The handset lights up a square and plays its note.",
+        "Watch and listen, then tap the same square.",
+        "Each round the machine plays the whole pattern again with one more square on the end. Repeat it all, in the same order.",
+        "The pattern gets a little faster every round.",
+        "One wrong square ends the run. Your score is the number of rounds you finished.",
+        "Your best score shows on the handset and is saved on this device. Try to beat it."
+      ],
       "didYouKnow": [],
-      "computer": "",
+      "computer": "The machine picks each new square at random and adds it to the end of the pattern. It never changes the squares that came before, so the pattern only grows. Each square has its own note, from high to low: ember, teal, olive and plum. In the first round each light stays on for about four tenths of a second. Every round the machine plays a little faster, until round 24, when each light lasts only about a seventh of a second.",
       "sources": [],
       "uncertainties": [],
-      "playable": true
+      "playable": true,
+      "controls": "Tap or click the four coloured squares. Start and Stop are the buttons under the squares. They also work from the keyboard: press Tab to reach them, then Enter or Space.",
+      "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/MemoryHandset.jsx) with the same handset, colours, notes, timings and wording. What changed, and why: the caption uses a middle dot instead of a dash ('ember · teal · olive · plum · one wrong square ends the run'). Best scores are kept in this site's storage, so scores from 1973.ai do not carry over. The site's status line also shows Press Start, the round and whose turn it is, and Game over with the best score. A run that ends with a new best score sets off the site's celebration (confetti, a fanfare and a toast); it waits until the run is over so it never hides the lights while you are watching. One fix: on 1973.ai, two taps less than 180 ms apart that finished a pattern both counted as finishing it, which skipped a round and played two patterns over each other. Now only the tap that finishes the pattern moves on; everything else about tapping is unchanged. As on 1973.ai, the squares answer taps and clicks but not keys. The play and stop symbols on the Start and Stop buttons are hidden from screen readers. The section heading is not ported because the page gives the title. On phones the handset can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
     },
     {
       "id": "television-tennis",
@@ -2318,12 +2327,21 @@ window.GIT_CONTENT = {
       "type": "action",
       "blurb": "Rally against the machine on a wood-grain television. First to seven.",
       "story": [],
-      "howToPlay": [],
+      "howToPlay": [
+        "Press Start. After a short pause the ball is served from the middle of the court.",
+        "Your paddle is on the right. Move your mouse over the screen, or drag up and down with your finger, to move it.",
+        "Hit the ball back past the machine's paddle on the left to win a point. If the ball gets past you, the machine wins the point.",
+        "Hit the ball with the end of your paddle to send it off at a steep angle. A hit in the middle sends it straight back.",
+        "Every hit in a rally makes the ball a little faster.",
+        "The first to seven points wins the match."
+      ],
       "didYouKnow": [],
-      "computer": "",
+      "computer": "The machine's paddle chases the ball up and down, but it has a top speed, so it cannot always keep up. A fast ball sent off at a steep angle can get past it. It does not work out where the ball will end up. It only follows where the ball is right now. While it waits for a serve, it goes back to the middle.",
       "sources": [],
       "uncertainties": [],
-      "playable": true
+      "playable": true,
+      "controls": "Mouse: move over the screen to move your paddle. Touch: drag up and down anywhere on the screen. Start begins a match, Restart begins a fresh one and Stop ends it. Start and Stop also work from the keyboard: press Tab to reach them, then Enter or Space.",
+      "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/TvTennis.jsx) with the same television, court, physics, speeds, machine player, tones and wording. What changed, and why: the captions use middle dots instead of dashes ('first to seven · drag on the screen to move', 'you win the channel · press start to defend it'). The site's status line also shows Press Start, the score while you play ('You 3, machine 2') and who won ('You win, 7 to 4' or 'The machine wins, 7 to 4'). Winning a match sets off the site's celebration (confetti, a fanfare and a toast), so the fanfare plays over the arcade's own point bleep. A loss keeps the arcade's own low buzz and does not add the site's lose sound, so the tones stay as they were. As on 1973.ai, the paddle follows the mouse or a finger and there are no keys for it. The screen has role img so screen readers read its description, and the play and stop symbols on the Start and Stop buttons are hidden from screen readers. The screen keeps the original fixed 640 by 440 drawing size, scaled to fit as on 1973.ai, so it looks exactly the same. The game already waits while the page is hidden, because browsers pause animation then. The section heading is not ported because the page gives the title. On phones the television can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
     },
     {
       "id": "brickfield",
@@ -2340,12 +2358,22 @@ window.GIT_CONTENT = {
       "type": "action",
       "blurb": "Knock down a six-row spectrum wall with three balls. Higher rows score more.",
       "story": [],
-      "howToPlay": [],
+      "howToPlay": [
+        "Press Start. The ball shoots up from your paddle.",
+        "Move your mouse across the screen, or drag your finger, to slide the paddle left and right.",
+        "Bounce the ball up into the wall to knock bricks out. Each row plays its own note.",
+        "Higher rows score more: 10 points for a brick in the bottom row, up to 60 for the top row.",
+        "Where the ball lands on your paddle sets its angle. Every brick you hit makes the ball a little faster.",
+        "You have three balls, shown as dots in the top corner. Miss the ball and you lose one.",
+        "Clear all 60 bricks to win the field and 2100 points. Your best score is saved on this device."
+      ],
       "didYouKnow": [],
-      "computer": "",
+      "computer": "There is no computer player: the wall and the speeding ball are the challenge. The ball bounces off the sides, the top and the bricks, and it speeds up a little with every brick until it reaches its top speed. When it hits a brick it bounces off the side it hit, so a hit on the bottom of a brick sends it back down and a hit on the end sends it sideways.",
       "sources": [],
       "uncertainties": [],
-      "playable": true
+      "playable": true,
+      "controls": "Mouse: move over the screen to slide the paddle. Touch: drag left and right anywhere on the screen. Start begins a game, Restart begins a fresh one and Stop ends it. Start and Stop also work from the keyboard: press Tab to reach them, then Enter or Space.",
+      "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/Brickfield.jsx) with the same cabinet, wall, physics, speeds, scoring, tones and wording. What changed, and why: the captions use middle dots instead of dashes ('three balls · higher rows score more', 'out of balls · 340 points · press start'). New here: your best score is remembered in this site's storage and shown in the site's status line ('Game over. Score 340, best 560'), because this site asks solo games to give a reason to play again. The cabinet itself looks the same and does not show the best. A game that ends with a new best score, or a cleared field, sets off the site's celebration (confetti, a fanfare and a toast), so the fanfare plays over the arcade's own bleeps. The site's status line also shows Press Start and the score while you play. As on 1973.ai, the paddle follows the mouse or a finger and there are no keys for it. The screen has role img so screen readers read its description, and the play and stop symbols on the Start and Stop buttons are hidden from screen readers. The screen keeps the original fixed 520 by 560 drawing size, scaled to fit as on 1973.ai, so it looks exactly the same. The game already waits while the page is hidden, because browsers pause animation then. The section heading is not ported because the page gives the title. On phones the cabinet can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
     },
     {
       "id": "trail",
@@ -2362,12 +2390,21 @@ window.GIT_CONTENT = {
       "type": "action",
       "blurb": "A green-phosphor grid snake. Walls, and your own trail, are fatal.",
       "story": [],
-      "howToPlay": [],
+      "howToPlay": [
+        "Press Start. Your green trail sets off across the grid, heading right.",
+        "Steer with the arrow keys, W A S D, or the arrows on the direction pad. You can turn left or right, but you can't turn straight back on yourself.",
+        "Run over the pale square to pick it up. Each pickup scores a point and makes your trail one square longer.",
+        "Every pickup makes the trail move a little faster.",
+        "Hitting a wall or crossing your own trail ends the game.",
+        "Your best score is saved on this device. Try to beat it."
+      ],
       "didYouKnow": [],
-      "computer": "",
+      "computer": "There is no opponent here: the walls and your own trail are the danger. The computer puts each pickup on a random empty square and moves your trail one square at a time. At the start it moves every 0.16 seconds. Each pickup takes 0.004 seconds off that wait, until the trail reaches its top speed of one square every 0.07 seconds.",
       "sources": [],
       "uncertainties": [],
-      "playable": true
+      "playable": true,
+      "controls": "Keyboard: arrow keys or W A S D to steer. Mouse or touch: tap the arrows on the direction pad. Start, or the start button in the middle of the pad, begins a new game; Stop ends it.",
+      "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/Trail.jsx) with the same 17 by 17 grid, speeds, tones, colours, direction pad and wording. What changed, and why: the caption uses middle dots instead of dashes ('best · 0 · walls are fatal'). Best scores are kept in this site's storage, so scores from 1973.ai do not carry over. The site's status line also shows Press Start, the score, and Game over with the best score. A new best score sets off the site's celebration (confetti, a fanfare and a toast). The trail now waits while the page is hidden, which is this site's rule for games, instead of creeping on slowly in a background tab. The screen has role img so screen readers read its description, and the play and stop symbols on the Start and Stop buttons are hidden from screen readers. The screen keeps the original fixed 340 by 340 drawing size, scaled to fit as on 1973.ai, so it looks exactly the same. The section heading is not ported because the page gives the title. On phones the handheld can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
     },
     {
       "id": "starfall",
@@ -2384,12 +2421,22 @@ window.GIT_CONTENT = {
       "type": "action",
       "blurb": "A fleet of twinkling star-glyphs marches down the night sky. One bolt in the air at a time.",
       "story": [],
-      "howToPlay": [],
+      "howToPlay": [
+        "Press Start. A fleet of 40 stars marches across the night sky and steps down each time it reaches the edge.",
+        "Move your cannon along the bottom: drag on the screen, move the mouse over it, or use the arrow keys or A and D.",
+        "Fire with a tap or click on the screen, or the space bar. Only one bolt can be in the air at a time, so make each shot count.",
+        "Stars in the top row are worth 50 points, then 40, 30 and 20, down to 10 for the bottom row.",
+        "Dodge the falling bombs. You have three cannons, shown as triangles in the top corner.",
+        "Clear every star to win the wave. The next fleet starts lower and marches faster.",
+        "The game ends when your last cannon is hit or the fleet reaches your line."
+      ],
       "didYouKnow": [],
-      "computer": "",
+      "computer": "The 40 stars move together as one fleet. Every so often the whole fleet takes one small step sideways. When the star at the end reaches the edge of the sky, the fleet drops down a little and turns around. The fewer stars are left, the faster the fleet steps, so the last star is the quickest of all. About once a second the lowest star in a random column drops a bomb, with no more than three bombs falling at once. Each new wave starts a little lower, steps a little faster and bombs a little more often.",
       "sources": [],
       "uncertainties": [],
-      "playable": true
+      "playable": true,
+      "controls": "Mouse: move over the screen to aim and click to fire. Touch: drag on the screen to aim and tap to fire. Keyboard: arrow keys or A and D to move, space bar to fire. Start begins a new game; Stop ends it.",
+      "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/Starfall.jsx) with the same fleet, speeds, bombs, scoring, tones, colours and wording. As on 1973.ai there are no separate on-screen buttons for moving and firing: the screen itself is the touch control. What changed, and why: the captions use middle dots instead of dashes ('one bolt in the air · drag to aim, tap or space to fire'). Best scores are kept in this site's storage, so scores from 1973.ai do not carry over. The site's status line also shows Press Start, the score, and Game over with the best score. Clearing a wave and setting a new best score both set off the site's celebration (confetti, a fanfare and a toast), so the fanfare plays over the arcade's own wave-clear bleep. The screen has role img so screen readers read its description, and the play and stop symbols on the Start and Stop buttons are hidden from screen readers. The screen keeps the original fixed 520 by 560 drawing size, scaled to fit as on 1973.ai, so it looks exactly the same. The game already waits while the page is hidden, because browsers pause animation then. The section heading is not ported because the page gives the title. On phones the cabinet can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
     },
     {
       "id": "drifter",
@@ -2406,12 +2453,23 @@ window.GIT_CONTENT = {
       "type": "action",
       "blurb": "Thrust, turn and wrap around the edges; shoot drifting rocks that split as they break. Three ships.",
       "story": [],
-      "howToPlay": [],
+      "howToPlay": [
+        "Press Start. Your ship waits in the middle of the screen with its nose pointing up.",
+        "Turn left or right, then thrust to push the ship the way its nose points. There are no brakes, so the ship keeps drifting and only slows down a little at a time.",
+        "Fly off one edge of the screen and you come back on the other side. The rocks and your shots do the same.",
+        "Shoot the rocks. A big rock breaks into two middle rocks, and a middle rock breaks into two small ones.",
+        "Big rocks are worth 20 points, middle rocks 50 and small rocks 100. Small rocks are fast, so they are hard to hit.",
+        "Only four of your shots can be on the screen at once, so make each one count.",
+        "If a rock touches your ship, you lose it. You have three ships. A new ship blinks for two seconds, and rocks cannot hurt it while it blinks.",
+        "Clear every rock and a new wave drifts in, with one more rock than before. See how high you can score."
+      ],
       "didYouKnow": [],
-      "computer": "",
+      "computer": "There is no computer player. Each rock drifts in a straight line and slowly spins, at a speed and direction picked at random when it appears. Smaller rocks move faster than big ones. Rocks wrap around the edges of the screen, just like your ship. New rocks always appear well away from your ship, so a new wave never lands right on top of you.",
       "sources": [],
       "uncertainties": [],
-      "playable": true
+      "playable": true,
+      "controls": "Keyboard: Left and Right arrows (or A and D) turn, the Up arrow (or W) thrusts and Space fires. Touch or mouse: hold ⟲ or ⟳ to turn, hold ▲ to thrust and tap Fire to shoot. Start begins a game, Restart begins a fresh one and Stop ends it.",
+      "adaptation": "Ported from Drifter on the 1983 neon floor of 1973.ai with the same screen, physics, speeds, scoring, sounds and controls. The em-dashes in the caption and the screen reader label became a middle dot and a full stop, to match this site's style. The section heading is left out because the game page already has a title. Your best score is kept in this site's storage, so it starts again from zero here. The site's status line also shows your score, the ships you have left and the game over message, and beating your best sets off the site's confetti and a message."
     },
     {
       "id": "rush",
@@ -2428,12 +2486,22 @@ window.GIT_CONTENT = {
       "type": "action",
       "blurb": "Cross lanes of traffic and a river of drifting logs to reach the top.",
       "story": [],
-      "howToPlay": [],
+      "howToPlay": [
+        "Press Start. You are the green diamond at the bottom of the screen.",
+        "Hop up, down, left or right, one square at a time.",
+        "First cross five lanes of traffic. If a car touches you, you lose a life.",
+        "Rest on the strip in the middle, then cross the river by hopping onto the purple logs. If you land in the water, you lose a life.",
+        "A log carries you along with it. Hop off before it takes you off the side of the screen.",
+        "Reach the top to score one crossing. You go back to the start, and every lane moves a little faster than before.",
+        "You have three lives, shown as diamonds at the top right. Your crossings are counted at the top left. How many can you make?"
+      ],
       "didYouKnow": [],
-      "computer": "",
+      "computer": "There is no computer player. Cars and logs move in straight lines at steady speeds, and each lane goes the opposite way to the lane next to it. In the road and in the river, the lane nearest you is the fastest and each lane above it is a little slower. When a car or a log leaves one side of the screen, it comes back on the other side. Every time you reach the top, all the lanes speed up a little.",
       "sources": [],
       "uncertainties": [],
-      "playable": true
+      "playable": true,
+      "controls": "Keyboard: the arrow keys or W, A, S and D hop. Touch or mouse: tap the arrows on the pad, or tap the screen to hop up. Start begins a game, Restart begins a fresh one and Stop ends it.",
+      "adaptation": "Ported from Rush on the 1983 neon floor of 1973.ai with the same screen, lanes, speeds, scoring, sounds and controls. The em-dashes in the caption and the screen reader label became a middle dot and a full stop, to match this site's style. The section heading is left out because the game page already has a title. The arcade game has no finish line: you keep crossing for as long as your lives last, so the site's confetti and message come when a game ends with more crossings than your best. Your best is kept in this site's storage, so it starts again from zero here. The site's status line also shows your crossings, the lives you have left and the game over message."
     },
     {
       "id": "prowl",
@@ -2450,12 +2518,23 @@ window.GIT_CONTENT = {
       "type": "action",
       "blurb": "Clear a glowing maze of dots while sentries hunt you; power dots turn the tables.",
       "story": [],
-      "howToPlay": [],
+      "howToPlay": [
+        "Press Start. You are the glowing pink ball at the bottom of the maze.",
+        "Steer through the maze and eat every yellow dot. Each dot is worth 10 points.",
+        "Press a direction before you reach a gap and you will turn when you get there. Run into a wall and you stop.",
+        "Three sentries hunt you. If one touches you, you lose a life. Your lives are the pink diamonds in the corner, and you start with three.",
+        "Eat a green power dot in a corner for 50 points. The sentries turn blue, slow down and run about for a few seconds. Catch one for 200 points.",
+        "When the blue sentries start flashing white, their power is nearly gone. Get away!",
+        "The middle row is a tunnel: go out one side and you come back in the other.",
+        "Clear every dot and a fresh maze appears for the next level. Lose all three lives and the game is over. Your best score is saved on this device."
+      ],
       "didYouKnow": [],
-      "computer": "",
+      "computer": "The sentries do not plan a route through the maze. Each time a sentry reaches a crossing, it looks at the paths it could take next, but it never turns back the way it came unless it is in a dead end. Then it picks the path that leaves it closest to you in a straight line, as the crow flies. This simple rule is called a greedy chase. It works well in the open, but a wall between you and a sentry can trick it into going the wrong way, and because all three sentries follow the same rule they often bunch up and trail each other. You are also a little faster than they are. After you eat a power dot, the sentries stop chasing and choose paths at random until the power wears off. Those random choices come from a short maths formula called a pseudo-random number generator, the same trick early arcade machines used.",
       "sources": [],
       "uncertainties": [],
-      "playable": true
+      "playable": true,
+      "controls": "Arrow keys or W, A, S and D to steer. On a phone or tablet, tap the arrows on the pad under the maze. Start begins a new game and Stop ends it.",
+      "adaptation": "Ported line for line from Prowl on the 1983 neon floor of 1973.ai: the same maze, sentry rules, speeds (you move 2 pixels a frame, sentries 1.5, frightened sentries 1), pauses, power time, scoring, tones and drawing, checked frame by frame against the original. Changes: the em-dashes in the caption are middle dots and the screen's label uses full stops; the screen has role img; the best score is kept with the Games in Time store, so bests from 1973.ai do not carry over; the site's status line shows the score and level; a new best (saved at game over, as before) and every cleared maze set off the site's celebration; the Start and Stop buttons use their own class names so the site's button style does not change them, and their symbols are hidden from screen readers; and the screen lets a phone scroll the page when no game is running (it still holds still during play). Kept as the original has them: the screen is drawn at 360 by 360 pixels and stretched to fit, so the glow looks the same; the game moves one step per screen refresh, so it runs faster on 120 Hz screens; and the level caption says the sentries are quicker, though their speed never changes."
     },
     {
       "id": "cascade",
@@ -2472,12 +2551,21 @@ window.GIT_CONTENT = {
       "type": "puzzle",
       "blurb": "Fit falling blocks into a well; full rows clear and the drop quickens as you go.",
       "story": [],
-      "howToPlay": [],
+      "howToPlay": [
+        "Press Start. Blocks made of four squares fall into the well, one at a time.",
+        "Slide each block left or right and turn it before it lands. The faint shadow at the bottom shows where it will land.",
+        "Fill a whole row from wall to wall and the row disappears. Everything above it drops down.",
+        "Clearing more rows at once scores more: 100 points for one row, 300 for two, 500 for three and 800 for four, times your level.",
+        "Every 10 rows you clear, the level goes up and the blocks fall faster.",
+        "If the blocks pile up to the top of the well, the game is over. Your best score is saved on this device."
+      ],
       "didYouKnow": [],
-      "computer": "",
+      "computer": "The computer is not trying to beat you, but it does decide which block comes next. It does not pick each block at random. Instead it takes one of each of the seven shapes, shuffles them like a deck of cards and deals them out in that order, then shuffles a fresh set. So every group of seven blocks has each shape exactly once, and you never wait more than 12 blocks for the long straight one. The computer also keeps time: at level 1 a block falls one row every 0.72 seconds, and each new level takes 0.07 seconds off, until level 10, when blocks fall a row every 0.12 seconds.",
       "sources": [],
       "uncertainties": [],
-      "playable": true
+      "playable": true,
+      "controls": "Left and right arrows, or A and D, slide the block. The up arrow or W turns it. The down arrow or S moves it down one row, and Space drops it straight to the bottom. On a phone or tablet, use the buttons under the well: the arrows slide and nudge the block down, the round arrow turns it, and DROP drops it. Start begins a new game and Stop ends it.",
+      "adaptation": "Ported line for line from Cascade on the 1983 neon floor of 1973.ai: the same 10 by 18 well, the seven shapes and their colours, the shuffled set of seven, the turning rules and the nudges away from walls, the falling speeds, scoring, ghost block, tones and drawing, checked frame by frame against the original with the same shuffles. Changes: the em-dashes in the caption are middle dots and the screen's label uses full stops; the screen has role img; the best score is kept with the Games in Time store, so bests from 1973.ai do not carry over; the site's status line shows the score and level; a new best (saved at game over, as before) sets off the site's celebration; the Start and Stop buttons use their own class names so the site's button style does not change them, and their symbols are hidden from screen readers; and the screen lets a phone scroll the page when no game is running (it still holds still during play). Kept as the original has them: the well is drawn at 240 by 432 pixels and stretched to fit, so the glow looks the same; there is no next-block preview or hold; and soft drops score nothing."
     }
   ],
   "kids": [
