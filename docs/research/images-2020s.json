@@ -1,0 +1,74 @@
+{
+ "images": [
+  {
+   "id": "hall-2020s",
+   "hero": "img/hall-2020s-1600.webp",
+   "card": "img/hall-2020s-720.webp",
+   "width": 1600,
+   "height": 1067,
+   "alt": "On a stage with red curtains, two solvers race to fill in giant crossword grids on wooden easels. The one in front wears a face mask.",
+   "caption": "Finalists race to solve giant crosswords at Lollapuzzoola, a crossword tournament at Riverside Church, New York, 19 August 2023",
+   "credit": "Hameltion, 2023. CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Lollapuzzoola_2023_-_Express_final_05.jpg",
+   "focus": "62% 40%"
+  },
+  {
+   "id": "five-letters",
+   "hero": "img/five-letters-1600.webp",
+   "card": "img/five-letters-720.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "A grey Mastermind board with rows of coloured code pegs, small black and white scoring pegs, and a tray full of spare pegs.",
+   "caption": "A game of Mastermind, the colour code-breaking board game invented in 1970. Josh Wardle played it a lot as a child, and it helped inspire Wordle",
+   "credit": "Piotrus, 2007. CC BY-SA 3.0 (also GFDL), via Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Mastermind2.JPG",
+   "focus": "50% 40%"
+  },
+  {
+   "id": "four-groups",
+   "hero": "img/four-groups-1600.webp",
+   "card": "img/four-groups-720.webp",
+   "width": 1125,
+   "height": 1600,
+   "alt": "Wyna Liu, a smiling woman with long dark hair, round dark-framed glasses and an orange pleated top.",
+   "caption": "Wyna Liu, who makes the Connections puzzles for The New York Times, at the American Crossword Puzzle Tournament, April 2024",
+   "credit": "Hameltion, 2024. CC BY-SA 4.0, via Wikimedia Commons",
+   "license": "CC BY-SA 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Wyna_Liu_(2024_ACPT)_01.jpg",
+   "focus": "50% 30%"
+  },
+  {
+   "id": "melon-drop",
+   "hero": "img/melon-drop-1600.webp",
+   "card": "img/melon-drop-720.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "Striped green watermelons of different sizes, some wrapped in green foam nets, piled up for sale in a Japanese shop.",
+   "caption": "Big and small watermelons (suika) for sale in Japan, 19 May 2019",
+   "credit": "Nesnad, 2019. CC BY 4.0, via Wikimedia Commons",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Watermelons_for_sale_in_japan_-_big_and_small_-_May_19_2019.jpeg",
+   "focus": "50% 50%"
+  },
+  {
+   "id": "kids-2020s",
+   "hero": "img/kids-2020s-1600.webp",
+   "card": "img/kids-2020s-720.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "Two teddy bears, one wearing a pink ribbon and one a dark jumper, sit in a sunny window above a brick sill, looking out at the street.",
+   "caption": "Teddy bears placed in a window in South Australia for children to spot on their walks during COVID-19 restrictions, 27 April 2020",
+   "credit": "Michael Coghlan, 2020. CC BY-SA 2.0, via Wikimedia Commons",
+   "license": "CC BY-SA 2.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "source": "https://commons.wikimedia.org/wiki/File:Bears_in_Sunshine_(50070171096).jpg",
+   "focus": "70% 55%"
+  }
+ ]
+}

@@ -1688,11 +1688,11 @@ A new millennium of play. Gems, Flash games and a wand in your hand.
 
 ## The Touchscreen Years (2010 to 2019)
 
-Games in your pocket. Swipe, tap, merge, build.
+Games in your pocket. Swipe, tap, merge, build. In the 2010s games moved onto touchscreens. Phones and tablets put games in millions of pockets, and a hit could come from a big studio, a small team in Brisbane or one 19-year-old with a free weekend. The mechanics are the era's; the names and colours are ours.
 
 ## The Daily Puzzle (2020 to 2029)
 
-The games of right now. One puzzle a day, shared with the world.
+The games of right now. One puzzle a day, shared with the world. In the 2020s millions of people played the same small puzzle each day and shared their results as grids of coloured squares. Many of these games began as tiny projects by one person or a small team, and most live in a phone or a web browser. The mechanics are the era's; the names and colours are ours.
 
 ## The Future Hall (2030 and beyond)
 
@@ -1942,6 +1942,101 @@ Homes had no radio: Australia's first station, 2SB Sydney, did not open until No
 - [Halley's Comet, Wikipedia](https://en.wikipedia.org/wiki/Halley%27s_Comet): Naked-eye from 10 April 1910; Earth passed through tail 19 May
 - [How Australia's response to the Spanish flu of 1919 sounds warnings, The Conversation](https://theconversation.com/how-australias-response-to-the-spanish-flu-of-1919-sounds-warnings-on-dealing-with-coronavirus-134017): 12,000 to 15,000 deaths; schools closed; 'for a time, it was compulsory to wear a mask in the street'
 - [Influenza Epidemic of 1919, University of Sydney Faculty of Medicine museum](https://www.sydney.edu.au/medicine/museum/mwmuseum/index.php/Influenza_Epidemic_of_1919): About 6,000 NSW deaths; 40 per cent of Sydney ill; masks worn in classrooms
+
+### Being 12 in the 2010s
+
+School went digital. Under the federal government's Digital Education Revolution, public high school students in Years 9 to 12 were given laptops from 2009, and in May 2010 the first iPads went on sale in Australia. In 2015 Year 7 moved from primary school into high school in Queensland and Western Australia. That September, education ministers signed off on the new Digital Technologies curriculum, so coding became part of school from the very first years.
+
+In 2017 pocket money averaged almost $6 a week, and many kids were saving it for phones, tablets and even virtual reality headsets. More shopping was done by tapping a card or phone, and parents told a bank survey this made the value of money harder to teach. On 1 September 2016 a new $5 note arrived with raised bumps on its edges, so people who are blind can tell what it is worth. It happened after Connor McLeod, a blind teenager, started a petition that more than 57,000 people signed.
+
+In 2012, 73 per cent of Australians aged 12 to 14 had their own mobile phone, and 98 per cent used the internet. Netflix arrived in March 2015. Kids sliced fruit in Fruit Ninja, made in Brisbane, built worlds in Minecraft and watched other people play on YouTube. On 6 July 2016 Australia was one of the first three countries to get Pokémon Go, and within days thousands of players were walking the streets of Canberra hunting for Pokémon. Bluey, also made in Brisbane, started on ABC Kids on 1 October 2018.
+
+Big news you might remember: in April 2018 the Gold Coast hosted the Commonwealth Games, the first major multi-sport games with an equal number of events for women and men. In July 2018 two Australian cave divers, Dr Richard Harris and Dr Craig Challen, helped rescue 12 young footballers and their coach from a flooded cave in Thailand. In January 2019 they were named joint Australians of the Year.
+
+**Fast facts**
+
+- The first iPads went on sale in Australia on 28 May 2010. (Wikipedia)
+- Year 7 moved into high school in Queensland and Western Australia in 2015. (ABC News)
+- In 2017 kids' pocket money averaged almost $6 a week; their parents had got about $1.67 a week in the 1980s. (Commonwealth Bank)
+- The new $5 note of 1 September 2016 was the first Australian banknote with a tactile feature for people who are blind or have low vision. (Vision Australia)
+- Within 15 minutes of Pokémon Go's launch in Australia and New Zealand on 6 July 2016, more players arrived than its makers had expected for the whole world. (Wikipedia)
+- Owen Beck was 13 when he started playing Pokémon Go in 2016. By 2026 he had walked more than 32,500 kilometres while playing. (ABC News)
+
+**What we are not sure about**
+
+- Wikipedia describes the Digital Education Revolution laptops as for public high school students in Years 9 to 12; how the program worked differed from state to state.
+- The pocket money figure comes from a survey of 1,046 parents in December 2016, published by CommBank in 2017.
+- NPR (February 2015) gives Connor McLeod's age as 13; other reports describe him as 15 when the change was announced. The panel says only 'a blind teenager'.
+- Pokémon Go launched on 6 July 2016 in three countries; because of time zones Australians may have played before Americans, but no source opened says so directly.
+- The 73 per cent phone figure is from ABS in April 2012; no later ABS figure for this age group was opened.
+- One diver, the former Thai Navy SEAL Saman Kunan, died during the 2018 rescue operation. The panel does not go into this.
+
+**Sources**
+
+- [Digital Education Revolution, Wikipedia](https://en.wikipedia.org/wiki/Digital_Education_Revolution): Australian government program launched in 2008 to provide laptops to all public high school students in Years 9 to 12 through the National Secondary School Computer Fund; first laptops delivered in NSW at Fairvale High School on 26 August 2009.
+- [iPad (1st generation), Wikipedia](https://en.wikipedia.org/wiki/IPad_(1st_generation)): Released in Australia and eight other countries on 28 May 2010.
+- [Qld to move year 7 to high school, ABC News, 9 June 2011](https://www.abc.net.au/news/2011-06-09/qld-to-move-year-7-to-high-school/2752234): Year 7 will move to high school in Queensland schools from 2015.
+- [Education in Western Australia, Wikipedia](https://en.wikipedia.org/wiki/Education_in_Western_Australia): The age that a student begins secondary school was lowered in 2015, to begin at Year 7.
+- [Australia's Digital Technologies curriculum finally signed off, The Register, 19 September 2015](https://www.theregister.com/offbeat/2015/09/19/australias-digital-technologies-curriculum-finally-signed-off/514618): 'Last Friday, Australia signed off on the nation's Digital Technologies curriculum, the first effort to teach computational thinking from infants' school to late High School', endorsed by the Education Council of ministers.
+- [Aussie kids earn 250 per cent more pocket money than their parents did and spend big on tech, Commonwealth Bank, 2017](https://www.commbank.com.au/guidance/newsroom/aussie-kids-earn-250-per-cent-more-pocket-money-201701.html): 2017 School Banking Study: almost $6 a week, starting from age six; parents got $1.67 in the 1980s; 42 per cent saving for electronic devices such as smartphones, tablets and virtual reality headsets; parents say digital transactions make the value of money harder to understand; survey of 1,046 parents in December 2016.
+- [Next Generation of Banknotes: $5 Banknote Design Reveal, Reserve Bank of Australia media release, 2016](https://www.rba.gov.au/media-releases/2016/mr-16-09.html): The new $5 banknote enters circulation from 1 September 2016 and has a new tactile feature to help the vision-impaired community.
+- [Blind Boy's Quest Prompts Australia To Plan Tactile Cash, NPR, 18 February 2015](https://www.npr.org/sections/thetwo-way/2015/02/18/387203841/blind-boy-s-quest-prompts-australia-to-plan-tactile-cash): Connor McLeod, blind since birth, could not tell how much money he got for Christmas; more than 57,000 people signed the petition he and his mother started.
+- [New $100 bill marks historic milestone for Australian currency, Vision Australia, 29 October 2020](https://www.visionaustralia.org/news/2020-10-29/new-100-bill-marks-historic-milestone-australian-currency): The $5 note was the first Australian banknote with the tactile feature in 2016, following a petition by then teenager Connor McLeod; raised bumps on the long edges.
+- [Children's Participation in Cultural and Leisure Activities, Australia, April 2012, Australian Bureau of Statistics](https://www.abs.gov.au/statistics/people/people-and-communities/childrens-participation-cultural-and-leisure-activities-australia/latest-release): 73 per cent of 12 to 14 year olds had a mobile phone; 98 per cent of 12 to 14 year olds accessed the internet.
+- [Netflix, Wikipedia](https://en.wikipedia.org/wiki/Netflix): In March 2015, Netflix expanded to Australia and New Zealand.
+- [Pokémon Go, Wikipedia](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go): Official launch on 6 July 2016 in Australia, New Zealand and the United States; global server use expectations were passed within 15 minutes of the release in Australia and New Zealand.
+- [Pokemon Go mass hunt lures thousands to Canberra's CBD, ABC News, 17 July 2016](https://www.abc.net.au/news/2016-07-17/pokemon-go-mass-hunt-lures-thousands-in-canberra/7635956): Thousands gathered in Civic to hunt Pokémon after the game's release in Australia, the US and New Zealand the week before.
+- [Pokémon GO was a 2016 phenomenon. Ten years later, some players never stopped, ABC News, 4 July 2026](https://www.abc.net.au/news/2026-07-04/pok%C3%A9mon-go-ten-years-brisbane/106814966): Owen Beck started playing at 13; has walked more than 32,500 kilometres; weekly meet-ups at South Bank, Brisbane.
+- [Bluey (2018 TV series), Wikipedia](https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)): Made by Ludo Studio in Brisbane; premiered on ABC Kids on 1 October 2018.
+- [Minecraft, Wikipedia](https://en.wikipedia.org/wiki/Minecraft): Minecraft was the second most searched term on YouTube in 2014 and YouTube's biggest game in 2018.
+- [2018 Commonwealth Games, Wikipedia](https://en.wikipedia.org/wiki/2018_Commonwealth_Games): Gold Coast, 4 to 15 April 2018; the first major multi-sport event with an equal number of events for male and female athletes.
+- [Tham Luang cave rescue, Wikipedia](https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue): Twelve team members aged 11 to 16 and their coach trapped from 23 June 2018; all rescued between 8 and 10 July 2018; Australians Richard Harris and Craig Challen among the lead divers.
+- [Australian of the Year 2019 goes to Thai cave rescue divers Richard Harris and Craig Challen, ABC News, 26 January 2019](https://www.abc.net.au/news/2019-01-26/australian-of-the-year-awards-2019-announced-in-canberra/10751382): Named joint Australian of the Year for helping rescue 12 soccer players and their coach from a flooded cave in Chiang Rai, Thailand.
+
+### Being 12 in the 2020s
+
+In 2020 a new virus, COVID-19, spread around the world. To slow it down, many Australian schools moved lessons online for a while, and students learned from home with laptops, tablets and video calls. How long depended on where you lived: about 36 weeks across 2020 and 2021 in Melbourne, about 20 in Greater Sydney, 3 in Western Australia and less than one week in Darwin. Children of essential workers, and students who needed extra support, could still go to school. On walks, many kids spotted teddy bears that neighbours had put in their windows for them to find.
+
+Phones got new rules. By 2024 every state and territory had rules keeping phones switched off and put away during public school hours; in Queensland it is called 'away for the day'. From 10 December 2025, a world-first law said platforms such as TikTok, Instagram, Snapchat and YouTube must take reasonable steps to stop under-16s having accounts. Online games and messaging apps are not covered. Pocket money went digital too: in 2025 about half of parents who paid pocket money did it digitally.
+
+Bluey, the cartoon blue heeler from Brisbane, became one of the most watched shows in the world, and its makers kept animating from home during lockdowns. Daily puzzles were everywhere: Wordle was the thing Australians searched for most on Google in 2022, and in 2023 The New York Times added Connections. Many kids built in Minecraft at school, and in late 2023 the watermelon game, Suika, became a hit on the Nintendo Switch. In December 2025 Halfbrick, the Brisbane studio behind Fruit Ninja, released the first Bluey video game made in Australia.
+
+Big news you might remember: on 21 July 2021 Brisbane was chosen to host the 2032 Olympic Games. In 2023 Australia and New Zealand hosted the FIFA Women's World Cup, and on 16 August the Matildas' semi-final against England became the most watched TV program in Australia since the current ratings system began in 2001.
+
+**Fast facts**
+
+- Over six lockdowns, students in Melbourne learned from home for about 36 weeks in 2020 and 2021; in Darwin it was less than one week. (Australian Education Research Organisation)
+- Wordle was the thing Australians searched for most on Google in 2022. (Google Australia)
+- The Matildas' 2023 World Cup semi-final drew an average TV audience of 7.13 million people. (ABC News)
+- From 10 December 2025, platforms that do not take reasonable steps to keep under-16s off can be fined up to $49.5 million. Online games are not included. (ABC News)
+- In a 2025 survey, kids aged 8 to 17 who earned pocket money for chores got an average of $25 a week. (Westpac)
+- Bluey's makers say their game Bluey's Quest for the Gold Pen gives about 10 hours of play, almost twice the length of a whole season of the show. (ABC News)
+
+**What we are not sure about**
+
+- AERO's week counts include only weeks when most students learned remotely; the real time differed by year level and suburb.
+- The eSafety Commissioner's own pages could not be opened (server errors), so the social media rules come from ABC News. The ABC gives the maximum fine as both $49.5 million and 'up to $50 million', and the list of platforms may change.
+- Westpac's $25 average covers 8 to 17 year olds who earn pocket money for chores; an undated CommBank page gives $11.37 a week for 10 to 12 year olds, so averages depend on who is asked.
+- The Women's World Cup semi-final was played on the evening of 16 August 2023 in Sydney.
+- How many Australian kids used Minecraft at school was not measured in any source opened; the panel says 'many'.
+
+**Sources**
+
+- [Review of remote and online learning experiences during COVID-19, final report, Australian Education Research Organisation and Victoria University, September 2022](https://content.vu.edu.au/sites/default/files/documents/2023-04/review-remote-online-learning-aa-ff.pdf): 'from 6 lockdowns totalling 36 weeks in metropolitan Melbourne, through to Darwin experiencing less than 1 week'; table of weeks of remote schooling 2020 to 2021: Greater Sydney 20, Western Australia 3, regional Victoria 23; face-to-face learning stayed available for children of essential workers and vulnerable students.
+- [Socially distant bear hunts popping up all around the world to distract children from coronavirus, ABC News, 25 March 2020](https://www.abc.net.au/news/2020-03-25/coronavirus-bear-hunts-around-the-world-including-melbourne/12085168): Teddy bears and rainbows appearing in gardens, windows and fences, including in Melbourne, for children to spot on walks.
+- [Jury still out on whether school phone bans help kids learn, reduce bullying, ABC News, 15 August 2024](https://www.abc.net.au/news/2024-08-15/is-mobile-phone-ban-in-schools-helping-students-learn/104218850): 'All states and territories now have their own bans on mobile phones in schools'; rules for each state.
+- [Queensland government confirms blanket mobile phone ban in state schools, ABC News, 7 July 2023](https://www.abc.net.au/news/2023-07-07/phones-banned-in-queensland-state-schools/102573822): Phones must be 'away for the day' in Queensland state schools from the next year (2024).
+- [Australia's social media ban for under-16s starts today. Here is what you should know, ABC News, 10 December 2025](https://www.abc.net.au/news/2025-12-10/australias-social-media-ban-for-under-16s-starts-today/106119800): A world-first push; platforms must take 'reasonable steps' to stop under-16s holding accounts or face penalties of up to $50 million.
+- [Which apps are included in Australia's social media ban?, ABC News, 5 November 2025](https://www.abc.net.au/news/2025-11-05/what-social-media-apps-are-getting-banned-in-australia/105973258): Ten platforms included, among them TikTok, Instagram, Snapchat and YouTube; fines of up to $49.5 million; excluded services include messaging, online games and education.
+- [Kids earning more pocket money than their parents did, Westpac media release, 28 September 2025](https://www.westpac.com.au/about-westpac/media/media-releases/2025/28-september/): 55 per cent of children aged 8 to 17 earn pocket money for chores, an average of $25 a week; 49 per cent of parents who give pocket money use digital payments.
+- [Bluey (2018 TV series), Wikipedia](https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)): Made by Ludo Studio in Brisbane; during the COVID-19 lockdown the production staff of 50 worked on episodes remotely from home.
+- [Halfbrick Studios CEO Shainiel Deo on creating the first Bluey video game made in Brisbane, ABC News, 9 December 2025](https://www.abc.net.au/news/2025-12-09/bluey-video-game-halfbrick-studios-brisbane/106113906): Bluey is 'one of the most watched television shows around the world'; Bluey's Quest for the Gold Pen is the first Bluey game made by an Australian studio; about 10 hours of play, almost twice the length of a season.
+- [Year in Search: Here's what Aussies searched for in 2022, Google Australia blog](https://blog.google/intl/en-au/products/explore-get-answers/year-in-search-heres-what-aussies-searched-for-in-2022/): Australians 'searched for Wordle more than anything else'.
+- [The New York Times Connections, Wikipedia](https://en.wikipedia.org/wiki/The_New_York_Times_Connections): Released in beta on 12 June 2023.
+- [The Nintendo Switch dark horse Suika Game finally gets US release, AUTOMATON WEST, 23 October 2023](https://automaton-media.com/en/news/20231023-22458/): Viral in Japan from about September 2023; released in the Americas on 20 October 2023.
+- [Minecraft: Education Edition partnership, Premier of Victoria media release, 9 February 2020](https://www.premier.vic.gov.au/new-programs-schools-build-digital-tech-skills): Every Victorian government school student to have access to Minecraft: Education Edition.
+- [2032 Summer Olympics, Wikipedia](https://en.wikipedia.org/wiki/2032_Summer_Olympics): Brisbane approved as host on 21 July 2021 at the IOC Session in Tokyo.
+- [Matildas' Women's World Cup semifinal loss to England sets TV audience record, ABC News, 17 August 2023](https://www.abc.net.au/news/2023-08-17/fifa-womens-world-cup-matildas-england-tv-audience/102741074): The most-watched TV program since the current audience measurement system began in 2001; national average audience of 7.13 million.
 
 ### Being 12 in 2035
 

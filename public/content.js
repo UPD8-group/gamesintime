@@ -143,7 +143,9 @@ window.GIT_CONTENT = {
       "gold": "Swipe, tap, merge, build.",
       "kids": [
         "2010s"
-      ]
+      ],
+      "hook": "Number tiles that slide and double, fruit flying up to be sliced, wobbly towers to topple and a whole world made of blocks.",
+      "intro": "In the 2010s games moved onto touchscreens. Phones and tablets put games in millions of pockets, and a hit could come from a big studio, a small team in Brisbane or one 19-year-old with a free weekend. The mechanics are the era's; the names and colours are ours."
     },
     {
       "id": "2020s",
@@ -155,7 +157,9 @@ window.GIT_CONTENT = {
       "gold": "One puzzle a day, shared with the world.",
       "kids": [
         "2020s"
-      ]
+      ],
+      "hook": "Five-letter guesses in coloured squares, sixteen words hiding four groups, and fruit that bumps and merges into a watermelon.",
+      "intro": "In the 2020s millions of people played the same small puzzle each day and shared their results as grids of coloured squares. Many of these games began as tiny projects by one person or a small team, and most live in a phone or a web browser. The mechanics are the era's; the names and colours are ours."
     },
     {
       "id": "2030s",
@@ -4021,6 +4025,233 @@ window.GIT_CONTENT = {
       ]
     },
     {
+      "era": "2010s",
+      "title": "Being 12 in the 2010s",
+      "paragraphs": [
+        "School went digital. Under the federal government's Digital Education Revolution, public high school students in Years 9 to 12 were given laptops from 2009, and in May 2010 the first iPads went on sale in Australia. In 2015 Year 7 moved from primary school into high school in Queensland and Western Australia. That September, education ministers signed off on the new Digital Technologies curriculum, so coding became part of school from the very first years.",
+        "In 2017 pocket money averaged almost $6 a week, and many kids were saving it for phones, tablets and even virtual reality headsets. More shopping was done by tapping a card or phone, and parents told a bank survey this made the value of money harder to teach. On 1 September 2016 a new $5 note arrived with raised bumps on its edges, so people who are blind can tell what it is worth. It happened after Connor McLeod, a blind teenager, started a petition that more than 57,000 people signed.",
+        "In 2012, 73 per cent of Australians aged 12 to 14 had their own mobile phone, and 98 per cent used the internet. Netflix arrived in March 2015. Kids sliced fruit in Fruit Ninja, made in Brisbane, built worlds in Minecraft and watched other people play on YouTube. On 6 July 2016 Australia was one of the first three countries to get Pokémon Go, and within days thousands of players were walking the streets of Canberra hunting for Pokémon. Bluey, also made in Brisbane, started on ABC Kids on 1 October 2018.",
+        "Big news you might remember: in April 2018 the Gold Coast hosted the Commonwealth Games, the first major multi-sport games with an equal number of events for women and men. In July 2018 two Australian cave divers, Dr Richard Harris and Dr Craig Challen, helped rescue 12 young footballers and their coach from a flooded cave in Thailand. In January 2019 they were named joint Australians of the Year."
+      ],
+      "fastFacts": [
+        "The first iPads went on sale in Australia on 28 May 2010. (Wikipedia)",
+        "Year 7 moved into high school in Queensland and Western Australia in 2015. (ABC News)",
+        "In 2017 kids' pocket money averaged almost $6 a week; their parents had got about $1.67 a week in the 1980s. (Commonwealth Bank)",
+        "The new $5 note of 1 September 2016 was the first Australian banknote with a tactile feature for people who are blind or have low vision. (Vision Australia)",
+        "Within 15 minutes of Pokémon Go's launch in Australia and New Zealand on 6 July 2016, more players arrived than its makers had expected for the whole world. (Wikipedia)",
+        "Owen Beck was 13 when he started playing Pokémon Go in 2016. By 2026 he had walked more than 32,500 kilometres while playing. (ABC News)"
+      ],
+      "compare": "In April 2012, 73 out of every 100 Australians aged 12 to 14 had a mobile phone. In a class of 26 twelve-year-olds, about how many is that? Ask your class how many have a phone today, and talk about what has changed since then, including the rules about phones at school.",
+      "sources": [
+        {
+          "title": "Digital Education Revolution, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Digital_Education_Revolution",
+          "note": "Australian government program launched in 2008 to provide laptops to all public high school students in Years 9 to 12 through the National Secondary School Computer Fund; first laptops delivered in NSW at Fairvale High School on 26 August 2009."
+        },
+        {
+          "title": "iPad (1st generation), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IPad_(1st_generation)",
+          "note": "Released in Australia and eight other countries on 28 May 2010."
+        },
+        {
+          "title": "Qld to move year 7 to high school, ABC News, 9 June 2011",
+          "url": "https://www.abc.net.au/news/2011-06-09/qld-to-move-year-7-to-high-school/2752234",
+          "note": "Year 7 will move to high school in Queensland schools from 2015."
+        },
+        {
+          "title": "Education in Western Australia, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Education_in_Western_Australia",
+          "note": "The age that a student begins secondary school was lowered in 2015, to begin at Year 7."
+        },
+        {
+          "title": "Australia's Digital Technologies curriculum finally signed off, The Register, 19 September 2015",
+          "url": "https://www.theregister.com/offbeat/2015/09/19/australias-digital-technologies-curriculum-finally-signed-off/514618",
+          "note": "'Last Friday, Australia signed off on the nation's Digital Technologies curriculum, the first effort to teach computational thinking from infants' school to late High School', endorsed by the Education Council of ministers."
+        },
+        {
+          "title": "Aussie kids earn 250 per cent more pocket money than their parents did and spend big on tech, Commonwealth Bank, 2017",
+          "url": "https://www.commbank.com.au/guidance/newsroom/aussie-kids-earn-250-per-cent-more-pocket-money-201701.html",
+          "note": "2017 School Banking Study: almost $6 a week, starting from age six; parents got $1.67 in the 1980s; 42 per cent saving for electronic devices such as smartphones, tablets and virtual reality headsets; parents say digital transactions make the value of money harder to understand; survey of 1,046 parents in December 2016."
+        },
+        {
+          "title": "Next Generation of Banknotes: $5 Banknote Design Reveal, Reserve Bank of Australia media release, 2016",
+          "url": "https://www.rba.gov.au/media-releases/2016/mr-16-09.html",
+          "note": "The new $5 banknote enters circulation from 1 September 2016 and has a new tactile feature to help the vision-impaired community."
+        },
+        {
+          "title": "Blind Boy's Quest Prompts Australia To Plan Tactile Cash, NPR, 18 February 2015",
+          "url": "https://www.npr.org/sections/thetwo-way/2015/02/18/387203841/blind-boy-s-quest-prompts-australia-to-plan-tactile-cash",
+          "note": "Connor McLeod, blind since birth, could not tell how much money he got for Christmas; more than 57,000 people signed the petition he and his mother started."
+        },
+        {
+          "title": "New $100 bill marks historic milestone for Australian currency, Vision Australia, 29 October 2020",
+          "url": "https://www.visionaustralia.org/news/2020-10-29/new-100-bill-marks-historic-milestone-australian-currency",
+          "note": "The $5 note was the first Australian banknote with the tactile feature in 2016, following a petition by then teenager Connor McLeod; raised bumps on the long edges."
+        },
+        {
+          "title": "Children's Participation in Cultural and Leisure Activities, Australia, April 2012, Australian Bureau of Statistics",
+          "url": "https://www.abs.gov.au/statistics/people/people-and-communities/childrens-participation-cultural-and-leisure-activities-australia/latest-release",
+          "note": "73 per cent of 12 to 14 year olds had a mobile phone; 98 per cent of 12 to 14 year olds accessed the internet."
+        },
+        {
+          "title": "Netflix, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Netflix",
+          "note": "In March 2015, Netflix expanded to Australia and New Zealand."
+        },
+        {
+          "title": "Pokémon Go, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go",
+          "note": "Official launch on 6 July 2016 in Australia, New Zealand and the United States; global server use expectations were passed within 15 minutes of the release in Australia and New Zealand."
+        },
+        {
+          "title": "Pokemon Go mass hunt lures thousands to Canberra's CBD, ABC News, 17 July 2016",
+          "url": "https://www.abc.net.au/news/2016-07-17/pokemon-go-mass-hunt-lures-thousands-in-canberra/7635956",
+          "note": "Thousands gathered in Civic to hunt Pokémon after the game's release in Australia, the US and New Zealand the week before."
+        },
+        {
+          "title": "Pokémon GO was a 2016 phenomenon. Ten years later, some players never stopped, ABC News, 4 July 2026",
+          "url": "https://www.abc.net.au/news/2026-07-04/pok%C3%A9mon-go-ten-years-brisbane/106814966",
+          "note": "Owen Beck started playing at 13; has walked more than 32,500 kilometres; weekly meet-ups at South Bank, Brisbane."
+        },
+        {
+          "title": "Bluey (2018 TV series), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)",
+          "note": "Made by Ludo Studio in Brisbane; premiered on ABC Kids on 1 October 2018."
+        },
+        {
+          "title": "Minecraft, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Minecraft",
+          "note": "Minecraft was the second most searched term on YouTube in 2014 and YouTube's biggest game in 2018."
+        },
+        {
+          "title": "2018 Commonwealth Games, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Games",
+          "note": "Gold Coast, 4 to 15 April 2018; the first major multi-sport event with an equal number of events for male and female athletes."
+        },
+        {
+          "title": "Tham Luang cave rescue, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tham_Luang_cave_rescue",
+          "note": "Twelve team members aged 11 to 16 and their coach trapped from 23 June 2018; all rescued between 8 and 10 July 2018; Australians Richard Harris and Craig Challen among the lead divers."
+        },
+        {
+          "title": "Australian of the Year 2019 goes to Thai cave rescue divers Richard Harris and Craig Challen, ABC News, 26 January 2019",
+          "url": "https://www.abc.net.au/news/2019-01-26/australian-of-the-year-awards-2019-announced-in-canberra/10751382",
+          "note": "Named joint Australian of the Year for helping rescue 12 soccer players and their coach from a flooded cave in Chiang Rai, Thailand."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia describes the Digital Education Revolution laptops as for public high school students in Years 9 to 12; how the program worked differed from state to state.",
+        "The pocket money figure comes from a survey of 1,046 parents in December 2016, published by CommBank in 2017.",
+        "NPR (February 2015) gives Connor McLeod's age as 13; other reports describe him as 15 when the change was announced. The panel says only 'a blind teenager'.",
+        "Pokémon Go launched on 6 July 2016 in three countries; because of time zones Australians may have played before Americans, but no source opened says so directly.",
+        "The 73 per cent phone figure is from ABS in April 2012; no later ABS figure for this age group was opened.",
+        "One diver, the former Thai Navy SEAL Saman Kunan, died during the 2018 rescue operation. The panel does not go into this."
+      ]
+    },
+    {
+      "era": "2020s",
+      "title": "Being 12 in the 2020s",
+      "paragraphs": [
+        "In 2020 a new virus, COVID-19, spread around the world. To slow it down, many Australian schools moved lessons online for a while, and students learned from home with laptops, tablets and video calls. How long depended on where you lived: about 36 weeks across 2020 and 2021 in Melbourne, about 20 in Greater Sydney, 3 in Western Australia and less than one week in Darwin. Children of essential workers, and students who needed extra support, could still go to school. On walks, many kids spotted teddy bears that neighbours had put in their windows for them to find.",
+        "Phones got new rules. By 2024 every state and territory had rules keeping phones switched off and put away during public school hours; in Queensland it is called 'away for the day'. From 10 December 2025, a world-first law said platforms such as TikTok, Instagram, Snapchat and YouTube must take reasonable steps to stop under-16s having accounts. Online games and messaging apps are not covered. Pocket money went digital too: in 2025 about half of parents who paid pocket money did it digitally.",
+        "Bluey, the cartoon blue heeler from Brisbane, became one of the most watched shows in the world, and its makers kept animating from home during lockdowns. Daily puzzles were everywhere: Wordle was the thing Australians searched for most on Google in 2022, and in 2023 The New York Times added Connections. Many kids built in Minecraft at school, and in late 2023 the watermelon game, Suika, became a hit on the Nintendo Switch. In December 2025 Halfbrick, the Brisbane studio behind Fruit Ninja, released the first Bluey video game made in Australia.",
+        "Big news you might remember: on 21 July 2021 Brisbane was chosen to host the 2032 Olympic Games. In 2023 Australia and New Zealand hosted the FIFA Women's World Cup, and on 16 August the Matildas' semi-final against England became the most watched TV program in Australia since the current ratings system began in 2001."
+      ],
+      "fastFacts": [
+        "Over six lockdowns, students in Melbourne learned from home for about 36 weeks in 2020 and 2021; in Darwin it was less than one week. (Australian Education Research Organisation)",
+        "Wordle was the thing Australians searched for most on Google in 2022. (Google Australia)",
+        "The Matildas' 2023 World Cup semi-final drew an average TV audience of 7.13 million people. (ABC News)",
+        "From 10 December 2025, platforms that do not take reasonable steps to keep under-16s off can be fined up to $49.5 million. Online games are not included. (ABC News)",
+        "In a 2025 survey, kids aged 8 to 17 who earned pocket money for chores got an average of $25 a week. (Westpac)",
+        "Bluey's makers say their game Bluey's Quest for the Gold Pen gives about 10 hours of play, almost twice the length of a whole season of the show. (ABC News)"
+      ],
+      "compare": "In 2020 and 2021, students in Melbourne learned from home for about 36 weeks, while students in Western Australia did so for about 3. If a school year is about 40 weeks long, what fraction of a school year is each? What would you miss most if school moved to your kitchen table, and what might you enjoy?",
+      "sources": [
+        {
+          "title": "Review of remote and online learning experiences during COVID-19, final report, Australian Education Research Organisation and Victoria University, September 2022",
+          "url": "https://content.vu.edu.au/sites/default/files/documents/2023-04/review-remote-online-learning-aa-ff.pdf",
+          "note": "'from 6 lockdowns totalling 36 weeks in metropolitan Melbourne, through to Darwin experiencing less than 1 week'; table of weeks of remote schooling 2020 to 2021: Greater Sydney 20, Western Australia 3, regional Victoria 23; face-to-face learning stayed available for children of essential workers and vulnerable students."
+        },
+        {
+          "title": "Socially distant bear hunts popping up all around the world to distract children from coronavirus, ABC News, 25 March 2020",
+          "url": "https://www.abc.net.au/news/2020-03-25/coronavirus-bear-hunts-around-the-world-including-melbourne/12085168",
+          "note": "Teddy bears and rainbows appearing in gardens, windows and fences, including in Melbourne, for children to spot on walks."
+        },
+        {
+          "title": "Jury still out on whether school phone bans help kids learn, reduce bullying, ABC News, 15 August 2024",
+          "url": "https://www.abc.net.au/news/2024-08-15/is-mobile-phone-ban-in-schools-helping-students-learn/104218850",
+          "note": "'All states and territories now have their own bans on mobile phones in schools'; rules for each state."
+        },
+        {
+          "title": "Queensland government confirms blanket mobile phone ban in state schools, ABC News, 7 July 2023",
+          "url": "https://www.abc.net.au/news/2023-07-07/phones-banned-in-queensland-state-schools/102573822",
+          "note": "Phones must be 'away for the day' in Queensland state schools from the next year (2024)."
+        },
+        {
+          "title": "Australia's social media ban for under-16s starts today. Here is what you should know, ABC News, 10 December 2025",
+          "url": "https://www.abc.net.au/news/2025-12-10/australias-social-media-ban-for-under-16s-starts-today/106119800",
+          "note": "A world-first push; platforms must take 'reasonable steps' to stop under-16s holding accounts or face penalties of up to $50 million."
+        },
+        {
+          "title": "Which apps are included in Australia's social media ban?, ABC News, 5 November 2025",
+          "url": "https://www.abc.net.au/news/2025-11-05/what-social-media-apps-are-getting-banned-in-australia/105973258",
+          "note": "Ten platforms included, among them TikTok, Instagram, Snapchat and YouTube; fines of up to $49.5 million; excluded services include messaging, online games and education."
+        },
+        {
+          "title": "Kids earning more pocket money than their parents did, Westpac media release, 28 September 2025",
+          "url": "https://www.westpac.com.au/about-westpac/media/media-releases/2025/28-september/",
+          "note": "55 per cent of children aged 8 to 17 earn pocket money for chores, an average of $25 a week; 49 per cent of parents who give pocket money use digital payments."
+        },
+        {
+          "title": "Bluey (2018 TV series), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bluey_(2018_TV_series)",
+          "note": "Made by Ludo Studio in Brisbane; during the COVID-19 lockdown the production staff of 50 worked on episodes remotely from home."
+        },
+        {
+          "title": "Halfbrick Studios CEO Shainiel Deo on creating the first Bluey video game made in Brisbane, ABC News, 9 December 2025",
+          "url": "https://www.abc.net.au/news/2025-12-09/bluey-video-game-halfbrick-studios-brisbane/106113906",
+          "note": "Bluey is 'one of the most watched television shows around the world'; Bluey's Quest for the Gold Pen is the first Bluey game made by an Australian studio; about 10 hours of play, almost twice the length of a season."
+        },
+        {
+          "title": "Year in Search: Here's what Aussies searched for in 2022, Google Australia blog",
+          "url": "https://blog.google/intl/en-au/products/explore-get-answers/year-in-search-heres-what-aussies-searched-for-in-2022/",
+          "note": "Australians 'searched for Wordle more than anything else'."
+        },
+        {
+          "title": "The New York Times Connections, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_New_York_Times_Connections",
+          "note": "Released in beta on 12 June 2023."
+        },
+        {
+          "title": "The Nintendo Switch dark horse Suika Game finally gets US release, AUTOMATON WEST, 23 October 2023",
+          "url": "https://automaton-media.com/en/news/20231023-22458/",
+          "note": "Viral in Japan from about September 2023; released in the Americas on 20 October 2023."
+        },
+        {
+          "title": "Minecraft: Education Edition partnership, Premier of Victoria media release, 9 February 2020",
+          "url": "https://www.premier.vic.gov.au/new-programs-schools-build-digital-tech-skills",
+          "note": "Every Victorian government school student to have access to Minecraft: Education Edition."
+        },
+        {
+          "title": "2032 Summer Olympics, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2032_Summer_Olympics",
+          "note": "Brisbane approved as host on 21 July 2021 at the IOC Session in Tokyo."
+        },
+        {
+          "title": "Matildas' Women's World Cup semifinal loss to England sets TV audience record, ABC News, 17 August 2023",
+          "url": "https://www.abc.net.au/news/2023-08-17/fifa-womens-world-cup-matildas-england-tv-audience/102741074",
+          "note": "The most-watched TV program since the current audience measurement system began in 2001; national average audience of 7.13 million."
+        }
+      ],
+      "uncertainties": [
+        "AERO's week counts include only weeks when most students learned remotely; the real time differed by year level and suburb.",
+        "The eSafety Commissioner's own pages could not be opened (server errors), so the social media rules come from ABC News. The ABC gives the maximum fine as both $49.5 million and 'up to $50 million', and the list of platforms may change.",
+        "Westpac's $25 average covers 8 to 17 year olds who earn pocket money for chores; an undated CommBank page gives $11.37 a week for 10 to 12 year olds, so averages depend on who is asked.",
+        "The Women's World Cup semi-final was played on the evening of 16 August 2023 in Sydney.",
+        "How many Australian kids used Minecraft at school was not measured in any source opened; the panel says 'many'."
+      ]
+    },
+    {
       "era": "2030s",
       "title": "Being 12 in 2035",
       "imagined": true,
@@ -6500,6 +6731,149 @@ window.GIT_CONTENT = {
       "focus": "62% 40%",
       "width": 1600,
       "height": 1368
+    },
+    "hall-2010s": {
+      "hero": "img/hall-2010s-1600.webp",
+      "card": "img/hall-2010s-720.webp",
+      "alt": "Three children in matching blue T-shirts lean against a big blue bean bag on a carpet, using tablet computers with pens.",
+      "caption": "Children using tablet computers in the early 2010s. Intel Free Press shared the photo with tips on choosing devices for school; the file is dated 14 September 2010",
+      "credit": "Intel Free Press. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Kids_with_Education_Tablet_Computers.jpg",
+      "focus": "62% 45%",
+      "width": 1600,
+      "height": 1200
+    },
+    "doubles": {
+      "hero": "img/doubles-1600.webp",
+      "card": "img/doubles-720.webp",
+      "alt": "A phone screen showing a finished game of 2048: sixteen orange, yellow and red tiles that snake from 4 up to 131072, with a score of 3,869,064.",
+      "caption": "The final position of a game of 2048, photographed on a phone on 15 June 2014. The tiles snake from 4 up to 131,072, the biggest tile a 4 by 4 board allows",
+      "credit": "Heavy Horse, 2014. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:2048_Final_Position.jpg",
+      "focus": "50% 60%",
+      "width": 1071,
+      "height": 1600
+    },
+    "fruit-slice": {
+      "hero": "img/fruit-slice-1600.webp",
+      "card": "img/fruit-slice-720.webp",
+      "alt": "A dark games arcade glowing with purple, blue and green lights. In the middle stands a two-screen Fruit Ninja FX 2 machine, with ticket games and basketball games around it.",
+      "caption": "A Fruit Ninja FX 2 arcade machine, the arcade version of Halfbrick's game, at a Main Event entertainment centre in Orlando, Florida, USA, 15 October 2025",
+      "credit": "Nielsoncaetanosalmeron, 2025. CC BY 4.0, via Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Main_Event_Entertainment_arcade.jpg",
+      "focus": "45% 45%",
+      "width": 1600,
+      "height": 1067
+    },
+    "slingshot": {
+      "hero": "img/slingshot-1600.webp",
+      "card": "img/slingshot-720.webp",
+      "alt": "Two young men in red hooded jumpers printed with a cross bird face stand at a lectern on a dark stage. The one on the left speaks into a microphone; the one on the right wears glasses.",
+      "caption": "Rovio's Matthew Wilson (left) and Angry Birds designer Jaakko Iisalo (right) give a talk on how to design a hit iPhone game at Game Design Expo, Vancouver, Canada, 22 January 2011",
+      "credit": "Vancouver Film School, 2011. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Jaakko_Iisalo_and_Matthew_Wilson_of_Rovio_Mobile_at_Game_Design_Expo_2011.jpg",
+      "focus": "62% 40%",
+      "width": 1600,
+      "height": 1068
+    },
+    "block-world": {
+      "hero": "img/block-world-1600.webp",
+      "card": "img/block-world-720.webp",
+      "alt": "Four students sit side by side at a row of computer screens in a school room, building in Minecraft, with school bags and a drink bottle beside them.",
+      "caption": "Students working and building together in a Minecraft after-school program, 22 October 2014",
+      "credit": "Kevin Jarrett, 2014. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Minecraft_in_school.jpg",
+      "focus": "45% 40%",
+      "width": 1600,
+      "height": 1200
+    },
+    "kids-2010s": {
+      "hero": "img/kids-2010s-1600.webp",
+      "card": "img/kids-2010s-720.webp",
+      "alt": "Boys in caps and T-shirts stand at white and blue game stations playing a colourful paint-splatting game, with paint splash shapes on the floor around them.",
+      "caption": "Young players try Splatoon on the Wii U at the EB Games Expo, Sydney Showground, Sydney Olympic Park, 3 October 2015",
+      "credit": "Philip Terry Graham, 2015. CC0, via Wikimedia Commons",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:EB_Games_Expo_2015_-_Splatoon.JPG",
+      "focus": "65% 45%",
+      "width": 1600,
+      "height": 1097
+    },
+    "hall-2020s": {
+      "hero": "img/hall-2020s-1600.webp",
+      "card": "img/hall-2020s-720.webp",
+      "alt": "On a stage with red curtains, two solvers race to fill in giant crossword grids on wooden easels. The one in front wears a face mask.",
+      "caption": "Finalists race to solve giant crosswords at Lollapuzzoola, a crossword tournament at Riverside Church, New York, 19 August 2023",
+      "credit": "Hameltion, 2023. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Lollapuzzoola_2023_-_Express_final_05.jpg",
+      "focus": "62% 40%",
+      "width": 1600,
+      "height": 1067
+    },
+    "five-letters": {
+      "hero": "img/five-letters-1600.webp",
+      "card": "img/five-letters-720.webp",
+      "alt": "A grey Mastermind board with rows of coloured code pegs, small black and white scoring pegs, and a tray full of spare pegs.",
+      "caption": "A game of Mastermind, the colour code-breaking board game invented in 1970. Josh Wardle played it a lot as a child, and it helped inspire Wordle",
+      "credit": "Piotrus, 2007. CC BY-SA 3.0 (also GFDL), via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Mastermind2.JPG",
+      "focus": "50% 40%",
+      "width": 1600,
+      "height": 1200
+    },
+    "four-groups": {
+      "hero": "img/four-groups-1600.webp",
+      "card": "img/four-groups-720.webp",
+      "alt": "Wyna Liu, a smiling woman with long dark hair, round dark-framed glasses and an orange pleated top.",
+      "caption": "Wyna Liu, who makes the Connections puzzles for The New York Times, at the American Crossword Puzzle Tournament, April 2024",
+      "credit": "Hameltion, 2024. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Wyna_Liu_(2024_ACPT)_01.jpg",
+      "focus": "50% 30%",
+      "width": 1125,
+      "height": 1600
+    },
+    "melon-drop": {
+      "hero": "img/melon-drop-1600.webp",
+      "card": "img/melon-drop-720.webp",
+      "alt": "Striped green watermelons of different sizes, some wrapped in green foam nets, piled up for sale in a Japanese shop.",
+      "caption": "Big and small watermelons (suika) for sale in Japan, 19 May 2019",
+      "credit": "Nesnad, 2019. CC BY 4.0, via Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Watermelons_for_sale_in_japan_-_big_and_small_-_May_19_2019.jpeg",
+      "focus": "50% 50%",
+      "width": 1600,
+      "height": 1200
+    },
+    "kids-2020s": {
+      "hero": "img/kids-2020s-1600.webp",
+      "card": "img/kids-2020s-720.webp",
+      "alt": "Two teddy bears, one wearing a pink ribbon and one a dark jumper, sit in a sunny window above a brick sill, looking out at the street.",
+      "caption": "Teddy bears placed in a window in South Australia for children to spot on their walks during COVID-19 restrictions, 27 April 2020",
+      "credit": "Michael Coghlan, 2020. CC BY-SA 2.0, via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Bears_in_Sunshine_(50070171096).jpg",
+      "focus": "70% 55%",
+      "width": 1600,
+      "height": 1200
     }
   }
 };
