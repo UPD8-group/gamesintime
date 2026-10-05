@@ -248,7 +248,7 @@ button { cursor: pointer; }
 /* ---------- main ---------- */
 .site-main { flex: 1; }
 .site-main:focus { outline: none; }
-.section { width: min(100%, var(--maxw)); margin-inline: auto; padding: clamp(2.5rem, 5vw, 4.5rem) var(--gutter) 0; }
+.section { width: min(100%, var(--maxw)); margin-inline: auto; padding: clamp(2.5rem, 5vw, 4.5rem) var(--gutter) 0; scroll-margin-top: 3rem; }
 .section-head { display: grid; gap: .5rem; margin-bottom: 1.5rem; }
 .section-head p { color: var(--ink-muted); max-width: 60ch; }
 

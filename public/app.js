@@ -178,6 +178,19 @@
     return { name: parts[0] || 'home', id: parts[1] || '' };
   }
 
+  /* In-page jump links (href="#games", "#hall-games", "#main") scroll to that part of the page. Page routes always
+     start with "#/", so a hash without the slash is never a page. */
+  function jumpTo(id) {
+    var el = document.getElementById(id);
+    if (!el) return false;
+    el.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
+    if (!el.hasAttribute('tabindex') && !/^(A|BUTTON|INPUT|SELECT|TEXTAREA)$/.test(el.tagName)) el.setAttribute('tabindex', '-1');
+    el.focus({ preventScroll: true });
+    return true;
+  }
+  /* Where an opened or shared jump link lands when its page is not known: a hall's game list becomes every game. */
+  var JUMP_ON_HOME = { 'hall-games': 'games' };
+
   var main, current = null, firstRender = true, header, menuEl, menuBtn, soundBtn;
 
   function setTitle(t) { var n = C().site.name || 'Games in Time'; document.title = t ? t + ' · ' + n : n + ' · Play the games kids played, from candlelight to neon'; }
@@ -188,6 +201,12 @@
     document.documentElement.classList.remove('classroom');
     if (document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(function () {});
     closeMenu();
+    /* Someone opened a jump link on its own (gamesintime.com/#hall-games): show the home page at that part instead of "not found". */
+    var raw = (location.hash || '').replace(/^#/, ''), jump = '';
+    if (raw && raw.charAt(0) !== '/') {
+      jump = JUMP_ON_HOME[raw] || raw;
+      history.replaceState(null, '', location.pathname + location.search + '#/');
+    }
     var r = parseRoute(), view;
     switch (r.name) {
       case 'home': view = pageHome(); break;
@@ -215,6 +234,7 @@
       if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
     }
     firstRender = false;
+    if (jump) jumpTo(jump);
     onScroll();
   }
 
@@ -605,6 +625,15 @@
     main = document.getElementById('main');
     buildHeader();
     window.addEventListener('hashchange', render);
+    document.addEventListener('click', function (ev) {
+      if (ev.defaultPrevented || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      var a = ev.target.closest && ev.target.closest('a[href^="#"]');
+      if (!a) return;
+      var id = a.getAttribute('href').slice(1);
+      if (!id || id.charAt(0) === '/') return;
+      ev.preventDefault();
+      jumpTo(id);
+    });
     window.addEventListener('scroll', onScroll, { passive: true });
     render();
   }
