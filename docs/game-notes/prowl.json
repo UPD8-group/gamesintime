@@ -1,0 +1,16 @@
+{
+  "howToPlay": [
+    "Press Start. You are the glowing pink ball at the bottom of the maze.",
+    "Steer through the maze and eat every yellow dot. Each dot is worth 10 points.",
+    "Press a direction before you reach a gap and you will turn when you get there. Run into a wall and you stop.",
+    "Three sentries hunt you. If one touches you, you lose a life. Your lives are the pink diamonds in the corner, and you start with three.",
+    "Eat a green power dot in a corner for 50 points. The sentries turn blue, slow down and run about for a few seconds. Catch one for 200 points.",
+    "When the blue sentries start flashing white, their power is nearly gone. Get away!",
+    "The middle row is a tunnel: go out one side and you come back in the other.",
+    "Clear every dot and a fresh maze appears for the next level. Lose all three lives and the game is over. Your best score is saved on this device."
+  ],
+  "controls": "Arrow keys or W, A, S and D to steer. On a phone or tablet, tap the arrows on the pad under the maze. Start begins a new game and Stop ends it.",
+  "computer": "The sentries do not plan a route through the maze. Each time a sentry reaches a crossing, it looks at the paths it could take next, but it never turns back the way it came unless it is in a dead end. Then it picks the path that leaves it closest to you in a straight line, as the crow flies. This simple rule is called a greedy chase. It works well in the open, but a wall between you and a sentry can trick it into going the wrong way, and because all three sentries follow the same rule they often bunch up and trail each other. You are also a little faster than they are. After you eat a power dot, the sentries stop chasing and choose paths at random until the power wears off. Those random choices come from a short maths formula called a pseudo-random number generator, the same trick early arcade machines used.",
+  "players": ["solo"],
+  "notes": "Ported line for line from Prowl on the 1983 neon floor of 1973.ai: the same maze, sentry rules, speeds (you move 2 pixels a frame, sentries 1.5, frightened sentries 1), pauses, power time, scoring, tones and drawing, checked frame by frame against the original. Changes: the em-dashes in the caption are middle dots and the screen's label uses full stops; the screen has role img; the best score is kept with the Games in Time store, so bests from 1973.ai do not carry over; the site's status line shows the score and level; a new best (saved at game over, as before) and every cleared maze set off the site's celebration; the Start and Stop buttons use their own class names so the site's button style does not change them, and their symbols are hidden from screen readers; and the screen lets a phone scroll the page when no game is running (it still holds still during play). Kept as the original has them: the screen is drawn at 360 by 360 pixels and stretched to fit, so the glow looks the same; the game moves one step per screen refresh, so it runs faster on 120 Hz screens; and the level caption says the sentries are quicker, though their speed never changes."
+}
