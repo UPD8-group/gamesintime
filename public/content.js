@@ -302,18 +302,19 @@ window.GIT_CONTENT = {
         "Many families played it as 'Animal, Vegetable or Mineral', borrowing the three kingdoms of nature from the scientist Linnaeus. The first question sorts the answer into one of the three. A leather belt is animal, a wooden table is vegetable, and a coin is mineral. In 1946 the game became a hit American radio show."
       ],
       "howToPlay": [
-        "One player, the answerer, secretly thinks of a person, place or thing.",
-        "The others may first ask whether it is animal, vegetable or mineral.",
-        "Players take turns asking questions that can be answered only 'yes' or 'no'. Keep count of the questions.",
-        "The answerer must tell the truth. Some families allow 'sometimes' or 'maybe' if the answer is unclear.",
-        "If someone guesses correctly within twenty questions, they win and become the next answerer. If the twenty run out, the answerer wins."
+        "Choose who guesses. In Computer guesses, think of anything at all, keep it secret, and press I have one.",
+        "Answer each question Yes or No. The first is the Victorian opener: is it animal, vegetable or mineral?",
+        "The computer has twenty questions, and its guesses count as questions. If it guesses right, it wins.",
+        "If you stump it, tell it what you were thinking of and type a yes-or-no question that tells your thing apart from its guess. It remembers on this device and asks your question next time.",
+        "In You guess, the computer secretly picks one of its 49 things. Choose questions from the menu. It answers truthfully and crosses out everything that no longer fits.",
+        "Tap your guess in the list when you think you know. Guesses use up questions too. Get it within twenty to win."
       ],
       "didYouKnow": [
         "In 1786 Lord North, who had been prime minister during the American Revolution, used up all twenty questions and still failed to guess. The answer was 'the earthen lamp of Epictetus', which he said he had mentioned in the House of Commons only the night before.",
         "In A Christmas Carol (1843), Scrooge's nephew plays 'Yes and No', and the thing everyone is guessing turns out to be Scrooge.",
         "On the 1946 radio version, listeners sent in Winston Churchill's cigar as a puzzle more often than any other object."
       ],
-      "computer": "",
+      "computer": "When it guesses, the computer walks down a tree of yes-or-no questions. Each answer sends it down one branch, and at the end of every branch is a thing to guess. Its starting tree was built from a table of facts about 49 things by always choosing the question that splits what is left most evenly, because a question that halves the list does the most work. When you stump it, your question becomes a new branch, so it gets cleverer on this device. When you guess, it simply looks up the true answer in its table of facts. Twenty yes-or-no questions can tell apart 2 to the power of 20 things, which is 1,048,576: about a million.",
       "sources": [
         {
           "title": "Twenty questions - Wikipedia",
@@ -349,7 +350,9 @@ window.GIT_CONTENT = {
       "players": [
         "vs computer"
       ],
-      "type": "words"
+      "type": "words",
+      "controls": "Tap or click the buttons. Keyboard: Y and N answer yes and no, and Tab and Enter work everywhere. Forget what it learned wipes the new things from this device.",
+      "adaptation": "Played as the catalogue sources describe: one player thinks of something, the others ask questions that can only be answered yes or no, and they must guess before twenty questions run out (Twenty questions, Wikipedia; Hannah More's letter of 17 February 1786). The first question is the Victorian 'animal, vegetable or mineral?', asked as two yes-or-no questions so that every answer stays a yes or a no; the three kingdoms follow the Linnaean idea in the sources (a leather belt is animal, a wooden table vegetable, a coin mineral). The 'maybe' answer some families allowed is left out so the computer's tree stays yes-or-no. The 49 things are ones a Victorian child and a child today would both know, and each fact in the table was chosen to have a clear answer. Things and questions that players teach the computer are stored only in this browser and are shown as plain text."
     },
     {
       "id": "hoop-and-stick",
@@ -678,18 +681,19 @@ window.GIT_CONTENT = {
         "When Parker Brothers reissued it in 1894, the box claimed it was 'the first board game ever published in America'. That is not quite true: a geography game, The Travellers' Tour Through the United States, had appeared in 1822. For nearly 150 years a Salem woman, Anne Abbott, was wrongly credited as the designer; in fact she designed other Ives games, including Doctor Busby."
       ],
       "howToPlay": [
-        "Each player places a token on the first square and takes a small stock of counters.",
-        "Take turns throwing the dice (or spinning the teetotum) and moving your token that many squares along the spiral track.",
-        "If you land on a virtue square, follow its instruction and move forward.",
-        "If you land on a vice square, move back, pay counters, or miss a turn as the square says. In the 1800 rules a liar, swearer or Sabbath-breaker was sent to the Whipping Post, a real public punishment in England at that time.",
-        "The first player to reach the Mansion of Happiness in the centre wins."
+        "Choose who plays: you against one to three computer players, or two to four people taking turns on one device.",
+        "Press Spin the teetotum. It spins, wobbles and falls over, and the number on the edge that touches the table is how many squares you move.",
+        "Land on a virtue, such as Honesty or Prudence, and you advance six more squares.",
+        "Land on a vice and you go back, pay counters into the fines box, or are locked in the House of Correction or Prison and must then begin again. The punishment places only punish the guilty: landing on one by spinning does nothing.",
+        "Two counters may never share a square. If you land on someone, you pay 1 counter and they go back to where you started your turn.",
+        "Land exactly on 67, the Mansion of Happiness, to win. Spin past it and you go back to the Seat of Expectation (60); spin past it again and you begin the game again."
       ],
       "didYouKnow": [
         "The first 1800 edition was printed with an ink described as containing real gold.",
         "The American publishers used a spinning top instead of dice because dice were called 'the bones of the Devil'.",
         "Anne Abbott was wrongly credited as the designer for nearly 150 years, even though she had really designed other Ives games such as Doctor Busby."
       ],
-      "computer": "",
+      "computer": "The computer players have nothing to decide, because in the 1843 game the teetotum decides everything. They wait a moment so you can see whose turn it is, then spin the same eight-sided teetotum you do. That makes it a fair game of pure luck, which makes it a good one for talking about chance.",
       "sources": [
         {
           "title": "The Mansion of Happiness - Wikipedia",
@@ -723,7 +727,9 @@ window.GIT_CONTENT = {
         "vs computer",
         "2 to 4 players"
       ],
-      "type": "luck"
+      "type": "luck",
+      "controls": "Tap or click Spin the teetotum, or the teetotum itself. Keyboard: Tab to the Spin button and press Enter or Space. Computer players spin by themselves. Open All the squares and what they do to see every square.",
+      "adaptation": "Squares, numbers and rules follow the 1843 edition published by W. and S. B. Ives of Salem, Massachusetts: the Rules of the Game as transcribed by Anne Morris (annemorris.danromas.com, 'The Mansion of Happiness', 2021, from the Library of Congress copy), checked square by square against the Library of Congress scan of the board (LC-USZC4-5133, https://www.loc.gov/resource/cph.3g05133/). The transcription numbers Generosity 55 in rule 3, but the board shows Generosity at 54 and Ruin at 55, so 54 is used. The V&A record of the 1800 Laurie and Whittle edition (https://collections.vam.ac.uk/item/O26298/) has the earlier English rules, with two dice and with Bridewell and Newgate where Ives has the House of Correction and Prison. Wikipedia says the 1843 teetotum was an octagonal ivory 'pin and plate' teetotum, but neither the Ives rules nor the Library of Congress copy says what numbers were on it (the Library of Congress copy does not include its teetotum), so it is numbered 1 to 8 here; the Seat of Expectation sits seven squares from the Mansion, which suits an eight-sided top. Rules followed: virtues advance six (rule 3); Audacity, Cruelty, Immodesty and Ingratitude send you back to where you were (rule 4); the Water and the Inn cost 1 counter and move you on (rules 1 and 2); Passion, Idleness, the Road to Folly, Sabbath Breaker, A Cheat, A Perjurer, A Drunkard, A Robber and the Summit of Dissipation send you to their places with their fines (rules 6 to 14); 'one month' means the teetotum going round once, so a Cheat misses a turn and a Robber two, then begins again, unless someone guilty of the same crime is sent there first (rules 10, 13 and 15); punishment places are blanks for anyone merely passing (rule 5); two counters may not share a square, the newcomer paying 1 and the other going to the newcomer's old place, except that a guilty newcomer pays only the fine, and a newcomer cannot stop on a locked-up prisoner but goes back and spins again, staying put if the same number comes up (rule 16); you must land on 67 exactly, going back to the Seat of Expectation the first time you spin past and beginning again the second time (rule 17). Choices made where the rules are silent: a square you are sent to by a rule does not send you on again (so the Road to Folly stops at Prudence); when your counters run out you pay what you have and keep playing; nobody collects the fines box, because the rules do not say who does. Everyone starts with ten counters, as the 1843 Explanation of the Game says. The short meanings of the virtues, vices and places were written for this site, and the punishments are described factually."
     },
     {
       "id": "tangram",
@@ -805,12 +811,14 @@ window.GIT_CONTENT = {
         "Anderson's book of 1852, The Game of Draughts Simplified, fixed the rules and the way moves are written down. Wyllie held the title, with gaps, until 1894 and toured Britain, North America, Australia and New Zealand. By September 1883 he had played 12,386 recorded games and lost only 82 of them. In 1887, aged in his late sixties and going deaf, he arrived in Melbourne and took on all comers. By the time he crossed to New Zealand that September he had played 1,850 games in Australia, winning 1,760, drawing 88 and losing just two."
       ],
       "howToPlay": [
-        "Set up a chessboard with a dark square at each player's left. Each player puts twelve pieces on the dark squares of their first three rows.",
-        "Take turns moving one piece diagonally forward one square onto an empty dark square.",
-        "If an enemy piece is diagonally next to yours with an empty square beyond, jump over it and remove it. You can keep jumping in one turn if more jumps are available.",
-        "Jumping is compulsory: if you can capture, you must.",
-        "A piece reaching the far row becomes a king (stack a second piece on it). Kings can move and jump backwards as well as forwards.",
-        "You win when your opponent has no pieces left or cannot move."
+        "Red moves first. Tap one of your pieces, then a gold dot to move it there. You can play against the computer or a friend, and choose Red or White.",
+        "A man moves one square diagonally forward, onto a dark square.",
+        "To capture, jump diagonally over an enemy piece next to you onto the empty square just behind it. The jumped piece drops into your tray.",
+        "If you can capture, you must. The pieces that can jump glow, and the line above the board tells you.",
+        "If your piece can jump again after it lands, it must keep jumping in the same turn. Tap each landing ring in turn.",
+        "A man that reaches the far row is crowned a king, and that ends the move. Kings move and jump backwards as well as forwards.",
+        "You win when your rival has no pieces left or none of them can move.",
+        "Site rule: if 40 moves each go by with no capture and no man moving, the game is a draw."
       ],
       "didYouKnow": [
         "The first English draughts book of 1756 had its dedication and preface written by Samuel Johnson, the man who wrote the first great English dictionary.",
@@ -819,7 +827,7 @@ window.GIT_CONTENT = {
         "On his 1887 tour of Australia, James Wyllie played 1,850 games of draughts and lost only two.",
         "Every men's world champion from 1840 to 1994 came from Scotland, England or the United States."
       ],
-      "computer": "",
+      "computer": "The computer looks ahead: it imagines every move it could make, then every reply you could make, then its answer to that, and so on. Easy looks 2 moves ahead, Medium 4, and Hard 6 or more. It scores each board it imagines: 100 points for a man, 160 for a king, and a few points for men that have marched forward, men guarding the back row and pieces in the middle. It expects you to choose your best reply, and it plays the move that still scores best after that. This way of thinking is called minimax. It also skips any move as soon as it can see it is worse than one it has already found (alpha-beta pruning), and it never stops thinking halfway through a run of jumps. Easy adds some randomness to its scores, so it sometimes makes a mistake you can punish.",
       "sources": [
         {
           "title": "Checkers (Draughts) - Wikipedia",
@@ -871,7 +879,9 @@ window.GIT_CONTENT = {
         "vs computer",
         "2 players"
       ],
-      "type": "board"
+      "type": "board",
+      "controls": "Tap or click a piece, then a gold dot (a step) or a gold ring (a jump). Keyboard: Tab to the board, use the arrow keys to move around, Enter or Space to pick up a piece and put it down, and Escape to put it back.",
+      "adaptation": "English draughts as Andrew Anderson fixed the rules in 1852: an 8 by 8 board with a dark square in each player's bottom left corner, play on the dark squares only, 12 men each, the darker pieces move first, men move and capture diagonally forwards only, capturing is compulsory but you may choose which capture, a multi-jump must be finished with the same piece, reaching the far row crowns a man and ends the move, kings move and capture one square forwards or backwards, and a player who cannot move loses. Here the jumped pieces leave the board when the whole move is finished, so no piece can be jumped twice. Adapted: the pieces are red and ivory rather than black and white, to suit the parlour hall, so Red moves first. The 40-move draw (40 moves each with no capture and no man moving) is a site rule so that games against the computer always finish. Against the computer you can play either colour; playing White turns the board round so your pieces are at the bottom."
     },
     {
       "id": "conkers",
@@ -966,19 +976,20 @@ window.GIT_CONTENT = {
         "Happy Families quickly inspired copies in other countries. In France a 'Game of Seven Families' appeared in 1876, and German makers produced 'Quartett' games. Jaques still publishes the game today."
       ],
       "howToPlay": [
-        "Deal all 44 cards out to the players.",
-        "On your turn, ask one other player for a specific card you need, for example 'Please may I have Master Bun, the Baker's son?' You must already hold a card from that family.",
-        "If the player has it, they must hand it over and you may ask again, anyone you like.",
-        "If they do not have it, your turn ends and the player you asked goes next.",
-        "When you hold all four members of a family, lay them face down in front of you.",
-        "When all families are complete, the player with the most families wins."
+        "All 44 cards are dealt out between you and your cousins. Anyone dealt a whole family lays it down straight away.",
+        "On your turn, tap one of your families, then the card you want from it, then the cousin to ask. You can only ask about a family you already hold at least one card of.",
+        "Every question is asked politely: 'Please, Ada, have you got Master Bun?'",
+        "If your cousin has the card, they must hand it over, and you ask again.",
+        "If not, they say it is 'not at home', and it becomes their turn.",
+        "When you hold all four of a family (Mr, Mrs, Master and Miss), it is laid down.",
+        "When every family is home, the player with the most families wins."
       ],
       "didYouKnow": [
         "Happy Families was displayed at the Great Exhibition of 1851, where six million people visited the Crystal Palace.",
         "The pictures are credited to John Tenniel, the Alice in Wonderland artist, but the cards never carried his name.",
         "A French version with seven families was drawn in 1876 by the cartoonist André Gill."
       ],
-      "computer": "",
+      "computer": "Your cousins listen to every question. If Ada asks for Master Bun, she must hold someone from the Bun family. If Albert says 'not at home', he hasn't got that card. When a card is handed over, everyone knows where it went. On Hard a cousin remembers all of this, asks whoever is most likely to have the card, and goes for the families it nearly has. On Medium it remembers most of what it hears. On Easy it forgets about half, only remembers the last few questions, and sometimes just guesses.",
       "sources": [
         {
           "title": "Happy Families - Wikipedia",
@@ -1017,7 +1028,9 @@ window.GIT_CONTENT = {
       "players": [
         "vs computer"
       ],
-      "type": "cards"
+      "type": "cards",
+      "controls": "Tap or click a family, then a card, then a cousin. Keyboard: Tab to a button and press Enter. The arrow keys move along a row, and Escape goes back a step.",
+      "adaptation": "Rules of the Jaques game of 1851 as described by Wikipedia, the V&A and pagat.com: ask for a named card from a family you hold; a player who has it must hand it over and you ask again; otherwise the asked player says 'not at home' (the V&A's wording) and takes the turn; whole families are laid down; most families wins. The eleven families are the original Jaques set, confirmed by Wikipedia and by the card list of the Pepys reissue, with ten of them also named on the V&A's hand-coloured Jaques set of about 1860: Bun the Baker, Grits the Grocer, Bones the Butcher, Dose the Doctor, Block the Barber, Pots the Painter, Bung the Brewer, Tape the Tailor, Chip the Carpenter, Soot the Sweep and Dip the Dyer. Card names follow the original pattern: Mr Bun the Baker, Mrs Bun the Baker's Wife, Master Bun the Baker's Son, Miss Bun the Baker's Daughter. Adapted: the pictures are new drawings, not copies of the original caricatures (usually credited to John Tenniel); you always go first; the please and thank you are said for you in the speech bubbles (pagat.com records a house rule where forgetting them costs the card, which is not used here); a player who runs out of cards sits out and the turn passes to the next player who still has cards."
     },
     {
       "id": "noughts-and-crosses",
@@ -1099,19 +1112,20 @@ window.GIT_CONTENT = {
         "Snap has been printed in countless editions since, and can be played with any ordinary pack of 52 cards. In Germany and Austria it is known as Schnipp-Schnapp."
       ],
       "howToPlay": [
-        "Deal all the cards face down so every player has a pile. Do not look at them.",
-        "Take turns turning your top card face up onto a pile in front of you (or onto one shared pile in the centre).",
-        "Keep watching all the face-up piles. When two top cards match, shout 'Snap!'",
-        "The first to shout takes both matching piles and puts them under their own pile.",
-        "If you shout 'Snap!' by mistake, your face-up pile goes to the middle as a 'snap pool' that anyone can win later.",
-        "Players with no cards left are out. The last player holding cards wins."
+        "All 64 cards are dealt face down, so you and each rival have a pile. There are 16 pictures, four of each, like the 1866 Jaques pack.",
+        "Take turns to turn your top card onto your own face-up pile. Tap your pile (or press Enter) when it is your turn.",
+        "Watch every face-up pile. When two top pictures match, hit SNAP (or press Space or S) before your rivals do.",
+        "The first to call Snap wins both matching piles and puts them under their face-down pile.",
+        "Call Snap when nothing matches and you pay a forfeit: one card from your face-down pile to each other player.",
+        "When your face-down pile runs out, your face-up pile is turned over and you carry on. A player with no cards at all is out.",
+        "Gather all 64 cards to win. In a Quick game, whoever has the most cards after 60 turns wins."
       ],
       "didYouKnow": [
         "The 1866 Jaques pack had 64 picture cards of 'grotesque characters', not ordinary playing cards, and the earliest sets are said to have been coloured by hand.",
         "In 'Animal Snap' each player is given an animal and must shout the other player's animal, not 'Snap', to win the pile.",
         "Snap is called Schnipp-Schnapp in Germany and Austria."
       ],
-      "computer": "",
+      "computer": "Each rival watches the piles and calls Snap after its reaction time. Easy takes about a second (900 to 1300 milliseconds), sometimes misses a match, and sometimes calls Snap on two pictures that only look alike, like the parasol and the umbrella. Then it has to pay you a card! Medium takes 600 to 900 milliseconds and rarely misses. Hard takes 350 to 600 milliseconds and never misses, so you need quick eyes.",
       "sources": [
         {
           "title": "Snap - The World of Playing Cards (Jaques)",
@@ -1147,7 +1161,9 @@ window.GIT_CONTENT = {
       "players": [
         "vs computer"
       ],
-      "type": "cards"
+      "type": "cards",
+      "controls": "Tap your pile to turn a card, and tap the big SNAP button. Keyboard: Enter or T turns your card, and Space or S calls Snap.",
+      "adaptation": "Rules follow the usual Victorian way described by the V&A (each player turns cards onto their own separate face-up pile, not one shared pile) and pagat.com (the first to call Snap takes both matching piles and puts them under their face-down pile; when your face-down pile runs out you turn your face-up pile over; with no cards left you are out). The forfeit for a wrong call is one of the two the V&A records for Victorian Snap: you give one card from your face-down pile to each other player (here from the bottom of the pile). The V&A's other forfeit (your face-down pile goes to a central pool) and pagat.com's snap pool are not used. Adapted: the 1866 pack had 64 cards of 'grotesque characters' in 16 sets of four. This pack also has 64 cards in 16 sets of four, but the pictures are new drawings of Victorian things: top hat, teapot, penny-farthing, parasol, clock, kite, sailing ship, oil lamp, bonnet, rocking horse, steam train, umbrella, drum, spinning top, birdcage and button boot. The penny-farthing arrived in the early 1870s, a few years after the 1866 pack, but still within this hall. The Quick game, and a limit of 600 turns on a full game (most cards wins), are additions so a game fits in a lesson."
     },
     {
       "id": "fifteen-puzzle",
@@ -1239,12 +1255,14 @@ window.GIT_CONTENT = {
         "In 1892 the German firm Ravensburger published a six-pointed star version called Stern-Halma. When the American firm Pressman brought out a version in 1928, first as Hop Ching Checkers and then as Chinese Chequers (spelled Chinese Checkers in the United States), the name was a marketing idea. The game comes from Germany, not China. Monks went on to become surgeon-in-chief at Boston City Hospital in 1910."
       ],
       "howToPlay": [
-        "Set up a 16 by 16 board. Two players each fill a corner camp with 19 pieces; four players use 13 pieces each.",
-        "On your turn, either move one piece a single square in any direction to an empty square,",
-        "or jump over any adjacent piece (yours or your opponent's) into the empty square directly beyond it, and keep jumping with that piece as long as you can.",
-        "Nothing is ever captured; jumped pieces stay on the board.",
-        "Once a piece reaches the opposite camp it may not leave.",
-        "The first player to fill the opposite camp with all their own pieces wins."
+        "The 1884 board is 16 by 16, with 19 men each in opposite corner yards. On a phone the game starts on a quick 10 by 10 board with 15 men each. Use the Board menu to switch.",
+        "Your red men start in the bottom left yard. Move every one of them into the blue yard in the top right corner.",
+        "On your turn, move one man. Either step one square in any direction (the dots),",
+        "or hop over a man next to you, yours or your rival's, onto the empty square straight behind it. You can keep hopping from man to man in the same turn. The end of every chain shows as a dotted ring.",
+        "Nothing is ever captured. Men you hop over stay where they are.",
+        "Once a man reaches the far yard it must stay inside it, but it can still move around inside.",
+        "The first player to fill every square of the far yard wins.",
+        "Site rule, no blocking: if your rival leaves men in their own starting yard, they count for you. Fill every other square of that yard and you win."
       ],
       "didYouKnow": [
         "Halma is Greek for 'leap'. Thomas Hill, a mathematician and clergyman who had been president of Harvard from 1862 to 1868, is said to have chosen the name.",
@@ -1252,7 +1270,7 @@ window.GIT_CONTENT = {
         "Chinese Chequers (Chinese Checkers in the United States) is Halma on a star-shaped board, first sold in Germany in 1892 as Stern-Halma.",
         "Monks also invented a game called Basilinda, but it never matched Halma's success."
       ],
-      "computer": "",
+      "computer": "The computer measures how far each of its men still has to go to the far corner and adds the distances up. For every move it could make, every step and every chain of hops, it works out how much that total would shrink, so a chain that leaps 9 squares scores 9 points. It adds a little extra for long chains, for moving a man that has been left far behind, and for moving men out of its starting yard. On Hard it also imagines your best reply to each of its best moves, so it avoids building a ladder of men you could hop along. On Easy it picks one of its four best moves at random.",
       "sources": [
         {
           "title": "Halma, Wikipedia",
@@ -1307,7 +1325,9 @@ window.GIT_CONTENT = {
         "vs computer",
         "2 players"
       ],
-      "type": "board"
+      "type": "board",
+      "controls": "Tap or click one of your men, then a dot (a step) or a dotted ring (a chain of hops). With a mouse, point at a ring to see the whole chain. Keyboard: Tab to the board, use the arrow keys to move around, Enter or Space to pick up a man and put it down, and Escape to put it back.",
+      "adaptation": "Original two-player rules from the 1880s and 1890s (Foster's Complete Hoyle, 1897, and the Jaques board of about 1900 at the V&A): a board of 256 squares, 19 men each in corner yards of 5, 5, 4, 3 and 2 squares, steps in any of the eight directions, hops over any single man of either colour, as many hops as you like in one turn, no mixing steps and hops in one move, no captures, and hopping is never compulsory. The 1884 board also marks the smaller 13-square yards used by four players, and they are drawn here too. The rule that a man in the far yard may not leave it comes from modern summaries of the game. Two rules are ours. The quick board (10 by 10, 15 men each in a triangle of 5, 4, 3, 2 and 1) is for phones and short lessons, because 16 by 16 squares need about 520 pixels to stay big enough to tap. The no-blocking rule exists because the old rules do not say what happens if a player never empties their own yard, which would stop the other player ever winning. The four-player game is not included, and Red always moves first because the rules we found do not say who starts."
     },
     {
       "id": "reversi",
@@ -1592,12 +1612,13 @@ window.GIT_CONTENT = {
         "An earlier English game called Puchese was published on 11 April 1862, though its link to Ludo is unknown. Sailors in the Royal Navy play their own version, Uckers. In India, where Ludo is often played with two dice and star-marked safe squares, the newspaper The Hindu reported in June 2020 that Ludo had become the most popular game of the lockdown."
       ],
       "howToPlay": [
-        "Each player takes four pieces of one colour and puts them in their home corner. Decide the order by rolling a die.",
-        "On your turn roll one die. You need a six to move a piece from your corner onto your starting square. A six also earns another roll.",
-        "Move one piece clockwise around the track by the number rolled. You must move if you can.",
-        "If you land exactly on an opponent's piece, it goes back to its home corner and must roll a six to come out again.",
-        "After a full lap, each piece turns up its own coloured home column towards the centre. It needs an exact roll to reach the finishing square.",
-        "The first player to bring all four pieces home wins."
+        "Each player has four tokens waiting in a yard. Choose who plays from the Players menu: you against 1, 2 or 3 computers, or 2 to 4 people sharing one device.",
+        "Tap the die (or press R) to throw it.",
+        "You need a six to bring a token out onto your starting square, the one with the arrow. A six also gives you another throw.",
+        "Tap a glowing token to move it that many squares clockwise round the board. If one of your tokens can move, you must move one.",
+        "Land exactly on a rival's token to send it back to its yard. Two of your own tokens may not share a square.",
+        "After a full lap, a token turns up its own coloured home column. It needs the exact number to reach the centre.",
+        "The first player with all four tokens in the centre wins."
       ],
       "didYouKnow": [
         "Ludo is Latin for 'I play'. Its parent game, Pachisi, is Hindi for 'twenty-five', the top score with cowrie shells.",
@@ -1605,7 +1626,7 @@ window.GIT_CONTENT = {
         "Pieces in early Ludo sets were flat discs of bone; today they are plastic or cardboard.",
         "Royal Navy sailors play a rowdy Ludo cousin called Uckers."
       ],
-      "computer": "",
+      "computer": "The computer does not look ahead. It follows five rules, in order, and uses the first one that fits. 1: If it can land on one of your tokens, it sends it home, choosing the one that had gone furthest. 2: On a six, it brings a new token out of its yard. 3: If one of its tokens is in danger, because one of yours is 1 to 6 squares behind it, it moves that token somewhere safe. 4: If a token can reach the centre with exactly this throw, it takes it home. 5: Otherwise it moves the token that is furthest behind, but not into danger if a safer move exists.",
       "sources": [
         {
           "title": "Games Board (gamesboard.org.uk): Patent 14636, Royal Ludo",
@@ -1649,7 +1670,9 @@ window.GIT_CONTENT = {
         "vs computer",
         "2 to 4 players"
       ],
-      "type": "luck"
+      "type": "luck",
+      "controls": "Tap the die, or press R or Space, to throw. Tap a glowing token to move it. Keyboard: after a throw, the first glowing token is selected; Tab goes to the next one, Enter moves it, and Escape goes back to the die.",
+      "adaptation": "Alfred Collier patented Royal Ludo in England in 1891 (patent 14636), and Ludo was on sale by 1896. We could not open an 1890s rule sheet, so the game follows plain English Ludo as the games historian David Parlett describes it (summarised by pachisi.vegard2.net): one die, a token comes out only on a six, a six earns another throw, two tokens of the same colour may not share a square, there are no safe squares and no blocks, and an exact throw is needed to get home. Landing on a rival's token sends it back to its yard. Common modern house rules that are not used: losing your turn after three sixes in a row, two tokens making a block, star-shaped safe squares, extra throws for a capture or for getting a token home, and playing with two dice. Adapted: on a six you may bring a token out or move one already on the board, and you choose your colour against the computer. The colours (red, green, yellow and blue, clockwise from the top left) are drawn from the 1890s hall's palette."
     },
     {
       "id": "snakes-and-ladders",
@@ -1797,11 +1820,11 @@ window.GIT_CONTENT = {
         "A 1932 New York Times article about Tokyo commuters still explained the rules to American readers. In 1933 Compton's Pictured Encyclopedia suggested American boys and girls might like to practise it. In 2005 a Japanese company even chose between the auction houses Christie's and Sotheby's with a game of rock paper scissors."
       ],
       "howToPlay": [
-        "Two players face each other with one hand closed in a fist.",
-        "Together, pump your fists up and down three times, saying rock, paper, scissors or one, two, three.",
-        "On the third beat show one sign: a fist for rock, a flat hand for paper, or two fingers out for scissors.",
-        "Rock blunts scissors, scissors cut paper, and paper wraps rock. The same sign is a draw, so play again.",
-        "Play best of three to settle who goes first or who gets the last biscuit."
+        "Pick the game: Janken, Japan's rock, paper, scissors; the same game with the English chant; or mushi-ken, the older Japanese game of frog, slug and snake.",
+        "Choose your sign. Both hands shake three times to the chant (Jan, ken, pon!) and show their signs on the last beat.",
+        "Rock blunts scissors, scissors cut paper and paper wraps rock. In mushi-ken the frog beats the slug, the slug beats the snake and the snake beats the frog.",
+        "The same sign is a draw, so go again. The first to win three rounds wins the match.",
+        "Play the Hard computer and try not to fall into a pattern."
       ],
       "didYouKnow": [
         "Japan's oldest version, mushi-ken, used a frog, a slug and a snake instead of rock, paper and scissors.",
@@ -1809,7 +1832,7 @@ window.GIT_CONTENT = {
         "The French name chi-fou-mi comes from the Old Japanese words for one, two, three.",
         "In 2005 a Japanese firm let rock paper scissors decide which auction house would sell its art collection."
       ],
-      "computer": "",
+      "computer": "Easy picks at random every time, so nobody can predict it and nobody can beat it on purpose. Hard learns your habits. It keeps a tally of how often you play each sign, what you played after your last sign, and what you played after your last two signs. It adds those up to guess your most likely next move, then plays the sign that beats it. Play in a pattern, such as rock, paper, scissors over and over, and it will catch you within a few rounds. The only way to beat it for long is to be truly random, which is harder than it sounds.",
       "sources": [
         {
           "title": "Rock paper scissors - Wikipedia",
@@ -1841,7 +1864,9 @@ window.GIT_CONTENT = {
       "players": [
         "vs computer"
       ],
-      "type": "luck"
+      "type": "luck",
+      "controls": "Tap or click a sign. Keyboard: 1, 2 and 3, or R, P and S in the rock, paper, scissors games. In mushi-ken, 1 is frog, 2 is slug and 3 is snake.",
+      "adaptation": "Who beats whom in mushi-ken (frog beats slug, slug beats snake, snake beats frog, shown with the thumb, the little finger and the index finger) follows Sansukumi-ken on Wikipedia, which cites Linhart (1998); the name means the hand game of the three who fear one another. Jan-ken-pon is the Japanese name and call (Rock paper scissors, Wikipedia), and rock blunts scissors, scissors cut paper, paper wraps rock is the usual rule. No call for mushi-ken was found in the sources, so the online version counts 'One, two, three!', one of the counts the catalogue's rules mention. A match is first to three round wins (best of five when nobody draws); the catalogue suggests best of three for settling who goes first. In the real game both players throw at once. Here you pick first, but the computer has already decided, using only your earlier moves, and then both hands shake and show together."
     },
     {
       "id": "nim",
@@ -1934,12 +1959,13 @@ window.GIT_CONTENT = {
         "The game's biggest boost came in 1990, when Microsoft put it in Windows 3.0 as Solitaire. It helped people learn to use a mouse, because moving a card meant dragging and dropping it. By 1994 Microsoft was saying that Solitaire was one of the most-used programs on Windows. Mathematician Persi Diaconis has called the unknown chance of winning 'one of the embarrassments of applied probability'."
       ],
       "howToPlay": [
-        "Shuffle a 52-card pack with no jokers. Deal seven piles in a row: one card in the first, two in the second, up to seven in the last. Turn the top card of each pile face up. That is 28 cards; the rest is the stock.",
-        "Build down the piles in alternating colours, for example a red six on a black seven. You may move a face-up run of cards together.",
-        "When an ace appears, move it to one of four foundation spaces above the piles. Build each foundation up in suit from ace to king.",
-        "When a pile's face-up cards are all moved, turn over the next face-down card. An empty pile may be filled only with a king (or a run starting with a king).",
-        "Turn cards from the stock one at a time (easier) or three at a time (harder) and play what you can. When the stock runs out, turn the waste pile over and go through again.",
-        "You win when all 52 cards are on the four foundations."
+        "Seven columns are dealt, with the top card of each turned face up. The other 24 cards are the stock.",
+        "Build down the columns in alternating colours, like a red six on a black seven. You can move a whole face-up run together.",
+        "Send aces up to the four foundations, and build each one up in its own suit from ace to king.",
+        "Turn cards from the stock one at a time (Draw 1) or three at a time (Draw 3). Only the top card of the waste can be played.",
+        "An uncovered face-down card turns over by itself. Only a king can go into an empty column.",
+        "Tap a card to send it to its best place, or drag it where you want. Undo takes a move back and Hint suggests one.",
+        "When every card is face up, the game finishes itself. Get all 52 cards home to win, then try to beat your best time."
       ],
       "didYouKnow": [
         "Nobody has proved the game is named after the Klondike Gold Rush, even though the rush (1896 to 1899) matches the era when the game first appears.",
@@ -1947,7 +1973,7 @@ window.GIT_CONTENT = {
         "Microsoft's own usage figures have put Solitaire among the three most-used Windows programs, with FreeCell seventh, both ahead of Word and Excel.",
         "The exact chance of winning Klondike is still unknown; mathematician Persi Diaconis calls that an embarrassment for probability theory."
       ],
-      "computer": "",
+      "computer": "There is no opponent, but the computer helps. A tap sends a card to the best place it can find: up to a foundation first, then onto another column, and a king into an empty column only when that uncovers something. The Hint button scores every move and suggests the best one: a card that can go up to a foundation, then a move that uncovers a face-down card, then a card from the waste, then turning the stock. When every card is face up, the computer plans the rest of the game and plays it out for you.",
       "sources": [
         {
           "title": "Wikipedia: Klondike (solitaire)",
@@ -1997,7 +2023,9 @@ window.GIT_CONTENT = {
       "players": [
         "solo"
       ],
-      "type": "cards"
+      "type": "cards",
+      "controls": "Tap or click a card to move it to its best place, or drag it with a mouse or a finger. Tap the stock to turn cards. Keyboard: the arrow keys choose a pile (Up and Down also choose how many cards to take from a column), Enter picks cards up and puts them down (Enter twice sends them to their best place), Space turns the stock, U undoes and H gives a hint.",
+      "adaptation": "Standard Klondike as printed from about 1905: seven columns built down in alternating colours, foundations from ace to king in suit, and only kings in empty columns. Tarbart's Patience Games (1905, as 'Gambler's Delight') turned the stock three at a time, which is our Draw 3. Books of 1908 to 1914 turned it one card at a time with no second pass: choose 'once only (1908)' under Stock to play that way. The default lets you go round the stock as often as you like, which is kinder to beginners, and cards may be moved back down from a foundation, as in most modern rules. There is no money scoring: Canfield's casino paid players for every card sent home, and we leave the gambling out. The bouncing-cards finale is a nod to the 1990 computer version, not part of the 1905 game."
     },
     {
       "id": "diabolo",
@@ -2239,11 +2267,12 @@ window.GIT_CONTENT = {
         "In 1967 Milton Bradley turned it into the plastic board game with pegs and little ships, advertised during Saturday morning cartoons. An Electronic Battleship with sounds followed in 1977. The plastic version has sold more than 100 million copies, and it entered the National Toy Hall of Fame in 2025."
       ],
       "howToPlay": [
-        "Each player draws two 10 by 10 grids, with letters across the top and numbers down the side. One grid is your ocean, the other is for tracking your shots.",
-        "Secretly mark your ships on your ocean grid: a carrier of 5 squares, a battleship of 4, a cruiser of 3, a submarine of 3 and a destroyer of 2. Ships go in straight lines and may not overlap.",
-        "Take turns calling a square, such as B7. Your opponent says hit or miss, and must say when a ship is sunk.",
-        "Mark hits and misses on your tracking grid so you can hunt down damaged ships.",
-        "The first player to sink all five enemy ships wins. For the 1931 Salvo rules, fire one shot per surviving ship each turn."
+        "Your fleet starts in a random spot on your grid: a battleship of 5 squares, a cruiser of 4, a destroyer of 3 and a submarine of 2. To move a ship, tap it, then tap where its front should go. Rotate turns it. Ships go across or down and may not overlap.",
+        "Press Start battle, then tap a square on the enemy's grid to fire at it. Red crosses are hits and dots are misses.",
+        "When you hit, you are told which ship you hit. When every square of a ship has been hit, it is sunk.",
+        "The computer fires back at your grid after each turn.",
+        "In Salvo, the 1931 rule, you fire one shot for every ship you still have afloat, so every ship you lose costs you a shot.",
+        "Sink all four enemy ships before the computer sinks yours."
       ],
       "didYouKnow": [
         "The original 1931 Salvo pads let you fire up to five shots a turn, one for each ship you had left.",
@@ -2251,7 +2280,7 @@ window.GIT_CONTENT = {
         "The 1977 Electronic Battleship was an early toy built around a microprocessor, and it made sounds.",
         "The plastic Battleship game has sold more than 100 million copies since 1967."
       ],
-      "computer": "",
+      "computer": "Easy fires at random. Hard plays like a careful player with a pencil, and it never peeks at your fleet. For every square still unknown it counts how many ways your remaining ships could lie across it, and fires where that count is highest. While hunting it only fires at the black squares of a checkerboard, because every ship is at least two squares long and so must cover one of them. Once it hits a ship it only tries squares where that ship could still be, so after two hits in a row it follows the line until the ship sinks.",
       "sources": [
         {
           "title": "Battleship (game) - Wikipedia",
@@ -2279,7 +2308,9 @@ window.GIT_CONTENT = {
       "players": [
         "vs computer"
       ],
-      "type": "board"
+      "type": "board",
+      "controls": "Tap or click a square to fire. Keyboard: arrows move the target and Enter fires. When placing: arrows move, Enter picks up or puts down a ship, and R rotates it. On a phone, Show my fleet big swaps the sizes of the two grids.",
+      "adaptation": "Nobody knows who invented the pencil-and-paper game, and early players drew their own grids and chose their own fleets. The fleet here follows the pencil-and-paper version described by the game historian Bruce Whitehill (The Big Game Hunter, 'Pencil and paper games', https://thebiggamehunter.com/playing/pencil-paper-games/): a battleship of 5, a cruiser of 4, a destroyer of 3 and a submarine of 2, in straight lines across or down, with letters across the top and numbers down the side, and with the defender saying which ships were hit. Those rules do not forbid ships touching, so here they may touch but never overlap. Salvo, one shot for each ship still afloat, follows Wikipedia's description of the 1931 Salvo edition published by the Starex company. In the paper game the results of a salvo were announced together, without saying which square hit; here each shot is marked as it lands to keep the game quick. The aircraft carrier of the later plastic editions is left out because the game is presented as it was played around the First World War."
     },
     {
       "id": "memory-handset",
@@ -2288,14 +2319,19 @@ window.GIT_CONTENT = {
       "year": 1978,
       "yearLabel": "1978",
       "stamp": "1978",
-      "origin": "",
+      "origin": "Mechanics of Simon by Ralph Baer and Howard Morrison, made by Milton Bradley, USA",
       "tagline": "Repeat after the machine.",
       "players": [
         "solo"
       ],
       "type": "action",
-      "blurb": "Repeat a growing tone-and-light sequence on four burnt-palette squares. One wrong square ends the run.",
-      "story": [],
+      "blurb": "Watch the coloured lights, listen to the notes, then copy the pattern as it grows one step longer each turn, like the 1978 electronic game Simon.",
+      "story": [
+        "In 1976 two toy inventors, Ralph Baer and Howard Morrison, saw an Atari arcade game called Touch Me at a trade show in Chicago. Players copied a sequence of flashing buttons. Baer liked the idea but later wrote that the game looked boring and sounded harsh. Baer and Morrison worked with Marvin Glass and Associates, a Chicago toy design company, so they set out to make a friendlier version.",
+        "Their game had four coloured buttons, a small computer chip and four notes chosen to sound like a bugle. Programmer Lenny Cope worked on the code. The toy company Milton Bradley bought the game and named it Simon, after the old game Simon Says. It went on sale in 1978 for about 25 US dollars and was a huge hit that Christmas.",
+        "Milton Bradley launched Simon in May 1978 with a midnight party at Studio 54, a famous New York nightclub. A giant Simon, one metre across, came down from the ceiling while people danced below. At home, one person could play alone, or a family could take turns and even team up against the machine.",
+        "Memory Handset plays like Simon, the 1978 electronic memory game. The name and look here are our own."
+      ],
       "howToPlay": [
         "Press Start. The handset lights up a square and plays its note.",
         "Watch and listen, then tap the same square.",
@@ -2304,10 +2340,44 @@ window.GIT_CONTENT = {
         "One wrong square ends the run. Your score is the number of rounds you finished.",
         "Your best score shows on the handset and is saved on this device. Try to beat it."
       ],
-      "didYouKnow": [],
+      "didYouKnow": [
+        "In the 1979 rules, if you took more than five seconds to press a button, Simon made a 'razz' sound and your go was over.",
+        "Simon speeds up after the 5th, 9th and 13th signal in a sequence, so long patterns come faster.",
+        "The hardest level asks you to repeat a sequence of 31 signals. Simon salutes a winner with six quick flashes.",
+        "Ralph Baer, one of Simon's inventors, had earlier invented the first home video game console, which became the Magnavox Odyssey of 1972."
+      ],
       "computer": "The machine picks each new square at random and adds it to the end of the pattern. It never changes the squares that came before, so the pattern only grows. Each square has its own note, from high to low: ember, teal, olive and plum. In the first round each light stays on for about four tenths of a second. Every round the machine plays a little faster, until round 24, when each light lasts only about a seventh of a second.",
-      "sources": [],
-      "uncertainties": [],
+      "sources": [
+        {
+          "title": "What Simon Says (45 years after its launch, Milton Bradley's iconic memory game continues to challenge and charm), Joanna Goodrich, IEEE Spectrum, December 2023",
+          "url": "https://spectrum.ieee.org/simon-game",
+          "note": "Baer and Morrison saw Atari's Touch Me at the 1976 Music Operators of America show in Chicago; Baer called it 'visually boring' with 'miserable rasping sounds' in his 2005 autobiography; Marvin Glass; Lenny Cope; TMS1000 chip; bugle notes; renamed after Simon Says; launched May 1978 at Studio 54 with a 1 metre replica lowered at midnight; sold for US $25; hit that Christmas."
+        },
+        {
+          "title": "Simon handheld electronic game manual, Milton Bradley, 1979 (Internet Archive)",
+          "url": "https://archive.org/details/simon-handheld-electronic-game-manual-milton-bradley-1979",
+          "note": "Rule book: three games, skill levels of 8, 14, 20 or 31 signals, tempo rises after the 5th, 9th and 13th signals, 'RAZZ' sound after 5 seconds, six-signal salute for a win, players may team up against Simon."
+        },
+        {
+          "title": "Simon (game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Simon_(game)",
+          "note": "Inventors Baer and Morrison at Marvin Glass and Associates; programmer Lenny Cope; based on Atari's 1974 Touch Me; launch at Studio 54; retail price US $24.95; US patent 4,207,087 granted 1980."
+        },
+        {
+          "title": "Magnavox Odyssey, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+          "note": "Baer led the Sanders Associates team that designed the Odyssey, released by Magnavox in 1972."
+        }
+      ],
+      "uncertainties": [
+        "Sources disagree on Simon's four notes. IEEE Spectrum says Baer chose G, C, E and G as played on a bugle, while Wikipedia lists an A major chord (E, C sharp, A, E) and says some 1978 units used different notes. The story only says the notes were chosen to sound like a bugle.",
+        "IEEE Spectrum says the Texas Instruments TMS1000 chip had '1,000 kilobytes of memory'. That figure looks wrong for a 1970s toy chip, so it is left out.",
+        "IEEE Spectrum gives the launch as May 1978. Some websites give 15 May 1978, but no primary source for the exact day was opened.",
+        "The 1979 rule book on the Internet Archive is an American edition; Australian packs may have differed.",
+        "No source was found for when Simon first went on sale in Australia.",
+        "The year of Atari's Touch Me arcade game (1974) comes from Wikipedia only.",
+        "IEEE Spectrum credits Lenny Cope with the programming; Wikipedia also says much of the code was written by Charles Kapps of Temple University."
+      ],
       "playable": true,
       "controls": "Tap or click the four coloured squares. Start and Stop are the buttons under the squares. They also work from the keyboard: press Tab to reach them, then Enter or Space.",
       "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/MemoryHandset.jsx) with the same handset, colours, notes, timings and wording. What changed, and why: the caption uses a middle dot instead of a dash ('ember · teal · olive · plum · one wrong square ends the run'). Best scores are kept in this site's storage, so scores from 1973.ai do not carry over. The site's status line also shows Press Start, the round and whose turn it is, and Game over with the best score. A run that ends with a new best score sets off the site's celebration (confetti, a fanfare and a toast); it waits until the run is over so it never hides the lights while you are watching. One fix: on 1973.ai, two taps less than 180 ms apart that finished a pattern both counted as finishing it, which skipped a round and played two patterns over each other. Now only the tap that finishes the pattern moves on; everything else about tapping is unchanged. As on 1973.ai, the squares answer taps and clicks but not keys. The play and stop symbols on the Start and Stop buttons are hidden from screen readers. The section heading is not ported because the page gives the title. On phones the handset can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
@@ -2319,14 +2389,19 @@ window.GIT_CONTENT = {
       "year": 1972,
       "yearLabel": "1972",
       "stamp": "1972",
-      "origin": "",
+      "origin": "Mechanics of the Magnavox Odyssey's table tennis (New Hampshire, USA) and Atari's Pong (California, USA)",
       "tagline": "Rally against the machine.",
       "players": [
         "vs computer"
       ],
       "type": "action",
-      "blurb": "Rally against the machine on a wood-grain television. First to seven.",
-      "story": [],
+      "blurb": "Two bats, one bouncing square and a television screen: the game that brought video games into bars and living rooms from 1972.",
+      "story": [
+        "In 1966 an engineer named Ralph Baer had the idea of playing games on an ordinary television. His team at Sanders Associates in New Hampshire, USA, built a string of test machines, and his colleague Bill Rusch came up with a ping-pong game. Magnavox sold the finished console, the Odyssey, from 1972. Players stuck plastic sheets on the screen to add colour.",
+        "In May 1972 Nolan Bushnell played the Odyssey's tennis game at a demonstration. He asked Allan Alcorn, a young engineer at his new company, Atari, to build a bat-and-ball game as practice. Alcorn made the ball bounce off at different angles depending on where it hit the bat, and speed up during long rallies. They called it Pong.",
+        "In 1972 Atari put the first Pong machine in Andy Capp's Tavern, a bar in Sunnyvale, California. After a few weeks the owner reported it was broken. It turned out the coin box was simply overflowing with 25-cent coins. Atari announced Pong on 29 November 1972, and in 1975 a home version went on sale through the Sears catalogue.",
+        "TV tennis reached Australia too. The Odyssey was sold here in small numbers, and in the late 1970s the Australian company Hanimex sold tennis games that plugged into the family TV, some with a switch marked ANGLE. Television Tennis plays like these early games. The name and look here are our own."
+      ],
       "howToPlay": [
         "Press Start. After a short pause the ball is served from the middle of the court.",
         "Your paddle is on the right. Move your mouse over the screen, or drag up and down with your finger, to move it.",
@@ -2335,10 +2410,67 @@ window.GIT_CONTENT = {
         "Every hit in a rally makes the ball a little faster.",
         "The first to seven points wins the match."
       ],
-      "didYouKnow": [],
+      "didYouKnow": [
+        "Alcorn split each Pong bat into eight parts. A hit near the middle sends the ball straight back; a hit near an end sends it off at a sharp angle.",
+        "The Odyssey could not make any sound or keep score. Players wrote the scores down themselves.",
+        "The instructions on early Pong machines ended with: 'Avoid missing ball for high score.' Alcorn wrote them.",
+        "Alcorn's Pong prototype used a black-and-white television he bought from a shop for 75 US dollars."
+      ],
       "computer": "The machine's paddle chases the ball up and down, but it has a top speed, so it cannot always keep up. A fast ball sent off at a steep angle can get past it. It does not work out where the ball will end up. It only follows where the ball is right now. While it waits for a serve, it goes back to the middle.",
-      "sources": [],
-      "uncertainties": [],
+      "sources": [
+        {
+          "title": "Pong, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/pong/",
+          "note": "Inducted 2015; Bushnell assigned Alcorn; first prototype at Andy Capp's Tavern, Sunnyvale; owner Bill Gaddis thought it was malfunctioning after a few weeks but it was overflowing with quarters; Sears home version 1975."
+        },
+        {
+          "title": "Pong, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pong",
+          "note": "Bushnell played the Odyssey table tennis game in May 1972; eight paddle segments set the return angle; ball speeds up; $75 television; prototype installed August 1972; announced 29 November 1972; Magnavox lawsuit settled June 1976."
+        },
+        {
+          "title": "The Making of Pong, Benj Edwards, Vintage Computing and Gaming (republished from Edge, 2012)",
+          "url": "https://www.vintagecomputing.com/index.php/archives/3183/vcg-anthology-the-making-of-pong-2012",
+          "note": "Bushnell saw the Odyssey on 24 May 1972; Bill Rusch's table tennis memo of 18 October 1967; eight paddle segments; ball speeds up in long volleys; Odyssey used an 'English' knob instead; 'Avoid missing ball for high score'."
+        },
+        {
+          "title": "Oral History of Allan (Al) Alcorn, interviewed by Henry Lowood, Computer History Museum, 2008",
+          "url": "https://archive.computerhistory.org/resources/access/text/2012/09/102658257-05-01-acc.pdf",
+          "note": "Alcorn bought a black-and-white TV for $75; bolt-on laundromat coin box and a bread pan that overflowed; he wrote the three-line instructions."
+        },
+        {
+          "title": "Magnavox Odyssey, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+          "note": "Baer's idea in August 1966; Rusch proposed ping-pong; released September 1972; no sound or scoring; plastic overlays; released in 1974 in limited numbers in Australia and other countries."
+        },
+        {
+          "title": "1TL200: A Magnavox Odyssey, Alexander Smith, They Create Worlds, 2015",
+          "url": "https://videogamehistorian.wordpress.com/2015/11/16/1tl200-a-magnavox-odyssey/",
+          "note": "According to Baer the console was eventually sold in twelve countries including Australia."
+        },
+        {
+          "title": "'Magnavox Odyssey' video game console, Powerhouse Collection (object 2014/5/1)",
+          "url": "https://collection.powerhouse.com.au/object/476387",
+          "note": "Sydney's Powerhouse holds a complete Odyssey; says it was released for sale in August 1972."
+        },
+        {
+          "title": "Hanimex, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hanimex",
+          "note": "Australian distributor and manufacturer founded by Jack Hannes in 1947; sold several Pong-style video game consoles in the late 1970s and early 1980s."
+        },
+        {
+          "title": "Category:Hanimex 677CP, Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/Category:Hanimex_677CP",
+          "note": "Hanimex 677 home TV game, publication date 1978 (Wikidata); photographs show switches for ANGLE, SPEED and BAT SIZE."
+        }
+      ],
+      "uncertainties": [
+        "The Odyssey's release month differs: Wikipedia says September 1972, the Powerhouse says August 1972.",
+        "The year the Odyssey reached Australia is unclear. Wikipedia says 1974; Alexander Smith reports Baer's list of twelve countries without a year for each.",
+        "Wikipedia dates the Andy Capp's Tavern test to August 1972; The Strong gives no month.",
+        "Bushnell has given different accounts of how much the Odyssey inspired Pong. Magnavox sued Atari in 1974 and Atari settled in June 1976.",
+        "The Hanimex 677's date (1978) comes from Wikidata via Wikimedia Commons, not from a dated catalogue."
+      ],
       "playable": true,
       "controls": "Mouse: move over the screen to move your paddle. Touch: drag up and down anywhere on the screen. Start begins a match, Restart begins a fresh one and Stop ends it. Start and Stop also work from the keyboard: press Tab to reach them, then Enter or Space.",
       "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/TvTennis.jsx) with the same television, court, physics, speeds, machine player, tones and wording. What changed, and why: the captions use middle dots instead of dashes ('first to seven · drag on the screen to move', 'you win the channel · press start to defend it'). The site's status line also shows Press Start, the score while you play ('You 3, machine 2') and who won ('You win, 7 to 4' or 'The machine wins, 7 to 4'). Winning a match sets off the site's celebration (confetti, a fanfare and a toast), so the fanfare plays over the arcade's own point bleep. A loss keeps the arcade's own low buzz and does not add the site's lose sound, so the tones stay as they were. As on 1973.ai, the paddle follows the mouse or a finger and there are no keys for it. The screen has role img so screen readers read its description, and the play and stop symbols on the Start and Stop buttons are hidden from screen readers. The screen keeps the original fixed 640 by 440 drawing size, scaled to fit as on 1973.ai, so it looks exactly the same. The game already waits while the page is hidden, because browsers pause animation then. The section heading is not ported because the page gives the title. On phones the television can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
@@ -2350,14 +2482,19 @@ window.GIT_CONTENT = {
       "year": 1976,
       "yearLabel": "1976",
       "stamp": "1976",
-      "origin": "",
+      "origin": "Mechanics of Atari's Breakout, California, USA",
       "tagline": "Take down the wall.",
       "players": [
         "solo"
       ],
       "type": "action",
-      "blurb": "Knock down a six-row spectrum wall with three balls. Higher rows score more.",
-      "story": [],
+      "blurb": "Bounce a ball off your bat to knock out a wall of coloured bricks, the one-player game Atari built from Pong in 1976.",
+      "story": [
+        "Atari's founder Nolan Bushnell wanted a version of Pong for one player. His idea, worked out with engineer Steve Bristow, put a bat at the bottom of the screen and a wall of bricks at the top. Each brick the ball hits disappears. Breakout came out in 1976, and the ball speeds up as you dig deeper into the wall.",
+        "The first working version was built in four days by two young friends: Steve Jobs, who worked at Atari, and Steve Wozniak, an engineer at Hewlett-Packard. Atari offered a bonus for every chip they saved, and Wozniak's design used fewer than 50. It was too tricky to build in a factory, so Atari made its own version with about 100 chips.",
+        "The screen was really black and white. Strips of coloured see-through film stuck over it made the rows of bricks look yellow, green, orange and red. Breakout was one of the top-earning arcade games of 1976 and 1977 in the United States and Japan. Later, Wozniak and Jobs started Apple, and Wozniak built Breakout-style features into the Apple II computer.",
+        "Breakout also inspired the Japanese designer Tomohiro Nishikado to make Space Invaders in 1978. Brickfield plays like Atari's 1976 arcade game Breakout. The name and look here are our own."
+      ],
       "howToPlay": [
         "Press Start. The ball shoots up from your paddle.",
         "Move your mouse across the screen, or drag your finger, to slide the paddle left and right.",
@@ -2367,10 +2504,42 @@ window.GIT_CONTENT = {
         "You have three balls, shown as dots in the top corner. Miss the ball and you lose one.",
         "Clear all 60 bricks to win the field and 2100 points. Your best score is saved on this device."
       ],
-      "didYouKnow": [],
+      "didYouKnow": [
+        "Bricks near the top are worth more: yellow 1 point, green 3, orange 5 and red 7.",
+        "When the ball breaks through to the top wall, your bat shrinks to half its size.",
+        "The best possible score for one player is 896: two full walls of bricks worth 448 points each.",
+        "In January 1980 people at Schiphol Airport in Amsterdam were playing the 1978 sequel, Super Breakout, as the photo on this page shows."
+      ],
       "computer": "There is no computer player: the wall and the speeding ball are the challenge. The ball bounces off the sides, the top and the bricks, and it speeds up a little with every brick until it reaches its top speed. When it hits a brick it bounces off the side it hit, so a hit on the bottom of a brick sends it back down and a hit on the end sends it sideways.",
-      "sources": [],
-      "uncertainties": [],
+      "sources": [
+        {
+          "title": "Steve Jobs, Breakout Pioneer, Jon-Paul Dyson, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/blog/steve-jobs-breakout-pioneer/",
+          "note": "Breakout (1976) is a one-player elaboration of Pong; ball speeds up with each layer of bricks; Jobs was Atari employee no. 40; Bushnell and Bristow offered a bonus per chip saved; Wozniak's design used fewer than 50 chips in four days; Atari could not mass-produce it."
+        },
+        {
+          "title": "Breakout (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Breakout_(video_game)",
+          "note": "Designed by Bushnell and Bristow; prototype by Wozniak with Jobs; Atari's production version used about 100 TTL chips; monochrome screen with coloured cellophane strips; brick colours and points; paddle shrinks; maximum 896; top-earning lists for 1976 and 1977; Apple II influence; Nishikado cited Breakout."
+        },
+        {
+          "title": "Space Invaders, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+          "note": "Nishikado designed Space Invaders as a response to Breakout, which was very popular in Japan in 1977."
+        },
+        {
+          "title": "Speelautomaten op Schiphol (game machines at Schiphol), Hans van Dijk for Anefo, 18 January 1980, Nationaal Archief via Wikimedia Commons",
+          "url": "https://commons.wikimedia.org/wiki/File:Speelautomaten_op_Schiphol,_Bestanddeelnr_930-6275.jpg",
+          "note": "Dated photograph showing a Super Breakout cabinet being played."
+        }
+      ],
+      "uncertainties": [
+        "Wikipedia gives 13 May 1976 as the North American release date; The Strong only says 1976.",
+        "The Strong calls Breakout the top-selling game of 1976, but Wikipedia, citing the RePlay chart, ranks it fifth-highest earning in the United States that year and fourth in Japan.",
+        "Wozniak's own accounts of how much he was paid have changed over the years, so the story leaves the money out.",
+        "Chip counts vary: The Strong says fewer than 50, Wikipedia says Wozniak's breadboard had 44.",
+        "No source was found for when Breakout reached Australian arcades."
+      ],
       "playable": true,
       "controls": "Mouse: move over the screen to slide the paddle. Touch: drag left and right anywhere on the screen. Start begins a game, Restart begins a fresh one and Stop ends it. Start and Stop also work from the keyboard: press Tab to reach them, then Enter or Space.",
       "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/Brickfield.jsx) with the same cabinet, wall, physics, speeds, scoring, tones and wording. What changed, and why: the captions use middle dots instead of dashes ('three balls · higher rows score more', 'out of balls · 340 points · press start'). New here: your best score is remembered in this site's storage and shown in the site's status line ('Game over. Score 340, best 560'), because this site asks solo games to give a reason to play again. The cabinet itself looks the same and does not show the best. A game that ends with a new best score, or a cleared field, sets off the site's celebration (confetti, a fanfare and a toast), so the fanfare plays over the arcade's own bleeps. The site's status line also shows Press Start and the score while you play. As on 1973.ai, the paddle follows the mouse or a finger and there are no keys for it. The screen has role img so screen readers read its description, and the play and stop symbols on the Start and Stop buttons are hidden from screen readers. The screen keeps the original fixed 520 by 560 drawing size, scaled to fit as on 1973.ai, so it looks exactly the same. The game already waits while the page is hidden, because browsers pause animation then. The section heading is not ported because the page gives the title. On phones the cabinet can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
@@ -2382,14 +2551,19 @@ window.GIT_CONTENT = {
       "year": 1976,
       "yearLabel": "1976",
       "stamp": "1976",
-      "origin": "",
+      "origin": "Mechanics of Gremlin's Blockade, San Diego, USA",
       "tagline": "Don’t cross your own line.",
       "players": [
         "solo"
       ],
       "type": "action",
-      "blurb": "A green-phosphor grid snake. Walls, and your own trail, are fatal.",
-      "story": [],
+      "blurb": "Steer an arrow that leaves a solid wall behind it and make your opponent crash first, in the 1976 game that began the snake games.",
+      "story": [
+        "Lane Hauck taught himself to program and made games for Gremlin, a San Diego company. He was playing with a physics puzzle called the drunk and the lamppost, where a dot wanders about at random. He changed the rules so the dot could never go back to a square it had already visited. It soon trapped itself, and that gave him an idea for a two-player game.",
+        "In Blockade each player steers an arrow with push buttons. The arrow never stops, and it leaves a solid trail of blocks behind it. Hit a wall or any trail and you crash, and your opponent scores. Gremlin showed the game at a trade show in Chicago in 1976 and took about 3,000 orders. It went on sale in November 1976.",
+        "Before Gremlin could deliver, other companies made copies, and many orders were cancelled. A Gremlin sales flyer made for Australia advertised Blockade and its four-player version, CoMotion. Later came Gremlin's Hustle in 1977, Atari's home game Surround and, in the late 1990s, Snake on Nokia mobile phones.",
+        "Trail plays like Gremlin's 1976 arcade game Blockade and the snake games that followed. The name and look here are our own."
+      ],
       "howToPlay": [
         "Press Start. Your green trail sets off across the grid, heading right.",
         "Steer with the arrow keys, W A S D, or the arrows on the direction pad. You can turn left or right, but you can't turn straight back on yourself.",
@@ -2398,10 +2572,41 @@ window.GIT_CONTENT = {
         "Hitting a wall or crossing your own trail ends the game.",
         "Your best score is saved on this device. Try to beat it."
       ],
-      "didYouKnow": [],
+      "didYouKnow": [
+        "Gremlin first tested Blockade at a miniature golf course, where plenty of people put money in to play.",
+        "Hauck once watched a mother and daughter play Blockade, laughing every time they crashed into each other.",
+        "The arcade owner could set each game to end after 3, 4, 5 or 6 crashes.",
+        "In 2012 New York's Museum of Modern Art said it wanted Nokia's Snake game for its collection."
+      ],
       "computer": "There is no opponent here: the walls and your own trail are the danger. The computer puts each pickup on a random empty square and moves your trail one square at a time. At the start it moves every 0.16 seconds. Each pickup takes 0.004 seconds off that wait, until the trail reaches its top speed of one square every 0.07 seconds.",
-      "sources": [],
-      "uncertainties": [],
+      "sources": [
+        {
+          "title": "Blockade (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blockade_(video_game)",
+          "note": "Lane Hauck and Ago Kiss for Gremlin; the drunk and the lamppost experiment; push-button controls; trails; crash scoring; 3 to 6 crashes; test at a miniature golf course; 1976 MOA show in Chicago with 3,000 orders; released November 1976; clones and cancelled orders; mother and daughter; progenitor of the snake genre."
+        },
+        {
+          "title": "New Gremlin Video Games sales flyer (Australia), The Arcade Flyer Archive",
+          "url": "https://flyers.arcade-museum.com/?page=thumbs&db=videodb&id=4377",
+          "note": "Flyer listed under region Australia, year 1976, covering Blockade and CoMotion."
+        },
+        {
+          "title": "Snake (video game genre), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Snake_(video_game_genre)",
+          "note": "Blockade began the genre; Atari's Surround (1977); Hustle described as a Blockade clone; Snake on the Nokia 6110 in 1998; MoMA announcement of 29 November 2012."
+        },
+        {
+          "title": "Gremlin, Hustle advertisement, Play Meter, June 1977 (Wikimedia Commons)",
+          "url": "https://commons.wikimedia.org/wiki/File:Gremlin_-_Hustle_-_June_1977_Play_Meter_advert.jpg",
+          "note": "Dated 1977 advertisement for Gremlin's Hustle, showing the snake-style screen and the San Diego address."
+        }
+      ],
+      "uncertainties": [
+        "The Arcade Flyer Archive dates the Australian flyer to 1976, but this may be the game's year rather than the date the flyer was printed. No evidence was found of how many machines reached Australian venues.",
+        "Wikipedia credits Lane Hauck as designer and both Hauck and Ago Kiss as programmers.",
+        "Wikipedia dates Snake on the Nokia 6110 to 1998; many other sources say 1997, so the story says the late 1990s.",
+        "The figure of 3,000 orders comes from Gremlin staff memories reported in Wikipedia's sources."
+      ],
       "playable": true,
       "controls": "Keyboard: arrow keys or W A S D to steer. Mouse or touch: tap the arrows on the direction pad. Start, or the start button in the middle of the pad, begins a new game; Stop ends it.",
       "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/Trail.jsx) with the same 17 by 17 grid, speeds, tones, colours, direction pad and wording. What changed, and why: the caption uses middle dots instead of dashes ('best · 0 · walls are fatal'). Best scores are kept in this site's storage, so scores from 1973.ai do not carry over. The site's status line also shows Press Start, the score, and Game over with the best score. A new best score sets off the site's celebration (confetti, a fanfare and a toast). The trail now waits while the page is hidden, which is this site's rule for games, instead of creeping on slowly in a background tab. The screen has role img so screen readers read its description, and the play and stop symbols on the Start and Stop buttons are hidden from screen readers. The screen keeps the original fixed 340 by 340 drawing size, scaled to fit as on 1973.ai, so it looks exactly the same. The section heading is not ported because the page gives the title. On phones the handheld can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
@@ -2413,14 +2618,19 @@ window.GIT_CONTENT = {
       "year": 1978,
       "yearLabel": "1978",
       "stamp": "1978",
-      "origin": "",
+      "origin": "Mechanics of Taito's Space Invaders, Japan",
       "tagline": "Hold the last line.",
       "players": [
         "solo"
       ],
       "type": "action",
-      "blurb": "A fleet of twinkling star-glyphs marches down the night sky. One bolt in the air at a time.",
-      "story": [],
+      "blurb": "Slide your laser base left and right and shoot the marching rows of aliens before they land, like the 1978 game that filled arcades around the world.",
+      "story": [
+        "Tomohiro Nishikado, a designer at the Japanese company Taito, was a fan of Atari's Breakout and wanted to make something better. He swapped the bricks for rows of aliens that march sideways and step down each time they reach the edge. He based them on octopus, squid and crab shapes, inspired by H. G. Wells's novel The War of the Worlds.",
+        "Nishikado built the machine around a microprocessor, a kind of chip that was new to him. It drew the aliens faster when fewer were left, so the last few rushed across the screen. He kept that as part of the game. Taito released Space Invaders in Japan in 1978, and soon whole arcades opened with nothing but Space Invaders machines.",
+        "The game soon reached Australia, where the Perth company Leisure and Allied Industries distributed it. In late 1979 two Sydney record producers, Russell Dunlop and Bruce Brown, released a song called Space Invaders under the name Player One. It reached number 3 in Australia, even though they had never actually played the game.",
+        "Starfall plays like Taito's 1978 arcade game Space Invaders. The name and look here are our own."
+      ],
       "howToPlay": [
         "Press Start. A fleet of 40 stars marches across the night sky and steps down each time it reaches the edge.",
         "Move your cannon along the bottom: drag on the screen, move the mouse over it, or use the arrow keys or A and D.",
@@ -2430,10 +2640,46 @@ window.GIT_CONTENT = {
         "Clear every star to win the wave. The next fleet starts lower and marches faster.",
         "The game ends when your last cannon is hit or the fleet reaches your line."
       ],
-      "didYouKnow": [],
+      "didYouKnow": [
+        "The first Space Invaders screens were black and white. Strips of coloured see-through film made parts of the screen look green and orange.",
+        "Nishikado first called his game Space Monsters. His bosses changed the name to Space Invaders.",
+        "A popular story says Space Invaders caused a shortage of 100-yen coins in Japan. Coin experts have found no evidence for it.",
+        "In 1980 Space Invaders came out for the Atari 2600, the first arcade game officially licensed for a home console."
+      ],
       "computer": "The 40 stars move together as one fleet. Every so often the whole fleet takes one small step sideways. When the star at the end reaches the edge of the sky, the fleet drops down a little and turns around. The fewer stars are left, the faster the fleet steps, so the last star is the quickest of all. About once a second the lowest star in a random column drops a bomb, with no more than three bombs falling at once. Each new wave starts a little lower, steps a little faster and bombs a little more often.",
-      "sources": [],
-      "uncertainties": [],
+      "sources": [
+        {
+          "title": "Space Invaders, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/space-invaders/",
+          "note": "Inducted 2016; designed by Nishikado and released in Japan in 1978; five rows of aliens; high score; inspired by The War of the Worlds; Atari 2600's most popular game in 1980."
+        },
+        {
+          "title": "Space Invaders, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+          "note": "Response to Breakout; octopus, squid and crab aliens; Intel 8080; aliens speed up as fewer remain; first called Space Monsters; black-and-white screen with cellophane strips; 'Space Invaders Houses'; 100-yen coin myth; 1980 Atari 2600 port first official arcade licence; Leisure and Allied Industries listed as Australian publisher."
+        },
+        {
+          "title": "Space Invaders and the birth of Chicago house, Jordie Kilby, RareCollections, ABC Radio National, 2015",
+          "url": "https://www.abc.net.au/radionational/programs/rarecollections/space-invaders-and-the-birth-of-chicago-house/6301186",
+          "note": "Warners' Sydney office had its own machine; Dunlop and Brown had never played it; the song hit Australian radio in late 1979, sold more than 120,000 copies and reached no. 3."
+        },
+        {
+          "title": "Space Invaders sales flyer (Australia), The Arcade Flyer Archive",
+          "url": "https://flyers.arcade-museum.com/?page=thumbs&db=videodb&id=4379",
+          "note": "Australian flyer listed with Leisure and Allied Industries (LAI)."
+        },
+        {
+          "title": "LAI Games, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/LAI_Games",
+          "note": "Leisure and Allied Industries founded in Perth in 1958 by Malcolm Steinberg; founded Timezone in 1978."
+        }
+      ],
+      "uncertainties": [
+        "Release month differs: Wikipedia says Taito registered it for copyright in April 1978, showed it to businesses in June and had it on sale by July 1978.",
+        "The Strong says it was the first Japanese game to use a microprocessor; Wikipedia says Nishikado was inspired by Midway's American microprocessor version of his earlier game.",
+        "Leisure and Allied Industries' role as Australian distributor rests on the Arcade Flyer Archive listing and Wikipedia. The flyer's printing date is not shown.",
+        "ABC says the single sold more than 120,000 copies; Wikipedia says it was the seventh best-selling single in Australia in 1980."
+      ],
       "playable": true,
       "controls": "Mouse: move over the screen to aim and click to fire. Touch: drag on the screen to aim and tap to fire. Keyboard: arrow keys or A and D to move, space bar to fire. Start begins a new game; Stop ends it.",
       "adaptation": "Ported from the 1973 floor of 1973.ai (src/components/Starfall.jsx) with the same fleet, speeds, bombs, scoring, tones, colours and wording. As on 1973.ai there are no separate on-screen buttons for moving and firing: the screen itself is the touch control. What changed, and why: the captions use middle dots instead of dashes ('one bolt in the air · drag to aim, tap or space to fire'). Best scores are kept in this site's storage, so scores from 1973.ai do not carry over. The site's status line also shows Press Start, the score, and Game over with the best score. Clearing a wave and setting a new best score both set off the site's celebration (confetti, a fanfare and a toast), so the fanfare plays over the arcade's own wave-clear bleep. The screen has role img so screen readers read its description, and the play and stop symbols on the Start and Stop buttons are hidden from screen readers. The screen keeps the original fixed 520 by 560 drawing size, scaled to fit as on 1973.ai, so it looks exactly the same. The game already waits while the page is hidden, because browsers pause animation then. The section heading is not ported because the page gives the title. On phones the cabinet can be a few pixels wider than on 1973.ai because this site's page margins are narrower."
@@ -2445,14 +2691,19 @@ window.GIT_CONTENT = {
       "year": 1979,
       "yearLabel": "1979",
       "stamp": "1979",
-      "origin": "",
+      "origin": "Mechanics of Atari's Asteroids, California, USA",
       "tagline": "Thrust through the drift.",
       "players": [
         "solo"
       ],
       "type": "action",
-      "blurb": "Thrust, turn and wrap around the edges; shoot drifting rocks that split as they break. Three ships.",
-      "story": [],
+      "blurb": "Turn, thrust and drift through space, blasting rocks that split into smaller, faster pieces, in the glowing-line style of Atari's 1979 Asteroids.",
+      "story": [
+        "In April 1979 Atari's Lyle Rains talked with programmer Ed Logg about an unfinished game with a giant rock that could not be destroyed. They agreed on a game where you shoot rocks that break into smaller pieces. Logg based the ship and its five buttons on Spacewar!, a 1962 computer game he had played at university. The buttons turn left, turn right, thrust, fire and jump into hyperspace.",
+        "Asteroids used a vector screen. Instead of building the picture line by line like a television, the beam drew glowing lines straight onto the screen, which made the ship and rocks sharp and bright. The ship keeps drifting after you stop pushing the thrust button, and anything that leaves one edge of the screen comes back on the opposite side.",
+        "Asteroids went on sale in November 1979 and became Atari's best-selling arcade game, with more than 70,000 sold. Some arcade owners had to fit bigger coin boxes. On 13 November 1982, 15-year-old Scott Safran of New Jersey scored 41,336,440 points, a record that stood until 2010. In 2012 ACMI in Melbourne included Ed Logg in its Game Masters exhibition.",
+        "Drifter plays like Atari's 1979 arcade game Asteroids. The name and look here are our own."
+      ],
       "howToPlay": [
         "Press Start. Your ship waits in the middle of the screen with its nose pointing up.",
         "Turn left or right, then thrust to push the ship the way its nose points. There are no brakes, so the ship keeps drifting and only slows down a little at a time.",
@@ -2463,10 +2714,37 @@ window.GIT_CONTENT = {
         "If a rock touches your ship, you lose it. You have three ships. A new ship blinks for two seconds, and rocks cannot hurt it while it blinks.",
         "Clear every rock and a new wave drifts in, with one more rock than before. See how high you can score."
       ],
-      "didYouKnow": [],
+      "didYouKnow": [
+        "Asteroids was one of the first arcade games that let top players type their three initials into a high-score table.",
+        "Logg borrowed the idea of a high-score table with initials from an earlier game, Exidy's Star Fire.",
+        "Demand was so high that several hundred Asteroids games were shipped in cabinets made for another Atari game, Lunar Lander.",
+        "Asteroids had no sound chip. Its heartbeat-like sound, which speeds up as you play, came from circuits wired by hand."
+      ],
       "computer": "There is no computer player. Each rock drifts in a straight line and slowly spins, at a speed and direction picked at random when it appears. Smaller rocks move faster than big ones. Rocks wrap around the edges of the screen, just like your ship. New rocks always appear well away from your ship, so a new wave never lands right on top of you.",
-      "sources": [],
-      "uncertainties": [],
+      "sources": [
+        {
+          "title": "Asteroids, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/asteroids/",
+          "note": "Inducted 2024; Lyle Rains and Ed Logg; released November 1979; inspired by Spacewar and Computer Space; five buttons; vector display; more than 70,000 sold; one of the first games with three-letter initials on the high-score list."
+        },
+        {
+          "title": "Asteroids (video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Asteroids_(video_game)",
+          "note": "April 1979 meeting about Cosmos; rocks that break up; Spacewar! controls played at UC Berkeley; vector monitor; inertia and screen wrap; initials idea from Exidy's Star Fire; no sound chip and hand-wired sound circuits; Lunar Lander cabinets; bigger coin boxes; Scott Safran's record of 13 November 1982, broken on 5 April 2010."
+        },
+        {
+          "title": "Game Masters (exhibition), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Game_Masters_(exhibition)",
+          "note": "Curated by ACMI, Melbourne, 28 June to 28 October 2012; Arcade Heroes section included Ed Logg, Tomohiro Nishikado and Toru Iwatani."
+        }
+      ],
+      "uncertainties": [
+        "Sales figures differ: The Strong says more than 70,000 sold; Wikipedia gives 47,840 upright and 8,725 cocktail cabinets in one place and up to 100,000 worldwide in another.",
+        "The Strong calls Asteroids one of the first games with initials on the high-score table; Wikipedia says Logg took the idea from Exidy's Star Fire.",
+        "Scott Safran's record and date come from Wikipedia, which cites Twin Galaxies; they were not checked against Twin Galaxies directly.",
+        "The Game Masters details come from Wikipedia; ACMI's own exhibition pages could not be opened.",
+        "No source was found for when Asteroids reached Australian arcades."
+      ],
       "playable": true,
       "controls": "Keyboard: Left and Right arrows (or A and D) turn, the Up arrow (or W) thrusts and Space fires. Touch or mouse: hold ⟲ or ⟳ to turn, hold ▲ to thrust and tap Fire to shoot. Start begins a game, Restart begins a fresh one and Stop ends it.",
       "adaptation": "Ported from Drifter on the 1983 neon floor of 1973.ai with the same screen, physics, speeds, scoring, sounds and controls. The em-dashes in the caption and the screen reader label became a middle dot and a full stop, to match this site's style. The section heading is left out because the game page already has a title. Your best score is kept in this site's storage, so it starts again from zero here. The site's status line also shows your score, the ships you have left and the game over message, and beating your best sets off the site's confetti and a message."
@@ -2478,14 +2756,19 @@ window.GIT_CONTENT = {
       "year": 1981,
       "yearLabel": "1981",
       "stamp": "1981",
-      "origin": "",
+      "origin": "Mechanics of Konami's Frogger, Japan",
       "tagline": "Cross before it clips you.",
       "players": [
         "solo"
       ],
       "type": "action",
-      "blurb": "Cross lanes of traffic and a river of drifting logs to reach the top.",
-      "story": [],
+      "blurb": "Hop a frog across a busy road and a rushing river full of logs and turtles to get it safely home, like Konami's 1981 Frogger.",
+      "story": [
+        "Frogger was made by the Japanese company Konami and came out in Japan in 1981. You guide a frog from the bottom of the screen to five homes at the top. First you cross a road full of speeding cars and trucks. Then you ride floating logs and turtles across a river, because falling in the water costs a life.",
+        "Konami did not put its designers' names on its games, so for years nobody was sure who made Frogger. In 2022 a former Konami programmer named Takahide Harima as the main creator. Sega bought the rights, and Sega/Gremlin of San Diego sold it in North America from late 1981 after a test machine in a San Diego bar did very well.",
+        "Some Sega/Gremlin managers first dismissed it as a game for women and kids. That turned out to be its strength. A Sega/Gremlin sales manager said it filled a gap for women, who mostly avoided shooting games, and the company's 1981 advert called it fun for the whole family. By 2005 home versions had sold about 20 million copies.",
+        "Rush plays like Konami's 1981 arcade game Frogger. The name and look here are our own."
+      ],
       "howToPlay": [
         "Press Start. You are the green diamond at the bottom of the screen.",
         "Hop up, down, left or right, one square at a time.",
@@ -2495,10 +2778,36 @@ window.GIT_CONTENT = {
         "Reach the top to score one crossing. You go back to the start, and every lane moves a little faster than before.",
         "You have three lives, shown as diamonds at the top right. Your crossings are counted at the top left. How many can you make?"
       ],
-      "didYouKnow": [],
+      "didYouKnow": [
+        "In 1982 the magazine Softline said Frogger had more ways to die than any other arcade game, from trucks to snakes, otters and sinking turtles.",
+        "Each frog has about 30 seconds to reach a home before time runs out.",
+        "The tune at the start comes from a Japanese children's song called Inu no Omawarisan, which means The Dog Policeman.",
+        "While deciding whether to sell Frogger, Sega/Gremlin paid Konami 3,500 US dollars a day for the right to test it."
+      ],
       "computer": "There is no computer player. Cars and logs move in straight lines at steady speeds, and each lane goes the opposite way to the lane next to it. In the road and in the river, the lane nearest you is the fastest and each lane above it is a little slower. When a car or a log leaves one side of the screen, it comes back on the other side. Every time you reach the top, all the lanes speed up a little.",
-      "sources": [],
-      "uncertainties": [],
+      "sources": [
+        {
+          "title": "Frogger, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frogger",
+          "note": "Developed by Konami, published by Sega; Sega/Gremlin in North America; Japan release August 1981; five frog homes; road and river; 30-second timer; Softline's 'most ways to die' (1982); opening tune Inu no Omawarisan; $3,500 a day licensing window; San Diego bar test; 'women and kids game'; Jack Gordon on women and shooting games; 20 million home copies by 2005."
+        },
+        {
+          "title": "Flashback: Who Created the Arcade Classic Frogger?, Time Extension, 1 September 2023 (updated)",
+          "url": "https://www.timeextension.com/features/flashback-who-created-the-arcade-classic-frogger",
+          "note": "Konami did not credit staff; the popular Akira Hashimoto story is unconfirmed; former programmer Masahiro Inoue told the site in 2022 that Takahide Harima made Frogger; a later staff list raised a question about the reading of his name."
+        },
+        {
+          "title": "Sega/Gremlin, Frogger advertisement, Play Meter, 1 December 1981 (Wikimedia Commons)",
+          "url": "https://commons.wikimedia.org/wiki/File:Sega_-_Gremlin_-_Frogger_-_December_1st_1981_Play_Meter_advert.jpg",
+          "note": "Advert text: 'Leap for your life!', speeding cars, logs, diving turtles, 'fun for the whole family'."
+        }
+      ],
+      "uncertainties": [
+        "Who designed Frogger is not settled. Older articles name Akira Hashimoto and tell a story about a frog crossing a road; Time Extension found no evidence for it and names Takahide Harima, with some doubt about how his name is read.",
+        "The North American release is given as September 1981 by Wikipedia; other sources say October 1981, so the story says late 1981.",
+        "The Softline remark is reported by Wikipedia; the 1982 magazine itself was not opened.",
+        "No source was found for when Frogger reached Australian arcades."
+      ],
       "playable": true,
       "controls": "Keyboard: the arrow keys or W, A, S and D hop. Touch or mouse: tap the arrows on the pad, or tap the screen to hop up. Start begins a game, Restart begins a fresh one and Stop ends it.",
       "adaptation": "Ported from Rush on the 1983 neon floor of 1973.ai with the same screen, lanes, speeds, scoring, sounds and controls. The em-dashes in the caption and the screen reader label became a middle dot and a full stop, to match this site's style. The section heading is left out because the game page already has a title. The arcade game has no finish line: you keep crossing for as long as your lives last, so the site's confetti and message come when a game ends with more crossings than your best. Your best is kept in this site's storage, so it starts again from zero here. The site's status line also shows your crossings, the lives you have left and the game over message."
@@ -2510,14 +2819,19 @@ window.GIT_CONTENT = {
       "year": 1980,
       "yearLabel": "1980",
       "stamp": "1980",
-      "origin": "",
+      "origin": "Mechanics of Namco's Pac-Man, Japan",
       "tagline": "Clear the maze before they corner you.",
       "players": [
         "solo"
       ],
       "type": "action",
-      "blurb": "Clear a glowing maze of dots while sentries hunt you; power dots turn the tables.",
-      "story": [],
+      "blurb": "Gobble every dot in the maze while four chasers hunt you, each following its own simple rule, like Namco's 1980 Pac-Man.",
+      "story": [
+        "Toru Iwatani, a designer at the Japanese company Namco, wanted a game that women and couples would enjoy, not another war game. He chose eating as the theme. The hero's shape came partly from a pizza with a slice missing and partly from rounding off the Japanese character for mouth. Testing began in Shibuya, Tokyo, on 22 May 1980.",
+        "In Japan the game was called Puck Man, from paku paku, a word for gobbling. Midway sold it in North America from October 1980 as Pac-Man. It became one of the most popular arcade games ever, and a song called Pac-Man Fever reached the US top 10 in March 1982. Pac-Man soon appeared on toys, clothes and a cartoon show.",
+        "The four ghosts seem clever, but each follows one simple rule. Each has a target square. Red targets Pac-Man's own square. Pink aims four squares in front of him. Blue uses a spot two squares ahead of him and Red's position. Orange chases until it gets close, then heads for its corner. At every junction a ghost turns whichever way is nearest its target.",
+        "In 2012 ACMI in Melbourne included Iwatani in its Game Masters exhibition. Prowl plays like Namco's 1980 arcade game Pac-Man, including chasers that each follow one simple rule. The name and look here are our own."
+      ],
       "howToPlay": [
         "Press Start. You are the glowing pink ball at the bottom of the maze.",
         "Steer through the maze and eat every yellow dot. Each dot is worth 10 points.",
@@ -2528,10 +2842,47 @@ window.GIT_CONTENT = {
         "The middle row is a tunnel: go out one side and you come back in the other.",
         "Clear every dot and a fresh maze appears for the next level. Lose all three lives and the game is over. Your best score is saved on this device."
       ],
-      "didYouKnow": [],
+      "didYouKnow": [
+        "Namco's president wanted all four ghosts to be red. Iwatani asked his colleagues, and they voted 40 to 0 for different colours.",
+        "In Japanese the ghosts' names meant chaser, ambusher, fickle and playing dumb. In English they became Blinky, Pinky, Inky and Clyde.",
+        "Every so often the ghosts stop chasing and head for their own corners of the maze. This is called scatter mode.",
+        "Because of a mistake in the code, when Pac-Man faces up, Pinky aims four squares up and four squares to the left."
+      ],
       "computer": "The sentries do not plan a route through the maze. Each time a sentry reaches a crossing, it looks at the paths it could take next, but it never turns back the way it came unless it is in a dead end. Then it picks the path that leaves it closest to you in a straight line, as the crow flies. This simple rule is called a greedy chase. It works well in the open, but a wall between you and a sentry can trick it into going the wrong way, and because all three sentries follow the same rule they often bunch up and trail each other. You are also a little faster than they are. After you eat a power dot, the sentries stop chasing and choose paths at random until the power wears off. Those random choices come from a short maths formula called a pseudo-random number generator, the same trick early arcade machines used.",
-      "sources": [],
-      "uncertainties": [],
+      "sources": [
+        {
+          "title": "Pac-Man, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/pac-man/",
+          "note": "Inducted 2015; Iwatani, 1980; Namco in Japan and Midway in the United States; Puck Man in Japan; name from paku-paku; character from the Japanese character for mouth; licensing craze and cartoon; Pac-Man Fever in the Billboard top 10 in March 1982; best-selling arcade video game."
+        },
+        {
+          "title": "Pac-Man, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pac-Man",
+          "note": "Released in Japan 22 May 1980 and by Midway in October 1980; location test in Shibuya; designed to appeal to women and couples; eating theme; pizza and kuchi stories."
+        },
+        {
+          "title": "Ghosts (Pac-Man), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ghosts_(Pac-Man)",
+          "note": "Nakamura wanted red ghosts; 40 to 0 survey; Japanese names Oikake, Machibuse, Kimagure, Otoboke; Iwatani gave each ghost its own trait."
+        },
+        {
+          "title": "The Pac-Man Dossier, Jamey Pittman",
+          "url": "https://pacman.holenet.info/",
+          "note": "Chase, scatter and frightened modes; target tiles; Blinky targets Pac-Man's tile; Pinky four tiles ahead (with the facing-up overflow bug); Inky uses a point two tiles ahead and Blinky's position, doubled; Clyde chases when 8 or more tiles away, otherwise goes to his corner; at junctions ghosts pick the exit closest to the target, ties broken up, left, down, right."
+        },
+        {
+          "title": "Game Masters (exhibition), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Game_Masters_(exhibition)",
+          "note": "ACMI, Melbourne, 28 June to 28 October 2012; Arcade Heroes included Toru Iwatani."
+        }
+      ],
+      "uncertainties": [
+        "Iwatani has told the pizza story in different ways; in a 1986 interview he said it was only partly true.",
+        "The exact ghost rules come from Jamey Pittman's study of the game's program, not from Namco documents. Iwatani's own simpler description (red chases, pink and blue get in front, orange is random) differs a little.",
+        "Translations of the Japanese ghost names vary; Otoboke is given as 'stupid' by Wikipedia and 'pretending ignorance' by the Dossier.",
+        "The Strong calls Pac-Man the best-selling arcade video game ever; sales counts vary, so the story says one of the most popular.",
+        "No source was found for when Pac-Man reached Australian arcades."
+      ],
       "playable": true,
       "controls": "Arrow keys or W, A, S and D to steer. On a phone or tablet, tap the arrows on the pad under the maze. Start begins a new game and Stop ends it.",
       "adaptation": "Ported line for line from Prowl on the 1983 neon floor of 1973.ai: the same maze, sentry rules, speeds (you move 2 pixels a frame, sentries 1.5, frightened sentries 1), pauses, power time, scoring, tones and drawing, checked frame by frame against the original. Changes: the em-dashes in the caption are middle dots and the screen's label uses full stops; the screen has role img; the best score is kept with the Games in Time store, so bests from 1973.ai do not carry over; the site's status line shows the score and level; a new best (saved at game over, as before) and every cleared maze set off the site's celebration; the Start and Stop buttons use their own class names so the site's button style does not change them, and their symbols are hidden from screen readers; and the screen lets a phone scroll the page when no game is running (it still holds still during play). Kept as the original has them: the screen is drawn at 360 by 360 pixels and stretched to fit, so the glow looks the same; the game moves one step per screen refresh, so it runs faster on 120 Hz screens; and the level caption says the sentries are quicker, though their speed never changes."
@@ -2541,16 +2892,21 @@ window.GIT_CONTENT = {
       "title": "Cascade",
       "era": "1980s",
       "year": 1984,
-      "yearLabel": "1984",
+      "yearLabel": "1984 (some sources say 1985)",
       "stamp": "1984",
-      "origin": "",
+      "origin": "Mechanics of Tetris by Alexey Pajitnov, Moscow, Soviet Union",
       "tagline": "Fit the falling blocks.",
       "players": [
         "solo"
       ],
       "type": "puzzle",
-      "blurb": "Fit falling blocks into a well; full rows clear and the drop quickens as you go.",
-      "story": [],
+      "blurb": "Turn and slide falling shapes made of four squares to fill whole rows, which then vanish, like Alexey Pajitnov's Tetris from Moscow.",
+      "story": [
+        "Alexey Pajitnov was a computer researcher at the Dorodnitsyn Computing Centre of the Soviet Academy of Sciences in Moscow. He enjoyed pentominoes, a puzzle of shapes made from five squares. On a computer called the Elektronika 60 he made a falling-block game using the seven shapes made of four squares. The computer had no graphics, so the blocks were drawn with brackets.",
+        "He named it Tetris, from tetra, the Greek word for four, and tennis, his favourite sport. Friends helped him move it to IBM computers, adding colour and a score. Copies on floppy disks spread around Moscow. In 1986 a copy reached a computer institute in Budapest, Hungary, where a London software dealer, Robert Stein, saw it and set out to sell it.",
+        "Tetris went on sale in Britain and the United States in January 1988. In 1989 Nintendo packed it with its new Game Boy, and it became a worldwide hit. Because Pajitnov worked for the Soviet Academy of Sciences, he earned no royalties for years. That changed after 1996, when he and Henk Rogers started The Tetris Company.",
+        "Cascade plays like Tetris, the falling-block game Alexey Pajitnov made in Moscow. The name and look here are our own."
+      ],
       "howToPlay": [
         "Press Start. Blocks made of four squares fall into the well, one at a time.",
         "Slide each block left or right and turn it before it lands. The faint shadow at the bottom shows where it will land.",
@@ -2559,10 +2915,41 @@ window.GIT_CONTENT = {
         "Every 10 rows you clear, the level goes up and the blocks fall faster.",
         "If the blocks pile up to the top of the well, the game is over. Your best score is saved on this device."
       ],
-      "didYouKnow": [],
+      "didYouKnow": [
+        "The famous Tetris tune is Korobeiniki, a Russian folk song from the 1800s. It became the game's theme on the Game Boy.",
+        "The very first version had no score and no levels. You just kept clearing rows.",
+        "In the first version you pressed 7 and 9 to move a piece and 8 to turn it, as its Russian on-screen help shows.",
+        "The Game Boy version has sold about 35 million copies, more than any other version of Tetris."
+      ],
       "computer": "The computer is not trying to beat you, but it does decide which block comes next. It does not pick each block at random. Instead it takes one of each of the seven shapes, shuffles them like a deck of cards and deals them out in that order, then shuffles a fresh set. So every group of seven blocks has each shape exactly once, and you never wait more than 12 blocks for the long straight one. The computer also keeps time: at level 1 a block falls one row every 0.72 seconds, and each new level takes 0.07 seconds off, until level 10, when blocks fall a row every 0.12 seconds.",
-      "sources": [],
-      "uncertainties": [],
+      "sources": [
+        {
+          "title": "Tetris, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/tetris/",
+          "note": "Inducted 2015; Pajitnov and pentominoes; 1984 computer version with seven shapes; name from tetra and tennis; spread to Eastern Europe; 1987 launch on PCs in the West; packed with the Game Boy in 1989; Korobeiniki."
+        },
+        {
+          "title": "Tetris, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tetris",
+          "note": "Dorodnitsyn Computing Center; Elektronika 60; brackets for blocks; first version had no score or levels; IBM PC port with Pavlovsky and Gerasimov; floppy disks around Moscow; early 1986 copy to the SZKI Institute in Budapest where Robert Stein saw it; Mirrorsoft (27 January 1988) and Spectrum HoloByte (29 January 1988); Game Boy June and July 1989; 35 million Game Boy sales; dating dispute 1984 or 1985."
+        },
+        {
+          "title": "Alexey Pajitnov, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alexey_Pajitnov",
+          "note": "Born in Moscow in 1955; no royalties while employed by the Soviet Academy of Sciences; founded The Tetris Company with Henk Rogers in 1996."
+        },
+        {
+          "title": "The first version of Tetris, photograph by Unnerving duck, 2022 (Wikimedia Commons)",
+          "url": "https://commons.wikimedia.org/wiki/File:The_first_version_of_Tetris.jpg",
+          "note": "The original text-mode Tetris on display in Tampere; the Russian help text lists 7 left, 9 right, 8 rotate, 4 speed up, 5 drop."
+        }
+      ],
+      "uncertainties": [
+        "The date is disputed. June 1984 is widely given, but Pajitnov told a 1993 interviewer the game was finished in 1985, and a 2004 BBC documentary suggests spring 1985.",
+        "The Strong says Tetris launched on Western PCs in 1987; Wikipedia gives January 1988 for both the British and American releases.",
+        "The key list in the 'did you know' comes from the on-screen help visible in a 2022 photograph of the original version, possibly running on an emulator.",
+        "No source was found for when Tetris or the Game Boy first went on sale in Australia."
+      ],
       "playable": true,
       "controls": "Left and right arrows, or A and D, slide the block. The up arrow or W turns it. The down arrow or S moves it down one row, and Space drops it straight to the bottom. On a phone or tablet, use the buttons under the well: the arrows slide and nudge the block down, the round arrow turns it, and DROP drops it. Start begins a new game and Stop ends it.",
       "adaptation": "Ported line for line from Cascade on the 1983 neon floor of 1973.ai: the same 10 by 18 well, the seven shapes and their colours, the shuffled set of seven, the turning rules and the nudges away from walls, the falling speeds, scoring, ghost block, tones and drawing, checked frame by frame against the original with the same shuffles. Changes: the em-dashes in the caption are middle dots and the screen's label uses full stops; the screen has role img; the best score is kept with the Games in Time store, so bests from 1973.ai do not carry over; the site's status line shows the score and level; a new best (saved at game over, as before) sets off the site's celebration; the Start and Stop buttons use their own class names so the site's button style does not change them, and their symbols are hidden from screen readers; and the screen lets a phone scroll the page when no game is running (it still holds still during play). Kept as the original has them: the well is drawn at 240 by 432 pixels and stretched to fit, so the glow looks the same; there is no next-block preview or hold; and soft drops score nothing."
@@ -3181,6 +3568,228 @@ window.GIT_CONTENT = {
         "NSW car registrations (10,734 by 1915) appeared only in a search snippet; the panel states only that plates began in 1910.",
         "Houdini's flight is described on Wikipedia as what Diggers Rest 'is referred to as' famous for; some sources credit earlier Australian flights."
       ]
+    },
+    {
+      "era": "1970s",
+      "title": "Being 12 in the 1970s",
+      "paragraphs": [
+        "At school you learned the new metric system. From 1 September 1972 weather reports gave temperatures only in degrees Celsius, and from 1 July 1974 road signs showed kilometres. Money was already dollars and cents. In September 1973 a loaf of bread delivered to your door cost about 20 cents, a litre of milk about 27 cents and a stamp for a letter 7 cents.",
+        "Television went to colour. Every station switched at midnight on 1 March 1975, and within five years almost 80 per cent of homes had a colour set. The ABC's pop show Countdown began on 8 November 1974, and in 1976 Sherbet's song Howzat went to number 1. From 1979 commercial channels had to show children's programs from 4 to 5pm on weekdays.",
+        "Pinball machines stood in milk bars and arcades, and some kids played before or after school. In 1979 the ABC's Four Corners looked into claims that pinball arcades were bad for young people. The first Timezone opened in Murray Street, Perth, in 1978. Space Invaders arrived soon after, and some families bought tennis games that plugged into the TV.",
+        "Big news you might remember: the Sydney Opera House opened on 20 October 1973. On the night of Christmas Eve 1974 Cyclone Tracy destroyed most of the houses in Darwin. On 11 November 1975 the Governor-General dismissed Prime Minister Gough Whitlam. In July 1979 pieces of the falling Skylab space station landed near Esperance in Western Australia."
+      ],
+      "fastFacts": [
+        "Colour TV began at midnight on 1 March 1975, called C-day. The ABC's Aunty Jack Show sneaked colour on 30 seconds early. (ABC News)",
+        "In September 1973 a delivered loaf of bread cost about 20 cents. In 2023 a supermarket loaf cost about $4.40. (ABS)",
+        "Hankin of Newcastle built 1,150 Australian pinball machines from 1978 to 1980, including the first licensed Star Wars pinball. (ABC News)",
+        "The first Timezone arcade opened in Murray Street, Perth, in 1978. (TEEG, Timezone's owner)",
+        "The song Space Invaders by Sydney producers Dunlop and Brown reached number 3 after its late-1979 release. They never really played the game. (ABC RN)",
+        "After Skylab fell in July 1979, the Shire of Esperance jokingly fined NASA $400 for littering. (Wikipedia)"
+      ],
+      "compare": "In 1975 Australian kids saw colour TV for the first time and played pinball at the milk bar or arcade. How is the way you watch and play today different, and what has stayed the same?",
+      "sources": [
+        {
+          "title": "History of Australia's banknotes, Reserve Bank of Australia",
+          "url": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+          "note": "Australia issued its first decimal banknotes in 1966."
+        },
+        {
+          "title": "Metrication in Australia, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Metrication_in_Australia",
+          "note": "Celsius only from 1 September 1972; road signs converted on 1 July 1974 ('M-day')."
+        },
+        {
+          "title": "What changes in prices and their collection tell us about Australia, Australian Bureau of Statistics, 2023",
+          "url": "https://www.abs.gov.au/articles/what-changes-prices-and-their-collection-tell-us-about-australia",
+          "note": "September 1973 averages: 700 g loaf with delivery $0.20, litre of milk with delivery $0.27, standard letter $0.07; 2023 loaf $4.40; 1976 movie ticket $3.30."
+        },
+        {
+          "title": "Australia first saw colour television 10 years late, but it arrived with a big bang, ABC News, 1 March 2025",
+          "url": "https://www.abc.net.au/news/2025-03-01/act-fifty-years-of-colour-television-in-australia/104991656",
+          "note": "All channels switched to colour at midnight on 1 March 1975 (C-day); Aunty Jack revealed colour at 30 seconds to midnight on 28 February; almost 80 per cent of homes had colour TV within five years."
+        },
+        {
+          "title": "Television in Australia, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Television_in_Australia",
+          "note": "1972 decision to move to colour on 1 March 1975; 1979 rule requiring 'C' children's programs from 4 to 5pm."
+        },
+        {
+          "title": "Countdown (Australian TV program), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Countdown_(Australian_TV_program)",
+          "note": "ABC, 8 November 1974 to 19 July 1987."
+        },
+        {
+          "title": "Howzat (song), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Howzat_(song)",
+          "note": "Sherbet, released May 1976, number 1 on the Kent Music Report."
+        },
+        {
+          "title": "Milk bar, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Milk_bar",
+          "note": "Milk bars often had jukeboxes and pinball machines, later replaced by video games."
+        },
+        {
+          "title": "Iconic Australian-made pinball machines preserved for generations to come, ABC News, 12 March 2026",
+          "url": "https://www.abc.net.au/news/2026-03-12/pinball-machines-collected-nfsa-hankin/105971386",
+          "note": "Hankin built 1,150 machines in Newcastle 1978 to 1980; first licensed Star Wars pinball; 1979 Four Corners investigation; kids played before and after school; Space Invaders pushed pinball aside."
+        },
+        {
+          "title": "Our Story, TEEG (The Entertainment and Education Group)",
+          "url": "https://teeg.com/our-story/",
+          "note": "Malcolm Steinberg opened the first Timezone on Murray Street, Perth, in 1978."
+        },
+        {
+          "title": "Space Invaders and the birth of Chicago house, ABC Radio National, 2015",
+          "url": "https://www.abc.net.au/radionational/programs/rarecollections/space-invaders-and-the-birth-of-chicago-house/6301186",
+          "note": "Player One's Space Invaders hit Australian radio in late 1979 and reached number 3."
+        },
+        {
+          "title": "Hanimex, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hanimex",
+          "note": "Australian company that sold Pong-style TV games in the late 1970s and early 1980s."
+        },
+        {
+          "title": "Sydney Opera House, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+          "note": "Opened by Queen Elizabeth II on 20 October 1973."
+        },
+        {
+          "title": "Cyclone Tracy, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cyclone_Tracy",
+          "note": "Struck Darwin on the night of 24 to 25 December 1974; destroyed about 80 per cent of houses."
+        },
+        {
+          "title": "1975 Australian constitutional crisis, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1975_Australian_constitutional_crisis",
+          "note": "Whitlam dismissed by Governor-General Sir John Kerr on 11 November 1975."
+        },
+        {
+          "title": "Skylab, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Skylab",
+          "note": "Re-entered on 11 July 1979 (UTC); debris found around Esperance; Shire of Esperance fined NASA A$400."
+        }
+      ],
+      "uncertainties": [
+        "No reliable dated source was found for typical pocket money in the 1970s, so the panel uses prices instead.",
+        "The 1973 prices are national averages for September 1973 and include home delivery of bread and milk; shop prices differed.",
+        "Colour TV officially began at midnight on 1 March 1975, but the ABC's Aunty Jack sketch went to air 30 seconds before midnight on 28 February.",
+        "An Australian Space Invaders sales flyer survives, but its printing date is not shown; the ABC says the song took off in late 1979.",
+        "Skylab broke up on 11 July 1979 by world time, which was already 12 July in Western Australia, so the panel says July 1979.",
+        "The picture of pinball in milk bars comes from general histories (Wikipedia and ABC News), not from a 1970s survey."
+      ]
+    },
+    {
+      "era": "1980s",
+      "title": "Being 12 in the 1980s",
+      "paragraphs": [
+        "Computers came into classrooms. In February 1982 an Australian computer, the Microbee, went on sale as a $399 kit you built yourself. It came from Applied Technology, a small Sydney electronics shop that later opened a factory at Gosford. After winning a New South Wales Department of Education order, the Microbee was sold ready-made, and many schools used it.",
+        "Money changed in your pocket. The $1 coin replaced the $1 note on 14 May 1984, and the $2 coin arrived on 20 June 1988. In January 1988 Australia issued the world's first plastic banknote, a $10 note for the Bicentenary. Parents surveyed in 2017 remembered getting about $1.67 a week in pocket money in the 1980s.",
+        "Arcades were full of games like Pac-Man and Frogger, and many milk bars swapped their pinball machines for video games. At home, families plugged an Atari 2600 into the TV or saved for a home computer. In August 1983 a Brisbane shop advertised the Commodore 64 for $699, then cut it to $499 a month later. Countdown ran on the ABC until July 1987.",
+        "Brisbane hosted the Commonwealth Games in 1982, with a giant winking kangaroo mascot called Matilda. On 16 February 1983 the Ash Wednesday bushfires killed 75 people in Victoria and South Australia. In September 1983 the yacht Australia II won the America's Cup. In 1988 Australia marked 200 years since the First Fleet arrived, and Brisbane held Expo 88."
+      ],
+      "fastFacts": [
+        "The $1 coin replaced the $1 note on 14 May 1984. The $2 coin followed on 20 June 1988. (Reserve Bank of Australia)",
+        "In January 1988 Australia issued the world's first plastic (polymer) banknote, a $10 note for the Bicentenary. (Reserve Bank of Australia)",
+        "The Australian-designed Microbee computer went on sale in February 1982 as a $399 kit. (Your Computer magazine, February 1982)",
+        "Neighbours started on 18 March 1985. Kylie Minogue's first single, Locomotion, spent seven weeks at number 1 in 1987. (Wikipedia)",
+        "The Slip! Slop! Slap! sun safety campaign, sung by Sid the Seagull, began in 1981. (Wikipedia)",
+        "The 1988 Bicentenary started a big national debate; some people said 1788 should be remembered as an invasion. (Wikipedia)"
+      ],
+      "compare": "Kids in the 1980s got about $1.67 a week in pocket money, and a Commodore 64 computer cost $499 at one Brisbane shop in September 1983. How many weeks would they have needed to save, and how does that compare with buying a game or device today?",
+      "sources": [
+        {
+          "title": "Your Computer (Australia), February 1982 (Internet Archive)",
+          "url": "https://archive.org/details/1982.02-your-computer",
+          "note": "'This month sees the release of a significant new computer, Australia's own $399 machine, Applied Technology's Bee'; 'inexpensive at $399 in kit form'."
+        },
+        {
+          "title": "Microbee PC85 computer and circuit board, Powerhouse Collection",
+          "url": "https://collection.powerhouse.com.au/object/473941",
+          "note": "Applied Technology began as a shop front in suburban northern Sydney; fully assembled Microbees on the market in 1982; Department of Education contracts; factory at Gosford."
+        },
+        {
+          "title": "MicroBee, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MicroBee",
+          "note": "Released as a kit in February 1982; repackaged and sold pre-built after winning the NSW Department of Education computer tender."
+        },
+        {
+          "title": "History of Australia's banknotes, Reserve Bank of Australia",
+          "url": "https://banknotes.rba.gov.au/australias-banknotes/history/",
+          "note": "$1 coin introduced 14 May 1984; $2 coin 20 June 1988; polymer $10 commemorative note January 1988, a world first."
+        },
+        {
+          "title": "Aussie kids earn 250 per cent more pocket money than their parents, Commonwealth Bank, 2017",
+          "url": "https://www.commbank.com.au/guidance/newsroom/aussie-kids-earn-250-per-cent-more-pocket-money-201701.html",
+          "note": "2017 School Banking Study: parents who were children in the 80s received $1.67 a week."
+        },
+        {
+          "title": "Milk bar, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Milk_bar",
+          "note": "Pinball machines in milk bars were later upgraded to video games."
+        },
+        {
+          "title": "Atari 2600, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atari_2600",
+          "note": "Distributed in Australia by Futuretronics."
+        },
+        {
+          "title": "Your Computer (Australia), August 1983 and September 1983 (Internet Archive)",
+          "url": "https://archive.org/details/1983.08-your-computer-august-1983",
+          "note": "The VIC Centre, Stones Corner, Queensland: Commodore 64 $699 (August 1983); 'Prices slashed', $699 to $499 (September 1983, https://archive.org/details/1983.09-your-computer)."
+        },
+        {
+          "title": "Countdown (Australian TV program), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Countdown_(Australian_TV_program)",
+          "note": "Last episode 19 July 1987."
+        },
+        {
+          "title": "Neighbours, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neighbours",
+          "note": "First episode 18 March 1985."
+        },
+        {
+          "title": "The Loco-Motion, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Loco-Motion",
+          "note": "Kylie Minogue's Locomotion, July 1987, seven weeks at number 1 on the Kent Music Report."
+        },
+        {
+          "title": "Slip-Slop-Slap, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Slip-Slop-Slap",
+          "note": "Launched by Cancer Council Victoria in 1981 with Sid the Seagull."
+        },
+        {
+          "title": "1982 Commonwealth Games, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1982_Commonwealth_Games",
+          "note": "Brisbane, 30 September to 9 October 1982; mascot Matilda, a 13-metre winking kangaroo."
+        },
+        {
+          "title": "Ash Wednesday bushfires, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ash_Wednesday_bushfires",
+          "note": "16 February 1983; 75 deaths in Victoria and South Australia."
+        },
+        {
+          "title": "Australia II, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australia_II",
+          "note": "Won the 1983 America's Cup; deciding race 26 September 1983."
+        },
+        {
+          "title": "Australian Bicentenary, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Australian_Bicentenary",
+          "note": "1988; debate on national identity and Indigenous rights; some wanted the colonisation remembered as an invasion."
+        },
+        {
+          "title": "World Expo 88, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/World_Expo_88",
+          "note": "Brisbane, 30 April to 30 October 1988."
+        }
+      ],
+      "uncertainties": [
+        "The pocket money figure is what parents remembered in a 2017 bank survey, not a record made in the 1980s.",
+        "Computer prices come from one Brisbane shop's advertisements in Your Computer magazine; other shops charged different prices.",
+        "The deciding America's Cup race was sailed on 26 September 1983 off Newport, USA, which was already 27 September in Australia, so the panel says September 1983.",
+        "No reliable dated source was found for how many Australian homes had an Atari 2600 or a home computer, or for when the Atari 2600 first went on sale here.",
+        "The New South Wales tender for the Microbee comes from Wikipedia; the Powerhouse confirms Department of Education contracts but gives no date."
+      ]
     }
   ],
   "curriculum": {
@@ -3466,6 +4075,30 @@ window.GIT_CONTENT = {
         "idea": "Project the 1913 Word-Cross and solve it as a class, one clue at a time, noting that every clue is a plain definition. Ask which answers are hard because the language or the facts have changed since 1913, and list them as evidence about the period. Then have pairs write three definition clues and one cryptic clue for words from their own week. The Then panel gives the date: Arthur Wynne published the puzzle in the New York World on 21 December 1913, an illustrator later reversed the name to 'cross-word', and the first book of crosswords came from Simon and Schuster in 1924.",
         "computerAngle": "A crossword is a constraint puzzle: each clue is a definition, and the crossing letters, called checks, confirm or rule out an answer when several synonyms fit. Straight clues give a definition only; cryptic clues, which came later, give a definition plus wordplay. The site checks each letter against the grid the way a solver uses checks, so students can see why filling the crossings first makes the hard clues easier.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/hass-f-6/year-6"
+      },
+      {
+        "gameId": "prowl",
+        "title": "Four chasers, four simple rules",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Play Prowl for five minutes and watch one chaser at a time. Ask students to describe what each seems to be doing, then reveal that the ghosts in the 1980 game Pac-Man each followed one rule. Draw a small maze on grid paper or chalk it on the playground. One student is the runner and four are chasers, each given a target square on a card. At every junction a chaser steps the way that is closest to its target. Finish with the Then panel on Toru Iwatani and the ghosts' Japanese names.",
+        "computerAngle": "In Pac-Man every ghost uses the same path-finding steps; only its target square is different. At each junction a ghost looks at the exits it may take (it never turns back), measures the straight-line distance from each exit to its target and picks the shortest, breaking ties in the order up, left, down, right. Red targets Pac-Man's own square, pink aims four squares ahead of him, blue uses a point two squares ahead combined with red's position, and orange chases only while it is eight or more squares away, otherwise it heads for its corner. These rules come from Jamey Pittman's study of the game's code, The Pac-Man Dossier. Students can write each chaser's rule as an algorithm with branching (if, then, otherwise) inside a loop that repeats at every junction.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
+      },
+      {
+        "gameId": "cascade",
+        "title": "Turning shapes on a grid",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Give pairs grid paper and the seven Cascade shapes, each made of four squares. Students mark one square of the T shape as the centre and write the other squares as (x, y) coordinates measured from it. They turn the shape a quarter-turn, record the new coordinates and look for the pattern, then repeat for the L and S shapes. Test the pattern by predicting where a piece will sit after one turn in Cascade. Close with the Then panel: Alexey Pajitnov's first version drew the pieces with brackets on a text-only screen, and its help text says key 8 turns a piece.",
+        "computerAngle": "A falling-block game stores the playing field as a grid of numbers: 0 for an empty cell and 1 for a filled one. Each piece is a list of four squares measured from a pivot square. A quarter-turn clockwise moves a square at (x, y) to (y, -x) when y counts upwards; on a screen, where y usually counts downwards, the same turn is (x, y) to (-y, x). Doing it four times brings the shape back to the start. Before turning, a simple version of the program checks that every new square is inside the grid and empty; if not, the turn is refused. When a row is full of 1s it is removed and the rows above drop down one place.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
+      },
+      {
+        "gameId": "television-tennis",
+        "title": "Why the ball bounces where it does",
+        "yearLevels": "Years 5 to 8",
+        "idea": "Pairs play Television Tennis and note when the ball comes back steep and when it comes back flat. Show the photo of the late-1970s Hanimex TV game with its switch marked ANGLE. On grid paper, students draw the court and trace a ball that moves 2 squares across and 1 square up each step, bouncing off the top and bottom walls, then try 2 across and 2 up. Finish with the Then panel: in 1972 Allan Alcorn made the Pong ball leave the bat at different angles depending on which of eight parts of the bat it hit.",
+        "computerAngle": "The ball's movement is two numbers added to its position every frame: how far it moves across (dx) and how far it moves up or down (dy). When it hits the top or bottom wall the program flips dy (dy becomes -dy), so the ball leaves the wall at the same angle it arrived. When it hits a bat, the program flips dx and chooses a new dy from where the ball struck: the middle of the bat sends it straight back, the ends send it away at a steep angle. Pong split each bat into eight parts to pick the new angle and sped the ball up during long rallies. These are conditionals (if the ball touches a wall, then flip dy) inside a loop that runs many times a second.",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-5-and-6"
       }
     ],
     "tips": [
@@ -4562,5 +5195,175 @@ window.GIT_CONTENT = {
     ],
     "confidence": "high"
   },
-  "images": {}
+  "images": {
+    "hall-1970s": {
+      "hero": "img/hall-1970s-1600.webp",
+      "card": "img/hall-1970s-720.webp",
+      "alt": "Three boys in denim jackets lean over a pinball machine decorated with moons and flames, in a black and white photo.",
+      "caption": "Boys at a pinball machine during the pinball championships on the Museumplein, Amsterdam, 15 June 1976",
+      "credit": "Rob Bogaerts / Anefo, 1976. CC0, Nationaal Archief, via Wikimedia Commons",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Flipperkampioenschappen_op_Museumplein_Amsterdam,_jongetjes_bekijken_flipperkast,_Bestanddeelnr_928-6463.jpg",
+      "focus": "40% 45%",
+      "width": 1600,
+      "height": 1063
+    },
+    "hall-1980s": {
+      "hero": "img/hall-1980s-1600.webp",
+      "card": "img/hall-1980s-720.webp",
+      "alt": "Long rows of lit arcade machines in a dim room with red lights and hanging signs for Atari, Taito and Sega/Gremlin.",
+      "caption": "Rows of 1970s and 1980s arcade machines at the American Classic Arcade Museum, Laconia, New Hampshire, USA, 2018",
+      "credit": "Funspotarcade, 2018. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:American_Classic_Arcade_Museum_Interior.jpg",
+      "focus": "50% 50%",
+      "width": 1600,
+      "height": 1200
+    },
+    "kids-1970s": {
+      "hero": "img/kids-1970s-1600.webp",
+      "card": "img/kids-1970s-720.webp",
+      "alt": "Two boys in jumpers stand on a wooden pier, one sorting out a fishing reel, with the bay and a row of palm trees behind them.",
+      "caption": "Two boys fishing from a pier in Melbourne, 1970",
+      "credit": "wilford peloquin, 1970. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:70-1_08_Melbourne,_Australia_1970_(51242356759).jpg",
+      "focus": "50% 55%",
+      "width": 1200,
+      "height": 1600
+    },
+    "kids-1980s": {
+      "hero": "img/kids-1980s-1600.webp",
+      "card": "img/kids-1980s-720.webp",
+      "alt": "Children in caps, shorts and school polo shirts sit on a bench eating lunch, with school bags at their feet.",
+      "caption": "Australian and American children take a break at their joint school in Exmouth, Western Australia, August 1989",
+      "credit": "JO1 Lee Bosco, US Navy, 1989. Public domain, US National Archives, via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Australian_and_American_children_take_a_break_at_their_joint_school_in_Exmouth._Their_parents_are_stationed_at_the_US-Australian_Naval_Communications_Station_Harold_E._Holt_-_DPLA_-_e6215aaa0164cf7edbbb761346ed4fbb.jpeg",
+      "focus": "50% 45%",
+      "width": 1600,
+      "height": 1056
+    },
+    "memory-handset": {
+      "hero": "img/memory-handset-1600.webp",
+      "card": "img/memory-handset-720.webp",
+      "alt": "A round black Simon game with four large buttons, green, red, yellow and blue, in a museum display case.",
+      "caption": "An early Simon electronic game on display at the Henry Ford Museum, Dearborn, Michigan, USA, 2015",
+      "credit": "HarshLight, 2015. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Henry_Ford_Museum_-_18351699940.jpg",
+      "focus": "48% 50%",
+      "width": 1600,
+      "height": 1067
+    },
+    "television-tennis": {
+      "hero": "img/television-tennis-1600.webp",
+      "card": "img/television-tennis-720.webp",
+      "alt": "A mustard-coloured Hanimex TV game with two black knobs and switches labelled Angle, Speed and Bat size, lying on orange spotted fabric.",
+      "caption": "A Hanimex Colour TV Game from about 1978. Hanimex was an Australian company, and this game has a switch marked ANGLE",
+      "credit": "Bradley Neil (friedorange79), 2018. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Hanimex_677CP_Colour_TV_Game.jpg",
+      "focus": "45% 30%",
+      "width": 1600,
+      "height": 1200
+    },
+    "brickfield": {
+      "hero": "img/brickfield-1600.webp",
+      "card": "img/brickfield-720.webp",
+      "alt": "Black and white photo of a games room: two men play a Super Breakout arcade machine next to a space shooting game, with pinball machines behind them.",
+      "caption": "Super Breakout, Atari's 1978 follow-up to Breakout, being played in the games room at Schiphol Airport, Amsterdam, 18 January 1980",
+      "credit": "Hans van Dijk / Anefo, 1980. CC0, Nationaal Archief, via Wikimedia Commons",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Speelautomaten_op_Schiphol,_Bestanddeelnr_930-6275.jpg",
+      "focus": "55% 50%",
+      "width": 1600,
+      "height": 1063
+    },
+    "trail": {
+      "hero": "img/trail-1600.webp",
+      "card": "img/trail-720.webp",
+      "alt": "A 1977 magazine advertisement with the word HUSTLE in striped orange and purple letters and a wooden arcade cabinet showing a snake game on its screen.",
+      "caption": "A June 1977 trade magazine advertisement for Hustle, Gremlin's follow-up to Blockade",
+      "credit": "Gremlin Industries advertisement, Play Meter, June 1977. Public domain (published without a copyright notice), via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Gremlin_-_Hustle_-_June_1977_Play_Meter_advert.jpg",
+      "focus": "65% 35%",
+      "width": 1233,
+      "height": 1600
+    },
+    "starfall": {
+      "hero": "img/starfall-1600.webp",
+      "card": "img/starfall-720.webp",
+      "alt": "Close-up of a Space Invaders arcade machine: rows of white aliens and green bunkers on the screen, colourful space artwork around it and a child's hands on the controls.",
+      "caption": "Midway's Space Invaders arcade machine at the Museum of Science and Technology of Catalonia (mNACTEC), Terrassa, Spain, 2012",
+      "credit": "Jordiferrer, 2012. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Space_Invaders_-_Midway's.JPG",
+      "focus": "50% 60%",
+      "width": 1200,
+      "height": 1600
+    },
+    "drifter": {
+      "hero": "img/drifter-1600.webp",
+      "card": "img/drifter-720.webp",
+      "alt": "An Atari Asteroids arcade machine with a glowing marquee, a screen showing outline rocks and a tiny ship, and a red and blue button panel.",
+      "caption": "An Atari Asteroids arcade machine at the exhibition Del Tilt al Byte, Valencia, Spain, December 2014",
+      "credit": "Coentor, 2014. CC BY-SA 3.0, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Del_Tilt_al_Byte_-_8.jpeg",
+      "focus": "55% 35%",
+      "width": 1200,
+      "height": 1600
+    },
+    "rush": {
+      "hero": "img/rush-1600.webp",
+      "card": "img/rush-720.webp",
+      "alt": "A painting of a startled green frog leaping over a red car, above the words Leap for your life and Frogger.",
+      "caption": "A Sega/Gremlin advertisement for Frogger in the American trade magazine Play Meter, 1 December 1981",
+      "credit": "Sega/Gremlin advertisement, Play Meter, 1981. Public domain (no valid copyright notice), via Wikimedia Commons",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Sega_-_Gremlin_-_Frogger_-_December_1st_1981_Play_Meter_advert.jpg",
+      "focus": "50% 35%",
+      "width": 1212,
+      "height": 1600
+    },
+    "prowl": {
+      "hero": "img/prowl-1600.webp",
+      "card": "img/prowl-720.webp",
+      "alt": "A table-top arcade cabinet with a joystick, its glass top showing the blue Pac-Man maze with dots and ghosts.",
+      "caption": "Pac-Man on a table-top arcade cabinet from the Japan Game Museum collection, shown at the Nagoya City Museum, Japan, 2020",
+      "credit": "inunami, 2020. CC BY 2.0, via Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Pac-Man,_Nagoya_City_Museum_2020-08-29.jpg",
+      "focus": "50% 40%",
+      "width": 1600,
+      "height": 1200
+    },
+    "cascade": {
+      "hero": "img/cascade-1600.webp",
+      "card": "img/cascade-720.webp",
+      "alt": "An old computer monitor showing green text: a tall well drawn with brackets and dots, falling blocks made of square brackets, and Russian instructions.",
+      "caption": "The first version of Tetris, with blocks drawn in brackets, at the Lenin Museum in Tampere, Finland, 2022. Its Russian help says keys 7 and 9 move a piece and 8 turns it",
+      "credit": "Unnerving duck, 2022. CC BY-SA 4.0, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:The_first_version_of_Tetris.jpg",
+      "focus": "45% 25%",
+      "width": 1600,
+      "height": 1200
+    }
+  }
 };

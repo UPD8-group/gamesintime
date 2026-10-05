@@ -437,7 +437,10 @@
     var kp = e && e.kids && e.kids.length ? kidsPanel(e.kids[e.kids.length > 1 && g.year >= 1910 ? 1 : 0]) : null;
     var info = h('section', { class: 'info', 'aria-label': 'About ' + g.title },
       g.howToPlay && g.howToPlay.length ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'How to play'), h('h2', null, 'The rules'), h('ol', { class: 'steps' }, g.howToPlay.map(function (s) { return h('li', null, h('span', null, s)); })), g.controls ? h('p', { class: 'muted' }, h('strong', null, 'Controls: '), g.controls) : null) : null,
-      g.story && g.story.length ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'The story · ' + (g.yearLabel || g.year)), h('h2', null, g.origin || 'Where it came from'), h('div', { class: 'prose stack' }, paragraphs(g.story))) : null,
+      g.story && g.story.length ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'The story · ' + (g.yearLabel || g.year)),
+        h('h2', null, g.origin && g.origin.length <= 48 ? g.origin : 'Where it came from'),
+        g.origin && g.origin.length > 48 ? h('p', { class: 'muted' }, g.origin) : null,
+        h('div', { class: 'prose stack' }, paragraphs(g.story))) : null,
       g.didYouKnow && g.didYouKnow.length ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Did you know?'), h('ul', { class: 'facts' }, g.didYouKnow.map(function (s) { return h('li', null, s); }))) : null,
       kp ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'Kids your age'), h('h2', null, kp.title), h('p', null, kp.paragraphs && kp.paragraphs[0]), h('p', null, h('a', { href: href(['era', g.era]) + '' }, 'Read more about being a kid back then →'))) : null,
       g.computer ? h('div', { class: 'icard' }, h('p', { class: 'label' }, 'How the computer plays'), h('p', null, g.computer)) : null,
@@ -574,7 +577,11 @@
         svg('<svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21" fill="#ffc23d"/><circle cx="24" cy="24" r="16" fill="#140f0b"/><path d="M24 13v11l7 5" fill="none" stroke="#fdf3e1" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="2.6" fill="#ff5a3c"/></svg>'),
         h('span', null, 'Games in Time')),
       pills,
-      h('div', { class: 'header-actions' }, h('button', { class: 'pill pill--light', type: 'button', style: { minHeight: '46px', padding: '.5rem 1.1rem' }, onclick: surprise }, 'Surprise me'), soundBtn, menuBtn));
+      h('div', { class: 'header-actions' },
+        h('button', { class: 'pill pill--light surprise-pill', type: 'button', style: { minHeight: '46px', padding: '.5rem 1.1rem' }, onclick: surprise }, 'Surprise me'),
+        h('button', { class: 'circle-btn surprise-icon', type: 'button', 'aria-label': 'Surprise me: open a random game', title: 'Surprise me', onclick: surprise },
+          svg('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3.5"/><circle cx="9" cy="9" r="1.3" fill="currentColor"/><circle cx="15" cy="15" r="1.3" fill="currentColor"/><circle cx="15" cy="9" r="1.3" fill="currentColor"/><circle cx="9" cy="15" r="1.3" fill="currentColor"/></svg>')),
+        soundBtn, menuBtn));
     menuEl = document.getElementById('menu');
     menuEl.replaceChildren(h('div', { class: 'menu-inner' },
       h('p', { class: 'label', style: { color: 'var(--gold)' } }, 'The halls'),
