@@ -173,17 +173,23 @@
       root.appendChild(h('style', null, [
         /* Disc colours. In the light theme the Dark disc is ink and the Light disc is the
            on-brand cream. In the dark theme ink turns cream, so the discs swap to the page
-           background (very dark) and ink (cream). Every colour is a theme token. */
-        '.game-reversi { --rv-dark: var(--ink); --rv-light: var(--on-brand); --rv-dark-rim: var(--surface-2); --rv-light-rim: var(--line); }',
-        '@media (prefers-color-scheme: dark) { .game-reversi:where(:root:not([data-theme="light"]) *) { --rv-dark: var(--bg); --rv-light: var(--ink); --rv-dark-rim: var(--ink-muted); --rv-light-rim: var(--surface-2); } }',
-        '.game-reversi:where(:root[data-theme="dark"] *) { --rv-dark: var(--bg); --rv-light: var(--ink); --rv-dark-rim: var(--ink-muted); --rv-light-rim: var(--surface-2); }',
-        /* The board: a teal grid with thin lines, like the baize boards of the 1880s. */
-        '.game-reversi .rv-board { display: grid; grid-template-columns: repeat(8, 1fr); gap: 2px; width: min(92vw, 520px); max-width: 100%; padding: 2px; background: var(--line); border: 4px solid var(--brass); border-radius: 8px; box-shadow: var(--shadow); }',
-        '.game-reversi .rv-cell { position: relative; display: block; min-width: 0; padding: 0; margin: 0; border: 0; border-radius: 2px; background: var(--brand); cursor: pointer; -webkit-appearance: none; appearance: none; }',
+           background (very dark) and ink (cream). The grid lines (--rv-grid) also change:
+           --line is a clear cream in the light theme, but in the dark theme it is nearly
+           the same teal as the squares, so there we use --ink-muted. Every colour is a theme token. */
+        '.game-reversi { --rv-dark: var(--ink); --rv-light: var(--on-brand); --rv-dark-rim: var(--surface-2); --rv-light-rim: var(--line); --rv-grid: var(--line); }',
+        '@media (prefers-color-scheme: dark) { .game-reversi:where(:root:not([data-theme="light"]) *) { --rv-dark: var(--bg); --rv-light: var(--ink); --rv-dark-rim: var(--ink-muted); --rv-light-rim: var(--surface-2); --rv-grid: var(--ink-muted); } }',
+        '.game-reversi:where(:root[data-theme="dark"] *) { --rv-dark: var(--bg); --rv-light: var(--ink); --rv-dark-rim: var(--ink-muted); --rv-light-rim: var(--surface-2); --rv-grid: var(--ink-muted); }',
+        /* The board: a teal grid with thin lines, like the baize boards of the 1880s. There are no
+           gaps between the cells (gaps would steal width from the 8 columns on a phone); each cell
+           draws its own thin line along its right and bottom edge instead. */
+        '.game-reversi .rv-board { display: grid; grid-template-columns: repeat(8, 1fr); gap: 0; width: min(92vw, 520px); max-width: 100%; padding: 0; overflow: hidden; background: var(--brand); border: 4px solid var(--brass); border-radius: 8px; box-shadow: var(--shadow); }',
+        '.game-reversi .rv-cell { position: relative; display: block; min-width: 0; padding: 0; margin: 0; border: 0; border-radius: 0; background: var(--brand); box-shadow: inset -1px -1px 0 var(--rv-grid); cursor: pointer; -webkit-appearance: none; appearance: none; }',
         '.game-reversi .rv-cell::before { content: ""; display: block; padding-top: 100%; }',
-        '.game-reversi .rv-cell:focus-visible { outline: 3px solid var(--brass-bright); outline-offset: -3px; z-index: 1; }',
+        /* Two different rings so a keyboard player can tell them apart: the focused cell gets a
+           cream ring, the last move played gets a brass ring. */
+        '.game-reversi .rv-cell:focus-visible { outline: 3px solid var(--on-brand); outline-offset: -3px; z-index: 1; }',
         '.game-reversi .rv-cell.is-legal:hover { background: var(--brand-2); }',
-        '.game-reversi .rv-cell.is-last { box-shadow: inset 0 0 0 3px var(--brass-bright); }',
+        '.game-reversi .rv-cell.is-last { box-shadow: inset 0 0 0 3px var(--brass-bright), inset -1px -1px 0 var(--rv-grid); }',
         /* Discs: big circles with a subtle rim and a soft shadow so they look like real counters. */
         '.game-reversi .rv-disc { position: absolute; left: 11%; top: 11%; width: 78%; height: 78%; border-radius: 50%; box-shadow: 0 2px 4px rgba(0, 0, 0, .45); }',
         '.game-reversi .rv-disc.is-dark { background: var(--rv-dark); border: 2px solid var(--rv-dark-rim); }',
@@ -200,9 +206,17 @@
         '.game-reversi .rv-check { display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; font-weight: 700; cursor: pointer; }',
         '.game-reversi .rv-check input { width: 1.25rem; height: 1.25rem; accent-color: var(--brand-2); margin: 0; }',
         '.game-reversi .rv-wrap { display: flex; flex-direction: column; align-items: center; }',
-        /* On phones the game panel's own padding would squeeze the cells below 36px, so the
-           board pulls out into that padding (the panel pads with clamp(.8rem, 2.5vw, 1.5rem)). */
-        '@media (max-width: 480px) { .game-reversi .rv-wrap { margin-inline: calc(2px - clamp(.8rem, 2.5vw, 1.5rem)); } .game-reversi .rv-board { gap: 1px; padding: 1px; border-width: 3px; } }'
+        /* A copy of the status line that sits right above the board. It only shows on small
+           screens, where the controls push the board a whole screen below the real status line. */
+        '.game-reversi .rv-status-mirror { display: none; margin: 0 0 .5rem; padding-inline: 1rem; font-weight: 700; text-align: center; text-wrap: balance; }',
+        '@media (max-width: 600px) { .game-reversi .rv-status-mirror { display: block; } }',
+        /* On phones the board runs from screen edge to screen edge so each of the 8 cells is at
+           least 44px wide at 360px (and as big as it can be at 320px). The negative margin undoes
+           the page gutter and the game panel's padding and border. Of the two ways of working that
+           out, max() picks the smaller pull, so the board can never poke past the screen edge. */
+        '@media (max-width: 480px) { .game-reversi .rv-wrap { margin-inline: max(calc(50% - 50vw), calc(-1 * (var(--gutter) + 1px + clamp(.8rem, 2.5vw, 1.5rem)))); } .game-reversi .rv-board { width: 100%; border-width: 3px; border-radius: 6px; } }',
+        /* Classroom mode on a projector: let the board grow to fill most of the screen height. */
+        '.classroom .game-reversi .rv-board { width: min(92vw, 68vh, 800px); }'
       ].join('\n')));
 
       /* ----- settings, remembered between visits ----- */
@@ -218,6 +232,7 @@
       /* ----- game state ----- */
       var board, turn, over, lastIndex, timer = null;
       var cells = [];
+      var tabStop = 0; // the one cell the Tab key lands on; the arrow keys move around from there
 
       /* ----- controls ----- */
       var modeButtons = {}, levelButtons = {};
@@ -242,17 +257,28 @@
       var lightScore = h('span', null, h('span', { class: 'rv-mini is-light', 'aria-hidden': 'true' }), h('span', { class: 'rv-score-text' }));
       var scoreboard = h('div', { class: 'scoreboard', 'aria-label': 'Score' }, darkScore, lightScore);
 
-      var boardEl = h('div', { class: 'board rv-board', role: 'group', 'aria-label': 'Reversi board, 8 rows by 8 columns', onkeydown: onBoardKey });
+      /* Only one cell is a Tab stop at a time (tabindex 0); the rest have tabindex -1, so the
+         Tab key passes the board in one press instead of 64. See setTabStop below. */
+      var boardEl = h('div', { class: 'board rv-board', role: 'group', 'aria-label': 'Reversi board, 8 rows by 8 columns', onkeydown: onBoardKey, onfocusin: onBoardFocus });
       for (var i = 0; i < SIZE * SIZE; i++) {
-        var cell = h('button', { class: 'rv-cell', type: 'button', 'data-index': String(i), onclick: onCellClick });
+        var cell = h('button', { class: 'rv-cell', type: 'button', 'data-index': String(i), tabindex: '-1', onclick: onCellClick });
         cells.push(cell);
         boardEl.appendChild(cell);
       }
 
       root.appendChild(toolbar);
       root.appendChild(toolbar2);
-      root.appendChild(h('div', { class: 'rv-wrap' }, scoreboard, boardEl));
-      root.appendChild(h('p', { class: 'game-note' }, 'The 1883 rules: the centre starts empty and the first four discs go there, one at a time. After that, trap enemy discs in a straight line to flip them.'));
+      var mirror = h('p', { class: 'rv-status-mirror', 'aria-hidden': 'true' });
+      root.appendChild(h('div', { class: 'rv-wrap' }, scoreboard, mirror, boardEl));
+      root.appendChild(h('p', { class: 'game-note' }, 'The 1883 rules: the centre starts empty and the first four discs go there, one at a time. After that, trap enemy discs in a straight line to flip them. Easy picks any legal move. Hard prefers corners and edges and looks one reply ahead.'));
+
+      /* The shell's status line sits above the controls. On a phone that can be a whole screen
+         above the board, so the same words also go into the mirror just above the board. The
+         mirror is hidden from screen readers, which already hear the real status line. */
+      function say(text) {
+        api.status(text);
+        mirror.textContent = text;
+      }
 
       /* ----- names used in the status line ----- */
       function colourName(colour) { return colour === DARK ? 'Dark' : 'Light'; }
@@ -296,9 +322,10 @@
         board = [];
         for (var i = 0; i < SIZE * SIZE; i++) board.push(EMPTY);
         turn = DARK; over = false; lastIndex = -1;
+        setTabStop(0);
         updateControls();
         render(null);
-        api.status('New game. ' + promptText());
+        say('New game. ' + promptText());
         maybeComputerMove();
       }
 
@@ -314,7 +341,7 @@
           if (mode === 'computer') text = (winner === humanColour ? 'You win! ' : 'The computer wins. ') + text;
         }
         render(null);
-        api.status(text);
+        say(text);
         api.announce(text);
       }
 
@@ -343,7 +370,7 @@
           turn = colour;
         }
         render(move.flips);
-        api.status(said + promptText());
+        say(said + promptText());
         maybeComputerMove();
       }
 
@@ -380,6 +407,21 @@
       }
 
       /* ----- keyboard: arrow keys move around the board, Enter or Space plays ----- */
+
+      /* Makes `index` the cell the Tab key stops on. Whichever cell last had focus (by click,
+         arrow key or Tab) keeps that job, so Shift+Tab back into the board returns you there. */
+      function setTabStop(index) {
+        cells[tabStop].setAttribute('tabindex', '-1');
+        cells[index].setAttribute('tabindex', '0');
+        tabStop = index;
+      }
+
+      function onBoardFocus(ev) {
+        var target = ev.target;
+        if (!target || !target.classList || !target.classList.contains('rv-cell')) return;
+        setTabStop(Number(target.getAttribute('data-index')));
+      }
+
       function onBoardKey(ev) {
         var target = ev.target;
         if (!target || !target.classList || !target.classList.contains('rv-cell')) return;
@@ -398,7 +440,7 @@
 
       /* ----- drawing ----- */
       function render(flips) {
-        var flipping = {};
+        var flipping = {}, toFlip = [];
         if (flips && !api.reducedMotion) for (var f = 0; f < flips.length; f++) flipping[flips[f]] = true;
         for (var i = 0; i < cells.length; i++) {
           var cell = cells[i], v = board[i];
@@ -407,9 +449,18 @@
             if (disc) disc.remove();
           } else {
             if (!disc) { disc = h('span', { class: 'rv-disc', 'aria-hidden': 'true' }); cell.appendChild(disc); }
-            disc.className = 'rv-disc ' + (v === DARK ? 'is-dark' : 'is-light') + (flipping[i] ? ' is-flipping' : '');
+            // Set the colour without the animation class; it goes back on below.
+            disc.className = 'rv-disc ' + (v === DARK ? 'is-dark' : 'is-light');
+            if (flipping[i]) toFlip.push(disc);
           }
           cell.classList.toggle('is-last', i === lastIndex);
+        }
+        /* A CSS animation only plays again if its class comes off, the browser lays the page out,
+           and the class goes back on. Reading offsetWidth forces that layout, so a disc that is
+           flipped on two moves in a row animates both times instead of silently changing colour. */
+        if (toFlip.length) {
+          void boardEl.offsetWidth;
+          for (var t = 0; t < toFlip.length; t++) toFlip[t].classList.add('is-flipping');
         }
         renderHints();
         var d = count(board, DARK), l = count(board, LIGHT);

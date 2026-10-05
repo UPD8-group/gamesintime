@@ -14,14 +14,28 @@
       var tiles = [], moves = 0, seconds = 0, ticking = null, started = false, solved = false, impossible = false, buttons = [];
       var shown = ''; /* the last status line we set, so we do not repeat ourselves to screen readers */
 
+      /* Looks. The tray is teal, the tiles are little raised blocks with a visible edge, and the empty space is a
+         dark hole with a dashed outline, so it is easy to find in both themes and on a projector.
+         Three local colour names (tray, face, base) are set once per theme, then every rule below uses them. */
       root.appendChild(h('style', null,
-        '.game-fifteen-puzzle .board { display: grid; gap: 6px; width: min(92vw, 420px); padding: 8px; background: var(--brand); border-radius: 12px; }' +
-        '.game-fifteen-puzzle .tile { aspect-ratio: 1; min-width: 0; min-height: 44px; border: 0; border-radius: 8px; background: var(--surface); color: var(--ink); font-family: var(--font-display); font-size: clamp(1.4rem, 7vw, 2.4rem); line-height: 1; box-shadow: inset 0 -4px 0 var(--surface-2); }' +
+        '.game-fifteen-puzzle { --tray: var(--brand); --face: var(--surface); --base: var(--surface-2); }' +
+        /* Dark theme: the tray goes darker than the tiles, so the tiles look raised instead of sunken. The site's
+           own stylesheet switches themes with these two selectors, so we copy them (still prefixed, so nothing leaks). */
+        ':root[data-theme="dark"] .game-fifteen-puzzle { --tray: var(--bg); --face: var(--surface-2); --base: var(--line); }' +
+        '@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .game-fifteen-puzzle { --tray: var(--bg); --face: var(--surface-2); --base: var(--line); } }' +
+        '.game-fifteen-puzzle .board { display: grid; gap: 6px; width: min(92vw, 420px); padding: 8px; background: var(--tray); border: 2px solid var(--line); border-radius: 12px; }' +
+        '.game-fifteen-puzzle .tile { aspect-ratio: 1; min-width: 0; min-height: 44px; border: 2px solid var(--line); border-radius: 8px; background: var(--face); color: var(--ink); font-family: var(--font-display); font-size: clamp(1.4rem, 7vw, 2.4rem); line-height: 1; box-shadow: inset 0 -4px 0 var(--base); }' +
+        /* Tiles that can slide always wear a brass edge and a brass base, not only on hover, so a kid can see which ones move. */
+        '.game-fifteen-puzzle .tile.can { border-color: var(--brass); box-shadow: inset 0 -4px 0 var(--brass); cursor: pointer; }' +
         '.game-fifteen-puzzle .tile.can:hover { background: var(--surface-2); }' +
-        '.game-fifteen-puzzle .tile.gap { background: transparent; box-shadow: none; cursor: default; }' +
-        '.game-fifteen-puzzle .tile.wrong { color: var(--red); }' +
+        /* The gap is a hole: a dark see-through layer over the tray with a pale dashed outline. Both colours are
+           translucent, so they darken whatever the tray colour is and read in both themes. */
+        '.game-fifteen-puzzle .tile.gap { background: rgba(0, 0, 0, .38); border: 2px dashed rgba(255, 255, 255, .45); box-shadow: inset 0 3px 8px rgba(0, 0, 0, .45); cursor: default; }' +
+        /* In impossible mode the two swapped tiles, 14 and 15, are red with a brass underline, so the mark does not
+           rely on colour alone. The tile you slide is never marked: you did nothing wrong. */
+        '.game-fifteen-puzzle .tile.swapped { color: var(--red); text-decoration: underline; text-decoration-color: var(--brass); text-decoration-thickness: 3px; text-underline-offset: 4px; }' +
         /* When solved the tiles turn brass, but the empty space stays empty so the gap is still a gap. */
-        '.game-fifteen-puzzle .board.solved .tile:not(.gap) { background: var(--brass-bright); color: #1b2a2a; box-shadow: none; }' +
+        '.game-fifteen-puzzle .board.solved .tile:not(.gap) { background: var(--brass-bright); border-color: var(--brass-bright); color: #1b2a2a; box-shadow: none; }' +
         '.game-fifteen-puzzle .why { margin-top: .75rem; }' +
         '.game-fifteen-puzzle .why summary { cursor: pointer; font-weight: 700; min-height: 44px; display: flex; align-items: center; }'));
 
@@ -41,23 +55,25 @@
          need the grid role (which would also promise screen readers that arrow keys move between cells). */
       var board = h('div', { class: 'board', role: 'group', 'aria-label': 'Sliding puzzle' });
       board.addEventListener('keydown', function (ev) {
-        /* Arrow keys slide the tile on that side of the gap into the gap, so ArrowLeft moves a tile leftwards. */
+        /* Arrow keys slide the tile on that side of the gap into the gap, so ArrowLeft moves a tile leftwards.
+           Any arrow key is swallowed first, even one that cannot move anything, so the page never scrolls mid-puzzle. */
+        if (!/^Arrow(Left|Right|Up|Down)$/.test(ev.key)) return;
+        ev.preventDefault();
         var g = tiles.indexOf(0), r = Math.floor(g / size), c = g % size, from = -1;
         if (ev.key === 'ArrowLeft' && c < size - 1) from = g + 1;
         else if (ev.key === 'ArrowRight' && c > 0) from = g - 1;
         else if (ev.key === 'ArrowUp' && r < size - 1) from = g + size;
         else if (ev.key === 'ArrowDown' && r > 0) from = g - size;
-        else return;
-        ev.preventDefault(); slide(from);
+        if (from >= 0) slide(from);
       });
       root.appendChild(board);
-      var note = h('p', { class: 'game-note' }, 'Tap a tile in the same row or column as the gap to slide it. Arrow keys work too.');
+      var note = h('p', { class: 'game-note' }, 'Tap or click a tile in the same row or column as the gap to slide it; every tile between it and the gap moves one space. Arrow keys work too.');
       root.appendChild(note);
       var why = h('details', { class: 'why', hidden: true },
         h('summary', null, 'Why can nobody solve the 14-15 puzzle?'),
         h('div', { class: 'prose' },
           h('p', null, 'Every slide swaps the gap with one tile. Count how many pairs of tiles are out of order, and which row the gap is in. Each slide changes that combination in a fixed way, so some arrangements can never turn into the finished picture, no matter how many moves you make.'),
-          h('p', null, 'Swapping just 14 and 15 is one of those. Years after the craze, the American puzzle maker Sam Loyd claimed he had offered a thousand dollars to anyone who could solve it. Historians doubt the prize was ever really offered, but the maths is certain: the puzzle is impossible, so nobody could have won. Half of all possible arrangements are like that, which is why this game shuffles by sliding tiles rather than scattering them at random.')));
+          h('p', null, 'Swapping just 14 and 15 is one of those. During the 1880 craze people offered prizes of up to a thousand dollars to anyone who could swap just 14 and 15 and finish, and years later the American puzzle writer Sam Loyd repeated the offer, knowing nobody could win. The maths is certain: the puzzle is impossible. Half of all possible arrangements are like that, which is why this game shuffles by sliding tiles rather than scattering them at random.')));
       root.appendChild(why);
 
       /* Sets the status line, but only when the words change, so screen readers do not hear the same thing twice. */
@@ -111,8 +127,18 @@
           if (!root.isConnected) { stopClock(); return; }
           seconds++; renderScore();
         }, 1000);
+        /* While the clock runs, also watch for the visitor leaving the page, so it stops straight away. */
+        window.addEventListener('hashchange', onLeave);
       }
-      function stopClock() { if (ticking) { clearInterval(ticking); ticking = null; } }
+      function stopClock() {
+        if (ticking) { clearInterval(ticking); ticking = null; }
+        window.removeEventListener('hashchange', onLeave);
+      }
+      /* The address changed, so the shell is swapping pages. Wait one tick for it to finish, then if our board
+         has gone from the document, stop the clock (which also removes this listener). */
+      function onLeave() {
+        setTimeout(function () { if (!root.isConnected) stopClock(); }, 0);
+      }
       function finish() {
         solved = true; stopClock();
         var key = String(size);
@@ -141,10 +167,12 @@
         }
         tiles.forEach(function (v, i) {
           var b = buttons[i], r = Math.floor(i / size) + 1, c = i % size + 1;
+          /* In impossible mode only the swapped pair, 14 and 15, are marked, wherever they have been slid to. */
+          var swapped = impossible && (v === 14 || v === 15);
           b.textContent = v ? String(v) : '';
-          b.className = 'tile' + (v ? '' : ' gap') + (v && canSlide(i) && !solved ? ' can' : '') + (impossible && v && v !== i + 1 ? ' wrong' : '');
+          b.className = 'tile' + (v ? '' : ' gap') + (v && canSlide(i) && !solved ? ' can' : '') + (swapped ? ' swapped' : '');
           b.disabled = !v || solved;
-          b.setAttribute('aria-label', (v ? 'Tile ' + v : 'Empty space') + ', row ' + r + ', column ' + c + (v && canSlide(i) ? ', can slide' : ''));
+          b.setAttribute('aria-label', (v ? 'Tile ' + v : 'Empty space') + ', row ' + r + ', column ' + c + (swapped ? ', one of the swapped pair' : '') + (v && canSlide(i) ? ', can slide' : ''));
         });
         renderScore();
       }

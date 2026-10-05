@@ -37,7 +37,7 @@
     { w: 'cockatoo', cat: 'Bird', note: 'A cockatoo is a big parrot with a crest of feathers it raises when it is excited.' },
     { w: 'sparrow', cat: 'Bird', note: 'Sparrows are small brown birds brought to Australia from England in the 1860s.' },
     { w: 'pigeon', cat: 'Bird', note: 'Pigeons carried messages tied to their legs long before there were telephones.' },
-    { w: 'eagle', cat: 'Bird', note: 'A wedge-tailed eagle\'s wings stretch wider than a car is long.' },
+    { w: 'eagle', cat: 'Bird', note: 'A wedge-tailed eagle\'s wings stretch wider than a tall adult is high.' },
     { w: 'robin', cat: 'Bird', note: 'Several Australian robins have bright red or pink chests.' },
     { w: 'swan', cat: 'Bird', note: 'Europeans were amazed to find that Australian swans are black, not white.' },
     { w: 'owl', cat: 'Bird', note: 'Owls hunt at night and can turn their heads most of the way round.' },
@@ -115,7 +115,7 @@
     { w: 'bustle', cat: 'Clothes', note: 'A bustle was padding worn under a skirt to make it stick out at the back.' },
     { w: 'petticoat', cat: 'Clothes', note: 'A petticoat was an underskirt worn beneath a dress.' },
     { w: 'breeches', cat: 'Clothes', note: 'Breeches were short trousers that fastened just below the knee.' },
-    { w: 'billycart', cat: 'Toys and games', note: 'A billycart was a home-made cart that kids raced down hills. The first ones were pulled by billy goats.' },
+    { w: 'hopscotch', cat: 'Toys and games', note: 'In hopscotch you hop through squares chalked on the ground, kicking a flat stone from one square to the next.' },
     { w: 'cricket', cat: 'Toys and games', note: 'Cricket was played all over Australia in the 1890s. The first Test match was in 1877.' },
     { w: 'draughts', cat: 'Toys and games', note: 'Draughts is the board game of jumping and capturing pieces, called checkers in America.' },
     { w: 'marbles', cat: 'Toys and games', note: 'Marbles are small glass balls flicked at each other in games played in the dirt.' },
@@ -146,29 +146,51 @@
      ===================================================================== */
   function isLetter(ch) { return ch >= 'A' && ch <= 'Z'; }
 
-  /* Starts a round. `shownEnds` is true for the 1894 rules: the first and last letters are shown. */
+  /* Starts a round. `shownEnds` is true for the 1894 rules: the first and last letters are shown.
+     Gomme wrote Elephant as E××××××t, so only those two boxes are filled in. The guesser already knows
+     the word has an E, so the E key is switched off; the second E stays blank until the round is won,
+     which happens as soon as every letter of the word is known. */
   function newRound(word, shownEnds) {
-    var letters = word.toUpperCase().split('').filter(isLetter);
     var state = {
       word: word.toUpperCase(),  /* e.g. "PENNY-FARTHING" */
-      tried: {},                 /* letter -> 'right' | 'wrong' | 'shown' */
+      tried: {},                 /* letter -> 'right' | 'wrong' */
+      shownAt: {},               /* position in the word -> true when that box was shown from the start */
       wrong: 0,                  /* how many pieces of the candle have burnt */
       over: false,
       won: false
     };
-    if (shownEnds && letters.length) {
-      state.tried[letters[0]] = 'shown';
-      state.tried[letters[letters.length - 1]] = 'shown';
+    if (shownEnds) {
+      var first = -1, last = -1;
+      for (var i = 0; i < state.word.length; i++) {
+        if (isLetter(state.word[i])) { if (first < 0) first = i; last = i; }
+      }
+      if (first >= 0) { state.shownAt[first] = true; state.shownAt[last] = true; }
     }
     if (solved(state)) state.over = state.won = true;  /* a two-letter word under 1894 rules is already solved */
     return state;
   }
 
-  /* True when every letter of the word has been revealed. */
+  /* The letters shown from the start (the first and last letters under the 1894 rules), without repeats. */
+  function shownLetters(state) {
+    var out = [];
+    Object.keys(state.shownAt).forEach(function (i) {
+      var ch = state.word[Number(i)];
+      if (out.indexOf(ch) === -1) out.push(ch);
+    });
+    return out;
+  }
+
+  /* True when the guesser knows this letter is in the word: it was shown, or it was guessed right. */
+  function known(state, letter) {
+    return state.tried[letter] === 'right' || shownLetters(state).indexOf(letter) !== -1;
+  }
+
+  /* True when every letter of the word is known. A word like BEE is solved before it starts (B and E are
+     shown and the middle is another E), so the computer never picks one and Player 1 is asked for another. */
   function solved(state) {
     for (var i = 0; i < state.word.length; i++) {
       var ch = state.word[i];
-      if (isLetter(ch) && !state.tried[ch]) return false;
+      if (isLetter(ch) && !known(state, ch)) return false;
     }
     return true;
   }
@@ -184,12 +206,12 @@
     return inWord ? 'right' : 'wrong';
   }
 
-  /* The letters still hidden, in word order, without repeats. */
+  /* The letters still unknown, in word order, without repeats. */
   function hiddenLetters(state) {
     var out = [];
     for (var i = 0; i < state.word.length; i++) {
       var ch = state.word[i];
-      if (isLetter(ch) && !state.tried[ch] && out.indexOf(ch) === -1) out.push(ch);
+      if (isLetter(ch) && !known(state, ch) && out.indexOf(ch) === -1) out.push(ch);
     }
     return out;
   }
@@ -255,16 +277,19 @@
     '.game-hangman .stage { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; align-items: flex-start; }' +
     '.game-hangman .candle-col { flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: .4rem; }' +
     '.game-hangman .candle-svg { width: 150px; height: auto; display: block; }' +
-    '.game-hangman .counter { font-weight: 700; font-variant-numeric: tabular-nums; text-align: center; }' +
+    '.game-hangman .counter { font-weight: 700; font-variant-numeric: tabular-nums; text-align: center; max-width: 150px; }' +   /* no wider than the candle, so the word gets the room */
     '.game-hangman .play-col { flex: 1 1 240px; min-width: 0; display: flex; flex-direction: column; gap: .9rem; }' +
     '.game-hangman .info { color: var(--ink-muted); font-weight: 700; min-height: 1.5em; }' +
-    '.game-hangman .word { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 1.1rem; --box: 44px; padding: .25rem 0; }' +
-    '.game-hangman .word-part { display: inline-flex; gap: 4px; }' +
+    /* The word is a row of parts (one per word), each part a row of chunks (split after a hyphen), each chunk a row of
+       letter boxes. Every level wraps, so a long word folds onto a second line instead of running off the screen. */
+    '.game-hangman .word { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem 1.1rem; --box: 44px; padding: .25rem 0; max-width: 100%; min-width: 0; }' +
+    '.game-hangman .word-part { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; max-width: 100%; min-width: 0; }' +
+    '.game-hangman .word-chunk { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; max-width: 100%; min-width: 0; }' +
     '.game-hangman .letter { width: var(--box); height: calc(var(--box) * 1.25); display: inline-flex; align-items: flex-end; justify-content: center;' +
     '  font-family: var(--font-display); font-size: calc(var(--box) * .72); line-height: 1; padding-bottom: .15em; box-sizing: border-box;' +
     '  border-bottom: 3px solid var(--ink); color: var(--ink); text-transform: uppercase; }' +
     '.game-hangman .letter--shown { color: var(--brass); }' +
-    '.game-hangman .letter--punct { border-bottom-color: transparent; color: var(--ink-muted); }' +
+    '.game-hangman .letter--punct { border-bottom-color: transparent; color: var(--ink-muted); width: calc(var(--box) * .5); }' +   /* a hyphen needs only half a box */
     '.game-hangman .letter--missed { color: var(--red); border-bottom-color: var(--red); }' +
     '.game-hangman .keys { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 6px; max-width: 600px; }' +
     '.game-hangman .key { min-width: 36px; min-height: 44px; aspect-ratio: 1 / 1; padding: 0; border-radius: 8px; border: 2px solid var(--line);' +
@@ -282,8 +307,10 @@
     '.game-hangman .setup label { display: flex; flex-direction: column; gap: .25rem; font-weight: 700; }' +
     '.game-hangman .setup input { min-height: 44px; padding: .4rem .6rem; border-radius: 6px; border: 2px solid var(--line); background: var(--surface); color: var(--ink); font-size: 1.1rem; font-weight: 400; width: 100%; box-sizing: border-box; }' +
     '.game-hangman .setup .error { color: var(--red); font-weight: 700; min-height: 1.4em; margin: 0; }' +
+    /* the form sits inside the board, which turns text selection off; turn it back on for the inputs (iPads need this) */
+    '.game-hangman .setup input { user-select: text; -webkit-user-select: text; touch-action: auto; }' +
     '.game-hangman .seg { max-width: 100%; }' +
-    '.game-hangman .seg button { white-space: normal; }' +
+    '.game-hangman .seg button { white-space: normal; min-height: 44px; }' +
     '.game-hangman .flame-glow { animation: game-hangman-glow 1.6s ease-in-out infinite; }' +
     '.game-hangman .flame-glow.is-still { animation: none; }' +
     '@keyframes game-hangman-glow { 0%, 100% { opacity: .18; } 50% { opacity: .32; } }' +
@@ -291,9 +318,9 @@
     '  .game-hangman .stage { flex-direction: column; flex-wrap: nowrap; align-items: stretch; }' +
     '  .game-hangman .candle-col { flex-direction: row; justify-content: center; gap: 1rem; }' +
     '  .game-hangman .candle-svg { width: 76px; }' +
-    '  .game-hangman .counter { white-space: nowrap; font-size: .95rem; }' +
-    '  .game-hangman .keys { grid-template-columns: repeat(auto-fill, minmax(38px, 1fr)); gap: 4px; }' +
-    '  .game-hangman .key { min-height: 38px; font-size: 1.1rem; }' +
+    '  .game-hangman .counter { white-space: nowrap; font-size: .95rem; max-width: none; }' +
+    '  .game-hangman .keys { grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 4px; }' +   /* six 47px keys fit in 302px */
+    '  .game-hangman .key { min-height: 44px; font-size: 1.1rem; }' +
     '}';
 
   GamesInTime.register({
@@ -325,15 +352,22 @@
         h('div', { class: 'seg', role: 'group', 'aria-label': 'Who plays' }, modeComputer, modeTwo),
         newBtn);
 
-      /* ---- scoreboard ---- */
+      /* ---- scoreboard ----
+         In two-player mode the labels say "Guesser won" and "Guesser lost", because after a swap the
+         guesser is a different person. */
       var wonEl = h('b', null, '0'), lostEl = h('b', null, '0');
+      var wonLabel = h('span', null, 'Won '), lostLabel = h('span', null, 'Lost ');
       var scoreboard = h('div', { class: 'scoreboard', role: 'group', 'aria-label': 'Score' },
-        h('span', { class: 'score-won' }, 'Won ', wonEl),
-        h('span', { class: 'score-lost' }, 'Lost ', lostEl));
+        h('span', { class: 'score-won' }, wonLabel, wonEl),
+        h('span', { class: 'score-lost' }, lostLabel, lostEl));
 
       /* ---- the candle ----
          Eight pieces stacked in a brass holder. Each wrong guess hides the top piece and shrinks the flame.
-         The eighth wrong guess snuffs the candle: the flame goes and a wisp of smoke appears. */
+         The eighth wrong guess snuffs the candle: the flame goes and a wisp of smoke appears.
+         The wax is cream (--on-brand is the same cream in both themes) with a dark teal outline (--brand is
+         dark teal in both themes), so the pieces stand out on the light panel and on the dark one, and can
+         be counted from the back of a classroom. */
+      var WAX = 'var(--on-brand)', WAX_LINE = 'var(--brand)';
       var SEG_H = 15, CANDLE_X = 48, CANDLE_W = 44, CANDLE_BOTTOM = 200, CX = 70;
       var pieces = [];
       var candleSvg = svgEl('svg', { class: 'candle-svg', viewBox: '0 0 140 240', role: 'img', 'aria-label': 'Candle' });
@@ -343,17 +377,17 @@
       candleSvg.appendChild(svgEl('path', { d: 'M28,196 L112,196 L112,208 Q112,218 100,218 L40,218 Q28,218 28,208 Z', fill: 'var(--brass)' }));
       candleSvg.appendChild(svgEl('ellipse', { cx: CX, cy: 196, rx: 42, ry: 7, fill: 'var(--brass-bright)' }));
       /* a stub that always stays, so the holder is never empty */
-      candleSvg.appendChild(svgEl('rect', { x: CANDLE_X, y: 191, width: CANDLE_W, height: 7, rx: 2, fill: 'var(--surface)', stroke: 'var(--line)', 'stroke-width': 2 }));
+      candleSvg.appendChild(svgEl('rect', { x: CANDLE_X, y: 191, width: CANDLE_W, height: 7, rx: 2, fill: WAX, stroke: WAX_LINE, 'stroke-width': 2 }));
       /* the eight pieces, bottom to top */
       for (var p = 0; p < MAX_WRONG; p++) {
-        var piece = svgEl('rect', { class: 'piece', x: CANDLE_X, y: CANDLE_BOTTOM - 9 - (p + 1) * SEG_H, width: CANDLE_W, height: SEG_H, rx: 3, fill: 'var(--surface)', stroke: 'var(--line)', 'stroke-width': 2 });
+        var piece = svgEl('rect', { class: 'piece', x: CANDLE_X, y: CANDLE_BOTTOM - 9 - (p + 1) * SEG_H, width: CANDLE_W, height: SEG_H, rx: 3, fill: WAX, stroke: WAX_LINE, 'stroke-width': 2 });
         pieces.push(piece);
         candleSvg.appendChild(piece);
       }
       var wick = svgEl('line', { class: 'wick', stroke: 'var(--ink)', 'stroke-width': 3, 'stroke-linecap': 'round' });
       var flameGlow = svgEl('circle', { class: 'flame-glow' + (api.reducedMotion ? ' is-still' : ''), r: 30, fill: 'var(--brass-bright)', opacity: .18 });
       var flameOuter = svgEl('path', { d: 'M0,-36 C 13,-19 15,-6 0,7 C -15,-6 -13,-19 0,-36 Z', fill: 'var(--brass-bright)' });
-      var flameInner = svgEl('path', { d: 'M0,-17 C 5,-9 6,-3 0,3 C -6,-3 -5,-9 0,-17 Z', fill: 'var(--surface)', opacity: .9 });
+      var flameInner = svgEl('path', { d: 'M0,-17 C 5,-9 6,-3 0,3 C -6,-3 -5,-9 0,-17 Z', fill: WAX, opacity: .9 });   /* a pale centre, like a real flame */
       var flame = svgEl('g', { class: 'flame' }, flameOuter, flameInner);
       var smoke = svgEl('path', { class: 'smoke', d: 'M70,186 C 58,170 84,158 70,140 C 56,122 86,110 72,90 C 64,78 74,66 70,56', fill: 'none', stroke: 'var(--ink-muted)', 'stroke-width': 4, 'stroke-linecap': 'round', opacity: .75 });
       candleSvg.appendChild(flameGlow);
@@ -436,7 +470,14 @@
         showScore();
         startRound();
       }
-      function showScore() { wonEl.textContent = String(score.won); lostEl.textContent = String(score.lost); }
+      function showScore() {
+        wonLabel.textContent = mode === 'two' ? 'Guesser won ' : 'Won ';
+        lostLabel.textContent = mode === 'two' ? 'Guesser lost ' : 'Lost ';
+        wonEl.textContent = String(score.won); lostEl.textContent = String(score.lost);
+      }
+
+      /* Status lines while guessing. In two-player mode they start with "Player 2:" so both kids know whose go it is. */
+      function say(text) { api.status(mode === 'two' ? 'Player 2: ' + text : text); }
 
       /* ---- starting a round ---- */
       function startRound() {
@@ -460,6 +501,7 @@
         api.status('The computer is choosing a word');
         timer = setTimeout(function () {
           timer = null;
+          if (!root.isConnected) return;   /* the visitor left while the computer was thinking */
           entry = rules === '1894' ? pickWord(ANIMALS, recentAnimals, api.random, true) : pickWord(CLASSIC, recentClassic, api.random, false);
           beginRound(entry.w, entry.cat);
         }, api.reducedMotion ? 0 : THINK_MS);
@@ -487,24 +529,35 @@
         drawCandle(0);
         resetKeys();
         renderWord();
-        if (state.over) finishRound(); else { api.status('Guess a letter'); hintBtn.disabled = false; }
+        if (state.over) finishRound(); else { say('Guess a letter'); hintBtn.disabled = false; }
       }
 
       /* ---- guessing ---- */
       function tryLetter(L) {
         if (!state || state.over) return;
-        if (state.tried[L]) { api.status('You already tried ' + L); return; }
+        if (state.tried[L]) { say('You already tried ' + L); return; }
+        if (known(state, L)) { say(L + ' is already shown'); return; }   /* a typed first or last letter under the 1894 rules */
         var outcome = guess(state, L);
         markKey(L, outcome);
         renderWord();
         if (state.over) { finishRound(); return; }
-        if (outcome === 'right') api.status(L + ' is in the word');
-        else { api.status('No ' + L + '. Wrong guesses: ' + state.wrong + ' of ' + MAX_WRONG); drawCandle(state.wrong); }
+        if (outcome === 'right') {
+          say(L + ' is in the word');
+        } else {
+          say('No ' + L + '. Wrong guesses: ' + state.wrong + ' of ' + MAX_WRONG);
+          drawCandle(state.wrong);
+          hintBtn.disabled = state.wrong >= MAX_WRONG - 1;   /* a hint would put the candle out, so no more hints */
+        }
       }
 
       /* A hint burns one piece of the candle and reveals a letter (see hintLetter in Part 3). */
       function giveHint() {
-        if (!state || state.over || state.wrong >= MAX_WRONG - 1) return;
+        if (!state || state.over) return;
+        if (state.wrong >= MAX_WRONG - 1) {
+          say('No hints left: one more wrong guess would put the candle out');
+          hintBtn.disabled = true;
+          return;
+        }
         var L = hintLetter(state);
         if (!L) return;
         state.wrong++;
@@ -513,18 +566,19 @@
         markKey(L, outcome);
         renderWord();
         if (state.over) { finishRound(); return; }
-        api.status('Hint: there is a' + (/^[AEFHILMNORSX]$/.test(L) ? 'n ' : ' ') + L + ' in the word. Wrong guesses: ' + state.wrong + ' of ' + MAX_WRONG);
+        say('Hint: there is a' + (/^[AEFHILMNORSX]$/.test(L) ? 'n ' : ' ') + L + ' in the word. Wrong guesses: ' + state.wrong + ' of ' + MAX_WRONG);
         if (state.wrong >= MAX_WRONG - 1) hintBtn.disabled = true;
       }
 
       function finishRound() {
         var word = state.word;
+        var two = mode === 'two';
         if (state.won) {
           score.won++;
-          api.status('You got it: ' + word);
+          api.status('You got it: ' + word + (two ? '. Player 2 wins this round' : ''));
         } else {
           score.lost++;
-          api.status('The candle went out. The word was ' + word);
+          api.status('The candle went out. The word was ' + word + (two ? '. Player 1 wins this round' : ''));
           drawCandle(MAX_WRONG);
           renderWord();  /* shows the letters that were missed, in red */
         }
@@ -535,49 +589,70 @@
         var note = entry ? entry.note : (playerHint ? 'Player 1\'s hint was: ' + playerHint : 'That was Player 1\'s word.');
         result.replaceChildren(
           h('p', null, h('b', null, word), ': ', note),
-          h('button', { class: 'btn btn-primary', type: 'button', onclick: startRound }, mode === 'two' ? 'Swap and play again' : 'Next word'));
+          h('button', { class: 'btn btn-primary', type: 'button', onclick: startRound }, two ? 'Swap and play again' : 'Next word'));
         result.hidden = false;
-        api.announce((state.won ? 'You won. ' : 'You lost. ') + word + '. ' + note);
+        var who = two ? 'Player 2' : 'You';
+        api.announce(who + (state.won ? ' won. ' : ' lost. ') + word + '. ' + note);
       }
 
       /* ---- drawing the word and the keys ---- */
+      /* Draws one box per character. A space starts a new part; a hyphen ends a chunk, so a long word like
+         PENNY-FARTHING can fold onto a second line after the hyphen when the screen is narrow. */
       function renderWord() {
         wordRow.replaceChildren();
         var spoken = [];
-        state.word.split(' ').forEach(function (part, pi) {
-          var group = h('span', { class: 'word-part' });
-          part.split('').forEach(function (ch) {
-            var box;
-            if (!isLetter(ch)) {
-              box = h('span', { class: 'letter letter--punct' }, ch);
-              spoken.push(ch === '-' ? 'hyphen' : ch);
-            } else if (state.tried[ch]) {
-              box = h('span', { class: 'letter' + (state.tried[ch] === 'shown' ? ' letter--shown' : '') }, ch);
-              spoken.push(ch);
-            } else if (state.over) {
-              box = h('span', { class: 'letter letter--missed' }, ch);   /* round lost: show what was missed */
-              spoken.push(ch);
-            } else {
-              box = h('span', { class: 'letter letter--blank' });
-              spoken.push('blank');
-            }
-            group.appendChild(box);
-          });
-          if (pi > 0) spoken.push('space');
-          wordRow.appendChild(group);
-        });
+        var part = null, chunk = null;
+        function newPart() { part = h('span', { class: 'word-part' }); wordRow.appendChild(part); chunk = null; }
+        function addBox(box) {
+          if (!part) newPart();
+          if (!chunk) { chunk = h('span', { class: 'word-chunk' }); part.appendChild(chunk); }
+          chunk.appendChild(box);
+        }
+        for (var i = 0; i < state.word.length; i++) {
+          var ch = state.word[i];
+          if (ch === ' ') { newPart(); spoken.push('space'); continue; }
+          if (!isLetter(ch)) {
+            addBox(h('span', { class: 'letter letter--punct' }, ch));
+            spoken.push(ch === '-' ? 'hyphen' : ch);
+            chunk = null;   /* the next letter starts a new chunk, so a line may break here */
+          } else if (state.shownAt[i]) {
+            addBox(h('span', { class: 'letter letter--shown' }, ch));
+            spoken.push(ch);
+          } else if (state.tried[ch] === 'right' || (state.over && known(state, ch))) {
+            addBox(h('span', { class: 'letter' }, ch));   /* guessed, or a second copy of a shown letter once the round is over */
+            spoken.push(ch);
+          } else if (state.over) {
+            addBox(h('span', { class: 'letter letter--missed' }, ch));   /* round lost: show what was missed */
+            spoken.push(ch);
+          } else {
+            addBox(h('span', { class: 'letter letter--blank' }));
+            spoken.push('blank');
+          }
+        }
         wordRow.setAttribute('aria-label', 'The word: ' + spoken.join(', '));
         fitWord();
       }
 
-      /* Makes the letter boxes small enough that the longest part of the word fits on one line. */
+      /* Picks a size for the letter boxes. The longest chunk stays on one line while the boxes can be at
+         least COMFY_BOX wide; a longer chunk wraps onto as few lines as it needs, and the boxes are then made
+         as big as those lines allow. A box is never smaller than MIN_BOX, so the letters stay readable. */
+      var MIN_BOX = 26, COMFY_BOX = 30, MAX_BOX = 48, BOX_GAP = 4;
       function fitWord() {
         if (!state || wordRow.hidden) return;
-        var longest = 1;
-        state.word.split(' ').forEach(function (part) { if (part.length > longest) longest = part.length; });
+        /* count the boxes in the longest chunk: a space ends a chunk, a hyphen is the last box of its chunk */
+        var longest = 1, count = 0;
+        for (var i = 0; i < state.word.length; i++) {
+          var ch = state.word[i];
+          if (ch !== ' ') count++;
+          if (count > longest) longest = count;
+          if (ch === ' ' || ch === '-') count = 0;
+        }
         var available = wordRow.clientWidth || root.clientWidth || 300;
-        var size = Math.floor((available - (longest - 1) * 4) / longest);
-        size = Math.max(18, Math.min(48, size));
+        var perLine = Math.max(1, Math.floor((available + BOX_GAP) / (COMFY_BOX + BOX_GAP)));   /* boxes per line at a comfortable size */
+        var lines = Math.ceil(longest / perLine);                                                /* lines the longest chunk needs */
+        perLine = Math.ceil(longest / lines);                                                    /* spread the boxes evenly over them */
+        var size = Math.floor((available - (perLine - 1) * BOX_GAP) / perLine);
+        size = Math.max(MIN_BOX, Math.min(MAX_BOX, size));
         wordRow.style.setProperty('--box', size + 'px');
       }
 
@@ -587,11 +662,13 @@
           b.className = 'key';
           b.disabled = false;
           b.setAttribute('aria-label', 'Letter ' + L);
-          if (state && state.tried[L] === 'shown') markKey(L, 'shown');
         });
+        if (state) shownLetters(state).forEach(function (L) { markKey(L, 'shown'); });
       }
+      /* Colours a key and switches it off: green for right, red for wrong, brass for a letter shown from the start. */
       function markKey(L, outcome) {
         var b = keyButtons[L];
+        b.classList.remove('is-right', 'is-wrong', 'is-shown');
         b.disabled = true;
         if (outcome === 'right') { b.classList.add('is-right'); b.setAttribute('aria-label', 'Letter ' + L + ', correct'); }
         else if (outcome === 'wrong') { b.classList.add('is-wrong'); b.setAttribute('aria-label', 'Letter ' + L + ', wrong'); }
@@ -600,14 +677,14 @@
       function setKeysEnabled(on) {
         ALPHABET.split('').forEach(function (L) {
           var b = keyButtons[L];
-          if (on) b.disabled = !!(state && state.tried[L]); else b.disabled = true;
+          if (on) b.disabled = !!(state && (state.tried[L] || known(state, L))); else b.disabled = true;
         });
       }
 
       /* ---- the physical keyboard: any letter key is a guess ---- */
       function onKeyDown(ev) {
         if (ev.ctrlKey || ev.metaKey || ev.altKey) return;
-        if (!root.isConnected) return;   /* the page has moved on; ignore stray key presses */
+        if (!root.isConnected) { cleanUp(); return; }   /* the page has moved on; tidy up and ignore the key */
         var t = ev.target;
         if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
         if (!state || state.over || keys.hidden) return;
@@ -615,8 +692,17 @@
         if (k.length !== 1 || !/[a-z]/i.test(k)) return;
         tryLetter(k.toUpperCase());
       }
+      function onResize() { if (root.isConnected) fitWord(); else cleanUp(); }
       document.addEventListener('keydown', onKeyDown);
-      window.addEventListener('resize', fitWord);
+      window.addEventListener('resize', onResize);
+
+      /* Removes everything this game attached outside its root. Called from destroy(), and also by the
+         listeners themselves if they fire after the game has left the page, so nothing is left behind. */
+      function cleanUp() {
+        if (timer) { clearTimeout(timer); timer = null; }
+        document.removeEventListener('keydown', onKeyDown);
+        window.removeEventListener('resize', onResize);
+      }
 
       /* ---- go ---- */
       rules1894.setAttribute('aria-pressed', String(rules === '1894'));
@@ -627,9 +713,8 @@
 
       return {
         destroy: function () {
-          if (timer) { clearTimeout(timer); timer = null; }
-          document.removeEventListener('keydown', onKeyDown);
-          window.removeEventListener('resize', fitWord);
+          cleanUp();
+          api.announce('');   /* clear the last result from the screen-reader announcer, so it is not read out on the next page */
         }
       };
     }

@@ -10,7 +10,10 @@
              computer simply waits a moment and rolls. That is explained in plain words below.
      Part 3  The screen. A 10 by 10 CSS grid of numbered cells, an SVG overlay that draws the
              snakes and ladders, coloured tokens, a big Roll button with a die face, a scoreboard,
-             a legend and a short move log for teachers.
+             a legend and a short move log for teachers. The square numbers sit on little pills
+             in the top-left corner, stacked above the art, so a ladder or snake can never hide
+             them; the art itself is anchored a little below and right of each cell's centre, so
+             the pills never hide the ends of the ladders and snakes either.
 
    See docs/ADDING-A-GAME.md for the contract every game follows. */
 (function () {
@@ -21,8 +24,9 @@
   var TUMBLE_MS = 500;           /* how long the die tumbles before it settles */
   var STEP_MS = 120;             /* how long the token takes to hop one square */
   var SLIDE_MS = 320;            /* the pause before a token climbs a ladder or slides down a snake */
-  var COMPUTER_MS = 600;         /* the computer's pause before it rolls */
-  var HANDOFF_MS = 900;          /* how long the result stays on the status line before the next turn */
+  var COMPUTER_MS = 350;         /* the computer's pause before it rolls (the contract says about 350 ms) */
+  var HANDOFF_MS = 600;          /* how long the result stays on the status line before the next turn */
+  var ART_OFFSET = 1.5;          /* how far (in board units, a cell is 10) the art sits below and right of a cell's centre */
   var LOG_LENGTH = 6;            /* how many events the move log keeps */
 
   /* =====================================================================
@@ -75,7 +79,8 @@
   /* What a roll does to a player standing on "pos" (0 means they have not entered the board yet).
      Returns the die, the square they land on, the square they end up on, and what happened on the way.
      (The landing square can be less than pos + die: without "exact", a roll past 100 stops at 100.)
-     With "exact" on (the traditional rule) a roll that would go past 100 is wasted. */
+     With "exact" on, a roll that would go past 100 is wasted. Many families play that way, but
+     the 1892 rules have not been checked, so the screen does not call it the original rule. */
   function applyRoll(pos, die, exact) {
     var landed = pos + die;
     if (landed > LAST) {
@@ -115,6 +120,14 @@
     return { x: (c.col + 0.5) * 10, y: (SIZE - 1 - c.row + 0.5) * 10 };
   }
 
+  /* Where a ladder or snake starts and ends inside a square: a little below and to the right of
+     the centre. The number pill lives in the top-left corner, so this keeps every ladder foot,
+     ladder top, snake head and snake tail out from under it, even on a 320 px phone. */
+  function anchor(n) {
+    var c = centre(n);
+    return { x: c.x + ART_OFFSET, y: c.y + ART_OFFSET };
+  }
+
   /* A wiggly path from one square to another: a chain of curves whose control points swing
      left and right of the straight line, so every snake looks like it is slithering. */
   function snakePath(a, b) {
@@ -136,7 +149,7 @@
   }
 
   function drawSnake(s) {
-    var head = centre(s.from), tail = centre(s.to);
+    var head = anchor(s.from), tail = anchor(s.to);
     var d = snakePath(head, tail);
     var g = svg('g', { class: 'sal-snake', 'data-name': s.name });
     g.appendChild(svg('path', { d: d, class: 'sal-snake-body' }));
@@ -152,10 +165,13 @@
 
   /* A ladder is two rails with rungs every few units along. */
   function drawLadder(l) {
-    var a = centre(l.from), b = centre(l.to);
+    var a = anchor(l.from), b = anchor(l.to);
     var dx = b.x - a.x, dy = b.y - a.y, len = Math.sqrt(dx * dx + dy * dy) || 1;
     var nx = -dy / len * 1.7, ny = dx / len * 1.7;        /* half the ladder's width, at right angles */
     var g = svg('g', { class: 'sal-ladder', 'data-name': l.name });
+    /* A slightly wider dark line sits under each rail, like an outline, so the brass reads on every cell. */
+    g.appendChild(svg('line', { x1: a.x + nx, y1: a.y + ny, x2: b.x + nx, y2: b.y + ny, class: 'sal-rail-edge' }));
+    g.appendChild(svg('line', { x1: a.x - nx, y1: a.y - ny, x2: b.x - nx, y2: b.y - ny, class: 'sal-rail-edge' }));
     g.appendChild(svg('line', { x1: a.x + nx, y1: a.y + ny, x2: b.x + nx, y2: b.y + ny, class: 'sal-rail' }));
     g.appendChild(svg('line', { x1: a.x - nx, y1: a.y - ny, x2: b.x - nx, y2: b.y - ny, class: 'sal-rail' }));
     var rungs = Math.max(2, Math.round(len / 4));
@@ -183,6 +199,13 @@
   }
 
   var CSS = [
+    /* Ladder colour. In light mode the site's brass (#a9781f) is just under the 3:1 contrast that
+       graphics need against the darker cells, so the ladders use a deeper brass there (4:1).
+       In dark mode the site's own light brass already reads well, so the ladders use that. Both
+       dark rules are needed: one for the theme toggle, one for the system setting. */
+    '.game-snakes-and-ladders { --sal-rail: #8e6418; }',
+    ':root[data-theme="dark"] .game-snakes-and-ladders { --sal-rail: var(--brass); }',
+    '@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .game-snakes-and-ladders { --sal-rail: var(--brass); } }',
     '.game-snakes-and-ladders .sal-top { display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; justify-content: space-between; margin-bottom: .75rem; }',
     '.game-snakes-and-ladders .sal-roll { min-height: 56px; min-width: 9.5rem; font-size: 1.25rem; display: inline-flex; align-items: center; gap: .6rem; padding: .4rem 1.2rem .4rem .8rem; }',
     '.game-snakes-and-ladders .sal-die { width: 40px; height: 40px; flex: none; }',
@@ -194,8 +217,14 @@
     '.game-snakes-and-ladders .scoreboard { font-size: 1rem; margin-bottom: 0; }',
     '.game-snakes-and-ladders .scoreboard .sal-player { padding: .2rem .5rem; border-radius: 999px; border: 2px solid transparent; }',
     '.game-snakes-and-ladders .scoreboard .sal-player.is-current { border-color: var(--brass); background: var(--surface-2); }',
-    '.game-snakes-and-ladders .sal-tok { position: relative; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; font-weight: 800; line-height: 1; box-shadow: 0 0 0 2px var(--surface), 0 2px 4px rgba(0, 0, 0, .35); }',
+    /* Every token wears a cream ring with a thin dark edge outside it. The cream shows on dark cells,
+       the dark edge shows on cream cells, so the ring reads in both themes. */
+    '.game-snakes-and-ladders .sal-tok { position: relative; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; font-weight: 800; line-height: 1; letter-spacing: -.02em; box-shadow: 0 0 0 2px var(--on-brand), 0 0 0 3px rgba(0, 0, 0, .4), 0 2px 4px rgba(0, 0, 0, .35); }',
     '.game-snakes-and-ladders .sal-tok-0 { background: var(--brand); color: var(--on-brand); }',
+    /* In dark mode --brand is nearly the same dark teal as the cells, so Blue swaps to the light teal
+       the site uses for links. Both rules are needed: one for the toggle, one for the system setting. */
+    ':root[data-theme="dark"] .game-snakes-and-ladders .sal-tok-0 { background: var(--link); color: var(--bg); }',
+    '@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .game-snakes-and-ladders .sal-tok-0 { background: var(--link); color: var(--bg); } }',
     '.game-snakes-and-ladders .sal-tok-1 { background: var(--red); color: var(--bg); }',
     '.game-snakes-and-ladders .sal-tok-2 { background: var(--green); color: var(--bg); }',
     '.game-snakes-and-ladders .sal-tok-3 { background: var(--brass); color: var(--bg); }',
@@ -205,25 +234,36 @@
     /* On phones the panel's padding would squeeze cells under 30 px, so the board borrows that padding. */
     '@media (max-width: 480px) { .game-snakes-and-ladders .sal-wrap { max-width: calc(100% + 1.6rem); margin-inline: -.8rem; } }',
     '.game-snakes-and-ladders .sal-grid { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); grid-template-rows: repeat(10, minmax(0, 1fr)); aspect-ratio: 1 / 1; border: 2px solid var(--brand); border-radius: 6px; overflow: hidden; background: var(--surface); }',
-    '.game-snakes-and-ladders .sal-cell { position: relative; box-shadow: inset 0 0 0 1px var(--line); font-size: clamp(.58rem, 2.4vw, .95rem); font-weight: 700; color: var(--ink-muted); font-variant-numeric: tabular-nums; }',
+    /* Cell numbers are at least 11 px even on a 320 px phone. Every cell paints its own background
+       so the number pill below can copy it with "inherit". */
+    '.game-snakes-and-ladders .sal-cell { position: relative; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); font-size: clamp(.7rem, 3vw, .95rem); font-weight: 700; color: var(--ink-muted); font-variant-numeric: tabular-nums; }',
     '.game-snakes-and-ladders .sal-cell.is-odd { background: var(--surface-2); }',
     '.game-snakes-and-ladders .sal-cell.is-here { box-shadow: inset 0 0 0 3px var(--brass); }',
     '.game-snakes-and-ladders .sal-cell.is-finish { background: var(--brass-bright); color: var(--brand); }',
-    '.game-snakes-and-ladders .sal-num { position: absolute; left: 7%; top: 3%; pointer-events: none; }',
+    /* The number sits on a small pill the same colour as its cell, stacked above the snakes and
+       ladders (z-index 3 beats the overlay) but below the tokens (z-index 4). line-height 1 keeps
+       the pill as short as the digits (the page's usual 1.6 would make it reach the cell's centre,
+       where the art starts), so it stays in the top-left corner: about 17 by 11 px on a phone. */
+    '.game-snakes-and-ladders .sal-num { position: absolute; left: 3%; top: 2%; z-index: 3; padding: 0 .15em; line-height: 1; border-radius: 3px; background: inherit; pointer-events: none; }',
     '.game-snakes-and-ladders .sal-overlay { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }',
     '.game-snakes-and-ladders .sal-snake-body { fill: none; stroke: var(--red); stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }',
     '.game-snakes-and-ladders .sal-snake-shine { fill: none; stroke: var(--on-brand); stroke-width: .6; stroke-linecap: round; opacity: .55; }',
     '.game-snakes-and-ladders .sal-snake-head { fill: var(--red); }',
     '.game-snakes-and-ladders .sal-snake-eye { fill: var(--on-brand); }',
-    '.game-snakes-and-ladders .sal-rail { stroke: var(--brass); stroke-width: 1.1; stroke-linecap: round; }',
-    '.game-snakes-and-ladders .sal-rung { stroke: var(--brass); stroke-width: .9; stroke-linecap: round; }',
+    '.game-snakes-and-ladders .sal-rail-edge { stroke: var(--brand-text); stroke-width: 1.7; stroke-linecap: round; opacity: .55; }',
+    '.game-snakes-and-ladders .sal-rail { stroke: var(--sal-rail); stroke-width: 1.1; stroke-linecap: round; }',
+    '.game-snakes-and-ladders .sal-rung { stroke: var(--sal-rail); stroke-width: .9; stroke-linecap: round; }',
     /* Tokens sit inside their cell. Alone they fill most of it; sharing, they move into corners. */
-    '.game-snakes-and-ladders .sal-cell .sal-tok { position: absolute; left: 50%; top: 50%; width: 64%; height: 64%; transform: translate(-50%, -50%); font-size: clamp(.6rem, 2.6vw, 1.1rem); z-index: 2; }',
-    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared { width: 50%; height: 50%; font-size: clamp(.5rem, 2vw, .9rem); }',
-    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared.at-0 { left: 27%; top: 27%; }',
-    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared.at-1 { left: 73%; top: 27%; }',
-    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared.at-2 { left: 27%; top: 73%; }',
-    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared.at-3 { left: 73%; top: 73%; }',
+    '.game-snakes-and-ladders .sal-cell .sal-tok { position: absolute; left: 50%; top: 50%; width: 64%; height: 64%; transform: translate(-50%, -50%); font-size: clamp(.7rem, 2.6vw, 1.1rem); z-index: 4; }',
+    /* Shared tokens are 42% wide at 22% and 78%, so they span 1% to 43% and 57% to 99% of the cell:
+       a 14% gap between discs. Their rings are thinner (1.5 px cream, half a pixel of dark edge),
+       so even on a 32 px phone cell the rings of neighbours never touch. The letter never drops
+       below 10 px, and the tight letter-spacing lets the two-letter "Gd" fit its disc. */
+    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared { width: 42%; height: 42%; font-size: clamp(.625rem, 2vw, .9rem); letter-spacing: -.06em; box-shadow: 0 0 0 1.5px var(--on-brand), 0 0 0 2px rgba(0, 0, 0, .4), 0 1px 3px rgba(0, 0, 0, .3); }',
+    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared.at-0 { left: 22%; top: 22%; }',
+    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared.at-1 { left: 78%; top: 22%; }',
+    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared.at-2 { left: 22%; top: 78%; }',
+    '.game-snakes-and-ladders .sal-cell .sal-tok.is-shared.at-3 { left: 78%; top: 78%; }',
     '.game-snakes-and-ladders .sal-tok.is-landed { animation: sal-land .3s ease-out; }',
     '@keyframes sal-land { 0% { transform: translate(-50%, -50%) scale(1.5); } 100% { transform: translate(-50%, -50%) scale(1); } }',
     '.game-snakes-and-ladders .sal-start { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; min-height: 40px; margin: .5rem auto 0; width: min(92vw, 560px); max-width: 100%; font-weight: 700; color: var(--ink-muted); font-size: .95rem; }',
@@ -236,21 +276,22 @@
     '.game-snakes-and-ladders .sal-legend li span { color: var(--ink-muted); font-variant-numeric: tabular-nums; }',
     '.game-snakes-and-ladders .sal-key { display: inline-block; width: 14px; height: 14px; border-radius: 50%; flex: none; }',
     '.game-snakes-and-ladders .sal-key-snake { background: var(--red); }',
-    '.game-snakes-and-ladders .sal-key-ladder { background: var(--brass); border-radius: 3px; }',
+    '.game-snakes-and-ladders .sal-key-ladder { background: var(--sal-rail); border-radius: 3px; }',
     '.game-snakes-and-ladders .sal-log { grid-column: 1 / -1; }',
     '.game-snakes-and-ladders .sal-log ol { list-style: none; padding: 0; }',
     '.game-snakes-and-ladders .sal-log li { padding: .25rem .5rem; border-left: 3px solid var(--line); margin: .2rem 0; }',
     '.game-snakes-and-ladders .sal-log li:first-child { border-left-color: var(--brass); }',
-    '.game-snakes-and-ladders .field input[type="checkbox"] { width: 22px; height: 22px; accent-color: var(--brand-2); }',
+    '.game-snakes-and-ladders .field input[type="checkbox"] { width: 28px; height: 28px; margin: 0 .1rem; accent-color: var(--brand-2); }',
     '@media (prefers-reduced-motion: reduce) { .game-snakes-and-ladders .sal-roll.is-tumbling .sal-die, .game-snakes-and-ladders .sal-tok.is-landed { animation: none; } }'
   ].join('\n');
 
-  /* The four token colours and names, in seat order. */
+  /* The four token colours and names, in seat order. The letter is printed on the token so the
+     colours are not the only clue. Green already has G, so Gold is Gd. */
   var SEATS = [
     { name: 'Blue', letter: 'B' },
     { name: 'Red', letter: 'R' },
     { name: 'Green', letter: 'G' },
-    { name: 'Gold', letter: 'Y' }
+    { name: 'Gold', letter: 'Gd' }
   ];
   var MODES = ['computer', '2', '3', '4'];
 
@@ -274,10 +315,12 @@
       var log = [];            /* the last few things that happened, newest first */
       var lastFace = 6;
 
+      /* Is the board still on the page? If the visitor has left, no timer should touch anything. */
+      function onPage() { return document.body.contains(root); }
       function later(fn, ms) {
         var id = setTimeout(function () {
           timers = timers.filter(function (t) { return t !== id; });
-          fn();
+          if (onPage()) fn();
         }, api.reducedMotion ? 0 : ms);
         timers.push(id);
         return id;
@@ -286,7 +329,7 @@
       function pause(fn, ms) {
         var id = setTimeout(function () {
           timers = timers.filter(function (t) { return t !== id; });
-          fn();
+          if (onPage()) fn();
         }, ms);
         timers.push(id);
         return id;
@@ -295,6 +338,20 @@
         timers.forEach(function (t) { clearTimeout(t); });
         timers = [];
       }
+
+      /* Tidy up when the visitor leaves. The app shell is meant to call destroy() for us, but in
+         case it does not, the game also listens for the address changing: if the board is no
+         longer on the page by then, it stops its own timers. Without this a token could keep
+         walking on a board nobody can see, and the computer's moves would be read out by screen
+         readers on a completely different page. */
+      function destroy() {
+        cancelTimers();
+        window.removeEventListener('hashchange', onHashChange);
+      }
+      function onHashChange() {
+        if (!onPage()) destroy();
+      }
+      window.addEventListener('hashchange', onHashChange);
 
       /* ---- controls ---- */
       var playersSelect = h('select', { id: 'sal-players', onchange: function () { setMode(playersSelect.value); } },
@@ -313,14 +370,15 @@
       var toolbar = h('div', { class: 'game-toolbar' },
         newBtn,
         h('label', { class: 'field', for: 'sal-players' }, 'Players', playersSelect),
-        h('label', { class: 'field', for: 'sal-exact' }, exactBox, 'Exact roll to finish (traditional)'));
+        h('label', { class: 'field', for: 'sal-exact' }, exactBox, 'Exact roll to finish'));
 
-      var rollBtn = h('button', { class: 'btn btn-primary sal-roll', type: 'button', onclick: humanRoll, 'aria-label': 'Roll the die' });
+      /* No aria-label here: the button's own text is its name, so screen readers hear "Rolling" too. */
+      var rollBtn = h('button', { class: 'btn btn-primary sal-roll', type: 'button', onclick: humanRoll });
       var rollText = h('span', null, 'Roll');
       rollBtn.appendChild(drawDie(lastFace));
       rollBtn.appendChild(rollText);
 
-      var scoreboard = h('div', { class: 'scoreboard', 'aria-label': 'Players' });
+      var scoreboard = h('div', { class: 'scoreboard', role: 'list', 'aria-label': 'Players' });
       var top = h('div', { class: 'sal-top' }, rollBtn, scoreboard);
 
       /* ---- the board ---- */
@@ -391,7 +449,7 @@
       function drawScoreboard() {
         scoreboard.replaceChildren();
         players.forEach(function (p, i) {
-          scoreboard.appendChild(h('span', { class: 'sal-player' + (i === turn && !over ? ' is-current' : '') },
+          scoreboard.appendChild(h('span', { class: 'sal-player' + (i === turn && !over ? ' is-current' : ''), role: 'listitem' },
             h('span', { class: 'sal-tok sal-tok-' + p.seat, 'aria-hidden': 'true' }, p.letter),
             p.name + ': ' + (p.pos === 0 ? 'start' : p.pos === LAST ? 'home' : String(p.pos))));
         });
@@ -513,6 +571,7 @@
         else if (result.kind === 'snake') text = p.name + ' rolled a ' + die + ' and slid down the ' + result.via.name + ' snake to ' + result.to + '.';
         else text = p.name + ' rolled a ' + die + ' and moved to ' + result.to + '.';
         drawTokens(p);
+        drawScoreboard();     /* so the scoreboard shows the new square straight away, not after the pause */
         addLog(text);
         if (p.pos >= LAST) {
           over = true;
@@ -535,7 +594,7 @@
         drawScoreboard();
         var p = current();
         if (p.isComputer) {
-          api.status('Computer is thinking');
+          api.status('Computer is rolling');
           scheduleComputer();
         } else {
           setRollEnabled(true);
@@ -553,11 +612,7 @@
 
       newGame();
 
-      return {
-        destroy: function () {
-          cancelTimers();
-        }
-      };
+      return { destroy: destroy };
     }
   });
 })();
