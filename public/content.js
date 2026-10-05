@@ -5,7 +5,7 @@ window.GIT_CONTENT = {
   "site": {
     "name": "Games in Time",
     "tagline": "Play the games kids played a hundred years and more ago.",
-    "lede": "Free games from the 1800s to the 1910s, digitised so you can play them today, with the true story of who played them back then. No accounts. No ads. Nothing to install.",
+    "lede": "Thirty games from 1800 to 1919, rebuilt so you can play them right now, with the true story of the kids who played them first. No accounts. No ads. Nothing to install.",
     "sister": {
       "name": "1973.ai",
       "url": "https://1973.ai"
@@ -15,68 +15,110 @@ window.GIT_CONTENT = {
   "eras": [
     {
       "id": "1800s",
+      "pill": "1800s",
       "years": "1800 to 1879",
       "name": "The Parlour",
-      "intro": "Before electric light, families filled long evenings in the parlour with cards, puzzles and new optical toys, while kids outside played with marbles, hoops and knucklebones."
+      "title": "The parlour years.",
+      "gold": "Games by candlelight.",
+      "hook": "Board games, card games and puzzles for long evenings by candlelight.",
+      "intro": "Before electric light, families filled long evenings in the parlour with race games, cards and puzzles. A puzzle craze could cross the world by ship in a few months.",
+      "kids": [
+        "1800s"
+      ]
+    },
+    {
+      "id": "schoolyard",
+      "pill": "Schoolyard",
+      "years": "1800 to 1919",
+      "name": "The Schoolyard",
+      "title": "No box needed.",
+      "gold": "Marbles, hoops and chalk.",
+      "hook": "Marbles, hopscotch, conkers and skipping. Now with high scores.",
+      "intro": "Kids played these in streets, paddocks and schoolyards all through the 1800s and early 1900s, usually with things they found or made. We turned each one into a game of skill and timing you can play here.",
+      "kids": [],
+      "extra": {
+        "label": "Before playgrounds",
+        "title": "The street was the playground.",
+        "paragraphs": [
+          "In 1870, 42 per cent of Melbourne’s people were under 14, and the city had no playgrounds, so children played, sold and gathered in streets and vacant lots. Newspapers called the rowdy ones larrikins.",
+          "Marbles, hoops, knucklebones and skipping ropes cost little or nothing, so these were the games almost every child knew. The rules changed from street to street, and kids argued about them then just as they do now."
+        ]
+      }
     },
     {
       "id": "1880s",
+      "pill": "1880s",
       "years": "1880 to 1889",
       "name": "The Craze Decade",
-      "intro": "Cheap printing and railways meant a new game could sweep the world in months. The Fifteen Puzzle, Reversi, Halma and Tiddlywinks all arrived in one decade."
+      "title": "The craze decade.",
+      "gold": "Puzzles that swept the world.",
+      "hook": "The Fifteen Puzzle, Reversi, Halma and Tiddlywinks all arrived in one decade.",
+      "intro": "Cheap printing and railways meant a new game could sweep the world in months. Grown-ups lost sleep over sliding puzzles, and newspapers printed the latest crazes like news.",
+      "kids": [
+        "1880s"
+      ]
     },
     {
       "id": "1890s",
+      "pill": "1890s",
       "years": "1890 to 1899",
-      "name": "The Penny Arcade",
-      "intro": "Coin-operated machines, Ludo, Snakes and Ladders and the first written rules for Hangman. The word arcade comes from this decade."
+      "name": "The Games Cupboard",
+      "title": "The games cupboard.",
+      "gold": "Dice, ladders and letters.",
+      "hook": "Ludo, Snakes and Ladders and the first written rules for Hangman.",
+      "intro": "The 1890s filled family games cupboards with race games from India and word games from the schoolroom. Many of them are still in cupboards today.",
+      "kids": [
+        "1890s"
+      ]
     },
     {
       "id": "1900s",
-      "years": "1900 to 1909",
+      "pill": "1900s",
+      "years": "1900 to 1919",
       "name": "The New Century",
-      "intro": "Federation in Australia, the diabolo craze, jigsaw mania, and a Harvard mathematician who solved a matchstick game called Nim."
-    },
-    {
-      "id": "1910s",
-      "years": "1910 to 1919",
-      "name": "The Puzzle Page",
-      "intro": "A newspaper printed the first crossword in 1913. Pencil-and-paper games travelled with soldiers and schoolkids alike."
-    },
-    {
-      "id": "gap",
-      "gap": true,
-      "years": "1920 to 1969",
-      "name": "Halls under construction",
-      "intro": "Radio, Monopoly, Scrabble and the first computer games. These halls are next."
+      "title": "The new century.",
+      "gold": "Spin it, solve it, sink it.",
+      "hook": "Nim, diabolo, jigsaws, patience and the very first crossword.",
+      "intro": "Australia became one nation in 1901. A Harvard mathematician solved Nim, Paris went wild for the diabolo, adults gave up whole evenings to jigsaws, and in 1913 a New York newspaper printed the first crossword.",
+      "kids": [
+        "1900s",
+        "1910s"
+      ]
     },
     {
       "id": "1970s",
-      "external": "https://1973.ai",
+      "pill": "1970s",
+      "poster": "1973",
       "years": "1970 to 1979",
-      "name": "Arcade cabinets",
-      "intro": "Opens on our sister site, 1973.ai."
+      "name": "The Memory Console",
+      "title": "The games of the seventies.",
+      "gold": "Square-wave bleeps and all.",
+      "hook": "Memory squares, television tennis, brick walls, phosphor trails and a falling sky.",
+      "intro": "Memory squares, television tennis, brick walls, phosphor trails and a falling sky to hold back. The great games of the 1970s, rebuilt for the browser in period style, square-wave bleeps and all. The mechanics are the era’s; the names and colours are ours.",
+      "kids": [
+        "1970s"
+      ]
     },
     {
       "id": "1980s",
-      "external": "https://1973.ai",
+      "pill": "1980s",
+      "poster": "1983",
       "years": "1980 to 1989",
-      "name": "Home consoles",
-      "intro": "Opens on our sister site, 1973.ai."
-    },
-    {
-      "id": "1990s",
-      "external": "https://1973.ai",
-      "years": "1990 to 1999",
-      "name": "Home computers",
-      "intro": "Opens on our sister site, 1973.ai."
+      "name": "The Neon Floor",
+      "title": "The games got faster.",
+      "gold": "So did the lights.",
+      "hook": "Vector rocks, a dash through traffic, a glowing maze and a well of falling blocks.",
+      "intro": "Vector rocks in the dark, a dash through traffic, a hunt through a glowing maze, and a well of falling blocks. The arcade of the early eighties, rebuilt in neon and chrome. Same rule as the room next door: the mechanics are the era’s, the names and colours are ours.",
+      "kids": [
+        "1980s"
+      ]
     }
   ],
   "games": [
     {
       "id": "cup-and-ball",
       "title": "Cup and Ball (Bilboquet)",
-      "era": "1800s",
+      "era": "schoolyard",
       "year": 1580,
       "yearLabel": "c. 1580s France; a favourite toy all through the 1800s",
       "origin": "France (bilboquet), 16th century; a craze at the court of Henri III",
@@ -153,15 +195,18 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Kendama is a generic Japanese name, but many modern kendama are branded products; use \"cup and ball\" or \"bilboquet\" and avoid brand names.",
       "confidence": "medium",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "c. 1580s"
+      "playable": true,
+      "stamp": "c. 1580s",
+      "tagline": "Flick it up. Catch it.",
+      "players": [
+        "solo"
+      ],
+      "type": "action"
     },
     {
       "id": "hopscotch",
       "title": "Hopscotch",
-      "era": "1800s",
+      "era": "schoolyard",
       "year": 1677,
       "yearLabel": "First recorded in English in the 1600s; played all through the 1800s",
       "origin": "England; earliest written records in the 1600s (\"Scotch-hoppers\")",
@@ -233,10 +278,14 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "",
       "confidence": "high",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "1600s"
+      "playable": true,
+      "stamp": "1600s",
+      "tagline": "Toss, hop, and don't touch the lines.",
+      "players": [
+        "solo",
+        "vs computer"
+      ],
+      "type": "action"
     },
     {
       "id": "twenty-questions",
@@ -295,15 +344,18 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "",
       "confidence": "medium",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "by 1786"
+      "playable": true,
+      "stamp": "by 1786",
+      "tagline": "Think of anything. It has twenty guesses.",
+      "players": [
+        "vs computer"
+      ],
+      "type": "words"
     },
     {
       "id": "hoop-and-stick",
       "title": "Hoop and Stick",
-      "era": "1800s",
+      "era": "schoolyard",
       "year": 1800,
       "yearLabel": "Ancient; a street craze all through the 1800s",
       "origin": "Ancient Greece (the trochus); a Victorian street toy in Britain and Australia",
@@ -360,15 +412,18 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "",
       "confidence": "high",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "Ancient"
+      "playable": true,
+      "stamp": "Ancient",
+      "tagline": "Keep it rolling down the lane.",
+      "players": [
+        "solo"
+      ],
+      "type": "action"
     },
     {
       "id": "knucklebones",
       "title": "Knucklebones (Jacks, Fivestones)",
-      "era": "1800s",
+      "era": "schoolyard",
       "year": 1800,
       "yearLabel": "Ancient; played all through the 1800s",
       "origin": "Ancient Greece and Rome (astragaloi, tali); played with sheep ankle bones",
@@ -429,15 +484,18 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "\"Jacks\" is a generic name; avoid brand names printed on modern boxed sets.",
       "confidence": "high",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "Ancient"
+      "playable": true,
+      "stamp": "Ancient",
+      "tagline": "Throw, scoop, catch.",
+      "players": [
+        "solo"
+      ],
+      "type": "action"
     },
     {
       "id": "marbles",
       "title": "Marbles (Ring Taw)",
-      "era": "1800s",
+      "era": "schoolyard",
       "year": 1800,
       "yearLabel": "Ancient; played all through the 1800s",
       "origin": "Ancient; stone marbles found at Mohenjo-daro (Indus Valley), cheap glass marbles made in Germany from the mid-1800s",
@@ -516,15 +574,18 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "",
       "confidence": "high",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "Ancient"
+      "playable": true,
+      "stamp": "Ancient",
+      "tagline": "Knock them out of the ring.",
+      "players": [
+        "vs computer"
+      ],
+      "type": "action"
     },
     {
       "id": "skipping",
       "title": "Skipping (Jump Rope)",
-      "era": "1800s",
+      "era": "schoolyard",
       "year": 1800,
       "yearLabel": "Centuries old; a girls' playground game with rhymes by the 1800s",
       "origin": "Old and widespread; boys' game in 1600s Europe, girls' game with rhymes from the 1700s",
@@ -595,10 +656,13 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "",
       "confidence": "medium",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "Centuries old"
+      "playable": true,
+      "stamp": "Centuries old",
+      "tagline": "Jump in time. Don't trip.",
+      "players": [
+        "solo"
+      ],
+      "type": "action"
     },
     {
       "id": "mansion-of-happiness",
@@ -653,61 +717,14 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "",
       "confidence": "high",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1800"
-    },
-    {
-      "id": "kaleidoscope",
-      "title": "Kaleidoscope",
-      "era": "1800s",
-      "year": 1817,
-      "yearLabel": "1817",
-      "origin": "David Brewster, Scotland",
-      "blurb": "A Scottish scientist's tube of mirrors and coloured glass sold about 200,000 copies in London and Paris in just three months in 1817.",
-      "story": [
-        "A kaleidoscope is a tube with two or more mirrors set at an angle inside it. Loose pieces of coloured glass sit at one end. When you look through the eyepiece and turn the tube, the mirrors reflect the glass into perfectly symmetrical patterns that change every time the pieces tumble. The name comes from three Greek words meaning 'beautiful form watcher'.",
-        "The Scottish scientist David Brewster invented it while studying how light reflects, and took out British patent number 4136 in July 1817. Things went wrong at once. Before his maker could build any for sale, one patent instrument was shown to London opticians, and cheap copies flooded the shops.",
-        "Brewster wrote in 1819 that, by the best estimate, 'no fewer than two hundred thousand instruments have been sold in London and Paris during three months'. He complained that, of all those sold, perhaps not even a thousand were built properly. Philip Carpenter of Birmingham became the authorised maker, stamping his tubes 'sole maker'. In 1818 Brewster got Carpenter's agreement to let other firms make it too, but Carpenter's own firm went on selling kaleidoscopes for sixty years.",
-        "Brewster hoped the kaleidoscope would help designers of carpets, wallpaper and jewellery create new patterns. Instead it became one of the first true toy crazes of the 1800s, and it has never gone out of production."
+      "playable": true,
+      "stamp": "1800",
+      "tagline": "Mind the Whipping Post.",
+      "players": [
+        "vs computer",
+        "2 to 4 players"
       ],
-      "howToPlay": [
-        "Hold the kaleidoscope up to one eye and point the far end towards a window or lamp so light comes through.",
-        "Look at the pattern made by the coloured glass reflected in the mirrors.",
-        "Slowly turn the tube, or the end chamber, so the pieces tumble and the pattern changes.",
-        "Try to find a pattern you like, then turn again. The same pattern will almost never come back.",
-        "Challenge a friend to draw the pattern they see before it changes."
-      ],
-      "didYouKnow": [
-        "Brewster patented the kaleidoscope in July 1817, but copies were on sale before his own maker had built any.",
-        "Brewster reported that people had calculated 24 pieces of glass could be combined in so many ways that viewing them all would take hundreds of thousands of millions of years, and then said even that figure was far too small.",
-        "The 1819 treatise lists more than a dozen London makers of 'patent kaleidoscopes', including the famous optical firm Dollond."
-      ],
-      "computer": "",
-      "sources": [
-        {
-          "title": "Kaleidoscope - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Kaleidoscope",
-          "note": "Patent number 4136 granted July 1817, Greek etymology, Philip Carpenter as 'sole maker', Brewster's 1818 permission for other manufacturers, 200,000 sold claim, copying problem."
-        },
-        {
-          "title": "A Treatise on the Kaleidoscope by David Brewster (1819), full text on Internet Archive",
-          "url": "https://archive.org/stream/b29295440/b29295440_djvu.txt",
-          "note": "Brewster's own words: 'no fewer than two hundred thousand instruments' sold in three months and 'perhaps not one thousand constructed upon scientific principles'; the premature exhibition to London opticians; the 24 pieces calculation made by 'many persons, entirely ignorant of the nature of the instrument'; the list of makers."
-        }
-      ],
-      "uncertainties": [
-        "The 200,000 figure is Brewster's own estimate and cannot be independently checked.",
-        "The exact day of the patent, often given online as 10 July 1817, was not found on any page opened; Wikipedia and Brewster's treatise give only July 1817, so the day is left out.",
-        "No Trove page could be opened to confirm when kaleidoscopes were first advertised in Sydney or Hobart; Trove blocked automated access."
-      ],
-      "nameNotes": "",
-      "confidence": "high",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "1817"
+      "type": "luck"
     },
     {
       "id": "tangram",
@@ -767,73 +784,13 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "",
       "confidence": "high",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1817"
-    },
-    {
-      "id": "zoetrope",
-      "title": "Zoetrope and Flip Book",
-      "era": "1800s",
-      "year": 1834,
-      "yearLabel": "1834 (daedaleum); sold as the zoetrope from 1867",
-      "origin": "William George Horner, England (1834); named and patented by William E. Lincoln, USA (1867); flip book by John Barnes Linnett, England (1868)",
-      "blurb": "Spin a slotted drum with a strip of drawings inside and the pictures seem to come alive, decades before the first movies.",
-      "story": [
-        "A zoetrope is a drum with narrow slits cut around its top edge. A paper strip of drawings, each slightly different, sits around the inside. Spin the drum and look through the slits: the slits chop the view into quick glimpses, so your eye blends the drawings into one moving picture of a galloping horse or a jumping frog.",
-        "The English mathematician William George Horner designed it in 1834, after seeing a spinning-disc toy called the phenakistiscope. He named his drum the daedaleum after Daedalus of Greek myth. It was not sold in large numbers until the 1860s. In London, Horne and Thornthwaite were making zoetropes between 1857 and 1866.",
-        "An American student, William Ensign Lincoln, perfected the design at about eighteen and coined the name zoetrope, from Greek words meaning 'wheel of life'. He applied for a United States patent on 27 July 1866, assigning it to the games maker Milton Bradley, and it was granted on 23 April 1867. A 'Wheel of Life' set sold in England in the 1870s came with 26 strips, including 'Leap Frog' and 'Base Ball'.",
-        "The flip book does the same trick with pages instead of slits. John Barnes Linnett patented it on 18 March 1868 as the kineograph, meaning 'moving picture'. In 1894 Herman Casler put flip book pictures on a turning cylinder in a coin-operated machine called the Mutoscope, a step on the road to cinema."
+      "playable": true,
+      "stamp": "1817",
+      "tagline": "Seven pieces. Hundreds of shapes.",
+      "players": [
+        "solo"
       ],
-      "howToPlay": [
-        "Make or print a strip of 12 to 15 drawings, each showing the next tiny step of a movement, such as a figure jumping.",
-        "Fit the strip inside the drum, pictures facing inwards, below the slits.",
-        "Spin the drum steadily on its stand.",
-        "Look through the slits, not over the top, at the pictures on the far side.",
-        "To make a flip book, draw the same sequence in the corner of a small pad, one drawing per page, then bend the pages and let them flick past your thumb."
-      ],
-      "didYouKnow": [
-        "The zoetrope name was invented by an American student aged about eighteen, and the patent went to the games maker Milton Bradley.",
-        "Horner's original 1834 name, daedaleum, honoured Daedalus, the mythical inventor who built wings to escape Crete.",
-        "A Chinese 'trotting horse lamp', known before AD 1000, used hot air from a candle to spin paper figures, though whether it showed true animation is uncertain.",
-        "The flip book's 1868 patent name, kineograph, means 'moving picture'."
-      ],
-      "computer": "",
-      "sources": [
-        {
-          "title": "Zoetrope - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Zoetrope",
-          "note": "Horner 1834 daedaleum, Lincoln and Milton Bradley patent dates 1866 to 1867, etymology, Chinese lamps, how it works."
-        },
-        {
-          "title": "Flip book - Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Flip_book",
-          "note": "Linnett kineograph patent 18 March 1868, Mutoscope 1894, Filoscope 1897."
-        },
-        {
-          "title": "'Wheel of Life' zoetrope set, 1870 to 1880 - V&A Collections",
-          "url": "https://collections.vam.ac.uk/item/O1114550/wheel-of-life-zoetrope-set/",
-          "note": "English zoetrope set with 26 strips including 'Leap Frog' and 'Base Ball'."
-        },
-        {
-          "title": "V&A collections API search: zoetrope",
-          "url": "https://api.vam.ac.uk/v2/objects/search?q=zoetrope&page_size=10",
-          "note": "Horne and Thornthwaite zoetrope, London, 1857 to 1866; other 19th-century zoetropes."
-        }
-      ],
-      "uncertainties": [
-        "The research brief said zoetropes were sold from the 1860s; the V&A lists a London example dated 1857 to 1866, so sale may have begun slightly earlier.",
-        "Museums Victoria holds a zoetrope and strips but its website blocked automated access, so no Australian detail is included.",
-        "A Trove search snippet mentioned an 1883 Queensland article on a related 'magic wheel', but the page could not be opened.",
-        "Editorial note: the V&A 'Wheel of Life' set also contains strips with racist and anti-Irish titles, so only 'Leap Frog' and 'Base Ball' are named. If images of the set are ever shown on the site, add a line explaining that some Victorian strips used caricatures that are offensive today."
-      ],
-      "nameNotes": "'Zoetrope' is a generic word today. Avoid 'Wheel of Life', which was a manufacturer's title, and 'Mutoscope', a company name.",
-      "confidence": "high",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1834"
+      "type": "puzzle"
     },
     {
       "id": "draughts",
@@ -910,15 +867,19 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Use 'draughts' (Australian and British); 'checkers' is the American name. Neither is a trademark.",
       "confidence": "high",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1840s"
+      "playable": true,
+      "stamp": "1840s",
+      "tagline": "Jump them all. Crown your king.",
+      "players": [
+        "vs computer",
+        "2 players"
+      ],
+      "type": "board"
     },
     {
       "id": "conkers",
       "title": "Conkers",
-      "era": "1800s",
+      "era": "schoolyard",
       "year": 1848,
       "yearLabel": "First recorded with horse chestnuts 1848",
       "origin": "England; first recorded game with horse chestnuts on the Isle of Wight, 1848",
@@ -985,10 +946,13 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "",
       "confidence": "high",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "1848"
+      "playable": true,
+      "stamp": "1848",
+      "tagline": "Smash your rival's conker.",
+      "players": [
+        "vs computer"
+      ],
+      "type": "action"
     },
     {
       "id": "happy-families",
@@ -1051,10 +1015,13 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Happy Families is a generic game name, but 'Jaques' Original Happy Families' is a product of Jaques of London; use the plain name.",
       "confidence": "high",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1851"
+      "playable": true,
+      "stamp": "1851",
+      "tagline": "Collect the whole Bun family.",
+      "players": [
+        "vs computer"
+      ],
+      "type": "cards"
     },
     {
       "id": "noughts-and-crosses",
@@ -1114,9 +1081,13 @@ window.GIT_CONTENT = {
       "nameNotes": "Use 'noughts and crosses' (Australian and British) rather than 'tic-tac-toe'; neither is a trademark. Avoid 'Tic Tac' alone, which is a confectionery brand.",
       "confidence": "high",
       "playable": true,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1858"
+      "stamp": "1858",
+      "tagline": "Three in a row. Can you beat the machine?",
+      "players": [
+        "vs computer",
+        "2 players"
+      ],
+      "type": "board"
     },
     {
       "id": "snap",
@@ -1176,10 +1147,13 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "'Snap' is a generic game name; 'Jaques' Original Snap' is a Jaques of London product.",
       "confidence": "high",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1866"
+      "playable": true,
+      "stamp": "1866",
+      "tagline": "Fastest hand wins the pile.",
+      "players": [
+        "vs computer"
+      ],
+      "type": "cards"
     },
     {
       "id": "fifteen-puzzle",
@@ -1250,9 +1224,12 @@ window.GIT_CONTENT = {
       "nameNotes": "The 1879 trade name was Gem Puzzle. Fifteen Puzzle and 15 Puzzle are generic. Do not credit Sam Loyd as inventor.",
       "confidence": "high",
       "playable": true,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1880"
+      "stamp": "1880",
+      "tagline": "The puzzle that drove 1880 mad.",
+      "players": [
+        "solo"
+      ],
+      "type": "puzzle"
     },
     {
       "id": "halma",
@@ -1329,10 +1306,14 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Halma is a generic name. Chinese Chequers (Chinese Checkers in the United States) is a later variant; Hop Ching Checkers (1928) was a Pressman brand name.",
       "confidence": "medium",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1883"
+      "playable": true,
+      "stamp": "1883",
+      "tagline": "Leap across the board.",
+      "players": [
+        "vs computer",
+        "2 players"
+      ],
+      "type": "board"
     },
     {
       "id": "reversi",
@@ -1392,9 +1373,13 @@ window.GIT_CONTENT = {
       "nameNotes": "Othello is a registered trademark (Kabushiki Kaisha Othello in Japan, MegaHouse elsewhere). Use Reversi, and show the historical empty-centre opening rather than the fixed Othello start.",
       "confidence": "medium",
       "playable": true,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1883"
+      "stamp": "1883",
+      "tagline": "Trap them. Flip them.",
+      "players": [
+        "vs computer",
+        "2 players"
+      ],
+      "type": "board"
     },
     {
       "id": "tiddlywinks",
@@ -1459,10 +1444,14 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Tiddledy-Winks was registered as a trademark in England in 1889. Tiddlywinks is a generic name today and many makers sell sets under it.",
       "confidence": "high",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "1888"
+      "playable": true,
+      "stamp": "1888",
+      "tagline": "Squidge the wink into the cup.",
+      "players": [
+        "solo",
+        "vs computer"
+      ],
+      "type": "action"
     },
     {
       "id": "dots-and-boxes",
@@ -1520,9 +1509,13 @@ window.GIT_CONTENT = {
       "nameNotes": "No trademark issues. Pigs in a Pen is an alternative name; do not confuse it with the Pigs in Clover marble puzzle.",
       "confidence": "medium",
       "playable": true,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1889"
+      "stamp": "1889",
+      "tagline": "Close a box, take another turn.",
+      "players": [
+        "vs computer",
+        "2 players"
+      ],
+      "type": "words"
     },
     {
       "id": "pigs-in-clover",
@@ -1586,10 +1579,13 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Pigs in Clover is a generic historical name; rivals sold Pigs in Sty and Pigs Running Wild. Do not confuse with the pencil game Pigs in a Pen (Dots and Boxes).",
       "confidence": "high",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "1889"
+      "playable": true,
+      "stamp": "1889",
+      "tagline": "Tilt the pigs into the pen.",
+      "players": [
+        "solo"
+      ],
+      "type": "puzzle"
     },
     {
       "id": "ludo",
@@ -1655,10 +1651,14 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Parcheesi is a Hasbro trademark; use Pachisi or Ludo. Sorry! is also a Hasbro brand. Ludo itself is a generic name.",
       "confidence": "medium",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1891"
+      "playable": true,
+      "stamp": "1891",
+      "tagline": "Roll a six to get out.",
+      "players": [
+        "vs computer",
+        "2 to 4 players"
+      ],
+      "type": "luck"
     },
     {
       "id": "snakes-and-ladders",
@@ -1729,9 +1729,13 @@ window.GIT_CONTENT = {
       "nameNotes": "Chutes and Ladders is a Milton Bradley (now Hasbro) product name; use Snakes and Ladders. Moksha Patam and Gyan Chaupar are generic Indian names and safe to use.",
       "confidence": "high",
       "playable": true,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1892"
+      "stamp": "1892",
+      "tagline": "Climb the ladders. Dodge the snakes.",
+      "players": [
+        "vs computer",
+        "2 to 4 players"
+      ],
+      "type": "luck"
     },
     {
       "id": "hangman",
@@ -1779,87 +1783,13 @@ window.GIT_CONTENT = {
       "nameNotes": "",
       "confidence": "medium",
       "playable": true,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1894"
-    },
-    {
-      "id": "penny-arcade",
-      "title": "The Penny Arcade",
-      "era": "1890s",
-      "year": 1894,
-      "yearLabel": "1894",
-      "origin": "New York, United States; Holland Brothers' Kinetoscope parlour, 14 April 1894",
-      "blurb": "Before video games, an 'arcade' was a hall of coin-in-the-slot machines where a penny bought a one-minute movie, a test of your grip or a card telling your fortune.",
-      "story": [
-        "The word arcade comes from Latin arcus, meaning a bow or arch. By 1731 it meant a passage roofed with arches, and by 1795 a covered walkway lined with shops. When coin-operated machines were lined up in a hall or shop in the same way, people called that an arcade too. The term penny arcade is first recorded in 1903 and was common by 1905 to 1910.",
-        "The first such hall opened on 14 April 1894 at 1155 Broadway, New York, when the Holland Brothers set up ten Edison Kinetoscopes in two rows of five. For 25 cents a visitor could peep into every machine in one row and watch films of about 20 seconds, such as a strongman and a barber shop. By 1 June 1894 there were parlours in Chicago and San Francisco.",
-        "Herman Casler's Mutoscope, patented on 5 November 1895, was cheaper. You dropped a coin and turned a crank to flip about 850 photo cards past a lens, giving about a minute of moving pictures. In November 1898 the San Francisco Call reported twenty machines 'crowded day and night with sightseers'. In April 1899 the same paper attacked them for corrupting the young.",
-        "Arcades also had lifting, grip and lung testers, punching machines and fortune tellers. A Mills Novelty Company guide of about 1907 priced its most expensive full arcade at about $5,000. In 1904 William Hollinworth of the Australasian Mutoscope Company, Sydney, sent Mutoscopes on tour with a vaudeville show. It opened at Cairns in June, worked south through Queensland to northern New South Wales, and came back to Brisbane, where it played in September and October. In Britain, Mutoscopes stayed on seaside piers until decimal coins arrived in 1971."
+      "stamp": "1894",
+      "tagline": "Guess the word before the candle goes out.",
+      "players": [
+        "solo",
+        "2 players"
       ],
-      "howToPlay": [
-        "This is a story entry, not a game, but here is how a visit worked around 1900. Change your money into pennies at the counter. In America the one-cent coin is also called a penny.",
-        "Pick a machine from the rows along the walls. Each one did a single thing, described on a poster on its front.",
-        "Drop a coin in the slot. On a Mutoscope, put your eyes to the hood and turn the hand crank at a steady speed for about a minute of moving pictures.",
-        "Try an athletic machine: pull a lifting handle, squeeze a grip tester or blow into a lung tester to see your score on the dial.",
-        "Finish at the fortune teller, which dropped a printed card with your future on it."
-      ],
-      "didYouKnow": [
-        "The first Kinetoscope parlour took about $1,400 a month against $515 in costs during its first fifty weeks.",
-        "In Britain, Mutoscopes were nicknamed 'What the Butler Saw' machines after one famous reel.",
-        "You can turn a Mutoscope crank backwards, but the pictures still will not run in reverse.",
-        "The phrase 'arcade game' is first recorded in 1977, more than eighty years after the first penny arcades."
-      ],
-      "computer": "",
-      "sources": [
-        {
-          "title": "Online Etymology Dictionary: arcade",
-          "url": "https://www.etymonline.com/word/arcade",
-          "note": "Latin arcus, Italian arcata; 1731 covered passage of arches, 1795 avenue lined with shops; arcade game 1977."
-        },
-        {
-          "title": "Merriam-Webster: penny arcade",
-          "url": "https://www.merriam-webster.com/dictionary/penny%20arcade",
-          "note": "Definition and first known use 1903."
-        },
-        {
-          "title": "Wikipedia: Amusement arcade (Penny arcade section)",
-          "url": "https://en.wikipedia.org/wiki/Amusement_arcade",
-          "note": "Term in use about 1905 to 1910 (citing Nasaw), named from the penny coin, list of machines including Mutoscopes, fortune tellers and love testers."
-        },
-        {
-          "title": "Wikipedia: Kinetoscope",
-          "url": "https://en.wikipedia.org/wiki/Kinetoscope",
-          "note": "Holland Brothers' parlour opened 14 April 1894 at 1155 Broadway, ten machines in two rows of five, 25 cents a row, films of 15 to 20 seconds including Sandow and Barber Shop, Chicago and San Francisco by 1 June 1894, receipts of about $1,400 a month against $515 costs."
-        },
-        {
-          "title": "Wikipedia: Mutoscope",
-          "url": "https://en.wikipedia.org/wiki/Mutoscope",
-          "note": "Casler and Dickson, US patent 549309 granted 5 November 1895, 850-card reels, hand crank that turns both ways but does not reverse the reel, San Francisco Call 6 November 1898 and 1 April 1899, What the Butler Saw, UK piers until 1971."
-        },
-        {
-          "title": "Australian Variety Theatre Archive (OzVTA): Troupes M to R, Mutoscope Biotint Co",
-          "url": "https://ozvta.com/troupes-m-r/",
-          "note": "William Hollinworth, general manager of the Australasian Mutoscope Company, Sydney, organised the 1904 vaudeville, Mutoscope and Biotint tour: Cairns from mid-June, south through to northern New South Wales, Brisbane in September at Centennial Hall, Theatre Royal from early October."
-        },
-        {
-          "title": "The Golden Age Arcade Historian: A Trip to the Penny Arcade, circa 1907 (secondary blog post)",
-          "url": "http://allincolorforaquarter.blogspot.com/2012/10/a-trip-to-penny-arcade-circa-1907.html",
-          "note": "Secondary source quoting Dick Bueschel's book Arcade 1: the Mills Novelty Company guide 'Mills Penny Arcades' of about 1907, with the most expensive setup at around $5,000 including a lifting machine, grip machine, lung tester, bag punching machine and Sibille fortune teller."
-        }
-      ],
-      "uncertainties": [
-        "Sources differ slightly on when the phrase penny arcade arose: Merriam-Webster gives a first known use of 1903, while Nasaw (via Wikipedia) says between 1905 and 1910.",
-        "The 1907 Mills Novelty Company arcade description and the strength and lung tester details come from a games-history blog quoting Dick Bueschel's book Arcade 1; the book itself was not opened, so the blog is listed as a secondary source only.",
-        "The 1904 tour details come from the OzVTA troupes page, which gives mid-June for Cairns, September for Brisbane and early October for the move to the Theatre Royal, but no exact days. OzVTA says no reports of the company were found in Australian or New Zealand newspapers after the Brisbane season, so where the tour ended is not certain.",
-        "Trove newspapers could not be opened (bot protection). A Trove search hit exists for 'The Mutoscope Biotint Tour', Morning Post (Cairns), 24 June 1904, article 42958718, which would give Australian newspaper evidence, but it could not be read, so it is not listed as a source and no Australian report of 1890s penny-in-the-slot machines was confirmed."
-      ],
-      "nameNotes": "Kinetoscope and Mutoscope were company product names (Edison and American Mutoscope Company); fine to use historically. Penny Arcade is also the name of a modern webcomic, so avoid implying any link.",
-      "confidence": "high",
-      "playable": false,
-      "realLife": false,
-      "kind": "story",
-      "stamp": "1894"
+      "type": "words"
     },
     {
       "id": "rock-paper-scissors",
@@ -1914,10 +1844,13 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Roshambo and Ro-Sham-Bo are common nicknames; use the plain name Rock Paper Scissors. Also known as scissors paper rock in Australia.",
       "confidence": "medium",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "Japan, 1800s"
+      "playable": true,
+      "stamp": "Japan, 1800s",
+      "tagline": "Jan, ken, pon!",
+      "players": [
+        "vs computer"
+      ],
+      "type": "luck"
     },
     {
       "id": "nim",
@@ -1987,9 +1920,13 @@ window.GIT_CONTENT = {
       "nameNotes": "",
       "confidence": "high",
       "playable": true,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1901"
+      "stamp": "1901",
+      "tagline": "Take the last match and win.",
+      "players": [
+        "vs computer",
+        "2 players"
+      ],
+      "type": "board"
     },
     {
       "id": "klondike",
@@ -2063,10 +2000,13 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Klondike, Patience and Solitaire are all generic. 'Microsoft Solitaire' is a Microsoft product name; avoid it as a title. In America 'Canfield' can mean either Klondike or the different British game Demon.",
       "confidence": "medium",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1905"
+      "playable": true,
+      "stamp": "1905",
+      "tagline": "Build four piles from ace to king.",
+      "players": [
+        "solo"
+      ],
+      "type": "cards"
     },
     {
       "id": "diabolo",
@@ -2140,10 +2080,13 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Diabolo is a generic word for the toy, not a trademark. Avoid Chinese yo-yo as a title; use diabolo.",
       "confidence": "medium",
-      "playable": false,
-      "realLife": true,
-      "kind": "game",
-      "stamp": "1906"
+      "playable": true,
+      "stamp": "1906",
+      "tagline": "Spin it, toss it, catch it.",
+      "players": [
+        "solo"
+      ],
+      "type": "action"
     },
     {
       "id": "jigsaw-puzzle",
@@ -2224,15 +2167,18 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Pastime Puzzles was a Parker Brothers brand; use the generic jigsaw puzzle.",
       "confidence": "high",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1908"
+      "playable": true,
+      "stamp": "1908",
+      "tagline": "Piece the picture back together.",
+      "players": [
+        "solo"
+      ],
+      "type": "puzzle"
     },
     {
       "id": "word-cross-1913",
       "title": "Word-Cross",
-      "era": "1910s",
+      "era": "1900s",
       "year": 1913,
       "yearLabel": "21 December 1913",
       "origin": "Arthur Wynne, New York World newspaper, USA (born Liverpool, England)",
@@ -2280,14 +2226,17 @@ window.GIT_CONTENT = {
       "nameNotes": "Crossword is generic. Avoid naming current newspaper puzzle brands.",
       "confidence": "high",
       "playable": true,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1913"
+      "stamp": "1913",
+      "tagline": "Solve the very first crossword.",
+      "players": [
+        "solo"
+      ],
+      "type": "words"
     },
     {
       "id": "battleship",
       "title": "Battleships",
-      "era": "1910s",
+      "era": "1900s",
       "year": 1914,
       "yearLabel": "c. 1910s; first published as Salvo in 1931",
       "origin": "Unknown; pencil and paper game said to be played by Russian officers around the First World War",
@@ -2333,10 +2282,211 @@ window.GIT_CONTENT = {
       ],
       "nameNotes": "Battleship is a Hasbro trademark for the board game. Use Battleships or the pencil and paper game in titles, and do not use Hasbro's box art.",
       "confidence": "low",
-      "playable": false,
-      "realLife": false,
-      "kind": "game",
-      "stamp": "1910s"
+      "playable": true,
+      "stamp": "1910s",
+      "tagline": "Find the fleet before it finds you.",
+      "players": [
+        "vs computer"
+      ],
+      "type": "board"
+    },
+    {
+      "id": "memory-handset",
+      "title": "The Memory Handset",
+      "era": "1970s",
+      "year": 1978,
+      "yearLabel": "1978",
+      "stamp": "1978",
+      "origin": "",
+      "tagline": "Repeat after the machine.",
+      "players": [
+        "solo"
+      ],
+      "type": "action",
+      "blurb": "Repeat a growing tone-and-light sequence on four burnt-palette squares. One wrong square ends the run.",
+      "story": [],
+      "howToPlay": [],
+      "didYouKnow": [],
+      "computer": "",
+      "sources": [],
+      "uncertainties": [],
+      "playable": true
+    },
+    {
+      "id": "television-tennis",
+      "title": "Television Tennis",
+      "era": "1970s",
+      "year": 1972,
+      "yearLabel": "1972",
+      "stamp": "1972",
+      "origin": "",
+      "tagline": "Rally against the machine.",
+      "players": [
+        "vs computer"
+      ],
+      "type": "action",
+      "blurb": "Rally against the machine on a wood-grain television. First to seven.",
+      "story": [],
+      "howToPlay": [],
+      "didYouKnow": [],
+      "computer": "",
+      "sources": [],
+      "uncertainties": [],
+      "playable": true
+    },
+    {
+      "id": "brickfield",
+      "title": "Brickfield",
+      "era": "1970s",
+      "year": 1976,
+      "yearLabel": "1976",
+      "stamp": "1976",
+      "origin": "",
+      "tagline": "Take down the wall.",
+      "players": [
+        "solo"
+      ],
+      "type": "action",
+      "blurb": "Knock down a six-row spectrum wall with three balls. Higher rows score more.",
+      "story": [],
+      "howToPlay": [],
+      "didYouKnow": [],
+      "computer": "",
+      "sources": [],
+      "uncertainties": [],
+      "playable": true
+    },
+    {
+      "id": "trail",
+      "title": "Trail",
+      "era": "1970s",
+      "year": 1976,
+      "yearLabel": "1976",
+      "stamp": "1976",
+      "origin": "",
+      "tagline": "Don’t cross your own line.",
+      "players": [
+        "solo"
+      ],
+      "type": "action",
+      "blurb": "A green-phosphor grid snake. Walls, and your own trail, are fatal.",
+      "story": [],
+      "howToPlay": [],
+      "didYouKnow": [],
+      "computer": "",
+      "sources": [],
+      "uncertainties": [],
+      "playable": true
+    },
+    {
+      "id": "starfall",
+      "title": "Starfall",
+      "era": "1970s",
+      "year": 1978,
+      "yearLabel": "1978",
+      "stamp": "1978",
+      "origin": "",
+      "tagline": "Hold the last line.",
+      "players": [
+        "solo"
+      ],
+      "type": "action",
+      "blurb": "A fleet of twinkling star-glyphs marches down the night sky. One bolt in the air at a time.",
+      "story": [],
+      "howToPlay": [],
+      "didYouKnow": [],
+      "computer": "",
+      "sources": [],
+      "uncertainties": [],
+      "playable": true
+    },
+    {
+      "id": "drifter",
+      "title": "Drifter",
+      "era": "1980s",
+      "year": 1979,
+      "yearLabel": "1979",
+      "stamp": "1979",
+      "origin": "",
+      "tagline": "Thrust through the drift.",
+      "players": [
+        "solo"
+      ],
+      "type": "action",
+      "blurb": "Thrust, turn and wrap around the edges; shoot drifting rocks that split as they break. Three ships.",
+      "story": [],
+      "howToPlay": [],
+      "didYouKnow": [],
+      "computer": "",
+      "sources": [],
+      "uncertainties": [],
+      "playable": true
+    },
+    {
+      "id": "rush",
+      "title": "Rush",
+      "era": "1980s",
+      "year": 1981,
+      "yearLabel": "1981",
+      "stamp": "1981",
+      "origin": "",
+      "tagline": "Cross before it clips you.",
+      "players": [
+        "solo"
+      ],
+      "type": "action",
+      "blurb": "Cross lanes of traffic and a river of drifting logs to reach the top.",
+      "story": [],
+      "howToPlay": [],
+      "didYouKnow": [],
+      "computer": "",
+      "sources": [],
+      "uncertainties": [],
+      "playable": true
+    },
+    {
+      "id": "prowl",
+      "title": "Prowl",
+      "era": "1980s",
+      "year": 1980,
+      "yearLabel": "1980",
+      "stamp": "1980",
+      "origin": "",
+      "tagline": "Clear the maze before they corner you.",
+      "players": [
+        "solo"
+      ],
+      "type": "action",
+      "blurb": "Clear a glowing maze of dots while sentries hunt you; power dots turn the tables.",
+      "story": [],
+      "howToPlay": [],
+      "didYouKnow": [],
+      "computer": "",
+      "sources": [],
+      "uncertainties": [],
+      "playable": true
+    },
+    {
+      "id": "cascade",
+      "title": "Cascade",
+      "era": "1980s",
+      "year": 1984,
+      "yearLabel": "1984",
+      "stamp": "1984",
+      "origin": "",
+      "tagline": "Fit the falling blocks.",
+      "players": [
+        "solo"
+      ],
+      "type": "puzzle",
+      "blurb": "Fit falling blocks into a well; full rows clear and the drop quickens as you go.",
+      "story": [],
+      "howToPlay": [],
+      "didYouKnow": [],
+      "computer": "",
+      "sources": [],
+      "uncertainties": [],
+      "playable": true
     }
   ],
   "kids": [
@@ -4332,5 +4482,6 @@ window.GIT_CONTENT = {
       "The FUN entry remains a prefilled pseudo-clue; its clue text is an editorial note, not original wording."
     ],
     "confidence": "high"
-  }
+  },
+  "images": {}
 };

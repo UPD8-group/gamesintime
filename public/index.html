@@ -1,48 +1,71 @@
 <!doctype html>
-<html lang="en-AU">
+<html lang="en-AU" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>Games in Time</title>
-  <meta name="description" content="Play the games kids played a hundred years and more ago. Free, digitised games from the 1800s to the 1910s, with the true story of who played them.">
-  <meta name="theme-color" content="#13403d">
+  <title>Games in Time · Play the games kids played a hundred years ago</title>
+  <meta name="description" content="Free games from the 1800s to the 1980s, rebuilt so you can play them right now, with the true story of the kids who played them first. No accounts, no ads.">
+  <meta name="theme-color" content="#140f0b">
+  <meta property="og:title" content="Games in Time">
+  <meta property="og:description" content="Play the games kids played a hundred years ago. Free, with the true story of who played them.">
+  <meta property="og:image" content="https://gamesintime.com/img/home-1600.webp">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cabin+Sketch:wght@400;700&family=Courier+Prime:wght@400;700&family=Della+Respira&family=Outfit:wght@400;500;600;700;800;900&family=Sancreek&family=Smythe&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="content.js" defer></script>
   <script src="app.js" defer></script>
+  <script src="games/cup-and-ball.js" defer></script>
+  <script src="games/hopscotch.js" defer></script>
+  <script src="games/twenty-questions.js" defer></script>
+  <script src="games/hoop-and-stick.js" defer></script>
+  <script src="games/knucklebones.js" defer></script>
+  <script src="games/marbles.js" defer></script>
+  <script src="games/skipping.js" defer></script>
+  <script src="games/mansion-of-happiness.js" defer></script>
+  <script src="games/tangram.js" defer></script>
+  <script src="games/draughts.js" defer></script>
+  <script src="games/conkers.js" defer></script>
+  <script src="games/happy-families.js" defer></script>
   <script src="games/noughts-and-crosses.js" defer></script>
+  <script src="games/snap.js" defer></script>
   <script src="games/fifteen-puzzle.js" defer></script>
+  <script src="games/halma.js" defer></script>
   <script src="games/reversi.js" defer></script>
+  <script src="games/tiddlywinks.js" defer></script>
   <script src="games/dots-and-boxes.js" defer></script>
+  <script src="games/pigs-in-clover.js" defer></script>
+  <script src="games/ludo.js" defer></script>
   <script src="games/snakes-and-ladders.js" defer></script>
   <script src="games/hangman.js" defer></script>
+  <script src="games/rock-paper-scissors.js" defer></script>
   <script src="games/nim.js" defer></script>
+  <script src="games/klondike.js" defer></script>
+  <script src="games/diabolo.js" defer></script>
+  <script src="games/jigsaw-puzzle.js" defer></script>
   <script src="games/word-cross-1913.js" defer></script>
+  <script src="games/battleship.js" defer></script>
+  <script src="games/memory-handset.js" defer></script>
+  <script src="games/television-tennis.js" defer></script>
+  <script src="games/brickfield.js" defer></script>
+  <script src="games/trail.js" defer></script>
+  <script src="games/starfall.js" defer></script>
+  <script src="games/drifter.js" defer></script>
+  <script src="games/rush.js" defer></script>
+  <script src="games/prowl.js" defer></script>
+  <script src="games/cascade.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header" id="site-header">
-  <a class="brand" href="#/" aria-label="Games in Time, home">
-    <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="3"/><path d="M24 11v13l8 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 24a16 16 0 0 1 4-10.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 4"/></svg>
-    <span class="brand-text">Games <em>in</em> Time</span>
-  </a>
-  <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-  <nav class="site-nav" id="site-nav" aria-label="Main">
-    <a href="#/">Home</a>
-    <a href="#/all">All games</a>
-    <a href="#/real-life">Play in real life</a>
-    <a href="#/teachers">Teachers</a>
-    <a href="#/about">About</a>
-    <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
-  </nav>
-</header>
+<header class="site-header" id="site-header"></header>
+<div class="menu" id="menu" hidden></div>
 <main id="main" class="site-main" tabindex="-1"></main>
 <footer class="site-footer">
-  <p><strong>Games in Time</strong> is free for everyone. No accounts, no ads, no tracking.</p>
-  <p>Sister site: <a href="https://1973.ai" rel="noopener">1973.ai</a> for the 1970s, 80s and 90s. <a href="#/about">About this project</a> · <a href="#/teachers">For teachers</a></p>
+  <div class="wrap">
+    <p><strong>Games in Time</strong> is free for everyone. No accounts, no ads, no tracking.</p>
+    <p><a href="#/teachers">For teachers</a> · <a href="#/about">About</a> · <a href="https://github.com/UPD8-group/gamesintime" rel="noopener">Open source on GitHub</a></p>
+  </div>
 </footer>
 <div id="sr-live" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
 </body>
