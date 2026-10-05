@@ -4826,6 +4826,101 @@ window.GIT_CONTENT = {
       "origin": "Our own game, built on machine learning ideas from Arthur Samuel's checkers program (IBM, USA, 1959) to AlphaGo (DeepMind, London, 2016)",
       "tagline": "Teach it. Watch it learn.",
       "blurb": "Teach a friendly robot with your own examples, then watch it learn to sort, recognise and find its way, using real machine learning that runs in your browser."
+    },
+    {
+      "story": [
+        "On 1 February 1991 four young game makers started a company called id Software in Shreveport, Louisiana, USA: programmers John Carmack and John Romero, designer Tom Hall and artist Adrian Carmack. Carmack wanted to show a game world through your own eyes, in 3D, on an ordinary home computer. After two test games in 1991, Hovertank 3D and Catacomb 3-D, the team made Wolfenstein 3D. It came out on 5 May 1992, a few weeks after id moved to Mesquite, Texas.",
+        "Carmack's shortcut is called raycasting. The map is really a flat grid of squares, like graph paper, and every wall is the same height. For every column of pixels across the screen, the computer sends out one imaginary line, a ray, from your eye until it hits a wall. A close wall is drawn as a tall stripe and a far wall as a short one. Working out one ray per column was quick enough for a 1992 computer with an Intel 286 processor and a 320 by 200 pixel screen, and it looked like you were standing inside the maze.",
+        "The first episode of Wolfenstein 3D was shareware: free to copy and pass on, with more levels for sale. On 10 December 1993 id put the first episode of Doom on the internet. Its engine, also by Carmack, could draw walls at any angle and floors at different heights, and players could make their own levels. In 2015 The Strong National Museum of Play put Doom in its World Video Game Hall of Fame, saying it shaped the course of gaming history.",
+        "Both games were about fighting with weapons, and both are rated for older players: later releases carry the American M rating, for players 17 and over. That is why the maze in this hall has keys, stars, secret walls and robot caretakers, but no weapons. Labyrinth plays like Wolfenstein 3D, with a maze drawn by raycasting, coloured key doors and walls that slide back to reveal secret rooms. The name and look here are our own."
+      ],
+      "howToPlay": [
+        "Choose a level and press Start. You see the maze through your own eyes, like the first 3D computer games of 1992.",
+        "Explore and collect the gold stars. The bar along the bottom shows your level, your stars, your keys and your time, and the face in the middle shows how you are feeling.",
+        "Coloured doors need the key of the same colour and shape: the red circle, the blue square or the gold triangle. Walk over a key to pick it up, then face the door and press Use.",
+        "Some walls have cracks in them. Face a cracked wall and press Use: it slides back to show a secret room, often full of stars.",
+        "Caretaker robots roll along set routes, tidying up. Each one sees in a cone in front of it. When its eye turns yellow it is starting to notice you, and when it turns pink you have been spotted and sent back to your last checkpoint. Sneak up behind them and wait around corners.",
+        "Walk over a floppy disk to save a checkpoint. Anything you have already collected stays collected.",
+        "Press M for the map. It shows every place you have seen, and the pink squares show what each robot can see right now.",
+        "Find the lift, face it and press Use to finish the level. Finishing a level unlocks the next one. Your best time and most stars are saved on this device."
+      ],
+      "didYouKnow": [
+        "Wolfenstein 3D hid secret rooms behind wall squares that slide back when you push them, so players tried every wall they passed.",
+        "Wolfenstein 3D was made in about half a year for about 25,000 US dollars. Four months before it came out, the art was switched from 16 colours to 256.",
+        "Doom kept its levels and pictures in files called WADs, short for 'Where's All the Data?', so players could build new levels without changing the game's program.",
+        "On the night Doom came out, so many people were waiting to download it that the id team could not connect to the university computer where they planned to put it."
+      ],
+      "sources": [
+        {
+          "title": "DOOM, World Video Game Hall of Fame, The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/games/doom/",
+          "note": "Inducted 2015; led by John Carmack and John Romero at id Software; first of three episodes free (shareware); engine kept separate from art so players could modify it; 'shaped the course of gaming history'."
+        },
+        {
+          "title": "Wolfenstein 3D, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+          "note": "Released 5 May 1992; Carmack programmer, Romero and Hall designers, Adrian Carmack artist; viewpoint restricted to a single plane and ray casting; Hovertank 3D (April 1991) and Catacomb 3-D (November 1991); EGA to VGA four months before release; about half a year and US$25,000; sliding secret walls; shareware first episode."
+        },
+        {
+          "title": "Doom (1993 video game), Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+          "note": "First episode uploaded at midnight on 10 December 1993; team could not connect to the University of Wisconsin FTP server because so many users were waiting; walls and floors at varied angles and heights; WAD means 'Where's All the Data?'."
+        },
+        {
+          "title": "Ray casting, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ray_casting",
+          "note": "Wolfenstein 3D was built from a square grid of uniform-height walls; a single ray was traced for every column of screen pixels and the wall slice scaled by how far the ray travelled."
+        },
+        {
+          "title": "id Software, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Id_Software",
+          "note": "Founded 1 February 1991 in Shreveport, Louisiana, by John Carmack, John Romero, Tom Hall and Adrian Carmack; moved to Madison, Wisconsin, in September 1991 and to Mesquite, Texas, on 1 April 1992."
+        },
+        {
+          "title": "Wolfenstein 3D technical specifications, Pixelated Arcade",
+          "url": "https://www.pixelatedarcade.com/games/wolfenstein-3d/techspecs",
+          "note": "Minimum CPU 80286; VGA at 320 x 200 with 256 colours; keyboard, mouse, joystick or gamepad."
+        },
+        {
+          "title": "Wolfenstein 3D rating, Entertainment Software Rating Board",
+          "url": "https://www.esrb.org/ratings/32926/wolfenstein-3d/",
+          "note": "Rated M for Mature 17+ (Blood and Gore, Violence) for the PlayStation 3, Xbox 360 and Xbox One releases."
+        },
+        {
+          "title": "DOOM (1993) rating, Entertainment Software Rating Board",
+          "url": "https://www.esrb.org/ratings/37846/doom-1993/",
+          "note": "Rated M for Mature 17+ (Blood and Gore, Violence) for the Linux, PlayStation 4 and Nintendo Switch releases."
+        },
+        {
+          "title": "Entertainment Software Rating Board, Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board",
+          "note": "The ESRB was formed on 16 September 1994, after both games first came out."
+        }
+      ],
+      "uncertainties": [
+        "The ratings quoted are for later re-releases. When Wolfenstein 3D (1992) and Doom (1993) first came out, the American ESRB (formed in September 1994) did not exist, and Australia only introduced a separate classification system for games in 1994.",
+        "A search listing of the Australian Classification Board's database shows DOOM (1993) classified MA15+ for strong violence on 9 October 2020, but the database page could not be opened during this research, so the story uses the American rating only.",
+        "Sources differ on the minimum memory for Wolfenstein 3D (528 KB or 640 KB); Pixelated Arcade says a 286 processor was the minimum. A faster 386 ran it better.",
+        "id Software was in Madison, Wisconsin, for most of Wolfenstein 3D's development and moved to Mesquite, Texas, on 1 April 1992, a month before release, so the origin line says Texas.",
+        "Download and player numbers for Doom's shareware version are estimates and vary between sources, so they are left out."
+      ],
+      "playable": true,
+      "id": "labyrinth",
+      "title": "Labyrinth",
+      "era": "1990s",
+      "year": 1992,
+      "yearLabel": "1992 (Doom followed in 1993)",
+      "stamp": "1992",
+      "type": "action",
+      "players": [
+        "solo"
+      ],
+      "controls": "Keyboard: Up and Down arrows (or W and S) to walk, Left and Right arrows (or A and D) to turn, Q and E (or Shift with Left and Right) to step sideways, Space or Enter to use, M for the map, P to pause. Touch or mouse: hold the arrow keys under the screen to walk, turn and step sideways, and tap the screen or USE to open doors, push walls and ride the lift. MAP and the pause key sit next to USE.",
+      "computer": "There is no real 3D world inside this game. The maze is a flat grid of squares, like a map drawn on graph paper. To draw what you see, the computer sends out one invisible ray for every column of pixels across the screen, fanning out from your eyes like a torch beam. Each ray hops from square to square across the grid until it lands in a square that holds a wall, and the computer measures how far it travelled. A close wall is drawn as a tall stripe and a far wall as a short stripe, so all the stripes side by side look like a 3D room. The computer also works out exactly where the ray hit the wall, so it knows which thin slice of the brick or bookshelf picture to paint in that stripe, and it paints far stripes darker, like fog. This trick is called raycasting. On a laptop the picture is 320 pixels wide, so the computer casts 320 rays, 60 times a second: more than 19,000 rays every second. The floor is painted row by row in a similar way. The keys, stars and robots are flat pictures called sprites that always turn to face you. They are drawn from the furthest to the nearest, and any slice of a sprite is skipped if a wall in that column is closer. The caretaker robots never chase you. Each one follows its own fixed loop of points. Many times a second it checks three things: are you within its range, are you inside its cone of vision, and is there a clear line between you with no wall in the way? It checks that line with the same square-hopping trick as the rays. If all three are true, its notice meter fills, faster when you are close. When the meter is full, you are spotted.",
+      "adaptation": "Wolfenstein 3D (id Software, 1992) and Doom (id Software, 1993) were shooting games. Labyrinth keeps their 3D maze mechanics and leaves out every weapon and every fight. Like Wolfenstein 3D, it draws its maze with raycasting on a grid, with sliding doors, secret walls that slide back when you push them, and a face in the status bar that reacts to what happens. Like both games, it has coloured keys for locked doors, and like Doom it has an automap and textured floors and ceilings (Wolfenstein 3D's floors and ceilings were flat colours). There are no enemies and no health: the only danger is being spotted by a caretaker robot, which sends you back to a checkpoint. Instead of treasure and points you collect stars and try for your best time. The robots' view cones on the map are new, to show how their seeing works. The four levels, the names, the robots, the face, the sounds and every picture are our own, drawn by code.",
+      "origin": "Mechanics of Wolfenstein 3D and Doom by id Software, Texas, USA",
+      "tagline": "Find the keys. Reach the lift.",
+      "blurb": "Walk through a maze drawn in 3D, find coloured keys and secret rooms and slip past the robot caretakers, like the 1992 game Wolfenstein 3D."
     }
   ],
   "kids": [
@@ -6487,6 +6582,14 @@ window.GIT_CONTENT = {
         "idea": "Project the 1913 Word-Cross and solve it as a class, one clue at a time, noting that every clue is a plain definition. Ask which answers are hard because the language or the facts have changed since 1913, and list them as evidence about the period. Then have pairs write three definition clues and one cryptic clue for words from their own week. The Then panel gives the date: Arthur Wynne published the puzzle in the New York World on 21 December 1913, an illustrator later reversed the name to 'cross-word', and the first book of crosswords came from Simon and Schuster in 1924.",
         "computerAngle": "A crossword is a constraint puzzle: each clue is a definition, and the crossing letters, called checks, confirm or rule out an answer when several synonyms fit. Straight clues give a definition only; cryptic clues, which came later, give a definition plus wordplay. The site checks each letter against the grid the way a solver uses checks, so students can see why filling the crossings first makes the hard clues easier.",
         "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/hass-f-6/year-6"
+      },
+      {
+        "gameId": "labyrinth",
+        "title": "Rays on graph paper",
+        "yearLevels": "Years 6 to 8",
+        "idea": "Play Labyrinth for five minutes and notice how walls grow taller as you walk towards them. On grid paper, students draw a small maze of whole squares and mark a player dot. With a ruler they draw eight rays fanning out from the dot, stopping each one where it first touches a wall, and measure each ray in squares. They work out a wall height for each ray with 'height = 12 divided by distance' and draw the eight heights side by side as stripes. The stripes make a little 3D picture of the view. Finish with the Then panel on John Carmack's 1992 shortcut.",
+        "computerAngle": "Raycasting turns a 2D map into a 3D-looking view. The program stores the maze as a grid of numbers, 0 for open floor and other numbers for walls. For each column of the screen it works out a ray's direction, then steps the ray from grid line to grid line (an algorithm called DDA, for digital differential analyser) until it lands in a wall square. The distance to that wall sets how tall to draw the column: height is a constant divided by distance. To stop walls bulging like a fishbowl, the distance is multiplied by the cosine of the angle between the ray and the direction you face. This is a loop (one pass per column) with a loop inside it (one step per grid line) and a condition (is this square a wall?).",
+        "curriculumUrl": "https://www.australiancurriculum.edu.au/f-10-curriculum/learning-areas/digital-technologies/years-7-and-8"
       },
       {
         "gameId": "skyline",
